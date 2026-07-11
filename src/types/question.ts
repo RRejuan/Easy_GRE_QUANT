@@ -5,6 +5,14 @@ export interface QuestionOption {
   text: string;
 }
 
+/** A randomized integer parameter, re-rolled each time the question loads. Referenced in text as {{name}}. */
+export interface VariableSpec {
+  name: string;
+  min: number;
+  max: number;
+  step?: number;
+}
+
 interface QuestionBase {
   id: string;
   primarySkill: string;
@@ -17,6 +25,8 @@ interface QuestionBase {
   timeTargetSec: number;
   /** Set when this question belongs to a shared-figure Data Interpretation set. */
   diSetId?: string;
+  /** When present, {{name}} placeholders in text fields are replaced with a random value on each load. */
+  variables?: VariableSpec[];
 }
 
 export interface QCQuestion extends QuestionBase {
@@ -42,6 +52,8 @@ export interface NumericQuestion extends QuestionBase {
   type: "Numeric";
   answer: number;
   acceptableRange?: [number, number];
+  /** JS-expression string over the variables' names; overrides `answer` when `variables` is set. */
+  answerFormula?: string;
 }
 
 export type Question = QCQuestion | MCQuestion | MultiMCQuestion | NumericQuestion;

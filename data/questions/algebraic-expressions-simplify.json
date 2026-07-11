@@ -5,16 +5,31 @@
     "primarySkill": "algebraic-expressions-simplify",
     "secondarySkills": [],
     "difficulty": 1,
-    "stem": "Simplify: $3x + 5x - 2x$",
+    "stem": "Simplify: \\(3x + 5x - 2x\\)",
     "options": [
-      { "id": "A", "text": "$4x$" },
-      { "id": "B", "text": "$6x$" },
-      { "id": "C", "text": "$8x$" },
-      { "id": "D", "text": "$10x$" },
-      { "id": "E", "text": "$15x$" }
+      {
+        "id": "A",
+        "text": "\\(4x\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(6x\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(8x\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(10x\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(15x\\)"
+      }
     ],
     "answer": "B",
-    "solutionStandard": "$3x + 5x - 2x = (3+5-2)x = 6x$.",
+    "solutionStandard": "\\(3x + 5x - 2x = (3+5-2)x = 6x\\).",
     "timeTargetSec": 30
   },
   {
@@ -23,16 +38,31 @@
     "primarySkill": "algebraic-expressions-simplify",
     "secondarySkills": [],
     "difficulty": 1,
-    "stem": "Simplify: $4(x + 3)$",
+    "stem": "Simplify: \\(4(x + 3)\\)",
     "options": [
-      { "id": "A", "text": "$4x + 3$" },
-      { "id": "B", "text": "$4x + 7$" },
-      { "id": "C", "text": "$4x + 12$" },
-      { "id": "D", "text": "$x + 12$" },
-      { "id": "E", "text": "$7x$" }
+      {
+        "id": "A",
+        "text": "\\(4x + 3\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(4x + 7\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(4x + 12\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(x + 12\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(7x\\)"
+      }
     ],
     "answer": "C",
-    "solutionStandard": "Distribute the 4: $4 \\times x + 4 \\times 3 = 4x + 12$.",
+    "solutionStandard": "Distribute the 4: \\(4 \\times x + 4 \\times 3 = 4x + 12\\).",
     "timeTargetSec": 35
   },
   {
@@ -41,16 +71,31 @@
     "primarySkill": "algebraic-expressions-simplify",
     "secondarySkills": [],
     "difficulty": 2,
-    "stem": "Simplify: $-2(x - 3) + 5x$",
+    "stem": "Simplify: \\(-2(x - 3) + 5x\\)",
     "options": [
-      { "id": "A", "text": "$3x - 3$" },
-      { "id": "B", "text": "$3x + 6$" },
-      { "id": "C", "text": "$7x - 6$" },
-      { "id": "D", "text": "$7x + 6$" },
-      { "id": "E", "text": "$-7x + 6$" }
+      {
+        "id": "A",
+        "text": "\\(3x - 3\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(3x + 6\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(7x - 6\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(7x + 6\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(-7x + 6\\)"
+      }
     ],
     "answer": "B",
-    "solutionStandard": "$-2(x-3) = -2x + 6$. Adding $5x$: $-2x + 6 + 5x = 3x + 6$.",
+    "solutionStandard": "\\(-2(x-3) = -2x + 6\\). Adding \\(5x\\): \\(-2x + 6 + 5x = 3x + 6\\).",
     "timeTargetSec": 50
   },
   {
@@ -59,9 +104,9 @@
     "primarySkill": "algebraic-expressions-simplify",
     "secondarySkills": [],
     "difficulty": 2,
-    "stem": "If $3(2x - 4) - 2x = 10$, what is the value of $x$?",
+    "stem": "If \\(3(2x - 4) - 2x = 10\\), what is the value of \\(x\\)?",
     "answer": 5.5,
-    "solutionStandard": "$6x - 12 - 2x = 10$, so $4x - 12 = 10$, giving $4x = 22$ and $x = 5.5$.",
+    "solutionStandard": "\\(6x - 12 - 2x = 10\\), so \\(4x - 12 = 10\\), giving \\(4x = 22\\) and \\(x = 5.5\\).",
     "timeTargetSec": 60
   },
   {
@@ -70,11 +115,11 @@
     "primarySkill": "algebraic-expressions-simplify",
     "secondarySkills": [],
     "difficulty": 2,
-    "stem": "$y = 2(x + 3) - (x - 1)$",
-    "quantityA": "$y$",
-    "quantityB": "$x + 7$",
+    "stem": "\\(y = 2(x + 3) - (x - 1)\\)",
+    "quantityA": "\\(y\\)",
+    "quantityB": "\\(x + 7\\)",
     "answer": "C",
-    "solutionStandard": "$y = 2x + 6 - x + 1 = x + 7$. The quantities are equal.",
+    "solutionStandard": "\\(y = 2x + 6 - x + 1 = x + 7\\). The quantities are equal.",
     "timeTargetSec": 60
   },
   {
@@ -83,16 +128,31 @@
     "primarySkill": "algebraic-expressions-simplify",
     "secondarySkills": [],
     "difficulty": 3,
-    "stem": "Simplify: $3x^2 + 2x - x^2 + 5x - 4$",
+    "stem": "Simplify: \\(3x^2 + 2x - x^2 + 5x - 4\\)",
     "options": [
-      { "id": "A", "text": "$2x^2 + 7x - 4$" },
-      { "id": "B", "text": "$2x^2 + 3x - 4$" },
-      { "id": "C", "text": "$4x^2 + 7x - 4$" },
-      { "id": "D", "text": "$3x^2 + 7x - 4$" },
-      { "id": "E", "text": "$2x^2 + 7x + 4$" }
+      {
+        "id": "A",
+        "text": "\\(2x^2 + 7x - 4\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(2x^2 + 3x - 4\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(4x^2 + 7x - 4\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(3x^2 + 7x - 4\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(2x^2 + 7x + 4\\)"
+      }
     ],
     "answer": "A",
-    "solutionStandard": "Combine like terms: $x^2$ terms: $3x^2 - x^2 = 2x^2$. $x$ terms: $2x + 5x = 7x$. Constant: $-4$. Result: $2x^2 + 7x - 4$.",
+    "solutionStandard": "Combine like terms: \\(x^2\\) terms: \\(3x^2 - x^2 = 2x^2\\). \\(x\\) terms: \\(2x + 5x = 7x\\). Constant: \\(-4\\). Result: \\(2x^2 + 7x - 4\\).",
     "timeTargetSec": 60
   },
   {
@@ -101,15 +161,31 @@
     "primarySkill": "algebraic-expressions-simplify",
     "secondarySkills": [],
     "difficulty": 3,
-    "stem": "Which of the following are equivalent to $2(3x - 1) + 4$? Select all that apply.",
+    "stem": "Which of the following are equivalent to \\(2(3x - 1) + 4\\)? Select all that apply.",
     "options": [
-      { "id": "A", "text": "$6x + 2$" },
-      { "id": "B", "text": "$6x - 2 + 4$" },
-      { "id": "C", "text": "$2(3x - 1) + 2$" },
-      { "id": "D", "text": "$6x + 6 - 4$" }
+      {
+        "id": "A",
+        "text": "\\(6x + 2\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(6x - 2 + 4\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(2(3x - 1) + 2\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(6x + 6 - 4\\)"
+      }
     ],
-    "answer": ["A", "B", "D"],
-    "solutionStandard": "$2(3x-1)+4 = 6x - 2 + 4 = 6x + 2$. (D) $6x + 6 - 4 = 6x + 2$, also equal. (C) $2(3x-1)+2 = 6x - 2 + 2 = 6x \\neq 6x+2$.",
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "solutionStandard": "\\(2(3x-1)+4 = 6x - 2 + 4 = 6x + 2\\). (D) \\(6x + 6 - 4 = 6x + 2\\), also equal. (C) \\(2(3x-1)+2 = 6x - 2 + 2 = 6x \\neq 6x+2\\).",
     "timeTargetSec": 75
   },
   {
@@ -118,16 +194,31 @@
     "primarySkill": "algebraic-expressions-simplify",
     "secondarySkills": [],
     "difficulty": 3,
-    "stem": "Simplify: $\\dfrac{6x^2 - 9x}{3x}$ (for $x \\neq 0$)",
+    "stem": "Simplify: \\(\\dfrac{6x^2 - 9x}{3x}\\) (for \\(x \\neq 0\\))",
     "options": [
-      { "id": "A", "text": "$2x - 3$" },
-      { "id": "B", "text": "$2x - 9$" },
-      { "id": "C", "text": "$3x - 3$" },
-      { "id": "D", "text": "$6x - 3$" },
-      { "id": "E", "text": "$2x^2 - 3$" }
+      {
+        "id": "A",
+        "text": "\\(2x - 3\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(2x - 9\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(3x - 3\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(6x - 3\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(2x^2 - 3\\)"
+      }
     ],
     "answer": "A",
-    "solutionStandard": "Factor $3x$ from the numerator: $\\frac{3x(2x-3)}{3x} = 2x - 3$.",
+    "solutionStandard": "Factor \\(3x\\) from the numerator: \\(\\frac{3x(2x-3)}{3x} = 2x - 3\\).",
     "timeTargetSec": 55
   },
   {
@@ -136,16 +227,31 @@
     "primarySkill": "algebraic-expressions-simplify",
     "secondarySkills": [],
     "difficulty": 4,
-    "stem": "Simplify: $2[3x - (x - 4)] - 5$",
+    "stem": "Simplify: \\(2[3x - (x - 4)] - 5\\)",
     "options": [
-      { "id": "A", "text": "$2x - 1$" },
-      { "id": "B", "text": "$4x + 3$" },
-      { "id": "C", "text": "$4x + 6$" },
-      { "id": "D", "text": "$4x - 1$" },
-      { "id": "E", "text": "$6x + 3$" }
+      {
+        "id": "A",
+        "text": "\\(2x - 1\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(4x + 3\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(4x + 6\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(4x - 1\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(6x + 3\\)"
+      }
     ],
     "answer": "B",
-    "solutionStandard": "Inner parentheses first: $3x - (x-4) = 3x - x + 4 = 2x + 4$. Then $2(2x+4) - 5 = 4x + 8 - 5 = 4x + 3$.",
+    "solutionStandard": "Inner parentheses first: \\(3x - (x-4) = 3x - x + 4 = 2x + 4\\). Then \\(2(2x+4) - 5 = 4x + 8 - 5 = 4x + 3\\).",
     "timeTargetSec": 75
   },
   {
@@ -154,9 +260,9 @@
     "primarySkill": "algebraic-expressions-simplify",
     "secondarySkills": [],
     "difficulty": 4,
-    "stem": "If $4(x - 2) = 2(x + 3) + 4$, what is the value of $x$?",
+    "stem": "If \\(4(x - 2) = 2(x + 3) + 4\\), what is the value of \\(x\\)?",
     "answer": 9,
-    "solutionStandard": "$4x - 8 = 2x + 6 + 4$, so $4x - 8 = 2x + 10$, giving $2x = 18$ and $x = 9$.",
+    "solutionStandard": "\\(4x - 8 = 2x + 6 + 4\\), so \\(4x - 8 = 2x + 10\\), giving \\(2x = 18\\) and \\(x = 9\\).",
     "timeTargetSec": 65
   }
 ]

@@ -2,9 +2,19 @@
   "skillId": "ratios-proportions",
   "summary": "A ratio compares two quantities; a proportion says two ratios are equal. Most ratio problems reduce to scaling a ratio up to match a given total or a given part.",
   "formulas": [
-    { "name": "Ratio as fraction", "expression": "a:b = \\frac{a}{b}" },
-    { "name": "Cross multiplication", "expression": "\\frac{a}{b} = \\frac{c}{d} \\implies ad = bc" },
-    { "name": "Part of a whole", "expression": "\\text{part} = \\frac{a}{a+b} \\times \\text{total}", "notes": "for a two-part ratio a:b" }
+    {
+      "name": "Ratio as fraction",
+      "expression": "a:b = \\frac{a}{b}"
+    },
+    {
+      "name": "Cross multiplication",
+      "expression": "\\frac{a}{b} = \\frac{c}{d} \\implies ad = bc"
+    },
+    {
+      "name": "Part of a whole",
+      "expression": "\\text{part} = \\frac{a}{a+b} \\times \\text{total}",
+      "notes": "for a two-part ratio a:b"
+    }
   ],
-  "explanation": "A ratio $a:b$ can be treated as the fraction $\\frac{a}{b}$. If two ratios are equal, cross-multiplying turns the proportion into a linear equation. A common GRE setup gives a ratio and a total, and asks for one part: if a whole is split in ratio $a:b$, the whole represents $a+b$ equal 'parts,' so the first quantity is $\\frac{a}{a+b}$ of the total. Ratios involving three quantities ($a:b:c$) can be combined by scaling two given ratios to share a common term, e.g. combining $a:b$ and $b:c$ into a single $a:b:c$ ratio."
+  "explanation": "A ratio \\(a:b\\) can be treated as the fraction \\(\\frac{a}{b}\\). If two ratios are equal, cross-multiplying turns the proportion into a linear equation. A common GRE setup gives a ratio and a total, and asks for one part: if a whole is split in ratio \\(a:b\\), the whole represents \\(a+b\\) equal 'parts,' so the first quantity is \\(\\frac{a}{a+b}\\) of the total. Ratios involving three quantities (\\(a:b:c\\)) can be combined by scaling two given ratios to share a common term, e.g. combining \\(a:b\\) and \\(b:c\\) into a single \\(a:b:c\\) ratio."
 }

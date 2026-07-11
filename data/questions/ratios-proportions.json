@@ -7,14 +7,29 @@
     "difficulty": 1,
     "stem": "What is the ratio 12:18 expressed in simplest form?",
     "options": [
-      { "id": "A", "text": "1:2" },
-      { "id": "B", "text": "2:3" },
-      { "id": "C", "text": "3:4" },
-      { "id": "D", "text": "4:6" },
-      { "id": "E", "text": "6:9" }
+      {
+        "id": "A",
+        "text": "1:2"
+      },
+      {
+        "id": "B",
+        "text": "2:3"
+      },
+      {
+        "id": "C",
+        "text": "3:4"
+      },
+      {
+        "id": "D",
+        "text": "4:6"
+      },
+      {
+        "id": "E",
+        "text": "6:9"
+      }
     ],
     "answer": "B",
-    "solutionStandard": "Divide both terms by their GCD, 6: $12/6 : 18/6 = 2:3$.",
+    "solutionStandard": "Divide both terms by their GCD, 6: \\(12/6 : 18/6 = 2:3\\).",
     "timeTargetSec": 35
   },
   {
@@ -23,9 +38,9 @@
     "primarySkill": "ratios-proportions",
     "secondarySkills": [],
     "difficulty": 1,
-    "stem": "$a:b = 3:5$. If $a = 12$, what is $b$?",
+    "stem": "\\(a:b = 3:5\\). If \\(a = 12\\), what is \\(b\\)?",
     "answer": 20,
-    "solutionStandard": "$\\frac{3}{5} = \\frac{12}{b}$, so $b = \\frac{12 \\times 5}{3} = 20$.",
+    "solutionStandard": "\\(\\frac{3}{5} = \\frac{12}{b}\\), so \\(b = \\frac{12 \\times 5}{3} = 20\\).",
     "timeTargetSec": 45
   },
   {
@@ -36,9 +51,9 @@
     "difficulty": 2,
     "stem": "In a class of 28 students, the ratio of boys to girls is 3:4.",
     "quantityA": "The number of boys",
-    "quantityB": "$12$",
+    "quantityB": "\\(12\\)",
     "answer": "C",
-    "solutionStandard": "Total parts $= 3+4=7$. Boys $= \\frac{3}{7} \\times 28 = 12$. The quantities are equal.",
+    "solutionStandard": "Total parts \\(= 3+4=7\\). Boys \\(= \\frac{3}{7} \\times 28 = 12\\). The quantities are equal.",
     "timeTargetSec": 55
   },
   {
@@ -49,14 +64,29 @@
     "difficulty": 2,
     "stem": "A recipe uses flour and sugar in the ratio 5:2. If 15 cups of flour are used, how many cups of sugar are needed?",
     "options": [
-      { "id": "A", "text": "4" },
-      { "id": "B", "text": "5" },
-      { "id": "C", "text": "6" },
-      { "id": "D", "text": "7.5" },
-      { "id": "E", "text": "9" }
+      {
+        "id": "A",
+        "text": "4"
+      },
+      {
+        "id": "B",
+        "text": "5"
+      },
+      {
+        "id": "C",
+        "text": "6"
+      },
+      {
+        "id": "D",
+        "text": "7.5"
+      },
+      {
+        "id": "E",
+        "text": "9"
+      }
     ],
     "answer": "C",
-    "solutionStandard": "$\\frac{5}{2} = \\frac{15}{s}$, so $s = \\frac{15 \\times 2}{5} = 6$.",
+    "solutionStandard": "\\(\\frac{5}{2} = \\frac{15}{s}\\), so \\(s = \\frac{15 \\times 2}{5} = 6\\).",
     "timeTargetSec": 50
   },
   {
@@ -67,14 +97,33 @@
     "difficulty": 3,
     "stem": "Which of the following ratios are equivalent to 4:6? Select all that apply.",
     "options": [
-      { "id": "A", "text": "2:3" },
-      { "id": "B", "text": "8:12" },
-      { "id": "C", "text": "6:4" },
-      { "id": "D", "text": "20:30" },
-      { "id": "E", "text": "3:4" }
+      {
+        "id": "A",
+        "text": "2:3"
+      },
+      {
+        "id": "B",
+        "text": "8:12"
+      },
+      {
+        "id": "C",
+        "text": "6:4"
+      },
+      {
+        "id": "D",
+        "text": "20:30"
+      },
+      {
+        "id": "E",
+        "text": "3:4"
+      }
     ],
-    "answer": ["A", "B", "D"],
-    "solutionStandard": "$4:6 = 2:3$. Scaling $2:3$ gives $8:12$ ($\\times4$) and $20:30$ ($\\times10$). (C) is the reversed ratio and (E) is a different ratio entirely.",
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "solutionStandard": "\\(4:6 = 2:3\\). Scaling \\(2:3\\) gives \\(8:12\\) (\\(\\times4\\)) and \\(20:30\\) (\\(\\times10\\)). (C) is the reversed ratio and (E) is a different ratio entirely.",
     "timeTargetSec": 75
   },
   {
@@ -83,9 +132,9 @@
     "primarySkill": "ratios-proportions",
     "secondarySkills": [],
     "difficulty": 3,
-    "stem": "$a:b:c = 2:3:5$. If the total of $a$, $b$, and $c$ is 100, what is $b$?",
+    "stem": "\\(a:b:c = 2:3:5\\). If the total of \\(a\\), \\(b\\), and \\(c\\) is 100, what is \\(b\\)?",
     "answer": 30,
-    "solutionStandard": "Total parts $= 2+3+5=10$. $b = \\frac{3}{10} \\times 100 = 30$.",
+    "solutionStandard": "Total parts \\(= 2+3+5=10\\). \\(b = \\frac{3}{10} \\times 100 = 30\\).",
     "timeTargetSec": 55
   },
   {
@@ -96,14 +145,29 @@
     "difficulty": 3,
     "stem": "A room contains men and women in the ratio 5:7. If there are 96 people in the room, how many are women?",
     "options": [
-      { "id": "A", "text": "40" },
-      { "id": "B", "text": "42" },
-      { "id": "C", "text": "48" },
-      { "id": "D", "text": "54" },
-      { "id": "E", "text": "56" }
+      {
+        "id": "A",
+        "text": "40"
+      },
+      {
+        "id": "B",
+        "text": "42"
+      },
+      {
+        "id": "C",
+        "text": "48"
+      },
+      {
+        "id": "D",
+        "text": "54"
+      },
+      {
+        "id": "E",
+        "text": "56"
+      }
     ],
     "answer": "E",
-    "solutionStandard": "Total parts $= 5+7=12$. Women $= \\frac{7}{12} \\times 96 = 56$.",
+    "solutionStandard": "Total parts \\(= 5+7=12\\). Women \\(= \\frac{7}{12} \\times 96 = 56\\).",
     "timeTargetSec": 60
   },
   {
@@ -112,11 +176,11 @@
     "primarySkill": "ratios-proportions",
     "secondarySkills": [],
     "difficulty": 3,
-    "stem": "$x:y = 4:5$, where $x$ and $y$ are positive.",
-    "quantityA": "$\\dfrac{x}{y}$",
-    "quantityB": "$0.8$",
+    "stem": "\\(x:y = 4:5\\), where \\(x\\) and \\(y\\) are positive.",
+    "quantityA": "\\(\\dfrac{x}{y}\\)",
+    "quantityB": "\\(0.8\\)",
     "answer": "C",
-    "solutionStandard": "$\\frac{x}{y} = \\frac{4}{5} = 0.8$. The quantities are equal.",
+    "solutionStandard": "\\(\\frac{x}{y} = \\frac{4}{5} = 0.8\\). The quantities are equal.",
     "timeTargetSec": 45
   },
   {
@@ -127,14 +191,29 @@
     "difficulty": 4,
     "stem": "On a map, 1 inch represents 25 miles. What actual distance, in miles, corresponds to 3.5 inches on the map?",
     "options": [
-      { "id": "A", "text": "70" },
-      { "id": "B", "text": "77.5" },
-      { "id": "C", "text": "82.5" },
-      { "id": "D", "text": "87.5" },
-      { "id": "E", "text": "90" }
+      {
+        "id": "A",
+        "text": "70"
+      },
+      {
+        "id": "B",
+        "text": "77.5"
+      },
+      {
+        "id": "C",
+        "text": "82.5"
+      },
+      {
+        "id": "D",
+        "text": "87.5"
+      },
+      {
+        "id": "E",
+        "text": "90"
+      }
     ],
     "answer": "D",
-    "solutionStandard": "$\\frac{1}{25} = \\frac{3.5}{d}$, so $d = 3.5 \\times 25 = 87.5$.",
+    "solutionStandard": "\\(\\frac{1}{25} = \\frac{3.5}{d}\\), so \\(d = 3.5 \\times 25 = 87.5\\).",
     "timeTargetSec": 60
   },
   {
@@ -143,16 +222,31 @@
     "primarySkill": "ratios-proportions",
     "secondarySkills": [],
     "difficulty": 4,
-    "stem": "$a:b = 2:3$ and $b:c = 4:5$. What is $a:c$?",
+    "stem": "\\(a:b = 2:3\\) and \\(b:c = 4:5\\). What is \\(a:c\\)?",
     "options": [
-      { "id": "A", "text": "2:5" },
-      { "id": "B", "text": "6:15" },
-      { "id": "C", "text": "8:15" },
-      { "id": "D", "text": "2:3" },
-      { "id": "E", "text": "1:2" }
+      {
+        "id": "A",
+        "text": "2:5"
+      },
+      {
+        "id": "B",
+        "text": "6:15"
+      },
+      {
+        "id": "C",
+        "text": "8:15"
+      },
+      {
+        "id": "D",
+        "text": "2:3"
+      },
+      {
+        "id": "E",
+        "text": "1:2"
+      }
     ],
     "answer": "C",
-    "solutionStandard": "Scale both ratios to share the same $b$: $a:b = 2:3 = 8:12$, and $b:c = 4:5 = 12:15$. So $a:b:c = 8:12:15$, giving $a:c = 8:15$.",
+    "solutionStandard": "Scale both ratios to share the same \\(b\\): \\(a:b = 2:3 = 8:12\\), and \\(b:c = 4:5 = 12:15\\). So \\(a:b:c = 8:12:15\\), giving \\(a:c = 8:15\\).",
     "timeTargetSec": 90
   }
 ]

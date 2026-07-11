@@ -2,9 +2,20 @@
   "skillId": "percent-basics",
   "summary": "A percent is a fraction out of 100. Converting fluently between percent, decimal, and fraction form is the foundation for every percent problem.",
   "formulas": [
-    { "name": "Percent to decimal", "expression": "p\\% = \\frac{p}{100}", "notes": "Move the decimal point two places left." },
-    { "name": "Percent of a quantity", "expression": "p\\% \\text{ of } q = \\frac{p}{100} \\times q" },
-    { "name": "Commutativity of percent", "expression": "p\\% \\text{ of } q = q\\% \\text{ of } p", "notes": "Useful shortcut: pick whichever order is easier to compute mentally." }
+    {
+      "name": "Percent to decimal",
+      "expression": "p\\% = \\frac{p}{100}",
+      "notes": "Move the decimal point two places left."
+    },
+    {
+      "name": "Percent of a quantity",
+      "expression": "p\\% \\text{ of } q = \\frac{p}{100} \\times q"
+    },
+    {
+      "name": "Commutativity of percent",
+      "expression": "p\\% \\text{ of } q = q\\% \\text{ of } p",
+      "notes": "Useful shortcut: pick whichever order is easier to compute mentally."
+    }
   ],
-  "explanation": "Percent literally means \"per hundred.\" To convert a percent to a decimal, divide by 100 (move the decimal point two places left): $35\\% = 0.35$. To convert a fraction to a percent, convert to a decimal first, then multiply by 100: $\\frac{3}{8} = 0.375 = 37.5\\%$. To find $p\\%$ of a quantity $q$, multiply: $0.p \\times q$. A useful mental-math trick is to build percentages from 10% and 1% benchmarks: 10% of a number is found by moving the decimal one place left, 1% by moving it two places left, and other percentages can be built by adding or subtracting these benchmarks (e.g. 15% = 10% + 5%, where 5% is half of 10%)."
+  "explanation": "Percent literally means \"per hundred.\" To convert a percent to a decimal, divide by 100 (move the decimal point two places left): \\(35\\% = 0.35\\). To convert a fraction to a percent, convert to a decimal first, then multiply by 100: \\(\\frac{3}{8} = 0.375 = 37.5\\%\\). To find \\(p\\%\\) of a quantity \\(q\\), multiply: \\(0.p \\times q\\). A useful mental-math trick is to build percentages from 10% and 1% benchmarks: 10% of a number is found by moving the decimal one place left, 1% by moving it two places left, and other percentages can be built by adding or subtracting these benchmarks (e.g. 15% = 10% + 5%, where 5% is half of 10%)."
 }

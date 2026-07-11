@@ -7,14 +7,29 @@
     "difficulty": 1,
     "stem": "A rectangle has length 8 and width 5. What is its area?",
     "options": [
-      { "id": "A", "text": "13" },
-      { "id": "B", "text": "26" },
-      { "id": "C", "text": "35" },
-      { "id": "D", "text": "40" },
-      { "id": "E", "text": "45" }
+      {
+        "id": "A",
+        "text": "13"
+      },
+      {
+        "id": "B",
+        "text": "26"
+      },
+      {
+        "id": "C",
+        "text": "35"
+      },
+      {
+        "id": "D",
+        "text": "40"
+      },
+      {
+        "id": "E",
+        "text": "45"
+      }
     ],
     "answer": "D",
-    "solutionStandard": "$A = l \\times w = 8 \\times 5 = 40$.",
+    "solutionStandard": "\\(A = l \\times w = 8 \\times 5 = 40\\).",
     "timeTargetSec": 35
   },
   {
@@ -25,7 +40,7 @@
     "difficulty": 1,
     "stem": "A square has a perimeter of 24. What is its area?",
     "answer": 36,
-    "solutionStandard": "Side $= 24/4 = 6$. Area $= 6^2 = 36$.",
+    "solutionStandard": "Side \\(= 24/4 = 6\\). Area \\(= 6^2 = 36\\).",
     "timeTargetSec": 45
   },
   {
@@ -36,14 +51,29 @@
     "difficulty": 2,
     "stem": "A parallelogram has a base of 10 and a height of 6. What is its area?",
     "options": [
-      { "id": "A", "text": "16" },
-      { "id": "B", "text": "30" },
-      { "id": "C", "text": "48" },
-      { "id": "D", "text": "60" },
-      { "id": "E", "text": "64" }
+      {
+        "id": "A",
+        "text": "16"
+      },
+      {
+        "id": "B",
+        "text": "30"
+      },
+      {
+        "id": "C",
+        "text": "48"
+      },
+      {
+        "id": "D",
+        "text": "60"
+      },
+      {
+        "id": "E",
+        "text": "64"
+      }
     ],
     "answer": "D",
-    "solutionStandard": "$A = \\text{base} \\times \\text{height} = 10 \\times 6 = 60$.",
+    "solutionStandard": "\\(A = \\text{base} \\times \\text{height} = 10 \\times 6 = 60\\).",
     "timeTargetSec": 40
   },
   {
@@ -56,9 +86,11 @@
     "quantityA": "The area of the square",
     "quantityB": "The area of the rectangle",
     "answer": "A",
-    "solutionStandard": "Square side $= 20/4 = 5$, area $= 25$. Rectangle area $= 7 \\times 3 = 21$. Since $25 > 21$, Quantity A is greater.",
+    "solutionStandard": "Square side \\(= 20/4 = 5\\), area \\(= 25\\). Rectangle area \\(= 7 \\times 3 = 21\\). Since \\(25 > 21\\), Quantity A is greater.",
     "solutionShortcut": "For a fixed perimeter, a square always encloses more area than any other rectangle — no computation needed to know A is greater, only to confirm by how much.",
-    "shortcutTags": ["estimate"],
+    "shortcutTags": [
+      "estimate"
+    ],
     "timeTargetSec": 60
   },
   {
@@ -69,7 +101,7 @@
     "difficulty": 3,
     "stem": "A trapezoid has parallel sides of length 8 and 12, and a height of 5. What is its area?",
     "answer": 50,
-    "solutionStandard": "$A = \\frac{1}{2}(8+12)(5) = \\frac{1}{2}(20)(5) = 50$.",
+    "solutionStandard": "\\(A = \\frac{1}{2}(8+12)(5) = \\frac{1}{2}(20)(5) = 50\\).",
     "timeTargetSec": 55
   },
   {
@@ -80,13 +112,32 @@
     "difficulty": 3,
     "stem": "Which of the following are true for every parallelogram? Select all that apply.",
     "options": [
-      { "id": "A", "text": "Opposite sides are equal in length." },
-      { "id": "B", "text": "The diagonals are equal in length." },
-      { "id": "C", "text": "Opposite angles are equal." },
-      { "id": "D", "text": "The diagonals bisect each other." },
-      { "id": "E", "text": "All four angles are right angles." }
+      {
+        "id": "A",
+        "text": "Opposite sides are equal in length."
+      },
+      {
+        "id": "B",
+        "text": "The diagonals are equal in length."
+      },
+      {
+        "id": "C",
+        "text": "Opposite angles are equal."
+      },
+      {
+        "id": "D",
+        "text": "The diagonals bisect each other."
+      },
+      {
+        "id": "E",
+        "text": "All four angles are right angles."
+      }
     ],
-    "answer": ["A", "C", "D"],
+    "answer": [
+      "A",
+      "C",
+      "D"
+    ],
     "solutionStandard": "Equal opposite sides, equal opposite angles, and diagonals bisecting each other hold for every parallelogram. Equal diagonals (B) and right angles (E) hold only for rectangles (and squares), which are special cases.",
     "timeTargetSec": 80
   },
@@ -94,31 +145,52 @@
     "id": "quadrilaterals-007",
     "type": "Numeric",
     "primarySkill": "quadrilaterals",
-    "secondarySkills": ["right-triangles-pythagorean"],
+    "secondarySkills": [
+      "right-triangles-pythagorean"
+    ],
     "difficulty": 3,
     "stem": "A rectangle has a diagonal of length 13 and one side of length 5. What is the length of the other side?",
     "answer": 12,
-    "solutionStandard": "The diagonal, together with the two sides, forms a right triangle: $5^2 + b^2 = 13^2$, so $b^2 = 144$, and $b = 12$.",
+    "solutionStandard": "The diagonal, together with the two sides, forms a right triangle: \\(5^2 + b^2 = 13^2\\), so \\(b^2 = 144\\), and \\(b = 12\\).",
     "solutionShortcut": "5-12-13 is a standard Pythagorean triple.",
-    "shortcutTags": ["estimate"],
+    "shortcutTags": [
+      "estimate"
+    ],
     "timeTargetSec": 60
   },
   {
     "id": "quadrilaterals-008",
     "type": "MC",
     "primarySkill": "quadrilaterals",
-    "secondarySkills": ["linear-equations-one-var"],
+    "secondarySkills": [
+      "linear-equations-one-var"
+    ],
     "difficulty": 4,
     "stem": "A rectangular garden has a length twice its width. If the perimeter is 60, what is the area of the garden?",
     "options": [
-      { "id": "A", "text": "100" },
-      { "id": "B", "text": "150" },
-      { "id": "C", "text": "200" },
-      { "id": "D", "text": "225" },
-      { "id": "E", "text": "300" }
+      {
+        "id": "A",
+        "text": "100"
+      },
+      {
+        "id": "B",
+        "text": "150"
+      },
+      {
+        "id": "C",
+        "text": "200"
+      },
+      {
+        "id": "D",
+        "text": "225"
+      },
+      {
+        "id": "E",
+        "text": "300"
+      }
     ],
     "answer": "C",
-    "solutionStandard": "Let width $= w$, length $= 2w$. Perimeter: $2(w + 2w) = 60$, so $6w = 60$ and $w = 10$. Length $= 20$. Area $= 10 \\times 20 = 200$.",
+    "solutionStandard": "Let width \\(= w\\), length \\(= 2w\\). Perimeter: \\(2(w + 2w) = 60\\), so \\(6w = 60\\) and \\(w = 10\\). Length \\(= 20\\). Area \\(= 10 \\times 20 = 200\\).",
     "timeTargetSec": 75
   },
   {
@@ -127,29 +199,46 @@
     "primarySkill": "quadrilaterals",
     "secondarySkills": [],
     "difficulty": 4,
-    "stem": "$ABCD$ is a quadrilateral (any four-sided figure).",
-    "quantityA": "The sum of the interior angles of $ABCD$",
-    "quantityB": "$360^\\circ$",
+    "stem": "\\(ABCD\\) is a quadrilateral (any four-sided figure).",
+    "quantityA": "The sum of the interior angles of \\(ABCD\\)",
+    "quantityB": "\\(360^\\circ\\)",
     "answer": "C",
-    "solutionStandard": "The interior angles of any quadrilateral always sum to $360^\\circ$, regardless of its specific shape. The quantities are equal.",
+    "solutionStandard": "The interior angles of any quadrilateral always sum to \\(360^\\circ\\), regardless of its specific shape. The quantities are equal.",
     "timeTargetSec": 50
   },
   {
     "id": "quadrilaterals-010",
     "type": "MC",
     "primarySkill": "quadrilaterals",
-    "secondarySkills": ["roots-radicals"],
+    "secondarySkills": [
+      "roots-radicals"
+    ],
     "difficulty": 4,
     "stem": "A square has an area of 49. What is the length of its diagonal?",
     "options": [
-      { "id": "A", "text": "$7$" },
-      { "id": "B", "text": "$7\\sqrt{2}$" },
-      { "id": "C", "text": "$14$" },
-      { "id": "D", "text": "$49$" },
-      { "id": "E", "text": "$7\\sqrt{7}$" }
+      {
+        "id": "A",
+        "text": "\\(7\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(7\\sqrt{2}\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(14\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(49\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(7\\sqrt{7}\\)"
+      }
     ],
     "answer": "B",
-    "solutionStandard": "Side $= \\sqrt{49} = 7$. The diagonal of a square with side $s$ is $s\\sqrt{2}$, so the diagonal is $7\\sqrt{2}$.",
+    "solutionStandard": "Side \\(= \\sqrt{49} = 7\\). The diagonal of a square with side \\(s\\) is \\(s\\sqrt{2}\\), so the diagonal is \\(7\\sqrt{2}\\).",
     "timeTargetSec": 65
   }
 ]

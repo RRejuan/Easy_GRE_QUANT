@@ -27,13 +27,12 @@ export function DiagnosticPage() {
 
   return (
     <div className="skill-page">
-      <Link to="/">&larr; Back to skill list</Link>
       <h1>Diagnostic</h1>
       <p>
         A quick spread of questions across every skill with content so far,
         to seed your mastery map. Results feed directly into the "what to
         study next" recommendation on the{" "}
-        <Link to="/dashboard">dashboard</Link>.
+        <Link to="/">dashboard</Link>.
       </p>
 
       {question ? (
@@ -64,7 +63,7 @@ export function DiagnosticPage() {
                 Diagnostic complete: {correctCount}/{questions.length}{" "}
                 correct.
               </p>
-              <Link to="/dashboard">View your dashboard &rarr;</Link>
+              <Link to="/">View your dashboard &rarr;</Link>
             </>
           )}
         </>

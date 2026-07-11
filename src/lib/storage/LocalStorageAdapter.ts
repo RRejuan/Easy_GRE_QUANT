@@ -3,11 +3,14 @@ import type {
   SkillMasteryState,
   StorageAdapter,
 } from "./StorageAdapter";
+import { getActiveProfileId } from "./profiles";
 
-const STORAGE_KEY = "gre-quant:mastery";
+function storageKey(): string {
+  return `gre-quant:mastery:${getActiveProfileId()}`;
+}
 
 function loadAll(): Record<string, SkillMasteryState> {
-  const raw = localStorage.getItem(STORAGE_KEY);
+  const raw = localStorage.getItem(storageKey());
   if (!raw) return {};
   try {
     return JSON.parse(raw) as Record<string, SkillMasteryState>;
@@ -17,7 +20,7 @@ function loadAll(): Record<string, SkillMasteryState> {
 }
 
 function saveAll(state: Record<string, SkillMasteryState>): void {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+  localStorage.setItem(storageKey(), JSON.stringify(state));
 }
 
 export class LocalStorageAdapter implements StorageAdapter {
@@ -55,4 +58,13 @@ export class LocalStorageAdapter implements StorageAdapter {
     saveAll(all);
     return updated;
   }
+}
+
+export function exportProgressJSON(): string {
+  return localStorage.getItem(storageKey()) ?? "{}";
+}
+
+export function importProgressJSON(json: string): void {
+  JSON.parse(json); // throws if invalid, before we touch storage
+  localStorage.setItem(storageKey(), json);
 }

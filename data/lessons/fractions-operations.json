@@ -2,9 +2,18 @@
   "skillId": "fractions-operations",
   "summary": "Add and subtract fractions using a common denominator; multiply straight across; divide by multiplying by the reciprocal.",
   "formulas": [
-    { "name": "Add/subtract", "expression": "\\frac{a}{b} \\pm \\frac{c}{d} = \\frac{ad \\pm bc}{bd}" },
-    { "name": "Multiply", "expression": "\\frac{a}{b} \\times \\frac{c}{d} = \\frac{ac}{bd}" },
-    { "name": "Divide", "expression": "\\frac{a}{b} \\div \\frac{c}{d} = \\frac{a}{b} \\times \\frac{d}{c}" }
+    {
+      "name": "Add/subtract",
+      "expression": "\\frac{a}{b} \\pm \\frac{c}{d} = \\frac{ad \\pm bc}{bd}"
+    },
+    {
+      "name": "Multiply",
+      "expression": "\\frac{a}{b} \\times \\frac{c}{d} = \\frac{ac}{bd}"
+    },
+    {
+      "name": "Divide",
+      "expression": "\\frac{a}{b} \\div \\frac{c}{d} = \\frac{a}{b} \\times \\frac{d}{c}"
+    }
   ],
   "explanation": "To add or subtract fractions, rewrite them with a common denominator (the least common multiple of the denominators keeps numbers smaller), then add or subtract the numerators. To multiply fractions, multiply numerators together and denominators together, simplifying (canceling common factors) before multiplying when possible to keep numbers small. To divide by a fraction, multiply by its reciprocal (flip the second fraction). Always simplify the final answer by dividing numerator and denominator by their greatest common divisor."
 }

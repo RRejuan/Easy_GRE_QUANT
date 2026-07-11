@@ -2,9 +2,18 @@
   "skillId": "triangles-basic",
   "summary": "Every triangle's interior angles sum to 180°, and an exterior angle equals the sum of the two remote interior angles.",
   "formulas": [
-    { "name": "Interior angle sum", "expression": "\\text{sum of interior angles} = 180^\\circ" },
-    { "name": "Exterior angle theorem", "expression": "\\text{exterior angle} = \\text{sum of the two remote interior angles}" },
-    { "name": "Area", "expression": "A = \\frac{1}{2} \\times \\text{base} \\times \\text{height}" }
+    {
+      "name": "Interior angle sum",
+      "expression": "\\text{sum of interior angles} = 180^\\circ"
+    },
+    {
+      "name": "Exterior angle theorem",
+      "expression": "\\text{exterior angle} = \\text{sum of the two remote interior angles}"
+    },
+    {
+      "name": "Area",
+      "expression": "A = \\frac{1}{2} \\times \\text{base} \\times \\text{height}"
+    }
   ],
-  "explanation": "The three interior angles of any triangle always sum to $180^\\circ$. An exterior angle (formed by extending one side) is supplementary to its adjacent interior angle, and equals the sum of the other two (\"remote\") interior angles — this exterior angle theorem is often faster than working through $180^\\circ$ twice. Triangles are classified by sides (equilateral: all sides equal; isosceles: two sides equal; scalene: no sides equal) and by angles (acute, right, obtuse). In an isosceles triangle, the angles opposite the two equal sides are also equal. A triangle's area is half its base times its height, where the height is the perpendicular distance from the base to the opposite vertex — not necessarily one of the triangle's own sides."
+  "explanation": "The three interior angles of any triangle always sum to \\(180^\\circ\\). An exterior angle (formed by extending one side) is supplementary to its adjacent interior angle, and equals the sum of the other two (\"remote\") interior angles — this exterior angle theorem is often faster than working through \\(180^\\circ\\) twice. Triangles are classified by sides (equilateral: all sides equal; isosceles: two sides equal; scalene: no sides equal) and by angles (acute, right, obtuse). In an isosceles triangle, the angles opposite the two equal sides are also equal. A triangle's area is half its base times its height, where the height is the perpendicular distance from the base to the opposite vertex — not necessarily one of the triangle's own sides."
 }

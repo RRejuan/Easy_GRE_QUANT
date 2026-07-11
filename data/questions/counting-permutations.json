@@ -7,7 +7,7 @@
     "difficulty": 1,
     "stem": "A restaurant offers 3 appetizers and 4 main courses. How many different appetizer-and-main-course meals are possible?",
     "answer": 12,
-    "solutionStandard": "By the fundamental counting principle: $3 \\times 4 = 12$.",
+    "solutionStandard": "By the fundamental counting principle: \\(3 \\times 4 = 12\\).",
     "timeTargetSec": 35
   },
   {
@@ -18,7 +18,7 @@
     "difficulty": 1,
     "stem": "In how many ways can 4 people be arranged in a line?",
     "answer": 24,
-    "solutionStandard": "$4! = 4 \\times 3 \\times 2 \\times 1 = 24$.",
+    "solutionStandard": "\\(4! = 4 \\times 3 \\times 2 \\times 1 = 24\\).",
     "timeTargetSec": 35
   },
   {
@@ -29,14 +29,29 @@
     "difficulty": 2,
     "stem": "A password consists of 3 different letters chosen from A, B, C, D, E, arranged in order. How many such passwords are possible?",
     "options": [
-      { "id": "A", "text": "10" },
-      { "id": "B", "text": "15" },
-      { "id": "C", "text": "20" },
-      { "id": "D", "text": "60" },
-      { "id": "E", "text": "125" }
+      {
+        "id": "A",
+        "text": "10"
+      },
+      {
+        "id": "B",
+        "text": "15"
+      },
+      {
+        "id": "C",
+        "text": "20"
+      },
+      {
+        "id": "D",
+        "text": "60"
+      },
+      {
+        "id": "E",
+        "text": "125"
+      }
     ],
     "answer": "D",
-    "solutionStandard": "Order matters and letters can't repeat: $5 \\times 4 \\times 3 = 60$.",
+    "solutionStandard": "Order matters and letters can't repeat: \\(5 \\times 4 \\times 3 = 60\\).",
     "timeTargetSec": 55
   },
   {
@@ -47,7 +62,7 @@
     "difficulty": 2,
     "stem": "In how many ways can a president and a vice president be chosen from a group of 6 people (no one can hold both offices)?",
     "answer": 30,
-    "solutionStandard": "6 choices for president, then 5 remaining for vice president: $6 \\times 5 = 30$.",
+    "solutionStandard": "6 choices for president, then 5 remaining for vice president: \\(6 \\times 5 = 30\\).",
     "timeTargetSec": 45
   },
   {
@@ -58,9 +73,9 @@
     "difficulty": 2,
     "stem": "Compare the two quantities.",
     "quantityA": "The number of ways to arrange 4 distinct books on a shelf",
-    "quantityB": "$20$",
+    "quantityB": "\\(20\\)",
     "answer": "A",
-    "solutionStandard": "$4! = 24$. Since $24 > 20$, Quantity A is greater.",
+    "solutionStandard": "\\(4! = 24\\). Since \\(24 > 20\\), Quantity A is greater.",
     "timeTargetSec": 45
   },
   {
@@ -71,14 +86,29 @@
     "difficulty": 3,
     "stem": "A license plate consists of 2 letters followed by 3 digits. Letters and digits may repeat. How many license plates are possible?",
     "options": [
-      { "id": "A", "text": "$26 \\times 10$" },
-      { "id": "B", "text": "$26^2 \\times 10^3$" },
-      { "id": "C", "text": "$26 \\times 3 + 10 \\times 2$" },
-      { "id": "D", "text": "$(26+10)^{2}$" },
-      { "id": "E", "text": "$26^3 \\times 10^2$" }
+      {
+        "id": "A",
+        "text": "\\(26 \\times 10\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(26^2 \\times 10^3\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(26 \\times 3 + 10 \\times 2\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\((26+10)^{2}\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(26^3 \\times 10^2\\)"
+      }
     ],
     "answer": "B",
-    "solutionStandard": "Each of the 2 letter positions has 26 choices, and each of the 3 digit positions has 10 choices: $26 \\times 26 \\times 10 \\times 10 \\times 10 = 26^2 \\times 10^3$.",
+    "solutionStandard": "Each of the 2 letter positions has 26 choices, and each of the 3 digit positions has 10 choices: \\(26 \\times 26 \\times 10 \\times 10 \\times 10 = 26^2 \\times 10^3\\).",
     "timeTargetSec": 65
   },
   {
@@ -89,7 +119,7 @@
     "difficulty": 3,
     "stem": "In how many ways can 1st, 2nd, and 3rd place be awarded among 7 runners (no ties)?",
     "answer": 210,
-    "solutionStandard": "$P(7,3) = \\frac{7!}{4!} = 7 \\times 6 \\times 5 = 210$.",
+    "solutionStandard": "\\(P(7,3) = \\frac{7!}{4!} = 7 \\times 6 \\times 5 = 210\\).",
     "timeTargetSec": 55
   },
   {
@@ -98,15 +128,31 @@
     "primarySkill": "counting-permutations",
     "secondarySkills": [],
     "difficulty": 3,
-    "stem": "Which of the following equal $5!$? Select all that apply.",
+    "stem": "Which of the following equal \\(5!\\)? Select all that apply.",
     "options": [
-      { "id": "A", "text": "$120$" },
-      { "id": "B", "text": "$5 \\times 4!$" },
-      { "id": "C", "text": "$P(5,5)$" },
-      { "id": "D", "text": "$5 \\times 4 \\times 3$" }
+      {
+        "id": "A",
+        "text": "\\(120\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(5 \\times 4!\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(P(5,5)\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(5 \\times 4 \\times 3\\)"
+      }
     ],
-    "answer": ["A", "B", "C"],
-    "solutionStandard": "$5! = 120$. $5 \\times 4! = 5 \\times 24 = 120$. $P(5,5) = 5!/0! = 120$. But $5\\times4\\times3=60 \\neq 120$.",
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "solutionStandard": "\\(5! = 120\\). \\(5 \\times 4! = 5 \\times 24 = 120\\). \\(P(5,5) = 5!/0! = 120\\). But \\(5\\times4\\times3=60 \\neq 120\\).",
     "timeTargetSec": 75
   },
   {
@@ -117,14 +163,29 @@
     "difficulty": 4,
     "stem": "In how many distinct ways can the letters of the word \"LEVEL\" be arranged?",
     "options": [
-      { "id": "A", "text": "20" },
-      { "id": "B", "text": "30" },
-      { "id": "C", "text": "60" },
-      { "id": "D", "text": "120" },
-      { "id": "E", "text": "24" }
+      {
+        "id": "A",
+        "text": "20"
+      },
+      {
+        "id": "B",
+        "text": "30"
+      },
+      {
+        "id": "C",
+        "text": "60"
+      },
+      {
+        "id": "D",
+        "text": "120"
+      },
+      {
+        "id": "E",
+        "text": "24"
+      }
     ],
     "answer": "B",
-    "solutionStandard": "\"LEVEL\" has 5 letters with L repeated twice and E repeated twice: $\\frac{5!}{2! \\times 2!} = \\frac{120}{4} = 30$.",
+    "solutionStandard": "\"LEVEL\" has 5 letters with L repeated twice and E repeated twice: \\(\\frac{5!}{2! \\times 2!} = \\frac{120}{4} = 30\\).",
     "timeTargetSec": 85
   },
   {
@@ -135,7 +196,7 @@
     "difficulty": 4,
     "stem": "5 people, including a couple who insist on sitting next to each other, are seated in a row. How many seating arrangements are possible?",
     "answer": 48,
-    "solutionStandard": "Treat the couple as a single block: 4 units to arrange in $4! = 24$ ways, and within the block the couple can switch places in $2! = 2$ ways. Total: $24 \\times 2 = 48$.",
+    "solutionStandard": "Treat the couple as a single block: 4 units to arrange in \\(4! = 24\\) ways, and within the block the couple can switch places in \\(2! = 2\\) ways. Total: \\(24 \\times 2 = 48\\).",
     "timeTargetSec": 90
   }
 ]
