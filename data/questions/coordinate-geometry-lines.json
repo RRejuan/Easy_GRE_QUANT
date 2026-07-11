@@ -146,5 +146,169 @@
     "answer": "C",
     "solutionStandard": "\\(m=\\dfrac{4-4}{5-1}=\\dfrac{0}{4}=0\\). The quantities are equal.",
     "timeTargetSec": 55
+  },
+  {
+    "id": "coordinate-geometry-lines-011",
+    "type": "Numeric",
+    "primarySkill": "coordinate-geometry-lines",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "variables": [
+      { "name": "b", "min": -10, "max": 10, "step": 1 },
+      { "name": "m", "min": 1, "max": 9, "step": 1 }
+    ],
+    "stem": "What is the slope of the line through \\((1, {{b}})\\) and \\((4, {{b+3*m}})\\)?",
+    "answer": 4,
+    "answerFormula": "m",
+    "solutionStandard": "\\(m = \\dfrac{ ({{b+3*m}}) - ({{b}}) }{4-1} = \\dfrac{ {{3*m}} }{3} = {{m}}\\).",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "coordinate-geometry-lines-012",
+    "type": "MC",
+    "primarySkill": "coordinate-geometry-lines",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "What is the \\(y\\)-intercept of the line \\(y = 5x - 9\\)?",
+    "options": [
+      { "id": "A", "text": "5" },
+      { "id": "B", "text": "-5" },
+      { "id": "C", "text": "9" },
+      { "id": "D", "text": "-9" },
+      { "id": "E", "text": "0" }
+    ],
+    "answer": "D",
+    "solutionStandard": "In \\(y=mx+b\\) form, \\(b=-9\\).",
+    "timeTargetSec": 35
+  },
+  {
+    "id": "coordinate-geometry-lines-013",
+    "type": "Numeric",
+    "primarySkill": "coordinate-geometry-lines",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "variables": [
+      { "name": "m", "min": 1, "max": 9, "step": 1 },
+      { "name": "y0", "min": -10, "max": 20, "step": 1 }
+    ],
+    "stem": "A line has slope {{m}} and passes through \\((2, {{y0}})\\). What is its \\(y\\)-intercept?",
+    "answer": -1,
+    "answerFormula": "y0 - 2*m",
+    "solutionStandard": "\\({{y0}} = {{m}}(2) + b\\), so \\(b = {{y0}} - {{2*m}} = {{y0-2*m}}\\).",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "coordinate-geometry-lines-014",
+    "type": "QC",
+    "primarySkill": "coordinate-geometry-lines",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "variables": [{ "name": "m", "min": 1, "max": 9, "step": 1 }],
+    "stem": "Line \\(\\ell_1\\) has equation \\(y = {{m}}x + 1\\). Line \\(\\ell_2\\) passes through \\((0, 2)\\) and \\((3, {{2+3*m}})\\).",
+    "quantityA": "The slope of \\(\\ell_1\\)",
+    "quantityB": "The slope of \\(\\ell_2\\)",
+    "answer": "C",
+    "solutionStandard": "Slope of \\(\\ell_1\\) is \\({{m}}\\). Slope of \\(\\ell_2\\): \\(\\dfrac{ ({{2+3*m}})-2 }{3-0} = \\dfrac{ {{3*m}} }{3} = {{m}}\\). The quantities are always equal.",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "coordinate-geometry-lines-015",
+    "type": "MC",
+    "primarySkill": "coordinate-geometry-lines",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "A line is perpendicular to \\(y = \\dfrac{3}{4}x + 2\\) and passes through \\((0, 1)\\). What is its equation?",
+    "options": [
+      { "id": "A", "text": "\\(y = \\dfrac{3}{4}x + 1\\)" },
+      { "id": "B", "text": "\\(y = -\\dfrac{3}{4}x + 1\\)" },
+      { "id": "C", "text": "\\(y = \\dfrac{4}{3}x + 1\\)" },
+      { "id": "D", "text": "\\(y = -\\dfrac{4}{3}x + 1\\)" },
+      { "id": "E", "text": "\\(y = -\\dfrac{4}{3}x - 1\\)" }
+    ],
+    "answer": "D",
+    "solutionStandard": "Perpendicular slope is the negative reciprocal of \\(3/4\\), which is \\(-4/3\\). With \\(y\\)-intercept 1: \\(y=-\\frac{4}{3}x+1\\).",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "coordinate-geometry-lines-016",
+    "type": "Numeric",
+    "primarySkill": "coordinate-geometry-lines",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "variables": [
+      { "name": "m1", "min": 2, "max": 6, "step": 1 },
+      { "name": "m2", "min": -6, "max": -2, "step": 1 },
+      { "name": "b1", "min": 1, "max": 20, "step": 1 },
+      { "name": "x0", "min": 1, "max": 15, "step": 1 }
+    ],
+    "stem": "At what \\(x\\)-value do the lines \\(y = {{m1}}x + {{b1}}\\) and \\(y = {{m2}}x + {{b1 + x0*(m1-m2)}}\\) intersect?",
+    "answer": 7,
+    "answerFormula": "x0",
+    "solutionStandard": "Both lines pass through the same point at \\(x={{x0}}\\) by construction (the second line's constant term was built from the first line's value there).",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "coordinate-geometry-lines-017",
+    "type": "MC",
+    "primarySkill": "coordinate-geometry-lines",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "A line passes through \\((3, -2)\\) and is parallel to the line \\(2x - y = 4\\). What is its \\(y\\)-intercept?",
+    "options": [
+      { "id": "A", "text": "-8" },
+      { "id": "B", "text": "-6" },
+      { "id": "C", "text": "-4" },
+      { "id": "D", "text": "4" },
+      { "id": "E", "text": "6" }
+    ],
+    "answer": "A",
+    "solutionStandard": "Rewrite \\(2x-y=4\\) as \\(y=2x-4\\), slope 2. Parallel line: \\(y=2x+b\\). Plug in \\((3,-2)\\): \\(-2=6+b\\), so \\(b=-8\\).",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "coordinate-geometry-lines-018",
+    "type": "MultiMC",
+    "primarySkill": "coordinate-geometry-lines",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "Which of the following lines are parallel to \\(y = 3x - 2\\)? Select all that apply.",
+    "options": [
+      { "id": "A", "text": "\\(y = 3x + 7\\)" },
+      { "id": "B", "text": "\\(3x - y = 5\\)" },
+      { "id": "C", "text": "\\(y = -3x + 2\\)" },
+      { "id": "D", "text": "\\(6x - 2y = 8\\)" }
+    ],
+    "answer": ["A", "B", "D"],
+    "solutionStandard": "Rewrite each in slope-intercept form: (A) slope \\(3\\). (B) \\(y=3x-5\\), slope \\(3\\). (C) slope \\(-3\\), not parallel. (D) \\(2y=6x-8\\), so \\(y=3x-4\\), slope \\(3\\).",
+    "timeTargetSec": 80
+  },
+  {
+    "id": "coordinate-geometry-lines-019",
+    "type": "Numeric",
+    "primarySkill": "coordinate-geometry-lines",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "variables": [
+      { "name": "a", "min": 2, "max": 10, "step": 1 },
+      { "name": "q", "min": 1, "max": 8, "step": 1 }
+    ],
+    "stem": "A line has \\(x\\)-intercept {{a}} and \\(y\\)-intercept {{a*q}}. What is the slope of the line?",
+    "answer": -2,
+    "answerFormula": "-q",
+    "solutionStandard": "The line passes through \\(({{a}},0)\\) and \\((0,{{a*q}})\\): \\(m=\\dfrac{ {{a*q}}-0 }{0-{{a}}} = -{{q}}\\).",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "coordinate-geometry-lines-020",
+    "type": "QC",
+    "primarySkill": "coordinate-geometry-lines",
+    "secondarySkills": [],
+    "difficulty": 5,
+    "stem": "Line \\(\\ell\\) passes through points \\((a, b)\\) and \\((c, d)\\), where \\(a \\neq c\\).",
+    "quantityA": "The slope of \\(\\ell\\), multiplied by \\((c - a)\\)",
+    "quantityB": "\\(d - b\\)",
+    "answer": "C",
+    "solutionStandard": "The slope is \\(\\dfrac{d-b}{c-a}\\). Multiplying by \\((c-a)\\) gives exactly \\(d-b\\) — this is just the definition of slope, true for any valid line. The quantities are always equal.",
+    "timeTargetSec": 85
   }
 ]
