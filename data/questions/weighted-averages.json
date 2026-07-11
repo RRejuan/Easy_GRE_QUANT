@@ -140,5 +140,165 @@
     "answer": "A",
     "solutionStandard": "Time for first leg: \\(60/30=2\\) hours. Time for second leg: \\(60/60=1\\) hour. Total distance \\(120\\), total time \\(3\\) hours. Average speed \\(=120/3=40\\) mph (not the simple average of 30 and 60, since equal DISTANCES, not equal times, were driven at each speed).",
     "timeTargetSec": 85
+  },
+  {
+    "id": "weighted-averages-011",
+    "type": "Numeric",
+    "primarySkill": "weighted-averages",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "variables": [
+      { "name": "n", "min": 10, "max": 40, "step": 1 },
+      { "name": "a", "min": 50, "max": 95, "step": 1 }
+    ],
+    "stem": "A class of {{n}} students has an average score of {{a}}. What is the sum of all their scores?",
+    "answer": 1600,
+    "answerFormula": "n*a",
+    "solutionStandard": "Sum \\(=\\) average \\(\\times\\) count \\(= {{a}} \\times {{n}} = {{n*a}}\\).",
+    "timeTargetSec": 35
+  },
+  {
+    "id": "weighted-averages-012",
+    "type": "Numeric",
+    "primarySkill": "weighted-averages",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "variables": [
+      { "name": "n1", "min": 5, "max": 10, "step": 1 },
+      { "name": "n2", "min": 5, "max": 10, "step": 1 },
+      { "name": "avg", "min": 30, "max": 80, "step": 1 },
+      { "name": "k", "min": 1, "max": 2, "step": 1 }
+    ],
+    "stem": "Group 1 has {{n1}} items, averaging {{avg-k*n2}} each. Group 2 has {{n2}} items, averaging {{avg+k*n1}} each. What is the average value per item for all items combined?",
+    "answer": 55,
+    "answerFormula": "avg",
+    "solutionStandard": "Combined average \\(= \\dfrac{n_1(\\text{avg}-kn_2) + n_2(\\text{avg}+kn_1)}{n_1+n_2} = \\dfrac{(n_1+n_2)\\cdot\\text{avg}}{n_1+n_2} = {{avg}}\\) — the \\(k\\) terms cancel exactly.",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "weighted-averages-013",
+    "type": "QC",
+    "primarySkill": "weighted-averages",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "variables": [
+      { "name": "a", "min": 2, "max": 10, "step": 1 },
+      { "name": "m1", "min": 40, "max": 70, "step": 1 },
+      { "name": "d", "min": 6, "max": 30, "step": 2 }
+    ],
+    "stem": "Group A has {{a}} members with an average of {{m1}}. Group B has {{3*a}} members with an average of {{m1+d}}.",
+    "quantityA": "The combined average of both groups",
+    "quantityB": "{{m1 + d/2}}",
+    "answer": "A",
+    "solutionStandard": "Combined average \\(= \\dfrac{a(m_1) + 3a(m_1+d)}{4a} = \\dfrac{4m_1+3d}{4} = m_1 + \\dfrac{3d}{4}\\). Quantity B is the simple midpoint \\(m_1+\\dfrac{d}{2}\\). Since \\(d>0\\), \\(\\dfrac{3d}{4} > \\dfrac{d}{2}\\) always — Group B (3 times larger) pulls the combined average above the midpoint. Quantity A is greater.",
+    "timeTargetSec": 90
+  },
+  {
+    "id": "weighted-averages-014",
+    "type": "MC",
+    "primarySkill": "weighted-averages",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "A store sold 40 shirts at $15 each and 10 shirts at $35 each. What was the average price per shirt, in dollars?",
+    "options": [
+      { "id": "A", "text": "17" },
+      { "id": "B", "text": "19" },
+      { "id": "C", "text": "21" },
+      { "id": "D", "text": "23" },
+      { "id": "E", "text": "25" }
+    ],
+    "answer": "B",
+    "solutionStandard": "Total revenue \\(=40(15)+10(35)=600+350=950\\). Total shirts \\(=50\\). Average \\(=950/50=19\\).",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "weighted-averages-015",
+    "type": "Numeric",
+    "primarySkill": "weighted-averages",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "variables": [
+      { "name": "n", "min": 3, "max": 8, "step": 1 },
+      { "name": "a", "min": 60, "max": 90, "step": 1 },
+      { "name": "d", "min": 1, "max": 10, "step": 1 }
+    ],
+    "stem": "A student's average on {{n}} tests is {{a}}. What score is needed on the next test to raise the average to {{a+d}}?",
+    "answer": 100,
+    "answerFormula": "a+(n+1)*d",
+    "solutionStandard": "Current sum \\(=n \\cdot a\\). Needed sum for \\(n+1\\) tests at average \\(a+d\\): \\((n+1)(a+d)\\). Needed score \\(=(n+1)(a+d) - na = a+(n+1)d = {{a+(n+1)*d}}\\).",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "weighted-averages-016",
+    "type": "Numeric",
+    "primarySkill": "weighted-averages",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "variables": [
+      { "name": "n1", "min": 4, "max": 10, "step": 1 },
+      { "name": "n2", "min": 1, "max": 4, "step": 1 },
+      { "name": "avg", "min": 40000, "max": 90000, "step": 1000 },
+      { "name": "k", "min": 1000, "max": 5000, "step": 1000 }
+    ],
+    "stem": "A company has {{n1}} employees earning an average salary of {{avg-k*n2}} dollars and {{n2}} managers earning an average salary of {{avg+k*n1}} dollars. What is the average salary of all {{n1+n2}} people, in dollars?",
+    "answer": 58000,
+    "answerFormula": "avg",
+    "solutionStandard": "Total \\(= n_1(\\text{avg}-kn_2) + n_2(\\text{avg}+kn_1) = (n_1+n_2)\\cdot\\text{avg}\\) — the \\(k\\) terms cancel. Average \\(={{avg}}\\).",
+    "timeTargetSec": 85
+  },
+  {
+    "id": "weighted-averages-017",
+    "type": "QC",
+    "primarySkill": "weighted-averages",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "Group A has \\(a\\) members with average 50. Group B has \\(b\\) members with average 80, where \\(a > b\\).",
+    "quantityA": "The combined average",
+    "quantityB": "65",
+    "answer": "B",
+    "solutionStandard": "Since Group A (average 50) has more members than Group B (average 80), the combined average is pulled below the simple midpoint of 65, toward 50. Quantity B is greater.",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "weighted-averages-018",
+    "type": "Numeric",
+    "primarySkill": "weighted-averages",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "A jar has red and green marbles. Red marbles have an average weight of 4 grams, green marbles average 9 grams, and the overall average weight is 7 grams. If there are 40 marbles total, how many are green?",
+    "answer": 24,
+    "solutionStandard": "Let \\(g\\)=green count, so red count \\(=40-g\\). \\(4(40-g)+9g=7(40)\\), so \\(160-4g+9g=280\\), giving \\(5g=120\\) and \\(g=24\\).",
+    "timeTargetSec": 85
+  },
+  {
+    "id": "weighted-averages-019",
+    "type": "MC",
+    "primarySkill": "weighted-averages",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "A trip consists of 2 hours driven at 30 mph, followed by 2 hours driven at 60 mph (equal TIME, not equal distance, at each speed). What is the average speed for the entire trip?",
+    "options": [
+      { "id": "A", "text": "40 mph" },
+      { "id": "B", "text": "45 mph" },
+      { "id": "C", "text": "48 mph" },
+      { "id": "D", "text": "50 mph" },
+      { "id": "E", "text": "55 mph" }
+    ],
+    "answer": "B",
+    "solutionStandard": "Distance \\(=2(30)+2(60)=60+120=180\\) miles over \\(4\\) hours. Average speed \\(=180/4=45\\) mph — this matches the simple average of 30 and 60 because equal TIMES (not equal distances) were spent at each speed.",
+    "timeTargetSec": 85
+  },
+  {
+    "id": "weighted-averages-020",
+    "type": "QC",
+    "primarySkill": "weighted-averages",
+    "secondarySkills": [],
+    "difficulty": 5,
+    "stem": "Class A has average score \\(p\\) and Class B has average score \\(q\\), where \\(p \\neq q\\). Class A has more students than Class B.",
+    "quantityA": "The combined average of both classes",
+    "quantityB": "\\(\\dfrac{p+q}{2}\\)",
+    "answer": "D",
+    "solutionStandard": "The combined average always leans toward whichever class's average is weighted more (Class A, the larger class). If \\(p>q\\), the combined average exceeds the midpoint; if \\(p<q\\), it falls below the midpoint. Since the relationship between \\(p\\) and \\(q\\) isn't given, the relationship cannot be determined.",
+    "timeTargetSec": 90
   }
 ]
