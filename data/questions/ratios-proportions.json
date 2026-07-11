@@ -255,7 +255,14 @@
     "primarySkill": "ratios-proportions",
     "secondarySkills": [],
     "difficulty": 1,
-    "variables": [{ "name": "k", "min": 2, "max": 9, "step": 1 }],
+    "variables": [
+      {
+        "name": "k",
+        "min": 2,
+        "max": 9,
+        "step": 1
+      }
+    ],
     "stem": "The ratio of cats to dogs at a shelter is 3 to 5. If there are {{3*k}} cats, how many dogs are there?",
     "answer": 15,
     "answerFormula": "5 * k",
@@ -270,11 +277,26 @@
     "difficulty": 1,
     "stem": "A recipe uses 2 cups of flour for every 3 cups of sugar. If 12 cups of sugar are used, how many cups of flour are needed?",
     "options": [
-      { "id": "A", "text": "6" },
-      { "id": "B", "text": "8" },
-      { "id": "C", "text": "9" },
-      { "id": "D", "text": "10" },
-      { "id": "E", "text": "18" }
+      {
+        "id": "A",
+        "text": "6"
+      },
+      {
+        "id": "B",
+        "text": "8"
+      },
+      {
+        "id": "C",
+        "text": "9"
+      },
+      {
+        "id": "D",
+        "text": "10"
+      },
+      {
+        "id": "E",
+        "text": "18"
+      }
     ],
     "answer": "B",
     "solutionStandard": "\\(\\dfrac{2}{3} = \\dfrac{x}{12}\\), so \\(x = \\dfrac{2 \\times 12}{3} = 8\\).",
@@ -286,7 +308,14 @@
     "primarySkill": "ratios-proportions",
     "secondarySkills": [],
     "difficulty": 2,
-    "variables": [{ "name": "k", "min": 3, "max": 12, "step": 1 }],
+    "variables": [
+      {
+        "name": "k",
+        "min": 3,
+        "max": 12,
+        "step": 1
+      }
+    ],
     "stem": "In a class, the ratio of boys to girls is 4:7. If there are {{11*k}} students total, how many are girls?",
     "answer": 42,
     "answerFormula": "7 * k",
@@ -314,11 +343,26 @@
     "difficulty": 3,
     "stem": "A map has a scale of 1 inch to 25 miles. Two cities are 3.5 inches apart on the map. What is the actual distance, in miles?",
     "options": [
-      { "id": "A", "text": "70" },
-      { "id": "B", "text": "75" },
-      { "id": "C", "text": "87.5" },
-      { "id": "D", "text": "90" },
-      { "id": "E", "text": "100" }
+      {
+        "id": "A",
+        "text": "70"
+      },
+      {
+        "id": "B",
+        "text": "75"
+      },
+      {
+        "id": "C",
+        "text": "87.5"
+      },
+      {
+        "id": "D",
+        "text": "90"
+      },
+      {
+        "id": "E",
+        "text": "100"
+      }
     ],
     "answer": "C",
     "solutionStandard": "\\(3.5 \\times 25 = 87.5\\) miles.",
@@ -332,12 +376,28 @@
     "difficulty": 3,
     "stem": "A mixture of paint is 2 parts blue to 5 parts white. Which of the following mixtures have the same blue-to-white ratio? Select all that apply.",
     "options": [
-      { "id": "A", "text": "4 parts blue, 10 parts white" },
-      { "id": "B", "text": "6 parts blue, 15 parts white" },
-      { "id": "C", "text": "10 parts blue, 20 parts white" },
-      { "id": "D", "text": "3 parts blue, 7.5 parts white" }
+      {
+        "id": "A",
+        "text": "4 parts blue, 10 parts white"
+      },
+      {
+        "id": "B",
+        "text": "6 parts blue, 15 parts white"
+      },
+      {
+        "id": "C",
+        "text": "10 parts blue, 20 parts white"
+      },
+      {
+        "id": "D",
+        "text": "3 parts blue, 7.5 parts white"
+      }
     ],
-    "answer": ["A", "B", "D"],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
     "solutionStandard": "\\(2:5\\) scales to \\(4:10\\), \\(6:15\\), and \\(3:7.5\\) (multiply by 2, 3, and 1.5 respectively). But \\(10:20 = 1:2 \\neq 2:5\\).",
     "timeTargetSec": 75
   },
@@ -346,7 +406,7 @@
     "type": "Numeric",
     "primarySkill": "ratios-proportions",
     "secondarySkills": [],
-    "difficulty": 3,
+    "difficulty": 4,
     "stem": "Two numbers are in the ratio 5:9. If the smaller number is 20, what is the larger number?",
     "answer": 36,
     "solutionStandard": "\\(\\dfrac{5}{9} = \\dfrac{20}{x}\\), so \\(x = \\dfrac{20 \\times 9}{5} = 36\\).",
@@ -360,11 +420,26 @@
     "difficulty": 4,
     "stem": "A solution is 40% acid and the rest water. If 10 liters of water are added to 15 liters of the solution, what percent of the new mixture is acid?",
     "options": [
-      { "id": "A", "text": "20%" },
-      { "id": "B", "text": "24%" },
-      { "id": "C", "text": "28%" },
-      { "id": "D", "text": "32%" },
-      { "id": "E", "text": "36%" }
+      {
+        "id": "A",
+        "text": "20%"
+      },
+      {
+        "id": "B",
+        "text": "24%"
+      },
+      {
+        "id": "C",
+        "text": "28%"
+      },
+      {
+        "id": "D",
+        "text": "32%"
+      },
+      {
+        "id": "E",
+        "text": "36%"
+      }
     ],
     "answer": "B",
     "solutionStandard": "Acid in original solution: \\(0.40 \\times 15 = 6\\) liters. New total volume: \\(15+10=25\\) liters. New percent acid: \\(6/25 = 0.24 = 24\\%\\).",
@@ -375,7 +450,7 @@
     "type": "QC",
     "primarySkill": "ratios-proportions",
     "secondarySkills": [],
-    "difficulty": 4,
+    "difficulty": 5,
     "stem": "\\(a:b = 2:3\\) and \\(b:c = 3:4\\), where \\(a\\), \\(b\\), \\(c\\) are all positive.",
     "quantityA": "\\(a:c\\)",
     "quantityB": "\\(1:2\\)",

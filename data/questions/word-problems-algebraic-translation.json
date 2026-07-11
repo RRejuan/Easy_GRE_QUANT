@@ -15,14 +15,29 @@
     "type": "MC",
     "primarySkill": "word-problems-algebraic-translation",
     "secondarySkills": [],
-    "difficulty": 2,
+    "difficulty": 1,
     "stem": "The sum of three consecutive integers is 72. What is the largest of the three integers?",
     "options": [
-      { "id": "A", "text": "22" },
-      { "id": "B", "text": "23" },
-      { "id": "C", "text": "24" },
-      { "id": "D", "text": "25" },
-      { "id": "E", "text": "26" }
+      {
+        "id": "A",
+        "text": "22"
+      },
+      {
+        "id": "B",
+        "text": "23"
+      },
+      {
+        "id": "C",
+        "text": "24"
+      },
+      {
+        "id": "D",
+        "text": "25"
+      },
+      {
+        "id": "E",
+        "text": "26"
+      }
     ],
     "answer": "D",
     "solutionStandard": "Let the integers be \\(n, n+1, n+2\\). Sum: \\(3n+3=72\\), so \\(n=23\\). The largest is \\(n+2=25\\).",
@@ -44,14 +59,29 @@
     "type": "MC",
     "primarySkill": "word-problems-algebraic-translation",
     "secondarySkills": [],
-    "difficulty": 3,
+    "difficulty": 2,
     "stem": "A number increased by 40% of itself equals 12 less than three times the number. What is the number?",
     "options": [
-      { "id": "A", "text": "6" },
-      { "id": "B", "text": "7" },
-      { "id": "C", "text": "7.5" },
-      { "id": "D", "text": "8" },
-      { "id": "E", "text": "9" }
+      {
+        "id": "A",
+        "text": "6"
+      },
+      {
+        "id": "B",
+        "text": "7"
+      },
+      {
+        "id": "C",
+        "text": "7.5"
+      },
+      {
+        "id": "D",
+        "text": "8"
+      },
+      {
+        "id": "E",
+        "text": "9"
+      }
     ],
     "answer": "C",
     "solutionStandard": "\\(x + 0.4x = 3x - 12\\), so \\(1.4x = 3x-12\\), giving \\(1.6x=12\\) and \\(x=7.5\\).",
@@ -76,11 +106,26 @@
     "difficulty": 3,
     "stem": "A jar contains only nickels and dimes worth $3.15 total. There are 39 coins in all. How many dimes are there?",
     "options": [
-      { "id": "A", "text": "12" },
-      { "id": "B", "text": "15" },
-      { "id": "C", "text": "18" },
-      { "id": "D", "text": "21" },
-      { "id": "E", "text": "24" }
+      {
+        "id": "A",
+        "text": "12"
+      },
+      {
+        "id": "B",
+        "text": "15"
+      },
+      {
+        "id": "C",
+        "text": "18"
+      },
+      {
+        "id": "D",
+        "text": "21"
+      },
+      {
+        "id": "E",
+        "text": "24"
+      }
     ],
     "answer": "E",
     "solutionStandard": "Let \\(d\\)=dimes, \\(n\\)=nickels. \\(d+n=39\\) and \\(10d+5n=315\\) (cents). From the first, \\(n=39-d\\). Substituting: \\(10d+5(39-d)=315\\), so \\(10d+195-5d=315\\), giving \\(5d=120\\) and \\(d=24\\).",
@@ -118,11 +163,26 @@
     "difficulty": 4,
     "stem": "Five years ago, a father was 4 times as old as his daughter. In 10 years, he will be twice as old as she will be. How old is the father now?",
     "options": [
-      { "id": "A", "text": "35" },
-      { "id": "B", "text": "40" },
-      { "id": "C", "text": "45" },
-      { "id": "D", "text": "50" },
-      { "id": "E", "text": "55" }
+      {
+        "id": "A",
+        "text": "35"
+      },
+      {
+        "id": "B",
+        "text": "40"
+      },
+      {
+        "id": "C",
+        "text": "45"
+      },
+      {
+        "id": "D",
+        "text": "50"
+      },
+      {
+        "id": "E",
+        "text": "55"
+      }
     ],
     "answer": "A",
     "solutionStandard": "Let the daughter's current age be \\(x\\); the father's is \\(y\\). Five years ago: \\(y-5=4(x-5)\\), so \\(y=4x-15\\). In 10 years: \\(y+10=2(x+10)\\), so \\(y=2x+10\\). Setting these equal: \\(4x-15=2x+10\\), giving \\(x=12.5\\) and \\(y=4(12.5)-15=35\\).",
@@ -146,8 +206,18 @@
     "secondarySkills": [],
     "difficulty": 1,
     "variables": [
-      { "name": "k", "min": 1, "max": 20, "step": 1 },
-      { "name": "r", "min": 10, "max": 60, "step": 1 }
+      {
+        "name": "k",
+        "min": 1,
+        "max": 20,
+        "step": 1
+      },
+      {
+        "name": "r",
+        "min": 10,
+        "max": 60,
+        "step": 1
+      }
     ],
     "stem": "{{k}} less than twice a number is {{r}}. What is the number?",
     "answer": 15.5,
@@ -163,11 +233,26 @@
     "difficulty": 1,
     "stem": "3 more than twice a number is 15. What is the number?",
     "options": [
-      { "id": "A", "text": "5" },
-      { "id": "B", "text": "6" },
-      { "id": "C", "text": "7" },
-      { "id": "D", "text": "9" },
-      { "id": "E", "text": "12" }
+      {
+        "id": "A",
+        "text": "5"
+      },
+      {
+        "id": "B",
+        "text": "6"
+      },
+      {
+        "id": "C",
+        "text": "7"
+      },
+      {
+        "id": "D",
+        "text": "9"
+      },
+      {
+        "id": "E",
+        "text": "12"
+      }
     ],
     "answer": "B",
     "solutionStandard": "\\(2x+3=15\\), so \\(x=6\\).",
@@ -179,7 +264,14 @@
     "primarySkill": "word-problems-algebraic-translation",
     "secondarySkills": [],
     "difficulty": 2,
-    "variables": [{ "name": "s", "min": 30, "max": 300, "step": 3 }],
+    "variables": [
+      {
+        "name": "s",
+        "min": 30,
+        "max": 300,
+        "step": 3
+      }
+    ],
     "stem": "The sum of three consecutive integers is {{s}}. What is the largest of the three?",
     "answer": 41,
     "answerFormula": "s / 3 + 1",
@@ -194,11 +286,26 @@
     "difficulty": 2,
     "stem": "Tom is currently 4 times as old as his daughter. In 6 years, he will be 3 times as old as she will be then. How old is the daughter now?",
     "options": [
-      { "id": "A", "text": "10" },
-      { "id": "B", "text": "12" },
-      { "id": "C", "text": "14" },
-      { "id": "D", "text": "16" },
-      { "id": "E", "text": "18" }
+      {
+        "id": "A",
+        "text": "10"
+      },
+      {
+        "id": "B",
+        "text": "12"
+      },
+      {
+        "id": "C",
+        "text": "14"
+      },
+      {
+        "id": "D",
+        "text": "16"
+      },
+      {
+        "id": "E",
+        "text": "18"
+      }
     ],
     "answer": "B",
     "solutionStandard": "Let the daughter's age be \\(d\\); Tom's is \\(4d\\). In 6 years: \\(4d+6=3(d+6)\\), so \\(4d+6=3d+18\\), giving \\(d=12\\).",
@@ -211,8 +318,18 @@
     "secondarySkills": [],
     "difficulty": 3,
     "variables": [
-      { "name": "s", "min": 10, "max": 60, "step": 2 },
-      { "name": "d", "min": 1, "max": 20, "step": 2 }
+      {
+        "name": "s",
+        "min": 10,
+        "max": 60,
+        "step": 2
+      },
+      {
+        "name": "d",
+        "min": 1,
+        "max": 20,
+        "step": 2
+      }
     ],
     "stem": "The sum of two numbers is {{s}}, and one number is {{d}} more than the other.",
     "quantityA": "The smaller number",
@@ -229,11 +346,26 @@
     "difficulty": 3,
     "stem": "A jar contains only quarters and dimes worth $4.50 total. There are 30 coins in all. How many quarters are there?",
     "options": [
-      { "id": "A", "text": "8" },
-      { "id": "B", "text": "10" },
-      { "id": "C", "text": "12" },
-      { "id": "D", "text": "15" },
-      { "id": "E", "text": "20" }
+      {
+        "id": "A",
+        "text": "8"
+      },
+      {
+        "id": "B",
+        "text": "10"
+      },
+      {
+        "id": "C",
+        "text": "12"
+      },
+      {
+        "id": "D",
+        "text": "15"
+      },
+      {
+        "id": "E",
+        "text": "20"
+      }
     ],
     "answer": "B",
     "solutionStandard": "Let \\(q\\)=quarters, \\(d\\)=dimes. \\(q+d=30\\) and \\(25q+10d=450\\) (cents). Substituting \\(d=30-q\\): \\(25q+300-10q=450\\), giving \\(15q=150\\) and \\(q=10\\).",
@@ -246,8 +378,18 @@
     "secondarySkills": [],
     "difficulty": 3,
     "variables": [
-      { "name": "wt", "min": 2, "max": 20, "step": 1 },
-      { "name": "k", "min": 1, "max": 15, "step": 1 }
+      {
+        "name": "wt",
+        "min": 2,
+        "max": 20,
+        "step": 1
+      },
+      {
+        "name": "k",
+        "min": 1,
+        "max": 15,
+        "step": 1
+      }
     ],
     "stem": "A rectangle's length is {{k}} more than twice its width. If the perimeter is {{6*wt+2*k}}, what is the width?",
     "answer": 5,
@@ -262,10 +404,30 @@
     "secondarySkills": [],
     "difficulty": 4,
     "variables": [
-      { "name": "pa", "min": 7, "max": 12, "step": 1 },
-      { "name": "pc", "min": 3, "max": 6, "step": 1 },
-      { "name": "total", "min": 30, "max": 45, "step": 1 },
-      { "name": "at", "min": 5, "max": 25, "step": 1 }
+      {
+        "name": "pa",
+        "min": 7,
+        "max": 12,
+        "step": 1
+      },
+      {
+        "name": "pc",
+        "min": 3,
+        "max": 6,
+        "step": 1
+      },
+      {
+        "name": "total",
+        "min": 30,
+        "max": 45,
+        "step": 1
+      },
+      {
+        "name": "at",
+        "min": 5,
+        "max": 25,
+        "step": 1
+      }
     ],
     "stem": "Ticket prices are \\({{pa}}\\) dollars for adults and \\({{pc}}\\) dollars for children. A group of {{total}} people paid a total of \\({{pa*at + pc*(total-at)}}\\) dollars. How many adults were in the group?",
     "answer": 10,
@@ -278,14 +440,29 @@
     "type": "MC",
     "primarySkill": "word-problems-algebraic-translation",
     "secondarySkills": [],
-    "difficulty": 4,
+    "difficulty": 5,
     "stem": "Three years ago, a mother was 5 times as old as her son. In 9 years, she will be twice as old as he will be. How old is the mother now?",
     "options": [
-      { "id": "A", "text": "20" },
-      { "id": "B", "text": "23" },
-      { "id": "C", "text": "26" },
-      { "id": "D", "text": "30" },
-      { "id": "E", "text": "35" }
+      {
+        "id": "A",
+        "text": "20"
+      },
+      {
+        "id": "B",
+        "text": "23"
+      },
+      {
+        "id": "C",
+        "text": "26"
+      },
+      {
+        "id": "D",
+        "text": "30"
+      },
+      {
+        "id": "E",
+        "text": "35"
+      }
     ],
     "answer": "B",
     "solutionStandard": "Let the son's current age be \\(x\\). Three years ago, mother \\(=5(x-3)\\), so mother's current age is \\(5(x-3)+3=5x-12\\). In 9 years: \\(5x-12+9=2(x+9)\\), so \\(5x-3=2x+18\\), giving \\(x=7\\). Mother's current age: \\(5(7)-12=23\\).",
@@ -298,10 +475,30 @@
     "secondarySkills": [],
     "difficulty": 5,
     "variables": [
-      { "name": "c1", "min": 4, "max": 8, "step": 1 },
-      { "name": "c2", "min": 9, "max": 14, "step": 1 },
-      { "name": "total", "min": 20, "max": 40, "step": 1 },
-      { "name": "xt", "min": 5, "max": 15, "step": 1 }
+      {
+        "name": "c1",
+        "min": 4,
+        "max": 8,
+        "step": 1
+      },
+      {
+        "name": "c2",
+        "min": 9,
+        "max": 14,
+        "step": 1
+      },
+      {
+        "name": "total",
+        "min": 20,
+        "max": 40,
+        "step": 1
+      },
+      {
+        "name": "xt",
+        "min": 5,
+        "max": 15,
+        "step": 1
+      }
     ],
     "stem": "A merchant mixes coffee worth \\({{c1}}\\) dollars per pound with coffee worth \\({{c2}}\\) dollars per pound to make {{total}} pounds of a blend worth \\({{(c1*xt + c2*(total-xt))/total}}\\) dollars per pound. How many pounds of the \\({{c1}}\\)-dollar coffee are used?",
     "answer": 10,

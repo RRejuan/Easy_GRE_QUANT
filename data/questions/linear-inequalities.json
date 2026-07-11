@@ -7,11 +7,26 @@
     "difficulty": 1,
     "stem": "Solve: \\(x + 5 < 12\\)",
     "options": [
-      { "id": "A", "text": "\\(x < 7\\)" },
-      { "id": "B", "text": "\\(x > 7\\)" },
-      { "id": "C", "text": "\\(x < 17\\)" },
-      { "id": "D", "text": "\\(x < -7\\)" },
-      { "id": "E", "text": "\\(x > -7\\)" }
+      {
+        "id": "A",
+        "text": "\\(x < 7\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(x > 7\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(x < 17\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(x < -7\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(x > -7\\)"
+      }
     ],
     "answer": "A",
     "solutionStandard": "Subtract 5 from both sides: \\(x < 7\\).",
@@ -22,14 +37,29 @@
     "type": "MC",
     "primarySkill": "linear-inequalities",
     "secondarySkills": [],
-    "difficulty": 2,
+    "difficulty": 1,
     "stem": "Solve: \\(-3x > 12\\)",
     "options": [
-      { "id": "A", "text": "\\(x > -4\\)" },
-      { "id": "B", "text": "\\(x < -4\\)" },
-      { "id": "C", "text": "\\(x > 4\\)" },
-      { "id": "D", "text": "\\(x < 4\\)" },
-      { "id": "E", "text": "\\(x = -4\\)" }
+      {
+        "id": "A",
+        "text": "\\(x > -4\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(x < -4\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(x > 4\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(x < 4\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(x = -4\\)"
+      }
     ],
     "answer": "B",
     "solutionStandard": "Divide both sides by \\(-3\\), flipping the inequality: \\(x < -4\\).",
@@ -67,11 +97,26 @@
     "difficulty": 3,
     "stem": "A student needs an average of at least 90 on 4 tests to earn an A. Scores on the first three tests were 88, 92, and 85. What is the minimum score needed on the fourth test?",
     "options": [
-      { "id": "A", "text": "90" },
-      { "id": "B", "text": "92" },
-      { "id": "C", "text": "95" },
-      { "id": "D", "text": "97" },
-      { "id": "E", "text": "100" }
+      {
+        "id": "A",
+        "text": "90"
+      },
+      {
+        "id": "B",
+        "text": "92"
+      },
+      {
+        "id": "C",
+        "text": "95"
+      },
+      {
+        "id": "D",
+        "text": "97"
+      },
+      {
+        "id": "E",
+        "text": "100"
+      }
     ],
     "answer": "C",
     "solutionStandard": "Let the fourth score be \\(x\\). \\(\\dfrac{88+92+85+x}{4} \\ge 90\\), so \\(265+x \\ge 360\\), giving \\(x \\ge 95\\).",
@@ -85,12 +130,28 @@
     "difficulty": 3,
     "stem": "Which of the following values of \\(x\\) satisfy \\(3x - 4 \\le 11\\)? Select all that apply.",
     "options": [
-      { "id": "A", "text": "3" },
-      { "id": "B", "text": "5" },
-      { "id": "C", "text": "6" },
-      { "id": "D", "text": "-2" }
+      {
+        "id": "A",
+        "text": "3"
+      },
+      {
+        "id": "B",
+        "text": "5"
+      },
+      {
+        "id": "C",
+        "text": "6"
+      },
+      {
+        "id": "D",
+        "text": "-2"
+      }
     ],
-    "answer": ["A", "B", "D"],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
     "solutionStandard": "\\(3x \\le 15\\), so \\(x \\le 5\\). Values 3, 5, and -2 all satisfy \\(x\\le5\\); 6 does not.",
     "timeTargetSec": 65
   },
@@ -102,11 +163,26 @@
     "difficulty": 3,
     "stem": "Solve for \\(x\\): \\(\\dfrac{2x-1}{3} \\ge x - 3\\)",
     "options": [
-      { "id": "A", "text": "\\(x \\le 8\\)" },
-      { "id": "B", "text": "\\(x \\ge 8\\)" },
-      { "id": "C", "text": "\\(x \\le -8\\)" },
-      { "id": "D", "text": "\\(x \\ge -8\\)" },
-      { "id": "E", "text": "\\(x \\le 2\\)" }
+      {
+        "id": "A",
+        "text": "\\(x \\le 8\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(x \\ge 8\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(x \\le -8\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(x \\ge -8\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(x \\le 2\\)"
+      }
     ],
     "answer": "A",
     "solutionStandard": "Multiply both sides by 3 (positive, no flip): \\(2x-1 \\ge 3x-9\\). Subtract \\(2x\\): \\(-1 \\ge x-9\\). Add 9: \\(8 \\ge x\\), i.e. \\(x \\le 8\\).",
@@ -131,11 +207,26 @@
     "difficulty": 4,
     "stem": "If \\(-4 \\le x \\le 6\\), what is the range of possible values of \\(-2x\\)?",
     "options": [
-      { "id": "A", "text": "\\(-12 \\le -2x \\le 8\\)" },
-      { "id": "B", "text": "\\(8 \\le -2x \\le -12\\)" },
-      { "id": "C", "text": "\\(-8 \\le -2x \\le 12\\)" },
-      { "id": "D", "text": "\\(-12 \\le -2x \\le -8\\)" },
-      { "id": "E", "text": "\\(-2 \\le -2x \\le 2\\)" }
+      {
+        "id": "A",
+        "text": "\\(-12 \\le -2x \\le 8\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(8 \\le -2x \\le -12\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(-8 \\le -2x \\le 12\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(-12 \\le -2x \\le -8\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(-2 \\le -2x \\le 2\\)"
+      }
     ],
     "answer": "A",
     "solutionStandard": "Multiplying the entire inequality by \\(-2\\) flips both inequality signs and swaps which endpoint is smaller: \\(-4\\times(-2)=8\\) and \\(6\\times(-2)=-12\\), giving \\(-12 \\le -2x \\le 8\\).",
@@ -161,16 +252,41 @@
     "secondarySkills": [],
     "difficulty": 1,
     "variables": [
-      { "name": "a", "min": 1, "max": 20, "step": 1 },
-      { "name": "b", "min": 21, "max": 50, "step": 1 }
+      {
+        "name": "a",
+        "min": 1,
+        "max": 20,
+        "step": 1
+      },
+      {
+        "name": "b",
+        "min": 21,
+        "max": 50,
+        "step": 1
+      }
     ],
     "stem": "Solve: \\(x + {{a}} < {{b}}\\)",
     "options": [
-      { "id": "A", "text": "\\(x < {{b-a}}\\)" },
-      { "id": "B", "text": "\\(x > {{b-a}}\\)" },
-      { "id": "C", "text": "\\(x < {{a-b}}\\)" },
-      { "id": "D", "text": "\\(x < {{b+a}}\\)" },
-      { "id": "E", "text": "\\(x > {{a-b}}\\)" }
+      {
+        "id": "A",
+        "text": "\\(x < {{b-a}}\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(x > {{b-a}}\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(x < {{a-b}}\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(x < {{b+a}}\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(x > {{a-b}}\\)"
+      }
     ],
     "answer": "A",
     "solutionStandard": "Subtract \\({{a}}\\) from both sides: \\(x < {{b}}-{{a}} = {{b-a}}\\).",
@@ -184,11 +300,26 @@
     "difficulty": 1,
     "stem": "Solve: \\(-4x \\le 20\\)",
     "options": [
-      { "id": "A", "text": "\\(x \\le 5\\)" },
-      { "id": "B", "text": "\\(x \\ge 5\\)" },
-      { "id": "C", "text": "\\(x \\le -5\\)" },
-      { "id": "D", "text": "\\(x \\ge -5\\)" },
-      { "id": "E", "text": "\\(x = -5\\)" }
+      {
+        "id": "A",
+        "text": "\\(x \\le 5\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(x \\ge 5\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(x \\le -5\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(x \\ge -5\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(x = -5\\)"
+      }
     ],
     "answer": "D",
     "solutionStandard": "Divide both sides by \\(-4\\), flipping the inequality: \\(x \\ge -5\\).",
@@ -201,8 +332,18 @@
     "secondarySkills": [],
     "difficulty": 2,
     "variables": [
-      { "name": "a", "min": 2, "max": 6, "step": 2 },
-      { "name": "k", "min": 3, "max": 20, "step": 1 }
+      {
+        "name": "a",
+        "min": 2,
+        "max": 6,
+        "step": 2
+      },
+      {
+        "name": "k",
+        "min": 3,
+        "max": 20,
+        "step": 1
+      }
     ],
     "stem": "What is the greatest integer value of \\(x\\) satisfying \\({{a}}x + 3 < {{a*(k+0.5)+3}}\\)?",
     "answer": 7,
@@ -217,8 +358,18 @@
     "secondarySkills": [],
     "difficulty": 2,
     "variables": [
-      { "name": "s", "min": 10, "max": 40, "step": 1 },
-      { "name": "t", "min": 1, "max": 9, "step": 1 }
+      {
+        "name": "s",
+        "min": 10,
+        "max": 40,
+        "step": 1
+      },
+      {
+        "name": "t",
+        "min": 1,
+        "max": 9,
+        "step": 1
+      }
     ],
     "stem": "\\({{s}} - 2x \\ge {{t}}\\)",
     "quantityA": "\\(x\\)",
@@ -235,12 +386,28 @@
     "difficulty": 3,
     "stem": "Which of the following values of \\(x\\) satisfy \\(2x - 5 \\le 7\\)? Select all that apply.",
     "options": [
-      { "id": "A", "text": "4" },
-      { "id": "B", "text": "6" },
-      { "id": "C", "text": "7" },
-      { "id": "D", "text": "-3" }
+      {
+        "id": "A",
+        "text": "4"
+      },
+      {
+        "id": "B",
+        "text": "6"
+      },
+      {
+        "id": "C",
+        "text": "7"
+      },
+      {
+        "id": "D",
+        "text": "-3"
+      }
     ],
-    "answer": ["A", "B", "D"],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
     "solutionStandard": "\\(2x \\le 12\\), so \\(x \\le 6\\). Values 4, 6, and -3 all satisfy \\(x \\le 6\\); 7 does not.",
     "timeTargetSec": 65
   },
@@ -250,7 +417,14 @@
     "primarySkill": "linear-inequalities",
     "secondarySkills": [],
     "difficulty": 3,
-    "variables": [{ "name": "avg", "min": 85, "max": 93, "step": 1 }],
+    "variables": [
+      {
+        "name": "avg",
+        "min": 85,
+        "max": 93,
+        "step": 1
+      }
+    ],
     "stem": "A student needs an average of at least {{avg}} on 4 tests to earn an A. Scores on the first three tests were 88, 92, and 85. What is the minimum score needed on the fourth test?",
     "answer": 95,
     "answerFormula": "4 * avg - 265",
@@ -264,8 +438,18 @@
     "secondarySkills": [],
     "difficulty": 3,
     "variables": [
-      { "name": "a", "min": 2, "max": 6, "step": 2 },
-      { "name": "k", "min": 3, "max": 20, "step": 1 }
+      {
+        "name": "a",
+        "min": 2,
+        "max": 6,
+        "step": 2
+      },
+      {
+        "name": "k",
+        "min": 3,
+        "max": 20,
+        "step": 1
+      }
     ],
     "stem": "How many positive integers \\(x\\) satisfy \\({{a}}x - 7 < {{a*(k+0.5)-7}}\\)?",
     "answer": 6,
@@ -281,11 +465,26 @@
     "difficulty": 4,
     "stem": "If \\(-6 \\le x \\le 3\\), what is the range of possible values of \\(-3x\\)?",
     "options": [
-      { "id": "A", "text": "\\(-18 \\le -3x \\le 9\\)" },
-      { "id": "B", "text": "\\(-9 \\le -3x \\le 18\\)" },
-      { "id": "C", "text": "\\(9 \\le -3x \\le -18\\)" },
-      { "id": "D", "text": "\\(-9 \\le -3x \\le -18\\)" },
-      { "id": "E", "text": "\\(-3 \\le -3x \\le 3\\)" }
+      {
+        "id": "A",
+        "text": "\\(-18 \\le -3x \\le 9\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(-9 \\le -3x \\le 18\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(9 \\le -3x \\le -18\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(-9 \\le -3x \\le -18\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(-3 \\le -3x \\le 3\\)"
+      }
     ],
     "answer": "B",
     "solutionStandard": "Multiplying by \\(-3\\) flips both inequality signs: \\(-6\\times(-3)=18\\) and \\(3\\times(-3)=-9\\), giving \\(-9 \\le -3x \\le 18\\).",
@@ -296,11 +495,26 @@
     "type": "QC",
     "primarySkill": "linear-inequalities",
     "secondarySkills": [],
-    "difficulty": 4,
+    "difficulty": 5,
     "variables": [
-      { "name": "a", "min": 1, "max": 6, "step": 1 },
-      { "name": "b", "min": 1, "max": 6, "step": 1 },
-      { "name": "m", "min": 5, "max": 30, "step": 1 }
+      {
+        "name": "a",
+        "min": 1,
+        "max": 6,
+        "step": 1
+      },
+      {
+        "name": "b",
+        "min": 1,
+        "max": 6,
+        "step": 1
+      },
+      {
+        "name": "m",
+        "min": 5,
+        "max": 30,
+        "step": 1
+      }
     ],
     "stem": "\\({{a}}x + {{b}}y \\le {{a*m}}\\) and \\(x, y\\) are both positive.",
     "quantityA": "\\(x\\)",

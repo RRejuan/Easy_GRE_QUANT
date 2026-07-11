@@ -9,21 +9,97 @@
     "figure": {
       "viewBox": "0 0 200 160",
       "elements": [
-        { "kind": "polygon", "points": [{ "x": 100, "y": 20 }, { "x": 20, "y": 140 }, { "x": 180, "y": 140 }] },
-        { "kind": "line", "from": { "x": 47, "y": 100 }, "to": { "x": 153, "y": 100 } },
-        { "kind": "label", "at": { "x": 96, "y": 14 }, "text": "A" },
-        { "kind": "label", "at": { "x": 8, "y": 148 }, "text": "B" },
-        { "kind": "label", "at": { "x": 184, "y": 148 }, "text": "C" },
-        { "kind": "label", "at": { "x": 30, "y": 95 }, "text": "D" },
-        { "kind": "label", "at": { "x": 158, "y": 95 }, "text": "E" }
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 100,
+              "y": 20
+            },
+            {
+              "x": 20,
+              "y": 140
+            },
+            {
+              "x": 180,
+              "y": 140
+            }
+          ]
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 47,
+            "y": 100
+          },
+          "to": {
+            "x": 153,
+            "y": 100
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 96,
+            "y": 14
+          },
+          "text": "A"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 8,
+            "y": 148
+          },
+          "text": "B"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 184,
+            "y": 148
+          },
+          "text": "C"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 30,
+            "y": 95
+          },
+          "text": "D"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 158,
+            "y": 95
+          },
+          "text": "E"
+        }
       ]
     },
     "options": [
-      { "id": "A", "text": "8" },
-      { "id": "B", "text": "9" },
-      { "id": "C", "text": "10" },
-      { "id": "D", "text": "12" },
-      { "id": "E", "text": "3" }
+      {
+        "id": "A",
+        "text": "8"
+      },
+      {
+        "id": "B",
+        "text": "9"
+      },
+      {
+        "id": "C",
+        "text": "10"
+      },
+      {
+        "id": "D",
+        "text": "12"
+      },
+      {
+        "id": "E",
+        "text": "3"
+      }
     ],
     "answer": "B",
     "solutionStandard": "Since \\(DE \\parallel BC\\), triangles \\(ADE\\) and \\(ABC\\) are similar, with ratio \\(AD:AB = 4:6=2:3\\). So \\(DE:BC=2:3\\), giving \\(BC = 6 \\times \\frac{3}{2} = 9\\).",
@@ -34,7 +110,7 @@
     "type": "Numeric",
     "primarySkill": "similar-triangles",
     "secondarySkills": [],
-    "difficulty": 2,
+    "difficulty": 1,
     "stem": "Triangle A has sides 3, 4, 5. Triangle B is similar to Triangle A with a scale factor of 3. What is the length of the longest side of Triangle B?",
     "answer": 15,
     "solutionStandard": "The longest side of Triangle A is 5; scaling by 3 gives \\(5 \\times 3 = 15\\).",
@@ -58,14 +134,29 @@
     "type": "MC",
     "primarySkill": "similar-triangles",
     "secondarySkills": [],
-    "difficulty": 3,
+    "difficulty": 2,
     "stem": "Triangle \\(ABC\\) is similar to triangle \\(DEF\\), with \\(AB=6\\), \\(DE=9\\), and the area of \\(ABC\\) is 16. What is the area of \\(DEF\\)?",
     "options": [
-      { "id": "A", "text": "24" },
-      { "id": "B", "text": "27" },
-      { "id": "C", "text": "32" },
-      { "id": "D", "text": "36" },
-      { "id": "E", "text": "48" }
+      {
+        "id": "A",
+        "text": "24"
+      },
+      {
+        "id": "B",
+        "text": "27"
+      },
+      {
+        "id": "C",
+        "text": "32"
+      },
+      {
+        "id": "D",
+        "text": "36"
+      },
+      {
+        "id": "E",
+        "text": "48"
+      }
     ],
     "answer": "D",
     "solutionStandard": "Side ratio \\(AB:DE = 6:9=2:3\\). Area ratio \\(=2^2:3^2=4:9\\). Area of \\(DEF = 16 \\times \\frac{9}{4}=36\\).",
@@ -90,11 +181,26 @@
     "difficulty": 3,
     "stem": "In triangle \\(ABC\\), \\(D\\) is on \\(AB\\) and \\(E\\) is on \\(AC\\) such that \\(DE \\parallel BC\\). If \\(AD=3\\), \\(AB=8\\), and the area of triangle \\(ADE\\) is 9, what is the area of triangle \\(ABC\\)?",
     "options": [
-      { "id": "A", "text": "16" },
-      { "id": "B", "text": "24" },
-      { "id": "C", "text": "48" },
-      { "id": "D", "text": "64" },
-      { "id": "E", "text": "72" }
+      {
+        "id": "A",
+        "text": "16"
+      },
+      {
+        "id": "B",
+        "text": "24"
+      },
+      {
+        "id": "C",
+        "text": "48"
+      },
+      {
+        "id": "D",
+        "text": "64"
+      },
+      {
+        "id": "E",
+        "text": "72"
+      }
     ],
     "answer": "D",
     "solutionStandard": "Side ratio \\(AD:AB=3:8\\), so area ratio \\(\\text{Area}_{ADE}:\\text{Area}_{ABC} = 9:64\\). Since \\(\\text{Area}_{ADE}=9\\), we get \\(\\text{Area}_{ABC}=64\\).",
@@ -108,12 +214,28 @@
     "difficulty": 3,
     "stem": "Which of the following conditions guarantee that two triangles are similar? Select all that apply.",
     "options": [
-      { "id": "A", "text": "All three pairs of corresponding angles are equal" },
-      { "id": "B", "text": "Two pairs of corresponding angles are equal" },
-      { "id": "C", "text": "All three pairs of corresponding sides are proportional" },
-      { "id": "D", "text": "One pair of corresponding sides is equal" }
+      {
+        "id": "A",
+        "text": "All three pairs of corresponding angles are equal"
+      },
+      {
+        "id": "B",
+        "text": "Two pairs of corresponding angles are equal"
+      },
+      {
+        "id": "C",
+        "text": "All three pairs of corresponding sides are proportional"
+      },
+      {
+        "id": "D",
+        "text": "One pair of corresponding sides is equal"
+      }
     ],
-    "answer": ["A", "B", "C"],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
     "solutionStandard": "(A) is the definition of similarity. (B) is sufficient because the third angle is then automatically determined (angles sum to 180°). (C) (side-side-side proportionality) also guarantees similarity. (D) alone says nothing about shape.",
     "timeTargetSec": 75
   },
@@ -136,11 +258,26 @@
     "difficulty": 4,
     "stem": "Two similar triangles have areas 25 and 64. If the perimeter of the smaller triangle is 20, what is the perimeter of the larger triangle?",
     "options": [
-      { "id": "A", "text": "25.6" },
-      { "id": "B", "text": "28" },
-      { "id": "C", "text": "32" },
-      { "id": "D", "text": "36" },
-      { "id": "E", "text": "51.2" }
+      {
+        "id": "A",
+        "text": "25.6"
+      },
+      {
+        "id": "B",
+        "text": "28"
+      },
+      {
+        "id": "C",
+        "text": "32"
+      },
+      {
+        "id": "D",
+        "text": "36"
+      },
+      {
+        "id": "E",
+        "text": "51.2"
+      }
     ],
     "answer": "C",
     "solutionStandard": "Area ratio \\(25:64\\) means side (and perimeter) ratio \\(\\sqrt{25}:\\sqrt{64}=5:8\\). Perimeter of larger \\(= 20 \\times \\dfrac{8}{5}=32\\).",
@@ -165,7 +302,14 @@
     "primarySkill": "similar-triangles",
     "secondarySkills": [],
     "difficulty": 1,
-    "variables": [{ "name": "k", "min": 2, "max": 10, "step": 1 }],
+    "variables": [
+      {
+        "name": "k",
+        "min": 2,
+        "max": 10,
+        "step": 1
+      }
+    ],
     "stem": "Triangle A has sides 3, 4, 5. Triangle B is similar to Triangle A with a scale factor of {{k}}. What is the length of the longest side of Triangle B?",
     "answer": 25,
     "answerFormula": "5 * k",
@@ -182,21 +326,97 @@
     "figure": {
       "viewBox": "0 0 200 160",
       "elements": [
-        { "kind": "polygon", "points": [{ "x": 100, "y": 20 }, { "x": 20, "y": 140 }, { "x": 180, "y": 140 }] },
-        { "kind": "line", "from": { "x": 47, "y": 100 }, "to": { "x": 153, "y": 100 } },
-        { "kind": "label", "at": { "x": 96, "y": 14 }, "text": "A" },
-        { "kind": "label", "at": { "x": 8, "y": 148 }, "text": "B" },
-        { "kind": "label", "at": { "x": 184, "y": 148 }, "text": "C" },
-        { "kind": "label", "at": { "x": 30, "y": 95 }, "text": "D" },
-        { "kind": "label", "at": { "x": 158, "y": 95 }, "text": "E" }
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 100,
+              "y": 20
+            },
+            {
+              "x": 20,
+              "y": 140
+            },
+            {
+              "x": 180,
+              "y": 140
+            }
+          ]
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 47,
+            "y": 100
+          },
+          "to": {
+            "x": 153,
+            "y": 100
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 96,
+            "y": 14
+          },
+          "text": "A"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 8,
+            "y": 148
+          },
+          "text": "B"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 184,
+            "y": 148
+          },
+          "text": "C"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 30,
+            "y": 95
+          },
+          "text": "D"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 158,
+            "y": 95
+          },
+          "text": "E"
+        }
       ]
     },
     "options": [
-      { "id": "A", "text": "10" },
-      { "id": "B", "text": "11" },
-      { "id": "C", "text": "12" },
-      { "id": "D", "text": "16" },
-      { "id": "E", "text": "4" }
+      {
+        "id": "A",
+        "text": "10"
+      },
+      {
+        "id": "B",
+        "text": "11"
+      },
+      {
+        "id": "C",
+        "text": "12"
+      },
+      {
+        "id": "D",
+        "text": "16"
+      },
+      {
+        "id": "E",
+        "text": "4"
+      }
     ],
     "answer": "C",
     "solutionStandard": "Since \\(DE \\parallel BC\\), triangles \\(ADE\\) and \\(ABC\\) are similar with ratio \\(AD:AB=6:9=2:3\\). So \\(BC = 8 \\times \\dfrac{3}{2}=12\\).",
@@ -209,8 +429,18 @@
     "secondarySkills": [],
     "difficulty": 2,
     "variables": [
-      { "name": "a", "min": 2, "max": 6, "step": 1 },
-      { "name": "b", "min": 7, "max": 12, "step": 1 }
+      {
+        "name": "a",
+        "min": 2,
+        "max": 6,
+        "step": 1
+      },
+      {
+        "name": "b",
+        "min": 7,
+        "max": 12,
+        "step": 1
+      }
     ],
     "stem": "Two similar triangles have corresponding sides in ratio {{a}}:{{b}}. If the area of the smaller triangle is {{a*a}}, what is the area of the larger triangle?",
     "answer": 81,
@@ -226,11 +456,26 @@
     "difficulty": 2,
     "stem": "Triangle \\(ABC\\) is similar to triangle \\(DEF\\), with \\(AB=8\\), \\(DE=12\\), and the area of \\(ABC\\) is 20. What is the area of \\(DEF\\)?",
     "options": [
-      { "id": "A", "text": "30" },
-      { "id": "B", "text": "35" },
-      { "id": "C", "text": "40" },
-      { "id": "D", "text": "45" },
-      { "id": "E", "text": "60" }
+      {
+        "id": "A",
+        "text": "30"
+      },
+      {
+        "id": "B",
+        "text": "35"
+      },
+      {
+        "id": "C",
+        "text": "40"
+      },
+      {
+        "id": "D",
+        "text": "45"
+      },
+      {
+        "id": "E",
+        "text": "60"
+      }
     ],
     "answer": "D",
     "solutionStandard": "Side ratio \\(8:12=2:3\\). Area ratio \\(=4:9\\). Area of \\(DEF = 20 \\times \\dfrac{9}{4}=45\\).",
@@ -242,7 +487,14 @@
     "primarySkill": "similar-triangles",
     "secondarySkills": [],
     "difficulty": 3,
-    "variables": [{ "name": "ht", "min": 15, "max": 90, "step": 3 }],
+    "variables": [
+      {
+        "name": "ht",
+        "min": 15,
+        "max": 90,
+        "step": 3
+      }
+    ],
     "stem": "A tree casts a shadow \\({{2*ht/3}}\\) feet long at the same time a 6-foot-tall person casts a shadow 4 feet long. How tall is the tree, in feet?",
     "answer": 36,
     "answerFormula": "ht",
@@ -257,11 +509,26 @@
     "difficulty": 3,
     "stem": "In triangle \\(ABC\\), \\(D\\) is on \\(AB\\) and \\(E\\) is on \\(AC\\) such that \\(DE \\parallel BC\\). If \\(AD=4\\), \\(AB=10\\), and the area of triangle \\(ADE\\) is 8, what is the area of triangle \\(ABC\\)?",
     "options": [
-      { "id": "A", "text": "20" },
-      { "id": "B", "text": "32" },
-      { "id": "C", "text": "40" },
-      { "id": "D", "text": "50" },
-      { "id": "E", "text": "62.5" }
+      {
+        "id": "A",
+        "text": "20"
+      },
+      {
+        "id": "B",
+        "text": "32"
+      },
+      {
+        "id": "C",
+        "text": "40"
+      },
+      {
+        "id": "D",
+        "text": "50"
+      },
+      {
+        "id": "E",
+        "text": "62.5"
+      }
     ],
     "answer": "D",
     "solutionStandard": "Side ratio \\(AD:AB=4:10=2:5\\), so area ratio \\(4:25\\). Since \\(\\text{Area}_{ADE}=8\\), \\(\\text{Area}_{ABC}=8\\times\\dfrac{25}{4}=50\\).",
@@ -275,12 +542,28 @@
     "difficulty": 3,
     "stem": "Which of the following are valid criteria for proving two triangles similar? Select all that apply.",
     "options": [
-      { "id": "A", "text": "AA: two pairs of corresponding angles are equal" },
-      { "id": "B", "text": "SSS: three pairs of corresponding sides are proportional" },
-      { "id": "C", "text": "SAS: two pairs of sides are proportional with the included angle equal" },
-      { "id": "D", "text": "Two sides are equal in length, with no angle information" }
+      {
+        "id": "A",
+        "text": "AA: two pairs of corresponding angles are equal"
+      },
+      {
+        "id": "B",
+        "text": "SSS: three pairs of corresponding sides are proportional"
+      },
+      {
+        "id": "C",
+        "text": "SAS: two pairs of sides are proportional with the included angle equal"
+      },
+      {
+        "id": "D",
+        "text": "Two sides are equal in length, with no angle information"
+      }
     ],
-    "answer": ["A", "B", "C"],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
     "solutionStandard": "AA, SSS (proportional), and SAS (proportional with included angle) are all valid similarity criteria. Knowing only two side lengths are equal, with no angle information, guarantees nothing about shape.",
     "timeTargetSec": 75
   },
@@ -291,8 +574,18 @@
     "secondarySkills": [],
     "difficulty": 4,
     "variables": [
-      { "name": "m", "min": 1, "max": 6, "step": 1 },
-      { "name": "n", "min": 1, "max": 6, "step": 1 }
+      {
+        "name": "m",
+        "min": 1,
+        "max": 6,
+        "step": 1
+      },
+      {
+        "name": "n",
+        "min": 1,
+        "max": 6,
+        "step": 1
+      }
     ],
     "stem": "Triangle \\(ABC\\) has a right angle at \\(B\\). \\(D\\) is on \\(AC\\) such that \\(BD\\) is perpendicular to \\(AC\\). If \\(AD={{m*m}}\\) and \\(DC={{n*n}}\\), what is the length of \\(BD\\)?",
     "answer": 6,
@@ -305,14 +598,29 @@
     "type": "MC",
     "primarySkill": "similar-triangles",
     "secondarySkills": [],
-    "difficulty": 4,
+    "difficulty": 5,
     "stem": "Two similar triangles have areas 36 and 100. If the perimeter of the smaller triangle is 24, what is the perimeter of the larger triangle?",
     "options": [
-      { "id": "A", "text": "30" },
-      { "id": "B", "text": "36" },
-      { "id": "C", "text": "40" },
-      { "id": "D", "text": "44" },
-      { "id": "E", "text": "66.7" }
+      {
+        "id": "A",
+        "text": "30"
+      },
+      {
+        "id": "B",
+        "text": "36"
+      },
+      {
+        "id": "C",
+        "text": "40"
+      },
+      {
+        "id": "D",
+        "text": "44"
+      },
+      {
+        "id": "E",
+        "text": "66.7"
+      }
     ],
     "answer": "C",
     "solutionStandard": "Area ratio \\(36:100\\) means side (and perimeter) ratio \\(\\sqrt{36}:\\sqrt{100}=6:10=3:5\\). Perimeter of larger \\(=24\\times\\dfrac{5}{3}=40\\).",

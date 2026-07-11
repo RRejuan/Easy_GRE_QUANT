@@ -15,14 +15,29 @@
     "type": "MC",
     "primarySkill": "sequences-algebraic",
     "secondarySkills": [],
-    "difficulty": 2,
+    "difficulty": 1,
     "stem": "A geometric sequence begins \\(3, 6, 12, 24, \\ldots\\). What is the 7th term?",
     "options": [
-      { "id": "A", "text": "96" },
-      { "id": "B", "text": "144" },
-      { "id": "C", "text": "168" },
-      { "id": "D", "text": "192" },
-      { "id": "E", "text": "216" }
+      {
+        "id": "A",
+        "text": "96"
+      },
+      {
+        "id": "B",
+        "text": "144"
+      },
+      {
+        "id": "C",
+        "text": "168"
+      },
+      {
+        "id": "D",
+        "text": "192"
+      },
+      {
+        "id": "E",
+        "text": "216"
+      }
     ],
     "answer": "D",
     "solutionStandard": "Ratio \\(r=2\\). \\(a_7 = 3 \\times 2^6 = 3 \\times 64 = 192\\).",
@@ -44,7 +59,7 @@
     "type": "QC",
     "primarySkill": "sequences-algebraic",
     "secondarySkills": [],
-    "difficulty": 3,
+    "difficulty": 2,
     "stem": "An arithmetic sequence has first term 5 and common difference 4.",
     "quantityA": "The 20th term",
     "quantityB": "\\(80\\)",
@@ -60,11 +75,26 @@
     "difficulty": 3,
     "stem": "In an arithmetic sequence, the 3rd term is 11 and the 7th term is 27. What is the common difference?",
     "options": [
-      { "id": "A", "text": "2" },
-      { "id": "B", "text": "3" },
-      { "id": "C", "text": "4" },
-      { "id": "D", "text": "5" },
-      { "id": "E", "text": "6" }
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "3"
+      },
+      {
+        "id": "C",
+        "text": "4"
+      },
+      {
+        "id": "D",
+        "text": "5"
+      },
+      {
+        "id": "E",
+        "text": "6"
+      }
     ],
     "answer": "C",
     "solutionStandard": "From the 3rd to the 7th term is 4 steps: \\(27-11=16=4d\\), so \\(d=4\\).",
@@ -89,11 +119,26 @@
     "difficulty": 3,
     "stem": "The first term of an arithmetic sequence is 100 and the common difference is -7. What is the first term that is negative?",
     "options": [
-      { "id": "A", "text": "The 14th term" },
-      { "id": "B", "text": "The 15th term" },
-      { "id": "C", "text": "The 16th term" },
-      { "id": "D", "text": "The 17th term" },
-      { "id": "E", "text": "The 18th term" }
+      {
+        "id": "A",
+        "text": "The 14th term"
+      },
+      {
+        "id": "B",
+        "text": "The 15th term"
+      },
+      {
+        "id": "C",
+        "text": "The 16th term"
+      },
+      {
+        "id": "D",
+        "text": "The 17th term"
+      },
+      {
+        "id": "E",
+        "text": "The 18th term"
+      }
     ],
     "answer": "C",
     "solutionStandard": "\\(a_n = 100-7(n-1) < 0 \\implies 7(n-1) > 100 \\implies n-1 > 14.29 \\implies n > 15.29\\). The first integer \\(n\\) satisfying this is 16.",
@@ -118,11 +163,26 @@
     "difficulty": 4,
     "stem": "A geometric sequence has second term 6 and fourth term 54. If all terms are positive, what is the first term?",
     "options": [
-      { "id": "A", "text": "1" },
-      { "id": "B", "text": "2" },
-      { "id": "C", "text": "3" },
-      { "id": "D", "text": "4" },
-      { "id": "E", "text": "6" }
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "3"
+      },
+      {
+        "id": "D",
+        "text": "4"
+      },
+      {
+        "id": "E",
+        "text": "6"
+      }
     ],
     "answer": "B",
     "solutionStandard": "\\(a_4/a_2 = r^2 = 54/6=9\\), so \\(r=3\\) (positive). \\(a_2 = a_1 \\times r = 6\\), so \\(a_1 = 6/3=2\\).",
@@ -148,9 +208,24 @@
     "secondarySkills": [],
     "difficulty": 1,
     "variables": [
-      { "name": "a", "min": 1, "max": 20, "step": 1 },
-      { "name": "d", "min": 1, "max": 10, "step": 1 },
-      { "name": "n", "min": 4, "max": 10, "step": 1 }
+      {
+        "name": "a",
+        "min": 1,
+        "max": 20,
+        "step": 1
+      },
+      {
+        "name": "d",
+        "min": 1,
+        "max": 10,
+        "step": 1
+      },
+      {
+        "name": "n",
+        "min": 4,
+        "max": 10,
+        "step": 1
+      }
     ],
     "stem": "An arithmetic sequence begins \\({{a}}, {{a+d}}, {{a+2*d}}, \\ldots\\). What is the {{n}}th term?",
     "answer": 22,
@@ -166,11 +241,26 @@
     "difficulty": 1,
     "stem": "An arithmetic sequence begins \\(6, 10, 14, 18, \\ldots\\). What is the 5th term?",
     "options": [
-      { "id": "A", "text": "20" },
-      { "id": "B", "text": "22" },
-      { "id": "C", "text": "24" },
-      { "id": "D", "text": "26" },
-      { "id": "E", "text": "28" }
+      {
+        "id": "A",
+        "text": "20"
+      },
+      {
+        "id": "B",
+        "text": "22"
+      },
+      {
+        "id": "C",
+        "text": "24"
+      },
+      {
+        "id": "D",
+        "text": "26"
+      },
+      {
+        "id": "E",
+        "text": "28"
+      }
     ],
     "answer": "B",
     "solutionStandard": "Common difference \\(d=4\\). \\(a_5 = 6+(5-1)(4)=6+16=22\\).",
@@ -183,9 +273,24 @@
     "secondarySkills": [],
     "difficulty": 2,
     "variables": [
-      { "name": "a", "min": 2, "max": 6, "step": 1 },
-      { "name": "r", "min": 2, "max": 3, "step": 1 },
-      { "name": "n", "min": 4, "max": 5, "step": 1 }
+      {
+        "name": "a",
+        "min": 2,
+        "max": 6,
+        "step": 1
+      },
+      {
+        "name": "r",
+        "min": 2,
+        "max": 3,
+        "step": 1
+      },
+      {
+        "name": "n",
+        "min": 4,
+        "max": 5,
+        "step": 1
+      }
     ],
     "stem": "A geometric sequence begins \\({{a}}, {{a*r}}, {{a*r*r}}, \\ldots\\). What is the {{n}}th term?",
     "answer": 48,
@@ -200,9 +305,24 @@
     "secondarySkills": [],
     "difficulty": 2,
     "variables": [
-      { "name": "a", "min": 1, "max": 10, "step": 1 },
-      { "name": "d", "min": 1, "max": 8, "step": 1 },
-      { "name": "n", "min": 5, "max": 15, "step": 1 }
+      {
+        "name": "a",
+        "min": 1,
+        "max": 10,
+        "step": 1
+      },
+      {
+        "name": "d",
+        "min": 1,
+        "max": 8,
+        "step": 1
+      },
+      {
+        "name": "n",
+        "min": 5,
+        "max": 15,
+        "step": 1
+      }
     ],
     "stem": "What is the sum of the first {{n}} terms of the arithmetic sequence \\({{a}}, {{a+d}}, {{a+2*d}}, \\ldots\\)?",
     "answer": 155,
@@ -217,9 +337,24 @@
     "secondarySkills": [],
     "difficulty": 3,
     "variables": [
-      { "name": "a", "min": 1, "max": 20, "step": 1 },
-      { "name": "d", "min": 2, "max": 10, "step": 1 },
-      { "name": "n", "min": 10, "max": 25, "step": 1 }
+      {
+        "name": "a",
+        "min": 1,
+        "max": 20,
+        "step": 1
+      },
+      {
+        "name": "d",
+        "min": 2,
+        "max": 10,
+        "step": 1
+      },
+      {
+        "name": "n",
+        "min": 10,
+        "max": 25,
+        "step": 1
+      }
     ],
     "stem": "An arithmetic sequence has first term {{a}} and common difference {{d}}.",
     "quantityA": "The {{n}}th term",
@@ -236,11 +371,26 @@
     "difficulty": 3,
     "stem": "In an arithmetic sequence, the 4th term is 20 and the 9th term is 45. What is the common difference?",
     "options": [
-      { "id": "A", "text": "3" },
-      { "id": "B", "text": "4" },
-      { "id": "C", "text": "5" },
-      { "id": "D", "text": "6" },
-      { "id": "E", "text": "7" }
+      {
+        "id": "A",
+        "text": "3"
+      },
+      {
+        "id": "B",
+        "text": "4"
+      },
+      {
+        "id": "C",
+        "text": "5"
+      },
+      {
+        "id": "D",
+        "text": "6"
+      },
+      {
+        "id": "E",
+        "text": "7"
+      }
     ],
     "answer": "C",
     "solutionStandard": "From the 4th to the 9th term is 5 steps: \\(45-20=25=5d\\), so \\(d=5\\).",
@@ -253,8 +403,18 @@
     "secondarySkills": [],
     "difficulty": 3,
     "variables": [
-      { "name": "a", "min": 2, "max": 10, "step": 1 },
-      { "name": "r", "min": 2, "max": 4, "step": 1 }
+      {
+        "name": "a",
+        "min": 2,
+        "max": 10,
+        "step": 1
+      },
+      {
+        "name": "r",
+        "min": 2,
+        "max": 4,
+        "step": 1
+      }
     ],
     "stem": "A geometric sequence has first term {{a}} and common ratio {{r}}. What is the sum of the first 4 terms?",
     "answer": 200,
@@ -269,8 +429,18 @@
     "secondarySkills": [],
     "difficulty": 4,
     "variables": [
-      { "name": "d", "min": 1, "max": 10, "step": 1 },
-      { "name": "t4", "min": 5, "max": 50, "step": 1 }
+      {
+        "name": "d",
+        "min": 1,
+        "max": 10,
+        "step": 1
+      },
+      {
+        "name": "t4",
+        "min": 5,
+        "max": 50,
+        "step": 1
+      }
     ],
     "stem": "In an arithmetic sequence, the 4th term is {{t4}} and the 10th term is {{t4 + 6*d}}. What is the first term?",
     "answer": 6,
@@ -283,14 +453,29 @@
     "type": "MC",
     "primarySkill": "sequences-algebraic",
     "secondarySkills": [],
-    "difficulty": 4,
+    "difficulty": 5,
     "stem": "A geometric sequence has second term 12 and fourth term 108. If all terms are positive, what is the first term?",
     "options": [
-      { "id": "A", "text": "2" },
-      { "id": "B", "text": "3" },
-      { "id": "C", "text": "4" },
-      { "id": "D", "text": "6" },
-      { "id": "E", "text": "9" }
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "3"
+      },
+      {
+        "id": "C",
+        "text": "4"
+      },
+      {
+        "id": "D",
+        "text": "6"
+      },
+      {
+        "id": "E",
+        "text": "9"
+      }
     ],
     "answer": "C",
     "solutionStandard": "\\(a_4/a_2 = r^2 = 108/12=9\\), so \\(r=3\\) (positive). \\(a_2 = a_1 \\times r = 12\\), so \\(a_1 = 12/3=4\\).",

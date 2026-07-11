@@ -3,11 +3,23 @@
     "id": "data-analysis-mixed-practice-001",
     "type": "Numeric",
     "primarySkill": "data-analysis-mixed-practice",
-    "secondarySkills": ["mean-median-mode"],
+    "secondarySkills": [
+      "mean-median-mode"
+    ],
     "difficulty": 1,
     "variables": [
-      { "name": "a", "min": 1, "max": 20, "step": 1 },
-      { "name": "d", "min": 1, "max": 8, "step": 1 }
+      {
+        "name": "a",
+        "min": 1,
+        "max": 20,
+        "step": 1
+      },
+      {
+        "name": "d",
+        "min": 1,
+        "max": 8,
+        "step": 1
+      }
     ],
     "stem": "What is the mean of {{a}}, {{a+d}}, and {{a+2*d}}?",
     "answer": 5,
@@ -19,15 +31,32 @@
     "id": "data-analysis-mixed-practice-002",
     "type": "MC",
     "primarySkill": "data-analysis-mixed-practice",
-    "secondarySkills": ["mean-median-mode"],
+    "secondarySkills": [
+      "mean-median-mode"
+    ],
     "difficulty": 1,
     "stem": "What is the median of the data set \\(4, 9, 2, 7, 5\\)?",
     "options": [
-      { "id": "A", "text": "2" },
-      { "id": "B", "text": "4" },
-      { "id": "C", "text": "5" },
-      { "id": "D", "text": "7" },
-      { "id": "E", "text": "9" }
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "4"
+      },
+      {
+        "id": "C",
+        "text": "5"
+      },
+      {
+        "id": "D",
+        "text": "7"
+      },
+      {
+        "id": "E",
+        "text": "9"
+      }
     ],
     "answer": "C",
     "solutionStandard": "Sorted: \\(2,4,5,7,9\\). The middle value is 5.",
@@ -37,11 +66,23 @@
     "id": "data-analysis-mixed-practice-003",
     "type": "Numeric",
     "primarySkill": "data-analysis-mixed-practice",
-    "secondarySkills": ["range-standard-deviation"],
+    "secondarySkills": [
+      "range-standard-deviation"
+    ],
     "difficulty": 1,
     "variables": [
-      { "name": "lo", "min": 1, "max": 20, "step": 1 },
-      { "name": "r", "min": 3, "max": 40, "step": 1 }
+      {
+        "name": "lo",
+        "min": 1,
+        "max": 20,
+        "step": 1
+      },
+      {
+        "name": "r",
+        "min": 3,
+        "max": 40,
+        "step": 1
+      }
     ],
     "stem": "A data set has minimum {{lo}} and maximum {{lo+r}}. What is the range?",
     "answer": 15,
@@ -53,15 +94,32 @@
     "id": "data-analysis-mixed-practice-004",
     "type": "MC",
     "primarySkill": "data-analysis-mixed-practice",
-    "secondarySkills": ["mean-median-mode"],
+    "secondarySkills": [
+      "mean-median-mode"
+    ],
     "difficulty": 1,
     "stem": "What is the mode of the data set \\(3, 7, 3, 9, 3, 5\\)?",
     "options": [
-      { "id": "A", "text": "3" },
-      { "id": "B", "text": "5" },
-      { "id": "C", "text": "7" },
-      { "id": "D", "text": "9" },
-      { "id": "E", "text": "There is no mode" }
+      {
+        "id": "A",
+        "text": "3"
+      },
+      {
+        "id": "B",
+        "text": "5"
+      },
+      {
+        "id": "C",
+        "text": "7"
+      },
+      {
+        "id": "D",
+        "text": "9"
+      },
+      {
+        "id": "E",
+        "text": "There is no mode"
+      }
     ],
     "answer": "A",
     "solutionStandard": "3 appears three times, more than any other value.",
@@ -71,11 +129,24 @@
     "id": "data-analysis-mixed-practice-005",
     "type": "Numeric",
     "primarySkill": "data-analysis-mixed-practice",
-    "secondarySkills": ["mean-median-mode", "weighted-averages"],
+    "secondarySkills": [
+      "mean-median-mode",
+      "weighted-averages"
+    ],
     "difficulty": 1,
     "variables": [
-      { "name": "n", "min": 4, "max": 15, "step": 1 },
-      { "name": "m", "min": 5, "max": 50, "step": 1 }
+      {
+        "name": "n",
+        "min": 4,
+        "max": 15,
+        "step": 1
+      },
+      {
+        "name": "m",
+        "min": 5,
+        "max": 50,
+        "step": 1
+      }
     ],
     "stem": "The mean of {{n}} numbers is {{m}}. What is their sum?",
     "answer": 60,
@@ -87,15 +158,32 @@
     "id": "data-analysis-mixed-practice-006",
     "type": "MC",
     "primarySkill": "data-analysis-mixed-practice",
-    "secondarySkills": ["probability-basic"],
+    "secondarySkills": [
+      "probability-basic"
+    ],
     "difficulty": 1,
     "stem": "A fair six-sided die is rolled once. What is the probability of rolling a multiple of 3?",
     "options": [
-      { "id": "A", "text": "\\(1/6\\)" },
-      { "id": "B", "text": "\\(1/3\\)" },
-      { "id": "C", "text": "\\(1/2\\)" },
-      { "id": "D", "text": "\\(2/3\\)" },
-      { "id": "E", "text": "\\(5/6\\)" }
+      {
+        "id": "A",
+        "text": "\\(1/6\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(1/3\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(1/2\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(2/3\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(5/6\\)"
+      }
     ],
     "answer": "B",
     "solutionStandard": "Multiples of 3 on a die: 3 and 6, so \\(P=2/6=1/3\\).",
@@ -105,11 +193,23 @@
     "id": "data-analysis-mixed-practice-007",
     "type": "Numeric",
     "primarySkill": "data-analysis-mixed-practice",
-    "secondarySkills": ["counting-permutations"],
+    "secondarySkills": [
+      "counting-permutations"
+    ],
     "difficulty": 1,
     "variables": [
-      { "name": "a", "min": 2, "max": 8, "step": 1 },
-      { "name": "b", "min": 2, "max": 10, "step": 1 }
+      {
+        "name": "a",
+        "min": 2,
+        "max": 8,
+        "step": 1
+      },
+      {
+        "name": "b",
+        "min": 2,
+        "max": 10,
+        "step": 1
+      }
     ],
     "stem": "A store has {{a}} shirt styles and {{b}} pants styles. How many different shirt-and-pants outfits are possible?",
     "answer": 12,
@@ -121,15 +221,32 @@
     "id": "data-analysis-mixed-practice-008",
     "type": "MC",
     "primarySkill": "data-analysis-mixed-practice",
-    "secondarySkills": ["data-interpretation-tables-graphs"],
+    "secondarySkills": [
+      "data-interpretation-tables-graphs"
+    ],
     "difficulty": 1,
     "stem": "Of 150 people surveyed, 30% prefer tea over coffee. How many people prefer tea?",
     "options": [
-      { "id": "A", "text": "30" },
-      { "id": "B", "text": "35" },
-      { "id": "C", "text": "45" },
-      { "id": "D", "text": "50" },
-      { "id": "E", "text": "60" }
+      {
+        "id": "A",
+        "text": "30"
+      },
+      {
+        "id": "B",
+        "text": "35"
+      },
+      {
+        "id": "C",
+        "text": "45"
+      },
+      {
+        "id": "D",
+        "text": "50"
+      },
+      {
+        "id": "E",
+        "text": "60"
+      }
     ],
     "answer": "C",
     "solutionStandard": "\\(0.30\\times150=45\\).",
@@ -139,9 +256,18 @@
     "id": "data-analysis-mixed-practice-009",
     "type": "Numeric",
     "primarySkill": "data-analysis-mixed-practice",
-    "secondarySkills": ["counting-permutations"],
+    "secondarySkills": [
+      "counting-permutations"
+    ],
     "difficulty": 1,
-    "variables": [{ "name": "n", "min": 3, "max": 6, "step": 1 }],
+    "variables": [
+      {
+        "name": "n",
+        "min": 3,
+        "max": 6,
+        "step": 1
+      }
+    ],
     "stem": "In how many ways can {{n}} books be arranged in a row on a shelf?",
     "answer": 6,
     "answerFormula": "(function(){let r=1;for(let i=2;i<=n;i++)r*=i;return r;})()",
@@ -152,15 +278,32 @@
     "id": "data-analysis-mixed-practice-010",
     "type": "MC",
     "primarySkill": "data-analysis-mixed-practice",
-    "secondarySkills": ["venn-diagrams-sets"],
+    "secondarySkills": [
+      "venn-diagrams-sets"
+    ],
     "difficulty": 1,
     "stem": "In a group of 60 people, 40 like at least one of two hobbies (hiking or painting). How many people like neither?",
     "options": [
-      { "id": "A", "text": "10" },
-      { "id": "B", "text": "15" },
-      { "id": "C", "text": "20" },
-      { "id": "D", "text": "25" },
-      { "id": "E", "text": "40" }
+      {
+        "id": "A",
+        "text": "10"
+      },
+      {
+        "id": "B",
+        "text": "15"
+      },
+      {
+        "id": "C",
+        "text": "20"
+      },
+      {
+        "id": "D",
+        "text": "25"
+      },
+      {
+        "id": "E",
+        "text": "40"
+      }
     ],
     "answer": "C",
     "solutionStandard": "Neither \\(=60-40=20\\).",
@@ -170,13 +313,35 @@
     "id": "data-analysis-mixed-practice-011",
     "type": "Numeric",
     "primarySkill": "data-analysis-mixed-practice",
-    "secondarySkills": ["weighted-averages"],
+    "secondarySkills": [
+      "weighted-averages"
+    ],
     "difficulty": 2,
     "variables": [
-      { "name": "n1", "min": 5, "max": 15, "step": 1 },
-      { "name": "n2", "min": 5, "max": 15, "step": 1 },
-      { "name": "avg", "min": 30, "max": 80, "step": 1 },
-      { "name": "k", "min": 1, "max": 2, "step": 1 }
+      {
+        "name": "n1",
+        "min": 5,
+        "max": 15,
+        "step": 1
+      },
+      {
+        "name": "n2",
+        "min": 5,
+        "max": 15,
+        "step": 1
+      },
+      {
+        "name": "avg",
+        "min": 30,
+        "max": 80,
+        "step": 1
+      },
+      {
+        "name": "k",
+        "min": 1,
+        "max": 2,
+        "step": 1
+      }
     ],
     "stem": "Group 1 has {{n1}} items averaging {{avg-k*n2}}. Group 2 has {{n2}} items averaging {{avg+k*n1}}. What is the average of all items combined?",
     "answer": 55,
@@ -188,15 +353,32 @@
     "id": "data-analysis-mixed-practice-012",
     "type": "MC",
     "primarySkill": "data-analysis-mixed-practice",
-    "secondarySkills": ["range-standard-deviation"],
+    "secondarySkills": [
+      "range-standard-deviation"
+    ],
     "difficulty": 2,
     "stem": "A data set has a standard deviation of 6. If every value is increased by 10, what is the new standard deviation?",
     "options": [
-      { "id": "A", "text": "6" },
-      { "id": "B", "text": "10" },
-      { "id": "C", "text": "16" },
-      { "id": "D", "text": "60" },
-      { "id": "E", "text": "Cannot be determined" }
+      {
+        "id": "A",
+        "text": "6"
+      },
+      {
+        "id": "B",
+        "text": "10"
+      },
+      {
+        "id": "C",
+        "text": "16"
+      },
+      {
+        "id": "D",
+        "text": "60"
+      },
+      {
+        "id": "E",
+        "text": "Cannot be determined"
+      }
     ],
     "answer": "A",
     "solutionStandard": "Adding a constant to every value shifts the mean but does not change the spread, so the standard deviation stays 6.",
@@ -206,9 +388,18 @@
     "id": "data-analysis-mixed-practice-013",
     "type": "Numeric",
     "primarySkill": "data-analysis-mixed-practice",
-    "secondarySkills": ["counting-permutations"],
+    "secondarySkills": [
+      "counting-permutations"
+    ],
     "difficulty": 2,
-    "variables": [{ "name": "n", "min": 4, "max": 15, "step": 1 }],
+    "variables": [
+      {
+        "name": "n",
+        "min": 4,
+        "max": 15,
+        "step": 1
+      }
+    ],
     "stem": "In how many ways can a president and a vice president be chosen from a group of {{n}} people?",
     "answer": 20,
     "answerFormula": "n*(n-1)",
@@ -219,15 +410,32 @@
     "id": "data-analysis-mixed-practice-014",
     "type": "MC",
     "primarySkill": "data-analysis-mixed-practice",
-    "secondarySkills": ["counting-combinations"],
+    "secondarySkills": [
+      "counting-combinations"
+    ],
     "difficulty": 2,
     "stem": "In how many ways can a committee of 2 be chosen from a group of 8 people?",
     "options": [
-      { "id": "A", "text": "16" },
-      { "id": "B", "text": "20" },
-      { "id": "C", "text": "28" },
-      { "id": "D", "text": "56" },
-      { "id": "E", "text": "64" }
+      {
+        "id": "A",
+        "text": "16"
+      },
+      {
+        "id": "B",
+        "text": "20"
+      },
+      {
+        "id": "C",
+        "text": "28"
+      },
+      {
+        "id": "D",
+        "text": "56"
+      },
+      {
+        "id": "E",
+        "text": "64"
+      }
     ],
     "answer": "C",
     "solutionStandard": "\\(C(8,2)=\\dfrac{8\\times7}{2}=28\\).",
@@ -237,9 +445,18 @@
     "id": "data-analysis-mixed-practice-015",
     "type": "Numeric",
     "primarySkill": "data-analysis-mixed-practice",
-    "secondarySkills": ["probability-basic"],
+    "secondarySkills": [
+      "probability-basic"
+    ],
     "difficulty": 2,
-    "variables": [{ "name": "n", "min": 4, "max": 12, "step": 2 }],
+    "variables": [
+      {
+        "name": "n",
+        "min": 4,
+        "max": 12,
+        "step": 2
+      }
+    ],
     "stem": "A fair {{n}}-sided die (faces numbered 1 to {{n}}) is rolled once. What is the probability, as a percent, that the result is even? (Enter your answer as a number, without the percent sign.)",
     "answer": 50,
     "answerFormula": "50",
@@ -250,15 +467,32 @@
     "id": "data-analysis-mixed-practice-016",
     "type": "MC",
     "primarySkill": "data-analysis-mixed-practice",
-    "secondarySkills": ["normal-distribution-basics"],
+    "secondarySkills": [
+      "normal-distribution-basics"
+    ],
     "difficulty": 2,
     "stem": "In a normal distribution, approximately what percent of the data falls within 1 standard deviation of the mean?",
     "options": [
-      { "id": "A", "text": "50%" },
-      { "id": "B", "text": "68%" },
-      { "id": "C", "text": "95%" },
-      { "id": "D", "text": "99.7%" },
-      { "id": "E", "text": "34%" }
+      {
+        "id": "A",
+        "text": "50%"
+      },
+      {
+        "id": "B",
+        "text": "68%"
+      },
+      {
+        "id": "C",
+        "text": "95%"
+      },
+      {
+        "id": "D",
+        "text": "99.7%"
+      },
+      {
+        "id": "E",
+        "text": "34%"
+      }
     ],
     "answer": "B",
     "solutionStandard": "By the empirical rule, about 68% of the data falls within 1 standard deviation of the mean.",
@@ -268,13 +502,35 @@
     "id": "data-analysis-mixed-practice-017",
     "type": "Numeric",
     "primarySkill": "data-analysis-mixed-practice",
-    "secondarySkills": ["venn-diagrams-sets"],
+    "secondarySkills": [
+      "venn-diagrams-sets"
+    ],
     "difficulty": 2,
     "variables": [
-      { "name": "aOnly", "min": 5, "max": 20, "step": 1 },
-      { "name": "bOnly", "min": 3, "max": 15, "step": 1 },
-      { "name": "both", "min": 2, "max": 10, "step": 1 },
-      { "name": "neither", "min": 0, "max": 10, "step": 1 }
+      {
+        "name": "aOnly",
+        "min": 5,
+        "max": 20,
+        "step": 1
+      },
+      {
+        "name": "bOnly",
+        "min": 3,
+        "max": 15,
+        "step": 1
+      },
+      {
+        "name": "both",
+        "min": 2,
+        "max": 10,
+        "step": 1
+      },
+      {
+        "name": "neither",
+        "min": 0,
+        "max": 10,
+        "step": 1
+      }
     ],
     "stem": "In a class of {{aOnly+bOnly+both+neither}} students, {{aOnly+both}} take Spanish and {{bOnly+both}} take French, with {{both}} taking both. How many students take at least one of the two languages?",
     "answer": 23,
@@ -286,15 +542,32 @@
     "id": "data-analysis-mixed-practice-018",
     "type": "MC",
     "primarySkill": "data-analysis-mixed-practice",
-    "secondarySkills": ["data-interpretation-tables-graphs"],
+    "secondarySkills": [
+      "data-interpretation-tables-graphs"
+    ],
     "difficulty": 2,
     "stem": "A pie chart shows a school's 400 students by grade: 25% freshmen. How many students are freshmen?",
     "options": [
-      { "id": "A", "text": "75" },
-      { "id": "B", "text": "100" },
-      { "id": "C", "text": "125" },
-      { "id": "D", "text": "150" },
-      { "id": "E", "text": "200" }
+      {
+        "id": "A",
+        "text": "75"
+      },
+      {
+        "id": "B",
+        "text": "100"
+      },
+      {
+        "id": "C",
+        "text": "125"
+      },
+      {
+        "id": "D",
+        "text": "150"
+      },
+      {
+        "id": "E",
+        "text": "200"
+      }
     ],
     "answer": "B",
     "solutionStandard": "\\(0.25\\times400=100\\).",
@@ -304,12 +577,29 @@
     "id": "data-analysis-mixed-practice-019",
     "type": "Numeric",
     "primarySkill": "data-analysis-mixed-practice",
-    "secondarySkills": ["mean-median-mode"],
+    "secondarySkills": [
+      "mean-median-mode"
+    ],
     "difficulty": 2,
     "variables": [
-      { "name": "n", "min": 5, "max": 12, "step": 1 },
-      { "name": "m1", "min": 10, "max": 40, "step": 1 },
-      { "name": "d", "min": -6, "max": -1, "step": 1 }
+      {
+        "name": "n",
+        "min": 5,
+        "max": 12,
+        "step": 1
+      },
+      {
+        "name": "m1",
+        "min": 10,
+        "max": 40,
+        "step": 1
+      },
+      {
+        "name": "d",
+        "min": -6,
+        "max": -1,
+        "step": 1
+      }
     ],
     "stem": "The mean of {{n}} numbers is {{m1}}. When one number is removed, the mean of the remaining {{n-1}} numbers is {{m1+d}}. What number was removed?",
     "answer": 24,
@@ -321,15 +611,32 @@
     "id": "data-analysis-mixed-practice-020",
     "type": "MC",
     "primarySkill": "data-analysis-mixed-practice",
-    "secondarySkills": ["probability-compound"],
+    "secondarySkills": [
+      "probability-compound"
+    ],
     "difficulty": 2,
     "stem": "A standard die is rolled once. What is the probability of rolling a 2 or a 5?",
     "options": [
-      { "id": "A", "text": "1/6" },
-      { "id": "B", "text": "1/3" },
-      { "id": "C", "text": "1/2" },
-      { "id": "D", "text": "2/6" },
-      { "id": "E", "text": "1/36" }
+      {
+        "id": "A",
+        "text": "1/6"
+      },
+      {
+        "id": "B",
+        "text": "1/3"
+      },
+      {
+        "id": "C",
+        "text": "1/2"
+      },
+      {
+        "id": "D",
+        "text": "2/6"
+      },
+      {
+        "id": "E",
+        "text": "1/36"
+      }
     ],
     "answer": "B",
     "solutionStandard": "These outcomes are mutually exclusive: \\(P=1/6+1/6=2/6=1/3\\).",
@@ -339,11 +646,23 @@
     "id": "data-analysis-mixed-practice-021",
     "type": "Numeric",
     "primarySkill": "data-analysis-mixed-practice",
-    "secondarySkills": ["mean-median-mode"],
+    "secondarySkills": [
+      "mean-median-mode"
+    ],
     "difficulty": 3,
     "variables": [
-      { "name": "a", "min": 1, "max": 15, "step": 1 },
-      { "name": "d", "min": 2, "max": 8, "step": 2 }
+      {
+        "name": "a",
+        "min": 1,
+        "max": 15,
+        "step": 1
+      },
+      {
+        "name": "d",
+        "min": 2,
+        "max": 8,
+        "step": 2
+      }
     ],
     "stem": "What is the median of {{a}}, {{a+d}}, {{a+2*d}}, {{a+3*d}}?",
     "answer": 9,
@@ -355,15 +674,32 @@
     "id": "data-analysis-mixed-practice-022",
     "type": "MC",
     "primarySkill": "data-analysis-mixed-practice",
-    "secondarySkills": ["range-standard-deviation"],
+    "secondarySkills": [
+      "range-standard-deviation"
+    ],
     "difficulty": 3,
     "stem": "A data set has a standard deviation of 4. If every value is doubled, what is the new standard deviation?",
     "options": [
-      { "id": "A", "text": "4" },
-      { "id": "B", "text": "6" },
-      { "id": "C", "text": "8" },
-      { "id": "D", "text": "16" },
-      { "id": "E", "text": "Cannot be determined" }
+      {
+        "id": "A",
+        "text": "4"
+      },
+      {
+        "id": "B",
+        "text": "6"
+      },
+      {
+        "id": "C",
+        "text": "8"
+      },
+      {
+        "id": "D",
+        "text": "16"
+      },
+      {
+        "id": "E",
+        "text": "Cannot be determined"
+      }
     ],
     "answer": "C",
     "solutionStandard": "Multiplying every value by a constant multiplies the standard deviation by that constant: \\(4\\times2=8\\).",
@@ -373,9 +709,18 @@
     "id": "data-analysis-mixed-practice-023",
     "type": "Numeric",
     "primarySkill": "data-analysis-mixed-practice",
-    "secondarySkills": ["counting-permutations"],
+    "secondarySkills": [
+      "counting-permutations"
+    ],
     "difficulty": 3,
-    "variables": [{ "name": "n", "min": 6, "max": 15, "step": 1 }],
+    "variables": [
+      {
+        "name": "n",
+        "min": 6,
+        "max": 15,
+        "step": 1
+      }
+    ],
     "stem": "In how many ways can 1st, 2nd, and 3rd place be awarded among {{n}} runners (no ties)?",
     "answer": 210,
     "answerFormula": "(function(){let r=1;for(let i=0;i<3;i++)r*=(n-i);return r;})()",
@@ -386,15 +731,32 @@
     "id": "data-analysis-mixed-practice-024",
     "type": "MC",
     "primarySkill": "data-analysis-mixed-practice",
-    "secondarySkills": ["counting-combinations"],
+    "secondarySkills": [
+      "counting-combinations"
+    ],
     "difficulty": 3,
     "stem": "A pizza shop offers 8 toppings. How many different 3-topping pizzas can be made (no repeats, order doesn't matter)?",
     "options": [
-      { "id": "A", "text": "24" },
-      { "id": "B", "text": "56" },
-      { "id": "C", "text": "168" },
-      { "id": "D", "text": "336" },
-      { "id": "E", "text": "512" }
+      {
+        "id": "A",
+        "text": "24"
+      },
+      {
+        "id": "B",
+        "text": "56"
+      },
+      {
+        "id": "C",
+        "text": "168"
+      },
+      {
+        "id": "D",
+        "text": "336"
+      },
+      {
+        "id": "E",
+        "text": "512"
+      }
     ],
     "answer": "B",
     "solutionStandard": "\\(C(8,3)=\\dfrac{8!}{3!5!}=56\\).",
@@ -404,11 +766,23 @@
     "id": "data-analysis-mixed-practice-025",
     "type": "Numeric",
     "primarySkill": "data-analysis-mixed-practice",
-    "secondarySkills": ["probability-compound"],
+    "secondarySkills": [
+      "probability-compound"
+    ],
     "difficulty": 3,
     "variables": [
-      { "name": "pA", "min": 1, "max": 9, "step": 1 },
-      { "name": "pB", "min": 1, "max": 9, "step": 1 }
+      {
+        "name": "pA",
+        "min": 1,
+        "max": 9,
+        "step": 1
+      },
+      {
+        "name": "pB",
+        "min": 1,
+        "max": 9,
+        "step": 1
+      }
     ],
     "stem": "Events A and B are independent, with \\(P(A)={{pA/10}}\\) and \\(P(B)={{pB/10}}\\). What is \\(P(A \\text{ and } B)\\)?",
     "answer": 0.2,
@@ -420,15 +794,32 @@
     "id": "data-analysis-mixed-practice-026",
     "type": "MC",
     "primarySkill": "data-analysis-mixed-practice",
-    "secondarySkills": ["normal-distribution-basics"],
+    "secondarySkills": [
+      "normal-distribution-basics"
+    ],
     "difficulty": 3,
     "stem": "Scores are normally distributed with mean 500 and standard deviation 100. What percent of scores are below 400?",
     "options": [
-      { "id": "A", "text": "2.5%" },
-      { "id": "B", "text": "16%" },
-      { "id": "C", "text": "34%" },
-      { "id": "D", "text": "68%" },
-      { "id": "E", "text": "84%" }
+      {
+        "id": "A",
+        "text": "2.5%"
+      },
+      {
+        "id": "B",
+        "text": "16%"
+      },
+      {
+        "id": "C",
+        "text": "34%"
+      },
+      {
+        "id": "D",
+        "text": "68%"
+      },
+      {
+        "id": "E",
+        "text": "84%"
+      }
     ],
     "answer": "B",
     "solutionStandard": "400 is 1 SD below the mean. About 34% falls between 400 and the mean, and 50% is below the mean overall, so below 400: \\(50-34=16\\%\\).",
@@ -438,11 +829,23 @@
     "id": "data-analysis-mixed-practice-027",
     "type": "Numeric",
     "primarySkill": "data-analysis-mixed-practice",
-    "secondarySkills": ["data-interpretation-tables-graphs"],
+    "secondarySkills": [
+      "data-interpretation-tables-graphs"
+    ],
     "difficulty": 3,
     "variables": [
-      { "name": "v1", "min": 20, "max": 80, "step": 10 },
-      { "name": "pct", "min": 10, "max": 100, "step": 10 }
+      {
+        "name": "v1",
+        "min": 20,
+        "max": 80,
+        "step": 10
+      },
+      {
+        "name": "pct",
+        "min": 10,
+        "max": 100,
+        "step": 10
+      }
     ],
     "stem": "A company's profit was ${{v1}},000 in 2020 and ${{v1*(100+pct)/100}},000 in 2022. What was the percent increase?",
     "answer": 60,
@@ -454,15 +857,32 @@
     "id": "data-analysis-mixed-practice-028",
     "type": "MC",
     "primarySkill": "data-analysis-mixed-practice",
-    "secondarySkills": ["venn-diagrams-sets"],
+    "secondarySkills": [
+      "venn-diagrams-sets"
+    ],
     "difficulty": 3,
     "stem": "In a class, 24 students study biology, 18 study chemistry, and 10 study both. If every student studies at least one of the two subjects, how many students are in the class?",
     "options": [
-      { "id": "A", "text": "22" },
-      { "id": "B", "text": "28" },
-      { "id": "C", "text": "32" },
-      { "id": "D", "text": "42" },
-      { "id": "E", "text": "52" }
+      {
+        "id": "A",
+        "text": "22"
+      },
+      {
+        "id": "B",
+        "text": "28"
+      },
+      {
+        "id": "C",
+        "text": "32"
+      },
+      {
+        "id": "D",
+        "text": "42"
+      },
+      {
+        "id": "E",
+        "text": "52"
+      }
     ],
     "answer": "C",
     "solutionStandard": "\\(|B\\cup C|=24+18-10=32\\).",
@@ -472,11 +892,23 @@
     "id": "data-analysis-mixed-practice-029",
     "type": "Numeric",
     "primarySkill": "data-analysis-mixed-practice",
-    "secondarySkills": ["data-interpretation-tables-graphs"],
+    "secondarySkills": [
+      "data-interpretation-tables-graphs"
+    ],
     "difficulty": 3,
     "variables": [
-      { "name": "total", "min": 100, "max": 900, "step": 10 },
-      { "name": "pctA", "min": 10, "max": 90, "step": 10 }
+      {
+        "name": "total",
+        "min": 100,
+        "max": 900,
+        "step": 10
+      },
+      {
+        "name": "pctA",
+        "min": 10,
+        "max": 90,
+        "step": 10
+      }
     ],
     "stem": "A charity raised ${{total}}. If {{pctA}}% goes to administrative costs, how much money, in dollars, goes directly to the cause?",
     "answer": 350,
@@ -488,15 +920,32 @@
     "id": "data-analysis-mixed-practice-030",
     "type": "MC",
     "primarySkill": "data-analysis-mixed-practice",
-    "secondarySkills": ["probability-compound"],
+    "secondarySkills": [
+      "probability-compound"
+    ],
     "difficulty": 3,
     "stem": "A die is rolled twice. What is the probability of rolling at least one 6?",
     "options": [
-      { "id": "A", "text": "1/6" },
-      { "id": "B", "text": "1/3" },
-      { "id": "C", "text": "11/36" },
-      { "id": "D", "text": "1/36" },
-      { "id": "E", "text": "25/36" }
+      {
+        "id": "A",
+        "text": "1/6"
+      },
+      {
+        "id": "B",
+        "text": "1/3"
+      },
+      {
+        "id": "C",
+        "text": "11/36"
+      },
+      {
+        "id": "D",
+        "text": "1/36"
+      },
+      {
+        "id": "E",
+        "text": "25/36"
+      }
     ],
     "answer": "C",
     "solutionStandard": "\\(P(\\text{no 6 in 2 rolls})=(5/6)^2=25/36\\). \\(P(\\text{at least one 6})=1-25/36=11/36\\).",
@@ -506,8 +955,10 @@
     "id": "data-analysis-mixed-practice-031",
     "type": "QC",
     "primarySkill": "data-analysis-mixed-practice",
-    "secondarySkills": ["mean-median-mode"],
-    "difficulty": 4,
+    "secondarySkills": [
+      "mean-median-mode"
+    ],
+    "difficulty": 3,
     "stem": "A data set of 9 distinct positive integers is strongly right-skewed (a long tail of large values).",
     "quantityA": "The mean",
     "quantityB": "The median",
@@ -519,15 +970,32 @@
     "id": "data-analysis-mixed-practice-032",
     "type": "MC",
     "primarySkill": "data-analysis-mixed-practice",
-    "secondarySkills": ["counting-combinations"],
-    "difficulty": 4,
+    "secondarySkills": [
+      "counting-combinations"
+    ],
+    "difficulty": 3,
     "stem": "In how many ways can a committee of at least 1 person be chosen from a group of 4 people?",
     "options": [
-      { "id": "A", "text": "8" },
-      { "id": "B", "text": "10" },
-      { "id": "C", "text": "15" },
-      { "id": "D", "text": "16" },
-      { "id": "E", "text": "24" }
+      {
+        "id": "A",
+        "text": "8"
+      },
+      {
+        "id": "B",
+        "text": "10"
+      },
+      {
+        "id": "C",
+        "text": "15"
+      },
+      {
+        "id": "D",
+        "text": "16"
+      },
+      {
+        "id": "E",
+        "text": "24"
+      }
     ],
     "answer": "C",
     "solutionStandard": "Total subsets of 4 people is \\(2^4=16\\); excluding the empty subset (choosing no one) gives \\(16-1=15\\).",
@@ -537,8 +1005,10 @@
     "id": "data-analysis-mixed-practice-033",
     "type": "Numeric",
     "primarySkill": "data-analysis-mixed-practice",
-    "secondarySkills": ["counting-permutations"],
-    "difficulty": 4,
+    "secondarySkills": [
+      "counting-permutations"
+    ],
+    "difficulty": 3,
     "stem": "In how many distinct ways can the letters of the word \"BANANA\" be arranged?",
     "answer": 60,
     "solutionStandard": "\"BANANA\" has 6 letters with A repeated 3 times and N repeated 2 times: \\(\\dfrac{6!}{3!2!}=\\dfrac{720}{12}=60\\).",
@@ -548,8 +1018,10 @@
     "id": "data-analysis-mixed-practice-034",
     "type": "QC",
     "primarySkill": "data-analysis-mixed-practice",
-    "secondarySkills": ["probability-compound"],
-    "difficulty": 4,
+    "secondarySkills": [
+      "probability-compound"
+    ],
+    "difficulty": 3,
     "stem": "A bag has red and blue marbles, with at least one of each color. Two marbles are drawn.",
     "quantityA": "\\(P(\\text{both red})\\) if drawn without replacement",
     "quantityB": "\\(P(\\text{both red})\\) if drawn with replacement",
@@ -561,11 +1033,23 @@
     "id": "data-analysis-mixed-practice-035",
     "type": "Numeric",
     "primarySkill": "data-analysis-mixed-practice",
-    "secondarySkills": ["counting-combinations"],
-    "difficulty": 4,
+    "secondarySkills": [
+      "counting-combinations"
+    ],
+    "difficulty": 3,
     "variables": [
-      { "name": "w", "min": 3, "max": 8, "step": 1 },
-      { "name": "m", "min": 3, "max": 8, "step": 1 }
+      {
+        "name": "w",
+        "min": 3,
+        "max": 8,
+        "step": 1
+      },
+      {
+        "name": "m",
+        "min": 3,
+        "max": 8,
+        "step": 1
+      }
     ],
     "stem": "A group has {{w}} women and {{m}} men. In how many ways can a team of 2 women and 2 men be chosen?",
     "answer": 60,
@@ -577,15 +1061,32 @@
     "id": "data-analysis-mixed-practice-036",
     "type": "MC",
     "primarySkill": "data-analysis-mixed-practice",
-    "secondarySkills": ["data-interpretation-tables-graphs"],
+    "secondarySkills": [
+      "data-interpretation-tables-graphs"
+    ],
     "difficulty": 4,
     "stem": "A store's sales total $60,000: Electronics is 30% of that. If Electronics sales increase by 20% (of their own value) while total sales stay the same, what percent of the new total do Electronics represent?",
     "options": [
-      { "id": "A", "text": "30%" },
-      { "id": "B", "text": "32%" },
-      { "id": "C", "text": "36%" },
-      { "id": "D", "text": "40%" },
-      { "id": "E", "text": "50%" }
+      {
+        "id": "A",
+        "text": "30%"
+      },
+      {
+        "id": "B",
+        "text": "32%"
+      },
+      {
+        "id": "C",
+        "text": "36%"
+      },
+      {
+        "id": "D",
+        "text": "40%"
+      },
+      {
+        "id": "E",
+        "text": "50%"
+      }
     ],
     "answer": "C",
     "solutionStandard": "Electronics: \\(0.30\\times60000=18000\\). After a 20% increase: \\(18000\\times1.2=21600\\). As a percent of $60,000: \\(21600/60000=36\\%\\).",
@@ -595,11 +1096,16 @@
     "id": "data-analysis-mixed-practice-037",
     "type": "Numeric",
     "primarySkill": "data-analysis-mixed-practice",
-    "secondarySkills": ["probability-compound"],
+    "secondarySkills": [
+      "probability-compound"
+    ],
     "difficulty": 4,
     "stem": "A bag has 4 red and 6 blue marbles. Two marbles are drawn without replacement. What is the probability that the two marbles are different colors? (Enter as a decimal.)",
     "answer": 0.533,
-    "acceptableRange": [0.532, 0.534],
+    "acceptableRange": [
+      0.532,
+      0.534
+    ],
     "solutionStandard": "\\(P(\\text{red then blue})=\\frac{4}{10}\\times\\frac{6}{9}=\\frac{24}{90}\\). \\(P(\\text{blue then red})=\\frac{6}{10}\\times\\frac{4}{9}=\\frac{24}{90}\\). Total: \\(\\frac{48}{90}=\\frac{8}{15}\\approx0.533\\).",
     "timeTargetSec": 95
   },
@@ -607,12 +1113,29 @@
     "id": "data-analysis-mixed-practice-038",
     "type": "QC",
     "primarySkill": "data-analysis-mixed-practice",
-    "secondarySkills": ["venn-diagrams-sets"],
+    "secondarySkills": [
+      "venn-diagrams-sets"
+    ],
     "difficulty": 4,
     "variables": [
-      { "name": "total", "min": 4, "max": 20, "step": 2 },
-      { "name": "pctA", "min": 20, "max": 40, "step": 5 },
-      { "name": "pctB", "min": 15, "max": 35, "step": 5 }
+      {
+        "name": "total",
+        "min": 4,
+        "max": 20,
+        "step": 2
+      },
+      {
+        "name": "pctA",
+        "min": 20,
+        "max": 40,
+        "step": 5
+      },
+      {
+        "name": "pctB",
+        "min": 15,
+        "max": 35,
+        "step": 5
+      }
     ],
     "stem": "A pie chart shows a company's ${{total}} million budget: R&D {{pctA}}%, Marketing {{pctB}}%, with the remaining {{100-pctA-pctB}}% split between Operations and Admin in an unspecified ratio.",
     "quantityA": "The amount spent on Operations",
@@ -625,11 +1148,24 @@
     "id": "data-analysis-mixed-practice-039",
     "type": "Numeric",
     "primarySkill": "data-analysis-mixed-practice",
-    "secondarySkills": ["counting-permutations", "counting-combinations"],
+    "secondarySkills": [
+      "counting-permutations",
+      "counting-combinations"
+    ],
     "difficulty": 4,
     "variables": [
-      { "name": "n", "min": 6, "max": 12, "step": 1 },
-      { "name": "k", "min": 2, "max": 4, "step": 1 }
+      {
+        "name": "n",
+        "min": 6,
+        "max": 12,
+        "step": 1
+      },
+      {
+        "name": "k",
+        "min": 2,
+        "max": 4,
+        "step": 1
+      }
     ],
     "stem": "From {{n}} finalists, {{k}} distinct prizes (1st, 2nd, ..., {{k}}th place) are awarded, one to each of {{k}} different finalists. In how many ways can this be done?",
     "answer": 210,
@@ -641,15 +1177,32 @@
     "id": "data-analysis-mixed-practice-040",
     "type": "MC",
     "primarySkill": "data-analysis-mixed-practice",
-    "secondarySkills": ["normal-distribution-basics"],
+    "secondarySkills": [
+      "normal-distribution-basics"
+    ],
     "difficulty": 4,
     "stem": "A normal distribution has mean 50 and standard deviation 5. What percent of the data falls between 40 and 60?",
     "options": [
-      { "id": "A", "text": "50%" },
-      { "id": "B", "text": "68%" },
-      { "id": "C", "text": "95%" },
-      { "id": "D", "text": "97.5%" },
-      { "id": "E", "text": "99.7%" }
+      {
+        "id": "A",
+        "text": "50%"
+      },
+      {
+        "id": "B",
+        "text": "68%"
+      },
+      {
+        "id": "C",
+        "text": "95%"
+      },
+      {
+        "id": "D",
+        "text": "97.5%"
+      },
+      {
+        "id": "E",
+        "text": "99.7%"
+      }
     ],
     "answer": "C",
     "solutionStandard": "40 and 60 are exactly 2 SD below and above the mean, so about 95% of the data falls between them.",
@@ -659,8 +1212,10 @@
     "id": "data-analysis-mixed-practice-041",
     "type": "QC",
     "primarySkill": "data-analysis-mixed-practice",
-    "secondarySkills": ["weighted-averages"],
-    "difficulty": 5,
+    "secondarySkills": [
+      "weighted-averages"
+    ],
+    "difficulty": 4,
     "stem": "Class A has average score \\(p\\) and Class B has average score \\(q\\), where \\(p \\neq q\\). Class A has more students than Class B.",
     "quantityA": "The combined average of both classes",
     "quantityB": "\\(\\dfrac{p+q}{2}\\)",
@@ -672,9 +1227,19 @@
     "id": "data-analysis-mixed-practice-042",
     "type": "Numeric",
     "primarySkill": "data-analysis-mixed-practice",
-    "secondarySkills": ["counting-combinations", "counting-permutations"],
-    "difficulty": 5,
-    "variables": [{ "name": "n", "min": 6, "max": 12, "step": 1 }],
+    "secondarySkills": [
+      "counting-combinations",
+      "counting-permutations"
+    ],
+    "difficulty": 4,
+    "variables": [
+      {
+        "name": "n",
+        "min": 6,
+        "max": 12,
+        "step": 1
+      }
+    ],
     "stem": "From {{n}} people, a group of 3 is chosen, and one of the 3 is then designated as leader. In how many ways can this be done?",
     "answer": 168,
     "answerFormula": "(function(){function C(n,k){let r=1;for(let i=0;i<k;i++)r*=(n-i);for(let i=1;i<=k;i++)r/=i;return Math.round(r);} return C(n,3)*3;})()",
@@ -685,15 +1250,32 @@
     "id": "data-analysis-mixed-practice-043",
     "type": "MC",
     "primarySkill": "data-analysis-mixed-practice",
-    "secondarySkills": ["probability-compound"],
-    "difficulty": 5,
+    "secondarySkills": [
+      "probability-compound"
+    ],
+    "difficulty": 4,
     "stem": "Three fair coins are flipped. What is the probability of getting at least 2 heads?",
     "options": [
-      { "id": "A", "text": "1/8" },
-      { "id": "B", "text": "1/4" },
-      { "id": "C", "text": "3/8" },
-      { "id": "D", "text": "1/2" },
-      { "id": "E", "text": "3/4" }
+      {
+        "id": "A",
+        "text": "1/8"
+      },
+      {
+        "id": "B",
+        "text": "1/4"
+      },
+      {
+        "id": "C",
+        "text": "3/8"
+      },
+      {
+        "id": "D",
+        "text": "1/2"
+      },
+      {
+        "id": "E",
+        "text": "3/4"
+      }
     ],
     "answer": "D",
     "solutionStandard": "Favorable outcomes (2 or 3 heads): HHT, HTH, THH, HHH — 4 out of 8 total outcomes: \\(P=4/8=1/2\\).",
@@ -703,12 +1285,29 @@
     "id": "data-analysis-mixed-practice-044",
     "type": "Numeric",
     "primarySkill": "data-analysis-mixed-practice",
-    "secondarySkills": ["mean-median-mode"],
-    "difficulty": 5,
+    "secondarySkills": [
+      "mean-median-mode"
+    ],
+    "difficulty": 4,
     "variables": [
-      { "name": "n", "min": 4, "max": 15, "step": 1 },
-      { "name": "m", "min": 10, "max": 40, "step": 1 },
-      { "name": "e", "min": 1, "max": 8, "step": 1 }
+      {
+        "name": "n",
+        "min": 4,
+        "max": 15,
+        "step": 1
+      },
+      {
+        "name": "m",
+        "min": 10,
+        "max": 40,
+        "step": 1
+      },
+      {
+        "name": "e",
+        "min": 1,
+        "max": 8,
+        "step": 1
+      }
     ],
     "stem": "A data set of {{n}} numbers has a mean of {{m}}. One more number is added, making the mean of all {{n+1}} numbers equal to {{m+e}}. What number was added?",
     "answer": 47,
@@ -720,8 +1319,10 @@
     "id": "data-analysis-mixed-practice-045",
     "type": "QC",
     "primarySkill": "data-analysis-mixed-practice",
-    "secondarySkills": ["probability-compound"],
-    "difficulty": 5,
+    "secondarySkills": [
+      "probability-compound"
+    ],
+    "difficulty": 4,
     "stem": "\\(P(\\text{likes math}) = 0.7\\) and \\(P(\\text{likes science}) = 0.6\\) in a class. \\(P(\\text{likes both})\\) is not given.",
     "quantityA": "\\(P(\\text{likes math or science})\\)",
     "quantityB": "\\(1\\)",
@@ -733,15 +1334,32 @@
     "id": "data-analysis-mixed-practice-046",
     "type": "MC",
     "primarySkill": "data-analysis-mixed-practice",
-    "secondarySkills": ["counting-combinations"],
+    "secondarySkills": [
+      "counting-combinations"
+    ],
     "difficulty": 5,
     "stem": "How many diagonals does a nonagon (9 sides) have?",
     "options": [
-      { "id": "A", "text": "18" },
-      { "id": "B", "text": "24" },
-      { "id": "C", "text": "27" },
-      { "id": "D", "text": "36" },
-      { "id": "E", "text": "45" }
+      {
+        "id": "A",
+        "text": "18"
+      },
+      {
+        "id": "B",
+        "text": "24"
+      },
+      {
+        "id": "C",
+        "text": "27"
+      },
+      {
+        "id": "D",
+        "text": "36"
+      },
+      {
+        "id": "E",
+        "text": "45"
+      }
     ],
     "answer": "C",
     "solutionStandard": "Segments between any 2 of the 9 vertices: \\(C(9,2)=36\\). Subtract the 9 sides: \\(36-9=27\\).",
@@ -751,9 +1369,18 @@
     "id": "data-analysis-mixed-practice-047",
     "type": "Numeric",
     "primarySkill": "data-analysis-mixed-practice",
-    "secondarySkills": ["counting-permutations"],
+    "secondarySkills": [
+      "counting-permutations"
+    ],
     "difficulty": 5,
-    "variables": [{ "name": "n", "min": 4, "max": 8, "step": 1 }],
+    "variables": [
+      {
+        "name": "n",
+        "min": 4,
+        "max": 8,
+        "step": 1
+      }
+    ],
     "stem": "{{n}} people, including a couple who insist on sitting next to each other, are seated in a row. How many seating arrangements are possible?",
     "answer": 48,
     "answerFormula": "(function(){let r=1;for(let i=2;i<=(n-1);i++)r*=i;return r*2;})()",
@@ -764,7 +1391,9 @@
     "id": "data-analysis-mixed-practice-048",
     "type": "QC",
     "primarySkill": "data-analysis-mixed-practice",
-    "secondarySkills": ["data-interpretation-tables-graphs"],
+    "secondarySkills": [
+      "data-interpretation-tables-graphs"
+    ],
     "difficulty": 5,
     "stem": "In a group of 100 people, 60 like jazz and 45 like rock. The number who like both genres is not given.",
     "quantityA": "The number of people who like exactly one of the two genres",
@@ -777,7 +1406,9 @@
     "id": "data-analysis-mixed-practice-049",
     "type": "QC",
     "primarySkill": "data-analysis-mixed-practice",
-    "secondarySkills": ["normal-distribution-basics"],
+    "secondarySkills": [
+      "normal-distribution-basics"
+    ],
     "difficulty": 5,
     "stem": "Distribution X has mean 500 and standard deviation 50. Distribution Y has mean 500 and standard deviation 80. Both are normal.",
     "quantityA": "The percent of Distribution X's data above 600",
@@ -790,12 +1421,29 @@
     "id": "data-analysis-mixed-practice-050",
     "type": "Numeric",
     "primarySkill": "data-analysis-mixed-practice",
-    "secondarySkills": ["probability-compound"],
+    "secondarySkills": [
+      "probability-compound"
+    ],
     "difficulty": 5,
     "variables": [
-      { "name": "pA", "min": 1, "max": 9, "step": 1 },
-      { "name": "pB", "min": 1, "max": 9, "step": 1 },
-      { "name": "pC", "min": 1, "max": 9, "step": 1 }
+      {
+        "name": "pA",
+        "min": 1,
+        "max": 9,
+        "step": 1
+      },
+      {
+        "name": "pB",
+        "min": 1,
+        "max": 9,
+        "step": 1
+      },
+      {
+        "name": "pC",
+        "min": 1,
+        "max": 9,
+        "step": 1
+      }
     ],
     "stem": "Events A, B, and C are mutually independent, with \\(P(A)={{pA/10}}\\), \\(P(B)={{pB/10}}\\), and \\(P(C)={{pC/10}}\\). What is \\(P(A \\text{ and } B \\text{ and } C)\\)?",
     "answer": 0.024,

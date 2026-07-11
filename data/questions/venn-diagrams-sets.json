@@ -15,14 +15,29 @@
     "type": "MC",
     "primarySkill": "venn-diagrams-sets",
     "secondarySkills": [],
-    "difficulty": 2,
+    "difficulty": 1,
     "stem": "In a survey of 50 people, 30 like coffee and 25 like tea, with 12 liking both. How many people like neither coffee nor tea?",
     "options": [
-      { "id": "A", "text": "5" },
-      { "id": "B", "text": "7" },
-      { "id": "C", "text": "10" },
-      { "id": "D", "text": "12" },
-      { "id": "E", "text": "15" }
+      {
+        "id": "A",
+        "text": "5"
+      },
+      {
+        "id": "B",
+        "text": "7"
+      },
+      {
+        "id": "C",
+        "text": "10"
+      },
+      {
+        "id": "D",
+        "text": "12"
+      },
+      {
+        "id": "E",
+        "text": "15"
+      }
     ],
     "answer": "B",
     "solutionStandard": "\\(|C \\cup T| = 30+25-12=43\\). Neither: \\(50-43=7\\).",
@@ -33,7 +48,7 @@
     "type": "Numeric",
     "primarySkill": "venn-diagrams-sets",
     "secondarySkills": [],
-    "difficulty": 2,
+    "difficulty": 1,
     "stem": "Of 40 students, 22 play soccer and 15 play basketball, with 8 playing both. How many students play soccer only (not basketball)?",
     "answer": 14,
     "solutionStandard": "Soccer only \\(= 22-8=14\\).",
@@ -60,11 +75,26 @@
     "difficulty": 3,
     "stem": "In a class, 24 students study biology, 18 study chemistry, and 10 study both. If every student studies at least one of the two subjects, how many students are in the class?",
     "options": [
-      { "id": "A", "text": "22" },
-      { "id": "B", "text": "28" },
-      { "id": "C", "text": "32" },
-      { "id": "D", "text": "42" },
-      { "id": "E", "text": "52" }
+      {
+        "id": "A",
+        "text": "22"
+      },
+      {
+        "id": "B",
+        "text": "28"
+      },
+      {
+        "id": "C",
+        "text": "32"
+      },
+      {
+        "id": "D",
+        "text": "42"
+      },
+      {
+        "id": "E",
+        "text": "52"
+      }
     ],
     "answer": "C",
     "solutionStandard": "\\(|B \\cup C| = 24+18-10=32\\).",
@@ -89,13 +119,33 @@
     "difficulty": 3,
     "stem": "In a group of 50 students, 28 take art and 20 take music, with 8 taking both. Which of the following are true? Select all that apply.",
     "options": [
-      { "id": "A", "text": "40 students take at least one of art or music" },
-      { "id": "B", "text": "10 students take neither" },
-      { "id": "C", "text": "20 students take art only" },
-      { "id": "D", "text": "12 students take music only" },
-      { "id": "E", "text": "28 students take art only" }
+      {
+        "id": "A",
+        "text": "40 students take at least one of art or music"
+      },
+      {
+        "id": "B",
+        "text": "10 students take neither"
+      },
+      {
+        "id": "C",
+        "text": "20 students take art only"
+      },
+      {
+        "id": "D",
+        "text": "12 students take music only"
+      },
+      {
+        "id": "E",
+        "text": "28 students take art only"
+      }
     ],
-    "answer": ["A", "B", "C", "D"],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
     "solutionStandard": "\\(|A \\cup M| = 28+20-8=40\\), so (A) is true and neither \\(=50-40=10\\), so (B) is true. Art only \\(=28-8=20\\), so (C) is true, not (E)'s 28 (that double-counts the 8 who take both). Music only \\(=20-8=12\\), so (D) is true.",
     "timeTargetSec": 90
   },
@@ -107,11 +157,26 @@
     "difficulty": 4,
     "stem": "In a survey of 80 people, 50 like pizza, 40 like pasta, 30 like both, and everyone likes at least one of the two OR neither. If 5 people like neither, how many like exactly one of the two dishes?",
     "options": [
-      { "id": "A", "text": "30" },
-      { "id": "B", "text": "35" },
-      { "id": "C", "text": "45" },
-      { "id": "D", "text": "50" },
-      { "id": "E", "text": "60" }
+      {
+        "id": "A",
+        "text": "30"
+      },
+      {
+        "id": "B",
+        "text": "35"
+      },
+      {
+        "id": "C",
+        "text": "45"
+      },
+      {
+        "id": "D",
+        "text": "50"
+      },
+      {
+        "id": "E",
+        "text": "60"
+      }
     ],
     "answer": "C",
     "solutionStandard": "At least one: \\(80-5=75\\). Of those, 30 like both, so exactly one \\(=75-30=45\\).",
@@ -148,10 +213,30 @@
     "secondarySkills": [],
     "difficulty": 1,
     "variables": [
-      { "name": "aOnly", "min": 5, "max": 20, "step": 1 },
-      { "name": "bOnly", "min": 3, "max": 15, "step": 1 },
-      { "name": "both", "min": 2, "max": 10, "step": 1 },
-      { "name": "neither", "min": 0, "max": 10, "step": 1 }
+      {
+        "name": "aOnly",
+        "min": 5,
+        "max": 20,
+        "step": 1
+      },
+      {
+        "name": "bOnly",
+        "min": 3,
+        "max": 15,
+        "step": 1
+      },
+      {
+        "name": "both",
+        "min": 2,
+        "max": 10,
+        "step": 1
+      },
+      {
+        "name": "neither",
+        "min": 0,
+        "max": 10,
+        "step": 1
+      }
     ],
     "stem": "In a class of {{aOnly+bOnly+both+neither}} students, {{aOnly+both}} take Spanish and {{bOnly+both}} take French, with {{both}} taking both. How many students take at least one of the two languages?",
     "answer": 23,
@@ -167,11 +252,26 @@
     "difficulty": 2,
     "stem": "In a survey of 60 people, 35 like coffee and 30 like tea, with 15 liking both. How many people like neither coffee nor tea?",
     "options": [
-      { "id": "A", "text": "5" },
-      { "id": "B", "text": "8" },
-      { "id": "C", "text": "10" },
-      { "id": "D", "text": "15" },
-      { "id": "E", "text": "20" }
+      {
+        "id": "A",
+        "text": "5"
+      },
+      {
+        "id": "B",
+        "text": "8"
+      },
+      {
+        "id": "C",
+        "text": "10"
+      },
+      {
+        "id": "D",
+        "text": "15"
+      },
+      {
+        "id": "E",
+        "text": "20"
+      }
     ],
     "answer": "C",
     "solutionStandard": "\\(|C \\cup T| = 35+30-15=50\\). Neither: \\(60-50=10\\).",
@@ -184,9 +284,24 @@
     "secondarySkills": [],
     "difficulty": 2,
     "variables": [
-      { "name": "aOnly", "min": 8, "max": 20, "step": 1 },
-      { "name": "bOnly", "min": 5, "max": 15, "step": 1 },
-      { "name": "both", "min": 2, "max": 10, "step": 1 }
+      {
+        "name": "aOnly",
+        "min": 8,
+        "max": 20,
+        "step": 1
+      },
+      {
+        "name": "bOnly",
+        "min": 5,
+        "max": 15,
+        "step": 1
+      },
+      {
+        "name": "both",
+        "min": 2,
+        "max": 10,
+        "step": 1
+      }
     ],
     "stem": "Of {{aOnly+bOnly+both}} students, {{aOnly+both}} play soccer and {{bOnly+both}} play basketball, with {{both}} playing both. How many students play soccer only (not basketball)?",
     "answer": 14,
@@ -201,9 +316,24 @@
     "secondarySkills": [],
     "difficulty": 2,
     "variables": [
-      { "name": "aOnly", "min": 15, "max": 35, "step": 1 },
-      { "name": "bOnly", "min": 10, "max": 30, "step": 1 },
-      { "name": "both", "min": 5, "max": 20, "step": 1 }
+      {
+        "name": "aOnly",
+        "min": 15,
+        "max": 35,
+        "step": 1
+      },
+      {
+        "name": "bOnly",
+        "min": 10,
+        "max": 30,
+        "step": 1
+      },
+      {
+        "name": "both",
+        "min": 5,
+        "max": 20,
+        "step": 1
+      }
     ],
     "stem": "In a group of {{aOnly+bOnly+both}} people, {{aOnly+both}} speak English and {{bOnly+both}} speak Spanish. Every person speaks at least one of the two languages.",
     "quantityA": "The number of people who speak both languages",
@@ -220,11 +350,26 @@
     "difficulty": 3,
     "stem": "In a class, 20 students study biology, 16 study chemistry, and 8 study both. If every student studies at least one of the two subjects, how many students are in the class?",
     "options": [
-      { "id": "A", "text": "20" },
-      { "id": "B", "text": "24" },
-      { "id": "C", "text": "28" },
-      { "id": "D", "text": "36" },
-      { "id": "E", "text": "44" }
+      {
+        "id": "A",
+        "text": "20"
+      },
+      {
+        "id": "B",
+        "text": "24"
+      },
+      {
+        "id": "C",
+        "text": "28"
+      },
+      {
+        "id": "D",
+        "text": "36"
+      },
+      {
+        "id": "E",
+        "text": "44"
+      }
     ],
     "answer": "C",
     "solutionStandard": "\\(|B \\cup C| = 20+16-8=28\\).",
@@ -237,10 +382,30 @@
     "secondarySkills": [],
     "difficulty": 3,
     "variables": [
-      { "name": "aOnly", "min": 20, "max": 40, "step": 1 },
-      { "name": "bOnly", "min": 15, "max": 35, "step": 1 },
-      { "name": "both", "min": 10, "max": 25, "step": 1 },
-      { "name": "neither", "min": 5, "max": 20, "step": 1 }
+      {
+        "name": "aOnly",
+        "min": 20,
+        "max": 40,
+        "step": 1
+      },
+      {
+        "name": "bOnly",
+        "min": 15,
+        "max": 35,
+        "step": 1
+      },
+      {
+        "name": "both",
+        "min": 10,
+        "max": 25,
+        "step": 1
+      },
+      {
+        "name": "neither",
+        "min": 5,
+        "max": 20,
+        "step": 1
+      }
     ],
     "stem": "Of {{aOnly+bOnly+both+neither}} people surveyed, {{aOnly+both}} own a car, {{bOnly+both}} own a bike, and {{both}} own both. How many people own neither?",
     "answer": 15,
@@ -256,13 +421,33 @@
     "difficulty": 3,
     "stem": "In a group of 60 students, 32 take art and 26 take music, with 10 taking both. Which of the following are true? Select all that apply.",
     "options": [
-      { "id": "A", "text": "48 students take at least one of art or music" },
-      { "id": "B", "text": "12 students take neither" },
-      { "id": "C", "text": "22 students take art only" },
-      { "id": "D", "text": "16 students take music only" },
-      { "id": "E", "text": "32 students take art only" }
+      {
+        "id": "A",
+        "text": "48 students take at least one of art or music"
+      },
+      {
+        "id": "B",
+        "text": "12 students take neither"
+      },
+      {
+        "id": "C",
+        "text": "22 students take art only"
+      },
+      {
+        "id": "D",
+        "text": "16 students take music only"
+      },
+      {
+        "id": "E",
+        "text": "32 students take art only"
+      }
     ],
-    "answer": ["A", "B", "C", "D"],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
     "solutionStandard": "\\(|A \\cup M| = 32+26-10=48\\), so (A) is true, and neither \\(=60-48=12\\), so (B) is true. Art only \\(=32-10=22\\), so (C) is true, not (E)'s 32 (that double-counts the 10 who take both). Music only \\(=26-10=16\\), so (D) is true.",
     "timeTargetSec": 90
   },
@@ -274,11 +459,26 @@
     "difficulty": 4,
     "stem": "In a survey of 100 people, 55 like burgers, 45 like tacos, and 25 like both. If 10 people like neither, how many like exactly one of the two dishes?",
     "options": [
-      { "id": "A", "text": "45" },
-      { "id": "B", "text": "55" },
-      { "id": "C", "text": "60" },
-      { "id": "D", "text": "65" },
-      { "id": "E", "text": "70" }
+      {
+        "id": "A",
+        "text": "45"
+      },
+      {
+        "id": "B",
+        "text": "55"
+      },
+      {
+        "id": "C",
+        "text": "60"
+      },
+      {
+        "id": "D",
+        "text": "65"
+      },
+      {
+        "id": "E",
+        "text": "70"
+      }
     ],
     "answer": "D",
     "solutionStandard": "At least one: \\(100-10=90\\). Of those, 25 like both, so exactly one \\(=90-25=65\\).",
@@ -289,7 +489,7 @@
     "type": "Numeric",
     "primarySkill": "venn-diagrams-sets",
     "secondarySkills": [],
-    "difficulty": 4,
+    "difficulty": 5,
     "stem": "In a school, 75 students take at least one of reading, writing, or art. 38 take reading, 30 take writing, and 25 take art. 12 take both reading and writing, 8 take both writing and art, 10 take both reading and art, and 4 take all three. How many students take reading only?",
     "answer": 20,
     "solutionStandard": "Reading only \\(= |\\text{reading}| - (\\text{reading}\\cap\\text{writing}) - (\\text{reading}\\cap\\text{art}) + (\\text{all three}) = 38-12-10+4=20\\).",

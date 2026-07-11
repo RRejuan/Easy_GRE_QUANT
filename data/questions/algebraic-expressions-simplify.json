@@ -272,8 +272,18 @@
     "secondarySkills": [],
     "difficulty": 1,
     "variables": [
-      { "name": "a", "min": 2, "max": 9, "step": 1 },
-      { "name": "b", "min": 2, "max": 9, "step": 1 }
+      {
+        "name": "a",
+        "min": 2,
+        "max": 9,
+        "step": 1
+      },
+      {
+        "name": "b",
+        "min": 2,
+        "max": 9,
+        "step": 1
+      }
     ],
     "stem": "If \\(x = 4\\), what is the value of \\({{a}}x + {{b}}x\\)?",
     "answer": 44,
@@ -289,11 +299,26 @@
     "difficulty": 1,
     "stem": "Simplify: \\(7y - 2y + y\\)",
     "options": [
-      { "id": "A", "text": "\\(4y\\)" },
-      { "id": "B", "text": "\\(5y\\)" },
-      { "id": "C", "text": "\\(6y\\)" },
-      { "id": "D", "text": "\\(7y\\)" },
-      { "id": "E", "text": "\\(8y\\)" }
+      {
+        "id": "A",
+        "text": "\\(4y\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(5y\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(6y\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(7y\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(8y\\)"
+      }
     ],
     "answer": "C",
     "solutionStandard": "\\(7y - 2y + y = (7-2+1)y = 6y\\).",
@@ -305,7 +330,14 @@
     "primarySkill": "algebraic-expressions-simplify",
     "secondarySkills": [],
     "difficulty": 2,
-    "variables": [{ "name": "n", "min": 1, "max": 20, "step": 1 }],
+    "variables": [
+      {
+        "name": "n",
+        "min": 1,
+        "max": 20,
+        "step": 1
+      }
+    ],
     "stem": "If \\(x = {{n}}\\), what is \\(3(x+2) - x\\)?",
     "answer": 16,
     "answerFormula": "2 * n + 6",
@@ -317,14 +349,29 @@
     "type": "MC",
     "primarySkill": "algebraic-expressions-simplify",
     "secondarySkills": [],
-    "difficulty": 2,
+    "difficulty": 3,
     "stem": "Simplify: \\(-3(2 - x)\\)",
     "options": [
-      { "id": "A", "text": "\\(3x - 6\\)" },
-      { "id": "B", "text": "\\(-3x - 6\\)" },
-      { "id": "C", "text": "\\(3x + 6\\)" },
-      { "id": "D", "text": "\\(-3x + 6\\)" },
-      { "id": "E", "text": "\\(2x - 6\\)" }
+      {
+        "id": "A",
+        "text": "\\(3x - 6\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(-3x - 6\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(3x + 6\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(-3x + 6\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(2x - 6\\)"
+      }
     ],
     "answer": "A",
     "solutionStandard": "\\(-3(2-x) = -6 + 3x = 3x - 6\\). A common error is mishandling the sign and getting \\(-3x+6\\) or \\(-3x-6\\) instead.",
@@ -335,10 +382,20 @@
     "type": "QC",
     "primarySkill": "algebraic-expressions-simplify",
     "secondarySkills": [],
-    "difficulty": 2,
+    "difficulty": 3,
     "variables": [
-      { "name": "a", "min": 2, "max": 9, "step": 1 },
-      { "name": "b", "min": 2, "max": 9, "step": 1 }
+      {
+        "name": "a",
+        "min": 2,
+        "max": 9,
+        "step": 1
+      },
+      {
+        "name": "b",
+        "min": 2,
+        "max": 9,
+        "step": 1
+      }
     ],
     "stem": "\\(y = {{a}}(x+{{b}}) - {{a}}x\\), for any real number \\(x\\).",
     "quantityA": "\\(y\\)",
@@ -355,12 +412,28 @@
     "difficulty": 3,
     "stem": "Which of the following are equivalent to \\(4(2x - 3) - x\\)? Select all that apply.",
     "options": [
-      { "id": "A", "text": "\\(7x - 12\\)" },
-      { "id": "B", "text": "\\(7(x - 12/7)\\)" },
-      { "id": "C", "text": "\\(7x - 15\\)" },
-      { "id": "D", "text": "\\(-12 + 7x\\)" }
+      {
+        "id": "A",
+        "text": "\\(7x - 12\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(7(x - 12/7)\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(7x - 15\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(-12 + 7x\\)"
+      }
     ],
-    "answer": ["A", "B", "D"],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
     "solutionStandard": "\\(4(2x-3)-x = 8x-12-x = 7x-12\\). (B) factors out 7: \\(7(x-12/7) = 7x-12\\), also equal. (D) is just \\(7x-12\\) reordered. (C) has the wrong constant.",
     "timeTargetSec": 80
   },
@@ -369,11 +442,26 @@
     "type": "Numeric",
     "primarySkill": "algebraic-expressions-simplify",
     "secondarySkills": [],
-    "difficulty": 3,
+    "difficulty": 4,
     "variables": [
-      { "name": "a", "min": 1, "max": 10, "step": 1 },
-      { "name": "b", "min": 1, "max": 10, "step": 1 },
-      { "name": "k", "min": 1, "max": 20, "step": 1 }
+      {
+        "name": "a",
+        "min": 1,
+        "max": 10,
+        "step": 1
+      },
+      {
+        "name": "b",
+        "min": 1,
+        "max": 10,
+        "step": 1
+      },
+      {
+        "name": "k",
+        "min": 1,
+        "max": 20,
+        "step": 1
+      }
     ],
     "stem": "If \\(2(x+{{a}}) - (x - {{b}}) = {{k + 2*a + b}}\\), what is \\(x\\)?",
     "answer": 10,
@@ -389,11 +477,26 @@
     "difficulty": 4,
     "stem": "Simplify: \\(3[2(x-1) - (x+2)] + 5\\)",
     "options": [
-      { "id": "A", "text": "\\(3x - 7\\)" },
-      { "id": "B", "text": "\\(3x - 12\\)" },
-      { "id": "C", "text": "\\(3x + 7\\)" },
-      { "id": "D", "text": "\\(x - 7\\)" },
-      { "id": "E", "text": "\\(6x - 7\\)" }
+      {
+        "id": "A",
+        "text": "\\(3x - 7\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(3x - 12\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(3x + 7\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(x - 7\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(6x - 7\\)"
+      }
     ],
     "answer": "A",
     "solutionStandard": "Inner brackets first: \\(2(x-1)=2x-2\\); \\((2x-2)-(x+2)=x-4\\). Then \\(3(x-4)+5=3x-12+5=3x-7\\).",
@@ -404,7 +507,7 @@
     "type": "Numeric",
     "primarySkill": "algebraic-expressions-simplify",
     "secondarySkills": [],
-    "difficulty": 4,
+    "difficulty": 5,
     "stem": "If \\(5(x - 3) = 3(x + 1) - 4\\), what is the value of \\(x\\)?",
     "answer": 7,
     "solutionStandard": "\\(5x-15 = 3x+3-4\\), so \\(5x-15=3x-1\\), giving \\(2x=14\\) and \\(x=7\\).",

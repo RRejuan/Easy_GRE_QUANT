@@ -9,11 +9,54 @@
     "figure": {
       "viewBox": "0 0 200 150",
       "elements": [
-        { "kind": "polygon", "points": [{ "x": 20, "y": 130 }, { "x": 140, "y": 130 }, { "x": 20, "y": 30 }] },
-        { "kind": "rightAngleMarker", "at": { "x": 20, "y": 130 } },
-        { "kind": "label", "at": { "x": 8, "y": 82 }, "text": "3" },
-        { "kind": "label", "at": { "x": 75, "y": 148 }, "text": "4" },
-        { "kind": "label", "at": { "x": 85, "y": 72 }, "text": "5" }
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 130
+            },
+            {
+              "x": 140,
+              "y": 130
+            },
+            {
+              "x": 20,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 20,
+            "y": 130
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 8,
+            "y": 82
+          },
+          "text": "3"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 75,
+            "y": 148
+          },
+          "text": "4"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 85,
+            "y": 72
+          },
+          "text": "5"
+        }
       ]
     },
     "options": [
@@ -69,7 +112,14 @@
     "primarySkill": "right-triangles-pythagorean",
     "secondarySkills": [],
     "difficulty": 2,
-    "variables": [{ "name": "k", "min": 1, "max": 4, "step": 1 }],
+    "variables": [
+      {
+        "name": "k",
+        "min": 1,
+        "max": 4,
+        "step": 1
+      }
+    ],
     "stem": "A right triangle has a hypotenuse of length {{13*k}} and one leg of length {{5*k}}. What is the length of the other leg?",
     "answer": 12,
     "answerFormula": "12 * k",
@@ -293,7 +343,14 @@
     "primarySkill": "right-triangles-pythagorean",
     "secondarySkills": [],
     "difficulty": 1,
-    "variables": [{ "name": "k", "min": 1, "max": 5, "step": 1 }],
+    "variables": [
+      {
+        "name": "k",
+        "min": 1,
+        "max": 5,
+        "step": 1
+      }
+    ],
     "stem": "A right triangle has legs of length {{8*k}} and {{15*k}}. What is the length of the hypotenuse?",
     "answer": 17,
     "answerFormula": "17 * k",
@@ -310,19 +367,77 @@
     "figure": {
       "viewBox": "0 0 200 150",
       "elements": [
-        { "kind": "polygon", "points": [{ "x": 20, "y": 130 }, { "x": 140, "y": 130 }, { "x": 20, "y": 30 } ] },
-        { "kind": "rightAngleMarker", "at": { "x": 20, "y": 130 } },
-        { "kind": "label", "at": { "x": 8, "y": 82 }, "text": "6" },
-        { "kind": "label", "at": { "x": 75, "y": 148 }, "text": "8" },
-        { "kind": "label", "at": { "x": 85, "y": 72 }, "text": "x" }
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 130
+            },
+            {
+              "x": 140,
+              "y": 130
+            },
+            {
+              "x": 20,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 20,
+            "y": 130
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 8,
+            "y": 82
+          },
+          "text": "6"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 75,
+            "y": 148
+          },
+          "text": "8"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 85,
+            "y": 72
+          },
+          "text": "x"
+        }
       ]
     },
     "options": [
-      { "id": "A", "text": "8" },
-      { "id": "B", "text": "9" },
-      { "id": "C", "text": "10" },
-      { "id": "D", "text": "11" },
-      { "id": "E", "text": "12" }
+      {
+        "id": "A",
+        "text": "8"
+      },
+      {
+        "id": "B",
+        "text": "9"
+      },
+      {
+        "id": "C",
+        "text": "10"
+      },
+      {
+        "id": "D",
+        "text": "11"
+      },
+      {
+        "id": "E",
+        "text": "12"
+      }
     ],
     "answer": "C",
     "solutionStandard": "This is the 3-4-5 triple scaled by 2: \\(x = 10\\).",
@@ -334,7 +449,14 @@
     "primarySkill": "right-triangles-pythagorean",
     "secondarySkills": [],
     "difficulty": 2,
-    "variables": [{ "name": "k", "min": 1, "max": 4, "step": 1 }],
+    "variables": [
+      {
+        "name": "k",
+        "min": 1,
+        "max": 4,
+        "step": 1
+      }
+    ],
     "stem": "A right triangle has a hypotenuse of length {{25*k}} and one leg of length {{7*k}}. What is the length of the other leg?",
     "answer": 24,
     "answerFormula": "24 * k",
@@ -349,11 +471,26 @@
     "difficulty": 2,
     "stem": "A rectangular TV screen has width 24 inches and height 18 inches. What is the length of the diagonal, in inches?",
     "options": [
-      { "id": "A", "text": "26" },
-      { "id": "B", "text": "28" },
-      { "id": "C", "text": "30" },
-      { "id": "D", "text": "32" },
-      { "id": "E", "text": "42" }
+      {
+        "id": "A",
+        "text": "26"
+      },
+      {
+        "id": "B",
+        "text": "28"
+      },
+      {
+        "id": "C",
+        "text": "30"
+      },
+      {
+        "id": "D",
+        "text": "32"
+      },
+      {
+        "id": "E",
+        "text": "42"
+      }
     ],
     "answer": "C",
     "solutionStandard": "18 and 24 are \\(6\\times\\) the 3-4-5 triple: diagonal \\(= 6\\times5=30\\).",
@@ -365,7 +502,14 @@
     "primarySkill": "right-triangles-pythagorean",
     "secondarySkills": [],
     "difficulty": 3,
-    "variables": [{ "name": "k", "min": 1, "max": 8, "step": 1 }],
+    "variables": [
+      {
+        "name": "k",
+        "min": 1,
+        "max": 8,
+        "step": 1
+      }
+    ],
     "stem": "A right triangle has legs of length {{3*k}} and {{4*k}}.",
     "quantityA": "The length of the hypotenuse",
     "quantityB": "{{5*k - 1}}",
@@ -381,13 +525,32 @@
     "difficulty": 3,
     "stem": "Which of the following could be the side lengths of a right triangle? Select all that apply.",
     "options": [
-      { "id": "A", "text": "9, 12, 15" },
-      { "id": "B", "text": "8, 15, 17" },
-      { "id": "C", "text": "4, 5, 6" },
-      { "id": "D", "text": "10, 24, 26" },
-      { "id": "E", "text": "3, 3, 3" }
+      {
+        "id": "A",
+        "text": "9, 12, 15"
+      },
+      {
+        "id": "B",
+        "text": "8, 15, 17"
+      },
+      {
+        "id": "C",
+        "text": "4, 5, 6"
+      },
+      {
+        "id": "D",
+        "text": "10, 24, 26"
+      },
+      {
+        "id": "E",
+        "text": "3, 3, 3"
+      }
     ],
-    "answer": ["A", "B", "D"],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
     "solutionStandard": "(A) is \\(3\\times\\) the 3-4-5 triple. (B) is a standard triple. (D) is \\(2\\times\\) the 5-12-13 triple. (C): \\(16+25=41\\neq36\\), no. (E) is equilateral, not right (all angles \\(60^\\circ\\)).",
     "timeTargetSec": 85
   },
@@ -396,8 +559,15 @@
     "type": "Numeric",
     "primarySkill": "right-triangles-pythagorean",
     "secondarySkills": [],
-    "difficulty": 3,
-    "variables": [{ "name": "k", "min": 1, "max": 4, "step": 1 }],
+    "difficulty": 4,
+    "variables": [
+      {
+        "name": "k",
+        "min": 1,
+        "max": 4,
+        "step": 1
+      }
+    ],
     "stem": "A right triangle has one leg of length {{7*k}} and a hypotenuse of length {{25*k}}. What is the area of the triangle?",
     "answer": 84,
     "answerFormula": "84 * k * k",
@@ -412,11 +582,26 @@
     "difficulty": 4,
     "stem": "A right triangle has integer side lengths, a hypotenuse of 25, and one leg of length 15. What is its perimeter?",
     "options": [
-      { "id": "A", "text": "45" },
-      { "id": "B", "text": "50" },
-      { "id": "C", "text": "56" },
-      { "id": "D", "text": "60" },
-      { "id": "E", "text": "64" }
+      {
+        "id": "A",
+        "text": "45"
+      },
+      {
+        "id": "B",
+        "text": "50"
+      },
+      {
+        "id": "C",
+        "text": "56"
+      },
+      {
+        "id": "D",
+        "text": "60"
+      },
+      {
+        "id": "E",
+        "text": "64"
+      }
     ],
     "answer": "D",
     "solutionStandard": "15-20-25 is \\(5\\times\\) the 3-4-5 triple, so the other leg is 20. Perimeter \\(= 15+20+25=60\\).",
@@ -427,8 +612,15 @@
     "type": "Numeric",
     "primarySkill": "right-triangles-pythagorean",
     "secondarySkills": [],
-    "difficulty": 4,
-    "variables": [{ "name": "k", "min": 1, "max": 6, "step": 1 }],
+    "difficulty": 5,
+    "variables": [
+      {
+        "name": "k",
+        "min": 1,
+        "max": 6,
+        "step": 1
+      }
+    ],
     "stem": "A right triangle has integer side lengths and a hypotenuse of {{17*k}}, with the shortest leg being {{8*k}}. What is its perimeter?",
     "answer": 40,
     "answerFormula": "40 * k",

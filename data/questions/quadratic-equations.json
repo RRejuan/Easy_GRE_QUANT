@@ -7,12 +7,27 @@
     "difficulty": 1,
     "stem": "Which values of \\(x\\) satisfy \\(x^2 - 5x + 6 = 0\\)? Select all that apply.",
     "options": [
-      { "id": "A", "text": "2" },
-      { "id": "B", "text": "3" },
-      { "id": "C", "text": "-2" },
-      { "id": "D", "text": "-3" }
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "3"
+      },
+      {
+        "id": "C",
+        "text": "-2"
+      },
+      {
+        "id": "D",
+        "text": "-3"
+      }
     ],
-    "answer": ["A", "B"],
+    "answer": [
+      "A",
+      "B"
+    ],
     "solutionStandard": "Factor: \\((x-2)(x-3)=0\\), so \\(x=2\\) or \\(x=3\\).",
     "timeTargetSec": 45
   },
@@ -21,7 +36,7 @@
     "type": "Numeric",
     "primarySkill": "quadratic-equations",
     "secondarySkills": [],
-    "difficulty": 2,
+    "difficulty": 1,
     "stem": "If \\(x^2 = 49\\) and \\(x < 0\\), what is the value of \\(x\\)?",
     "answer": -7,
     "solutionStandard": "\\(x = 7\\) or \\(x=-7\\). Since \\(x<0\\), \\(x=-7\\).",
@@ -35,11 +50,26 @@
     "difficulty": 2,
     "stem": "Solve: \\(x^2 - 5x = 0\\)",
     "options": [
-      { "id": "A", "text": "\\(x = 5\\) only" },
-      { "id": "B", "text": "\\(x = 0\\) only" },
-      { "id": "C", "text": "\\(x = 0\\) or \\(x = 5\\)" },
-      { "id": "D", "text": "\\(x = 0\\) or \\(x = -5\\)" },
-      { "id": "E", "text": "No solution" }
+      {
+        "id": "A",
+        "text": "\\(x = 5\\) only"
+      },
+      {
+        "id": "B",
+        "text": "\\(x = 0\\) only"
+      },
+      {
+        "id": "C",
+        "text": "\\(x = 0\\) or \\(x = 5\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(x = 0\\) or \\(x = -5\\)"
+      },
+      {
+        "id": "E",
+        "text": "No solution"
+      }
     ],
     "answer": "C",
     "solutionStandard": "Factor: \\(x(x-5)=0\\), so \\(x=0\\) or \\(x=5\\). (Dividing both sides by \\(x\\) instead would incorrectly lose the solution \\(x=0\\).)",
@@ -50,7 +80,7 @@
     "type": "QC",
     "primarySkill": "quadratic-equations",
     "secondarySkills": [],
-    "difficulty": 3,
+    "difficulty": 2,
     "stem": "\\(x^2 - 4x - 21 = 0\\), and \\(x > 0\\)",
     "quantityA": "\\(x\\)",
     "quantityB": "\\(6\\)",
@@ -66,11 +96,26 @@
     "difficulty": 3,
     "stem": "The two roots of a quadratic equation are 4 and -6. Which of the following could be the equation?",
     "options": [
-      { "id": "A", "text": "\\(x^2 + 2x - 24 = 0\\)" },
-      { "id": "B", "text": "\\(x^2 - 2x - 24 = 0\\)" },
-      { "id": "C", "text": "\\(x^2 + 10x + 24 = 0\\)" },
-      { "id": "D", "text": "\\(x^2 - 10x - 24 = 0\\)" },
-      { "id": "E", "text": "\\(x^2 + 2x + 24 = 0\\)" }
+      {
+        "id": "A",
+        "text": "\\(x^2 + 2x - 24 = 0\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(x^2 - 2x - 24 = 0\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(x^2 + 10x + 24 = 0\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(x^2 - 10x - 24 = 0\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(x^2 + 2x + 24 = 0\\)"
+      }
     ],
     "answer": "A",
     "solutionStandard": "The equation is \\((x-4)(x+6)=0\\), which expands to \\(x^2+2x-24=0\\).",
@@ -92,14 +137,29 @@
     "type": "MC",
     "primarySkill": "quadratic-equations",
     "secondarySkills": [],
-    "difficulty": 4,
+    "difficulty": 3,
     "stem": "Using the quadratic formula, what are the solutions to \\(x^2 + 2x - 5 = 0\\)?",
     "options": [
-      { "id": "A", "text": "\\(-1 \\pm \\sqrt{6}\\)" },
-      { "id": "B", "text": "\\(1 \\pm \\sqrt{6}\\)" },
-      { "id": "C", "text": "\\(-2 \\pm \\sqrt{6}\\)" },
-      { "id": "D", "text": "\\(-1 \\pm \\sqrt{5}\\)" },
-      { "id": "E", "text": "\\(-1 \\pm 2\\sqrt{6}\\)" }
+      {
+        "id": "A",
+        "text": "\\(-1 \\pm \\sqrt{6}\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(1 \\pm \\sqrt{6}\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(-2 \\pm \\sqrt{6}\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(-1 \\pm \\sqrt{5}\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(-1 \\pm 2\\sqrt{6}\\)"
+      }
     ],
     "answer": "A",
     "solutionStandard": "\\(x = \\dfrac{-2 \\pm \\sqrt{4+20}}{2} = \\dfrac{-2 \\pm \\sqrt{24}}{2} = \\dfrac{-2 \\pm 2\\sqrt{6}}{2} = -1 \\pm \\sqrt{6}\\).",
@@ -113,11 +173,26 @@
     "difficulty": 4,
     "stem": "A rectangle's length is 3 more than its width, and its area is 40. What is the width?",
     "options": [
-      { "id": "A", "text": "4" },
-      { "id": "B", "text": "5" },
-      { "id": "C", "text": "6" },
-      { "id": "D", "text": "7" },
-      { "id": "E", "text": "8" }
+      {
+        "id": "A",
+        "text": "4"
+      },
+      {
+        "id": "B",
+        "text": "5"
+      },
+      {
+        "id": "C",
+        "text": "6"
+      },
+      {
+        "id": "D",
+        "text": "7"
+      },
+      {
+        "id": "E",
+        "text": "8"
+      }
     ],
     "answer": "B",
     "solutionStandard": "Let width \\(=w\\). \\(w(w+3)=40\\), so \\(w^2+3w-40=0\\), factoring as \\((w-5)(w+8)=0\\). Since width is positive, \\(w=5\\).",
@@ -153,7 +228,14 @@
     "primarySkill": "quadratic-equations",
     "secondarySkills": [],
     "difficulty": 1,
-    "variables": [{ "name": "n", "min": 2, "max": 20, "step": 1 }],
+    "variables": [
+      {
+        "name": "n",
+        "min": 2,
+        "max": 20,
+        "step": 1
+      }
+    ],
     "stem": "If \\(x^2 = {{n*n}}\\) and \\(x > 0\\), what is the value of \\(x\\)?",
     "answer": 11,
     "answerFormula": "n",
@@ -168,11 +250,26 @@
     "difficulty": 1,
     "stem": "Solve: \\(x^2 - 7x + 10 = 0\\)",
     "options": [
-      { "id": "A", "text": "\\(x=2\\) or \\(x=5\\)" },
-      { "id": "B", "text": "\\(x=-2\\) or \\(x=-5\\)" },
-      { "id": "C", "text": "\\(x=1\\) or \\(x=10\\)" },
-      { "id": "D", "text": "\\(x=2\\) only" },
-      { "id": "E", "text": "No solution" }
+      {
+        "id": "A",
+        "text": "\\(x=2\\) or \\(x=5\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(x=-2\\) or \\(x=-5\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(x=1\\) or \\(x=10\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(x=2\\) only"
+      },
+      {
+        "id": "E",
+        "text": "No solution"
+      }
     ],
     "answer": "A",
     "solutionStandard": "Factor: \\((x-2)(x-5)=0\\), so \\(x=2\\) or \\(x=5\\).",
@@ -185,8 +282,18 @@
     "secondarySkills": [],
     "difficulty": 2,
     "variables": [
-      { "name": "p", "min": 1, "max": 15, "step": 1 },
-      { "name": "q", "min": 1, "max": 15, "step": 1 }
+      {
+        "name": "p",
+        "min": 1,
+        "max": 15,
+        "step": 1
+      },
+      {
+        "name": "q",
+        "min": 1,
+        "max": 15,
+        "step": 1
+      }
     ],
     "stem": "The two roots of \\(x^2 - kx + {{p*q}} = 0\\) are both positive integers and sum to {{p+q}}. What is the value of \\(k\\)?",
     "answer": 13,
@@ -202,11 +309,26 @@
     "difficulty": 2,
     "stem": "The two roots of a quadratic equation are \\(-3\\) and \\(5\\). Which of the following could be the equation?",
     "options": [
-      { "id": "A", "text": "\\(x^2 - 2x - 15 = 0\\)" },
-      { "id": "B", "text": "\\(x^2 + 2x - 15 = 0\\)" },
-      { "id": "C", "text": "\\(x^2 - 8x + 15 = 0\\)" },
-      { "id": "D", "text": "\\(x^2 + 8x - 15 = 0\\)" },
-      { "id": "E", "text": "\\(x^2 - 2x + 15 = 0\\)" }
+      {
+        "id": "A",
+        "text": "\\(x^2 - 2x - 15 = 0\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(x^2 + 2x - 15 = 0\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(x^2 - 8x + 15 = 0\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(x^2 + 8x - 15 = 0\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(x^2 - 2x + 15 = 0\\)"
+      }
     ],
     "answer": "A",
     "solutionStandard": "The equation is \\((x+3)(x-5)=0\\), which expands to \\(x^2-2x-15=0\\).",
@@ -219,8 +341,18 @@
     "secondarySkills": [],
     "difficulty": 3,
     "variables": [
-      { "name": "r1", "min": 5, "max": 15, "step": 1 },
-      { "name": "r2", "min": -15, "max": -1, "step": 1 }
+      {
+        "name": "r1",
+        "min": 5,
+        "max": 15,
+        "step": 1
+      },
+      {
+        "name": "r2",
+        "min": -15,
+        "max": -1,
+        "step": 1
+      }
     ],
     "stem": "\\(x^2 - ({{r1+r2}})x + {{r1*r2}} = 0\\), and \\(x > 0\\)",
     "quantityA": "\\(x\\)",
@@ -237,12 +369,27 @@
     "difficulty": 3,
     "stem": "Which values of \\(x\\) satisfy \\(x^2 - x - 12 = 0\\)? Select all that apply.",
     "options": [
-      { "id": "A", "text": "4" },
-      { "id": "B", "text": "-3" },
-      { "id": "C", "text": "3" },
-      { "id": "D", "text": "-4" }
+      {
+        "id": "A",
+        "text": "4"
+      },
+      {
+        "id": "B",
+        "text": "-3"
+      },
+      {
+        "id": "C",
+        "text": "3"
+      },
+      {
+        "id": "D",
+        "text": "-4"
+      }
     ],
-    "answer": ["A", "B"],
+    "answer": [
+      "A",
+      "B"
+    ],
     "solutionStandard": "Factor: \\((x-4)(x+3)=0\\), so \\(x=4\\) or \\(x=-3\\).",
     "timeTargetSec": 50
   },
@@ -252,7 +399,14 @@
     "primarySkill": "quadratic-equations",
     "secondarySkills": [],
     "difficulty": 3,
-    "variables": [{ "name": "p", "min": 2, "max": 10, "step": 1 }],
+    "variables": [
+      {
+        "name": "p",
+        "min": 2,
+        "max": 10,
+        "step": 1
+      }
+    ],
     "stem": "The two roots of \\(x^2 - 12x + k = 0\\) are both positive integers, and one root is {{p}}. What is the other root?",
     "answer": 10,
     "answerFormula": "12 - p",
@@ -267,11 +421,26 @@
     "difficulty": 4,
     "stem": "Using the quadratic formula, what are the solutions to \\(x^2 - 4x - 1 = 0\\)?",
     "options": [
-      { "id": "A", "text": "\\(2 \\pm \\sqrt{5}\\)" },
-      { "id": "B", "text": "\\(-2 \\pm \\sqrt{5}\\)" },
-      { "id": "C", "text": "\\(4 \\pm \\sqrt{5}\\)" },
-      { "id": "D", "text": "\\(2 \\pm \\sqrt{20}\\)" },
-      { "id": "E", "text": "\\(1 \\pm \\sqrt{5}\\)" }
+      {
+        "id": "A",
+        "text": "\\(2 \\pm \\sqrt{5}\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(-2 \\pm \\sqrt{5}\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(4 \\pm \\sqrt{5}\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(2 \\pm \\sqrt{20}\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(1 \\pm \\sqrt{5}\\)"
+      }
     ],
     "answer": "A",
     "solutionStandard": "\\(x = \\dfrac{4 \\pm \\sqrt{16+4}}{2} = \\dfrac{4 \\pm \\sqrt{20}}{2} = \\dfrac{4 \\pm 2\\sqrt5}{2} = 2 \\pm \\sqrt5\\).",
@@ -282,10 +451,20 @@
     "type": "Numeric",
     "primarySkill": "quadratic-equations",
     "secondarySkills": [],
-    "difficulty": 4,
+    "difficulty": 5,
     "variables": [
-      { "name": "wt", "min": 3, "max": 15, "step": 1 },
-      { "name": "d", "min": 1, "max": 10, "step": 1 }
+      {
+        "name": "wt",
+        "min": 3,
+        "max": 15,
+        "step": 1
+      },
+      {
+        "name": "d",
+        "min": 1,
+        "max": 10,
+        "step": 1
+      }
     ],
     "stem": "A rectangle's length is {{d}} more than its width, and its area is {{wt*(wt+d)}}. What is the width?",
     "answer": 6,

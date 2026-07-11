@@ -248,16 +248,60 @@
     "secondarySkills": [],
     "difficulty": 1,
     "variables": [
-      { "name": "l", "min": 5, "max": 20, "step": 1 },
-      { "name": "w", "min": 3, "max": 15, "step": 1 }
+      {
+        "name": "l",
+        "min": 5,
+        "max": 20,
+        "step": 1
+      },
+      {
+        "name": "w",
+        "min": 3,
+        "max": 15,
+        "step": 1
+      }
     ],
     "stem": "In the figure, what is the area of the rectangle?",
     "figure": {
       "viewBox": "0 0 200 140",
       "elements": [
-        { "kind": "polygon", "points": [{ "x": 30, "y": 30 }, { "x": 170, "y": 30 }, { "x": 170, "y": 110 }, { "x": 30, "y": 110 }] },
-        { "kind": "label", "at": { "x": 92, "y": 22 }, "text": "{{l}}" },
-        { "kind": "label", "at": { "x": 180, "y": 74 }, "text": "{{w}}" }
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 30,
+              "y": 30
+            },
+            {
+              "x": 170,
+              "y": 30
+            },
+            {
+              "x": 170,
+              "y": 110
+            },
+            {
+              "x": 30,
+              "y": 110
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 92,
+            "y": 22
+          },
+          "text": "{{l}}"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 180,
+            "y": 74
+          },
+          "text": "{{w}}"
+        }
       ]
     },
     "answer": 96,
@@ -273,11 +317,26 @@
     "difficulty": 1,
     "stem": "A square has a perimeter of 32. What is its area?",
     "options": [
-      { "id": "A", "text": "16" },
-      { "id": "B", "text": "32" },
-      { "id": "C", "text": "48" },
-      { "id": "D", "text": "64" },
-      { "id": "E", "text": "128" }
+      {
+        "id": "A",
+        "text": "16"
+      },
+      {
+        "id": "B",
+        "text": "32"
+      },
+      {
+        "id": "C",
+        "text": "48"
+      },
+      {
+        "id": "D",
+        "text": "64"
+      },
+      {
+        "id": "E",
+        "text": "128"
+      }
     ],
     "answer": "D",
     "solutionStandard": "Side \\(=32/4=8\\). Area \\(=8^2=64\\).",
@@ -290,8 +349,18 @@
     "secondarySkills": [],
     "difficulty": 2,
     "variables": [
-      { "name": "b", "min": 4, "max": 20, "step": 1 },
-      { "name": "h", "min": 3, "max": 15, "step": 1 }
+      {
+        "name": "b",
+        "min": 4,
+        "max": 20,
+        "step": 1
+      },
+      {
+        "name": "h",
+        "min": 3,
+        "max": 15,
+        "step": 1
+      }
     ],
     "stem": "A parallelogram has a base of {{b}} and a height of {{h}}. What is its area?",
     "answer": 60,
@@ -306,8 +375,18 @@
     "secondarySkills": [],
     "difficulty": 2,
     "variables": [
-      { "name": "s", "min": 6, "max": 20, "step": 1 },
-      { "name": "d", "min": 1, "max": 4, "step": 1 }
+      {
+        "name": "s",
+        "min": 6,
+        "max": 20,
+        "step": 1
+      },
+      {
+        "name": "d",
+        "min": 1,
+        "max": 4,
+        "step": 1
+      }
     ],
     "stem": "A square and a rectangle each have a perimeter of {{4*s}}. The rectangle has length {{s+d}} and width {{s-d}}.",
     "quantityA": "The area of the square",
@@ -315,7 +394,9 @@
     "answer": "A",
     "solutionStandard": "Square area \\(={{s}}^2\\). Rectangle area \\(=({{s}}+{{d}})({{s}}-{{d}})={{s}}^2-{{d}}^2\\), always less than the square's area whenever \\({{d}} \\neq 0\\). Quantity A is greater.",
     "solutionShortcut": "For a fixed perimeter, a square always encloses the most area among all rectangles — no computation needed.",
-    "shortcutTags": ["estimate"],
+    "shortcutTags": [
+      "estimate"
+    ],
     "timeTargetSec": 65
   },
   {
@@ -325,9 +406,24 @@
     "secondarySkills": [],
     "difficulty": 3,
     "variables": [
-      { "name": "a", "min": 4, "max": 20, "step": 1 },
-      { "name": "b", "min": 4, "max": 20, "step": 1 },
-      { "name": "h", "min": 2, "max": 15, "step": 1 }
+      {
+        "name": "a",
+        "min": 4,
+        "max": 20,
+        "step": 1
+      },
+      {
+        "name": "b",
+        "min": 4,
+        "max": 20,
+        "step": 1
+      },
+      {
+        "name": "h",
+        "min": 2,
+        "max": 15,
+        "step": 1
+      }
     ],
     "stem": "A trapezoid has parallel sides of length {{a}} and {{b}}, and a height of {{h}}. What is its area?",
     "answer": 50,
@@ -343,12 +439,28 @@
     "difficulty": 3,
     "stem": "Which of the following are true for every rectangle? Select all that apply.",
     "options": [
-      { "id": "A", "text": "The diagonals are equal in length." },
-      { "id": "B", "text": "The diagonals bisect each other." },
-      { "id": "C", "text": "All four angles are right angles." },
-      { "id": "D", "text": "All four sides are equal in length." }
+      {
+        "id": "A",
+        "text": "The diagonals are equal in length."
+      },
+      {
+        "id": "B",
+        "text": "The diagonals bisect each other."
+      },
+      {
+        "id": "C",
+        "text": "All four angles are right angles."
+      },
+      {
+        "id": "D",
+        "text": "All four sides are equal in length."
+      }
     ],
-    "answer": ["A", "B", "C"],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
     "solutionStandard": "Equal diagonals, diagonals bisecting each other, and four right angles hold for every rectangle. Equal side lengths (D) hold only for the special case of a square.",
     "timeTargetSec": 70
   },
@@ -356,9 +468,18 @@
     "id": "quadrilaterals-017",
     "type": "Numeric",
     "primarySkill": "quadrilaterals",
-    "secondarySkills": ["right-triangles-pythagorean"],
+    "secondarySkills": [
+      "right-triangles-pythagorean"
+    ],
     "difficulty": 3,
-    "variables": [{ "name": "k", "min": 1, "max": 6, "step": 1 }],
+    "variables": [
+      {
+        "name": "k",
+        "min": 1,
+        "max": 6,
+        "step": 1
+      }
+    ],
     "stem": "A rectangle has a diagonal of length {{13*k}} and one side of length {{5*k}}. What is the length of the other side?",
     "answer": 24,
     "answerFormula": "12 * k",
@@ -369,9 +490,18 @@
     "id": "quadrilaterals-018",
     "type": "Numeric",
     "primarySkill": "quadrilaterals",
-    "secondarySkills": ["linear-equations-one-var"],
+    "secondarySkills": [
+      "linear-equations-one-var"
+    ],
     "difficulty": 4,
-    "variables": [{ "name": "w", "min": 5, "max": 30, "step": 1 }],
+    "variables": [
+      {
+        "name": "w",
+        "min": 5,
+        "max": 30,
+        "step": 1
+      }
+    ],
     "stem": "A rectangular garden has a length twice its width. If the perimeter is {{6*w}}, what is the area of the garden?",
     "answer": 200,
     "answerFormula": "2 * w * w",
@@ -383,7 +513,7 @@
     "type": "QC",
     "primarySkill": "quadrilaterals",
     "secondarySkills": [],
-    "difficulty": 4,
+    "difficulty": 5,
     "stem": "\\(ABCD\\) is a parallelogram whose diagonals intersect at point \\(P\\).",
     "quantityA": "The distance from \\(P\\) to vertex \\(A\\)",
     "quantityB": "The distance from \\(P\\) to vertex \\(C\\)",
@@ -399,11 +529,26 @@
     "difficulty": 5,
     "stem": "A rectangle has a diagonal of length 10 and a perimeter of 28. What is its area?",
     "options": [
-      { "id": "A", "text": "24" },
-      { "id": "B", "text": "40" },
-      { "id": "C", "text": "48" },
-      { "id": "D", "text": "50" },
-      { "id": "E", "text": "96" }
+      {
+        "id": "A",
+        "text": "24"
+      },
+      {
+        "id": "B",
+        "text": "40"
+      },
+      {
+        "id": "C",
+        "text": "48"
+      },
+      {
+        "id": "D",
+        "text": "50"
+      },
+      {
+        "id": "E",
+        "text": "96"
+      }
     ],
     "answer": "C",
     "solutionStandard": "Let the sides be \\(l\\) and \\(w\\). \\(l+w=14\\) (half the perimeter) and \\(l^2+w^2=100\\) (diagonal squared). Since \\((l+w)^2 = l^2+2lw+w^2\\), \\(196 = 100+2lw\\), giving \\(2lw=96\\) and the area \\(lw=48\\).",

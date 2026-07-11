@@ -7,12 +7,27 @@
     "difficulty": 1,
     "stem": "Which values of \\(x\\) satisfy \\(|x + 2| = 5\\)? Select all that apply.",
     "options": [
-      { "id": "A", "text": "3" },
-      { "id": "B", "text": "-7" },
-      { "id": "C", "text": "7" },
-      { "id": "D", "text": "-3" }
+      {
+        "id": "A",
+        "text": "3"
+      },
+      {
+        "id": "B",
+        "text": "-7"
+      },
+      {
+        "id": "C",
+        "text": "7"
+      },
+      {
+        "id": "D",
+        "text": "-3"
+      }
     ],
-    "answer": ["A", "B"],
+    "answer": [
+      "A",
+      "B"
+    ],
     "solutionStandard": "\\(x+2=5\\) gives \\(x=3\\), or \\(x+2=-5\\) gives \\(x=-7\\).",
     "timeTargetSec": 45
   },
@@ -21,14 +36,29 @@
     "type": "MC",
     "primarySkill": "absolute-value-equations",
     "secondarySkills": [],
-    "difficulty": 2,
+    "difficulty": 1,
     "stem": "Solve: \\(|2x - 4| = 10\\)",
     "options": [
-      { "id": "A", "text": "\\(x=7\\) or \\(x=-3\\)" },
-      { "id": "B", "text": "\\(x=3\\) or \\(x=-7\\)" },
-      { "id": "C", "text": "\\(x=7\\) only" },
-      { "id": "D", "text": "\\(x=3\\) only" },
-      { "id": "E", "text": "No solution" }
+      {
+        "id": "A",
+        "text": "\\(x=7\\) or \\(x=-3\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(x=3\\) or \\(x=-7\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(x=7\\) only"
+      },
+      {
+        "id": "D",
+        "text": "\\(x=3\\) only"
+      },
+      {
+        "id": "E",
+        "text": "No solution"
+      }
     ],
     "answer": "A",
     "solutionStandard": "\\(2x-4=10\\) gives \\(x=7\\), or \\(2x-4=-10\\) gives \\(x=-3\\).",
@@ -42,11 +72,26 @@
     "difficulty": 2,
     "stem": "Solve: \\(|x - 3| < 5\\)",
     "options": [
-      { "id": "A", "text": "\\(-2 < x < 8\\)" },
-      { "id": "B", "text": "\\(x < -2\\) or \\(x > 8\\)" },
-      { "id": "C", "text": "\\(2 < x < 8\\)" },
-      { "id": "D", "text": "\\(-8 < x < 2\\)" },
-      { "id": "E", "text": "\\(x < 8\\)" }
+      {
+        "id": "A",
+        "text": "\\(-2 < x < 8\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(x < -2\\) or \\(x > 8\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(2 < x < 8\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(-8 < x < 2\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(x < 8\\)"
+      }
     ],
     "answer": "A",
     "solutionStandard": "\\(|x-3|<5\\) means \\(-5 < x-3 < 5\\). Add 3 to all parts: \\(-2 < x < 8\\).",
@@ -57,14 +102,29 @@
     "type": "MC",
     "primarySkill": "absolute-value-equations",
     "secondarySkills": [],
-    "difficulty": 3,
+    "difficulty": 2,
     "stem": "Solve: \\(|3x + 1| > 7\\)",
     "options": [
-      { "id": "A", "text": "\\(-\\frac{8}{3} < x < 2\\)" },
-      { "id": "B", "text": "\\(x < -\\frac{8}{3}\\) or \\(x > 2\\)" },
-      { "id": "C", "text": "\\(x > 2\\) only" },
-      { "id": "D", "text": "\\(x < -\\frac{8}{3}\\) only" },
-      { "id": "E", "text": "\\(2 < x < \\frac{8}{3}\\)" }
+      {
+        "id": "A",
+        "text": "\\(-\\frac{8}{3} < x < 2\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(x < -\\frac{8}{3}\\) or \\(x > 2\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(x > 2\\) only"
+      },
+      {
+        "id": "D",
+        "text": "\\(x < -\\frac{8}{3}\\) only"
+      },
+      {
+        "id": "E",
+        "text": "\\(2 < x < \\frac{8}{3}\\)"
+      }
     ],
     "answer": "B",
     "solutionStandard": "\\(|3x+1|>7\\) splits into \\(3x+1>7\\) or \\(3x+1<-7\\). First: \\(3x>6\\), \\(x>2\\). Second: \\(3x<-8\\), \\(x<-8/3\\).",
@@ -102,12 +162,28 @@
     "difficulty": 3,
     "stem": "Which of the following describe the solution set of \\(|x+2| \\ge 6\\)? Select all that apply.",
     "options": [
-      { "id": "A", "text": "\\(x \\ge 4\\)" },
-      { "id": "B", "text": "\\(x \\le -8\\)" },
-      { "id": "C", "text": "\\(-8 \\le x \\le 4\\)" },
-      { "id": "D", "text": "\\(x = 4\\) is included" }
+      {
+        "id": "A",
+        "text": "\\(x \\ge 4\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(x \\le -8\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(-8 \\le x \\le 4\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(x = 4\\) is included"
+      }
     ],
-    "answer": ["A", "B", "D"],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
     "solutionStandard": "\\(|x+2|\\ge6\\) means \\(x+2\\ge6\\) (so \\(x\\ge4\\)) or \\(x+2\\le-6\\) (so \\(x\\le-8\\)). Since the inequality is \"greater than\", the solution splits into two rays, not the connected range in (C). \\(x=4\\) satisfies equality, so it's included.",
     "timeTargetSec": 80
   },
@@ -119,11 +195,26 @@
     "difficulty": 4,
     "stem": "How many integer values of \\(x\\) satisfy \\(|x - 5| \\le 3\\)?",
     "options": [
-      { "id": "A", "text": "5" },
-      { "id": "B", "text": "6" },
-      { "id": "C", "text": "7" },
-      { "id": "D", "text": "8" },
-      { "id": "E", "text": "9" }
+      {
+        "id": "A",
+        "text": "5"
+      },
+      {
+        "id": "B",
+        "text": "6"
+      },
+      {
+        "id": "C",
+        "text": "7"
+      },
+      {
+        "id": "D",
+        "text": "8"
+      },
+      {
+        "id": "E",
+        "text": "9"
+      }
     ],
     "answer": "C",
     "solutionStandard": "\\(|x-5|\\le3\\) means \\(2\\le x\\le8\\), which includes \\(2,3,4,5,6,7,8\\) — 7 integers.",
@@ -137,11 +228,26 @@
     "difficulty": 4,
     "stem": "If \\(|2x - 6| = |x|\\), what are all possible values of \\(x\\)?",
     "options": [
-      { "id": "A", "text": "\\(2\\) and \\(6\\)" },
-      { "id": "B", "text": "\\(2\\) only" },
-      { "id": "C", "text": "\\(6\\) only" },
-      { "id": "D", "text": "\\(-2\\) and \\(6\\)" },
-      { "id": "E", "text": "\\(3\\) only" }
+      {
+        "id": "A",
+        "text": "\\(2\\) and \\(6\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(2\\) only"
+      },
+      {
+        "id": "C",
+        "text": "\\(6\\) only"
+      },
+      {
+        "id": "D",
+        "text": "\\(-2\\) and \\(6\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(3\\) only"
+      }
     ],
     "answer": "A",
     "solutionStandard": "Case 1: \\(2x-6=x\\) gives \\(x=6\\). Case 2: \\(2x-6=-x\\) gives \\(3x=6\\), so \\(x=2\\). Check both: \\(x=6\\): \\(|12-6|=6=|6|\\), works. \\(x=2\\): \\(|4-6|=2=|2|\\), works.",
@@ -165,8 +271,18 @@
     "secondarySkills": [],
     "difficulty": 1,
     "variables": [
-      { "name": "h", "min": 1, "max": 20, "step": 1 },
-      { "name": "k", "min": 1, "max": 15, "step": 1 }
+      {
+        "name": "h",
+        "min": 1,
+        "max": 20,
+        "step": 1
+      },
+      {
+        "name": "k",
+        "min": 1,
+        "max": 15,
+        "step": 1
+      }
     ],
     "stem": "What is the sum of all solutions to \\(|x - {{h}}| = {{k}}\\)?",
     "answer": 20,
@@ -182,11 +298,26 @@
     "difficulty": 1,
     "stem": "Solve: \\(|x + 5| = 8\\)",
     "options": [
-      { "id": "A", "text": "\\(x=3\\) or \\(x=-13\\)" },
-      { "id": "B", "text": "\\(x=13\\) or \\(x=-3\\)" },
-      { "id": "C", "text": "\\(x=3\\) only" },
-      { "id": "D", "text": "\\(x=-13\\) only" },
-      { "id": "E", "text": "No solution" }
+      {
+        "id": "A",
+        "text": "\\(x=3\\) or \\(x=-13\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(x=13\\) or \\(x=-3\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(x=3\\) only"
+      },
+      {
+        "id": "D",
+        "text": "\\(x=-13\\) only"
+      },
+      {
+        "id": "E",
+        "text": "No solution"
+      }
     ],
     "answer": "A",
     "solutionStandard": "\\(x+5=8\\) gives \\(x=3\\), or \\(x+5=-8\\) gives \\(x=-13\\).",
@@ -199,8 +330,18 @@
     "secondarySkills": [],
     "difficulty": 2,
     "variables": [
-      { "name": "h", "min": -10, "max": 10, "step": 1 },
-      { "name": "k", "min": 1, "max": 15, "step": 1 }
+      {
+        "name": "h",
+        "min": -10,
+        "max": 10,
+        "step": 1
+      },
+      {
+        "name": "k",
+        "min": 1,
+        "max": 15,
+        "step": 1
+      }
     ],
     "stem": "How many integer values of \\(x\\) satisfy \\(|x - {{h}}| \\le {{k}}\\)?",
     "answer": 9,
@@ -216,11 +357,26 @@
     "difficulty": 2,
     "stem": "Solve: \\(|x + 4| < 6\\)",
     "options": [
-      { "id": "A", "text": "\\(-10 < x < 2\\)" },
-      { "id": "B", "text": "\\(x < -10\\) or \\(x > 2\\)" },
-      { "id": "C", "text": "\\(-2 < x < 10\\)" },
-      { "id": "D", "text": "\\(2 < x < 10\\)" },
-      { "id": "E", "text": "\\(x < 2\\)" }
+      {
+        "id": "A",
+        "text": "\\(-10 < x < 2\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(x < -10\\) or \\(x > 2\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(-2 < x < 10\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(2 < x < 10\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(x < 2\\)"
+      }
     ],
     "answer": "A",
     "solutionStandard": "\\(|x+4|<6\\) means \\(-6<x+4<6\\). Subtract 4: \\(-10<x<2\\).",
@@ -233,8 +389,18 @@
     "secondarySkills": [],
     "difficulty": 3,
     "variables": [
-      { "name": "a", "min": 1, "max": 10, "step": 1 },
-      { "name": "b", "min": 11, "max": 20, "step": 1 }
+      {
+        "name": "a",
+        "min": 1,
+        "max": 10,
+        "step": 1
+      },
+      {
+        "name": "b",
+        "min": 11,
+        "max": 20,
+        "step": 1
+      }
     ],
     "stem": "\\(|x - {{a}}| = |x - {{b}}|\\)",
     "quantityA": "\\(x\\)",
@@ -251,12 +417,27 @@
     "difficulty": 3,
     "stem": "Which of the following describe the solution set of \\(|x - 3| > 5\\)? Select all that apply.",
     "options": [
-      { "id": "A", "text": "\\(x > 8\\)" },
-      { "id": "B", "text": "\\(x < -2\\)" },
-      { "id": "C", "text": "\\(-2 < x < 8\\)" },
-      { "id": "D", "text": "\\(x = 8\\) is included" }
+      {
+        "id": "A",
+        "text": "\\(x > 8\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(x < -2\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(-2 < x < 8\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(x = 8\\) is included"
+      }
     ],
-    "answer": ["A", "B"],
+    "answer": [
+      "A",
+      "B"
+    ],
     "solutionStandard": "\\(|x-3|>5\\) means \\(x-3>5\\) (so \\(x>8\\)) or \\(x-3<-5\\) (so \\(x<-2\\)). (C) describes the complement, not the solution set, and since the inequality is strict, \\(x=8\\) is not included.",
     "timeTargetSec": 75
   },
@@ -267,8 +448,18 @@
     "secondarySkills": [],
     "difficulty": 3,
     "variables": [
-      { "name": "a", "min": 2, "max": 6, "step": 1 },
-      { "name": "xt", "min": 2, "max": 15, "step": 1 }
+      {
+        "name": "a",
+        "min": 2,
+        "max": 6,
+        "step": 1
+      },
+      {
+        "name": "xt",
+        "min": 2,
+        "max": 15,
+        "step": 1
+      }
     ],
     "stem": "If \\(|{{a}}x - 1| = {{a*xt - 1}}\\), what is the positive solution for \\(x\\)?",
     "answer": 5,
@@ -284,11 +475,26 @@
     "difficulty": 4,
     "stem": "If \\(|3x - 2| = |x + 4|\\), what are all possible values of \\(x\\)?",
     "options": [
-      { "id": "A", "text": "\\(3\\) and \\(-0.5\\)" },
-      { "id": "B", "text": "\\(3\\) only" },
-      { "id": "C", "text": "\\(-0.5\\) only" },
-      { "id": "D", "text": "\\(3\\) and \\(0.5\\)" },
-      { "id": "E", "text": "\\(-3\\) and \\(0.5\\)" }
+      {
+        "id": "A",
+        "text": "\\(3\\) and \\(-0.5\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(3\\) only"
+      },
+      {
+        "id": "C",
+        "text": "\\(-0.5\\) only"
+      },
+      {
+        "id": "D",
+        "text": "\\(3\\) and \\(0.5\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(-3\\) and \\(0.5\\)"
+      }
     ],
     "answer": "A",
     "solutionStandard": "Case 1: \\(3x-2=x+4\\) gives \\(2x=6\\), so \\(x=3\\). Case 2: \\(3x-2=-(x+4)\\) gives \\(4x=-2\\), so \\(x=-0.5\\).",
@@ -299,10 +505,20 @@
     "type": "Numeric",
     "primarySkill": "absolute-value-equations",
     "secondarySkills": [],
-    "difficulty": 4,
+    "difficulty": 5,
     "variables": [
-      { "name": "a", "min": 2, "max": 6, "step": 2 },
-      { "name": "k", "min": 2, "max": 15, "step": 1 }
+      {
+        "name": "a",
+        "min": 2,
+        "max": 6,
+        "step": 2
+      },
+      {
+        "name": "k",
+        "min": 2,
+        "max": 15,
+        "step": 1
+      }
     ],
     "stem": "What is the greatest integer \\(x\\) satisfying \\(|{{a}}x + 1| < {{a*(k+0.5)+1}}\\)?",
     "answer": 5,

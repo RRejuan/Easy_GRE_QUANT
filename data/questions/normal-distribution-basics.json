@@ -7,11 +7,26 @@
     "difficulty": 1,
     "stem": "In a normal distribution, approximately what percent of the data falls within 1 standard deviation of the mean?",
     "options": [
-      { "id": "A", "text": "50%" },
-      { "id": "B", "text": "68%" },
-      { "id": "C", "text": "95%" },
-      { "id": "D", "text": "99.7%" },
-      { "id": "E", "text": "34%" }
+      {
+        "id": "A",
+        "text": "50%"
+      },
+      {
+        "id": "B",
+        "text": "68%"
+      },
+      {
+        "id": "C",
+        "text": "95%"
+      },
+      {
+        "id": "D",
+        "text": "99.7%"
+      },
+      {
+        "id": "E",
+        "text": "34%"
+      }
     ],
     "answer": "B",
     "solutionStandard": "By the empirical rule, about 68% of the data falls within 1 standard deviation of the mean.",
@@ -22,7 +37,7 @@
     "type": "Numeric",
     "primarySkill": "normal-distribution-basics",
     "secondarySkills": [],
-    "difficulty": 2,
+    "difficulty": 1,
     "stem": "Scores on a test are normally distributed with mean 500 and standard deviation 100. What percent of scores are above 600?",
     "answer": 16,
     "solutionStandard": "600 is 1 SD above the mean. 50% of scores are above the mean; of the 68% within 1 SD, half (34%) are between the mean and 600. Above 600: \\(50-34=16\\%\\).",
@@ -36,11 +51,26 @@
     "difficulty": 2,
     "stem": "In a normal distribution, approximately what percent of the data falls between the mean and 2 standard deviations above the mean?",
     "options": [
-      { "id": "A", "text": "34%" },
-      { "id": "B", "text": "47.5%" },
-      { "id": "C", "text": "50%" },
-      { "id": "D", "text": "68%" },
-      { "id": "E", "text": "95%" }
+      {
+        "id": "A",
+        "text": "34%"
+      },
+      {
+        "id": "B",
+        "text": "47.5%"
+      },
+      {
+        "id": "C",
+        "text": "50%"
+      },
+      {
+        "id": "D",
+        "text": "68%"
+      },
+      {
+        "id": "E",
+        "text": "95%"
+      }
     ],
     "answer": "B",
     "solutionStandard": "95% falls within 2 SD of the mean (symmetric), so half of that, 47.5%, lies between the mean and 2 SD above it.",
@@ -78,11 +108,26 @@
     "difficulty": 3,
     "stem": "In a normal distribution, approximately what percent of the data lies below 1 standard deviation below the mean?",
     "options": [
-      { "id": "A", "text": "2.5%" },
-      { "id": "B", "text": "5%" },
-      { "id": "C", "text": "16%" },
-      { "id": "D", "text": "32%" },
-      { "id": "E", "text": "34%" }
+      {
+        "id": "A",
+        "text": "2.5%"
+      },
+      {
+        "id": "B",
+        "text": "5%"
+      },
+      {
+        "id": "C",
+        "text": "16%"
+      },
+      {
+        "id": "D",
+        "text": "32%"
+      },
+      {
+        "id": "E",
+        "text": "34%"
+      }
     ],
     "answer": "C",
     "solutionStandard": "By symmetry, the percent below 1 SD below the mean equals the percent above 1 SD above the mean: \\(50-34=16\\%\\).",
@@ -96,12 +141,28 @@
     "difficulty": 3,
     "stem": "Which of the following are true for a normal distribution? Select all that apply.",
     "options": [
-      { "id": "A", "text": "The mean, median, and mode are equal" },
-      { "id": "B", "text": "The distribution is symmetric about the mean" },
-      { "id": "C", "text": "Exactly half the data is above the mean" },
-      { "id": "D", "text": "All data falls within 1 standard deviation of the mean" }
+      {
+        "id": "A",
+        "text": "The mean, median, and mode are equal"
+      },
+      {
+        "id": "B",
+        "text": "The distribution is symmetric about the mean"
+      },
+      {
+        "id": "C",
+        "text": "Exactly half the data is above the mean"
+      },
+      {
+        "id": "D",
+        "text": "All data falls within 1 standard deviation of the mean"
+      }
     ],
-    "answer": ["A", "B", "C"],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
     "solutionStandard": "(A), (B), and (C) are all defining properties of a normal distribution. (D) is false — only about 68% falls within 1 SD; the rest lies farther out.",
     "timeTargetSec": 60
   },
@@ -124,11 +185,26 @@
     "difficulty": 4,
     "stem": "In a normal distribution, approximately what percent of the data falls between 1 and 2 standard deviations above the mean?",
     "options": [
-      { "id": "A", "text": "2.5%" },
-      { "id": "B", "text": "13.5%" },
-      { "id": "C", "text": "27%" },
-      { "id": "D", "text": "34%" },
-      { "id": "E", "text": "47.5%" }
+      {
+        "id": "A",
+        "text": "2.5%"
+      },
+      {
+        "id": "B",
+        "text": "13.5%"
+      },
+      {
+        "id": "C",
+        "text": "27%"
+      },
+      {
+        "id": "D",
+        "text": "34%"
+      },
+      {
+        "id": "E",
+        "text": "47.5%"
+      }
     ],
     "answer": "B",
     "solutionStandard": "Between the mean and 2 SD above is 47.5%; between the mean and 1 SD above is 34%. The band from 1 to 2 SD above: \\(47.5-34=13.5\\%\\).",
@@ -154,8 +230,18 @@
     "secondarySkills": [],
     "difficulty": 1,
     "variables": [
-      { "name": "m", "min": 50, "max": 500, "step": 1 },
-      { "name": "s", "min": 5, "max": 50, "step": 1 }
+      {
+        "name": "m",
+        "min": 50,
+        "max": 500,
+        "step": 1
+      },
+      {
+        "name": "s",
+        "min": 5,
+        "max": 50,
+        "step": 1
+      }
     ],
     "stem": "Scores are normally distributed with mean {{m}} and standard deviation {{s}}. What value is exactly 1 standard deviation above the mean?",
     "answer": 60,
@@ -171,11 +257,26 @@
     "difficulty": 1,
     "stem": "In a normal distribution, approximately what percent of the data falls within 3 standard deviations of the mean?",
     "options": [
-      { "id": "A", "text": "68%" },
-      { "id": "B", "text": "95%" },
-      { "id": "C", "text": "97.5%" },
-      { "id": "D", "text": "99.7%" },
-      { "id": "E", "text": "100%" }
+      {
+        "id": "A",
+        "text": "68%"
+      },
+      {
+        "id": "B",
+        "text": "95%"
+      },
+      {
+        "id": "C",
+        "text": "97.5%"
+      },
+      {
+        "id": "D",
+        "text": "99.7%"
+      },
+      {
+        "id": "E",
+        "text": "100%"
+      }
     ],
     "answer": "D",
     "solutionStandard": "By the empirical rule, about 99.7% of the data falls within 3 standard deviations of the mean.",
@@ -188,8 +289,18 @@
     "secondarySkills": [],
     "difficulty": 2,
     "variables": [
-      { "name": "m", "min": 100, "max": 600, "step": 1 },
-      { "name": "s", "min": 5, "max": 50, "step": 1 }
+      {
+        "name": "m",
+        "min": 100,
+        "max": 600,
+        "step": 1
+      },
+      {
+        "name": "s",
+        "min": 5,
+        "max": 50,
+        "step": 1
+      }
     ],
     "stem": "Scores are normally distributed with mean {{m}} and standard deviation {{s}}. What percent of scores are below {{m-s}}?",
     "answer": 16,
@@ -204,11 +315,26 @@
     "difficulty": 2,
     "stem": "In a normal distribution, approximately what percent of the data lies more than 2 standard deviations from the mean (above OR below)?",
     "options": [
-      { "id": "A", "text": "2.5%" },
-      { "id": "B", "text": "5%" },
-      { "id": "C", "text": "16%" },
-      { "id": "D", "text": "32%" },
-      { "id": "E", "text": "95%" }
+      {
+        "id": "A",
+        "text": "2.5%"
+      },
+      {
+        "id": "B",
+        "text": "5%"
+      },
+      {
+        "id": "C",
+        "text": "16%"
+      },
+      {
+        "id": "D",
+        "text": "32%"
+      },
+      {
+        "id": "E",
+        "text": "95%"
+      }
     ],
     "answer": "B",
     "solutionStandard": "About 95% of the data lies within 2 SD of the mean, so the remaining \\(100-95=5\\%\\) lies farther than 2 SD away (split between both tails).",
@@ -219,10 +345,20 @@
     "type": "QC",
     "primarySkill": "normal-distribution-basics",
     "secondarySkills": [],
-    "difficulty": 2,
+    "difficulty": 3,
     "variables": [
-      { "name": "m", "min": 50, "max": 500, "step": 1 },
-      { "name": "s", "min": 5, "max": 50, "step": 1 }
+      {
+        "name": "m",
+        "min": 50,
+        "max": 500,
+        "step": 1
+      },
+      {
+        "name": "s",
+        "min": 5,
+        "max": 50,
+        "step": 1
+      }
     ],
     "stem": "A normal distribution has mean {{m}} and standard deviation {{s}}.",
     "quantityA": "The percent of data above {{m+s}}",
@@ -238,8 +374,18 @@
     "secondarySkills": [],
     "difficulty": 3,
     "variables": [
-      { "name": "m", "min": 50, "max": 500, "step": 1 },
-      { "name": "s", "min": 5, "max": 50, "step": 1 }
+      {
+        "name": "m",
+        "min": 50,
+        "max": 500,
+        "step": 1
+      },
+      {
+        "name": "s",
+        "min": 5,
+        "max": 50,
+        "step": 1
+      }
     ],
     "stem": "A normal distribution has mean {{m}} and standard deviation {{s}}. What percent of the data falls between {{m-2*s}} and {{m+2*s}}?",
     "answer": 95,
@@ -254,12 +400,27 @@
     "difficulty": 3,
     "stem": "A value lies exactly 3 standard deviations above the mean of a normal distribution. Which of the following are true? Select all that apply.",
     "options": [
-      { "id": "A", "text": "It is an unusually extreme (rare) value" },
-      { "id": "B", "text": "More than 99% of the data lies below it" },
-      { "id": "C", "text": "Exactly 3% of the data lies above it" },
-      { "id": "D", "text": "No data point can ever exceed it" }
+      {
+        "id": "A",
+        "text": "It is an unusually extreme (rare) value"
+      },
+      {
+        "id": "B",
+        "text": "More than 99% of the data lies below it"
+      },
+      {
+        "id": "C",
+        "text": "Exactly 3% of the data lies above it"
+      },
+      {
+        "id": "D",
+        "text": "No data point can ever exceed it"
+      }
     ],
-    "answer": ["A", "B"],
+    "answer": [
+      "A",
+      "B"
+    ],
     "solutionStandard": "About 99.7% of data lies within 3 SD of the mean, so roughly 99.85% lies below this value — confirming (A) and (B). (C) is false (the true figure is about 0.15%, not 3%). (D) is false — a normal distribution's tails extend without bound, so values beyond 3 SD are rare but not impossible.",
     "timeTargetSec": 90
   },
@@ -270,8 +431,18 @@
     "secondarySkills": [],
     "difficulty": 4,
     "variables": [
-      { "name": "m", "min": 50, "max": 500, "step": 1 },
-      { "name": "s", "min": 5, "max": 50, "step": 1 }
+      {
+        "name": "m",
+        "min": 50,
+        "max": 500,
+        "step": 1
+      },
+      {
+        "name": "s",
+        "min": 5,
+        "max": 50,
+        "step": 1
+      }
     ],
     "stem": "A normal distribution has mean {{m}} and standard deviation {{s}}. What percent of the data falls between {{m+s}} and {{m+2*s}}?",
     "answer": 13.5,
@@ -283,7 +454,7 @@
     "type": "QC",
     "primarySkill": "normal-distribution-basics",
     "secondarySkills": [],
-    "difficulty": 4,
+    "difficulty": 5,
     "stem": "Distribution X has mean 500 and standard deviation 50. Distribution Y has mean 500 and standard deviation 80. Both are normal.",
     "quantityA": "The percent of Distribution X's data above 600",
     "quantityB": "The percent of Distribution Y's data above 600",

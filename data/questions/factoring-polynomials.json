@@ -7,11 +7,26 @@
     "difficulty": 1,
     "stem": "Factor: \\(6x + 9\\)",
     "options": [
-      { "id": "A", "text": "\\(3(2x+3)\\)" },
-      { "id": "B", "text": "\\(2(3x+9)\\)" },
-      { "id": "C", "text": "\\(6(x+9)\\)" },
-      { "id": "D", "text": "\\(3x(2+3)\\)" },
-      { "id": "E", "text": "\\(9(x+6)\\)" }
+      {
+        "id": "A",
+        "text": "\\(3(2x+3)\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(2(3x+9)\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(6(x+9)\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(3x(2+3)\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(9(x+6)\\)"
+      }
     ],
     "answer": "A",
     "solutionStandard": "The GCF of 6 and 9 is 3: \\(6x+9 = 3(2x+3)\\).",
@@ -22,14 +37,29 @@
     "type": "MC",
     "primarySkill": "factoring-polynomials",
     "secondarySkills": [],
-    "difficulty": 2,
+    "difficulty": 1,
     "stem": "Factor: \\(x^2 - 16\\)",
     "options": [
-      { "id": "A", "text": "\\((x-4)(x+4)\\)" },
-      { "id": "B", "text": "\\((x-8)(x+8)\\)" },
-      { "id": "C", "text": "\\((x-16)(x+1)\\)" },
-      { "id": "D", "text": "\\((x-4)^2\\)" },
-      { "id": "E", "text": "\\(x(x-16)\\)" }
+      {
+        "id": "A",
+        "text": "\\((x-4)(x+4)\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\((x-8)(x+8)\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\((x-16)(x+1)\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\((x-4)^2\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(x(x-16)\\)"
+      }
     ],
     "answer": "A",
     "solutionStandard": "Difference of squares: \\(x^2 - 16 = x^2 - 4^2 = (x-4)(x+4)\\).",
@@ -43,11 +73,26 @@
     "difficulty": 2,
     "stem": "Factor: \\(x^2 + 7x + 12\\)",
     "options": [
-      { "id": "A", "text": "\\((x+3)(x+4)\\)" },
-      { "id": "B", "text": "\\((x+2)(x+6)\\)" },
-      { "id": "C", "text": "\\((x+1)(x+12)\\)" },
-      { "id": "D", "text": "\\((x+3)(x+5)\\)" },
-      { "id": "E", "text": "\\((x-3)(x-4)\\)" }
+      {
+        "id": "A",
+        "text": "\\((x+3)(x+4)\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\((x+2)(x+6)\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\((x+1)(x+12)\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\((x+3)(x+5)\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\((x-3)(x-4)\\)"
+      }
     ],
     "answer": "A",
     "solutionStandard": "Look for two numbers that multiply to 12 and add to 7: 3 and 4. So \\(x^2+7x+12=(x+3)(x+4)\\).",
@@ -85,11 +130,26 @@
     "difficulty": 3,
     "stem": "Factor completely: \\(3x^2 - 12\\)",
     "options": [
-      { "id": "A", "text": "\\(3(x-2)(x+2)\\)" },
-      { "id": "B", "text": "\\(3(x-4)(x+4)\\)" },
-      { "id": "C", "text": "\\((3x-6)(x+2)\\)" },
-      { "id": "D", "text": "\\(3x(x-4)\\)" },
-      { "id": "E", "text": "\\((3x-2)(x+6)\\)" }
+      {
+        "id": "A",
+        "text": "\\(3(x-2)(x+2)\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(3(x-4)(x+4)\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\((3x-6)(x+2)\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(3x(x-4)\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\((3x-2)(x+6)\\)"
+      }
     ],
     "answer": "A",
     "solutionStandard": "Factor out the GCF of 3 first: \\(3x^2-12=3(x^2-4)\\), then apply difference of squares: \\(3(x-2)(x+2)\\).",
@@ -103,12 +163,27 @@
     "difficulty": 3,
     "stem": "Which of the following are equivalent to \\(x^2 - x - 6\\)? Select all that apply.",
     "options": [
-      { "id": "A", "text": "\\((x-3)(x+2)\\)" },
-      { "id": "B", "text": "\\((x+3)(x-2)\\)" },
-      { "id": "C", "text": "\\((x-6)(x+1)\\)" },
-      { "id": "D", "text": "\\(x^2 - 6 - x\\)" }
+      {
+        "id": "A",
+        "text": "\\((x-3)(x+2)\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\((x+3)(x-2)\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\((x-6)(x+1)\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(x^2 - 6 - x\\)"
+      }
     ],
-    "answer": ["A", "D"],
+    "answer": [
+      "A",
+      "D"
+    ],
     "solutionStandard": "Two numbers multiplying to \\(-6\\) and adding to \\(-1\\): \\(-3\\) and \\(2\\). So \\(x^2-x-6=(x-3)(x+2)\\), matching (A). (D) is just a reordering of the same original expression, so it's trivially equal. (B) expands to \\(x^2+x-6\\) (wrong middle term), and (C) expands to \\(x^2-5x-6\\).",
     "timeTargetSec": 85
   },
@@ -131,11 +206,26 @@
     "difficulty": 4,
     "stem": "Simplify: \\(\\dfrac{x^2-25}{x^2-3x-10}\\) (for \\(x \\neq -2, 5\\))",
     "options": [
-      { "id": "A", "text": "\\(\\dfrac{x-5}{x+2}\\)" },
-      { "id": "B", "text": "\\(\\dfrac{x+5}{x+2}\\)" },
-      { "id": "C", "text": "\\(\\dfrac{x+5}{x-2}\\)" },
-      { "id": "D", "text": "\\(\\dfrac{x-5}{x-2}\\)" },
-      { "id": "E", "text": "5" }
+      {
+        "id": "A",
+        "text": "\\(\\dfrac{x-5}{x+2}\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(\\dfrac{x+5}{x+2}\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(\\dfrac{x+5}{x-2}\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(\\dfrac{x-5}{x-2}\\)"
+      },
+      {
+        "id": "E",
+        "text": "5"
+      }
     ],
     "answer": "B",
     "solutionStandard": "Numerator: \\(x^2-25=(x-5)(x+5)\\). Denominator: \\(x^2-3x-10=(x-5)(x+2)\\). Cancel the common factor \\((x-5)\\): \\(\\dfrac{x+5}{x+2}\\).",
@@ -149,11 +239,26 @@
     "difficulty": 4,
     "stem": "If \\(x^2 + kx + 21\\) factors as \\((x+3)(x+7)\\), what is the value of \\(k\\)?",
     "options": [
-      { "id": "A", "text": "7" },
-      { "id": "B", "text": "10" },
-      { "id": "C", "text": "13" },
-      { "id": "D", "text": "21" },
-      { "id": "E", "text": "24" }
+      {
+        "id": "A",
+        "text": "7"
+      },
+      {
+        "id": "B",
+        "text": "10"
+      },
+      {
+        "id": "C",
+        "text": "13"
+      },
+      {
+        "id": "D",
+        "text": "21"
+      },
+      {
+        "id": "E",
+        "text": "24"
+      }
     ],
     "answer": "B",
     "solutionStandard": "Expanding \\((x+3)(x+7) = x^2 + 10x + 21\\), so \\(k = 10\\).",
@@ -165,7 +270,14 @@
     "primarySkill": "factoring-polynomials",
     "secondarySkills": [],
     "difficulty": 1,
-    "variables": [{ "name": "g", "min": 2, "max": 9, "step": 1 }],
+    "variables": [
+      {
+        "name": "g",
+        "min": 2,
+        "max": 9,
+        "step": 1
+      }
+    ],
     "stem": "What is the greatest common factor that can be factored out of \\({{2*g}}x + {{3*g}}\\)?",
     "answer": 4,
     "answerFormula": "g",
@@ -180,11 +292,26 @@
     "difficulty": 1,
     "stem": "Factor: \\(10x + 15\\)",
     "options": [
-      { "id": "A", "text": "\\(5(2x+3)\\)" },
-      { "id": "B", "text": "\\(2(5x+15)\\)" },
-      { "id": "C", "text": "\\(10(x+15)\\)" },
-      { "id": "D", "text": "\\(5x(2+3)\\)" },
-      { "id": "E", "text": "\\(15(x+10)\\)" }
+      {
+        "id": "A",
+        "text": "\\(5(2x+3)\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(2(5x+15)\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(10(x+15)\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(5x(2+3)\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(15(x+10)\\)"
+      }
     ],
     "answer": "A",
     "solutionStandard": "The GCF of 10 and 15 is 5: \\(10x+15=5(2x+3)\\).",
@@ -196,7 +323,14 @@
     "primarySkill": "factoring-polynomials",
     "secondarySkills": [],
     "difficulty": 2,
-    "variables": [{ "name": "n", "min": 2, "max": 15, "step": 1 }],
+    "variables": [
+      {
+        "name": "n",
+        "min": 2,
+        "max": 15,
+        "step": 1
+      }
+    ],
     "stem": "If \\(x^2 - {{n*n}} = 0\\) and \\(x > 0\\), what is \\(x\\)?",
     "answer": 6,
     "answerFormula": "n",
@@ -211,11 +345,26 @@
     "difficulty": 2,
     "stem": "Factor: \\(x^2 + 9x + 20\\)",
     "options": [
-      { "id": "A", "text": "\\((x+4)(x+5)\\)" },
-      { "id": "B", "text": "\\((x+2)(x+10)\\)" },
-      { "id": "C", "text": "\\((x+1)(x+20)\\)" },
-      { "id": "D", "text": "\\((x+4)(x+6)\\)" },
-      { "id": "E", "text": "\\((x-4)(x-5)\\)" }
+      {
+        "id": "A",
+        "text": "\\((x+4)(x+5)\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\((x+2)(x+10)\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\((x+1)(x+20)\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\((x+4)(x+6)\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\((x-4)(x-5)\\)"
+      }
     ],
     "answer": "A",
     "solutionStandard": "Two numbers multiplying to 20 and adding to 9: 4 and 5. So \\(x^2+9x+20=(x+4)(x+5)\\).",
@@ -227,7 +376,14 @@
     "primarySkill": "factoring-polynomials",
     "secondarySkills": [],
     "difficulty": 3,
-    "variables": [{ "name": "a", "min": 2, "max": 20, "step": 1 }],
+    "variables": [
+      {
+        "name": "a",
+        "min": 2,
+        "max": 20,
+        "step": 1
+      }
+    ],
     "stem": "\\(x^2 - {{2*a}}x + {{a*a}} = 0\\)",
     "quantityA": "\\(x\\)",
     "quantityB": "{{a}}",
@@ -243,12 +399,27 @@
     "difficulty": 3,
     "stem": "Which of the following are equivalent to \\(x^2 + 2x - 15\\)? Select all that apply.",
     "options": [
-      { "id": "A", "text": "\\((x+5)(x-3)\\)" },
-      { "id": "B", "text": "\\((x-5)(x+3)\\)" },
-      { "id": "C", "text": "\\(x^2 - 15 + 2x\\)" },
-      { "id": "D", "text": "\\((x-15)(x+1)\\)" }
+      {
+        "id": "A",
+        "text": "\\((x+5)(x-3)\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\((x-5)(x+3)\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(x^2 - 15 + 2x\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\((x-15)(x+1)\\)"
+      }
     ],
-    "answer": ["A", "C"],
+    "answer": [
+      "A",
+      "C"
+    ],
     "solutionStandard": "Two numbers multiplying to \\(-15\\) and adding to \\(2\\): \\(5\\) and \\(-3\\). So \\(x^2+2x-15=(x+5)(x-3)\\), matching (A); (C) is just a reordering. (B) expands to \\(x^2-2x-15\\) (wrong sign), and (D) expands to \\(x^2-14x-15\\).",
     "timeTargetSec": 85
   },
@@ -259,8 +430,18 @@
     "secondarySkills": [],
     "difficulty": 3,
     "variables": [
-      { "name": "a", "min": 1, "max": 9, "step": 1 },
-      { "name": "k", "min": 2, "max": 15, "step": 1 }
+      {
+        "name": "a",
+        "min": 1,
+        "max": 9,
+        "step": 1
+      },
+      {
+        "name": "k",
+        "min": 2,
+        "max": 15,
+        "step": 1
+      }
     ],
     "stem": "If \\({{a}}x^2 - {{a*k*k}} = 0\\) and \\(x > 0\\), what is \\(x\\)?",
     "answer": 5,
@@ -276,11 +457,26 @@
     "difficulty": 4,
     "stem": "Simplify: \\(\\dfrac{x^2-49}{x^2-2x-35}\\) (for \\(x \\neq -5, 7\\))",
     "options": [
-      { "id": "A", "text": "\\(\\dfrac{x-7}{x+5}\\)" },
-      { "id": "B", "text": "\\(\\dfrac{x+7}{x+5}\\)" },
-      { "id": "C", "text": "\\(\\dfrac{x+7}{x-5}\\)" },
-      { "id": "D", "text": "\\(\\dfrac{x-7}{x-5}\\)" },
-      { "id": "E", "text": "7" }
+      {
+        "id": "A",
+        "text": "\\(\\dfrac{x-7}{x+5}\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(\\dfrac{x+7}{x+5}\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(\\dfrac{x+7}{x-5}\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(\\dfrac{x-7}{x-5}\\)"
+      },
+      {
+        "id": "E",
+        "text": "7"
+      }
     ],
     "answer": "B",
     "solutionStandard": "Numerator: \\(x^2-49=(x-7)(x+7)\\). Denominator: \\(x^2-2x-35=(x-7)(x+5)\\). Cancel \\((x-7)\\): \\(\\dfrac{x+7}{x+5}\\).",
@@ -291,10 +487,20 @@
     "type": "Numeric",
     "primarySkill": "factoring-polynomials",
     "secondarySkills": [],
-    "difficulty": 4,
+    "difficulty": 5,
     "variables": [
-      { "name": "p", "min": 1, "max": 15, "step": 1 },
-      { "name": "q", "min": 1, "max": 15, "step": 1 }
+      {
+        "name": "p",
+        "min": 1,
+        "max": 15,
+        "step": 1
+      },
+      {
+        "name": "q",
+        "min": 1,
+        "max": 15,
+        "step": 1
+      }
     ],
     "stem": "If \\(x^2 + kx + {{p*q}}\\) factors as \\((x+{{p}})(x+{{q}})\\), what is the value of \\(k\\)?",
     "answer": 13,

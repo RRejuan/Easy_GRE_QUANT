@@ -7,12 +7,27 @@
     "difficulty": 1,
     "stem": "Which of the following could be the side lengths of a triangle? Select all that apply.",
     "options": [
-      { "id": "A", "text": "3, 4, 5" },
-      { "id": "B", "text": "2, 3, 6" },
-      { "id": "C", "text": "5, 5, 9" },
-      { "id": "D", "text": "1, 2, 3" }
+      {
+        "id": "A",
+        "text": "3, 4, 5"
+      },
+      {
+        "id": "B",
+        "text": "2, 3, 6"
+      },
+      {
+        "id": "C",
+        "text": "5, 5, 9"
+      },
+      {
+        "id": "D",
+        "text": "1, 2, 3"
+      }
     ],
-    "answer": ["A", "C"],
+    "answer": [
+      "A",
+      "C"
+    ],
     "solutionStandard": "(A) \\(3+4=7>5\\), valid. (B) \\(2+3=5<6\\), invalid. (C) \\(5+5=10>9\\), valid. (D) \\(1+2=3\\), not strictly greater than 3, so it's degenerate, not a valid triangle.",
     "timeTargetSec": 60
   },
@@ -21,14 +36,29 @@
     "type": "MC",
     "primarySkill": "triangle-inequality",
     "secondarySkills": [],
-    "difficulty": 2,
+    "difficulty": 1,
     "stem": "A triangle has two sides of length 7 and 10. Which of the following could NOT be the length of the third side?",
     "options": [
-      { "id": "A", "text": "4" },
-      { "id": "B", "text": "8" },
-      { "id": "C", "text": "12" },
-      { "id": "D", "text": "16" },
-      { "id": "E", "text": "17" }
+      {
+        "id": "A",
+        "text": "4"
+      },
+      {
+        "id": "B",
+        "text": "8"
+      },
+      {
+        "id": "C",
+        "text": "12"
+      },
+      {
+        "id": "D",
+        "text": "16"
+      },
+      {
+        "id": "E",
+        "text": "17"
+      }
     ],
     "answer": "E",
     "solutionStandard": "The third side must satisfy \\(10-7 < c < 10+7\\), i.e. \\(3 < c < 17\\). Since 17 is not strictly less than 17, it's excluded.",
@@ -77,11 +107,26 @@
     "difficulty": 3,
     "stem": "How many distinct integer values are possible for the third side of a triangle whose other two sides are 4 and 10?",
     "options": [
-      { "id": "A", "text": "5" },
-      { "id": "B", "text": "6" },
-      { "id": "C", "text": "7" },
-      { "id": "D", "text": "8" },
-      { "id": "E", "text": "9" }
+      {
+        "id": "A",
+        "text": "5"
+      },
+      {
+        "id": "B",
+        "text": "6"
+      },
+      {
+        "id": "C",
+        "text": "7"
+      },
+      {
+        "id": "D",
+        "text": "8"
+      },
+      {
+        "id": "E",
+        "text": "9"
+      }
     ],
     "answer": "C",
     "solutionStandard": "The third side \\(c\\) satisfies \\(6 < c < 14\\), so integers 7 through 13 — that's 7 values.",
@@ -95,11 +140,26 @@
     "difficulty": 3,
     "stem": "A triangle has a perimeter of 20 and one side of length 4. What is the greatest possible integer length of another side?",
     "options": [
-      { "id": "A", "text": "9" },
-      { "id": "B", "text": "10" },
-      { "id": "C", "text": "11" },
-      { "id": "D", "text": "12" },
-      { "id": "E", "text": "13" }
+      {
+        "id": "A",
+        "text": "9"
+      },
+      {
+        "id": "B",
+        "text": "10"
+      },
+      {
+        "id": "C",
+        "text": "11"
+      },
+      {
+        "id": "D",
+        "text": "12"
+      },
+      {
+        "id": "E",
+        "text": "13"
+      }
     ],
     "answer": "A",
     "solutionStandard": "Let the other two sides be \\(b\\) and \\(c\\) with \\(b+c=16\\). Each of \\(b, c\\) must be less than the sum of the other two sides (4 and the other): \\(b < 4+c\\), and since \\(c=16-b\\), \\(b < 4+16-b\\), so \\(2b<20\\), giving \\(b<10\\). The greatest integer is 9.",
@@ -113,12 +173,27 @@
     "difficulty": 4,
     "stem": "A triangle has sides 6, 8, and \\(x\\). Which of the following values of \\(x\\) are possible? Select all that apply.",
     "options": [
-      { "id": "A", "text": "2" },
-      { "id": "B", "text": "3" },
-      { "id": "C", "text": "10" },
-      { "id": "D", "text": "14" }
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "3"
+      },
+      {
+        "id": "C",
+        "text": "10"
+      },
+      {
+        "id": "D",
+        "text": "14"
+      }
     ],
-    "answer": ["B", "C"],
+    "answer": [
+      "B",
+      "C"
+    ],
     "solutionStandard": "\\(x\\) must satisfy \\(2 < x < 14\\). Only 3 and 10 fall strictly in this range; 2 and 14 are excluded (boundary values).",
     "timeTargetSec": 75
   },
@@ -153,8 +228,18 @@
     "secondarySkills": [],
     "difficulty": 1,
     "variables": [
-      { "name": "a", "min": 3, "max": 10, "step": 1 },
-      { "name": "b", "min": 15, "max": 25, "step": 1 }
+      {
+        "name": "a",
+        "min": 3,
+        "max": 10,
+        "step": 1
+      },
+      {
+        "name": "b",
+        "min": 15,
+        "max": 25,
+        "step": 1
+      }
     ],
     "stem": "A triangle has sides of length {{a}} and {{b}}. What is the greatest possible integer value of the third side?",
     "answer": 24,
@@ -170,11 +255,26 @@
     "difficulty": 1,
     "stem": "A triangle has two sides of length 5 and 8. Which of the following could NOT be the length of the third side?",
     "options": [
-      { "id": "A", "text": "4" },
-      { "id": "B", "text": "6" },
-      { "id": "C", "text": "9" },
-      { "id": "D", "text": "12" },
-      { "id": "E", "text": "13" }
+      {
+        "id": "A",
+        "text": "4"
+      },
+      {
+        "id": "B",
+        "text": "6"
+      },
+      {
+        "id": "C",
+        "text": "9"
+      },
+      {
+        "id": "D",
+        "text": "12"
+      },
+      {
+        "id": "E",
+        "text": "13"
+      }
     ],
     "answer": "E",
     "solutionStandard": "The third side must satisfy \\(8-5 < c < 8+5\\), i.e. \\(3<c<13\\). Since 13 is not strictly less than 13, it's excluded.",
@@ -187,8 +287,18 @@
     "secondarySkills": [],
     "difficulty": 2,
     "variables": [
-      { "name": "a", "min": 3, "max": 10, "step": 1 },
-      { "name": "b", "min": 15, "max": 25, "step": 1 }
+      {
+        "name": "a",
+        "min": 3,
+        "max": 10,
+        "step": 1
+      },
+      {
+        "name": "b",
+        "min": 15,
+        "max": 25,
+        "step": 1
+      }
     ],
     "stem": "A triangle has sides of length {{a}} and {{b}}. What is the smallest possible integer value of the third side?",
     "answer": 16,
@@ -203,8 +313,18 @@
     "secondarySkills": [],
     "difficulty": 2,
     "variables": [
-      { "name": "a", "min": 3, "max": 15, "step": 1 },
-      { "name": "b", "min": 3, "max": 15, "step": 1 }
+      {
+        "name": "a",
+        "min": 3,
+        "max": 15,
+        "step": 1
+      },
+      {
+        "name": "b",
+        "min": 3,
+        "max": 15,
+        "step": 1
+      }
     ],
     "stem": "A triangle has sides {{a}}, {{b}}, and \\(x\\).",
     "quantityA": "The greatest possible integer value of \\(x\\)",
@@ -219,7 +339,14 @@
     "primarySkill": "triangle-inequality",
     "secondarySkills": [],
     "difficulty": 3,
-    "variables": [{ "name": "a", "min": 3, "max": 20, "step": 1 }],
+    "variables": [
+      {
+        "name": "a",
+        "min": 3,
+        "max": 20,
+        "step": 1
+      }
+    ],
     "stem": "An isosceles triangle has two sides of length {{a}} and one side of length \\(x\\), where \\(x\\) is an integer and \\(x \\neq {{a}}\\). What is the greatest possible value of \\(x\\)?",
     "answer": 9,
     "answerFormula": "2*a - 1",
@@ -234,11 +361,26 @@
     "difficulty": 3,
     "stem": "How many distinct integer values are possible for the third side of a triangle whose other two sides are 5 and 12?",
     "options": [
-      { "id": "A", "text": "7" },
-      { "id": "B", "text": "8" },
-      { "id": "C", "text": "9" },
-      { "id": "D", "text": "10" },
-      { "id": "E", "text": "11" }
+      {
+        "id": "A",
+        "text": "7"
+      },
+      {
+        "id": "B",
+        "text": "8"
+      },
+      {
+        "id": "C",
+        "text": "9"
+      },
+      {
+        "id": "D",
+        "text": "10"
+      },
+      {
+        "id": "E",
+        "text": "11"
+      }
     ],
     "answer": "C",
     "solutionStandard": "The third side satisfies \\(7<c<17\\), so integers 8 through 16 — that's 9 values.",
@@ -252,11 +394,26 @@
     "difficulty": 3,
     "stem": "A triangle has a perimeter of 24 and one side of length 6. What is the greatest possible integer length of another side?",
     "options": [
-      { "id": "A", "text": "9" },
-      { "id": "B", "text": "10" },
-      { "id": "C", "text": "11" },
-      { "id": "D", "text": "12" },
-      { "id": "E", "text": "17" }
+      {
+        "id": "A",
+        "text": "9"
+      },
+      {
+        "id": "B",
+        "text": "10"
+      },
+      {
+        "id": "C",
+        "text": "11"
+      },
+      {
+        "id": "D",
+        "text": "12"
+      },
+      {
+        "id": "E",
+        "text": "17"
+      }
     ],
     "answer": "C",
     "solutionStandard": "Let the other two sides be \\(b\\) and \\(c\\) with \\(b+c=18\\). Since \\(b<6+c=6+(18-b)\\), \\(2b<24\\), so \\(b<12\\). The greatest integer is 11.",
@@ -270,12 +427,27 @@
     "difficulty": 4,
     "stem": "A triangle has sides 7, 9, and \\(x\\). Which of the following values of \\(x\\) are possible? Select all that apply.",
     "options": [
-      { "id": "A", "text": "2" },
-      { "id": "B", "text": "5" },
-      { "id": "C", "text": "12" },
-      { "id": "D", "text": "16" }
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "5"
+      },
+      {
+        "id": "C",
+        "text": "12"
+      },
+      {
+        "id": "D",
+        "text": "16"
+      }
     ],
-    "answer": ["B", "C"],
+    "answer": [
+      "B",
+      "C"
+    ],
     "solutionStandard": "\\(x\\) must satisfy \\(2 < x < 16\\). Only 5 and 12 fall strictly in this range; 2 and 16 are excluded (boundary values).",
     "timeTargetSec": 75
   },
@@ -284,10 +456,20 @@
     "type": "Numeric",
     "primarySkill": "triangle-inequality",
     "secondarySkills": [],
-    "difficulty": 4,
+    "difficulty": 5,
     "variables": [
-      { "name": "a", "min": 3, "max": 10, "step": 1 },
-      { "name": "b", "min": 15, "max": 25, "step": 1 }
+      {
+        "name": "a",
+        "min": 3,
+        "max": 10,
+        "step": 1
+      },
+      {
+        "name": "b",
+        "min": 15,
+        "max": 25,
+        "step": 1
+      }
     ],
     "stem": "A triangle has sides \\(a\\), \\(b\\), and \\(c\\), with \\(a={{a}}\\) and \\(b={{b}}\\) (\\(a<b\\)). How many integer values are possible for \\(c\\)?",
     "answer": 5,

@@ -6,9 +6,24 @@
     "secondarySkills": [],
     "difficulty": 1,
     "variables": [
-      { "name": "l", "min": 2, "max": 10, "step": 1 },
-      { "name": "w", "min": 2, "max": 10, "step": 1 },
-      { "name": "h", "min": 2, "max": 10, "step": 1 }
+      {
+        "name": "l",
+        "min": 2,
+        "max": 10,
+        "step": 1
+      },
+      {
+        "name": "w",
+        "min": 2,
+        "max": 10,
+        "step": 1
+      },
+      {
+        "name": "h",
+        "min": 2,
+        "max": 10,
+        "step": 1
+      }
     ],
     "stem": "A rectangular box has length {{l}}, width {{w}}, and height {{h}}. What is its volume?",
     "answer": 60,
@@ -24,11 +39,26 @@
     "difficulty": 1,
     "stem": "A cube has edge length 4. What is its volume?",
     "options": [
-      { "id": "A", "text": "12" },
-      { "id": "B", "text": "16" },
-      { "id": "C", "text": "48" },
-      { "id": "D", "text": "64" },
-      { "id": "E", "text": "96" }
+      {
+        "id": "A",
+        "text": "12"
+      },
+      {
+        "id": "B",
+        "text": "16"
+      },
+      {
+        "id": "C",
+        "text": "48"
+      },
+      {
+        "id": "D",
+        "text": "64"
+      },
+      {
+        "id": "E",
+        "text": "96"
+      }
     ],
     "answer": "D",
     "solutionStandard": "\\(V = s^3 = 4^3 = 64\\).",
@@ -53,11 +83,26 @@
     "difficulty": 2,
     "stem": "A cylinder has radius 3 and height 10. What is its volume, in terms of \\(\\pi\\)?",
     "options": [
-      { "id": "A", "text": "\\(30\\pi\\)" },
-      { "id": "B", "text": "\\(60\\pi\\)" },
-      { "id": "C", "text": "\\(90\\pi\\)" },
-      { "id": "D", "text": "\\(100\\pi\\)" },
-      { "id": "E", "text": "\\(300\\pi\\)" }
+      {
+        "id": "A",
+        "text": "\\(30\\pi\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(60\\pi\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(90\\pi\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(100\\pi\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(300\\pi\\)"
+      }
     ],
     "answer": "C",
     "solutionStandard": "\\(V = \\pi r^2 h = \\pi(9)(10) = 90\\pi\\).",
@@ -84,7 +129,10 @@
     "difficulty": 3,
     "stem": "A rectangular box has length 6, width 4, and height 3. What is the length of its main diagonal (corner to opposite corner)?",
     "answer": 7.81,
-    "acceptableRange": [7.8, 7.82],
+    "acceptableRange": [
+      7.8,
+      7.82
+    ],
     "solutionStandard": "\\(d=\\sqrt{6^2+4^2+3^2}=\\sqrt{36+16+9}=\\sqrt{61}\\approx7.81\\).",
     "timeTargetSec": 60
   },
@@ -96,11 +144,26 @@
     "difficulty": 3,
     "stem": "A cylindrical tank has radius 5 and height 12. What is its total surface area, in terms of \\(\\pi\\)?",
     "options": [
-      { "id": "A", "text": "\\(85\\pi\\)" },
-      { "id": "B", "text": "\\(120\\pi\\)" },
-      { "id": "C", "text": "\\(170\\pi\\)" },
-      { "id": "D", "text": "\\(300\\pi\\)" },
-      { "id": "E", "text": "\\(360\\pi\\)" }
+      {
+        "id": "A",
+        "text": "\\(85\\pi\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(120\\pi\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(170\\pi\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(300\\pi\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(360\\pi\\)"
+      }
     ],
     "answer": "C",
     "solutionStandard": "\\(SA = 2\\pi r^2 + 2\\pi rh = 2\\pi(25) + 2\\pi(5)(12) = 50\\pi + 120\\pi = 170\\pi\\).",
@@ -125,11 +188,26 @@
     "difficulty": 4,
     "stem": "A cube's surface area is 96. What is its volume?",
     "options": [
-      { "id": "A", "text": "16" },
-      { "id": "B", "text": "32" },
-      { "id": "C", "text": "48" },
-      { "id": "D", "text": "64" },
-      { "id": "E", "text": "96" }
+      {
+        "id": "A",
+        "text": "16"
+      },
+      {
+        "id": "B",
+        "text": "32"
+      },
+      {
+        "id": "C",
+        "text": "48"
+      },
+      {
+        "id": "D",
+        "text": "64"
+      },
+      {
+        "id": "E",
+        "text": "96"
+      }
     ],
     "answer": "D",
     "solutionStandard": "\\(6s^2=96\\), so \\(s^2=16\\), giving \\(s=4\\). Volume \\(=4^3=64\\).",
@@ -156,11 +234,26 @@
     "difficulty": 1,
     "stem": "A cube has edge length 5. What is its volume?",
     "options": [
-      { "id": "A", "text": "15" },
-      { "id": "B", "text": "25" },
-      { "id": "C", "text": "75" },
-      { "id": "D", "text": "100" },
-      { "id": "E", "text": "125" }
+      {
+        "id": "A",
+        "text": "15"
+      },
+      {
+        "id": "B",
+        "text": "25"
+      },
+      {
+        "id": "C",
+        "text": "75"
+      },
+      {
+        "id": "D",
+        "text": "100"
+      },
+      {
+        "id": "E",
+        "text": "125"
+      }
     ],
     "answer": "E",
     "solutionStandard": "\\(V=s^3=5^3=125\\).",
@@ -172,7 +265,14 @@
     "primarySkill": "three-d-solids",
     "secondarySkills": [],
     "difficulty": 1,
-    "variables": [{ "name": "s", "min": 2, "max": 12, "step": 1 }],
+    "variables": [
+      {
+        "name": "s",
+        "min": 2,
+        "max": 12,
+        "step": 1
+      }
+    ],
     "stem": "A cube has edge length {{s}}. What is its volume?",
     "answer": 27,
     "answerFormula": "s * s * s",
@@ -185,7 +285,14 @@
     "primarySkill": "three-d-solids",
     "secondarySkills": [],
     "difficulty": 2,
-    "variables": [{ "name": "s", "min": 2, "max": 15, "step": 1 }],
+    "variables": [
+      {
+        "name": "s",
+        "min": 2,
+        "max": 15,
+        "step": 1
+      }
+    ],
     "stem": "A cube has edge length {{s}}. What is its total surface area?",
     "answer": 150,
     "answerFormula": "6 * s * s",
@@ -197,14 +304,29 @@
     "type": "MC",
     "primarySkill": "three-d-solids",
     "secondarySkills": [],
-    "difficulty": 2,
+    "difficulty": 3,
     "stem": "A cylinder has radius 4 and height 6. What is its volume, in terms of \\(\\pi\\)?",
     "options": [
-      { "id": "A", "text": "\\(24\\pi\\)" },
-      { "id": "B", "text": "\\(48\\pi\\)" },
-      { "id": "C", "text": "\\(72\\pi\\)" },
-      { "id": "D", "text": "\\(96\\pi\\)" },
-      { "id": "E", "text": "\\(144\\pi\\)" }
+      {
+        "id": "A",
+        "text": "\\(24\\pi\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(48\\pi\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(72\\pi\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(96\\pi\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(144\\pi\\)"
+      }
     ],
     "answer": "D",
     "solutionStandard": "\\(V=\\pi r^2 h=\\pi(16)(6)=96\\pi\\).",
@@ -217,9 +339,24 @@
     "secondarySkills": [],
     "difficulty": 3,
     "variables": [
-      { "name": "a", "min": 2, "max": 6, "step": 1 },
-      { "name": "b", "min": 2, "max": 6, "step": 1 },
-      { "name": "c", "min": 2, "max": 6, "step": 1 }
+      {
+        "name": "a",
+        "min": 2,
+        "max": 6,
+        "step": 1
+      },
+      {
+        "name": "b",
+        "min": 2,
+        "max": 6,
+        "step": 1
+      },
+      {
+        "name": "c",
+        "min": 2,
+        "max": 6,
+        "step": 1
+      }
     ],
     "stem": "A rectangular box has dimensions {{a}}, {{b}}, and {{c}}. A cube has edge length {{a+b+c}}.",
     "quantityA": "The volume of the box",
@@ -236,11 +373,26 @@
     "difficulty": 3,
     "stem": "A cylindrical tank has radius 3 and height 8. What is its total surface area, in terms of \\(\\pi\\)?",
     "options": [
-      { "id": "A", "text": "\\(48\\pi\\)" },
-      { "id": "B", "text": "\\(54\\pi\\)" },
-      { "id": "C", "text": "\\(66\\pi\\)" },
-      { "id": "D", "text": "\\(72\\pi\\)" },
-      { "id": "E", "text": "\\(96\\pi\\)" }
+      {
+        "id": "A",
+        "text": "\\(48\\pi\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(54\\pi\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(66\\pi\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(72\\pi\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(96\\pi\\)"
+      }
     ],
     "answer": "C",
     "solutionStandard": "\\(SA=2\\pi r^2+2\\pi rh=2\\pi(9)+2\\pi(3)(8)=18\\pi+48\\pi=66\\pi\\).",
@@ -251,10 +403,20 @@
     "type": "Numeric",
     "primarySkill": "three-d-solids",
     "secondarySkills": [],
-    "difficulty": 3,
+    "difficulty": 4,
     "variables": [
-      { "name": "s", "min": 2, "max": 10, "step": 1 },
-      { "name": "h", "min": 2, "max": 15, "step": 1 }
+      {
+        "name": "s",
+        "min": 2,
+        "max": 10,
+        "step": 1
+      },
+      {
+        "name": "h",
+        "min": 2,
+        "max": 15,
+        "step": 1
+      }
     ],
     "stem": "A rectangular box has a square base with side {{s}} and a volume of {{s*s*h}}. What is the height of the box?",
     "answer": 6,
@@ -268,7 +430,14 @@
     "primarySkill": "three-d-solids",
     "secondarySkills": [],
     "difficulty": 4,
-    "variables": [{ "name": "s", "min": 2, "max": 12, "step": 1 }],
+    "variables": [
+      {
+        "name": "s",
+        "min": 2,
+        "max": 12,
+        "step": 1
+      }
+    ],
     "stem": "A cube's surface area is {{6*s*s}}. What is its volume?",
     "answer": 64,
     "answerFormula": "s * s * s",
@@ -280,8 +449,15 @@
     "type": "Numeric",
     "primarySkill": "three-d-solids",
     "secondarySkills": [],
-    "difficulty": 4,
-    "variables": [{ "name": "k", "min": 1, "max": 8, "step": 1 }],
+    "difficulty": 5,
+    "variables": [
+      {
+        "name": "k",
+        "min": 1,
+        "max": 8,
+        "step": 1
+      }
+    ],
     "stem": "A rectangular box has length {{3*k}}, width {{4*k}}, and height {{12*k}}. What is the length of its main diagonal (corner to opposite corner)?",
     "answer": 13,
     "answerFormula": "13 * k",

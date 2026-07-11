@@ -6,8 +6,18 @@
     "secondarySkills": [],
     "difficulty": 1,
     "variables": [
-      { "name": "r", "min": 30, "max": 70, "step": 5 },
-      { "name": "t", "min": 2, "max": 6, "step": 1 }
+      {
+        "name": "r",
+        "min": 30,
+        "max": 70,
+        "step": 5
+      },
+      {
+        "name": "t",
+        "min": 2,
+        "max": 6,
+        "step": 1
+      }
     ],
     "stem": "A car travels at {{r}} miles per hour for {{t}} hours. How far does it travel, in miles?",
     "answer": 150,
@@ -23,11 +33,26 @@
     "difficulty": 1,
     "stem": "A machine can complete a job in 6 hours. What fraction of the job does it complete in 1 hour?",
     "options": [
-      { "id": "A", "text": "1/6" },
-      { "id": "B", "text": "1/3" },
-      { "id": "C", "text": "6" },
-      { "id": "D", "text": "1/2" },
-      { "id": "E", "text": "2/6" }
+      {
+        "id": "A",
+        "text": "1/6"
+      },
+      {
+        "id": "B",
+        "text": "1/3"
+      },
+      {
+        "id": "C",
+        "text": "6"
+      },
+      {
+        "id": "D",
+        "text": "1/2"
+      },
+      {
+        "id": "E",
+        "text": "2/6"
+      }
     ],
     "answer": "A",
     "solutionStandard": "If the whole job takes 6 hours, the rate is \\(1/6\\) of the job per hour.",
@@ -43,7 +68,9 @@
     "answer": 3,
     "solutionStandard": "Combined rate \\(= 1/4 + 1/12 = 3/12+1/12=4/12=1/3\\) of the pool per hour, so time \\(= 3\\) hours.",
     "solutionShortcut": "Shortcut formula: \\(\\dfrac{ab}{a+b} = \\dfrac{4\\times12}{4+12} = \\dfrac{48}{16} = 3\\).",
-    "shortcutTags": ["estimate"],
+    "shortcutTags": [
+      "estimate"
+    ],
     "timeTargetSec": 55
   },
   {
@@ -54,11 +81,26 @@
     "difficulty": 2,
     "stem": "A train travels 240 miles in 4 hours. At this same rate, how long would it take to travel 360 miles?",
     "options": [
-      { "id": "A", "text": "5 hours" },
-      { "id": "B", "text": "6 hours" },
-      { "id": "C", "text": "7 hours" },
-      { "id": "D", "text": "8 hours" },
-      { "id": "E", "text": "9 hours" }
+      {
+        "id": "A",
+        "text": "5 hours"
+      },
+      {
+        "id": "B",
+        "text": "6 hours"
+      },
+      {
+        "id": "C",
+        "text": "7 hours"
+      },
+      {
+        "id": "D",
+        "text": "8 hours"
+      },
+      {
+        "id": "E",
+        "text": "9 hours"
+      }
     ],
     "answer": "B",
     "solutionStandard": "Rate \\(= 240/4 = 60\\) mph. Time for 360 miles: \\(360/60=6\\) hours.",
@@ -96,11 +138,26 @@
     "difficulty": 3,
     "stem": "Two cars start at the same point and travel in opposite directions, one at 50 mph and the other at 70 mph. After how many hours will they be 360 miles apart?",
     "options": [
-      { "id": "A", "text": "2" },
-      { "id": "B", "text": "2.5" },
-      { "id": "C", "text": "3" },
-      { "id": "D", "text": "3.5" },
-      { "id": "E", "text": "4" }
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "2.5"
+      },
+      {
+        "id": "C",
+        "text": "3"
+      },
+      {
+        "id": "D",
+        "text": "3.5"
+      },
+      {
+        "id": "E",
+        "text": "4"
+      }
     ],
     "answer": "C",
     "solutionStandard": "Their separation rate is \\(50+70=120\\) mph. Time \\(= 360/120=3\\) hours.",
@@ -114,7 +171,10 @@
     "difficulty": 4,
     "stem": "Machine A alone takes 10 hours to complete a job. Machine A and Machine B working together take 4 hours. How many hours would Machine B take alone?",
     "answer": 6.666666666666667,
-    "acceptableRange": [6.66, 6.67],
+    "acceptableRange": [
+      6.66,
+      6.67
+    ],
     "solutionStandard": "\\(1/10 + 1/b = 1/4\\), so \\(1/b = 1/4 - 1/10 = 5/20-2/20=3/20\\), giving \\(b=20/3\\approx6.67\\) hours.",
     "timeTargetSec": 90
   },
@@ -126,11 +186,26 @@
     "difficulty": 4,
     "stem": "Pipe A can fill a tank in 5 hours. Pipe A runs alone for 2 hours, then Pipe B joins and together they finish the remaining work in 1 more hour. How long would Pipe B take to fill the tank alone?",
     "options": [
-      { "id": "A", "text": "2.5 hours" },
-      { "id": "B", "text": "5 hours" },
-      { "id": "C", "text": "1 hour" },
-      { "id": "D", "text": "2 hours" },
-      { "id": "E", "text": "10 hours" }
+      {
+        "id": "A",
+        "text": "2.5 hours"
+      },
+      {
+        "id": "B",
+        "text": "5 hours"
+      },
+      {
+        "id": "C",
+        "text": "1 hour"
+      },
+      {
+        "id": "D",
+        "text": "2 hours"
+      },
+      {
+        "id": "E",
+        "text": "10 hours"
+      }
     ],
     "answer": "A",
     "solutionStandard": "Pipe A does \\(2/5\\) of the tank in the first 2 hours, leaving \\(3/5\\). In the final hour together, they complete \\(3/5\\) of the tank: \\(1/5 + 1/b = 3/5\\), so \\(1/b=2/5\\), giving \\(b=2.5\\) hours.",
@@ -156,8 +231,18 @@
     "secondarySkills": [],
     "difficulty": 1,
     "variables": [
-      { "name": "t", "min": 2, "max": 6, "step": 1 },
-      { "name": "s", "min": 20, "max": 60, "step": 5 }
+      {
+        "name": "t",
+        "min": 2,
+        "max": 6,
+        "step": 1
+      },
+      {
+        "name": "s",
+        "min": 20,
+        "max": 60,
+        "step": 5
+      }
     ],
     "stem": "A cyclist travels {{t*s}} miles in {{t}} hours. What is the cyclist's speed, in miles per hour?",
     "answer": 40,
@@ -173,11 +258,26 @@
     "difficulty": 1,
     "stem": "A copier produces 15 pages per minute. How many pages does it produce in 8 minutes?",
     "options": [
-      { "id": "A", "text": "100" },
-      { "id": "B", "text": "110" },
-      { "id": "C", "text": "120" },
-      { "id": "D", "text": "130" },
-      { "id": "E", "text": "150" }
+      {
+        "id": "A",
+        "text": "100"
+      },
+      {
+        "id": "B",
+        "text": "110"
+      },
+      {
+        "id": "C",
+        "text": "120"
+      },
+      {
+        "id": "D",
+        "text": "130"
+      },
+      {
+        "id": "E",
+        "text": "150"
+      }
     ],
     "answer": "C",
     "solutionStandard": "\\(15 \\times 8 = 120\\) pages.",
@@ -189,7 +289,14 @@
     "primarySkill": "rates-and-work",
     "secondarySkills": [],
     "difficulty": 2,
-    "variables": [{ "name": "a", "min": 3, "max": 30, "step": 3 }],
+    "variables": [
+      {
+        "name": "a",
+        "min": 3,
+        "max": 30,
+        "step": 3
+      }
+    ],
     "stem": "Machine A can complete a job in {{a}} hours, and Machine B takes twice as long, {{2*a}} hours. Working together, how many hours does it take to complete the job?",
     "answer": 4,
     "answerFormula": "(2 * a) / 3",
@@ -204,11 +311,26 @@
     "difficulty": 2,
     "stem": "A plane flies 750 miles in 3 hours. At this same rate, how far would it fly in 5 hours?",
     "options": [
-      { "id": "A", "text": "1000" },
-      { "id": "B", "text": "1100" },
-      { "id": "C", "text": "1200" },
-      { "id": "D", "text": "1250" },
-      { "id": "E", "text": "1300" }
+      {
+        "id": "A",
+        "text": "1000"
+      },
+      {
+        "id": "B",
+        "text": "1100"
+      },
+      {
+        "id": "C",
+        "text": "1200"
+      },
+      {
+        "id": "D",
+        "text": "1250"
+      },
+      {
+        "id": "E",
+        "text": "1300"
+      }
     ],
     "answer": "D",
     "solutionStandard": "Rate \\(= 750/3 = 250\\) mph. Distance in 5 hours: \\(250 \\times 5 = 1250\\) miles.",
@@ -221,8 +343,18 @@
     "secondarySkills": [],
     "difficulty": 3,
     "variables": [
-      { "name": "v1", "min": 30, "max": 50, "step": 5 },
-      { "name": "v2", "min": 60, "max": 90, "step": 5 }
+      {
+        "name": "v1",
+        "min": 30,
+        "max": 50,
+        "step": 5
+      },
+      {
+        "name": "v2",
+        "min": 60,
+        "max": 90,
+        "step": 5
+      }
     ],
     "stem": "A car travels a distance at {{v1}} mph and returns the same distance at {{v2}} mph.",
     "quantityA": "The average speed for the entire round trip",
@@ -239,12 +371,27 @@
     "difficulty": 3,
     "stem": "Pipe A and Pipe B can each fill a tank in 6 hours, working alone. Which of the following are true? Select all that apply.",
     "options": [
-      { "id": "A", "text": "Working together, they fill the tank in 3 hours." },
-      { "id": "B", "text": "Working together, they fill the tank in 12 hours." },
-      { "id": "C", "text": "Pipe A's rate is double Pipe B's rate." },
-      { "id": "D", "text": "Together they fill the tank twice as fast as either alone." }
+      {
+        "id": "A",
+        "text": "Working together, they fill the tank in 3 hours."
+      },
+      {
+        "id": "B",
+        "text": "Working together, they fill the tank in 12 hours."
+      },
+      {
+        "id": "C",
+        "text": "Pipe A's rate is double Pipe B's rate."
+      },
+      {
+        "id": "D",
+        "text": "Together they fill the tank twice as fast as either alone."
+      }
     ],
-    "answer": ["A", "D"],
+    "answer": [
+      "A",
+      "D"
+    ],
     "solutionStandard": "Combined rate \\(=1/6+1/6=1/3\\) tank per hour, so time \\(=3\\) hours — twice as fast as 6 hours alone. The two pipes have equal (not double) individual rates.",
     "timeTargetSec": 80
   },
@@ -255,9 +402,24 @@
     "secondarySkills": [],
     "difficulty": 3,
     "variables": [
-      { "name": "v1", "min": 30, "max": 60, "step": 10 },
-      { "name": "v2", "min": 30, "max": 60, "step": 10 },
-      { "name": "t", "min": 2, "max": 6, "step": 1 }
+      {
+        "name": "v1",
+        "min": 30,
+        "max": 60,
+        "step": 10
+      },
+      {
+        "name": "v2",
+        "min": 30,
+        "max": 60,
+        "step": 10
+      },
+      {
+        "name": "t",
+        "min": 2,
+        "max": 6,
+        "step": 1
+      }
     ],
     "stem": "Two cars start at the same point and travel in opposite directions, one at {{v1}} mph and the other at {{v2}} mph. After how many hours will they be {{(v1+v2)*t}} miles apart?",
     "answer": 4,
@@ -281,14 +443,29 @@
     "type": "MC",
     "primarySkill": "rates-and-work",
     "secondarySkills": [],
-    "difficulty": 4,
+    "difficulty": 5,
     "stem": "Pipe A can fill a tank in 4 hours. Pipe A runs alone for 1 hour, then Pipe B joins and together they finish the remaining work in 1.5 more hours. How long would Pipe B take to fill the tank alone?",
     "options": [
-      { "id": "A", "text": "2 hours" },
-      { "id": "B", "text": "3 hours" },
-      { "id": "C", "text": "4 hours" },
-      { "id": "D", "text": "5 hours" },
-      { "id": "E", "text": "6 hours" }
+      {
+        "id": "A",
+        "text": "2 hours"
+      },
+      {
+        "id": "B",
+        "text": "3 hours"
+      },
+      {
+        "id": "C",
+        "text": "4 hours"
+      },
+      {
+        "id": "D",
+        "text": "5 hours"
+      },
+      {
+        "id": "E",
+        "text": "6 hours"
+      }
     ],
     "answer": "C",
     "solutionStandard": "Pipe A does \\(1/4\\) of the tank in the first hour, leaving \\(3/4\\). In the next 1.5 hours together: \\(1.5(1/4 + 1/b) = 3/4\\), so \\(1/4+1/b=1/2\\), giving \\(1/b=1/4\\) and \\(b=4\\) hours.",

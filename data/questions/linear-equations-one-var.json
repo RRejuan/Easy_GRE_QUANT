@@ -263,9 +263,24 @@
     "secondarySkills": [],
     "difficulty": 1,
     "variables": [
-      { "name": "a", "min": 2, "max": 9, "step": 1 },
-      { "name": "b", "min": 1, "max": 30, "step": 1 },
-      { "name": "xt", "min": 1, "max": 15, "step": 1 }
+      {
+        "name": "a",
+        "min": 2,
+        "max": 9,
+        "step": 1
+      },
+      {
+        "name": "b",
+        "min": 1,
+        "max": 30,
+        "step": 1
+      },
+      {
+        "name": "xt",
+        "min": 1,
+        "max": 15,
+        "step": 1
+      }
     ],
     "stem": "If \\({{a}}x + {{b}} = {{a*xt+b}}\\), what is \\(x\\)?",
     "answer": 7,
@@ -281,11 +296,26 @@
     "difficulty": 1,
     "stem": "If \\(4x - 3 = 17\\), what is \\(x\\)?",
     "options": [
-      { "id": "A", "text": "3" },
-      { "id": "B", "text": "4" },
-      { "id": "C", "text": "5" },
-      { "id": "D", "text": "6" },
-      { "id": "E", "text": "7" }
+      {
+        "id": "A",
+        "text": "3"
+      },
+      {
+        "id": "B",
+        "text": "4"
+      },
+      {
+        "id": "C",
+        "text": "5"
+      },
+      {
+        "id": "D",
+        "text": "6"
+      },
+      {
+        "id": "E",
+        "text": "7"
+      }
     ],
     "answer": "C",
     "solutionStandard": "\\(4x = 20\\), so \\(x=5\\).",
@@ -297,7 +327,14 @@
     "primarySkill": "linear-equations-one-var",
     "secondarySkills": [],
     "difficulty": 2,
-    "variables": [{ "name": "k", "min": 1, "max": 30, "step": 1 }],
+    "variables": [
+      {
+        "name": "k",
+        "min": 1,
+        "max": 30,
+        "step": 1
+      }
+    ],
     "stem": "The sum of a number and {{k}} is 3 less than twice the number. What is the number?",
     "answer": 10,
     "answerFormula": "k + 3",
@@ -309,14 +346,29 @@
     "type": "MC",
     "primarySkill": "linear-equations-one-var",
     "secondarySkills": [],
-    "difficulty": 2,
+    "difficulty": 3,
     "stem": "If \\(5x - 2 = 3x + 8\\), what is \\(x\\)?",
     "options": [
-      { "id": "A", "text": "3" },
-      { "id": "B", "text": "4" },
-      { "id": "C", "text": "5" },
-      { "id": "D", "text": "6" },
-      { "id": "E", "text": "7" }
+      {
+        "id": "A",
+        "text": "3"
+      },
+      {
+        "id": "B",
+        "text": "4"
+      },
+      {
+        "id": "C",
+        "text": "5"
+      },
+      {
+        "id": "D",
+        "text": "6"
+      },
+      {
+        "id": "E",
+        "text": "7"
+      }
     ],
     "answer": "C",
     "solutionStandard": "\\(2x = 10\\), so \\(x=5\\).",
@@ -327,11 +379,26 @@
     "type": "Numeric",
     "primarySkill": "linear-equations-one-var",
     "secondarySkills": [],
-    "difficulty": 2,
+    "difficulty": 3,
     "variables": [
-      { "name": "d", "min": 2, "max": 8, "step": 1 },
-      { "name": "k", "min": 1, "max": 10, "step": 1 },
-      { "name": "q", "min": 2, "max": 20, "step": 1 }
+      {
+        "name": "d",
+        "min": 2,
+        "max": 8,
+        "step": 1
+      },
+      {
+        "name": "k",
+        "min": 1,
+        "max": 10,
+        "step": 1
+      },
+      {
+        "name": "q",
+        "min": 2,
+        "max": 20,
+        "step": 1
+      }
     ],
     "stem": "If \\(\\dfrac{x}{ {{d}} } + {{k}} = {{q+k}}\\), what is \\(x\\)?",
     "answer": 20,
@@ -347,12 +414,28 @@
     "difficulty": 3,
     "stem": "\\(3x + 5 = 2x + 12\\). Which of the following equal \\(x\\)? Select all that apply.",
     "options": [
-      { "id": "A", "text": "7" },
-      { "id": "B", "text": "\\(\\sqrt{49}\\)" },
-      { "id": "C", "text": "\\(21/3\\)" },
-      { "id": "D", "text": "\\(12/2\\)" }
+      {
+        "id": "A",
+        "text": "7"
+      },
+      {
+        "id": "B",
+        "text": "\\(\\sqrt{49}\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(21/3\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(12/2\\)"
+      }
     ],
-    "answer": ["A", "B", "C"],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
     "solutionStandard": "\\(x=7\\). \\(\\sqrt{49}=7\\) and \\(21/3=7\\) both match. But \\(12/2=6 \\neq 7\\).",
     "timeTargetSec": 70
   },
@@ -361,8 +444,15 @@
     "type": "Numeric",
     "primarySkill": "linear-equations-one-var",
     "secondarySkills": [],
-    "difficulty": 3,
-    "variables": [{ "name": "k", "min": 1, "max": 30, "step": 1 }],
+    "difficulty": 4,
+    "variables": [
+      {
+        "name": "k",
+        "min": 1,
+        "max": 30,
+        "step": 1
+      }
+    ],
     "stem": "A number decreased by {{k}} equals half the number. What is the number?",
     "answer": 20,
     "answerFormula": "2 * k",
@@ -377,11 +467,26 @@
     "difficulty": 4,
     "stem": "If \\(\\dfrac{2}{x} - \\dfrac{1}{3x} = \\dfrac{5}{6}\\), what is \\(x\\)?",
     "options": [
-      { "id": "A", "text": "1" },
-      { "id": "B", "text": "2" },
-      { "id": "C", "text": "3" },
-      { "id": "D", "text": "4" },
-      { "id": "E", "text": "6" }
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "3"
+      },
+      {
+        "id": "D",
+        "text": "4"
+      },
+      {
+        "id": "E",
+        "text": "6"
+      }
     ],
     "answer": "B",
     "solutionStandard": "\\(\\dfrac{2}{x} - \\dfrac{1}{3x} = \\dfrac{6}{3x} - \\dfrac{1}{3x} = \\dfrac{5}{3x}\\). Setting \\(\\dfrac{5}{3x}=\\dfrac{5}{6}\\) gives \\(3x=6\\), so \\(x=2\\).",
@@ -392,7 +497,7 @@
     "type": "Numeric",
     "primarySkill": "linear-equations-one-var",
     "secondarySkills": [],
-    "difficulty": 4,
+    "difficulty": 5,
     "stem": "If \\(3(2x - 1) = 5(x + 2) - 7\\), what is the value of \\(x\\)?",
     "answer": 6,
     "solutionStandard": "\\(6x - 3 = 5x + 10 - 7\\), so \\(6x-3=5x+3\\), giving \\(x=6\\).",

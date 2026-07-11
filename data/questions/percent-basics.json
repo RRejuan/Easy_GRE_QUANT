@@ -85,8 +85,18 @@
     "secondarySkills": [],
     "difficulty": 2,
     "variables": [
-      { "name": "p", "min": 10, "max": 90, "step": 5 },
-      { "name": "n", "min": 40, "max": 400, "step": 20 }
+      {
+        "name": "p",
+        "min": 10,
+        "max": 90,
+        "step": 5
+      },
+      {
+        "name": "n",
+        "min": 40,
+        "max": 400,
+        "step": 20
+      }
     ],
     "stem": "What is {{p}}% of {{n}}?",
     "answer": 72,
@@ -142,8 +152,18 @@
     "secondarySkills": [],
     "difficulty": 2,
     "variables": [
-      { "name": "a", "min": 10, "max": 90, "step": 5 },
-      { "name": "b", "min": 10, "max": 90, "step": 5 }
+      {
+        "name": "a",
+        "min": 10,
+        "max": 90,
+        "step": 5
+      },
+      {
+        "name": "b",
+        "min": 10,
+        "max": 90,
+        "step": 5
+      }
     ],
     "stem": "Compare the two quantities.",
     "quantityA": "{{a}}% of {{b}}",
@@ -291,7 +311,14 @@
     "primarySkill": "percent-basics",
     "secondarySkills": [],
     "difficulty": 1,
-    "variables": [{ "name": "n", "min": 20, "max": 200, "step": 10 }],
+    "variables": [
+      {
+        "name": "n",
+        "min": 20,
+        "max": 200,
+        "step": 10
+      }
+    ],
     "stem": "What is 10% of {{n}}?",
     "answer": 20,
     "answerFormula": "n / 10",
@@ -303,14 +330,29 @@
     "type": "MC",
     "primarySkill": "percent-basics",
     "secondarySkills": [],
-    "difficulty": 1,
+    "difficulty": 2,
     "stem": "What is 0.6 expressed as a percent?",
     "options": [
-      { "id": "A", "text": "0.6%" },
-      { "id": "B", "text": "6%" },
-      { "id": "C", "text": "60%" },
-      { "id": "D", "text": "600%" },
-      { "id": "E", "text": "6000%" }
+      {
+        "id": "A",
+        "text": "0.6%"
+      },
+      {
+        "id": "B",
+        "text": "6%"
+      },
+      {
+        "id": "C",
+        "text": "60%"
+      },
+      {
+        "id": "D",
+        "text": "600%"
+      },
+      {
+        "id": "E",
+        "text": "6000%"
+      }
     ],
     "answer": "C",
     "solutionStandard": "Multiply by 100 to convert a decimal to a percent: \\(0.6 \\times 100 = 60\\%\\).",
@@ -321,10 +363,20 @@
     "type": "Numeric",
     "primarySkill": "percent-basics",
     "secondarySkills": [],
-    "difficulty": 2,
+    "difficulty": 3,
     "variables": [
-      { "name": "p", "min": 5, "max": 45, "step": 5 },
-      { "name": "n", "min": 60, "max": 300, "step": 20 }
+      {
+        "name": "p",
+        "min": 5,
+        "max": 45,
+        "step": 5
+      },
+      {
+        "name": "n",
+        "min": 60,
+        "max": 300,
+        "step": 20
+      }
     ],
     "stem": "What is {{p}}% of {{n}}, rounded to the nearest whole number?",
     "answer": 27,
@@ -337,14 +389,29 @@
     "type": "MC",
     "primarySkill": "percent-basics",
     "secondarySkills": [],
-    "difficulty": 2,
+    "difficulty": 3,
     "stem": "5 is what percent of 20?",
     "options": [
-      { "id": "A", "text": "4%" },
-      { "id": "B", "text": "5%" },
-      { "id": "C", "text": "20%" },
-      { "id": "D", "text": "25%" },
-      { "id": "E", "text": "40%" }
+      {
+        "id": "A",
+        "text": "4%"
+      },
+      {
+        "id": "B",
+        "text": "5%"
+      },
+      {
+        "id": "C",
+        "text": "20%"
+      },
+      {
+        "id": "D",
+        "text": "25%"
+      },
+      {
+        "id": "E",
+        "text": "40%"
+      }
     ],
     "answer": "D",
     "solutionStandard": "\\(\\dfrac{5}{20} = 0.25 = 25\\%\\).",
@@ -356,7 +423,14 @@
     "primarySkill": "percent-basics",
     "secondarySkills": [],
     "difficulty": 3,
-    "variables": [{ "name": "n", "min": 40, "max": 400, "step": 20 }],
+    "variables": [
+      {
+        "name": "n",
+        "min": 40,
+        "max": 400,
+        "step": 20
+      }
+    ],
     "stem": "\\(n\\) is a positive number. \\(x\\) is 40% of {{n}}. \\(y\\) is 25% of {{2*n}}.",
     "quantityA": "\\(x\\)",
     "quantityB": "\\(y\\)",
@@ -369,16 +443,35 @@
     "type": "MultiMC",
     "primarySkill": "percent-basics",
     "secondarySkills": [],
-    "difficulty": 3,
+    "difficulty": 4,
     "stem": "Which of the following, if any, equal 12.5%? Select all that apply.",
     "options": [
-      { "id": "A", "text": "1/8" },
-      { "id": "B", "text": "0.125" },
-      { "id": "C", "text": "1/80" },
-      { "id": "D", "text": "125/1000" },
-      { "id": "E", "text": "8%" }
+      {
+        "id": "A",
+        "text": "1/8"
+      },
+      {
+        "id": "B",
+        "text": "0.125"
+      },
+      {
+        "id": "C",
+        "text": "1/80"
+      },
+      {
+        "id": "D",
+        "text": "125/1000"
+      },
+      {
+        "id": "E",
+        "text": "8%"
+      }
     ],
-    "answer": ["A", "B", "D"],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
     "solutionStandard": "\\(12.5\\% = 0.125 = \\dfrac{125}{1000} = \\dfrac{1}{8}\\). But \\(1/80 = 1.25\\%\\) and \\(8\\% \\neq 12.5\\%\\).",
     "timeTargetSec": 75
   },
@@ -387,19 +480,36 @@
     "type": "MC",
     "primarySkill": "percent-basics",
     "secondarySkills": [],
-    "difficulty": 3,
+    "difficulty": 4,
     "stem": "If 15% of a number is 45, what is 45% of the same number?",
     "options": [
-      { "id": "A", "text": "45" },
-      { "id": "B", "text": "90" },
-      { "id": "C", "text": "135" },
-      { "id": "D", "text": "150" },
-      { "id": "E", "text": "300" }
+      {
+        "id": "A",
+        "text": "45"
+      },
+      {
+        "id": "B",
+        "text": "90"
+      },
+      {
+        "id": "C",
+        "text": "135"
+      },
+      {
+        "id": "D",
+        "text": "150"
+      },
+      {
+        "id": "E",
+        "text": "300"
+      }
     ],
     "answer": "C",
     "solutionStandard": "Since \\(15\\% \\times n = 45\\), \\(n = 300\\). Then \\(45\\% \\times 300 = 135\\).",
     "solutionShortcut": "45% is exactly 3 times 15%, so the answer is \\(3 \\times 45 = 135\\) — no need to solve for \\(n\\) at all.",
-    "shortcutTags": ["estimate"],
+    "shortcutTags": [
+      "estimate"
+    ],
     "timeTargetSec": 65
   },
   {
@@ -418,19 +528,36 @@
     "type": "MC",
     "primarySkill": "percent-basics",
     "secondarySkills": [],
-    "difficulty": 4,
+    "difficulty": 5,
     "stem": "A number \\(n\\) is increased by 50% and the result is then decreased by 20%. The final result is what percent of \\(n\\)?",
     "options": [
-      { "id": "A", "text": "70%" },
-      { "id": "B", "text": "100%" },
-      { "id": "C", "text": "115%" },
-      { "id": "D", "text": "120%" },
-      { "id": "E", "text": "130%" }
+      {
+        "id": "A",
+        "text": "70%"
+      },
+      {
+        "id": "B",
+        "text": "100%"
+      },
+      {
+        "id": "C",
+        "text": "115%"
+      },
+      {
+        "id": "D",
+        "text": "120%"
+      },
+      {
+        "id": "E",
+        "text": "130%"
+      }
     ],
     "answer": "D",
     "solutionStandard": "Increasing by 50% multiplies by 1.5; decreasing that by 20% multiplies by 0.8: \\(1.5 \\times 0.8 = 1.2\\), i.e. 120% of \\(n\\).",
     "solutionShortcut": "Successive percent changes multiply, they don't add: it is not \\(50\\%-20\\%=30\\%\\), a common trap.",
-    "shortcutTags": ["estimate"],
+    "shortcutTags": [
+      "estimate"
+    ],
     "timeTargetSec": 75
   },
   {

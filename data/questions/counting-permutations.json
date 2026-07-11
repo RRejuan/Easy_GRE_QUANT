@@ -206,8 +206,18 @@
     "secondarySkills": [],
     "difficulty": 1,
     "variables": [
-      { "name": "a", "min": 2, "max": 8, "step": 1 },
-      { "name": "b", "min": 2, "max": 10, "step": 1 }
+      {
+        "name": "a",
+        "min": 2,
+        "max": 8,
+        "step": 1
+      },
+      {
+        "name": "b",
+        "min": 2,
+        "max": 10,
+        "step": 1
+      }
     ],
     "stem": "A restaurant offers {{a}} appetizers and {{b}} main courses. How many different appetizer-and-main-course meals are possible?",
     "answer": 12,
@@ -221,7 +231,14 @@
     "primarySkill": "counting-permutations",
     "secondarySkills": [],
     "difficulty": 1,
-    "variables": [{ "name": "n", "min": 3, "max": 7, "step": 1 }],
+    "variables": [
+      {
+        "name": "n",
+        "min": 3,
+        "max": 7,
+        "step": 1
+      }
+    ],
     "stem": "In how many ways can {{n}} people be arranged in a line?",
     "answer": 24,
     "answerFormula": "(function(){let r=1;for(let i=2;i<=n;i++)r*=i;return r;})()",
@@ -235,8 +252,18 @@
     "secondarySkills": [],
     "difficulty": 2,
     "variables": [
-      { "name": "pool", "min": 5, "max": 10, "step": 1 },
-      { "name": "k", "min": 2, "max": 4, "step": 1 }
+      {
+        "name": "pool",
+        "min": 5,
+        "max": 10,
+        "step": 1
+      },
+      {
+        "name": "k",
+        "min": 2,
+        "max": 4,
+        "step": 1
+      }
     ],
     "stem": "A password consists of {{k}} different letters chosen from a set of {{pool}} distinct letters, arranged in order. How many such passwords are possible?",
     "answer": 60,
@@ -249,8 +276,15 @@
     "type": "Numeric",
     "primarySkill": "counting-permutations",
     "secondarySkills": [],
-    "difficulty": 2,
-    "variables": [{ "name": "n", "min": 4, "max": 12, "step": 1 }],
+    "difficulty": 3,
+    "variables": [
+      {
+        "name": "n",
+        "min": 4,
+        "max": 12,
+        "step": 1
+      }
+    ],
     "stem": "In how many ways can a president and a vice president be chosen from a group of {{n}} people (no one can hold both offices)?",
     "answer": 30,
     "answerFormula": "n*(n-1)",
@@ -262,8 +296,15 @@
     "type": "QC",
     "primarySkill": "counting-permutations",
     "secondarySkills": [],
-    "difficulty": 2,
-    "variables": [{ "name": "n", "min": 4, "max": 10, "step": 1 }],
+    "difficulty": 3,
+    "variables": [
+      {
+        "name": "n",
+        "min": 4,
+        "max": 10,
+        "step": 1
+      }
+    ],
     "stem": "Compare the two quantities.",
     "quantityA": "The number of ways to arrange {{n}} distinct books on a shelf",
     "quantityB": "{{3*n}}",
@@ -279,11 +320,26 @@
     "difficulty": 3,
     "stem": "A code consists of 3 letters followed by 2 digits. Letters and digits may repeat. How many codes are possible?",
     "options": [
-      { "id": "A", "text": "\\(26 \\times 10\\)" },
-      { "id": "B", "text": "\\(26^3 \\times 10^2\\)" },
-      { "id": "C", "text": "\\(26 \\times 3 + 10 \\times 2\\)" },
-      { "id": "D", "text": "\\((26+10)^3\\)" },
-      { "id": "E", "text": "\\(26^2 \\times 10^3\\)" }
+      {
+        "id": "A",
+        "text": "\\(26 \\times 10\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(26^3 \\times 10^2\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(26 \\times 3 + 10 \\times 2\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\((26+10)^3\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(26^2 \\times 10^3\\)"
+      }
     ],
     "answer": "B",
     "solutionStandard": "Each of the 3 letter positions has 26 choices, and each of the 2 digit positions has 10 choices: \\(26 \\times 26 \\times 26 \\times 10 \\times 10 = 26^3 \\times 10^2\\).",
@@ -294,10 +350,20 @@
     "type": "Numeric",
     "primarySkill": "counting-permutations",
     "secondarySkills": [],
-    "difficulty": 3,
+    "difficulty": 4,
     "variables": [
-      { "name": "n", "min": 6, "max": 12, "step": 1 },
-      { "name": "k", "min": 2, "max": 5, "step": 1 }
+      {
+        "name": "n",
+        "min": 6,
+        "max": 12,
+        "step": 1
+      },
+      {
+        "name": "k",
+        "min": 2,
+        "max": 5,
+        "step": 1
+      }
     ],
     "stem": "In how many ways can 1st, 2nd, ..., and {{k}}th place be awarded among {{n}} contestants (no ties)?",
     "answer": 210,
@@ -313,12 +379,28 @@
     "difficulty": 4,
     "stem": "Which of the following equal \\(P(7,3)\\)? Select all that apply.",
     "options": [
-      { "id": "A", "text": "\\(210\\)" },
-      { "id": "B", "text": "\\(7 \\times 6 \\times 5\\)" },
-      { "id": "C", "text": "\\(\\dfrac{7!}{4!}\\)" },
-      { "id": "D", "text": "\\(7 \\times 6 \\times 5 \\times 4\\)" }
+      {
+        "id": "A",
+        "text": "\\(210\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(7 \\times 6 \\times 5\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(\\dfrac{7!}{4!}\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(7 \\times 6 \\times 5 \\times 4\\)"
+      }
     ],
-    "answer": ["A", "B", "C"],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
     "solutionStandard": "\\(P(7,3) = 7\\times6\\times5 = 210\\), and \\(\\dfrac{7!}{4!}\\) is exactly the same computation. \\(7\\times6\\times5\\times4=840\\) is \\(P(7,4)\\), not \\(P(7,3)\\).",
     "timeTargetSec": 80
   },
@@ -327,14 +409,29 @@
     "type": "MC",
     "primarySkill": "counting-permutations",
     "secondarySkills": [],
-    "difficulty": 4,
+    "difficulty": 5,
     "stem": "In how many distinct ways can the letters of the word \"TOMATO\" be arranged?",
     "options": [
-      { "id": "A", "text": "90" },
-      { "id": "B", "text": "120" },
-      { "id": "C", "text": "180" },
-      { "id": "D", "text": "360" },
-      { "id": "E", "text": "720" }
+      {
+        "id": "A",
+        "text": "90"
+      },
+      {
+        "id": "B",
+        "text": "120"
+      },
+      {
+        "id": "C",
+        "text": "180"
+      },
+      {
+        "id": "D",
+        "text": "360"
+      },
+      {
+        "id": "E",
+        "text": "720"
+      }
     ],
     "answer": "C",
     "solutionStandard": "\"TOMATO\" has 6 letters with T repeated twice and O repeated twice: \\(\\dfrac{6!}{2! \\times 2!} = \\dfrac{720}{4} = 180\\).",
@@ -346,7 +443,14 @@
     "primarySkill": "counting-permutations",
     "secondarySkills": [],
     "difficulty": 5,
-    "variables": [{ "name": "n", "min": 4, "max": 8, "step": 1 }],
+    "variables": [
+      {
+        "name": "n",
+        "min": 4,
+        "max": 8,
+        "step": 1
+      }
+    ],
     "stem": "{{n}} people, including a couple who insist on sitting next to each other, are seated in a row. How many seating arrangements are possible?",
     "answer": 48,
     "answerFormula": "(function(){let r=1;for(let i=2;i<=(n-1);i++)r*=i;return r*2;})()",

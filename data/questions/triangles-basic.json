@@ -229,17 +229,64 @@
     "secondarySkills": [],
     "difficulty": 1,
     "variables": [
-      { "name": "a", "min": 30, "max": 80, "step": 5 },
-      { "name": "b", "min": 30, "max": 80, "step": 5 }
+      {
+        "name": "a",
+        "min": 30,
+        "max": 80,
+        "step": 5
+      },
+      {
+        "name": "b",
+        "min": 30,
+        "max": 80,
+        "step": 5
+      }
     ],
     "stem": "In the figure, what is the measure of angle \\(x\\), in degrees?",
     "figure": {
       "viewBox": "0 0 200 160",
       "elements": [
-        { "kind": "polygon", "points": [{ "x": 20, "y": 140 }, { "x": 180, "y": 140 }, { "x": 100, "y": 30 }] },
-        { "kind": "label", "at": { "x": 32, "y": 130 }, "text": "{{a}}°" },
-        { "kind": "label", "at": { "x": 155, "y": 130 }, "text": "{{b}}°" },
-        { "kind": "label", "at": { "x": 95, "y": 45 }, "text": "x" }
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 140
+            },
+            {
+              "x": 180,
+              "y": 140
+            },
+            {
+              "x": 100,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 32,
+            "y": 130
+          },
+          "text": "{{a}}°"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 155,
+            "y": 130
+          },
+          "text": "{{b}}°"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 95,
+            "y": 45
+          },
+          "text": "x"
+        }
       ]
     },
     "answer": 70,
@@ -255,11 +302,26 @@
     "difficulty": 1,
     "stem": "A triangle has sides of length 6, 6, and 6. What type of triangle is it?",
     "options": [
-      { "id": "A", "text": "Equilateral" },
-      { "id": "B", "text": "Isosceles only" },
-      { "id": "C", "text": "Scalene" },
-      { "id": "D", "text": "Right" },
-      { "id": "E", "text": "Cannot be determined" }
+      {
+        "id": "A",
+        "text": "Equilateral"
+      },
+      {
+        "id": "B",
+        "text": "Isosceles only"
+      },
+      {
+        "id": "C",
+        "text": "Scalene"
+      },
+      {
+        "id": "D",
+        "text": "Right"
+      },
+      {
+        "id": "E",
+        "text": "Cannot be determined"
+      }
     ],
     "answer": "A",
     "solutionStandard": "All three sides are equal, so the triangle is equilateral (which is also a special case of isosceles).",
@@ -271,7 +333,14 @@
     "primarySkill": "triangles-basic",
     "secondarySkills": [],
     "difficulty": 2,
-    "variables": [{ "name": "b", "min": 20, "max": 89, "step": 1 }],
+    "variables": [
+      {
+        "name": "b",
+        "min": 20,
+        "max": 89,
+        "step": 1
+      }
+    ],
     "stem": "In an isosceles triangle, the two base angles are each \\({{b}}^\\circ\\). What is the measure, in degrees, of the vertex angle?",
     "answer": 60,
     "answerFormula": "180 - 2*b",
@@ -283,20 +352,77 @@
     "type": "Numeric",
     "primarySkill": "triangles-basic",
     "secondarySkills": [],
-    "difficulty": 2,
+    "difficulty": 3,
     "variables": [
-      { "name": "b", "min": 4, "max": 20, "step": 2 },
-      { "name": "h", "min": 3, "max": 15, "step": 1 }
+      {
+        "name": "b",
+        "min": 4,
+        "max": 20,
+        "step": 2
+      },
+      {
+        "name": "h",
+        "min": 3,
+        "max": 15,
+        "step": 1
+      }
     ],
     "stem": "In the figure, what is the area of the triangle?",
     "figure": {
       "viewBox": "0 0 200 160",
       "elements": [
-        { "kind": "polygon", "points": [{ "x": 20, "y": 140 }, { "x": 160, "y": 140 }, { "x": 60, "y": 30 }] },
-        { "kind": "line", "from": { "x": 60, "y": 30 }, "to": { "x": 60, "y": 140 }, "dashed": true },
-        { "kind": "rightAngleMarker", "at": { "x": 60, "y": 140 } },
-        { "kind": "label", "at": { "x": 85, "y": 155 }, "text": "{{b}}" },
-        { "kind": "label", "at": { "x": 35, "y": 85 }, "text": "{{h}}" }
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 140
+            },
+            {
+              "x": 160,
+              "y": 140
+            },
+            {
+              "x": 60,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 60,
+            "y": 30
+          },
+          "to": {
+            "x": 60,
+            "y": 140
+          },
+          "dashed": true
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 60,
+            "y": 140
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 85,
+            "y": 155
+          },
+          "text": "{{b}}"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 35,
+            "y": 85
+          },
+          "text": "{{h}}"
+        }
       ]
     },
     "answer": 30,
@@ -311,8 +437,18 @@
     "secondarySkills": [],
     "difficulty": 3,
     "variables": [
-      { "name": "a", "min": 20, "max": 70, "step": 5 },
-      { "name": "b", "min": 20, "max": 70, "step": 5 }
+      {
+        "name": "a",
+        "min": 20,
+        "max": 70,
+        "step": 5
+      },
+      {
+        "name": "b",
+        "min": 20,
+        "max": 70,
+        "step": 5
+      }
     ],
     "stem": "In triangle \\(ABC\\), angle \\(A = {{a}}^\\circ\\) and angle \\(B = {{b}}^\\circ\\).",
     "quantityA": "Angle \\(C\\)",
@@ -329,12 +465,27 @@
     "difficulty": 3,
     "stem": "Which of the following sets of angles could be the interior angles of a triangle? Select all that apply.",
     "options": [
-      { "id": "A", "text": "\\(30^\\circ, 60^\\circ, 90^\\circ\\)" },
-      { "id": "B", "text": "\\(80^\\circ, 80^\\circ, 20^\\circ\\)" },
-      { "id": "C", "text": "\\(45^\\circ, 45^\\circ, 45^\\circ\\)" },
-      { "id": "D", "text": "\\(100^\\circ, 40^\\circ, 50^\\circ\\)" }
+      {
+        "id": "A",
+        "text": "\\(30^\\circ, 60^\\circ, 90^\\circ\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(80^\\circ, 80^\\circ, 20^\\circ\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(45^\\circ, 45^\\circ, 45^\\circ\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(100^\\circ, 40^\\circ, 50^\\circ\\)"
+      }
     ],
-    "answer": ["A", "B"],
+    "answer": [
+      "A",
+      "B"
+    ],
     "solutionStandard": "A valid triangle's angles must sum to exactly \\(180^\\circ\\). (A) \\(30+60+90=180\\), valid. (B) \\(80+80+20=180\\), valid. (C) \\(45+45+45=135 \\neq 180\\), invalid. (D) \\(100+40+50=190 \\neq 180\\), invalid.",
     "timeTargetSec": 80
   },
@@ -343,8 +494,15 @@
     "type": "Numeric",
     "primarySkill": "triangles-basic",
     "secondarySkills": [],
-    "difficulty": 3,
-    "variables": [{ "name": "e", "min": 20, "max": 178, "step": 2 }],
+    "difficulty": 4,
+    "variables": [
+      {
+        "name": "e",
+        "min": 20,
+        "max": 178,
+        "step": 2
+      }
+    ],
     "stem": "An exterior angle of a triangle measures \\({{e}}^\\circ\\). The two remote (non-adjacent) interior angles are equal. What is the measure, in degrees, of each remote interior angle?",
     "answer": 65,
     "answerFormula": "e / 2",
@@ -359,11 +517,26 @@
     "difficulty": 4,
     "stem": "In triangle \\(ABC\\), the exterior angle at vertex \\(A\\) measures \\(140^\\circ\\). If angle \\(B\\) is \\(30^\\circ\\) more than angle \\(C\\), what is the measure of angle \\(C\\)?",
     "options": [
-      { "id": "A", "text": "\\(35^\\circ\\)" },
-      { "id": "B", "text": "\\(45^\\circ\\)" },
-      { "id": "C", "text": "\\(55^\\circ\\)" },
-      { "id": "D", "text": "\\(65^\\circ\\)" },
-      { "id": "E", "text": "\\(70^\\circ\\)" }
+      {
+        "id": "A",
+        "text": "\\(35^\\circ\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(45^\\circ\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(55^\\circ\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(65^\\circ\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(70^\\circ\\)"
+      }
     ],
     "answer": "C",
     "solutionStandard": "The exterior angle equals the sum of the remote interior angles: \\(B+C=140\\). Since \\(B=C+30\\), \\((C+30)+C=140\\), so \\(2C=110\\) and \\(C=55\\).",
@@ -374,14 +547,29 @@
     "type": "MC",
     "primarySkill": "triangles-basic",
     "secondarySkills": [],
-    "difficulty": 4,
+    "difficulty": 5,
     "stem": "In triangle \\(ABC\\), angle \\(A\\) is 3 times angle \\(B\\), and angle \\(C\\) is \\(10^\\circ\\) less than angle \\(B\\). What is the measure of angle \\(B\\)?",
     "options": [
-      { "id": "A", "text": "\\(28^\\circ\\)" },
-      { "id": "B", "text": "\\(32^\\circ\\)" },
-      { "id": "C", "text": "\\(38^\\circ\\)" },
-      { "id": "D", "text": "\\(42^\\circ\\)" },
-      { "id": "E", "text": "\\(48^\\circ\\)" }
+      {
+        "id": "A",
+        "text": "\\(28^\\circ\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(32^\\circ\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(38^\\circ\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(42^\\circ\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(48^\\circ\\)"
+      }
     ],
     "answer": "C",
     "solutionStandard": "Let angle \\(B=x\\). Then \\(A=3x\\) and \\(C=x-10\\). Sum: \\(3x+x+(x-10)=180\\), so \\(5x-10=180\\), giving \\(x=38\\).",

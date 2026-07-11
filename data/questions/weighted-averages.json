@@ -15,14 +15,29 @@
     "type": "MC",
     "primarySkill": "weighted-averages",
     "secondarySkills": [],
-    "difficulty": 2,
+    "difficulty": 1,
     "stem": "A class of 10 students has an average score of 70, and a second class of 20 students has an average score of 85. What is the average score of both classes combined?",
     "options": [
-      { "id": "A", "text": "76" },
-      { "id": "B", "text": "77.5" },
-      { "id": "C", "text": "80" },
-      { "id": "D", "text": "82.5" },
-      { "id": "E", "text": "85" }
+      {
+        "id": "A",
+        "text": "76"
+      },
+      {
+        "id": "B",
+        "text": "77.5"
+      },
+      {
+        "id": "C",
+        "text": "80"
+      },
+      {
+        "id": "D",
+        "text": "82.5"
+      },
+      {
+        "id": "E",
+        "text": "85"
+      }
     ],
     "answer": "C",
     "solutionStandard": "Combined sum \\(= 10(70)+20(85)=700+1700=2400\\). Combined average \\(=2400/30=80\\).",
@@ -33,7 +48,7 @@
     "type": "QC",
     "primarySkill": "weighted-averages",
     "secondarySkills": [],
-    "difficulty": 2,
+    "difficulty": 1,
     "stem": "Group A (5 members) has an average of 60. Group B (15 members) has an average of 90.",
     "quantityA": "The combined average of both groups",
     "quantityB": "\\(75\\)",
@@ -46,7 +61,7 @@
     "type": "Numeric",
     "primarySkill": "weighted-averages",
     "secondarySkills": [],
-    "difficulty": 3,
+    "difficulty": 2,
     "stem": "A store sold 30 shirts at $20 each and 20 shirts at $35 each. What was the average price per shirt, in dollars?",
     "answer": 26,
     "solutionStandard": "Total revenue \\(=30(20)+20(35)=600+700=1300\\). Total shirts \\(=50\\). Average \\(=1300/50=26\\).",
@@ -57,14 +72,29 @@
     "type": "MC",
     "primarySkill": "weighted-averages",
     "secondarySkills": [],
-    "difficulty": 3,
+    "difficulty": 2,
     "stem": "A student's average on 4 tests is 85. What score is needed on a 5th test to raise the average to 88?",
     "options": [
-      { "id": "A", "text": "91" },
-      { "id": "B", "text": "94" },
-      { "id": "C", "text": "97" },
-      { "id": "D", "text": "100" },
-      { "id": "E", "text": "103" }
+      {
+        "id": "A",
+        "text": "91"
+      },
+      {
+        "id": "B",
+        "text": "94"
+      },
+      {
+        "id": "C",
+        "text": "97"
+      },
+      {
+        "id": "D",
+        "text": "100"
+      },
+      {
+        "id": "E",
+        "text": "103"
+      }
     ],
     "answer": "D",
     "solutionStandard": "Current sum \\(=4(85)=340\\). Needed sum for 5 tests at 88: \\(5(88)=440\\). Fifth score: \\(440-340=100\\).",
@@ -75,7 +105,7 @@
     "type": "Numeric",
     "primarySkill": "weighted-averages",
     "secondarySkills": [],
-    "difficulty": 3,
+    "difficulty": 2,
     "stem": "A company has 8 employees earning an average of $50,000 and 2 managers earning an average of $90,000. What is the average salary of all 10 people, in dollars?",
     "answer": 58000,
     "solutionStandard": "Total \\(=8(50000)+2(90000)=400000+180000=580000\\). Average \\(=580000/10=58000\\).",
@@ -89,11 +119,26 @@
     "difficulty": 3,
     "stem": "Two classes take the same exam. Class X (10 students) averages 78, and the combined average of both classes (30 students) is 82. What is the average of Class Y (20 students)?",
     "options": [
-      { "id": "A", "text": "82.2" },
-      { "id": "B", "text": "84" },
-      { "id": "C", "text": "85.2" },
-      { "id": "D", "text": "86.6" },
-      { "id": "E", "text": "88" }
+      {
+        "id": "A",
+        "text": "82.2"
+      },
+      {
+        "id": "B",
+        "text": "84"
+      },
+      {
+        "id": "C",
+        "text": "85.2"
+      },
+      {
+        "id": "D",
+        "text": "86.6"
+      },
+      {
+        "id": "E",
+        "text": "88"
+      }
     ],
     "answer": "B",
     "solutionStandard": "Combined sum \\(=30(82)=2460\\). Class X sum \\(=10(78)=780\\). Class Y sum \\(=2460-780=1680\\). Class Y average \\(=1680/20=84\\).",
@@ -104,7 +149,7 @@
     "type": "QC",
     "primarySkill": "weighted-averages",
     "secondarySkills": [],
-    "difficulty": 4,
+    "difficulty": 3,
     "stem": "Group A has \\(a\\) members with average 50. Group B has \\(b\\) members with average 80, where \\(a > b\\).",
     "quantityA": "The combined average",
     "quantityB": "\\(65\\)",
@@ -117,7 +162,7 @@
     "type": "Numeric",
     "primarySkill": "weighted-averages",
     "secondarySkills": [],
-    "difficulty": 4,
+    "difficulty": 3,
     "stem": "A jar has red and blue marbles. Red marbles have an average weight of 5 grams, blue marbles average 8 grams, and the overall average weight is 6 grams. If there are 30 marbles total, how many are red?",
     "answer": 20,
     "solutionStandard": "Let \\(r\\)=red count. \\(5r + 8(30-r) = 6(30)\\), so \\(5r+240-8r=180\\), giving \\(-3r=-60\\) and \\(r=20\\).",
@@ -131,11 +176,26 @@
     "difficulty": 4,
     "stem": "A trip consists of 60 miles driven at 30 mph and 60 miles driven at 60 mph. What is the average speed for the entire trip?",
     "options": [
-      { "id": "A", "text": "40 mph" },
-      { "id": "B", "text": "45 mph" },
-      { "id": "C", "text": "48 mph" },
-      { "id": "D", "text": "50 mph" },
-      { "id": "E", "text": "55 mph" }
+      {
+        "id": "A",
+        "text": "40 mph"
+      },
+      {
+        "id": "B",
+        "text": "45 mph"
+      },
+      {
+        "id": "C",
+        "text": "48 mph"
+      },
+      {
+        "id": "D",
+        "text": "50 mph"
+      },
+      {
+        "id": "E",
+        "text": "55 mph"
+      }
     ],
     "answer": "A",
     "solutionStandard": "Time for first leg: \\(60/30=2\\) hours. Time for second leg: \\(60/60=1\\) hour. Total distance \\(120\\), total time \\(3\\) hours. Average speed \\(=120/3=40\\) mph (not the simple average of 30 and 60, since equal DISTANCES, not equal times, were driven at each speed).",
@@ -148,8 +208,18 @@
     "secondarySkills": [],
     "difficulty": 1,
     "variables": [
-      { "name": "n", "min": 10, "max": 40, "step": 1 },
-      { "name": "a", "min": 50, "max": 95, "step": 1 }
+      {
+        "name": "n",
+        "min": 10,
+        "max": 40,
+        "step": 1
+      },
+      {
+        "name": "a",
+        "min": 50,
+        "max": 95,
+        "step": 1
+      }
     ],
     "stem": "A class of {{n}} students has an average score of {{a}}. What is the sum of all their scores?",
     "answer": 1600,
@@ -164,10 +234,30 @@
     "secondarySkills": [],
     "difficulty": 2,
     "variables": [
-      { "name": "n1", "min": 5, "max": 10, "step": 1 },
-      { "name": "n2", "min": 5, "max": 10, "step": 1 },
-      { "name": "avg", "min": 30, "max": 80, "step": 1 },
-      { "name": "k", "min": 1, "max": 2, "step": 1 }
+      {
+        "name": "n1",
+        "min": 5,
+        "max": 10,
+        "step": 1
+      },
+      {
+        "name": "n2",
+        "min": 5,
+        "max": 10,
+        "step": 1
+      },
+      {
+        "name": "avg",
+        "min": 30,
+        "max": 80,
+        "step": 1
+      },
+      {
+        "name": "k",
+        "min": 1,
+        "max": 2,
+        "step": 1
+      }
     ],
     "stem": "Group 1 has {{n1}} items, averaging {{avg-k*n2}} each. Group 2 has {{n2}} items, averaging {{avg+k*n1}} each. What is the average value per item for all items combined?",
     "answer": 55,
@@ -182,9 +272,24 @@
     "secondarySkills": [],
     "difficulty": 3,
     "variables": [
-      { "name": "a", "min": 2, "max": 10, "step": 1 },
-      { "name": "m1", "min": 40, "max": 70, "step": 1 },
-      { "name": "d", "min": 6, "max": 30, "step": 2 }
+      {
+        "name": "a",
+        "min": 2,
+        "max": 10,
+        "step": 1
+      },
+      {
+        "name": "m1",
+        "min": 40,
+        "max": 70,
+        "step": 1
+      },
+      {
+        "name": "d",
+        "min": 6,
+        "max": 30,
+        "step": 2
+      }
     ],
     "stem": "Group A has {{a}} members with an average of {{m1}}. Group B has {{3*a}} members with an average of {{m1+d}}.",
     "quantityA": "The combined average of both groups",
@@ -201,11 +306,26 @@
     "difficulty": 3,
     "stem": "A store sold 40 shirts at $15 each and 10 shirts at $35 each. What was the average price per shirt, in dollars?",
     "options": [
-      { "id": "A", "text": "17" },
-      { "id": "B", "text": "19" },
-      { "id": "C", "text": "21" },
-      { "id": "D", "text": "23" },
-      { "id": "E", "text": "25" }
+      {
+        "id": "A",
+        "text": "17"
+      },
+      {
+        "id": "B",
+        "text": "19"
+      },
+      {
+        "id": "C",
+        "text": "21"
+      },
+      {
+        "id": "D",
+        "text": "23"
+      },
+      {
+        "id": "E",
+        "text": "25"
+      }
     ],
     "answer": "B",
     "solutionStandard": "Total revenue \\(=40(15)+10(35)=600+350=950\\). Total shirts \\(=50\\). Average \\(=950/50=19\\).",
@@ -218,9 +338,24 @@
     "secondarySkills": [],
     "difficulty": 3,
     "variables": [
-      { "name": "n", "min": 3, "max": 8, "step": 1 },
-      { "name": "a", "min": 60, "max": 90, "step": 1 },
-      { "name": "d", "min": 1, "max": 10, "step": 1 }
+      {
+        "name": "n",
+        "min": 3,
+        "max": 8,
+        "step": 1
+      },
+      {
+        "name": "a",
+        "min": 60,
+        "max": 90,
+        "step": 1
+      },
+      {
+        "name": "d",
+        "min": 1,
+        "max": 10,
+        "step": 1
+      }
     ],
     "stem": "A student's average on {{n}} tests is {{a}}. What score is needed on the next test to raise the average to {{a+d}}?",
     "answer": 100,
@@ -235,10 +370,30 @@
     "secondarySkills": [],
     "difficulty": 4,
     "variables": [
-      { "name": "n1", "min": 4, "max": 10, "step": 1 },
-      { "name": "n2", "min": 1, "max": 4, "step": 1 },
-      { "name": "avg", "min": 40000, "max": 90000, "step": 1000 },
-      { "name": "k", "min": 1000, "max": 5000, "step": 1000 }
+      {
+        "name": "n1",
+        "min": 4,
+        "max": 10,
+        "step": 1
+      },
+      {
+        "name": "n2",
+        "min": 1,
+        "max": 4,
+        "step": 1
+      },
+      {
+        "name": "avg",
+        "min": 40000,
+        "max": 90000,
+        "step": 1000
+      },
+      {
+        "name": "k",
+        "min": 1000,
+        "max": 5000,
+        "step": 1000
+      }
     ],
     "stem": "A company has {{n1}} employees earning an average salary of {{avg-k*n2}} dollars and {{n2}} managers earning an average salary of {{avg+k*n1}} dollars. What is the average salary of all {{n1+n2}} people, in dollars?",
     "answer": 58000,
@@ -275,14 +430,29 @@
     "type": "MC",
     "primarySkill": "weighted-averages",
     "secondarySkills": [],
-    "difficulty": 4,
+    "difficulty": 5,
     "stem": "A trip consists of 2 hours driven at 30 mph, followed by 2 hours driven at 60 mph (equal TIME, not equal distance, at each speed). What is the average speed for the entire trip?",
     "options": [
-      { "id": "A", "text": "40 mph" },
-      { "id": "B", "text": "45 mph" },
-      { "id": "C", "text": "48 mph" },
-      { "id": "D", "text": "50 mph" },
-      { "id": "E", "text": "55 mph" }
+      {
+        "id": "A",
+        "text": "40 mph"
+      },
+      {
+        "id": "B",
+        "text": "45 mph"
+      },
+      {
+        "id": "C",
+        "text": "48 mph"
+      },
+      {
+        "id": "D",
+        "text": "50 mph"
+      },
+      {
+        "id": "E",
+        "text": "55 mph"
+      }
     ],
     "answer": "B",
     "solutionStandard": "Distance \\(=2(30)+2(60)=60+120=180\\) miles over \\(4\\) hours. Average speed \\(=180/4=45\\) mph — this matches the simple average of 30 and 60 because equal TIMES (not equal distances) were spent at each speed.",

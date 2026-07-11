@@ -228,15 +228,56 @@
     "primarySkill": "lines-angles",
     "secondarySkills": [],
     "difficulty": 1,
-    "variables": [{ "name": "a", "min": 20, "max": 160, "step": 5 }],
+    "variables": [
+      {
+        "name": "a",
+        "min": 20,
+        "max": 160,
+        "step": 5
+      }
+    ],
     "stem": "In the figure, two lines intersect. What is the measure of angle \\(x\\), in degrees?",
     "figure": {
       "viewBox": "0 0 200 160",
       "elements": [
-        { "kind": "line", "from": { "x": 20, "y": 20 }, "to": { "x": 180, "y": 140 } },
-        { "kind": "line", "from": { "x": 20, "y": 140 }, "to": { "x": 180, "y": 20 } },
-        { "kind": "label", "at": { "x": 88, "y": 38 }, "text": "{{a}}°" },
-        { "kind": "label", "at": { "x": 90, "y": 128 }, "text": "x" }
+        {
+          "kind": "line",
+          "from": {
+            "x": 20,
+            "y": 20
+          },
+          "to": {
+            "x": 180,
+            "y": 140
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 20,
+            "y": 140
+          },
+          "to": {
+            "x": 180,
+            "y": 20
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 88,
+            "y": 38
+          },
+          "text": "{{a}}°"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 90,
+            "y": 128
+          },
+          "text": "x"
+        }
       ]
     },
     "answer": 70,
@@ -252,11 +293,26 @@
     "difficulty": 1,
     "stem": "Two angles lie on a straight line. One measures \\(72^\\circ\\). What is the measure of the other?",
     "options": [
-      { "id": "A", "text": "\\(18^\\circ\\)" },
-      { "id": "B", "text": "\\(28^\\circ\\)" },
-      { "id": "C", "text": "\\(108^\\circ\\)" },
-      { "id": "D", "text": "\\(118^\\circ\\)" },
-      { "id": "E", "text": "\\(180^\\circ\\)" }
+      {
+        "id": "A",
+        "text": "\\(18^\\circ\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(28^\\circ\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(108^\\circ\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(118^\\circ\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(180^\\circ\\)"
+      }
     ],
     "answer": "C",
     "solutionStandard": "Angles on a straight line sum to \\(180^\\circ\\): \\(180-72=108^\\circ\\).",
@@ -268,16 +324,67 @@
     "primarySkill": "lines-angles",
     "secondarySkills": [],
     "difficulty": 2,
-    "variables": [{ "name": "a", "min": 30, "max": 150, "step": 5 }],
+    "variables": [
+      {
+        "name": "a",
+        "min": 30,
+        "max": 150,
+        "step": 5
+      }
+    ],
     "stem": "In the figure, two parallel lines are cut by a transversal. What is the measure of angle \\(x\\), in degrees?",
     "figure": {
       "viewBox": "0 0 200 160",
       "elements": [
-        { "kind": "line", "from": { "x": 20, "y": 40 }, "to": { "x": 180, "y": 40 } },
-        { "kind": "line", "from": { "x": 20, "y": 120 }, "to": { "x": 180, "y": 120 } },
-        { "kind": "line", "from": { "x": 40, "y": 10 }, "to": { "x": 160, "y": 150 } },
-        { "kind": "label", "at": { "x": 78, "y": 30 }, "text": "{{a}}°" },
-        { "kind": "label", "at": { "x": 146, "y": 108 }, "text": "x" }
+        {
+          "kind": "line",
+          "from": {
+            "x": 20,
+            "y": 40
+          },
+          "to": {
+            "x": 180,
+            "y": 40
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 20,
+            "y": 120
+          },
+          "to": {
+            "x": 180,
+            "y": 120
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 40,
+            "y": 10
+          },
+          "to": {
+            "x": 160,
+            "y": 150
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 78,
+            "y": 30
+          },
+          "text": "{{a}}°"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 146,
+            "y": 108
+          },
+          "text": "x"
+        }
       ]
     },
     "answer": 65,
@@ -290,14 +397,29 @@
     "type": "MC",
     "primarySkill": "lines-angles",
     "secondarySkills": [],
-    "difficulty": 2,
+    "difficulty": 3,
     "stem": "A transversal crosses two parallel lines, forming an angle of \\(75^\\circ\\) with one of them. What is the measure of the alternate interior angle at the other parallel line?",
     "options": [
-      { "id": "A", "text": "\\(15^\\circ\\)" },
-      { "id": "B", "text": "\\(75^\\circ\\)" },
-      { "id": "C", "text": "\\(105^\\circ\\)" },
-      { "id": "D", "text": "\\(90^\\circ\\)" },
-      { "id": "E", "text": "\\(180^\\circ\\)" }
+      {
+        "id": "A",
+        "text": "\\(15^\\circ\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(75^\\circ\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(105^\\circ\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(90^\\circ\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(180^\\circ\\)"
+      }
     ],
     "answer": "B",
     "solutionStandard": "Alternate interior angles formed by a transversal crossing parallel lines are always equal, so it is also \\(75^\\circ\\).",
@@ -309,7 +431,14 @@
     "primarySkill": "lines-angles",
     "secondarySkills": [],
     "difficulty": 3,
-    "variables": [{ "name": "a", "min": 20, "max": 90, "step": 5 }],
+    "variables": [
+      {
+        "name": "a",
+        "min": 20,
+        "max": 90,
+        "step": 5
+      }
+    ],
     "stem": "A transversal crosses two parallel lines. One angle formed is \\({{a}}^\\circ\\), and another angle (at the other parallel line) is a co-interior (same-side interior) angle with it.",
     "quantityA": "The co-interior angle",
     "quantityB": "{{180-a}}",
@@ -325,12 +454,28 @@
     "difficulty": 3,
     "stem": "A transversal crosses two parallel lines, creating an angle of \\(70^\\circ\\) at the first line. Which of the following angles at the second parallel line must measure \\(70^\\circ\\)? Select all that apply.",
     "options": [
-      { "id": "A", "text": "The corresponding angle" },
-      { "id": "B", "text": "The alternate interior angle" },
-      { "id": "C", "text": "The co-interior (same-side interior) angle" },
-      { "id": "D", "text": "The vertical angle to the corresponding angle" }
+      {
+        "id": "A",
+        "text": "The corresponding angle"
+      },
+      {
+        "id": "B",
+        "text": "The alternate interior angle"
+      },
+      {
+        "id": "C",
+        "text": "The co-interior (same-side interior) angle"
+      },
+      {
+        "id": "D",
+        "text": "The vertical angle to the corresponding angle"
+      }
     ],
-    "answer": ["A", "B", "D"],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
     "solutionStandard": "The corresponding angle equals \\(70^\\circ\\) (A). The alternate interior angle also equals \\(70^\\circ\\) (B). The vertical angle to the corresponding angle equals it, so also \\(70^\\circ\\) (D). The co-interior angle is supplementary: \\(180-70=110^\\circ \\neq 70^\\circ\\) (C is false).",
     "timeTargetSec": 85
   },
@@ -339,8 +484,15 @@
     "type": "Numeric",
     "primarySkill": "lines-angles",
     "secondarySkills": [],
-    "difficulty": 3,
-    "variables": [{ "name": "k", "min": 20, "max": 80, "step": 4 }],
+    "difficulty": 4,
+    "variables": [
+      {
+        "name": "k",
+        "min": 20,
+        "max": 80,
+        "step": 4
+      }
+    ],
     "stem": "Four angles around a point measure \\(x\\), \\(x\\), \\(2x\\), and \\({{k}}\\) degrees. What is the value of \\(x\\)?",
     "answer": 60,
     "answerFormula": "(360 - k) / 4",
@@ -355,11 +507,26 @@
     "difficulty": 4,
     "stem": "Two angles are supplementary. One angle is \\(15^\\circ\\) less than three times the other. What is the measure of the larger angle?",
     "options": [
-      { "id": "A", "text": "\\(48.75^\\circ\\)" },
-      { "id": "B", "text": "\\(131.25^\\circ\\)" },
-      { "id": "C", "text": "\\(135^\\circ\\)" },
-      { "id": "D", "text": "\\(140^\\circ\\)" },
-      { "id": "E", "text": "\\(150^\\circ\\)" }
+      {
+        "id": "A",
+        "text": "\\(48.75^\\circ\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(131.25^\\circ\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(135^\\circ\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(140^\\circ\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(150^\\circ\\)"
+      }
     ],
     "answer": "B",
     "solutionStandard": "Let the smaller angle be \\(x\\). Then \\(x + (3x-15)=180\\), so \\(4x=195\\) and \\(x=48.75\\). The larger angle is \\(3(48.75)-15=131.25^\\circ\\).",
@@ -370,11 +537,26 @@
     "type": "Numeric",
     "primarySkill": "lines-angles",
     "secondarySkills": [],
-    "difficulty": 4,
+    "difficulty": 5,
     "variables": [
-      { "name": "m1", "min": 2, "max": 5, "step": 1 },
-      { "name": "b1", "min": 5, "max": 30, "step": 5 },
-      { "name": "m2", "min": 1, "max": 4, "step": 1 }
+      {
+        "name": "m1",
+        "min": 2,
+        "max": 5,
+        "step": 1
+      },
+      {
+        "name": "b1",
+        "min": 5,
+        "max": 30,
+        "step": 5
+      },
+      {
+        "name": "m2",
+        "min": 1,
+        "max": 4,
+        "step": 1
+      }
     ],
     "stem": "Two parallel lines are cut by a transversal. One interior angle measures \\({{m1}}x + {{b1}}\\) degrees, and its co-interior (same-side interior) angle measures \\({{m2}}x\\) degrees. If \\(x = {{(180-b1)/(m1+m2)}}\\), what is the measure of the co-interior angle, in degrees?",
     "answer": 100,

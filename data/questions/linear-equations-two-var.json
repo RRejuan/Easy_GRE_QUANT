@@ -15,7 +15,7 @@
     "type": "Numeric",
     "primarySkill": "linear-equations-two-var",
     "secondarySkills": [],
-    "difficulty": 2,
+    "difficulty": 1,
     "stem": "If \\(x + y = 10\\) and \\(x - y = 4\\), what is the value of \\(y\\)?",
     "answer": 3,
     "solutionStandard": "Subtracting: \\(2y = 6\\), so \\(y = 3\\).",
@@ -29,11 +29,26 @@
     "difficulty": 2,
     "stem": "If \\(2x + y = 11\\) and \\(y = x - 1\\), what is the value of \\(x\\)?",
     "options": [
-      { "id": "A", "text": "2" },
-      { "id": "B", "text": "3" },
-      { "id": "C", "text": "4" },
-      { "id": "D", "text": "5" },
-      { "id": "E", "text": "6" }
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "3"
+      },
+      {
+        "id": "C",
+        "text": "4"
+      },
+      {
+        "id": "D",
+        "text": "5"
+      },
+      {
+        "id": "E",
+        "text": "6"
+      }
     ],
     "answer": "C",
     "solutionStandard": "Substitute \\(y=x-1\\): \\(2x + (x-1) = 11\\), so \\(3x = 12\\) and \\(x=4\\).",
@@ -71,16 +86,33 @@
     "difficulty": 3,
     "stem": "A store sells pens for $2 each and notebooks for $5 each. A customer buys a total of 10 items for $29. How many pens did they buy?",
     "options": [
-      { "id": "A", "text": "3" },
-      { "id": "B", "text": "5" },
-      { "id": "C", "text": "6" },
-      { "id": "D", "text": "7" },
-      { "id": "E", "text": "8" }
+      {
+        "id": "A",
+        "text": "3"
+      },
+      {
+        "id": "B",
+        "text": "5"
+      },
+      {
+        "id": "C",
+        "text": "6"
+      },
+      {
+        "id": "D",
+        "text": "7"
+      },
+      {
+        "id": "E",
+        "text": "8"
+      }
     ],
     "answer": "D",
     "solutionStandard": "Let \\(p\\) = pens, \\(n\\) = notebooks. \\(p+n=10\\) and \\(2p+5n=29\\). From the first, \\(n=10-p\\). Substituting: \\(2p+5(10-p)=29\\), so \\(2p+50-5p=29\\), giving \\(-3p=-21\\) and \\(p=7\\).",
     "solutionShortcut": "Backsolve: test \\(p=7, n=3\\): cost \\(=2(7)+5(3)=14+15=29\\). Matches.",
-    "shortcutTags": ["backsolve"],
+    "shortcutTags": [
+      "backsolve"
+    ],
     "timeTargetSec": 85
   },
   {
@@ -91,11 +123,26 @@
     "difficulty": 3,
     "stem": "Which of the following systems has no solution?",
     "options": [
-      { "id": "A", "text": "\\(x+y=5\\), \\(x-y=1\\)" },
-      { "id": "B", "text": "\\(2x+y=6\\), \\(4x+2y=12\\)" },
-      { "id": "C", "text": "\\(x+y=4\\), \\(x+y=9\\)" },
-      { "id": "D", "text": "\\(x=3\\), \\(y=2\\)" },
-      { "id": "E", "text": "\\(x+2y=8\\), \\(x-y=2\\)" }
+      {
+        "id": "A",
+        "text": "\\(x+y=5\\), \\(x-y=1\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(2x+y=6\\), \\(4x+2y=12\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(x+y=4\\), \\(x+y=9\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(x=3\\), \\(y=2\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(x+2y=8\\), \\(x-y=2\\)"
+      }
     ],
     "answer": "C",
     "solutionStandard": "(C) says \\(x+y\\) equals both 4 and 9 simultaneously, which is impossible — the lines are parallel and distinct, so there is no solution. (B) is the same line twice (infinitely many solutions), and the rest each have a unique solution.",
@@ -120,11 +167,26 @@
     "difficulty": 4,
     "stem": "A boat travels 30 miles downstream in 2 hours and 30 miles upstream in 5 hours. What is the speed of the current, in miles per hour?",
     "options": [
-      { "id": "A", "text": "1.5" },
-      { "id": "B", "text": "3" },
-      { "id": "C", "text": "4.5" },
-      { "id": "D", "text": "6" },
-      { "id": "E", "text": "9" }
+      {
+        "id": "A",
+        "text": "1.5"
+      },
+      {
+        "id": "B",
+        "text": "3"
+      },
+      {
+        "id": "C",
+        "text": "4.5"
+      },
+      {
+        "id": "D",
+        "text": "6"
+      },
+      {
+        "id": "E",
+        "text": "9"
+      }
     ],
     "answer": "C",
     "solutionStandard": "Let \\(b\\) = boat speed, \\(c\\) = current speed. Downstream rate: \\(b+c = 30/2 = 15\\). Upstream rate: \\(b-c = 30/5 = 6\\). Subtracting the two equations: \\(2c = 9\\), so \\(c = 4.5\\).",
@@ -150,8 +212,18 @@
     "secondarySkills": [],
     "difficulty": 1,
     "variables": [
-      { "name": "s", "min": 10, "max": 40, "step": 2 },
-      { "name": "d", "min": 2, "max": 20, "step": 2 }
+      {
+        "name": "s",
+        "min": 10,
+        "max": 40,
+        "step": 2
+      },
+      {
+        "name": "d",
+        "min": 2,
+        "max": 20,
+        "step": 2
+      }
     ],
     "stem": "If \\(x + y = {{s}}\\) and \\(x - y = {{d}}\\), what is the value of \\(x\\)?",
     "answer": 14,
@@ -167,11 +239,26 @@
     "difficulty": 1,
     "stem": "If \\(x + y = 15\\) and \\(x - y = 3\\), what is the value of \\(y\\)?",
     "options": [
-      { "id": "A", "text": "4" },
-      { "id": "B", "text": "5" },
-      { "id": "C", "text": "6" },
-      { "id": "D", "text": "7" },
-      { "id": "E", "text": "8" }
+      {
+        "id": "A",
+        "text": "4"
+      },
+      {
+        "id": "B",
+        "text": "5"
+      },
+      {
+        "id": "C",
+        "text": "6"
+      },
+      {
+        "id": "D",
+        "text": "7"
+      },
+      {
+        "id": "E",
+        "text": "8"
+      }
     ],
     "answer": "C",
     "solutionStandard": "Subtracting: \\(2y = 12\\), so \\(y = 6\\).",
@@ -184,8 +271,18 @@
     "secondarySkills": [],
     "difficulty": 2,
     "variables": [
-      { "name": "xt", "min": 2, "max": 15, "step": 1 },
-      { "name": "k", "min": 1, "max": 10, "step": 1 }
+      {
+        "name": "xt",
+        "min": 2,
+        "max": 15,
+        "step": 1
+      },
+      {
+        "name": "k",
+        "min": 1,
+        "max": 10,
+        "step": 1
+      }
     ],
     "stem": "If \\(2x + y = {{3*xt - k}}\\) and \\(y = x - {{k}}\\), what is \\(x\\)?",
     "answer": 5,
@@ -200,8 +297,18 @@
     "secondarySkills": [],
     "difficulty": 2,
     "variables": [
-      { "name": "s", "min": 10, "max": 60, "step": 2 },
-      { "name": "d", "min": 2, "max": 30, "step": 2 }
+      {
+        "name": "s",
+        "min": 10,
+        "max": 60,
+        "step": 2
+      },
+      {
+        "name": "d",
+        "min": 2,
+        "max": 30,
+        "step": 2
+      }
     ],
     "stem": "The sum of two numbers is {{s}} and their difference is {{d}}. What is the larger number?",
     "answer": 21,
@@ -230,11 +337,26 @@
     "difficulty": 3,
     "stem": "Tickets cost $8 for adults and $5 for children. A group of 12 people paid a total of $81. How many adults were in the group?",
     "options": [
-      { "id": "A", "text": "5" },
-      { "id": "B", "text": "6" },
-      { "id": "C", "text": "7" },
-      { "id": "D", "text": "8" },
-      { "id": "E", "text": "9" }
+      {
+        "id": "A",
+        "text": "5"
+      },
+      {
+        "id": "B",
+        "text": "6"
+      },
+      {
+        "id": "C",
+        "text": "7"
+      },
+      {
+        "id": "D",
+        "text": "8"
+      },
+      {
+        "id": "E",
+        "text": "9"
+      }
     ],
     "answer": "C",
     "solutionStandard": "Let \\(a\\)=adults, \\(c\\)=children. \\(a+c=12\\) and \\(8a+5c=81\\). Substituting \\(c=12-a\\): \\(8a+60-5a=81\\), so \\(3a=21\\) and \\(a=7\\).",
@@ -247,8 +369,18 @@
     "secondarySkills": [],
     "difficulty": 3,
     "variables": [
-      { "name": "r1", "min": 8, "max": 15, "step": 1 },
-      { "name": "r2", "min": 1, "max": 7, "step": 1 }
+      {
+        "name": "r1",
+        "min": 8,
+        "max": 15,
+        "step": 1
+      },
+      {
+        "name": "r2",
+        "min": 1,
+        "max": 7,
+        "step": 1
+      }
     ],
     "stem": "\\(x\\) and \\(y\\) satisfy \\(x + y = {{r1+r2}}\\) and \\(xy = {{r1*r2}}\\), with \\(x > y > 0\\). What is \\(x\\)?",
     "answer": 10,
@@ -264,11 +396,26 @@
     "difficulty": 4,
     "stem": "A boat travels 40 miles downstream in 2 hours and 40 miles upstream in 4 hours. What is the boat's speed in still water, in miles per hour?",
     "options": [
-      { "id": "A", "text": "10" },
-      { "id": "B", "text": "12.5" },
-      { "id": "C", "text": "15" },
-      { "id": "D", "text": "17.5" },
-      { "id": "E", "text": "20" }
+      {
+        "id": "A",
+        "text": "10"
+      },
+      {
+        "id": "B",
+        "text": "12.5"
+      },
+      {
+        "id": "C",
+        "text": "15"
+      },
+      {
+        "id": "D",
+        "text": "17.5"
+      },
+      {
+        "id": "E",
+        "text": "20"
+      }
     ],
     "answer": "C",
     "solutionStandard": "Downstream rate: \\(b+c=40/2=20\\). Upstream rate: \\(b-c=40/4=10\\). Adding: \\(2b=30\\), so \\(b=15\\) mph.",
@@ -279,10 +426,20 @@
     "type": "Numeric",
     "primarySkill": "linear-equations-two-var",
     "secondarySkills": [],
-    "difficulty": 4,
+    "difficulty": 5,
     "variables": [
-      { "name": "xt", "min": 1, "max": 15, "step": 1 },
-      { "name": "yt", "min": 1, "max": 15, "step": 1 }
+      {
+        "name": "xt",
+        "min": 1,
+        "max": 15,
+        "step": 1
+      },
+      {
+        "name": "yt",
+        "min": 1,
+        "max": 15,
+        "step": 1
+      }
     ],
     "stem": "If \\(2x - 3y = {{2*xt - 3*yt}}\\) and \\(3x + 2y = {{3*xt + 2*yt}}\\), what is the value of \\(x + y\\)?",
     "answer": 7,
