@@ -142,5 +142,165 @@
     "answer": "C",
     "solutionStandard": "The two numbers with sum 12 and product 35 are the roots of \\(t^2 - 12t + 35 = 0\\), which factors as \\((t-5)(t-7)=0\\), giving \\(t=5\\) or \\(t=7\\). Since \\(x>y\\), \\(x=7\\) and \\(y=5\\). The quantities are equal.",
     "timeTargetSec": 90
+  },
+  {
+    "id": "linear-equations-two-var-011",
+    "type": "Numeric",
+    "primarySkill": "linear-equations-two-var",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "variables": [
+      { "name": "s", "min": 10, "max": 40, "step": 2 },
+      { "name": "d", "min": 2, "max": 20, "step": 2 }
+    ],
+    "stem": "If \\(x + y = {{s}}\\) and \\(x - y = {{d}}\\), what is the value of \\(x\\)?",
+    "answer": 14,
+    "answerFormula": "(s + d) / 2",
+    "solutionStandard": "Adding the equations: \\(2x = {{s}}+{{d}} = {{s+d}}\\), so \\(x = {{(s+d)/2}}\\).",
+    "timeTargetSec": 50
+  },
+  {
+    "id": "linear-equations-two-var-012",
+    "type": "MC",
+    "primarySkill": "linear-equations-two-var",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "If \\(x + y = 15\\) and \\(x - y = 3\\), what is the value of \\(y\\)?",
+    "options": [
+      { "id": "A", "text": "4" },
+      { "id": "B", "text": "5" },
+      { "id": "C", "text": "6" },
+      { "id": "D", "text": "7" },
+      { "id": "E", "text": "8" }
+    ],
+    "answer": "C",
+    "solutionStandard": "Subtracting: \\(2y = 12\\), so \\(y = 6\\).",
+    "timeTargetSec": 50
+  },
+  {
+    "id": "linear-equations-two-var-013",
+    "type": "Numeric",
+    "primarySkill": "linear-equations-two-var",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "variables": [
+      { "name": "xt", "min": 2, "max": 15, "step": 1 },
+      { "name": "k", "min": 1, "max": 10, "step": 1 }
+    ],
+    "stem": "If \\(2x + y = {{3*xt - k}}\\) and \\(y = x - {{k}}\\), what is \\(x\\)?",
+    "answer": 5,
+    "answerFormula": "xt",
+    "solutionStandard": "Substituting \\(y=x-{{k}}\\): \\(2x+(x-{{k}}) = {{3*xt-k}}\\), so \\(3x = {{3*xt-k}} + {{k}} = {{3*xt}}\\), giving \\(x = {{xt}}\\).",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "linear-equations-two-var-014",
+    "type": "Numeric",
+    "primarySkill": "linear-equations-two-var",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "variables": [
+      { "name": "s", "min": 10, "max": 60, "step": 2 },
+      { "name": "d", "min": 2, "max": 30, "step": 2 }
+    ],
+    "stem": "The sum of two numbers is {{s}} and their difference is {{d}}. What is the larger number?",
+    "answer": 21,
+    "answerFormula": "(s + d) / 2",
+    "solutionStandard": "Let the numbers be \\(x\\) and \\(y\\) with \\(x+y={{s}}\\), \\(x-y={{d}}\\). Adding: \\(2x={{s+d}}\\), so \\(x={{(s+d)/2}}\\).",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "linear-equations-two-var-015",
+    "type": "QC",
+    "primarySkill": "linear-equations-two-var",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "\\(5x + 2y = 29\\) and \\(x + 2y = 9\\)",
+    "quantityA": "\\(x\\)",
+    "quantityB": "\\(y\\)",
+    "answer": "A",
+    "solutionStandard": "Subtracting the second equation from the first: \\(4x = 20\\), so \\(x=5\\). Then \\(5+2y=9\\), so \\(y=2\\). Since \\(5>2\\), Quantity A is greater.",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "linear-equations-two-var-016",
+    "type": "MC",
+    "primarySkill": "linear-equations-two-var",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "Tickets cost $8 for adults and $5 for children. A group of 12 people paid a total of $81. How many adults were in the group?",
+    "options": [
+      { "id": "A", "text": "5" },
+      { "id": "B", "text": "6" },
+      { "id": "C", "text": "7" },
+      { "id": "D", "text": "8" },
+      { "id": "E", "text": "9" }
+    ],
+    "answer": "C",
+    "solutionStandard": "Let \\(a\\)=adults, \\(c\\)=children. \\(a+c=12\\) and \\(8a+5c=81\\). Substituting \\(c=12-a\\): \\(8a+60-5a=81\\), so \\(3a=21\\) and \\(a=7\\).",
+    "timeTargetSec": 80
+  },
+  {
+    "id": "linear-equations-two-var-017",
+    "type": "Numeric",
+    "primarySkill": "linear-equations-two-var",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "variables": [
+      { "name": "r1", "min": 8, "max": 15, "step": 1 },
+      { "name": "r2", "min": 1, "max": 7, "step": 1 }
+    ],
+    "stem": "\\(x\\) and \\(y\\) satisfy \\(x + y = {{r1+r2}}\\) and \\(xy = {{r1*r2}}\\), with \\(x > y > 0\\). What is \\(x\\)?",
+    "answer": 10,
+    "answerFormula": "r1",
+    "solutionStandard": "\\(x\\) and \\(y\\) are the roots of \\(t^2 - ({{r1+r2}})t + {{r1*r2}} = 0\\), which factors as \\((t-{{r1}})(t-{{r2}})=0\\). Since \\(x>y\\), \\(x={{r1}}\\).",
+    "timeTargetSec": 85
+  },
+  {
+    "id": "linear-equations-two-var-018",
+    "type": "MC",
+    "primarySkill": "linear-equations-two-var",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "A boat travels 40 miles downstream in 2 hours and 40 miles upstream in 4 hours. What is the boat's speed in still water, in miles per hour?",
+    "options": [
+      { "id": "A", "text": "10" },
+      { "id": "B", "text": "12.5" },
+      { "id": "C", "text": "15" },
+      { "id": "D", "text": "17.5" },
+      { "id": "E", "text": "20" }
+    ],
+    "answer": "C",
+    "solutionStandard": "Downstream rate: \\(b+c=40/2=20\\). Upstream rate: \\(b-c=40/4=10\\). Adding: \\(2b=30\\), so \\(b=15\\) mph.",
+    "timeTargetSec": 95
+  },
+  {
+    "id": "linear-equations-two-var-019",
+    "type": "Numeric",
+    "primarySkill": "linear-equations-two-var",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "variables": [
+      { "name": "xt", "min": 1, "max": 15, "step": 1 },
+      { "name": "yt", "min": 1, "max": 15, "step": 1 }
+    ],
+    "stem": "If \\(2x - 3y = {{2*xt - 3*yt}}\\) and \\(3x + 2y = {{3*xt + 2*yt}}\\), what is the value of \\(x + y\\)?",
+    "answer": 7,
+    "answerFormula": "xt + yt",
+    "solutionStandard": "Solving the system gives \\(x={{xt}}\\) and \\(y={{yt}}\\), so \\(x+y={{xt+yt}}\\).",
+    "timeTargetSec": 95
+  },
+  {
+    "id": "linear-equations-two-var-020",
+    "type": "QC",
+    "primarySkill": "linear-equations-two-var",
+    "secondarySkills": [],
+    "difficulty": 5,
+    "stem": "\\(x\\) and \\(y\\) satisfy \\(x + y = 10\\) and \\(x^2 + y^2 = 58\\).",
+    "quantityA": "\\(xy\\)",
+    "quantityB": "\\(20\\)",
+    "answer": "A",
+    "solutionStandard": "\\((x+y)^2 = x^2+2xy+y^2\\), so \\(100 = 58 + 2xy\\), giving \\(2xy=42\\) and \\(xy=21\\). Since \\(21>20\\), Quantity A is greater.",
+    "timeTargetSec": 90
   }
 ]
