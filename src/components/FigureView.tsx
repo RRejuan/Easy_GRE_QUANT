@@ -1,6 +1,11 @@
 import type { Figure, FigureElement } from "../types";
+import { resolveTemplateSegments } from "../lib/variables";
 
-function renderElement(element: FigureElement, index: number) {
+function renderElement(
+  element: FigureElement,
+  index: number,
+  values: Record<string, number>,
+) {
   switch (element.kind) {
     case "line":
       return (
@@ -35,7 +40,14 @@ function renderElement(element: FigureElement, index: number) {
     case "label":
       return (
         <text key={index} x={element.at.x} y={element.at.y}>
-          {element.text}
+          {resolveTemplateSegments(element.text, values).map((segment, segIndex) => (
+            <tspan
+              key={segIndex}
+              className={segment.isVariable ? "variable-value" : undefined}
+            >
+              {segment.text}
+            </tspan>
+          ))}
         </text>
       );
     case "rightAngleMarker": {
@@ -56,11 +68,17 @@ function renderElement(element: FigureElement, index: number) {
   }
 }
 
-export function FigureView({ figure }: { figure: Figure }) {
+export function FigureView({
+  figure,
+  values = {},
+}: {
+  figure: Figure;
+  values?: Record<string, number>;
+}) {
   return (
     <div className="figure-wrap">
       <svg viewBox={figure.viewBox} xmlns="http://www.w3.org/2000/svg">
-        {figure.elements.map((element, index) => renderElement(element, index))}
+        {figure.elements.map((element, index) => renderElement(element, index, values))}
       </svg>
     </div>
   );

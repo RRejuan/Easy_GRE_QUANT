@@ -118,7 +118,7 @@ export function QuestionView({
         <MathText text={displayQuestion.stem} />
       </p>
 
-      {question.figure && <FigureView figure={question.figure} />}
+      {question.figure && <FigureView figure={question.figure} values={values} />}
 
       {!submitted && displayQuestion.type === "QC" && (
         <QCInput question={displayQuestion} onSubmit={handleSubmit} />

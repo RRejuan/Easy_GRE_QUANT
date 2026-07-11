@@ -60,3 +60,41 @@ export function fillTemplate(text: string, values: Record<string, number>): stri
 export function evalFormula(formula: string, values: Record<string, number>): number {
   return evalExpr(formula, values);
 }
+
+export interface TemplateSegment {
+  text: string;
+  isVariable: boolean;
+}
+
+/**
+ * Splits {{expr}} placeholders out as plain-value segments (no LaTeX
+ * wrapping), for contexts like SVG <text> that can't render KaTeX. Callers
+ * render isVariable segments in the "variable" accent color.
+ */
+export function resolveTemplateSegments(
+  text: string,
+  values: Record<string, number>,
+): TemplateSegment[] {
+  if (Object.keys(values).length === 0) return [{ text, isVariable: false }];
+
+  const segments: TemplateSegment[] = [];
+  let lastIndex = 0;
+  const tokenRegex = /\{\{([^}]+)\}\}/g;
+  let match: RegExpExecArray | null;
+
+  while ((match = tokenRegex.exec(text)) !== null) {
+    if (match.index > lastIndex) {
+      segments.push({ text: text.slice(lastIndex, match.index), isVariable: false });
+    }
+    lastIndex = tokenRegex.lastIndex;
+    try {
+      segments.push({ text: String(evalExpr(match[1].trim(), values)), isVariable: true });
+    } catch {
+      segments.push({ text: match[0], isVariable: false });
+    }
+  }
+  if (lastIndex < text.length) {
+    segments.push({ text: text.slice(lastIndex), isVariable: false });
+  }
+  return segments;
+}

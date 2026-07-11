@@ -175,6 +175,10 @@
   stroke: none;
   font-size: 10px;
 }
+.figure-wrap text .variable-value {
+  fill: var(--variable);
+  font-weight: 600;
+}
 
 .question {
   border: 1px solid var(--border);
