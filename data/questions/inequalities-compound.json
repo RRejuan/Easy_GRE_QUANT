@@ -1,0 +1,150 @@
+[
+  {
+    "id": "inequalities-compound-001",
+    "type": "MC",
+    "primarySkill": "inequalities-compound",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "Solve: \\(3 < x + 2 < 9\\)",
+    "options": [
+      { "id": "A", "text": "\\(1 < x < 7\\)" },
+      { "id": "B", "text": "\\(5 < x < 11\\)" },
+      { "id": "C", "text": "\\(1 < x < 11\\)" },
+      { "id": "D", "text": "\\(3 < x < 9\\)" },
+      { "id": "E", "text": "\\(-1 < x < 7\\)" }
+    ],
+    "answer": "A",
+    "solutionStandard": "Subtract 2 from all three parts: \\(1 < x < 7\\).",
+    "timeTargetSec": 40
+  },
+  {
+    "id": "inequalities-compound-002",
+    "type": "Numeric",
+    "primarySkill": "inequalities-compound",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "How many integers satisfy \\(-2 \\le x \\le 5\\)?",
+    "answer": 8,
+    "solutionStandard": "The integers are \\(-2,-1,0,1,2,3,4,5\\) — 8 values.",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "inequalities-compound-003",
+    "type": "MC",
+    "primarySkill": "inequalities-compound",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "Solve: \\(4 < 2x - 2 < 10\\)",
+    "options": [
+      { "id": "A", "text": "\\(2 < x < 5\\)" },
+      { "id": "B", "text": "\\(3 < x < 6\\)" },
+      { "id": "C", "text": "\\(1 < x < 4\\)" },
+      { "id": "D", "text": "\\(6 < x < 12\\)" },
+      { "id": "E", "text": "\\(3 < x < 4\\)" }
+    ],
+    "answer": "B",
+    "solutionStandard": "Add 2 to all parts: \\(6 < 2x < 12\\). Divide by 2: \\(3 < x < 6\\).",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "inequalities-compound-004",
+    "type": "QC",
+    "primarySkill": "inequalities-compound",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "\\(x < 2\\) or \\(x > 8\\)",
+    "quantityA": "The number of integers from 2 to 8, inclusive, satisfying the condition",
+    "quantityB": "\\(0\\)",
+    "answer": "C",
+    "solutionStandard": "No integer from 2 to 8 satisfies \\(x<2\\) or \\(x>8\\) (they're all excluded by definition of the \"or\" condition's complement). The count is 0, equal to Quantity B.",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "inequalities-compound-005",
+    "type": "MultiMC",
+    "primarySkill": "inequalities-compound",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "Which of the following satisfy \\(x \\le -3\\) or \\(x \\ge 4\\)? Select all that apply.",
+    "options": [
+      { "id": "A", "text": "-3" },
+      { "id": "B", "text": "0" },
+      { "id": "C", "text": "4" },
+      { "id": "D", "text": "5" }
+    ],
+    "answer": ["A", "C", "D"],
+    "solutionStandard": "\\(-3\\) satisfies \\(x\\le-3\\). \\(0\\) satisfies neither. \\(4\\) and \\(5\\) satisfy \\(x\\ge4\\).",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "inequalities-compound-006",
+    "type": "Numeric",
+    "primarySkill": "inequalities-compound",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "What is the greatest integer value of \\(x\\) satisfying \\(-5 < 3x + 4 \\le 22\\)?",
+    "answer": 6,
+    "solutionStandard": "Subtract 4: \\(-9 < 3x \\le 18\\). Divide by 3: \\(-3 < x \\le 6\\). The greatest integer is 6.",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "inequalities-compound-007",
+    "type": "MC",
+    "primarySkill": "inequalities-compound",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "Solve: \\(-6 < -2x < 4\\)",
+    "options": [
+      { "id": "A", "text": "\\(-2 < x < 3\\)" },
+      { "id": "B", "text": "\\(-3 < x < 2\\)" },
+      { "id": "C", "text": "\\(2 < x < 3\\)" },
+      { "id": "D", "text": "\\(-2 < x < -3\\)" },
+      { "id": "E", "text": "\\(3 < x < -2\\)" }
+    ],
+    "answer": "A",
+    "solutionStandard": "Divide all parts by \\(-2\\), flipping both inequalities: \\(-6/(-2)=3\\) and \\(4/(-2)=-2\\), giving \\(3 > x > -2\\), i.e. \\(-2 < x < 3\\).",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "inequalities-compound-008",
+    "type": "Numeric",
+    "primarySkill": "inequalities-compound",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "How many integers satisfy both \\(x > -4\\) and \\(2x + 1 < 15\\)?",
+    "answer": 10,
+    "solutionStandard": "From the second inequality: \\(2x<14\\), so \\(x<7\\). Combined with \\(x>-4\\): integers \\(-3\\) through \\(6\\), which is 10 values.",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "inequalities-compound-009",
+    "type": "MC",
+    "primarySkill": "inequalities-compound",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "If \\(2 \\le x \\le 5\\) and \\(1 \\le y \\le 3\\), what is the greatest possible value of \\(x - y\\)?",
+    "options": [
+      { "id": "A", "text": "2" },
+      { "id": "B", "text": "3" },
+      { "id": "C", "text": "4" },
+      { "id": "D", "text": "5" },
+      { "id": "E", "text": "8" }
+    ],
+    "answer": "C",
+    "solutionStandard": "To maximize \\(x-y\\), take the largest \\(x\\) (5) and smallest \\(y\\) (1): \\(5-1=4\\).",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "inequalities-compound-010",
+    "type": "QC",
+    "primarySkill": "inequalities-compound",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "\\(-3 \\le x \\le 7\\)",
+    "quantityA": "The greatest possible value of \\(|x|\\)",
+    "quantityB": "\\(7\\)",
+    "answer": "C",
+    "solutionStandard": "\\(|x|\\) is maximized at whichever endpoint is farthest from 0. \\(|-3|=3\\) and \\(|7|=7\\), so the greatest possible value is 7, equal to Quantity B.",
+    "timeTargetSec": 70
+  }
+]

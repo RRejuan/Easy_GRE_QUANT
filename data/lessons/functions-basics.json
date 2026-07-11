@@ -1,0 +1,9 @@
+{
+  "skillId": "functions-basics",
+  "summary": "A function f(x) is a rule: plug in a value for x, follow the rule, get one output — evaluating and composing functions is just careful substitution.",
+  "formulas": [
+    { "name": "Evaluation", "expression": "f(a) = \\text{substitute } x=a \\text{ into the rule for } f(x)" },
+    { "name": "Composition", "expression": "f(g(x)) = \\text{evaluate } g \\text{ first, then plug that result into } f" }
+  ],
+  "explanation": "To evaluate \\(f(a)\\) for a function like \\(f(x)=x^2+3x\\), substitute \\(a\\) everywhere \\(x\\) appears: \\(f(2)=2^2+3(2)=10\\). Composition \\(f(g(x))\\) means evaluate the inner function first, then feed that result into the outer function — work from the inside out. The GRE sometimes defines a custom operation with unusual notation (like \\(a\\star b = a^2-b\\)); treat it exactly like a function definition and substitute carefully, paying close attention to which variable goes where. A common error in composition problems is evaluating the functions in the wrong order or substituting into the wrong function first."
+}

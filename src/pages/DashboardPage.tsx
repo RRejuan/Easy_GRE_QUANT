@@ -4,6 +4,7 @@ import { storageAdapter } from "../lib/storage";
 import { computeMastery } from "../lib/mastery";
 import { recommendNextSkill } from "../lib/recommend";
 import { AreaMasteryChart } from "../components/AreaMasteryChart";
+import { MasteryBar } from "../components/MasteryBar";
 
 export function DashboardPage() {
   const skills = skillsWithContent();
@@ -75,9 +76,8 @@ export function DashboardPage() {
               <ul>
                 {topicGroup.skills.map((skill) => (
                   <li key={skill.id}>
-                    <Link to={`/skill/${skill.id}`}>{skill.name}</Link>
-                    {" — "}
-                    {masteryBySkill.get(skill.id) ?? 0}%
+                    <Link to={`/skill/${skill.id}`}>{skill.name}</Link>{" "}
+                    <MasteryBar percent={masteryBySkill.get(skill.id) ?? 0} />
                   </li>
                 ))}
               </ul>

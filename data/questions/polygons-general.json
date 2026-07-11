@@ -1,0 +1,143 @@
+[
+  {
+    "id": "polygons-general-001",
+    "type": "Numeric",
+    "primarySkill": "polygons-general",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "What is the sum of the interior angles of a pentagon (5 sides)?",
+    "answer": 540,
+    "solutionStandard": "\\((5-2) \\times 180 = 3 \\times 180 = 540\\) degrees.",
+    "timeTargetSec": 35
+  },
+  {
+    "id": "polygons-general-002",
+    "type": "MC",
+    "primarySkill": "polygons-general",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "What is the measure of each interior angle of a regular hexagon (6 sides)?",
+    "options": [
+      { "id": "A", "text": "60°" },
+      { "id": "B", "text": "90°" },
+      { "id": "C", "text": "108°" },
+      { "id": "D", "text": "120°" },
+      { "id": "E", "text": "135°" }
+    ],
+    "answer": "D",
+    "solutionStandard": "Sum of interior angles: \\((6-2)\\times180=720\\). Each angle: \\(720/6=120\\) degrees.",
+    "timeTargetSec": 50
+  },
+  {
+    "id": "polygons-general-003",
+    "type": "Numeric",
+    "primarySkill": "polygons-general",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "A regular polygon has an exterior angle of 40° at each vertex. How many sides does it have?",
+    "answer": 9,
+    "solutionStandard": "Exterior angles sum to 360°: \\(360/40=9\\) sides.",
+    "timeTargetSec": 50
+  },
+  {
+    "id": "polygons-general-004",
+    "type": "QC",
+    "primarySkill": "polygons-general",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "Compare the two quantities.",
+    "quantityA": "The sum of interior angles of a hexagon",
+    "quantityB": "The sum of interior angles of two triangles",
+    "answer": "A",
+    "solutionStandard": "Hexagon: \\((6-2)\\times180=720\\). Two triangles: \\(2\\times180=360\\). Since \\(720>360\\), Quantity A is greater.",
+    "timeTargetSec": 50
+  },
+  {
+    "id": "polygons-general-005",
+    "type": "MC",
+    "primarySkill": "polygons-general",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "A polygon has an interior angle sum of 1440°. How many sides does it have?",
+    "options": [
+      { "id": "A", "text": "8" },
+      { "id": "B", "text": "9" },
+      { "id": "C", "text": "10" },
+      { "id": "D", "text": "11" },
+      { "id": "E", "text": "12" }
+    ],
+    "answer": "C",
+    "solutionStandard": "\\((n-2)\\times180=1440\\), so \\(n-2=8\\), giving \\(n=10\\).",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "polygons-general-006",
+    "type": "Numeric",
+    "primarySkill": "polygons-general",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "A regular polygon has interior angles of 150° each. How many sides does it have?",
+    "answer": 12,
+    "solutionStandard": "Each exterior angle is \\(180-150=30\\) degrees. Number of sides: \\(360/30=12\\).",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "polygons-general-007",
+    "type": "MultiMC",
+    "primarySkill": "polygons-general",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "Which of the following are true for every convex polygon? Select all that apply.",
+    "options": [
+      { "id": "A", "text": "The exterior angles sum to 360°" },
+      { "id": "B", "text": "The interior angles sum to 360°" },
+      { "id": "C", "text": "The interior angle sum depends on the number of sides" },
+      { "id": "D", "text": "Each interior angle is less than 180°" }
+    ],
+    "answer": ["A", "C", "D"],
+    "solutionStandard": "(A) is always true (exterior angles always sum to 360°). (B) is only true for quadrilaterals specifically, not all polygons. (C) is true — the sum is \\((n-2)\\times180\\). (D) is part of the definition of convex.",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "polygons-general-008",
+    "type": "MC",
+    "primarySkill": "polygons-general",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "In a regular polygon, each interior angle is 8 times its corresponding exterior angle. How many sides does the polygon have?",
+    "options": [
+      { "id": "A", "text": "16" },
+      { "id": "B", "text": "18" },
+      { "id": "C", "text": "20" },
+      { "id": "D", "text": "24" },
+      { "id": "E", "text": "36" }
+    ],
+    "answer": "B",
+    "solutionStandard": "Let the exterior angle be \\(x\\); the interior angle is \\(8x\\). Since they're supplementary: \\(x+8x=180\\), so \\(x=20\\). Number of sides: \\(360/20=18\\).",
+    "timeTargetSec": 80
+  },
+  {
+    "id": "polygons-general-009",
+    "type": "Numeric",
+    "primarySkill": "polygons-general",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "A pentagon has four angles measuring 100°, 110°, 120°, and 95°. What is the measure of the fifth angle?",
+    "answer": 115,
+    "solutionStandard": "Sum of interior angles of a pentagon: \\((5-2)\\times180=540\\). Fifth angle: \\(540-(100+110+120+95)=540-425=115\\).",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "polygons-general-010",
+    "type": "QC",
+    "primarySkill": "polygons-general",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "Polygon A is a regular octagon (8 sides). Polygon B is a regular decagon (10 sides).",
+    "quantityA": "Each interior angle of Polygon A",
+    "quantityB": "Each interior angle of Polygon B",
+    "answer": "B",
+    "solutionStandard": "Octagon: \\((8-2)\\times180/8=135\\). Decagon: \\((10-2)\\times180/10=144\\). Since \\(144>135\\), Quantity B is greater. (In general, more sides means each interior angle of a regular polygon gets closer to 180°.)",
+    "timeTargetSec": 75
+  }
+]

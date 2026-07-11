@@ -1,0 +1,8 @@
+{
+  "skillId": "triangle-inequality",
+  "summary": "Any two sides of a triangle must together be longer than the third side — this bounds what the missing side of a triangle can be.",
+  "formulas": [
+    { "name": "Triangle inequality", "expression": "|a - b| < c < a + b" }
+  ],
+  "explanation": "For a triangle with sides \\(a\\), \\(b\\), and \\(c\\), the sum of any two sides must exceed the third: \\(a+b>c\\), \\(a+c>b\\), and \\(b+c>a\\). Combined, this means the third side \\(c\\) must satisfy \\(|a-b| < c < a+b\\) — strictly between the difference and the sum of the other two sides. This is most useful for GRE questions asking for the range of possible values of an unknown side, or for determining whether a given set of three lengths could actually form a triangle at all. The inequality must be strict: if a \"triangle\" has a side exactly equal to the sum of the other two, it's actually degenerate (a straight line), not a real triangle."
+}

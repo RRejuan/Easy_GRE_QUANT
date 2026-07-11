@@ -1,0 +1,150 @@
+[
+  {
+    "id": "normal-distribution-basics-001",
+    "type": "MC",
+    "primarySkill": "normal-distribution-basics",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "In a normal distribution, approximately what percent of the data falls within 1 standard deviation of the mean?",
+    "options": [
+      { "id": "A", "text": "50%" },
+      { "id": "B", "text": "68%" },
+      { "id": "C", "text": "95%" },
+      { "id": "D", "text": "99.7%" },
+      { "id": "E", "text": "34%" }
+    ],
+    "answer": "B",
+    "solutionStandard": "By the empirical rule, about 68% of the data falls within 1 standard deviation of the mean.",
+    "timeTargetSec": 30
+  },
+  {
+    "id": "normal-distribution-basics-002",
+    "type": "Numeric",
+    "primarySkill": "normal-distribution-basics",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "Scores on a test are normally distributed with mean 500 and standard deviation 100. What percent of scores are above 600?",
+    "answer": 16,
+    "solutionStandard": "600 is 1 SD above the mean. 50% of scores are above the mean; of the 68% within 1 SD, half (34%) are between the mean and 600. Above 600: \\(50-34=16\\%\\).",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "normal-distribution-basics-003",
+    "type": "MC",
+    "primarySkill": "normal-distribution-basics",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "In a normal distribution, approximately what percent of the data falls between the mean and 2 standard deviations above the mean?",
+    "options": [
+      { "id": "A", "text": "34%" },
+      { "id": "B", "text": "47.5%" },
+      { "id": "C", "text": "50%" },
+      { "id": "D", "text": "68%" },
+      { "id": "E", "text": "95%" }
+    ],
+    "answer": "B",
+    "solutionStandard": "95% falls within 2 SD of the mean (symmetric), so half of that, 47.5%, lies between the mean and 2 SD above it.",
+    "timeTargetSec": 50
+  },
+  {
+    "id": "normal-distribution-basics-004",
+    "type": "QC",
+    "primarySkill": "normal-distribution-basics",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "A data set is normally distributed.",
+    "quantityA": "The percent of data within 2 standard deviations of the mean",
+    "quantityB": "The percent of data within 1 standard deviation of the mean",
+    "answer": "A",
+    "solutionStandard": "Within 2 SD is about 95%, and within 1 SD is about 68%. Since \\(95>68\\), Quantity A is greater.",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "normal-distribution-basics-005",
+    "type": "Numeric",
+    "primarySkill": "normal-distribution-basics",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "A distribution has mean 100 and standard deviation 10. What value is exactly 2 standard deviations below the mean?",
+    "answer": 80,
+    "solutionStandard": "\\(100 - 2(10) = 80\\).",
+    "timeTargetSec": 40
+  },
+  {
+    "id": "normal-distribution-basics-006",
+    "type": "MC",
+    "primarySkill": "normal-distribution-basics",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "In a normal distribution, approximately what percent of the data lies below 1 standard deviation below the mean?",
+    "options": [
+      { "id": "A", "text": "2.5%" },
+      { "id": "B", "text": "5%" },
+      { "id": "C", "text": "16%" },
+      { "id": "D", "text": "32%" },
+      { "id": "E", "text": "34%" }
+    ],
+    "answer": "C",
+    "solutionStandard": "By symmetry, the percent below 1 SD below the mean equals the percent above 1 SD above the mean: \\(50-34=16\\%\\).",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "normal-distribution-basics-007",
+    "type": "MultiMC",
+    "primarySkill": "normal-distribution-basics",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "Which of the following are true for a normal distribution? Select all that apply.",
+    "options": [
+      { "id": "A", "text": "The mean, median, and mode are equal" },
+      { "id": "B", "text": "The distribution is symmetric about the mean" },
+      { "id": "C", "text": "Exactly half the data is above the mean" },
+      { "id": "D", "text": "All data falls within 1 standard deviation of the mean" }
+    ],
+    "answer": ["A", "B", "C"],
+    "solutionStandard": "(A), (B), and (C) are all defining properties of a normal distribution. (D) is false — only about 68% falls within 1 SD; the rest lies farther out.",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "normal-distribution-basics-008",
+    "type": "Numeric",
+    "primarySkill": "normal-distribution-basics",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "A normal distribution has mean 50 and standard deviation 5. What percent of the data falls between 45 and 55?",
+    "answer": 68,
+    "solutionStandard": "45 and 55 are exactly 1 SD below and above the mean, so about 68% of the data falls between them.",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "normal-distribution-basics-009",
+    "type": "MC",
+    "primarySkill": "normal-distribution-basics",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "In a normal distribution, approximately what percent of the data falls between 1 and 2 standard deviations above the mean?",
+    "options": [
+      { "id": "A", "text": "2.5%" },
+      { "id": "B", "text": "13.5%" },
+      { "id": "C", "text": "27%" },
+      { "id": "D", "text": "34%" },
+      { "id": "E", "text": "47.5%" }
+    ],
+    "answer": "B",
+    "solutionStandard": "Between the mean and 2 SD above is 47.5%; between the mean and 1 SD above is 34%. The band from 1 to 2 SD above: \\(47.5-34=13.5\\%\\).",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "normal-distribution-basics-010",
+    "type": "QC",
+    "primarySkill": "normal-distribution-basics",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "Distribution X has mean 200 and standard deviation 20. Distribution Y has mean 200 and standard deviation 30. Both are normal.",
+    "quantityA": "The percent of Distribution X's data between 180 and 220",
+    "quantityB": "The percent of Distribution Y's data between 180 and 220",
+    "answer": "A",
+    "solutionStandard": "For X, 180 to 220 spans exactly 1 SD each way (SD=20), capturing about 68%. For Y (SD=30), 180 to 220 spans less than 1 SD each way, capturing less than 68%. Quantity A is greater.",
+    "timeTargetSec": 80
+  }
+]

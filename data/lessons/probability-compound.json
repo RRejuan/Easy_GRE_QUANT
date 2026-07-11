@@ -1,0 +1,11 @@
+{
+  "skillId": "probability-compound",
+  "summary": "Independent events multiply, mutually exclusive events add, and \"without replacement\" changes the probabilities as items are removed.",
+  "formulas": [
+    { "name": "Independent events (and)", "expression": "P(A \\text{ and } B) = P(A) \\times P(B)" },
+    { "name": "Mutually exclusive events (or)", "expression": "P(A \\text{ or } B) = P(A) + P(B)" },
+    { "name": "General \"or\" rule", "expression": "P(A \\text{ or } B) = P(A) + P(B) - P(A \\text{ and } B)" },
+    { "name": "Conditional probability", "expression": "P(A | B) = \\frac{P(A \\text{ and } B)}{P(B)}" }
+  ],
+  "explanation": "Two events are independent if one doesn't affect the other's probability (like separate coin flips); their \"and\" probability is the product. Events are mutually exclusive if they can't both happen (like rolling a 2 and a 5 on one die); their \"or\" probability is just the sum. If events can overlap, subtract the overlap: \\(P(A\\text{ or }B)=P(A)+P(B)-P(A\\text{ and }B)\\). \"Without replacement\" problems (like drawing cards without putting them back) are dependent: each draw changes the pool, so recompute the probability at each step using the remaining items. \"At least one\" problems are often easiest to solve using the complement: \\(P(\\text{at least one}) = 1 - P(\\text{none})\\)."
+}

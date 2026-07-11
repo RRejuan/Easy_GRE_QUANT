@@ -1,0 +1,159 @@
+[
+  {
+    "id": "functions-basics-001",
+    "type": "Numeric",
+    "primarySkill": "functions-basics",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "variables": [{ "name": "a", "min": 1, "max": 8, "step": 1 }],
+    "stem": "If \\(f(x) = x^2 + 3\\), what is \\(f({{a}})\\)?",
+    "answer": 12,
+    "answerFormula": "a*a + 3",
+    "solutionStandard": "\\(f({{a}}) = {{a}}^2 + 3 = {{a*a + 3}}\\).",
+    "timeTargetSec": 35
+  },
+  {
+    "id": "functions-basics-002",
+    "type": "MC",
+    "primarySkill": "functions-basics",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "If \\(f(x) = 2x - 5\\), what is \\(f(3) + f(4)\\)?",
+    "options": [
+      { "id": "A", "text": "1" },
+      { "id": "B", "text": "2" },
+      { "id": "C", "text": "3" },
+      { "id": "D", "text": "4" },
+      { "id": "E", "text": "5" }
+    ],
+    "answer": "D",
+    "solutionStandard": "\\(f(3)=6-5=1\\), \\(f(4)=8-5=3\\). Sum: \\(1+3=4\\).",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "functions-basics-003",
+    "type": "Numeric",
+    "primarySkill": "functions-basics",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "variables": [{ "name": "k", "min": 2, "max": 10, "step": 1 }],
+    "stem": "If \\(g(x) = 3x - 2\\), what is \\(g({{k}})\\)?",
+    "answer": 13,
+    "answerFormula": "3*k - 2",
+    "solutionStandard": "\\(g({{k}}) = 3({{k}}) - 2 = {{3*k - 2}}\\).",
+    "timeTargetSec": 40
+  },
+  {
+    "id": "functions-basics-004",
+    "type": "MC",
+    "primarySkill": "functions-basics",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "If \\(f(x) = x^2 - 1\\) and \\(g(x) = x + 2\\), what is \\(f(g(2))\\)?",
+    "options": [
+      { "id": "A", "text": "3" },
+      { "id": "B", "text": "15" },
+      { "id": "C", "text": "17" },
+      { "id": "D", "text": "8" },
+      { "id": "E", "text": "1" }
+    ],
+    "answer": "B",
+    "solutionStandard": "\\(g(2) = 2+2=4\\). Then \\(f(4) = 4^2-1=15\\).",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "functions-basics-005",
+    "type": "QC",
+    "primarySkill": "functions-basics",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "\\(f(x) = x^2\\) and \\(g(x) = 2x\\)",
+    "quantityA": "\\(f(g(3))\\)",
+    "quantityB": "\\(g(f(3))\\)",
+    "answer": "A",
+    "solutionStandard": "\\(f(g(3))=f(6)=36\\). \\(g(f(3))=g(9)=18\\). Since \\(36>18\\), Quantity A is greater.",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "functions-basics-006",
+    "type": "MC",
+    "primarySkill": "functions-basics",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "The operation \\(a \\star b\\) is defined as \\(a \\star b = a^2 - b^2\\). What is \\(5 \\star 3\\)?",
+    "options": [
+      { "id": "A", "text": "2" },
+      { "id": "B", "text": "4" },
+      { "id": "C", "text": "8" },
+      { "id": "D", "text": "16" },
+      { "id": "E", "text": "34" }
+    ],
+    "answer": "D",
+    "solutionStandard": "\\(5 \\star 3 = 5^2 - 3^2 = 25-9=16\\).",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "functions-basics-007",
+    "type": "Numeric",
+    "primarySkill": "functions-basics",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "If \\(f(x) = \\dfrac{x+1}{x-1}\\) (for \\(x \\neq 1\\)), what is \\(f(f(3))\\)?",
+    "answer": 3,
+    "solutionStandard": "\\(f(3) = 4/2 = 2\\). Then \\(f(2) = 3/1 = 3\\).",
+    "timeTargetSec": 80
+  },
+  {
+    "id": "functions-basics-008",
+    "type": "MC",
+    "primarySkill": "functions-basics",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "If \\(f(x) = 2x + b\\) and \\(f(3) = 11\\), what is \\(f(6)\\)?",
+    "options": [
+      { "id": "A", "text": "12" },
+      { "id": "B", "text": "14" },
+      { "id": "C", "text": "17" },
+      { "id": "D", "text": "20" },
+      { "id": "E", "text": "22" }
+    ],
+    "answer": "C",
+    "solutionStandard": "\\(f(3)=6+b=11\\), so \\(b=5\\). Then \\(f(6)=12+5=17\\).",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "functions-basics-009",
+    "type": "MultiMC",
+    "primarySkill": "functions-basics",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "\\(f(x) = x^2 - 4\\). For which of the following values of \\(x\\) does \\(f(x) = 0\\)? Select all that apply.",
+    "options": [
+      { "id": "A", "text": "2" },
+      { "id": "B", "text": "-2" },
+      { "id": "C", "text": "4" },
+      { "id": "D", "text": "0" }
+    ],
+    "answer": ["A", "B"],
+    "solutionStandard": "\\(f(x)=0\\) means \\(x^2=4\\), so \\(x=2\\) or \\(x=-2\\).",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "functions-basics-010",
+    "type": "MC",
+    "primarySkill": "functions-basics",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "If \\(f(x) = x^2\\) for all real \\(x\\), and \\(f(a+1) - f(a) = 9\\), what is the value of \\(a\\)?",
+    "options": [
+      { "id": "A", "text": "3" },
+      { "id": "B", "text": "4" },
+      { "id": "C", "text": "4.5" },
+      { "id": "D", "text": "5" },
+      { "id": "E", "text": "8" }
+    ],
+    "answer": "B",
+    "solutionStandard": "\\(f(a+1)-f(a) = (a+1)^2 - a^2 = 2a+1\\). Setting \\(2a+1=9\\) gives \\(a=4\\).",
+    "timeTargetSec": 80
+  }
+]

@@ -1,0 +1,144 @@
+[
+  {
+    "id": "venn-diagrams-sets-001",
+    "type": "Numeric",
+    "primarySkill": "venn-diagrams-sets",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "In a class of 30 students, 18 take Spanish and 10 take French, with 5 taking both. How many students take at least one of the two languages?",
+    "answer": 23,
+    "solutionStandard": "\\(|S \\cup F| = 18+10-5=23\\).",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "venn-diagrams-sets-002",
+    "type": "MC",
+    "primarySkill": "venn-diagrams-sets",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "In a survey of 50 people, 30 like coffee and 25 like tea, with 12 liking both. How many people like neither coffee nor tea?",
+    "options": [
+      { "id": "A", "text": "5" },
+      { "id": "B", "text": "7" },
+      { "id": "C", "text": "10" },
+      { "id": "D", "text": "12" },
+      { "id": "E", "text": "15" }
+    ],
+    "answer": "B",
+    "solutionStandard": "\\(|C \\cup T| = 30+25-12=43\\). Neither: \\(50-43=7\\).",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "venn-diagrams-sets-003",
+    "type": "Numeric",
+    "primarySkill": "venn-diagrams-sets",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "Of 40 students, 22 play soccer and 15 play basketball, with 8 playing both. How many students play soccer only (not basketball)?",
+    "answer": 14,
+    "solutionStandard": "Soccer only \\(= 22-8=14\\).",
+    "timeTargetSec": 50
+  },
+  {
+    "id": "venn-diagrams-sets-004",
+    "type": "QC",
+    "primarySkill": "venn-diagrams-sets",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "In a group of 60 people, 40 speak English and 35 speak Spanish. Every person speaks at least one of the two languages.",
+    "quantityA": "The number of people who speak both languages",
+    "quantityB": "\\(15\\)",
+    "answer": "C",
+    "solutionStandard": "\\(|E \\cup S| = 60 = 40+35-\\text{both}\\), so both \\(= 75-60=15\\). The quantities are equal.",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "venn-diagrams-sets-005",
+    "type": "MC",
+    "primarySkill": "venn-diagrams-sets",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "In a class, 24 students study biology, 18 study chemistry, and 10 study both. If every student studies at least one of the two subjects, how many students are in the class?",
+    "options": [
+      { "id": "A", "text": "22" },
+      { "id": "B", "text": "28" },
+      { "id": "C", "text": "32" },
+      { "id": "D", "text": "42" },
+      { "id": "E", "text": "52" }
+    ],
+    "answer": "C",
+    "solutionStandard": "\\(|B \\cup C| = 24+18-10=32\\).",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "venn-diagrams-sets-006",
+    "type": "Numeric",
+    "primarySkill": "venn-diagrams-sets",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "Of 100 people surveyed, 60 own a car, 45 own a bike, and 20 own both. How many people own neither?",
+    "answer": 15,
+    "solutionStandard": "\\(|C \\cup B| = 60+45-20=85\\). Neither: \\(100-85=15\\).",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "venn-diagrams-sets-007",
+    "type": "MultiMC",
+    "primarySkill": "venn-diagrams-sets",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "In a group of 50 students, 28 take art and 20 take music, with 8 taking both. Which of the following are true? Select all that apply.",
+    "options": [
+      { "id": "A", "text": "40 students take at least one of art or music" },
+      { "id": "B", "text": "10 students take neither" },
+      { "id": "C", "text": "20 students take art only" },
+      { "id": "D", "text": "12 students take music only" },
+      { "id": "E", "text": "28 students take art only" }
+    ],
+    "answer": ["A", "B", "C", "D"],
+    "solutionStandard": "\\(|A \\cup M| = 28+20-8=40\\), so (A) is true and neither \\(=50-40=10\\), so (B) is true. Art only \\(=28-8=20\\), so (C) is true, not (E)'s 28 (that double-counts the 8 who take both). Music only \\(=20-8=12\\), so (D) is true.",
+    "timeTargetSec": 90
+  },
+  {
+    "id": "venn-diagrams-sets-008",
+    "type": "MC",
+    "primarySkill": "venn-diagrams-sets",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "In a survey of 80 people, 50 like pizza, 40 like pasta, 30 like both, and everyone likes at least one of the two OR neither. If 5 people like neither, how many like exactly one of the two dishes?",
+    "options": [
+      { "id": "A", "text": "30" },
+      { "id": "B", "text": "35" },
+      { "id": "C", "text": "45" },
+      { "id": "D", "text": "50" },
+      { "id": "E", "text": "60" }
+    ],
+    "answer": "C",
+    "solutionStandard": "At least one: \\(80-5=75\\). Of those, 30 like both, so exactly one \\(=75-30=45\\).",
+    "timeTargetSec": 90
+  },
+  {
+    "id": "venn-diagrams-sets-009",
+    "type": "Numeric",
+    "primarySkill": "venn-diagrams-sets",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "In a school, 70 students play at least one of soccer, basketball, or tennis. 40 play soccer, 35 play basketball, and 30 play tennis. 15 play both soccer and basketball, 10 play both basketball and tennis, 12 play both soccer and tennis, and 5 play all three. How many students play soccer only?",
+    "answer": 18,
+    "solutionStandard": "Soccer only \\(= |\\text{soccer}| - (\\text{soccer}\\cap\\text{basketball}) - (\\text{soccer}\\cap\\text{tennis}) + (\\text{all three}) = 40-15-12+5=18\\).",
+    "timeTargetSec": 100
+  },
+  {
+    "id": "venn-diagrams-sets-010",
+    "type": "QC",
+    "primarySkill": "venn-diagrams-sets",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "In a group of 90 people, 55 like reading and 50 like hiking. Every person likes at least one of the two.",
+    "quantityA": "The number of people who like only hiking (not reading)",
+    "quantityB": "\\(35\\)",
+    "answer": "C",
+    "solutionStandard": "Both \\(= 55+50-90=15\\). Hiking only \\(=50-15=35\\). The quantities are equal.",
+    "timeTargetSec": 80
+  }
+]

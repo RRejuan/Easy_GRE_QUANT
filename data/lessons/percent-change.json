@@ -1,0 +1,9 @@
+{
+  "skillId": "percent-change",
+  "summary": "Percent change is always measured relative to the original (starting) value, and successive percent changes don't simply add together.",
+  "formulas": [
+    { "name": "Percent change", "expression": "\\%\\text{change} = \\frac{\\text{new} - \\text{original}}{\\text{original}} \\times 100" },
+    { "name": "Applying a percent increase/decrease", "expression": "\\text{new} = \\text{original} \\times (1 \\pm r)" }
+  ],
+  "explanation": "Percent change is always computed relative to the ORIGINAL value, not the new one — a common trap is dividing by the wrong number. Applying a percent increase of \\(r\\) multiplies the original by \\((1+r)\\); a decrease multiplies by \\((1-r)\\). A critical GRE trap: successive percent changes do not add. A 20% increase followed by a 20% decrease does NOT return to the original value — it multiplies by \\(1.2 \\times 0.8 = 0.96\\), a net 4% decrease, because the second change applies to a different (larger or smaller) base than the first. To reverse a percent change and find the original value, divide by \\((1\\pm r)\\) rather than just applying the opposite percent to the new value."
+}

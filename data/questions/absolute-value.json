@@ -1,0 +1,159 @@
+[
+  {
+    "id": "absolute-value-001",
+    "type": "Numeric",
+    "primarySkill": "absolute-value",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "variables": [{ "name": "n", "min": -20, "max": -1, "step": 1 }],
+    "stem": "What is \\(|{{n}}|\\)?",
+    "answer": 7,
+    "answerFormula": "Math.abs(n)",
+    "solutionStandard": "The absolute value of a negative number is its opposite: \\(|{{n}}| = {{Math.abs(n)}}\\).",
+    "timeTargetSec": 25
+  },
+  {
+    "id": "absolute-value-002",
+    "type": "MC",
+    "primarySkill": "absolute-value",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "What is \\(|-3| + |4|\\)?",
+    "options": [
+      { "id": "A", "text": "1" },
+      { "id": "B", "text": "-1" },
+      { "id": "C", "text": "7" },
+      { "id": "D", "text": "-7" },
+      { "id": "E", "text": "12" }
+    ],
+    "answer": "C",
+    "solutionStandard": "\\(|-3|=3\\) and \\(|4|=4\\), so \\(3+4=7\\).",
+    "timeTargetSec": 30
+  },
+  {
+    "id": "absolute-value-003",
+    "type": "Numeric",
+    "primarySkill": "absolute-value",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "variables": [
+      { "name": "a", "min": -15, "max": 15, "step": 1 },
+      { "name": "b", "min": -15, "max": 15, "step": 1 }
+    ],
+    "stem": "What is \\(|{{a}} - {{b}}|\\)?",
+    "answer": 5,
+    "answerFormula": "Math.abs(a - b)",
+    "solutionStandard": "\\(|{{a}} - {{b}}| = |{{a - b}}| = {{Math.abs(a-b)}}\\), the distance between \\({{a}}\\) and \\({{b}}\\).",
+    "timeTargetSec": 50
+  },
+  {
+    "id": "absolute-value-004",
+    "type": "MC",
+    "primarySkill": "absolute-value",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "If \\(|x| = 9\\), which of the following could be the value of \\(x\\)?",
+    "options": [
+      { "id": "A", "text": "Only 9" },
+      { "id": "B", "text": "Only -9" },
+      { "id": "C", "text": "9 or -9" },
+      { "id": "D", "text": "0" },
+      { "id": "E", "text": "No solution" }
+    ],
+    "answer": "C",
+    "solutionStandard": "Both \\(9\\) and \\(-9\\) are a distance of 9 from 0, so both satisfy \\(|x|=9\\).",
+    "timeTargetSec": 40
+  },
+  {
+    "id": "absolute-value-005",
+    "type": "QC",
+    "primarySkill": "absolute-value",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "\\(x\\) is a nonzero real number.",
+    "quantityA": "\\(|x|\\)",
+    "quantityB": "\\(0\\)",
+    "answer": "A",
+    "solutionStandard": "Absolute value is 0 only when the number itself is 0. Since \\(x\\) is nonzero, \\(|x|>0\\), so Quantity A is always greater.",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "absolute-value-006",
+    "type": "MultiMC",
+    "primarySkill": "absolute-value",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "Which values of \\(x\\) satisfy \\(|x - 5| = 3\\)? Select all that apply.",
+    "options": [
+      { "id": "A", "text": "2" },
+      { "id": "B", "text": "8" },
+      { "id": "C", "text": "-2" },
+      { "id": "D", "text": "5" }
+    ],
+    "answer": ["A", "B"],
+    "solutionStandard": "\\(x-5=3\\) gives \\(x=8\\), or \\(x-5=-3\\) gives \\(x=2\\).",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "absolute-value-007",
+    "type": "MC",
+    "primarySkill": "absolute-value",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "How many integers \\(x\\) satisfy \\(|x| \\le 4\\)?",
+    "options": [
+      { "id": "A", "text": "4" },
+      { "id": "B", "text": "5" },
+      { "id": "C", "text": "8" },
+      { "id": "D", "text": "9" },
+      { "id": "E", "text": "10" }
+    ],
+    "answer": "D",
+    "solutionStandard": "\\(|x|\\le4\\) means \\(-4\\le x\\le4\\), which includes \\(-4,-3,-2,-1,0,1,2,3,4\\) — 9 integers.",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "absolute-value-008",
+    "type": "QC",
+    "primarySkill": "absolute-value",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "\\(|x - 3| = 7\\)",
+    "quantityA": "The greatest possible value of \\(x\\)",
+    "quantityB": "\\(10\\)",
+    "answer": "C",
+    "solutionStandard": "\\(x-3=7\\) gives \\(x=10\\), or \\(x-3=-7\\) gives \\(x=-4\\). The greatest value is 10, equal to Quantity B.",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "absolute-value-009",
+    "type": "MC",
+    "primarySkill": "absolute-value",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "For all real numbers \\(a\\) and \\(b\\), which of the following is always true?",
+    "options": [
+      { "id": "A", "text": "\\(|a+b| = |a|+|b|\\)" },
+      { "id": "B", "text": "\\(|a+b| \\le |a|+|b|\\)" },
+      { "id": "C", "text": "\\(|a-b| = |a|-|b|\\)" },
+      { "id": "D", "text": "\\(|ab| = |a| - |b|\\)" },
+      { "id": "E", "text": "\\(|a+b| > |a|+|b|\\)" }
+    ],
+    "answer": "B",
+    "solutionStandard": "The triangle inequality \\(|a+b|\\le|a|+|b|\\) always holds (equality only when \\(a\\) and \\(b\\) have the same sign or one is 0). Testing \\(a=3,b=-3\\) shows (A) fails: \\(|0|=0 \\neq 6\\).",
+    "solutionShortcut": "Plug in \\(a=3, b=-3\\): only (B) holds (\\(0 \\le 6\\)); the others fail this test case.",
+    "shortcutTags": ["plug-in"],
+    "timeTargetSec": 85
+  },
+  {
+    "id": "absolute-value-010",
+    "type": "Numeric",
+    "primarySkill": "absolute-value",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "How many integer values of \\(x\\) satisfy \\(2 < |x| < 6\\)?",
+    "answer": 6,
+    "solutionStandard": "\\(2<|x|<6\\) means \\(x \\in \\{3,4,5\\}\\) or \\(x \\in \\{-3,-4,-5\\}\\), a total of 6 integers.",
+    "timeTargetSec": 75
+  }
+]

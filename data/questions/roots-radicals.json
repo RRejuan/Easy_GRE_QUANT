@@ -1,0 +1,148 @@
+[
+  {
+    "id": "roots-radicals-001",
+    "type": "Numeric",
+    "primarySkill": "roots-radicals",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "What is \\(\\sqrt{81}\\)?",
+    "answer": 9,
+    "solutionStandard": "\\(9^2=81\\), so \\(\\sqrt{81}=9\\).",
+    "timeTargetSec": 25
+  },
+  {
+    "id": "roots-radicals-002",
+    "type": "MC",
+    "primarySkill": "roots-radicals",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "Simplify: \\(\\sqrt{50}\\)",
+    "options": [
+      { "id": "A", "text": "\\(5\\sqrt{2}\\)" },
+      { "id": "B", "text": "\\(2\\sqrt{5}\\)" },
+      { "id": "C", "text": "\\(10\\sqrt{5}\\)" },
+      { "id": "D", "text": "\\(25\\sqrt{2}\\)" },
+      { "id": "E", "text": "\\(5\\sqrt{10}\\)" }
+    ],
+    "answer": "A",
+    "solutionStandard": "\\(\\sqrt{50} = \\sqrt{25 \\times 2} = 5\\sqrt{2}\\).",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "roots-radicals-003",
+    "type": "MC",
+    "primarySkill": "roots-radicals",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "What is \\(3\\sqrt{5} + 2\\sqrt{5}\\)?",
+    "options": [
+      { "id": "A", "text": "\\(5\\sqrt{5}\\)" },
+      { "id": "B", "text": "\\(5\\sqrt{10}\\)" },
+      { "id": "C", "text": "\\(6\\sqrt{5}\\)" },
+      { "id": "D", "text": "\\(\\sqrt{25}\\)" },
+      { "id": "E", "text": "\\(5\\sqrt{2}\\)" }
+    ],
+    "answer": "A",
+    "solutionStandard": "Like radicals combine like like terms: \\(3\\sqrt{5}+2\\sqrt{5}=5\\sqrt{5}\\).",
+    "timeTargetSec": 40
+  },
+  {
+    "id": "roots-radicals-004",
+    "type": "Numeric",
+    "primarySkill": "roots-radicals",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "What is \\(\\sqrt{16} \\times \\sqrt{25}\\)?",
+    "answer": 20,
+    "solutionStandard": "\\(\\sqrt{16}=4\\) and \\(\\sqrt{25}=5\\), so \\(4\\times5=20\\).",
+    "timeTargetSec": 40
+  },
+  {
+    "id": "roots-radicals-005",
+    "type": "QC",
+    "primarySkill": "roots-radicals",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "Compare the two quantities.",
+    "quantityA": "\\(\\sqrt{2} + \\sqrt{3}\\)",
+    "quantityB": "\\(\\sqrt{5}\\)",
+    "answer": "A",
+    "solutionStandard": "\\(\\sqrt{2}\\approx1.41\\) and \\(\\sqrt{3}\\approx1.73\\), summing to about \\(3.14\\). \\(\\sqrt{5}\\approx2.24\\). Since \\(3.14 > 2.24\\), Quantity A is greater.",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "roots-radicals-006",
+    "type": "MC",
+    "primarySkill": "roots-radicals",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "Simplify: \\(\\sqrt{12} + \\sqrt{27}\\)",
+    "options": [
+      { "id": "A", "text": "\\(5\\sqrt{3}\\)" },
+      { "id": "B", "text": "\\(\\sqrt{39}\\)" },
+      { "id": "C", "text": "\\(6\\sqrt{3}\\)" },
+      { "id": "D", "text": "\\(9\\sqrt{3}\\)" },
+      { "id": "E", "text": "\\(13\\)" }
+    ],
+    "answer": "A",
+    "solutionStandard": "\\(\\sqrt{12}=2\\sqrt{3}\\) and \\(\\sqrt{27}=3\\sqrt{3}\\). Sum: \\(2\\sqrt{3}+3\\sqrt{3}=5\\sqrt{3}\\).",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "roots-radicals-007",
+    "type": "Numeric",
+    "primarySkill": "roots-radicals",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "What is \\(\\sqrt{\\dfrac{144}{9}}\\)?",
+    "answer": 4,
+    "solutionStandard": "\\(\\sqrt{144/9} = \\sqrt{144}/\\sqrt{9} = 12/3 = 4\\).",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "roots-radicals-008",
+    "type": "MultiMC",
+    "primarySkill": "roots-radicals",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "Which of the following are equivalent to \\(4\\sqrt{3}\\)? Select all that apply.",
+    "options": [
+      { "id": "A", "text": "\\(\\sqrt{48}\\)" },
+      { "id": "B", "text": "\\(2\\sqrt{3} + 2\\sqrt{3}\\)" },
+      { "id": "C", "text": "\\(\\sqrt{12} \\times 2\\)" },
+      { "id": "D", "text": "\\(\\sqrt{12} + \\sqrt{3}\\)" }
+    ],
+    "answer": ["A", "B", "C"],
+    "solutionStandard": "\\(4\\sqrt{3}=\\sqrt{16\\times3}=\\sqrt{48}\\). (B) \\(2\\sqrt3+2\\sqrt3=4\\sqrt3\\). (C) \\(\\sqrt{12}=2\\sqrt3\\), so \\(2\\sqrt3\\times2=4\\sqrt3\\). (D) \\(\\sqrt{12}+\\sqrt3=2\\sqrt3+\\sqrt3=3\\sqrt3 \\neq 4\\sqrt3\\).",
+    "timeTargetSec": 90
+  },
+  {
+    "id": "roots-radicals-009",
+    "type": "MC",
+    "primarySkill": "roots-radicals",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "If \\(\\sqrt{x} + 3 = 8\\), what is the value of \\(x\\)?",
+    "options": [
+      { "id": "A", "text": "5" },
+      { "id": "B", "text": "11" },
+      { "id": "C", "text": "16" },
+      { "id": "D", "text": "25" },
+      { "id": "E", "text": "64" }
+    ],
+    "answer": "D",
+    "solutionStandard": "\\(\\sqrt{x}=5\\), so \\(x=25\\).",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "roots-radicals-010",
+    "type": "Numeric",
+    "primarySkill": "roots-radicals",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "What is \\(\\sqrt{200} - \\sqrt{50}\\), expressed as \\(k\\sqrt{2}\\)? (Enter just the value of \\(k\\).)",
+    "answer": 5,
+    "solutionStandard": "\\(\\sqrt{200}=10\\sqrt{2}\\) and \\(\\sqrt{50}=5\\sqrt{2}\\). Difference: \\(10\\sqrt2-5\\sqrt2=5\\sqrt2\\), so \\(k=5\\).",
+    "timeTargetSec": 80
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "skillId": "similar-triangles",
+  "summary": "Similar triangles have the same shape (equal corresponding angles) and proportional corresponding sides.",
+  "formulas": [
+    { "name": "Similarity ratio", "expression": "\\frac{a_1}{a_2} = \\frac{b_1}{b_2} = \\frac{c_1}{c_2}" },
+    { "name": "Area ratio", "expression": "\\frac{\\text{Area}_1}{\\text{Area}_2} = \\left(\\frac{a_1}{a_2}\\right)^2" }
+  ],
+  "explanation": "Two triangles are similar if their corresponding angles are equal, which forces their corresponding sides to be in the same fixed ratio. A common way similar triangles appear is when a smaller triangle is cut off inside a larger one by a line parallel to one side — this always creates two similar triangles. To solve, identify which sides correspond (matching up angles carefully), set up a proportion, and cross-multiply. A frequent trap: the ratio of AREAS between similar figures is the SQUARE of the ratio of corresponding sides, not the same as the side ratio — if triangle sides are in a 2:3 ratio, the areas are in a 4:9 ratio, not 2:3."
+}

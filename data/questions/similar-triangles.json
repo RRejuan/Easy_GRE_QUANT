@@ -1,0 +1,162 @@
+[
+  {
+    "id": "similar-triangles-001",
+    "type": "MC",
+    "primarySkill": "similar-triangles",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "In the figure, \\(DE\\) is parallel to \\(BC\\). If \\(AD=4\\), \\(DB=2\\), and \\(DE=6\\), what is the length of \\(BC\\)?",
+    "figure": {
+      "viewBox": "0 0 200 160",
+      "elements": [
+        { "kind": "polygon", "points": [{ "x": 100, "y": 20 }, { "x": 20, "y": 140 }, { "x": 180, "y": 140 }] },
+        { "kind": "line", "from": { "x": 47, "y": 100 }, "to": { "x": 153, "y": 100 } },
+        { "kind": "label", "at": { "x": 96, "y": 14 }, "text": "A" },
+        { "kind": "label", "at": { "x": 8, "y": 148 }, "text": "B" },
+        { "kind": "label", "at": { "x": 184, "y": 148 }, "text": "C" },
+        { "kind": "label", "at": { "x": 30, "y": 95 }, "text": "D" },
+        { "kind": "label", "at": { "x": 158, "y": 95 }, "text": "E" }
+      ]
+    },
+    "options": [
+      { "id": "A", "text": "8" },
+      { "id": "B", "text": "9" },
+      { "id": "C", "text": "10" },
+      { "id": "D", "text": "12" },
+      { "id": "E", "text": "3" }
+    ],
+    "answer": "B",
+    "solutionStandard": "Since \\(DE \\parallel BC\\), triangles \\(ADE\\) and \\(ABC\\) are similar, with ratio \\(AD:AB = 4:6=2:3\\). So \\(DE:BC=2:3\\), giving \\(BC = 6 \\times \\frac{3}{2} = 9\\).",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "similar-triangles-002",
+    "type": "Numeric",
+    "primarySkill": "similar-triangles",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "Triangle A has sides 3, 4, 5. Triangle B is similar to Triangle A with a scale factor of 3. What is the length of the longest side of Triangle B?",
+    "answer": 15,
+    "solutionStandard": "The longest side of Triangle A is 5; scaling by 3 gives \\(5 \\times 3 = 15\\).",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "similar-triangles-003",
+    "type": "QC",
+    "primarySkill": "similar-triangles",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "Two similar triangles have corresponding sides in ratio 2:5.",
+    "quantityA": "The ratio of their areas, as a fraction (smaller to larger)",
+    "quantityB": "\\(\\dfrac{2}{5}\\)",
+    "answer": "B",
+    "solutionStandard": "The area ratio is the square of the side ratio: \\(\\left(\\dfrac{2}{5}\\right)^2 = \\dfrac{4}{25} = 0.16\\). Since \\(2/5=0.4\\) and \\(0.16 < 0.4\\), Quantity B is greater.",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "similar-triangles-004",
+    "type": "MC",
+    "primarySkill": "similar-triangles",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "Triangle \\(ABC\\) is similar to triangle \\(DEF\\), with \\(AB=6\\), \\(DE=9\\), and the area of \\(ABC\\) is 16. What is the area of \\(DEF\\)?",
+    "options": [
+      { "id": "A", "text": "24" },
+      { "id": "B", "text": "27" },
+      { "id": "C", "text": "32" },
+      { "id": "D", "text": "36" },
+      { "id": "E", "text": "48" }
+    ],
+    "answer": "D",
+    "solutionStandard": "Side ratio \\(AB:DE = 6:9=2:3\\). Area ratio \\(=2^2:3^2=4:9\\). Area of \\(DEF = 16 \\times \\frac{9}{4}=36\\).",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "similar-triangles-005",
+    "type": "Numeric",
+    "primarySkill": "similar-triangles",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "A tree casts a shadow 24 feet long at the same time a 6-foot-tall person casts a shadow 4 feet long. How tall is the tree, in feet?",
+    "answer": 36,
+    "solutionStandard": "The triangles formed by the person/shadow and tree/shadow are similar: \\(\\dfrac{6}{4} = \\dfrac{h}{24}\\), so \\(h = \\dfrac{6 \\times 24}{4} = 36\\).",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "similar-triangles-006",
+    "type": "MC",
+    "primarySkill": "similar-triangles",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "In triangle \\(ABC\\), \\(D\\) is on \\(AB\\) and \\(E\\) is on \\(AC\\) such that \\(DE \\parallel BC\\). If \\(AD=3\\), \\(AB=8\\), and the area of triangle \\(ADE\\) is 9, what is the area of triangle \\(ABC\\)?",
+    "options": [
+      { "id": "A", "text": "16" },
+      { "id": "B", "text": "24" },
+      { "id": "C", "text": "48" },
+      { "id": "D", "text": "64" },
+      { "id": "E", "text": "72" }
+    ],
+    "answer": "D",
+    "solutionStandard": "Side ratio \\(AD:AB=3:8\\), so area ratio \\(\\text{Area}_{ADE}:\\text{Area}_{ABC} = 9:64\\). Since \\(\\text{Area}_{ADE}=9\\), we get \\(\\text{Area}_{ABC}=64\\).",
+    "timeTargetSec": 85
+  },
+  {
+    "id": "similar-triangles-007",
+    "type": "MultiMC",
+    "primarySkill": "similar-triangles",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "Which of the following conditions guarantee that two triangles are similar? Select all that apply.",
+    "options": [
+      { "id": "A", "text": "All three pairs of corresponding angles are equal" },
+      { "id": "B", "text": "Two pairs of corresponding angles are equal" },
+      { "id": "C", "text": "All three pairs of corresponding sides are proportional" },
+      { "id": "D", "text": "One pair of corresponding sides is equal" }
+    ],
+    "answer": ["A", "B", "C"],
+    "solutionStandard": "(A) is the definition of similarity. (B) is sufficient because the third angle is then automatically determined (angles sum to 180°). (C) (side-side-side proportionality) also guarantees similarity. (D) alone says nothing about shape.",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "similar-triangles-008",
+    "type": "Numeric",
+    "primarySkill": "similar-triangles",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "Triangle \\(ABC\\) has a right angle at \\(B\\). \\(D\\) is on \\(AC\\) such that \\(BD\\) is perpendicular to \\(AC\\). If \\(AD=4\\) and \\(DC=9\\), what is the length of \\(BD\\)?",
+    "answer": 6,
+    "solutionStandard": "The altitude to the hypotenuse creates two triangles similar to the original and to each other, giving \\(BD^2 = AD \\times DC = 4 \\times 9 = 36\\), so \\(BD=6\\).",
+    "timeTargetSec": 85
+  },
+  {
+    "id": "similar-triangles-009",
+    "type": "MC",
+    "primarySkill": "similar-triangles",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "Two similar triangles have areas 25 and 64. If the perimeter of the smaller triangle is 20, what is the perimeter of the larger triangle?",
+    "options": [
+      { "id": "A", "text": "25.6" },
+      { "id": "B", "text": "28" },
+      { "id": "C", "text": "32" },
+      { "id": "D", "text": "36" },
+      { "id": "E", "text": "51.2" }
+    ],
+    "answer": "C",
+    "solutionStandard": "Area ratio \\(25:64\\) means side (and perimeter) ratio \\(\\sqrt{25}:\\sqrt{64}=5:8\\). Perimeter of larger \\(= 20 \\times \\dfrac{8}{5}=32\\).",
+    "timeTargetSec": 80
+  },
+  {
+    "id": "similar-triangles-010",
+    "type": "QC",
+    "primarySkill": "similar-triangles",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "Triangle \\(ABC\\) is similar to triangle \\(DEF\\) with a scale factor of \\(\\frac{3}{2}\\) (\\(ABC\\) is larger).",
+    "quantityA": "The ratio of the perimeter of \\(ABC\\) to the perimeter of \\(DEF\\)",
+    "quantityB": "The ratio of the area of \\(ABC\\) to the area of \\(DEF\\)",
+    "answer": "B",
+    "solutionStandard": "Perimeter ratio equals the scale factor: \\(3/2=1.5\\). Area ratio is the square of the scale factor: \\((3/2)^2=9/4=2.25\\). Since \\(2.25>1.5\\), Quantity B is greater.",
+    "timeTargetSec": 75
+  }
+]

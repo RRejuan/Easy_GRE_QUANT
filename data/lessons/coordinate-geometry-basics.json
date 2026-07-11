@@ -1,0 +1,9 @@
+{
+  "skillId": "coordinate-geometry-basics",
+  "summary": "The distance and midpoint formulas turn coordinate-plane geometry problems into pure arithmetic.",
+  "formulas": [
+    { "name": "Distance formula", "expression": "d = \\sqrt{(x_2-x_1)^2 + (y_2-y_1)^2}" },
+    { "name": "Midpoint formula", "expression": "M = \\left(\\frac{x_1+x_2}{2}, \\frac{y_1+y_2}{2}\\right)" }
+  ],
+  "explanation": "The distance formula is just the Pythagorean theorem applied to the horizontal and vertical legs between two points: the difference in \\(x\\)-coordinates and the difference in \\(y\\)-coordinates form a right triangle whose hypotenuse is the distance. The midpoint formula simply averages the \\(x\\)-coordinates and averages the \\(y\\)-coordinates. Points are written \\((x,y)\\), with \\(x\\) measuring horizontal position (positive to the right) and \\(y\\) measuring vertical position (positive upward). The four quadrants are numbered counterclockwise starting from the upper right (Quadrant I: \\(x>0,y>0\\); Quadrant II: \\(x<0,y>0\\); Quadrant III: \\(x<0,y<0\\); Quadrant IV: \\(x>0,y<0\\))."
+}

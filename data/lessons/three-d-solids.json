@@ -1,0 +1,12 @@
+{
+  "skillId": "three-d-solids",
+  "summary": "Volume measures 3D space (length x width x height style formulas); surface area adds up the area of every face.",
+  "formulas": [
+    { "name": "Rectangular solid volume", "expression": "V = lwh" },
+    { "name": "Rectangular solid surface area", "expression": "SA = 2(lw + lh + wh)" },
+    { "name": "Cylinder volume", "expression": "V = \\pi r^2 h" },
+    { "name": "Cylinder surface area", "expression": "SA = 2\\pi r^2 + 2\\pi rh" },
+    { "name": "Cube volume/surface area", "expression": "V = s^3, \\quad SA = 6s^2" }
+  ],
+  "explanation": "A rectangular solid's volume is length times width times height; its surface area is the sum of the areas of all 6 faces, which come in 3 pairs of equal rectangles. A cube is just a rectangular solid where all edges are equal. A cylinder's volume is the area of its circular base times its height (\\(\\pi r^2 h\\)); its surface area is the two circular bases plus the rectangular \"label\" that wraps around the side (\\(2\\pi rh\\)). The main diagonal of a rectangular solid (corner to opposite corner) can be found with a 3D extension of the Pythagorean theorem: \\(d=\\sqrt{l^2+w^2+h^2}\\). Always double-check units and make sure you're answering what's asked — volume and surface area questions are easy to mix up under time pressure."
+}

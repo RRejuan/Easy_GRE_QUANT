@@ -1,0 +1,10 @@
+{
+  "skillId": "quadratic-equations",
+  "summary": "A quadratic equation has at most two solutions, found by factoring, the quadratic formula, or recognizing special patterns.",
+  "formulas": [
+    { "name": "Standard form", "expression": "ax^2 + bx + c = 0" },
+    { "name": "Quadratic formula", "expression": "x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}" },
+    { "name": "Sum and product of roots", "expression": "\\text{sum} = -\\frac{b}{a}, \\quad \\text{product} = \\frac{c}{a}" }
+  ],
+  "explanation": "The fastest way to solve a quadratic is to factor it and set each factor to 0 (the zero-product property: if \\(pq=0\\), then \\(p=0\\) or \\(q=0\\)). When factoring isn't obvious, the quadratic formula always works. Before solving, move everything to one side so the equation equals 0 — a common error is trying to solve \\(x^2=5x\\) by dividing both sides by \\(x\\), which silently loses the solution \\(x=0\\) (instead, rewrite as \\(x^2-5x=0\\), factor to \\(x(x-5)=0\\), giving \\(x=0\\) or \\(x=5\\)). For a quadratic \\(ax^2+bx+c=0\\), the sum of the roots is \\(-b/a\\) and the product is \\(c/a\\) — useful for checking answers or working backward from given roots."
+}

@@ -1,0 +1,8 @@
+{
+  "skillId": "estimation-rounding",
+  "summary": "Rounding to a friendlier nearby number lets you estimate a result quickly and check whether an exact answer is reasonable.",
+  "formulas": [
+    { "name": "Rounding rule", "expression": "\\text{round up if the next digit is} \\ge 5\\text{, otherwise round down}" }
+  ],
+  "explanation": "To round to a given place value, look at the digit immediately to its right: if it's 5 or more, round up; otherwise, round down. Estimation is most useful as a sanity check — before computing an exact answer, round the numbers involved to get a ballpark figure, then confirm the exact computation lands near that estimate. On the GRE, estimation is also a legitimate shortcut on multiple-choice questions where the answer choices are far apart: if a quick estimate clearly points to one choice, there's no need for exact computation."
+}

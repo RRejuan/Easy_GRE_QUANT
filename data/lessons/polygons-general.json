@@ -1,0 +1,10 @@
+{
+  "skillId": "polygons-general",
+  "summary": "A polygon's interior angle sum depends only on its number of sides, and a regular polygon splits that sum evenly.",
+  "formulas": [
+    { "name": "Interior angle sum", "expression": "(n-2) \\times 180^\\circ" },
+    { "name": "Each interior angle (regular polygon)", "expression": "\\frac{(n-2) \\times 180^\\circ}{n}" },
+    { "name": "Sum of exterior angles", "expression": "360^\\circ \\text{ (always, for any convex polygon)}" }
+  ],
+  "explanation": "For any polygon with \\(n\\) sides, the interior angles always sum to \\((n-2)\\times180^\\circ\\) — this comes from splitting the polygon into \\(n-2\\) triangles. In a REGULAR polygon (all sides and angles equal), divide that sum by \\(n\\) to get each interior angle. The exterior angles of any convex polygon always sum to \\(360^\\circ\\), regardless of how many sides it has — a useful fact independent of the interior angle formula. A regular polygon's interior and exterior angles at each vertex are supplementary (they sum to \\(180^\\circ\\), since they form a straight line), so once you know one you immediately know the other."
+}

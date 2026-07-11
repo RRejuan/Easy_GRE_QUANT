@@ -1,0 +1,10 @@
+{
+  "skillId": "sequences-algebraic",
+  "summary": "An arithmetic sequence adds a constant each step; a geometric sequence multiplies by a constant each step.",
+  "formulas": [
+    { "name": "Arithmetic nth term", "expression": "a_n = a_1 + (n-1)d" },
+    { "name": "Arithmetic sum", "expression": "S_n = \\frac{n}{2}(a_1 + a_n)" },
+    { "name": "Geometric nth term", "expression": "a_n = a_1 \\times r^{n-1}" }
+  ],
+  "explanation": "In an arithmetic sequence, each term differs from the previous one by a constant \"common difference\" \\(d\\); the \\(n\\)th term is \\(a_1+(n-1)d\\). The sum of the first \\(n\\) terms is the average of the first and last term, times the number of terms: \\(S_n = \\frac{n}{2}(a_1+a_n)\\). In a geometric sequence, each term is the previous one multiplied by a constant ratio \\(r\\); the \\(n\\)th term is \\(a_1 \\times r^{n-1}\\). To identify which type of sequence you're given, check whether consecutive differences are constant (arithmetic) or consecutive ratios are constant (geometric). A common trap is off-by-one errors in the exponent/multiplier — remember the first term uses \\(n=1\\), so the exponent or multiplier count is always \\(n-1\\), not \\(n\\)."
+}

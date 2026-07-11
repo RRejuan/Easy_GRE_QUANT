@@ -70,7 +70,8 @@
         }
       }
     },
-    "answerFormula": { "type": "string" }
+    "answerFormula": { "type": "string" },
+    "figure": { "$ref": "figure.schema.json" }
   },
   "allOf": [
     {

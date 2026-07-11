@@ -1,0 +1,161 @@
+[
+  {
+    "id": "special-right-triangles-001",
+    "type": "Numeric",
+    "primarySkill": "special-right-triangles",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "A 45-45-90 triangle has legs of length 5. What is the length of the hypotenuse? (Enter as a decimal, rounded to the nearest hundredth.)",
+    "answer": 7.07,
+    "acceptableRange": [7.06, 7.08],
+    "solutionStandard": "Hypotenuse \\(= 5\\sqrt{2} \\approx 7.07\\).",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "special-right-triangles-002",
+    "type": "MC",
+    "primarySkill": "special-right-triangles",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "In the figure below, what is the length of side \\(AB\\) (the long leg)?",
+    "figure": {
+      "viewBox": "0 0 200 150",
+      "elements": [
+        { "kind": "polygon", "points": [{ "x": 20, "y": 130 }, { "x": 150, "y": 130 }, { "x": 20, "y": 50 }] },
+        { "kind": "rightAngleMarker", "at": { "x": 20, "y": 130 } },
+        { "kind": "label", "at": { "x": 8, "y": 92 }, "text": "4" },
+        { "kind": "label", "at": { "x": 80, "y": 148 }, "text": "AB" },
+        { "kind": "label", "at": { "x": 90, "y": 82 }, "text": "8" },
+        { "kind": "label", "at": { "x": 155, "y": 135 }, "text": "30°" },
+        { "kind": "label", "at": { "x": 20, "y": 45 }, "text": "60°" }
+      ]
+    },
+    "options": [
+      { "id": "A", "text": "\\(4\\)" },
+      { "id": "B", "text": "\\(4\\sqrt{2}\\)" },
+      { "id": "C", "text": "\\(4\\sqrt{3}\\)" },
+      { "id": "D", "text": "\\(8\\)" },
+      { "id": "E", "text": "\\(8\\sqrt{3}\\)" }
+    ],
+    "answer": "C",
+    "solutionStandard": "This is a 30-60-90 triangle with hypotenuse 8, so the short leg is \\(8/2=4\\) (matches the given short leg), and the long leg is \\(4\\sqrt{3}\\).",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "special-right-triangles-003",
+    "type": "Numeric",
+    "primarySkill": "special-right-triangles",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "A 30-60-90 triangle has a short leg of length 6. What is the length of the hypotenuse?",
+    "answer": 12,
+    "solutionStandard": "The hypotenuse is always twice the short leg: \\(2 \\times 6 = 12\\).",
+    "timeTargetSec": 40
+  },
+  {
+    "id": "special-right-triangles-004",
+    "type": "MC",
+    "primarySkill": "special-right-triangles",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "A square has a diagonal of length \\(10\\sqrt{2}\\). What is the length of a side?",
+    "options": [
+      { "id": "A", "text": "5" },
+      { "id": "B", "text": "10" },
+      { "id": "C", "text": "\\(5\\sqrt{2}\\)" },
+      { "id": "D", "text": "\\(10\\sqrt{2}\\)" },
+      { "id": "E", "text": "20" }
+    ],
+    "answer": "B",
+    "solutionStandard": "A square's diagonal splits it into two 45-45-90 triangles, with diagonal \\(=\\text{side}\\times\\sqrt{2}\\). So side \\(=10\\sqrt2/\\sqrt2=10\\).",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "special-right-triangles-005",
+    "type": "QC",
+    "primarySkill": "special-right-triangles",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "An equilateral triangle has side length 10. An altitude is drawn from one vertex to the opposite side.",
+    "quantityA": "The length of the altitude",
+    "quantityB": "\\(8.5\\)",
+    "answer": "A",
+    "solutionStandard": "The altitude splits the equilateral triangle into two 30-60-90 triangles with hypotenuse 10 and short leg 5, so the altitude (long leg) is \\(5\\sqrt3\\approx8.66\\). Since \\(8.66>8.5\\), Quantity A is greater.",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "special-right-triangles-006",
+    "type": "Numeric",
+    "primarySkill": "special-right-triangles",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "A 45-45-90 triangle has a hypotenuse of length \\(12\\sqrt{2}\\). What is the length of each leg?",
+    "answer": 12,
+    "solutionStandard": "Leg \\(= \\text{hypotenuse}/\\sqrt2 = 12\\sqrt2/\\sqrt2=12\\).",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "special-right-triangles-007",
+    "type": "MC",
+    "primarySkill": "special-right-triangles",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "What is the area of an equilateral triangle with side length 8?",
+    "options": [
+      { "id": "A", "text": "\\(16\\)" },
+      { "id": "B", "text": "\\(16\\sqrt{3}\\)" },
+      { "id": "C", "text": "\\(32\\)" },
+      { "id": "D", "text": "\\(32\\sqrt{3}\\)" },
+      { "id": "E", "text": "\\(64\\)" }
+    ],
+    "answer": "B",
+    "solutionStandard": "The altitude of an equilateral triangle with side \\(s\\) is \\(\\frac{s\\sqrt3}{2}\\); for \\(s=8\\), altitude \\(=4\\sqrt3\\). Area \\(=\\frac{1}{2}(8)(4\\sqrt3)=16\\sqrt3\\).",
+    "timeTargetSec": 80
+  },
+  {
+    "id": "special-right-triangles-008",
+    "type": "MultiMC",
+    "primarySkill": "special-right-triangles",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "Which of the following triangles must be 45-45-90? Select all that apply.",
+    "options": [
+      { "id": "A", "text": "A right triangle with two equal legs" },
+      { "id": "B", "text": "An isosceles right triangle" },
+      { "id": "C", "text": "A right triangle with angles 45°, 45°, 90°" },
+      { "id": "D", "text": "A right triangle with a 30° angle" }
+    ],
+    "answer": ["A", "B", "C"],
+    "solutionStandard": "(A), (B), and (C) all describe the same shape: a right triangle with two equal legs (and therefore two 45° angles). (D) describes a 30-60-90 triangle instead.",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "special-right-triangles-009",
+    "type": "MC",
+    "primarySkill": "special-right-triangles",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "A ladder 20 feet long leans against a wall, making a 60° angle with the ground. How high up the wall does the ladder reach?",
+    "options": [
+      { "id": "A", "text": "10" },
+      { "id": "B", "text": "\\(10\\sqrt{2}\\)" },
+      { "id": "C", "text": "\\(10\\sqrt{3}\\)" },
+      { "id": "D", "text": "\\(20\\sqrt{3}\\)" },
+      { "id": "E", "text": "\\(15\\)" }
+    ],
+    "answer": "C",
+    "solutionStandard": "The ladder is the hypotenuse of a 30-60-90 triangle (angles 60° at the ground, 30° at the top, 90° at the wall). The height is the long leg, opposite the 60° angle: with hypotenuse 20, the short leg (opposite 30°, along the ground) is 10, and the long leg (height) is \\(10\\sqrt3\\).",
+    "timeTargetSec": 90
+  },
+  {
+    "id": "special-right-triangles-010",
+    "type": "Numeric",
+    "primarySkill": "special-right-triangles",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "A rectangle has length 10 and width 10. What is the length of its diagonal? (Enter as \\(k\\sqrt{2}\\); give just the value of \\(k\\).)",
+    "answer": 10,
+    "solutionStandard": "Since length equals width, the diagonal splits the rectangle (a square in this case) into 45-45-90 triangles: diagonal \\(=10\\sqrt2\\), so \\(k=10\\).",
+    "timeTargetSec": 70
+  }
+]

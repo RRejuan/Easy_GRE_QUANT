@@ -136,6 +136,46 @@
   font-weight: 600;
 }
 
+.mastery-bar {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  vertical-align: middle;
+}
+.mastery-bar-track {
+  width: 60px;
+  height: 6px;
+  border-radius: 3px;
+  background: var(--border);
+  overflow: hidden;
+  display: inline-block;
+}
+.mastery-bar-fill {
+  display: block;
+  height: 100%;
+  background: var(--chart-bar);
+}
+.mastery-bar-label {
+  font-size: 0.85em;
+  color: var(--text-muted);
+}
+
+.figure-wrap {
+  margin: 12px 0;
+  max-width: 320px;
+}
+.figure-wrap svg {
+  width: 100%;
+  height: auto;
+  stroke: var(--text);
+  fill: none;
+}
+.figure-wrap text {
+  fill: var(--text);
+  stroke: none;
+  font-size: 10px;
+}
+
 .question {
   border: 1px solid var(--border);
   background: var(--bg-card);

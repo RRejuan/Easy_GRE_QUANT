@@ -1,0 +1,9 @@
+{
+  "skillId": "absolute-value",
+  "summary": "Absolute value measures distance from zero, so it's always non-negative and it collapses two possibilities (positive and negative) into one equation.",
+  "formulas": [
+    { "name": "Definition", "expression": "|x| = x \\text{ if } x \\ge 0; \\quad |x| = -x \\text{ if } x < 0" },
+    { "name": "Distance interpretation", "expression": "|a - b| = \\text{distance between } a \\text{ and } b" }
+  ],
+  "explanation": "The absolute value of a number is its distance from 0 on the number line, which is always non-negative: \\(|5|=5\\) and \\(|-5|=5\\). More generally, \\(|a-b|\\) is the distance between \\(a\\) and \\(b\\), regardless of which is larger. When solving an equation like \\(|x| = k\\) (for \\(k>0\\)), there are always two solutions: \\(x=k\\) or \\(x=-k\\), because both values are the same distance from 0. A common error is forgetting the negative case entirely, or applying it when it doesn't exist (if \\(k<0\\), \\(|x|=k\\) has no solution, since absolute value can never be negative)."
+}

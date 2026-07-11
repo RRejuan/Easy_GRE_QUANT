@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "gre-quant-app/figure.schema.json",
+  "title": "Figure",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["viewBox", "elements"],
+  "properties": {
+    "viewBox": { "type": "string" },
+    "elements": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["kind"],
+        "properties": {
+          "kind": { "enum": ["line", "polygon", "circle", "label", "rightAngleMarker"] }
+        },
+        "allOf": [
+          {
+            "if": { "properties": { "kind": { "const": "line" } } },
+            "then": {
+              "required": ["from", "to"],
+              "properties": {
+                "from": { "$ref": "#/$defs/point" },
+                "to": { "$ref": "#/$defs/point" },
+                "dashed": { "type": "boolean" }
+              }
+            }
+          },
+          {
+            "if": { "properties": { "kind": { "const": "polygon" } } },
+            "then": {
+              "required": ["points"],
+              "properties": {
+                "points": {
+                  "type": "array",
+                  "minItems": 3,
+                  "items": { "$ref": "#/$defs/point" }
+                }
+              }
+            }
+          },
+          {
+            "if": { "properties": { "kind": { "const": "circle" } } },
+            "then": {
+              "required": ["center", "radius"],
+              "properties": {
+                "center": { "$ref": "#/$defs/point" },
+                "radius": { "type": "number", "exclusiveMinimum": 0 }
+              }
+            }
+          },
+          {
+            "if": { "properties": { "kind": { "const": "label" } } },
+            "then": {
+              "required": ["at", "text"],
+              "properties": {
+                "at": { "$ref": "#/$defs/point" },
+                "text": { "type": "string", "minLength": 1 }
+              }
+            }
+          },
+          {
+            "if": { "properties": { "kind": { "const": "rightAngleMarker" } } },
+            "then": {
+              "required": ["at"],
+              "properties": {
+                "at": { "$ref": "#/$defs/point" },
+                "rotation": { "type": "number" }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$defs": {
+    "point": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["x", "y"],
+      "properties": {
+        "x": { "type": "number" },
+        "y": { "type": "number" }
+      }
+    }
+  }
+}

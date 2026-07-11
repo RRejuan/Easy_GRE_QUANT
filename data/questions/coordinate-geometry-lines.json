@@ -1,0 +1,150 @@
+[
+  {
+    "id": "coordinate-geometry-lines-001",
+    "type": "Numeric",
+    "primarySkill": "coordinate-geometry-lines",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "What is the slope of the line through \\((1, 2)\\) and \\((4, 11)\\)?",
+    "answer": 3,
+    "solutionStandard": "\\(m = \\dfrac{11-2}{4-1} = \\dfrac{9}{3}=3\\).",
+    "timeTargetSec": 40
+  },
+  {
+    "id": "coordinate-geometry-lines-002",
+    "type": "MC",
+    "primarySkill": "coordinate-geometry-lines",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "What is the \\(y\\)-intercept of the line \\(y = 3x - 7\\)?",
+    "options": [
+      { "id": "A", "text": "3" },
+      { "id": "B", "text": "-3" },
+      { "id": "C", "text": "7" },
+      { "id": "D", "text": "-7" },
+      { "id": "E", "text": "0" }
+    ],
+    "answer": "D",
+    "solutionStandard": "In \\(y=mx+b\\) form, \\(b=-7\\) is the \\(y\\)-intercept.",
+    "timeTargetSec": 35
+  },
+  {
+    "id": "coordinate-geometry-lines-003",
+    "type": "MC",
+    "primarySkill": "coordinate-geometry-lines",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "A line has slope 2 and passes through \\((3, 5)\\). What is its equation, in slope-intercept form?",
+    "options": [
+      { "id": "A", "text": "\\(y = 2x - 1\\)" },
+      { "id": "B", "text": "\\(y = 2x + 1\\)" },
+      { "id": "C", "text": "\\(y = 2x - 6\\)" },
+      { "id": "D", "text": "\\(y = 2x + 5\\)" },
+      { "id": "E", "text": "\\(y = 3x + 2\\)" }
+    ],
+    "answer": "A",
+    "solutionStandard": "\\(5 = 2(3) + b\\), so \\(5=6+b\\), giving \\(b=-1\\). Equation: \\(y=2x-1\\).",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "coordinate-geometry-lines-004",
+    "type": "QC",
+    "primarySkill": "coordinate-geometry-lines",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "Line \\(\\ell_1\\) has equation \\(y = 4x + 1\\). Line \\(\\ell_2\\) passes through \\((0, 2)\\) and \\((3, 14)\\).",
+    "quantityA": "The slope of \\(\\ell_1\\)",
+    "quantityB": "The slope of \\(\\ell_2\\)",
+    "answer": "C",
+    "solutionStandard": "Slope of \\(\\ell_1\\) is 4. Slope of \\(\\ell_2\\): \\(\\dfrac{14-2}{3-0}=\\dfrac{12}{3}=4\\). The quantities are equal.",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "coordinate-geometry-lines-005",
+    "type": "MC",
+    "primarySkill": "coordinate-geometry-lines",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "A line is perpendicular to \\(y = \\dfrac{2}{3}x + 4\\) and passes through \\((0, 5)\\). What is its equation?",
+    "options": [
+      { "id": "A", "text": "\\(y = \\dfrac{2}{3}x + 5\\)" },
+      { "id": "B", "text": "\\(y = -\\dfrac{2}{3}x + 5\\)" },
+      { "id": "C", "text": "\\(y = \\dfrac{3}{2}x + 5\\)" },
+      { "id": "D", "text": "\\(y = -\\dfrac{3}{2}x + 5\\)" },
+      { "id": "E", "text": "\\(y = -\\dfrac{3}{2}x - 5\\)" }
+    ],
+    "answer": "D",
+    "solutionStandard": "Perpendicular slope is the negative reciprocal of \\(2/3\\), which is \\(-3/2\\). With \\(y\\)-intercept 5: \\(y=-\\frac{3}{2}x+5\\).",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "coordinate-geometry-lines-006",
+    "type": "Numeric",
+    "primarySkill": "coordinate-geometry-lines",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "At what \\(x\\)-value do the lines \\(y = 2x + 1\\) and \\(y = -x + 10\\) intersect?",
+    "answer": 3,
+    "solutionStandard": "\\(2x+1=-x+10\\), so \\(3x=9\\), giving \\(x=3\\).",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "coordinate-geometry-lines-007",
+    "type": "MC",
+    "primarySkill": "coordinate-geometry-lines",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "A line passes through \\((2, -1)\\) and is parallel to the line \\(3x - y = 5\\). What is its \\(y\\)-intercept?",
+    "options": [
+      { "id": "A", "text": "-7" },
+      { "id": "B", "text": "-5" },
+      { "id": "C", "text": "-3" },
+      { "id": "D", "text": "3" },
+      { "id": "E", "text": "5" }
+    ],
+    "answer": "A",
+    "solutionStandard": "Rewrite \\(3x-y=5\\) as \\(y=3x-5\\), slope 3. Parallel line: \\(y=3x+b\\). Plug in \\((2,-1)\\): \\(-1=3(2)+b\\), so \\(-1=6+b\\), giving \\(b=-7\\).",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "coordinate-geometry-lines-008",
+    "type": "MultiMC",
+    "primarySkill": "coordinate-geometry-lines",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "Which of the following lines are parallel to \\(y = -2x + 3\\)? Select all that apply.",
+    "options": [
+      { "id": "A", "text": "\\(y = -2x - 5\\)" },
+      { "id": "B", "text": "\\(2x + y = 7\\)" },
+      { "id": "C", "text": "\\(y = 2x + 3\\)" },
+      { "id": "D", "text": "\\(4x + 2y = 10\\)" }
+    ],
+    "answer": ["A", "B", "D"],
+    "solutionStandard": "Rewrite each in slope-intercept form: (A) slope \\(-2\\). (B) \\(y=-2x+7\\), slope \\(-2\\). (C) slope \\(2\\), not parallel. (D) \\(2y=-4x+10\\), so \\(y=-2x+5\\), slope \\(-2\\).",
+    "timeTargetSec": 80
+  },
+  {
+    "id": "coordinate-geometry-lines-009",
+    "type": "Numeric",
+    "primarySkill": "coordinate-geometry-lines",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "A line has \\(x\\)-intercept 4 and \\(y\\)-intercept 8. What is the slope of the line?",
+    "answer": -2,
+    "solutionStandard": "The line passes through \\((4,0)\\) and \\((0,8)\\): \\(m=\\dfrac{8-0}{0-4}=\\dfrac{8}{-4}=-2\\).",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "coordinate-geometry-lines-010",
+    "type": "QC",
+    "primarySkill": "coordinate-geometry-lines",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "Line \\(\\ell\\) passes through \\((1,4)\\) and \\((5,4)\\).",
+    "quantityA": "The slope of \\(\\ell\\)",
+    "quantityB": "\\(0\\)",
+    "answer": "C",
+    "solutionStandard": "\\(m=\\dfrac{4-4}{5-1}=\\dfrac{0}{4}=0\\). The quantities are equal.",
+    "timeTargetSec": 55
+  }
+]

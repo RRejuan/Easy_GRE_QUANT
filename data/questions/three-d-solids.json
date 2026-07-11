@@ -1,0 +1,151 @@
+[
+  {
+    "id": "three-d-solids-001",
+    "type": "Numeric",
+    "primarySkill": "three-d-solids",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "variables": [
+      { "name": "l", "min": 2, "max": 10, "step": 1 },
+      { "name": "w", "min": 2, "max": 10, "step": 1 },
+      { "name": "h", "min": 2, "max": 10, "step": 1 }
+    ],
+    "stem": "A rectangular box has length {{l}}, width {{w}}, and height {{h}}. What is its volume?",
+    "answer": 60,
+    "answerFormula": "l * w * h",
+    "solutionStandard": "\\(V = lwh = {{l}} \\times {{w}} \\times {{h}} = {{l*w*h}}\\).",
+    "timeTargetSec": 35
+  },
+  {
+    "id": "three-d-solids-002",
+    "type": "MC",
+    "primarySkill": "three-d-solids",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "A cube has edge length 4. What is its volume?",
+    "options": [
+      { "id": "A", "text": "12" },
+      { "id": "B", "text": "16" },
+      { "id": "C", "text": "48" },
+      { "id": "D", "text": "64" },
+      { "id": "E", "text": "96" }
+    ],
+    "answer": "D",
+    "solutionStandard": "\\(V = s^3 = 4^3 = 64\\).",
+    "timeTargetSec": 35
+  },
+  {
+    "id": "three-d-solids-003",
+    "type": "Numeric",
+    "primarySkill": "three-d-solids",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "A cube has edge length 5. What is its total surface area?",
+    "answer": 150,
+    "solutionStandard": "\\(SA = 6s^2 = 6(25) = 150\\).",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "three-d-solids-004",
+    "type": "MC",
+    "primarySkill": "three-d-solids",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "A cylinder has radius 3 and height 10. What is its volume, in terms of \\(\\pi\\)?",
+    "options": [
+      { "id": "A", "text": "\\(30\\pi\\)" },
+      { "id": "B", "text": "\\(60\\pi\\)" },
+      { "id": "C", "text": "\\(90\\pi\\)" },
+      { "id": "D", "text": "\\(100\\pi\\)" },
+      { "id": "E", "text": "\\(300\\pi\\)" }
+    ],
+    "answer": "C",
+    "solutionStandard": "\\(V = \\pi r^2 h = \\pi(9)(10) = 90\\pi\\).",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "three-d-solids-005",
+    "type": "QC",
+    "primarySkill": "three-d-solids",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "A rectangular box has dimensions 2, 3, and 10. A cube has edge length 4.",
+    "quantityA": "The volume of the box",
+    "quantityB": "The volume of the cube",
+    "answer": "B",
+    "solutionStandard": "Box: \\(2\\times3\\times10=60\\). Cube: \\(4^3=64\\). Since \\(64>60\\), Quantity B is greater.",
+    "timeTargetSec": 50
+  },
+  {
+    "id": "three-d-solids-006",
+    "type": "Numeric",
+    "primarySkill": "three-d-solids",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "A rectangular box has length 6, width 4, and height 3. What is the length of its main diagonal (corner to opposite corner)?",
+    "answer": 7.81,
+    "acceptableRange": [7.8, 7.82],
+    "solutionStandard": "\\(d=\\sqrt{6^2+4^2+3^2}=\\sqrt{36+16+9}=\\sqrt{61}\\approx7.81\\).",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "three-d-solids-007",
+    "type": "MC",
+    "primarySkill": "three-d-solids",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "A cylindrical tank has radius 5 and height 12. What is its total surface area, in terms of \\(\\pi\\)?",
+    "options": [
+      { "id": "A", "text": "\\(85\\pi\\)" },
+      { "id": "B", "text": "\\(120\\pi\\)" },
+      { "id": "C", "text": "\\(170\\pi\\)" },
+      { "id": "D", "text": "\\(300\\pi\\)" },
+      { "id": "E", "text": "\\(360\\pi\\)" }
+    ],
+    "answer": "C",
+    "solutionStandard": "\\(SA = 2\\pi r^2 + 2\\pi rh = 2\\pi(25) + 2\\pi(5)(12) = 50\\pi + 120\\pi = 170\\pi\\).",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "three-d-solids-008",
+    "type": "Numeric",
+    "primarySkill": "three-d-solids",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "A rectangular box has a square base with side 6 and a volume of 216. What is the height of the box?",
+    "answer": 6,
+    "solutionStandard": "\\(V = 6 \\times 6 \\times h = 216\\), so \\(36h=216\\), giving \\(h=6\\).",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "three-d-solids-009",
+    "type": "MC",
+    "primarySkill": "three-d-solids",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "A cube's surface area is 96. What is its volume?",
+    "options": [
+      { "id": "A", "text": "16" },
+      { "id": "B", "text": "32" },
+      { "id": "C", "text": "48" },
+      { "id": "D", "text": "64" },
+      { "id": "E", "text": "96" }
+    ],
+    "answer": "D",
+    "solutionStandard": "\\(6s^2=96\\), so \\(s^2=16\\), giving \\(s=4\\). Volume \\(=4^3=64\\).",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "three-d-solids-010",
+    "type": "QC",
+    "primarySkill": "three-d-solids",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "A cylinder has radius 4 and height 9. A cone has the same radius and height (volume of a cone \\(= \\frac{1}{3}\\pi r^2 h\\)).",
+    "quantityA": "The volume of the cylinder",
+    "quantityB": "\\(3\\) times the volume of the cone",
+    "answer": "C",
+    "solutionStandard": "Cylinder volume \\(=\\pi(16)(9)=144\\pi\\). Cone volume \\(=\\frac{1}{3}\\pi(16)(9)=48\\pi\\), so 3 times that is \\(144\\pi\\). The quantities are equal.",
+    "timeTargetSec": 75
+  }
+]

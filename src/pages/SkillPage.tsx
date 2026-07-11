@@ -5,6 +5,7 @@ import { storageAdapter } from "../lib/storage";
 import { computeMastery } from "../lib/mastery";
 import { LessonDefinition, LessonExplanation } from "../components/LessonView";
 import { QuestionView, type AnswerResult } from "../components/question/QuestionView";
+import { MasteryBar } from "../components/MasteryBar";
 
 export function SkillPage() {
   const { skillId = "" } = useParams();
@@ -49,7 +50,9 @@ export function SkillPage() {
       <Link to="/skills">&larr; Back to skill list</Link>
       <h1>{skill.name}</h1>
       <p className="skill-description">{skill.description}</p>
-      <p>Mastery: {mastery ? computeMastery(mastery) : 0}%</p>
+      <p>
+        Mastery: <MasteryBar percent={mastery ? computeMastery(mastery) : 0} />
+      </p>
 
       {!started && (
         <>

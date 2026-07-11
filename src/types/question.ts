@@ -1,3 +1,5 @@
+import type { Figure } from "./figure";
+
 export type ShortcutTag = "backsolve" | "plug-in" | "estimate" | "eliminate";
 
 export interface QuestionOption {
@@ -27,6 +29,8 @@ interface QuestionBase {
   diSetId?: string;
   /** When present, {{name}} placeholders in text fields are replaced with a random value on each load. */
   variables?: VariableSpec[];
+  /** An optional diagram shown alongside the stem. */
+  figure?: Figure;
 }
 
 export interface QCQuestion extends QuestionBase {

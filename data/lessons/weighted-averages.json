@@ -1,0 +1,8 @@
+{
+  "skillId": "weighted-averages",
+  "summary": "When groups of different sizes are combined, the overall average leans toward the larger group — it's not just the average of the group averages.",
+  "formulas": [
+    { "name": "Weighted average", "expression": "\\bar{x} = \\frac{n_1\\bar{x}_1 + n_2\\bar{x}_2}{n_1+n_2}" }
+  ],
+  "explanation": "When combining groups with different average values AND different sizes, the overall average is a weighted average: multiply each group's average by its size, add these products together, and divide by the total size. A common error is simply averaging the two group averages (adding them and dividing by 2), which is only correct when the groups are the same size. The combined average always falls between the two group averages, and it lies closer to whichever group has more members — if one group is much larger, the overall average will be very close to that group's average."
+}

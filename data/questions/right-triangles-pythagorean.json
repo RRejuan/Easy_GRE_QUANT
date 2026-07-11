@@ -5,7 +5,17 @@
     "primarySkill": "right-triangles-pythagorean",
     "secondarySkills": [],
     "difficulty": 1,
-    "stem": "A right triangle has legs of length 3 and 4. What is the length of the hypotenuse?",
+    "stem": "In the figure below, what is the length of the hypotenuse?",
+    "figure": {
+      "viewBox": "0 0 200 150",
+      "elements": [
+        { "kind": "polygon", "points": [{ "x": 20, "y": 130 }, { "x": 140, "y": 130 }, { "x": 20, "y": 30 }] },
+        { "kind": "rightAngleMarker", "at": { "x": 20, "y": 130 } },
+        { "kind": "label", "at": { "x": 8, "y": 82 }, "text": "3" },
+        { "kind": "label", "at": { "x": 75, "y": 148 }, "text": "4" },
+        { "kind": "label", "at": { "x": 85, "y": 72 }, "text": "5" }
+      ]
+    },
     "options": [
       {
         "id": "A",

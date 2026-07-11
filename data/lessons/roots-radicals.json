@@ -1,0 +1,10 @@
+{
+  "skillId": "roots-radicals",
+  "summary": "Simplify square roots by pulling out perfect-square factors, and treat radicals like variables when combining like terms.",
+  "formulas": [
+    { "name": "Product rule", "expression": "\\sqrt{ab} = \\sqrt{a} \\times \\sqrt{b}" },
+    { "name": "Quotient rule", "expression": "\\sqrt{\\frac{a}{b}} = \\frac{\\sqrt{a}}{\\sqrt{b}}" },
+    { "name": "Simplifying", "expression": "\\sqrt{n} = \\sqrt{k^2 \\times m} = k\\sqrt{m}" }
+  ],
+  "explanation": "To simplify a square root, factor out the largest perfect square that divides the number: \\(\\sqrt{72} = \\sqrt{36 \\times 2} = 6\\sqrt{2}\\). Radicals can be added or subtracted only when they have the same value under the root sign (like combining like terms): \\(3\\sqrt{2} + 5\\sqrt{2} = 8\\sqrt{2}\\), but \\(3\\sqrt{2} + 5\\sqrt{3}\\) cannot be simplified further. Multiplying radicals uses the product rule: \\(\\sqrt{a}\\times\\sqrt{b}=\\sqrt{ab}\\). A number under a square root that isn't a perfect square is irrational — the GRE often expects answers left in simplified radical form rather than as decimals."
+}
