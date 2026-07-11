@@ -1,0 +1,146 @@
+[
+  {
+    "id": "linear-equations-two-var-001",
+    "type": "Numeric",
+    "primarySkill": "linear-equations-two-var",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "If \\(x + y = 10\\) and \\(x - y = 4\\), what is the value of \\(x\\)?",
+    "answer": 7,
+    "solutionStandard": "Adding the equations: \\(2x = 14\\), so \\(x = 7\\).",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "linear-equations-two-var-002",
+    "type": "Numeric",
+    "primarySkill": "linear-equations-two-var",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "If \\(x + y = 10\\) and \\(x - y = 4\\), what is the value of \\(y\\)?",
+    "answer": 3,
+    "solutionStandard": "Subtracting: \\(2y = 6\\), so \\(y = 3\\).",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "linear-equations-two-var-003",
+    "type": "MC",
+    "primarySkill": "linear-equations-two-var",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "If \\(2x + y = 11\\) and \\(y = x - 1\\), what is the value of \\(x\\)?",
+    "options": [
+      { "id": "A", "text": "2" },
+      { "id": "B", "text": "3" },
+      { "id": "C", "text": "4" },
+      { "id": "D", "text": "5" },
+      { "id": "E", "text": "6" }
+    ],
+    "answer": "C",
+    "solutionStandard": "Substitute \\(y=x-1\\): \\(2x + (x-1) = 11\\), so \\(3x = 12\\) and \\(x=4\\).",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "linear-equations-two-var-004",
+    "type": "Numeric",
+    "primarySkill": "linear-equations-two-var",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "The sum of two numbers is 20 and their difference is 6. What is the larger number?",
+    "answer": 13,
+    "solutionStandard": "Let the numbers be \\(x\\) and \\(y\\) with \\(x+y=20\\), \\(x-y=6\\). Adding: \\(2x=26\\), so \\(x=13\\).",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "linear-equations-two-var-005",
+    "type": "QC",
+    "primarySkill": "linear-equations-two-var",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "\\(3x + 2y = 16\\) and \\(x + 2y = 8\\)",
+    "quantityA": "\\(x\\)",
+    "quantityB": "\\(y\\)",
+    "answer": "A",
+    "solutionStandard": "Subtracting the second equation from the first: \\(2x = 8\\), so \\(x=4\\). Then \\(4+2y=8\\), so \\(y=2\\). Since \\(4>2\\), Quantity A is greater.",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "linear-equations-two-var-006",
+    "type": "MC",
+    "primarySkill": "linear-equations-two-var",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "A store sells pens for $2 each and notebooks for $5 each. A customer buys a total of 10 items for $29. How many pens did they buy?",
+    "options": [
+      { "id": "A", "text": "3" },
+      { "id": "B", "text": "5" },
+      { "id": "C", "text": "6" },
+      { "id": "D", "text": "7" },
+      { "id": "E", "text": "8" }
+    ],
+    "answer": "D",
+    "solutionStandard": "Let \\(p\\) = pens, \\(n\\) = notebooks. \\(p+n=10\\) and \\(2p+5n=29\\). From the first, \\(n=10-p\\). Substituting: \\(2p+5(10-p)=29\\), so \\(2p+50-5p=29\\), giving \\(-3p=-21\\) and \\(p=7\\).",
+    "solutionShortcut": "Backsolve: test \\(p=7, n=3\\): cost \\(=2(7)+5(3)=14+15=29\\). Matches.",
+    "shortcutTags": ["backsolve"],
+    "timeTargetSec": 85
+  },
+  {
+    "id": "linear-equations-two-var-007",
+    "type": "MC",
+    "primarySkill": "linear-equations-two-var",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "Which of the following systems has no solution?",
+    "options": [
+      { "id": "A", "text": "\\(x+y=5\\), \\(x-y=1\\)" },
+      { "id": "B", "text": "\\(2x+y=6\\), \\(4x+2y=12\\)" },
+      { "id": "C", "text": "\\(x+y=4\\), \\(x+y=9\\)" },
+      { "id": "D", "text": "\\(x=3\\), \\(y=2\\)" },
+      { "id": "E", "text": "\\(x+2y=8\\), \\(x-y=2\\)" }
+    ],
+    "answer": "C",
+    "solutionStandard": "(C) says \\(x+y\\) equals both 4 and 9 simultaneously, which is impossible — the lines are parallel and distinct, so there is no solution. (B) is the same line twice (infinitely many solutions), and the rest each have a unique solution.",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "linear-equations-two-var-008",
+    "type": "Numeric",
+    "primarySkill": "linear-equations-two-var",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "If \\(2x - 3y = 4\\) and \\(3x + 2y = 19\\), what is the value of \\(x + y\\)?",
+    "answer": 7,
+    "solutionStandard": "Multiply the first by 2 and the second by 3: \\(4x-6y=8\\) and \\(9x+6y=57\\). Adding: \\(13x=65\\), so \\(x=5\\). Then \\(2(5)-3y=4\\), so \\(3y=6\\) and \\(y=2\\). \\(x+y=7\\).",
+    "timeTargetSec": 90
+  },
+  {
+    "id": "linear-equations-two-var-009",
+    "type": "MC",
+    "primarySkill": "linear-equations-two-var",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "A boat travels 30 miles downstream in 2 hours and 30 miles upstream in 5 hours. What is the speed of the current, in miles per hour?",
+    "options": [
+      { "id": "A", "text": "1.5" },
+      { "id": "B", "text": "3" },
+      { "id": "C", "text": "4.5" },
+      { "id": "D", "text": "6" },
+      { "id": "E", "text": "9" }
+    ],
+    "answer": "C",
+    "solutionStandard": "Let \\(b\\) = boat speed, \\(c\\) = current speed. Downstream rate: \\(b+c = 30/2 = 15\\). Upstream rate: \\(b-c = 30/5 = 6\\). Subtracting the two equations: \\(2c = 9\\), so \\(c = 4.5\\).",
+    "timeTargetSec": 95
+  },
+  {
+    "id": "linear-equations-two-var-010",
+    "type": "QC",
+    "primarySkill": "linear-equations-two-var",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "\\(x\\) and \\(y\\) satisfy \\(x + y = 12\\) and \\(xy = 35\\), with \\(x > y > 0\\).",
+    "quantityA": "\\(x\\)",
+    "quantityB": "\\(7\\)",
+    "answer": "C",
+    "solutionStandard": "The two numbers with sum 12 and product 35 are the roots of \\(t^2 - 12t + 35 = 0\\), which factors as \\((t-5)(t-7)=0\\), giving \\(t=5\\) or \\(t=7\\). Since \\(x>y\\), \\(x=7\\) and \\(y=5\\). The quantities are equal.",
+    "timeTargetSec": 90
+  }
+]

@@ -1,0 +1,148 @@
+[
+  {
+    "id": "counting-combinations-001",
+    "type": "Numeric",
+    "primarySkill": "counting-combinations",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "In how many ways can a committee of 2 people be chosen from a group of 5 people?",
+    "answer": 10,
+    "solutionStandard": "\\(C(5,2) = \\dfrac{5!}{2!3!} = \\dfrac{20}{2} = 10\\).",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "counting-combinations-002",
+    "type": "MC",
+    "primarySkill": "counting-combinations",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "In how many ways can a committee of 3 people be chosen from a group of 6 people?",
+    "options": [
+      { "id": "A", "text": "15" },
+      { "id": "B", "text": "18" },
+      { "id": "C", "text": "20" },
+      { "id": "D", "text": "60" },
+      { "id": "E", "text": "120" }
+    ],
+    "answer": "C",
+    "solutionStandard": "\\(C(6,3) = \\dfrac{6!}{3!3!} = \\dfrac{720}{6\\times6} = 20\\).",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "counting-combinations-003",
+    "type": "QC",
+    "primarySkill": "counting-combinations",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "Compare the two quantities.",
+    "quantityA": "The number of ways to choose 2 people from a group of 5 (order doesn't matter)",
+    "quantityB": "The number of ways to arrange 2 people from a group of 5 in a line (order matters)",
+    "answer": "B",
+    "solutionStandard": "Combinations: \\(C(5,2)=10\\). Permutations: \\(P(5,2)=20\\). Since order-matters counting is always at least as large, Quantity B is greater.",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "counting-combinations-004",
+    "type": "Numeric",
+    "primarySkill": "counting-combinations",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "A standard deck has 52 cards. In how many ways can a hand of 2 cards be chosen (order doesn't matter)?",
+    "answer": 1326,
+    "solutionStandard": "\\(C(52,2) = \\dfrac{52 \\times 51}{2} = 1326\\).",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "counting-combinations-005",
+    "type": "MC",
+    "primarySkill": "counting-combinations",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "A pizza shop offers 6 toppings. How many different 3-topping pizzas can be made (no repeated toppings, order doesn't matter)?",
+    "options": [
+      { "id": "A", "text": "18" },
+      { "id": "B", "text": "20" },
+      { "id": "C", "text": "60" },
+      { "id": "D", "text": "120" },
+      { "id": "E", "text": "216" }
+    ],
+    "answer": "B",
+    "solutionStandard": "\\(C(6,3) = \\dfrac{6!}{3!3!} = 20\\).",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "counting-combinations-006",
+    "type": "Numeric",
+    "primarySkill": "counting-combinations",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "A group has 4 women and 5 men. In how many ways can a team of 2 women and 2 men be chosen?",
+    "answer": 60,
+    "solutionStandard": "Choose women: \\(C(4,2)=6\\). Choose men: \\(C(5,2)=10\\). Total: \\(6 \\times 10 = 60\\).",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "counting-combinations-007",
+    "type": "MultiMC",
+    "primarySkill": "counting-combinations",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "Which of the following scenarios are combination problems (order doesn't matter)? Select all that apply.",
+    "options": [
+      { "id": "A", "text": "Choosing 3 books to bring on a trip from a shelf of 10" },
+      { "id": "B", "text": "Awarding gold, silver, and bronze medals to 3 of 10 racers" },
+      { "id": "C", "text": "Selecting a 5-person jury from a pool of 20" },
+      { "id": "D", "text": "Assigning students to numbered seats in a row" }
+    ],
+    "answer": ["A", "C"],
+    "solutionStandard": "(A) and (C) are unordered selections — a combination. (B) assigns distinct roles (gold/silver/bronze) to specific people, so order/position matters — a permutation. (D) assigns distinct seat numbers, so it's also a permutation.",
+    "timeTargetSec": 80
+  },
+  {
+    "id": "counting-combinations-008",
+    "type": "MC",
+    "primarySkill": "counting-combinations",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "In how many ways can a committee of at least 1 person be chosen from a group of 3 people?",
+    "options": [
+      { "id": "A", "text": "3" },
+      { "id": "B", "text": "6" },
+      { "id": "C", "text": "7" },
+      { "id": "D", "text": "8" },
+      { "id": "E", "text": "9" }
+    ],
+    "answer": "C",
+    "solutionStandard": "Committees of size 1, 2, or 3: \\(C(3,1)+C(3,2)+C(3,3) = 3+3+1 = 7\\).",
+    "timeTargetSec": 85
+  },
+  {
+    "id": "counting-combinations-009",
+    "type": "Numeric",
+    "primarySkill": "counting-combinations",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "A committee of 4 is chosen from 5 women and 4 men. In how many ways can the committee include exactly 2 women and 2 men?",
+    "answer": 60,
+    "solutionStandard": "Choose 2 of 5 women: \\(C(5,2)=10\\). Choose 2 of 4 men: \\(C(4,2)=6\\). Total: \\(10 \\times 6 = 60\\).",
+    "timeTargetSec": 85
+  },
+  {
+    "id": "counting-combinations-010",
+    "type": "MC",
+    "primarySkill": "counting-combinations",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "How many diagonals does a hexagon (6 sides) have?",
+    "options": [
+      { "id": "A", "text": "6" },
+      { "id": "B", "text": "9" },
+      { "id": "C", "text": "12" },
+      { "id": "D", "text": "15" },
+      { "id": "E", "text": "18" }
+    ],
+    "answer": "B",
+    "solutionStandard": "The number of segments connecting any 2 of the 6 vertices is \\(C(6,2)=15\\). Subtract the 6 sides themselves (which connect adjacent vertices, not diagonals): \\(15-6=9\\).",
+    "timeTargetSec": 90
+  }
+]

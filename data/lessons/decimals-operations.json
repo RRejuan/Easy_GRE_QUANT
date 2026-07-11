@@ -1,0 +1,8 @@
+{
+  "skillId": "decimals-operations",
+  "summary": "Line up decimal points for addition/subtraction; count decimal places for multiplication; shift both numbers for division.",
+  "formulas": [
+    { "name": "Multiplication place count", "expression": "\\text{decimal places in product} = \\text{sum of decimal places in factors}" }
+  ],
+  "explanation": "To add or subtract decimals, align the decimal points (padding with zeros if needed) and operate as with whole numbers. To multiply decimals, multiply as if there were no decimal points, then place the decimal point in the product so that the number of decimal places equals the sum of the decimal places in the factors. To divide by a decimal, shift the decimal point in both the divisor and dividend the same number of places to make the divisor a whole number, then divide normally. Converting between decimals and fractions: a decimal's place value gives the fraction's denominator directly (e.g. \\(0.375 = 375/1000\\), which simplifies to \\(3/8\\))."
+}

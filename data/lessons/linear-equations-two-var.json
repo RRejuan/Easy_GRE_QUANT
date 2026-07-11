@@ -1,0 +1,9 @@
+{
+  "skillId": "linear-equations-two-var",
+  "summary": "Two independent linear equations in two unknowns can be solved by substitution or elimination.",
+  "formulas": [
+    { "name": "Elimination", "expression": "\\text{scale equations so a variable's coefficients are opposites, then add}" },
+    { "name": "Substitution", "expression": "\\text{solve one equation for one variable, substitute into the other}" }
+  ],
+  "explanation": "A system of two linear equations in two variables has a unique solution when the two equations represent different lines (they intersect at exactly one point). Substitution works well when one equation is already solved (or easily solved) for one variable: substitute that expression into the other equation to get a single-variable equation. Elimination works well when you can multiply one or both equations by constants so that the coefficients of one variable become opposites, then add the equations to cancel that variable. If, after simplifying, both variables cancel and you're left with a true statement (like \\(0=0\\)), the system has infinitely many solutions (the equations describe the same line); if you're left with a false statement (like \\(0=5\\)), the system has no solution (the lines are parallel and distinct)."
+}

@@ -1,0 +1,11 @@
+{
+  "skillId": "exponents-basic",
+  "summary": "Exponent rules let you combine powers of the same base by adding, subtracting, or multiplying exponents instead of expanding them.",
+  "formulas": [
+    { "name": "Product of powers", "expression": "a^m \\times a^n = a^{m+n}" },
+    { "name": "Quotient of powers", "expression": "a^m \\div a^n = a^{m-n}" },
+    { "name": "Power of a power", "expression": "(a^m)^n = a^{mn}" },
+    { "name": "Zero and negative exponents", "expression": "a^0 = 1, \\quad a^{-n} = \\frac{1}{a^n}" }
+  ],
+  "explanation": "When multiplying powers with the same base, add the exponents; when dividing, subtract them. When raising a power to another power, multiply the exponents. Any nonzero number raised to the 0 power equals 1, and a negative exponent means \"take the reciprocal\": \\(a^{-n} = 1/a^n\\). These rules only combine directly when the bases match — \\(2^3 \\times 3^2\\) cannot be simplified using the product rule since the bases differ. A common GRE trap is applying exponent rules to addition instead of multiplication (e.g. \\(a^m + a^n \\neq a^{m+n}\\))."
+}
