@@ -1,0 +1,8 @@
+{
+  "skillId": "order-of-operations",
+  "summary": "Evaluate expressions in a fixed order: parentheses, exponents, multiplication/division (left to right), addition/subtraction (left to right).",
+  "formulas": [
+    { "name": "PEMDAS", "expression": "(\\ )\\ \\to\\ x^n\\ \\to\\ \\times, \\div\\ (\\text{left to right})\\ \\to\\ +, -\\ (\\text{left to right})" }
+  ],
+  "explanation": "PEMDAS is a priority order, not a left-to-right sequence of separate passes: multiplication and division have equal priority and are done left to right as they appear, and the same is true for addition and subtraction. A common error is doing all multiplication before all division, or all addition before all subtraction, when the correct rule is to work left to right within each priority level. With signed numbers, evaluate what is inside parentheses first, then apply exponents (careful with $-3^2 = -9$ vs $(-3)^2 = 9$), then handle multiplication/division and addition/subtraction in the order they occur."
+}

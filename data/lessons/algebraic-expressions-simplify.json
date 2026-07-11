@@ -1,0 +1,9 @@
+{
+  "skillId": "algebraic-expressions-simplify",
+  "summary": "Simplify expressions by distributing over parentheses and combining like terms (same variable, same exponent).",
+  "formulas": [
+    { "name": "Distributive property", "expression": "a(b + c) = ab + ac" },
+    { "name": "Combining like terms", "expression": "ax + bx = (a+b)x" }
+  ],
+  "explanation": "The distributive property lets you multiply a term through a sum or difference inside parentheses: $a(b+c) = ab+ac$. When a negative sign or negative coefficient is distributed, every term inside the parentheses flips sign: $-(x-3) = -x+3$. Like terms are terms with the exact same variable part (same letters raised to the same powers); only like terms can be combined by adding or subtracting their coefficients. A common error is combining unlike terms (e.g. treating $x$ and $x^2$ as the same) or mishandling the sign when distributing a negative."
+}

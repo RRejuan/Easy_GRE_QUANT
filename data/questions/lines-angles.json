@@ -1,0 +1,150 @@
+[
+  {
+    "id": "lines-angles-001",
+    "type": "Numeric",
+    "primarySkill": "lines-angles",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "Two angles lie on a straight line. One measures $65^\\circ$. What is the measure, in degrees, of the other angle?",
+    "answer": 115,
+    "solutionStandard": "Angles on a straight line sum to $180^\\circ$: $180 - 65 = 115$.",
+    "timeTargetSec": 30
+  },
+  {
+    "id": "lines-angles-002",
+    "type": "MC",
+    "primarySkill": "lines-angles",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "Two lines intersect, forming an angle of $40^\\circ$. What is the measure of the angle vertical to it?",
+    "options": [
+      { "id": "A", "text": "$40^\\circ$" },
+      { "id": "B", "text": "$50^\\circ$" },
+      { "id": "C", "text": "$140^\\circ$" },
+      { "id": "D", "text": "$160^\\circ$" },
+      { "id": "E", "text": "$180^\\circ$" }
+    ],
+    "answer": "A",
+    "solutionStandard": "Vertical angles are always equal, so the vertical angle also measures $40^\\circ$.",
+    "timeTargetSec": 30
+  },
+  {
+    "id": "lines-angles-003",
+    "type": "Numeric",
+    "primarySkill": "lines-angles",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "Two lines intersect. One of the four angles formed is $70^\\circ$. What is the measure, in degrees, of an angle adjacent to it?",
+    "answer": 110,
+    "solutionStandard": "Adjacent angles formed by intersecting lines are supplementary: $180 - 70 = 110$.",
+    "timeTargetSec": 40
+  },
+  {
+    "id": "lines-angles-004",
+    "type": "MC",
+    "primarySkill": "lines-angles",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "A transversal crosses two parallel lines, forming an angle of $110^\\circ$ with one of them. What is the measure of the corresponding angle at the other parallel line?",
+    "options": [
+      { "id": "A", "text": "$70^\\circ$" },
+      { "id": "B", "text": "$90^\\circ$" },
+      { "id": "C", "text": "$110^\\circ$" },
+      { "id": "D", "text": "$130^\\circ$" },
+      { "id": "E", "text": "$180^\\circ$" }
+    ],
+    "answer": "C",
+    "solutionStandard": "Corresponding angles formed by a transversal crossing parallel lines are always equal, so the corresponding angle is also $110^\\circ$.",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "lines-angles-005",
+    "type": "QC",
+    "primarySkill": "lines-angles",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "A transversal crosses two parallel lines. One angle formed is $65^\\circ$, and another angle (at the other parallel line) is a co-interior (same-side interior) angle with it.",
+    "quantityA": "The co-interior angle",
+    "quantityB": "$115^\\circ$",
+    "answer": "C",
+    "solutionStandard": "Co-interior angles are supplementary: $180 - 65 = 115$. The quantities are equal.",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "lines-angles-006",
+    "type": "MultiMC",
+    "primarySkill": "lines-angles",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "A transversal crosses two parallel lines, creating an angle of $50^\\circ$ at the first line. Which of the following angles at the second parallel line must measure $130^\\circ$? Select all that apply.",
+    "options": [
+      { "id": "A", "text": "The corresponding angle" },
+      { "id": "B", "text": "The co-interior (same-side interior) angle" },
+      { "id": "C", "text": "The alternate exterior angle" },
+      { "id": "D", "text": "The angle supplementary to the corresponding angle" }
+    ],
+    "answer": ["B", "D"],
+    "solutionStandard": "The corresponding angle equals $50^\\circ$ (not $130^\\circ$), so (A) is false. The co-interior angle is supplementary to $50^\\circ$: $180-50=130^\\circ$, so (B) is true. The alternate exterior angle equals $50^\\circ$ (not $130^\\circ$), so (C) is false. Any angle supplementary to the $50^\\circ$ corresponding angle is $130^\\circ$, so (D) is true.",
+    "timeTargetSec": 90
+  },
+  {
+    "id": "lines-angles-007",
+    "type": "Numeric",
+    "primarySkill": "lines-angles",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "Three angles around a point measure $x$, $2x$, and $3x$ degrees. What is the value of $x$?",
+    "answer": 60,
+    "solutionStandard": "Angles around a point sum to $360^\\circ$: $x + 2x + 3x = 360$, so $6x = 360$ and $x = 60$.",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "lines-angles-008",
+    "type": "MC",
+    "primarySkill": "lines-angles",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "Two angles are supplementary. One angle is $30^\\circ$ more than twice the other. What is the measure of the smaller angle?",
+    "options": [
+      { "id": "A", "text": "$40^\\circ$" },
+      { "id": "B", "text": "$45^\\circ$" },
+      { "id": "C", "text": "$50^\\circ$" },
+      { "id": "D", "text": "$60^\\circ$" },
+      { "id": "E", "text": "$70^\\circ$" }
+    ],
+    "answer": "C",
+    "solutionStandard": "Let the smaller angle be $x$. Then $x + (2x + 30) = 180$, so $3x = 150$ and $x = 50$.",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "lines-angles-009",
+    "type": "MC",
+    "primarySkill": "lines-angles",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "Two parallel lines are cut by a transversal. The measure of one interior angle is $3x + 10$ and its co-interior (same-side interior) angle is $2x + 20$. What is $x$?",
+    "options": [
+      { "id": "A", "text": "10" },
+      { "id": "B", "text": "20" },
+      { "id": "C", "text": "24" },
+      { "id": "D", "text": "30" },
+      { "id": "E", "text": "34" }
+    ],
+    "answer": "D",
+    "solutionStandard": "Co-interior angles are supplementary: $(3x+10) + (2x+20) = 180$, so $5x + 30 = 180$, giving $5x=150$ and $x=30$.",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "lines-angles-010",
+    "type": "QC",
+    "primarySkill": "lines-angles",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "Lines $\\ell_1$ and $\\ell_2$ intersect at a point, forming four angles. The largest of the four angles is $x$ degrees.",
+    "quantityA": "$x$",
+    "quantityB": "$90$",
+    "answer": "D",
+    "solutionStandard": "If the lines are perpendicular, all four angles are $90^\\circ$, so $x = 90$. If the lines are not perpendicular, the largest angle exceeds $90^\\circ$. Since both cases are possible, the relationship cannot be determined.",
+    "timeTargetSec": 65
+  }
+]
