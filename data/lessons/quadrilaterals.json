@@ -1,0 +1,12 @@
+{
+  "skillId": "quadrilaterals",
+  "summary": "Rectangles, squares, parallelograms, and trapezoids each have their own area formula, but they share key properties worth memorizing (angle sums, diagonal behavior).",
+  "formulas": [
+    { "name": "Rectangle", "expression": "A = lw,\\ \\ P = 2(l+w)" },
+    { "name": "Square", "expression": "A = s^2,\\ \\ P = 4s" },
+    { "name": "Parallelogram", "expression": "A = \\text{base} \\times \\text{height}" },
+    { "name": "Trapezoid", "expression": "A = \\frac{1}{2}(b_1+b_2)h" },
+    { "name": "Interior angle sum", "expression": "\\text{sum of interior angles} = 360^\\circ", "notes": "true for any quadrilateral, not just special ones" }
+  ],
+  "explanation": "The interior angles of any quadrilateral always sum to $360^\\circ$, regardless of its shape. In a parallelogram, opposite sides are equal and parallel, opposite angles are equal, and the diagonals bisect each other (but are not necessarily equal in length or perpendicular). A rectangle is a parallelogram with four right angles, so its diagonals are also equal in length. A square is both a rectangle and a rhombus (equal sides), so it has all of those properties plus perpendicular diagonals. For area, a rectangle's area is length times width; a parallelogram's area is base times the perpendicular height (not the slanted side length); a trapezoid's area averages its two parallel sides and multiplies by the height. When a rectangle's diagonal is given along with one side, the diagonal, side, and other side form a right triangle, so the Pythagorean theorem applies directly."
+}
