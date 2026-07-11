@@ -1,3 +1,73 @@
+.app-shell {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 12px 24px;
+  background: var(--bg-card);
+  border-bottom: 1px solid var(--border);
+  flex-wrap: wrap;
+}
+
+.logo-link {
+  color: inherit;
+}
+.logo-link:hover {
+  color: inherit;
+}
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-wordmark {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--text-h);
+}
+
+.app-nav {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.app-nav a {
+  color: var(--text);
+  text-decoration: none;
+}
+.app-nav a:hover {
+  color: var(--primary);
+}
+
+.profile-switcher {
+  margin-left: auto;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.profile-switcher select {
+  font: inherit;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+  color: var(--text);
+  padding: 4px 6px;
+}
+
+.app-main {
+  flex: 1;
+  width: 100%;
+}
+
 .skill-list-page,
 .skill-page {
   max-width: 720px;
@@ -15,8 +85,60 @@
   padding: 4px 0;
 }
 
+.mock-test-cta {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 16px;
+  margin: 16px 0;
+}
+
+.cta-button {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 10px 18px;
+  background: var(--primary);
+  color: var(--primary-contrast) !important;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.cta-button:hover {
+  background: var(--primary-hover);
+  color: var(--primary-contrast) !important;
+}
+
+.area-mastery-chart {
+  width: 100%;
+  max-width: 520px;
+  height: auto;
+  margin: 16px 0;
+}
+.chart-bar {
+  fill: var(--chart-bar);
+}
+.chart-baseline {
+  stroke: var(--chart-baseline);
+  stroke-width: 1;
+}
+.chart-value-label {
+  fill: var(--text-h);
+  font-size: 13px;
+  font-weight: 600;
+}
+.chart-axis-label {
+  fill: var(--chart-label);
+  font-size: 12px;
+}
+
+.variable-value {
+  color: var(--variable);
+  font-weight: 600;
+}
+
 .question {
-  border: 1px solid #ccc;
+  border: 1px solid var(--border);
+  background: var(--bg-card);
   border-radius: 8px;
   padding: 16px;
   margin: 16px 0;
@@ -40,24 +162,25 @@ fieldset label {
 }
 
 .result-correct {
-  color: #1a7f37;
+  color: var(--success);
   font-weight: bold;
 }
 
 .result-incorrect {
-  color: #cf222e;
+  color: var(--danger);
   font-weight: bold;
 }
 
 .solution {
-  background: rgba(127, 127, 127, 0.08);
+  background: var(--bg);
   border-radius: 8px;
   padding: 12px;
   margin-top: 8px;
 }
 
 .lesson {
-  background: rgba(127, 127, 127, 0.05);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
   border-radius: 8px;
   padding: 16px;
   margin: 12px 0;
@@ -67,9 +190,14 @@ fieldset label {
   padding-left: 20px;
 }
 
+.explanation-toggle {
+  margin-top: 12px;
+}
+
 .calculator {
   width: 220px;
-  border: 1px solid #ccc;
+  border: 1px solid var(--border);
+  background: var(--bg-card);
   border-radius: 8px;
   padding: 8px;
   margin: 12px 0;
@@ -81,7 +209,7 @@ fieldset label {
   font-size: 1.2rem;
   padding: 8px;
   margin-bottom: 8px;
-  background: rgba(127, 127, 127, 0.08);
+  background: var(--bg);
   border-radius: 4px;
   min-height: 1.5em;
 }

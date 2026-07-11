@@ -2,10 +2,22 @@
   "skillId": "probability-basic",
   "summary": "Probability is favorable outcomes over total outcomes. Independent events multiply; mutually exclusive events add; complements subtract from 1.",
   "formulas": [
-    { "name": "Basic probability", "expression": "P(\\text{event}) = \\frac{\\text{favorable outcomes}}{\\text{total outcomes}}" },
-    { "name": "Independent events (and)", "expression": "P(A \\text{ and } B) = P(A) \\times P(B)" },
-    { "name": "Mutually exclusive events (or)", "expression": "P(A \\text{ or } B) = P(A) + P(B)" },
-    { "name": "Complement rule", "expression": "P(\\text{not } A) = 1 - P(A)" }
+    {
+      "name": "Basic probability",
+      "expression": "P(\\text{event}) = \\frac{\\text{favorable outcomes}}{\\text{total outcomes}}"
+    },
+    {
+      "name": "Independent events (and)",
+      "expression": "P(A \\text{ and } B) = P(A) \\times P(B)"
+    },
+    {
+      "name": "Mutually exclusive events (or)",
+      "expression": "P(A \\text{ or } B) = P(A) + P(B)"
+    },
+    {
+      "name": "Complement rule",
+      "expression": "P(\\text{not } A) = 1 - P(A)"
+    }
   ],
   "explanation": "Probability of an event is the number of favorable outcomes divided by the total number of equally likely outcomes. When two events are independent (one doesn't affect the other), the probability that both happen is the product of their individual probabilities. When two events cannot both happen (mutually exclusive), the probability that either one happens is the sum of their probabilities. The complement rule is a powerful shortcut: instead of computing the probability of a complex event directly, it is often easier to compute the probability that it does NOT happen and subtract from 1 — this is especially useful for \"at least one\" problems, where 'not at least one' means 'none.' When outcomes involve choosing a group of items (rather than an ordered sequence), use combinations to count favorable and total outcomes."
 }

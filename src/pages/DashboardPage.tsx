@@ -3,6 +3,7 @@ import { groupSkillsByAreaAndTopic, skillsWithContent } from "../lib/content";
 import { storageAdapter } from "../lib/storage";
 import { computeMastery } from "../lib/mastery";
 import { recommendNextSkill } from "../lib/recommend";
+import { AreaMasteryChart } from "../components/AreaMasteryChart";
 
 export function DashboardPage() {
   const skills = skillsWithContent();
@@ -22,13 +23,37 @@ export function DashboardPage() {
             skills.length,
         );
 
+  const areaOrder = ["Arithmetic", "Algebra", "Geometry", "Data Analysis"];
+  const areaMastery = areaOrder.map((area) => {
+    const areaSkills = skills.filter((s) => s.area === area);
+    const mastery =
+      areaSkills.length === 0
+        ? 0
+        : Math.round(
+            areaSkills.reduce((sum, s) => sum + (masteryBySkill.get(s.id) ?? 0), 0) /
+              areaSkills.length,
+          );
+    return { area, mastery };
+  });
+
   const recommended = recommendNextSkill();
   const groups = groupSkillsByAreaAndTopic(skills);
 
   return (
-    <div className="skill-page">
-      <Link to="/">&larr; Back to skill list</Link>
+    <div className="skill-page dashboard-page">
       <h1>Dashboard</h1>
+
+      <div className="mock-test-cta">
+        <p>
+          New here, or want a fresh read on where you stand? Take a quick
+          spread of questions across every skill available so far.
+        </p>
+        <Link to="/diagnostic" className="cta-button">
+          Let's start with a mock test
+        </Link>
+      </div>
+
+      <AreaMasteryChart data={areaMastery} />
 
       <p>
         Overall mastery: {overallMastery}% across {skills.length} skills (
@@ -40,10 +65,6 @@ export function DashboardPage() {
           Recommended next: <Link to={`/skill/${recommended.id}`}>{recommended.name}</Link>
         </p>
       )}
-
-      <p>
-        Haven't taken it yet? <Link to="/diagnostic">Start the diagnostic</Link>.
-      </p>
 
       {groups.map((group) => (
         <section key={group.area}>

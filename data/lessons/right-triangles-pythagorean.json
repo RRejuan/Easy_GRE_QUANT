@@ -2,8 +2,16 @@
   "skillId": "right-triangles-pythagorean",
   "summary": "In any right triangle, the square of the hypotenuse equals the sum of the squares of the two legs. Recognizing common integer triples turns most problems into lookups instead of computation.",
   "formulas": [
-    { "name": "Pythagorean theorem", "expression": "a^2 + b^2 = c^2", "notes": "a, b are legs; c is the hypotenuse (the side opposite the right angle, always the longest)." },
-    { "name": "Common triples", "expression": "(3,4,5),\\ (5,12,13),\\ (8,15,17),\\ (7,24,25)", "notes": "Any integer multiple of a triple is also a valid triple, e.g. (6,8,10) = 2\\times(3,4,5)." }
+    {
+      "name": "Pythagorean theorem",
+      "expression": "a^2 + b^2 = c^2",
+      "notes": "a, b are legs; c is the hypotenuse (the side opposite the right angle, always the longest)."
+    },
+    {
+      "name": "Common triples",
+      "expression": "(3,4,5),\\ (5,12,13),\\ (8,15,17),\\ (7,24,25)",
+      "notes": "Any integer multiple of a triple is also a valid triple, e.g. \\((6,8,10) = 2\\times(3,4,5)\\)."
+    }
   ],
-  "explanation": "The Pythagorean theorem relates the three sides of any right triangle: if the legs are $a$ and $b$ and the hypotenuse is $c$, then $a^2 + b^2 = c^2$. The hypotenuse is always the side opposite the right angle and is always the longest side. Rather than squaring and taking square roots every time, memorize the small set of Pythagorean triples that show up repeatedly on the GRE: 3-4-5, 5-12-13, 8-15-17, and 7-24-25, along with their integer multiples (6-8-10, 9-12-15, 10-24-26, etc.). Spotting a triple instantly turns a two-step algebra problem into a one-step lookup. When a problem doesn't match a memorized triple, fall back on the formula directly: solve for the missing side by isolating it and taking a square root."
+  "explanation": "The Pythagorean theorem relates the three sides of any right triangle: if the legs are \\(a\\) and \\(b\\) and the hypotenuse is \\(c\\), then \\(a^2 + b^2 = c^2\\). The hypotenuse is always the side opposite the right angle and is always the longest side. Rather than squaring and taking square roots every time, memorize the small set of Pythagorean triples that show up repeatedly on the GRE: 3-4-5, 5-12-13, 8-15-17, and 7-24-25, along with their integer multiples (6-8-10, 9-12-15, 10-24-26, etc.). Spotting a triple instantly turns a two-step algebra problem into a one-step lookup. When a problem doesn't match a memorized triple, fall back on the formula directly: solve for the missing side by isolating it and taking a square root."
 }
