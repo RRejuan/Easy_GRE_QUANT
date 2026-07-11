@@ -273,5 +273,158 @@
     "answer": "D",
     "solutionStandard": "\\(\\frac{1}{2} + \\frac{1}{3} = \\frac{5}{6}\\). Dividing by \\(\\frac{1}{4}\\) means multiplying by 4: \\(\\frac{5}{6} \\times 4 = \\frac{20}{6} = \\frac{10}{3}\\).",
     "timeTargetSec": 75
+  },
+  {
+    "id": "fractions-operations-011",
+    "type": "Numeric",
+    "primarySkill": "fractions-operations",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "variables": [
+      { "name": "a", "min": 1, "max": 4, "step": 1 },
+      { "name": "b", "min": 1, "max": 5, "step": 1 }
+    ],
+    "stem": "What is \\(\\dfrac{{{a}}}{10} + \\dfrac{{{b}}}{10}\\)?",
+    "answer": 0.5,
+    "answerFormula": "(a + b) / 10",
+    "solutionStandard": "Same denominator, add numerators: \\(\\dfrac{ {{a}} + {{b}} }{10} = \\dfrac{ {{a+b}} }{10} = {{(a+b)/10}}\\).",
+    "timeTargetSec": 35
+  },
+  {
+    "id": "fractions-operations-012",
+    "type": "MC",
+    "primarySkill": "fractions-operations",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "What is \\(\\dfrac{5}{6} - \\dfrac{1}{6}\\)?",
+    "options": [
+      { "id": "A", "text": "\\(1/6\\)" },
+      { "id": "B", "text": "\\(2/3\\)" },
+      { "id": "C", "text": "\\(3/4\\)" },
+      { "id": "D", "text": "\\(4/6\\)" },
+      { "id": "E", "text": "\\(5/6\\)" }
+    ],
+    "answer": "B",
+    "solutionStandard": "\\(\\dfrac{5}{6} - \\dfrac{1}{6} = \\dfrac{4}{6} = \\dfrac{2}{3}\\) (in lowest terms; (D) is the unsimplified form).",
+    "timeTargetSec": 40
+  },
+  {
+    "id": "fractions-operations-013",
+    "type": "Numeric",
+    "primarySkill": "fractions-operations",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "variables": [{ "name": "n", "min": 5, "max": 50, "step": 5 }],
+    "stem": "What is \\(\\dfrac{2}{5}\\) of {{n}}?",
+    "answer": 8,
+    "answerFormula": "n * 2 / 5",
+    "solutionStandard": "\\(\\dfrac{2}{5} \\times {{n}} = {{n*2/5}}\\).",
+    "timeTargetSec": 50
+  },
+  {
+    "id": "fractions-operations-014",
+    "type": "MC",
+    "primarySkill": "fractions-operations",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "What is \\(3\\dfrac{1}{4}\\) expressed as an improper fraction?",
+    "options": [
+      { "id": "A", "text": "\\(7/4\\)" },
+      { "id": "B", "text": "\\(9/4\\)" },
+      { "id": "C", "text": "\\(12/4\\)" },
+      { "id": "D", "text": "\\(13/4\\)" },
+      { "id": "E", "text": "\\(16/4\\)" }
+    ],
+    "answer": "D",
+    "solutionStandard": "\\(3\\dfrac{1}{4} = \\dfrac{3\\times4+1}{4} = \\dfrac{13}{4}\\).",
+    "timeTargetSec": 40
+  },
+  {
+    "id": "fractions-operations-015",
+    "type": "QC",
+    "primarySkill": "fractions-operations",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "Compare the two quantities.",
+    "quantityA": "\\(\\dfrac{3}{7}\\)",
+    "quantityB": "\\(\\dfrac{5}{11}\\)",
+    "answer": "B",
+    "solutionStandard": "Cross-multiply: \\(3 \\times 11 = 33\\) and \\(5 \\times 7 = 35\\). Since \\(35 > 33\\), \\(\\dfrac{5}{11} > \\dfrac{3}{7}\\), so Quantity B is greater.",
+    "timeTargetSec": 50
+  },
+  {
+    "id": "fractions-operations-016",
+    "type": "MultiMC",
+    "primarySkill": "fractions-operations",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "Which of the following are equivalent to \\(\\dfrac{5}{8}\\)? Select all that apply.",
+    "options": [
+      { "id": "A", "text": "\\(10/16\\)" },
+      { "id": "B", "text": "\\(15/24\\)" },
+      { "id": "C", "text": "\\(20/30\\)" },
+      { "id": "D", "text": "\\(25/40\\)" },
+      { "id": "E", "text": "\\(0.625\\)" }
+    ],
+    "answer": ["A", "B", "D", "E"],
+    "solutionStandard": "\\(\\dfrac{5}{8}=0.625\\). Scaling by 2, 3, and 5 gives \\(10/16\\), \\(15/24\\), \\(25/40\\), all equal to \\(5/8\\). But \\(20/30 = 2/3 \\neq 5/8\\).",
+    "timeTargetSec": 80
+  },
+  {
+    "id": "fractions-operations-017",
+    "type": "Numeric",
+    "primarySkill": "fractions-operations",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "variables": [{ "name": "n", "min": 20, "max": 200, "step": 4 }],
+    "stem": "A tank is \\(\\dfrac{3}{4}\\) full and has a total capacity of {{n}} gallons. How many gallons of liquid are currently in the tank?",
+    "answer": 30,
+    "answerFormula": "3 * n / 4",
+    "solutionStandard": "\\(\\dfrac{3}{4} \\times {{n}} = {{3*n/4}}\\) gallons.",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "fractions-operations-018",
+    "type": "MC",
+    "primarySkill": "fractions-operations",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "In a class, \\(\\dfrac{2}{3}\\) of the students play a sport, and \\(\\dfrac{1}{4}\\) of those who play a sport also play in the band. What fraction of the whole class plays both a sport and is in the band?",
+    "options": [
+      { "id": "A", "text": "\\(1/12\\)" },
+      { "id": "B", "text": "\\(1/7\\)" },
+      { "id": "C", "text": "\\(1/6\\)" },
+      { "id": "D", "text": "\\(1/3\\)" },
+      { "id": "E", "text": "\\(3/4\\)" }
+    ],
+    "answer": "C",
+    "solutionStandard": "\\(\\dfrac{2}{3} \\times \\dfrac{1}{4} = \\dfrac{2}{12} = \\dfrac{1}{6}\\).",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "fractions-operations-019",
+    "type": "Numeric",
+    "primarySkill": "fractions-operations",
+    "secondarySkills": ["linear-equations-one-var"],
+    "difficulty": 4,
+    "variables": [{ "name": "m", "min": 12, "max": 60, "step": 6 }],
+    "stem": "If \\(\\dfrac{3}{8}\\) of a number is {{m}} more than \\(\\dfrac{1}{4}\\) of the same number, what is the number?",
+    "answer": 192,
+    "answerFormula": "8 * m",
+    "solutionStandard": "Let the number be \\(x\\). \\(\\dfrac{3}{8}x - \\dfrac{1}{4}x = {{m}}\\), so \\(\\dfrac{1}{8}x = {{m}}\\), giving \\(x = {{8*m}}\\).",
+    "timeTargetSec": 85
+  },
+  {
+    "id": "fractions-operations-020",
+    "type": "QC",
+    "primarySkill": "fractions-operations",
+    "secondarySkills": [],
+    "difficulty": 5,
+    "stem": "\\(x\\) and \\(y\\) are positive integers, and the fraction \\(\\dfrac{x}{y}\\) is already in lowest terms.",
+    "quantityA": "The greatest common divisor of \\(x\\) and \\(y\\)",
+    "quantityB": "\\(1\\)",
+    "answer": "C",
+    "solutionStandard": "A fraction is \"in lowest terms\" exactly when its numerator and denominator share no common factor other than 1 — that is, by definition, \\(\\gcd(x,y)=1\\). The quantities are always equal.",
+    "timeTargetSec": 70
   }
 ]

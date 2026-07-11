@@ -146,5 +146,151 @@
     "answer": 9,
     "solutionStandard": "Units digits of powers of 7 cycle every 4: \\(7^1=7, 7^2=...9, 7^3=...3, 7^4=...1\\), then repeat. \\(10 \\mod 4 = 2\\), so the units digit matches \\(7^2\\), which is 9.",
     "timeTargetSec": 90
+  },
+  {
+    "id": "exponents-basic-011",
+    "type": "Numeric",
+    "primarySkill": "exponents-basic",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "variables": [{ "name": "a", "min": 2, "max": 6, "step": 1 }],
+    "stem": "What is \\({{a}}^3\\)?",
+    "answer": 27,
+    "answerFormula": "Math.pow(a, 3)",
+    "solutionStandard": "\\({{a}}^3 = {{a}} \\times {{a}} \\times {{a}} = {{Math.pow(a,3)}}\\).",
+    "timeTargetSec": 35
+  },
+  {
+    "id": "exponents-basic-012",
+    "type": "MC",
+    "primarySkill": "exponents-basic",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "What is \\((-3)^0\\)?",
+    "options": [
+      { "id": "A", "text": "-3" },
+      { "id": "B", "text": "-1" },
+      { "id": "C", "text": "0" },
+      { "id": "D", "text": "1" },
+      { "id": "E", "text": "3" }
+    ],
+    "answer": "D",
+    "solutionStandard": "Any nonzero number raised to the power 0 equals 1.",
+    "timeTargetSec": 30
+  },
+  {
+    "id": "exponents-basic-013",
+    "type": "Numeric",
+    "primarySkill": "exponents-basic",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "What is \\(2^{-3}\\)?",
+    "answer": 0.125,
+    "solutionStandard": "\\(2^{-3} = \\dfrac{1}{2^3} = \\dfrac{1}{8} = 0.125\\).",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "exponents-basic-014",
+    "type": "MC",
+    "primarySkill": "exponents-basic",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "Simplify: \\(\\dfrac{x^5}{x^2}\\) (for \\(x \\neq 0\\))",
+    "options": [
+      { "id": "A", "text": "\\(x^3\\)" },
+      { "id": "B", "text": "\\(x^{7}\\)" },
+      { "id": "C", "text": "\\(x^{10}\\)" },
+      { "id": "D", "text": "\\(x\\)" },
+      { "id": "E", "text": "\\(x^{2.5}\\)" }
+    ],
+    "answer": "A",
+    "solutionStandard": "When dividing powers with the same base, subtract exponents: \\(x^{5-2}=x^3\\).",
+    "timeTargetSec": 40
+  },
+  {
+    "id": "exponents-basic-015",
+    "type": "QC",
+    "primarySkill": "exponents-basic",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "variables": [{ "name": "a", "min": 2, "max": 9, "step": 1 }],
+    "stem": "\\(n = {{a}}\\).",
+    "quantityA": "\\(n^2 \\times n^3\\)",
+    "quantityB": "\\(n^5\\)",
+    "answer": "C",
+    "solutionStandard": "By the product rule for exponents, \\(n^2 \\times n^3 = n^{2+3} = n^5\\). The quantities are always equal.",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "exponents-basic-016",
+    "type": "MultiMC",
+    "primarySkill": "exponents-basic",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "Which of the following equal \\(2^6\\)? Select all that apply.",
+    "options": [
+      { "id": "A", "text": "\\(4^3\\)" },
+      { "id": "B", "text": "\\(8^2\\)" },
+      { "id": "C", "text": "\\(6^2\\)" },
+      { "id": "D", "text": "\\(2 \\times 2^5\\)" }
+    ],
+    "answer": ["A", "B", "D"],
+    "solutionStandard": "\\(2^6 = 64\\). \\(4^3 = (2^2)^3 = 2^6 = 64\\). \\(8^2 = (2^3)^2 = 2^6 = 64\\). \\(2 \\times 2^5 = 2^6 = 64\\). But \\(6^2 = 36 \\neq 64\\).",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "exponents-basic-017",
+    "type": "Numeric",
+    "primarySkill": "exponents-basic",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "variables": [{ "name": "a", "min": 2, "max": 9, "step": 1 }],
+    "stem": "If \\({{a}}^x = {{Math.pow(a,3)}}\\), what is \\(x\\)?",
+    "answer": 3,
+    "answerFormula": "3",
+    "solutionStandard": "The right side is \\({{a}}\\) raised to the third power, so matching bases gives \\(x=3\\), regardless of the specific base.",
+    "timeTargetSec": 50
+  },
+  {
+    "id": "exponents-basic-018",
+    "type": "MC",
+    "primarySkill": "exponents-basic",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "If \\(4^x = 8^y\\) and \\(x, y\\) are positive, what is \\(\\dfrac{x}{y}\\)?",
+    "options": [
+      { "id": "A", "text": "\\(2/3\\)" },
+      { "id": "B", "text": "\\(3/4\\)" },
+      { "id": "C", "text": "\\(1\\)" },
+      { "id": "D", "text": "\\(4/3\\)" },
+      { "id": "E", "text": "\\(3/2\\)" }
+    ],
+    "answer": "E",
+    "solutionStandard": "Write both sides with base 2: \\(4^x = 2^{2x}\\) and \\(8^y=2^{3y}\\). Equal powers of the same base means \\(2x=3y\\), so \\(\\dfrac{x}{y} = \\dfrac{3}{2}\\).",
+    "timeTargetSec": 80
+  },
+  {
+    "id": "exponents-basic-019",
+    "type": "Numeric",
+    "primarySkill": "exponents-basic",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "What is the units digit of \\(3^{17}\\)?",
+    "answer": 3,
+    "solutionStandard": "Units digits of powers of 3 cycle every 4: \\(3^1{=}3, 3^2{=}...9, 3^3{=}...7, 3^4{=}...1\\), then repeat. \\(17 \\mod 4 = 1\\), matching \\(3^1\\), so the units digit is 3.",
+    "timeTargetSec": 85
+  },
+  {
+    "id": "exponents-basic-020",
+    "type": "QC",
+    "primarySkill": "exponents-basic",
+    "secondarySkills": [],
+    "difficulty": 5,
+    "stem": "\\(0 < x < 1\\)",
+    "quantityA": "\\(x^2\\)",
+    "quantityB": "\\(x^3\\)",
+    "answer": "A",
+    "solutionStandard": "\\(x^3 = x^2 \\times x\\). Since \\(0<x<1\\), multiplying \\(x^2\\) by \\(x\\) makes it smaller, so \\(x^3 < x^2\\) always. Quantity A is greater.",
+    "timeTargetSec": 75
   }
 ]

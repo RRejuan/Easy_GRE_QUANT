@@ -137,5 +137,164 @@
     "answer": 210,
     "solutionStandard": "Shift both decimal points two places: \\(1260 \\div 6 = 210\\).",
     "timeTargetSec": 65
+  },
+  {
+    "id": "decimals-operations-011",
+    "type": "Numeric",
+    "primarySkill": "decimals-operations",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "variables": [
+      { "name": "a", "min": 1, "max": 9, "step": 1 },
+      { "name": "b", "min": 1, "max": 9, "step": 1 }
+    ],
+    "stem": "What is \\({{a}}.2 + {{b}}.3\\)?",
+    "answer": 7.5,
+    "answerFormula": "a + b + 0.5",
+    "solutionStandard": "Add whole parts and decimal parts separately: \\(({{a}}+{{b}}) + (0.2+0.3) = {{a+b}} + 0.5 = {{a+b+0.5}}\\).",
+    "timeTargetSec": 40
+  },
+  {
+    "id": "decimals-operations-012",
+    "type": "MC",
+    "primarySkill": "decimals-operations",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "What is \\(0.75 + 0.125\\)?",
+    "options": [
+      { "id": "A", "text": "0.775" },
+      { "id": "B", "text": "0.8" },
+      { "id": "C", "text": "0.875" },
+      { "id": "D", "text": "0.925" },
+      { "id": "E", "text": "1.0" }
+    ],
+    "answer": "C",
+    "solutionStandard": "Align decimal places: \\(0.750 + 0.125 = 0.875\\).",
+    "timeTargetSec": 35
+  },
+  {
+    "id": "decimals-operations-013",
+    "type": "Numeric",
+    "primarySkill": "decimals-operations",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "variables": [{ "name": "n", "min": 10, "max": 990, "step": 10 }],
+    "stem": "What is \\({{n}} \\times 0.01\\)?",
+    "answer": 2.5,
+    "answerFormula": "n * 0.01",
+    "solutionStandard": "Multiplying by 0.01 moves the decimal point two places left: \\({{n}} \\times 0.01 = {{n*0.01}}\\).",
+    "timeTargetSec": 40
+  },
+  {
+    "id": "decimals-operations-014",
+    "type": "MC",
+    "primarySkill": "decimals-operations",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "Which of the following is greatest?",
+    "options": [
+      { "id": "A", "text": "0.45" },
+      { "id": "B", "text": "0.5" },
+      { "id": "C", "text": "0.099" },
+      { "id": "D", "text": "0.399" },
+      { "id": "E", "text": "0.045" }
+    ],
+    "answer": "B",
+    "solutionStandard": "Comparing to a common number of decimal places (0.450, 0.500, 0.099, 0.399, 0.045), 0.500 is the largest.",
+    "timeTargetSec": 40
+  },
+  {
+    "id": "decimals-operations-015",
+    "type": "QC",
+    "primarySkill": "decimals-operations",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "variables": [{ "name": "a", "min": 2, "max": 20, "step": 1 }],
+    "stem": "\\(n = {{a}}\\).",
+    "quantityA": "\\(n \\times 0.1\\)",
+    "quantityB": "\\(n \\div 10\\)",
+    "answer": "C",
+    "solutionStandard": "Multiplying by 0.1 and dividing by 10 are the same operation, so the two quantities are always equal.",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "decimals-operations-016",
+    "type": "MultiMC",
+    "primarySkill": "decimals-operations",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "Which of the following equal 0.6? Select all that apply.",
+    "options": [
+      { "id": "A", "text": "3/5" },
+      { "id": "B", "text": "0.60" },
+      { "id": "C", "text": "6/100" },
+      { "id": "D", "text": "60/100" },
+      { "id": "E", "text": "0.06" }
+    ],
+    "answer": ["A", "B", "D"],
+    "solutionStandard": "\\(0.6 = 3/5 = 60/100\\). But \\(6/100 = 0.06\\) and \\(0.06 \\neq 0.6\\).",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "decimals-operations-017",
+    "type": "Numeric",
+    "primarySkill": "decimals-operations",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "variables": [{ "name": "p", "min": 3, "max": 40, "step": 1 }],
+    "stem": "An item costs \\({{p}}.50\\) dollars. What is the total cost, in dollars, for buying exactly 4 of them?",
+    "answer": 42,
+    "answerFormula": "(p + 0.5) * 4",
+    "solutionStandard": "\\(({{p}}.50) \\times 4 = {{(p+0.5)*4}}\\) dollars.",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "decimals-operations-018",
+    "type": "MC",
+    "primarySkill": "decimals-operations",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "What is \\(0.0036 \\div 0.09\\)?",
+    "options": [
+      { "id": "A", "text": "0.004" },
+      { "id": "B", "text": "0.04" },
+      { "id": "C", "text": "0.4" },
+      { "id": "D", "text": "4" },
+      { "id": "E", "text": "40" }
+    ],
+    "answer": "B",
+    "solutionStandard": "Shift both decimal points four places: \\(36 \\div 900 = 0.04\\).",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "decimals-operations-019",
+    "type": "MC",
+    "primarySkill": "decimals-operations",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "If \\(0.00045\\) is written in scientific notation as \\(a \\times 10^{n}\\), where \\(1 \\le a < 10\\), what is \\(n\\)?",
+    "options": [
+      { "id": "A", "text": "-5" },
+      { "id": "B", "text": "-4" },
+      { "id": "C", "text": "-3" },
+      { "id": "D", "text": "4" },
+      { "id": "E", "text": "5" }
+    ],
+    "answer": "B",
+    "solutionStandard": "\\(0.00045 = 4.5 \\times 10^{-4}\\), so \\(n=-4\\).",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "decimals-operations-020",
+    "type": "QC",
+    "primarySkill": "decimals-operations",
+    "secondarySkills": [],
+    "difficulty": 5,
+    "stem": "\\(0 < x < 1\\)",
+    "quantityA": "\\(x\\)",
+    "quantityB": "\\(x^2\\)",
+    "answer": "A",
+    "solutionStandard": "For any \\(x\\) strictly between 0 and 1, multiplying \\(x\\) by itself (a positive number less than 1) makes it smaller, so \\(x^2 < x\\) always. Quantity A is greater.",
+    "timeTargetSec": 75
   }
 ]
