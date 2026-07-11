@@ -144,5 +144,170 @@
     "answer": "B",
     "solutionStandard": "The number of segments connecting any 2 of the 6 vertices is \\(C(6,2)=15\\). Subtract the 6 sides themselves (which connect adjacent vertices, not diagonals): \\(15-6=9\\).",
     "timeTargetSec": 90
+  },
+  {
+    "id": "counting-combinations-011",
+    "type": "Numeric",
+    "primarySkill": "counting-combinations",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "variables": [
+      { "name": "n", "min": 5, "max": 12, "step": 1 },
+      { "name": "k", "min": 2, "max": 4, "step": 1 }
+    ],
+    "stem": "In how many ways can a committee of {{k}} people be chosen from a group of {{n}} people?",
+    "answer": 10,
+    "answerFormula": "(function(){let r=1;for(let i=0;i<k;i++)r*=(n-i);for(let i=1;i<=k;i++)r/=i;return Math.round(r);})()",
+    "solutionStandard": "\\(C({{n}},{{k}}) = \\dfrac{ {{n}}! }{ {{k}}!({{n}}-{{k}})! }\\).",
+    "timeTargetSec": 50
+  },
+  {
+    "id": "counting-combinations-012",
+    "type": "MC",
+    "primarySkill": "counting-combinations",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "In how many ways can a committee of 2 people be chosen from a group of 7 people?",
+    "options": [
+      { "id": "A", "text": "14" },
+      { "id": "B", "text": "18" },
+      { "id": "C", "text": "21" },
+      { "id": "D", "text": "42" },
+      { "id": "E", "text": "49" }
+    ],
+    "answer": "C",
+    "solutionStandard": "\\(C(7,2) = \\dfrac{7 \\times 6}{2} = 21\\).",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "counting-combinations-013",
+    "type": "QC",
+    "primarySkill": "counting-combinations",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "variables": [
+      { "name": "n", "min": 4, "max": 10, "step": 1 },
+      { "name": "k", "min": 2, "max": 3, "step": 1 }
+    ],
+    "stem": "Compare the two quantities.",
+    "quantityA": "The number of ways to choose {{k}} people from a group of {{n}} (order doesn't matter)",
+    "quantityB": "The number of ways to arrange {{k}} people from a group of {{n}} in a line (order matters)",
+    "answer": "B",
+    "solutionStandard": "Permutations count every ordering of the same combination separately (there are \\(k!\\) orderings per combination, and \\(k! \\ge 2\\) whenever \\(k \\ge 2\\)), so \\(P(n,k) = C(n,k) \\times k!\\) is always greater than \\(C(n,k)\\). Quantity B is greater.",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "counting-combinations-014",
+    "type": "Numeric",
+    "primarySkill": "counting-combinations",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "variables": [
+      { "name": "pool", "min": 10, "max": 60, "step": 1 },
+      { "name": "k", "min": 2, "max": 3, "step": 1 }
+    ],
+    "stem": "A collection has {{pool}} distinct items. In how many ways can {{k}} of them be chosen (order doesn't matter)?",
+    "answer": 45,
+    "answerFormula": "(function(){let r=1;for(let i=0;i<k;i++)r*=(pool-i);for(let i=1;i<=k;i++)r/=i;return Math.round(r);})()",
+    "solutionStandard": "\\(C({{pool}},{{k}})\\): multiply {{k}} descending values starting from {{pool}}, then divide by {{k}}!.",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "counting-combinations-015",
+    "type": "MC",
+    "primarySkill": "counting-combinations",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "A sandwich shop offers 7 ingredients. How many different 4-ingredient sandwiches can be made (no repeated ingredients, order doesn't matter)?",
+    "options": [
+      { "id": "A", "text": "21" },
+      { "id": "B", "text": "28" },
+      { "id": "C", "text": "35" },
+      { "id": "D", "text": "70" },
+      { "id": "E", "text": "840" }
+    ],
+    "answer": "C",
+    "solutionStandard": "\\(C(7,4) = \\dfrac{7!}{4!3!} = 35\\).",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "counting-combinations-016",
+    "type": "Numeric",
+    "primarySkill": "counting-combinations",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "variables": [
+      { "name": "w", "min": 3, "max": 8, "step": 1 },
+      { "name": "m", "min": 3, "max": 8, "step": 1 }
+    ],
+    "stem": "A group has {{w}} women and {{m}} men. In how many ways can a team of 2 women and 2 men be chosen?",
+    "answer": 60,
+    "answerFormula": "(function(){function C(n,k){let r=1;for(let i=0;i<k;i++)r*=(n-i);for(let i=1;i<=k;i++)r/=i;return Math.round(r);} return C(w,2)*C(m,2);})()",
+    "solutionStandard": "Choose 2 women: \\(C({{w}},2)\\). Choose 2 men: \\(C({{m}},2)\\). Multiply the two counts together.",
+    "timeTargetSec": 80
+  },
+  {
+    "id": "counting-combinations-017",
+    "type": "MultiMC",
+    "primarySkill": "counting-combinations",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "Which of the following scenarios are permutation problems (order matters)? Select all that apply.",
+    "options": [
+      { "id": "A", "text": "Choosing 4 toppings for a pizza from 8 options" },
+      { "id": "B", "text": "Ranking the top 3 finishers out of 8 racers" },
+      { "id": "C", "text": "Selecting 2 equal-role co-captains from a team of 12" },
+      { "id": "D", "text": "Assigning a unique locker number to each of 5 students" }
+    ],
+    "answer": ["B", "D"],
+    "solutionStandard": "(B) assigns distinct ranks (1st, 2nd, 3rd) to specific racers, so order matters — a permutation. (D) assigns a distinct locker number to each student, also a permutation. (A) and (C) are unordered selections — combinations, not permutations.",
+    "timeTargetSec": 80
+  },
+  {
+    "id": "counting-combinations-018",
+    "type": "MC",
+    "primarySkill": "counting-combinations",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "In how many ways can a committee of at least 2 people be chosen from a group of 4 people?",
+    "options": [
+      { "id": "A", "text": "6" },
+      { "id": "B", "text": "10" },
+      { "id": "C", "text": "11" },
+      { "id": "D", "text": "14" },
+      { "id": "E", "text": "15" }
+    ],
+    "answer": "C",
+    "solutionStandard": "Committees of size 2, 3, or 4: \\(C(4,2)+C(4,3)+C(4,4) = 6+4+1 = 11\\).",
+    "timeTargetSec": 85
+  },
+  {
+    "id": "counting-combinations-019",
+    "type": "Numeric",
+    "primarySkill": "counting-combinations",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "variables": [
+      { "name": "w", "min": 4, "max": 8, "step": 1 },
+      { "name": "m", "min": 3, "max": 7, "step": 1 }
+    ],
+    "stem": "A committee of 4 is chosen from {{w}} women and {{m}} men. In how many ways can the committee include exactly 2 women and 2 men?",
+    "answer": 60,
+    "answerFormula": "(function(){function C(n,k){let r=1;for(let i=0;i<k;i++)r*=(n-i);for(let i=1;i<=k;i++)r/=i;return Math.round(r);} return C(w,2)*C(m,2);})()",
+    "solutionStandard": "Choose 2 of {{w}} women: \\(C({{w}},2)\\). Choose 2 of {{m}} men: \\(C({{m}},2)\\). Multiply the two counts together.",
+    "timeTargetSec": 90
+  },
+  {
+    "id": "counting-combinations-020",
+    "type": "Numeric",
+    "primarySkill": "counting-combinations",
+    "secondarySkills": [],
+    "difficulty": 5,
+    "variables": [{ "name": "n", "min": 5, "max": 12, "step": 1 }],
+    "stem": "How many diagonals does a polygon with {{n}} sides have?",
+    "answer": 9,
+    "answerFormula": "n*(n-3)/2",
+    "solutionStandard": "The number of segments connecting any 2 of the {{n}} vertices is \\(C({{n}},2)\\). Subtracting the {{n}} sides (which connect adjacent vertices, not diagonals) simplifies to \\(\\dfrac{n(n-3)}{2} = {{n*(n-3)/2}}\\).",
+    "timeTargetSec": 95
   }
 ]
