@@ -34,6 +34,10 @@ export function getQuestionsForSkill(skillId: string): Question[] {
   return questionsBySkill.get(skillId) ?? [];
 }
 
+export function allQuestions(): Question[] {
+  return [...questionsBySkill.values()].flat();
+}
+
 export function getLessonForSkill(skillId: string): Lesson | undefined {
   return lessonsBySkill.get(skillId);
 }

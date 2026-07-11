@@ -10,7 +10,8 @@ export function SkillListPage() {
     <div className="skill-list-page">
       <h1>GRE Quant — Skills</h1>
       <p>
-        <Link to="/dashboard">Dashboard</Link> · <Link to="/diagnostic">Diagnostic</Link>
+        <Link to="/dashboard">Dashboard</Link> · <Link to="/diagnostic">Diagnostic</Link> ·{" "}
+        <Link to="/mock-test">Mock Test</Link>
       </p>
       {groups.map((group) => (
         <section key={group.area}>
