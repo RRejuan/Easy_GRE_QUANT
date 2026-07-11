@@ -246,5 +246,162 @@
     "answer": "C",
     "solutionStandard": "\\(2^3=8\\). \\((3-5)^2=4\\). \\(2 \\times 4 \\div 4 = 2\\) (left to right). Finally \\(8-2=6\\).",
     "timeTargetSec": 75
+  },
+  {
+    "id": "order-of-operations-011",
+    "type": "Numeric",
+    "primarySkill": "order-of-operations",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "variables": [
+      { "name": "a", "min": 2, "max": 9, "step": 1 },
+      { "name": "b", "min": 2, "max": 9, "step": 1 }
+    ],
+    "stem": "What is \\({{a}} + {{b}} \\times 2\\)?",
+    "answer": 12,
+    "answerFormula": "a + b * 2",
+    "solutionStandard": "Multiplication before addition: \\({{a}} + ({{b}} \\times 2) = {{a}} + {{b*2}} = {{a + b*2}}\\).",
+    "timeTargetSec": 30
+  },
+  {
+    "id": "order-of-operations-012",
+    "type": "MC",
+    "primarySkill": "order-of-operations",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "What is \\(10 - 2 \\times 3\\)?",
+    "options": [
+      { "id": "A", "text": "4" },
+      { "id": "B", "text": "6" },
+      { "id": "C", "text": "8" },
+      { "id": "D", "text": "24" },
+      { "id": "E", "text": "-14" }
+    ],
+    "answer": "A",
+    "solutionStandard": "Multiplication before subtraction: \\(10 - (2\\times3) = 10-6=4\\).",
+    "timeTargetSec": 30
+  },
+  {
+    "id": "order-of-operations-013",
+    "type": "Numeric",
+    "primarySkill": "order-of-operations",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "variables": [{ "name": "n", "min": 2, "max": 8, "step": 1 }],
+    "stem": "What is \\(({{n}} + 3)^2 - {{n}}^2\\)?",
+    "answer": 33,
+    "answerFormula": "(n+3)*(n+3) - n*n",
+    "solutionStandard": "\\(({{n}}+3)^2 = {{(n+3)*(n+3)}}\\) and \\({{n}}^2 = {{n*n}}\\), so the difference is \\({{(n+3)*(n+3) - n*n}}\\).",
+    "solutionShortcut": "\\((n+3)^2 - n^2 = 6n+9\\) by difference of squares, avoiding squaring the larger number.",
+    "shortcutTags": ["estimate"],
+    "timeTargetSec": 60
+  },
+  {
+    "id": "order-of-operations-014",
+    "type": "MC",
+    "primarySkill": "order-of-operations",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "What is \\(\\dfrac{2 + 3 \\times 4}{2}\\)?",
+    "options": [
+      { "id": "A", "text": "4" },
+      { "id": "B", "text": "7" },
+      { "id": "C", "text": "10" },
+      { "id": "D", "text": "12" },
+      { "id": "E", "text": "20" }
+    ],
+    "answer": "B",
+    "solutionStandard": "Numerator first: \\(2 + 3\\times4 = 2+12=14\\). Then \\(14/2=7\\).",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "order-of-operations-015",
+    "type": "QC",
+    "primarySkill": "order-of-operations",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "Compare the two quantities.",
+    "quantityA": "\\(2 + 3 \\times 4^2\\)",
+    "quantityB": "\\((2+3\\times4)^2\\)",
+    "answer": "B",
+    "solutionStandard": "Quantity A: \\(2+3\\times16=2+48=50\\). Quantity B: \\((2+12)^2=14^2=196\\). Since \\(196>50\\), Quantity B is greater.",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "order-of-operations-016",
+    "type": "MultiMC",
+    "primarySkill": "order-of-operations",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "Which of the following equal 16? Select all that apply.",
+    "options": [
+      { "id": "A", "text": "\\((2+7) \\times 2\\)" },
+      { "id": "B", "text": "\\((2+7) \\times 2 - 2\\)" },
+      { "id": "C", "text": "\\(4^2\\)" },
+      { "id": "D", "text": "\\(2 \\times 7 + 3\\)" }
+    ],
+    "answer": ["B", "C"],
+    "solutionStandard": "(A) \\((2+7)\\times2 = 9\\times2=18 \\neq 16\\). (B) \\((2+7)\\times2-2 = 18-2=16\\). (C) \\(4^2=16\\). (D) \\(2\\times7+3=14+3=17 \\neq 16\\).",
+    "timeTargetSec": 80
+  },
+  {
+    "id": "order-of-operations-017",
+    "type": "Numeric",
+    "primarySkill": "order-of-operations",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "variables": [{ "name": "n", "min": 2, "max": 6, "step": 1 }],
+    "stem": "If \\(n = {{n}}\\), what is \\(2^n + 2^n\\)?",
+    "answer": 16,
+    "answerFormula": "2 * Math.pow(2, n)",
+    "solutionStandard": "\\(2^n + 2^n = 2 \\times 2^n\\). With \\(n={{n}}\\), \\(2^n = {{Math.pow(2,n)}}\\), so the sum is \\(2 \\times {{Math.pow(2,n)}} = {{2*Math.pow(2,n)}}\\).",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "order-of-operations-018",
+    "type": "MC",
+    "primarySkill": "order-of-operations",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "What is \\(3 + 2 \\times [4 - (6 - 8)^2]\\)?",
+    "options": [
+      { "id": "A", "text": "-1" },
+      { "id": "B", "text": "3" },
+      { "id": "C", "text": "11" },
+      { "id": "D", "text": "15" },
+      { "id": "E", "text": "19" }
+    ],
+    "answer": "B",
+    "solutionStandard": "Innermost: \\(6-8=-2\\), so \\((-2)^2=4\\). Then \\(4-4=0\\). Then \\(2\\times0=0\\). Finally \\(3+0=3\\).",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "order-of-operations-019",
+    "type": "Numeric",
+    "primarySkill": "order-of-operations",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "What is \\(\\dfrac{5^2 - 3^2}{5-3}\\)?",
+    "answer": 8,
+    "solutionStandard": "\\(5^2-3^2=25-9=16\\), and \\(5-3=2\\), so \\(16/2=8\\).",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "order-of-operations-020",
+    "type": "MC",
+    "primarySkill": "order-of-operations",
+    "secondarySkills": [],
+    "difficulty": 5,
+    "stem": "What is \\(2 - [3 - 4(5 - 2 \\times 3)]\\)?",
+    "options": [
+      { "id": "A", "text": "-11" },
+      { "id": "B", "text": "-5" },
+      { "id": "C", "text": "1" },
+      { "id": "D", "text": "13" },
+      { "id": "E", "text": "15" }
+    ],
+    "answer": "B",
+    "solutionStandard": "Innermost: \\(2\\times3=6\\), so \\(5-6=-1\\). Then \\(4\\times(-1)=-4\\). Then \\(3-(-4)=3+4=7\\). Finally \\(2-7=-5\\).",
+    "timeTargetSec": 90
   }
 ]
