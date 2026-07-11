@@ -1,0 +1,10 @@
+{
+  "skillId": "counting-permutations",
+  "summary": "The fundamental counting principle multiplies the number of choices at each step; permutations count ordered arrangements, using factorials.",
+  "formulas": [
+    { "name": "Fundamental counting principle", "expression": "n_1 \\times n_2 \\times \\cdots \\times n_k" },
+    { "name": "Factorial", "expression": "n! = n \\times (n-1) \\times \\cdots \\times 2 \\times 1" },
+    { "name": "Permutations of n items taken r at a time", "expression": "P(n,r) = \\frac{n!}{(n-r)!}" }
+  ],
+  "explanation": "The fundamental counting principle says that if one choice can be made in $n_1$ ways, a second in $n_2$ ways, and so on, the total number of ways to make all the choices in sequence is the product $n_1 \\times n_2 \\times \\cdots$. A permutation is an arrangement where order matters (e.g. who finishes 1st, 2nd, 3rd). The number of ways to arrange all $n$ distinct items in order is $n!$ (n factorial). The number of ways to arrange only $r$ of $n$ items, in order, is $P(n,r) = \\frac{n!}{(n-r)!}$ — equivalent to applying the counting principle directly (n choices for the first slot, $n-1$ for the second, etc.)."
+}

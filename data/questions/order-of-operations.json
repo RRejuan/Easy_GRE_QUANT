@@ -1,0 +1,156 @@
+[
+  {
+    "id": "order-of-operations-001",
+    "type": "MC",
+    "primarySkill": "order-of-operations",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "What is $3 + 4 \\times 2$?",
+    "options": [
+      { "id": "A", "text": "10" },
+      { "id": "B", "text": "11" },
+      { "id": "C", "text": "14" },
+      { "id": "D", "text": "16" },
+      { "id": "E", "text": "24" }
+    ],
+    "answer": "B",
+    "solutionStandard": "Multiplication before addition: $3 + (4 \\times 2) = 3 + 8 = 11$.",
+    "timeTargetSec": 30
+  },
+  {
+    "id": "order-of-operations-002",
+    "type": "Numeric",
+    "primarySkill": "order-of-operations",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "What is $(6 - 2) \\times 3^2$?",
+    "answer": 36,
+    "solutionStandard": "$(6-2) = 4$, then $3^2 = 9$, so $4 \\times 9 = 36$.",
+    "timeTargetSec": 40
+  },
+  {
+    "id": "order-of-operations-003",
+    "type": "MC",
+    "primarySkill": "order-of-operations",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "What is $-3^2$?",
+    "options": [
+      { "id": "A", "text": "-9" },
+      { "id": "B", "text": "-6" },
+      { "id": "C", "text": "6" },
+      { "id": "D", "text": "9" },
+      { "id": "E", "text": "-3" }
+    ],
+    "answer": "A",
+    "solutionStandard": "Without parentheses, the exponent applies only to 3, then the negative sign is applied: $-3^2 = -(3^2) = -9$.",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "order-of-operations-004",
+    "type": "QC",
+    "primarySkill": "order-of-operations",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "Compare the two quantities.",
+    "quantityA": "$-3^2$",
+    "quantityB": "$(-3)^2$",
+    "answer": "B",
+    "solutionStandard": "$-3^2 = -9$, while $(-3)^2 = 9$. Since $9 > -9$, Quantity B is greater.",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "order-of-operations-005",
+    "type": "Numeric",
+    "primarySkill": "order-of-operations",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "What is $20 \\div 4 \\times 5$?",
+    "answer": 25,
+    "solutionStandard": "Multiplication and division have equal priority and are done left to right: $20 \\div 4 = 5$, then $5 \\times 5 = 25$.",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "order-of-operations-006",
+    "type": "MC",
+    "primarySkill": "order-of-operations",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "What is $2 + 3 \\times (4 - 1)^2 \\div 3$?",
+    "options": [
+      { "id": "A", "text": "5" },
+      { "id": "B", "text": "9" },
+      { "id": "C", "text": "11" },
+      { "id": "D", "text": "15" },
+      { "id": "E", "text": "27" }
+    ],
+    "answer": "C",
+    "solutionStandard": "$(4-1)^2 = 9$. Then $3 \\times 9 \\div 3 = 9$ (left to right). Finally $2 + 9 = 11$.",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "order-of-operations-007",
+    "type": "MultiMC",
+    "primarySkill": "order-of-operations",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "Which of the following equal 20? Select all that apply.",
+    "options": [
+      { "id": "A", "text": "$2 + 3 \\times 6$" },
+      { "id": "B", "text": "$(2+3) \\times 4$" },
+      { "id": "C", "text": "$5 \\times 2^2$" },
+      { "id": "D", "text": "$10 + 5 \\times 3$" }
+    ],
+    "answer": ["A", "B", "C"],
+    "solutionStandard": "(A) $2 + 3 \\times 6 = 2+18=20$. (B) $(2+3) \\times 4 = 5\\times4=20$. (C) $5 \\times 2^2 = 5\\times4=20$. (D) $10 + 5 \\times 3 = 10+15=25 \\neq 20$.",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "order-of-operations-008",
+    "type": "Numeric",
+    "primarySkill": "order-of-operations",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "What is $\\dfrac{4 + 2 \\times 3}{2^2 - 1}$?",
+    "answer": 3.33,
+    "acceptableRange": [3.32, 3.34],
+    "solutionStandard": "Numerator: $4 + 6 = 10$. Denominator: $4 - 1 = 3$. Result: $10/3 \\approx 3.33$.",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "order-of-operations-009",
+    "type": "MC",
+    "primarySkill": "order-of-operations",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "What is $3 - [2 - (5 - 8)]$?",
+    "options": [
+      { "id": "A", "text": "-2" },
+      { "id": "B", "text": "0" },
+      { "id": "C", "text": "2" },
+      { "id": "D", "text": "6" },
+      { "id": "E", "text": "8" }
+    ],
+    "answer": "A",
+    "solutionStandard": "Innermost first: $5-8=-3$. Then $2-(-3)=5$. Then $3-5=-2$.",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "order-of-operations-010",
+    "type": "MC",
+    "primarySkill": "order-of-operations",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "What is $2^3 - 2 \\times (3 - 5)^2 \\div 4$?",
+    "options": [
+      { "id": "A", "text": "2" },
+      { "id": "B", "text": "4" },
+      { "id": "C", "text": "6" },
+      { "id": "D", "text": "8" },
+      { "id": "E", "text": "10" }
+    ],
+    "answer": "C",
+    "solutionStandard": "$2^3=8$. $(3-5)^2=4$. $2 \\times 4 \\div 4 = 2$ (left to right). Finally $8-2=6$.",
+    "timeTargetSec": 75
+  }
+]

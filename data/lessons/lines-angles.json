@@ -1,0 +1,10 @@
+{
+  "skillId": "lines-angles",
+  "summary": "Angles formed by intersecting lines and by a transversal crossing parallel lines follow a small set of equal/supplementary relationships.",
+  "formulas": [
+    { "name": "Angles on a line", "expression": "\\text{sum of angles on a straight line} = 180^\\circ" },
+    { "name": "Angles around a point", "expression": "\\text{sum of angles around a point} = 360^\\circ" },
+    { "name": "Vertical angles", "expression": "\\text{vertical angles are equal}" }
+  ],
+  "explanation": "When two lines intersect, they form two pairs of vertical angles (equal) and adjacent pairs that are supplementary (sum to $180^\\circ$). When a transversal crosses two parallel lines, eight angles are formed, but there are only two distinct measures: corresponding angles are equal, alternate interior angles are equal, alternate exterior angles are equal, and co-interior (same-side interior) angles are supplementary. A quick way to work these problems: once you know one angle, every other angle is either equal to it or its supplement ($180^\\circ$ minus it)."
+}
