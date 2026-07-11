@@ -153,5 +153,173 @@
     "answer": "B",
     "solutionStandard": "Since \\(y > 0\\), \\(3y > 0\\), so \\(2x = 12 - 3y - (\\text{nonnegative slack}) < 12\\), giving \\(x < 6\\) in every case. Quantity B is always greater.",
     "timeTargetSec": 80
+  },
+  {
+    "id": "linear-inequalities-011",
+    "type": "MC",
+    "primarySkill": "linear-inequalities",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "variables": [
+      { "name": "a", "min": 1, "max": 20, "step": 1 },
+      { "name": "b", "min": 21, "max": 50, "step": 1 }
+    ],
+    "stem": "Solve: \\(x + {{a}} < {{b}}\\)",
+    "options": [
+      { "id": "A", "text": "\\(x < {{b-a}}\\)" },
+      { "id": "B", "text": "\\(x > {{b-a}}\\)" },
+      { "id": "C", "text": "\\(x < {{a-b}}\\)" },
+      { "id": "D", "text": "\\(x < {{b+a}}\\)" },
+      { "id": "E", "text": "\\(x > {{a-b}}\\)" }
+    ],
+    "answer": "A",
+    "solutionStandard": "Subtract \\({{a}}\\) from both sides: \\(x < {{b}}-{{a}} = {{b-a}}\\).",
+    "timeTargetSec": 35
+  },
+  {
+    "id": "linear-inequalities-012",
+    "type": "MC",
+    "primarySkill": "linear-inequalities",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "Solve: \\(-4x \\le 20\\)",
+    "options": [
+      { "id": "A", "text": "\\(x \\le 5\\)" },
+      { "id": "B", "text": "\\(x \\ge 5\\)" },
+      { "id": "C", "text": "\\(x \\le -5\\)" },
+      { "id": "D", "text": "\\(x \\ge -5\\)" },
+      { "id": "E", "text": "\\(x = -5\\)" }
+    ],
+    "answer": "D",
+    "solutionStandard": "Divide both sides by \\(-4\\), flipping the inequality: \\(x \\ge -5\\).",
+    "timeTargetSec": 40
+  },
+  {
+    "id": "linear-inequalities-013",
+    "type": "Numeric",
+    "primarySkill": "linear-inequalities",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "variables": [
+      { "name": "a", "min": 2, "max": 6, "step": 2 },
+      { "name": "k", "min": 3, "max": 20, "step": 1 }
+    ],
+    "stem": "What is the greatest integer value of \\(x\\) satisfying \\({{a}}x + 3 < {{a*(k+0.5)+3}}\\)?",
+    "answer": 7,
+    "answerFormula": "k",
+    "solutionStandard": "\\({{a}}x < {{a*(k+0.5)}}\\), so \\(x < {{k+0.5}}\\). The greatest integer below \\({{k+0.5}}\\) is \\({{k}}\\).",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "linear-inequalities-014",
+    "type": "QC",
+    "primarySkill": "linear-inequalities",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "variables": [
+      { "name": "s", "min": 10, "max": 40, "step": 1 },
+      { "name": "t", "min": 1, "max": 9, "step": 1 }
+    ],
+    "stem": "\\({{s}} - 2x \\ge {{t}}\\)",
+    "quantityA": "\\(x\\)",
+    "quantityB": "{{(s-t)/2 + 1}}",
+    "answer": "B",
+    "solutionStandard": "\\(-2x \\ge {{t}}-{{s}}\\), so dividing by \\(-2\\) (flip): \\(x \\le {{(s-t)/2}}\\). Quantity B is exactly 1 more than this bound, so it's always greater.",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "linear-inequalities-015",
+    "type": "MultiMC",
+    "primarySkill": "linear-inequalities",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "Which of the following values of \\(x\\) satisfy \\(2x - 5 \\le 7\\)? Select all that apply.",
+    "options": [
+      { "id": "A", "text": "4" },
+      { "id": "B", "text": "6" },
+      { "id": "C", "text": "7" },
+      { "id": "D", "text": "-3" }
+    ],
+    "answer": ["A", "B", "D"],
+    "solutionStandard": "\\(2x \\le 12\\), so \\(x \\le 6\\). Values 4, 6, and -3 all satisfy \\(x \\le 6\\); 7 does not.",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "linear-inequalities-016",
+    "type": "Numeric",
+    "primarySkill": "linear-inequalities",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "variables": [{ "name": "avg", "min": 85, "max": 93, "step": 1 }],
+    "stem": "A student needs an average of at least {{avg}} on 4 tests to earn an A. Scores on the first three tests were 88, 92, and 85. What is the minimum score needed on the fourth test?",
+    "answer": 95,
+    "answerFormula": "4 * avg - 265",
+    "solutionStandard": "Let the fourth score be \\(x\\). \\(\\dfrac{88+92+85+x}{4} \\ge {{avg}}\\), so \\(265+x \\ge {{4*avg}}\\), giving \\(x \\ge {{4*avg-265}}\\).",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "linear-inequalities-017",
+    "type": "Numeric",
+    "primarySkill": "linear-inequalities",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "variables": [
+      { "name": "a", "min": 2, "max": 6, "step": 2 },
+      { "name": "k", "min": 3, "max": 20, "step": 1 }
+    ],
+    "stem": "How many positive integers \\(x\\) satisfy \\({{a}}x - 7 < {{a*(k+0.5)-7}}\\)?",
+    "answer": 6,
+    "answerFormula": "k",
+    "solutionStandard": "\\({{a}}x < {{a*(k+0.5)}}\\), so \\(x < {{k+0.5}}\\). The positive integers satisfying this are \\(1, 2, \\ldots, {{k}}\\) — \\({{k}}\\) values.",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "linear-inequalities-018",
+    "type": "MC",
+    "primarySkill": "linear-inequalities",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "If \\(-6 \\le x \\le 3\\), what is the range of possible values of \\(-3x\\)?",
+    "options": [
+      { "id": "A", "text": "\\(-18 \\le -3x \\le 9\\)" },
+      { "id": "B", "text": "\\(-9 \\le -3x \\le 18\\)" },
+      { "id": "C", "text": "\\(9 \\le -3x \\le -18\\)" },
+      { "id": "D", "text": "\\(-9 \\le -3x \\le -18\\)" },
+      { "id": "E", "text": "\\(-3 \\le -3x \\le 3\\)" }
+    ],
+    "answer": "B",
+    "solutionStandard": "Multiplying by \\(-3\\) flips both inequality signs: \\(-6\\times(-3)=18\\) and \\(3\\times(-3)=-9\\), giving \\(-9 \\le -3x \\le 18\\).",
+    "timeTargetSec": 90
+  },
+  {
+    "id": "linear-inequalities-019",
+    "type": "QC",
+    "primarySkill": "linear-inequalities",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "variables": [
+      { "name": "a", "min": 1, "max": 6, "step": 1 },
+      { "name": "b", "min": 1, "max": 6, "step": 1 },
+      { "name": "m", "min": 5, "max": 30, "step": 1 }
+    ],
+    "stem": "\\({{a}}x + {{b}}y \\le {{a*m}}\\) and \\(x, y\\) are both positive.",
+    "quantityA": "\\(x\\)",
+    "quantityB": "{{m}}",
+    "answer": "B",
+    "solutionStandard": "Since \\(y>0\\), \\({{b}}y>0\\), so \\({{a}}x = {{a*m}} - {{b}}y - (\\text{nonnegative slack}) < {{a*m}}\\), giving \\(x < {{m}}\\) in every case. Quantity B is always greater.",
+    "timeTargetSec": 85
+  },
+  {
+    "id": "linear-inequalities-020",
+    "type": "QC",
+    "primarySkill": "linear-inequalities",
+    "secondarySkills": [],
+    "difficulty": 5,
+    "stem": "\\(x\\) and \\(y\\) are integers with \\(x > y\\), and \\(3x + 2y \\le 3y + 2x + 5\\).",
+    "quantityA": "\\(x - y\\)",
+    "quantityB": "\\(5\\)",
+    "answer": "D",
+    "solutionStandard": "Simplifying the inequality: \\(x - y \\le 5\\). Combined with \\(x>y\\) (so \\(x-y\\ge1\\) for integers), \\(x-y\\) could be any value from 1 to 5. Sometimes it equals 5 (equal to Quantity B) and sometimes it's less (Quantity B greater) — the relationship cannot be determined.",
+    "timeTargetSec": 95
   }
 ]
