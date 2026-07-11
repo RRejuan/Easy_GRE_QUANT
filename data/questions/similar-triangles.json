@@ -158,5 +158,177 @@
     "answer": "B",
     "solutionStandard": "Perimeter ratio equals the scale factor: \\(3/2=1.5\\). Area ratio is the square of the scale factor: \\((3/2)^2=9/4=2.25\\). Since \\(2.25>1.5\\), Quantity B is greater.",
     "timeTargetSec": 75
+  },
+  {
+    "id": "similar-triangles-011",
+    "type": "Numeric",
+    "primarySkill": "similar-triangles",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "variables": [{ "name": "k", "min": 2, "max": 10, "step": 1 }],
+    "stem": "Triangle A has sides 3, 4, 5. Triangle B is similar to Triangle A with a scale factor of {{k}}. What is the length of the longest side of Triangle B?",
+    "answer": 25,
+    "answerFormula": "5 * k",
+    "solutionStandard": "The longest side of Triangle A is 5; scaling by \\({{k}}\\) gives \\(5 \\times {{k}} = {{5*k}}\\).",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "similar-triangles-012",
+    "type": "MC",
+    "primarySkill": "similar-triangles",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "In the figure, \\(DE\\) is parallel to \\(BC\\). If \\(AD=6\\), \\(DB=3\\), and \\(DE=8\\), what is the length of \\(BC\\)?",
+    "figure": {
+      "viewBox": "0 0 200 160",
+      "elements": [
+        { "kind": "polygon", "points": [{ "x": 100, "y": 20 }, { "x": 20, "y": 140 }, { "x": 180, "y": 140 }] },
+        { "kind": "line", "from": { "x": 47, "y": 100 }, "to": { "x": 153, "y": 100 } },
+        { "kind": "label", "at": { "x": 96, "y": 14 }, "text": "A" },
+        { "kind": "label", "at": { "x": 8, "y": 148 }, "text": "B" },
+        { "kind": "label", "at": { "x": 184, "y": 148 }, "text": "C" },
+        { "kind": "label", "at": { "x": 30, "y": 95 }, "text": "D" },
+        { "kind": "label", "at": { "x": 158, "y": 95 }, "text": "E" }
+      ]
+    },
+    "options": [
+      { "id": "A", "text": "10" },
+      { "id": "B", "text": "11" },
+      { "id": "C", "text": "12" },
+      { "id": "D", "text": "16" },
+      { "id": "E", "text": "4" }
+    ],
+    "answer": "C",
+    "solutionStandard": "Since \\(DE \\parallel BC\\), triangles \\(ADE\\) and \\(ABC\\) are similar with ratio \\(AD:AB=6:9=2:3\\). So \\(BC = 8 \\times \\dfrac{3}{2}=12\\).",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "similar-triangles-013",
+    "type": "Numeric",
+    "primarySkill": "similar-triangles",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "variables": [
+      { "name": "a", "min": 2, "max": 6, "step": 1 },
+      { "name": "b", "min": 7, "max": 12, "step": 1 }
+    ],
+    "stem": "Two similar triangles have corresponding sides in ratio {{a}}:{{b}}. If the area of the smaller triangle is {{a*a}}, what is the area of the larger triangle?",
+    "answer": 81,
+    "answerFormula": "b * b",
+    "solutionStandard": "The area ratio is the square of the side ratio: \\({{a}}^2 : {{b}}^2\\). Since the smaller area is \\({{a*a}}\\), the larger is \\({{b*b}}\\).",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "similar-triangles-014",
+    "type": "MC",
+    "primarySkill": "similar-triangles",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "Triangle \\(ABC\\) is similar to triangle \\(DEF\\), with \\(AB=8\\), \\(DE=12\\), and the area of \\(ABC\\) is 20. What is the area of \\(DEF\\)?",
+    "options": [
+      { "id": "A", "text": "30" },
+      { "id": "B", "text": "35" },
+      { "id": "C", "text": "40" },
+      { "id": "D", "text": "45" },
+      { "id": "E", "text": "60" }
+    ],
+    "answer": "D",
+    "solutionStandard": "Side ratio \\(8:12=2:3\\). Area ratio \\(=4:9\\). Area of \\(DEF = 20 \\times \\dfrac{9}{4}=45\\).",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "similar-triangles-015",
+    "type": "Numeric",
+    "primarySkill": "similar-triangles",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "variables": [{ "name": "ht", "min": 15, "max": 90, "step": 3 }],
+    "stem": "A tree casts a shadow \\({{2*ht/3}}\\) feet long at the same time a 6-foot-tall person casts a shadow 4 feet long. How tall is the tree, in feet?",
+    "answer": 36,
+    "answerFormula": "ht",
+    "solutionStandard": "The triangles formed by the person/shadow and tree/shadow are similar: \\(\\dfrac{6}{4} = \\dfrac{h}{ {{2*ht/3}} }\\), so \\(h = {{ht}}\\).",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "similar-triangles-016",
+    "type": "MC",
+    "primarySkill": "similar-triangles",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "In triangle \\(ABC\\), \\(D\\) is on \\(AB\\) and \\(E\\) is on \\(AC\\) such that \\(DE \\parallel BC\\). If \\(AD=4\\), \\(AB=10\\), and the area of triangle \\(ADE\\) is 8, what is the area of triangle \\(ABC\\)?",
+    "options": [
+      { "id": "A", "text": "20" },
+      { "id": "B", "text": "32" },
+      { "id": "C", "text": "40" },
+      { "id": "D", "text": "50" },
+      { "id": "E", "text": "62.5" }
+    ],
+    "answer": "D",
+    "solutionStandard": "Side ratio \\(AD:AB=4:10=2:5\\), so area ratio \\(4:25\\). Since \\(\\text{Area}_{ADE}=8\\), \\(\\text{Area}_{ABC}=8\\times\\dfrac{25}{4}=50\\).",
+    "timeTargetSec": 85
+  },
+  {
+    "id": "similar-triangles-017",
+    "type": "MultiMC",
+    "primarySkill": "similar-triangles",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "Which of the following are valid criteria for proving two triangles similar? Select all that apply.",
+    "options": [
+      { "id": "A", "text": "AA: two pairs of corresponding angles are equal" },
+      { "id": "B", "text": "SSS: three pairs of corresponding sides are proportional" },
+      { "id": "C", "text": "SAS: two pairs of sides are proportional with the included angle equal" },
+      { "id": "D", "text": "Two sides are equal in length, with no angle information" }
+    ],
+    "answer": ["A", "B", "C"],
+    "solutionStandard": "AA, SSS (proportional), and SAS (proportional with included angle) are all valid similarity criteria. Knowing only two side lengths are equal, with no angle information, guarantees nothing about shape.",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "similar-triangles-018",
+    "type": "Numeric",
+    "primarySkill": "similar-triangles",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "variables": [
+      { "name": "m", "min": 1, "max": 6, "step": 1 },
+      { "name": "n", "min": 1, "max": 6, "step": 1 }
+    ],
+    "stem": "Triangle \\(ABC\\) has a right angle at \\(B\\). \\(D\\) is on \\(AC\\) such that \\(BD\\) is perpendicular to \\(AC\\). If \\(AD={{m*m}}\\) and \\(DC={{n*n}}\\), what is the length of \\(BD\\)?",
+    "answer": 6,
+    "answerFormula": "m * n",
+    "solutionStandard": "The altitude to the hypotenuse satisfies \\(BD^2 = AD \\times DC = {{m*m}} \\times {{n*n}} = {{(m*m)*(n*n)}}\\), so \\(BD = {{m*n}}\\).",
+    "timeTargetSec": 90
+  },
+  {
+    "id": "similar-triangles-019",
+    "type": "MC",
+    "primarySkill": "similar-triangles",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "Two similar triangles have areas 36 and 100. If the perimeter of the smaller triangle is 24, what is the perimeter of the larger triangle?",
+    "options": [
+      { "id": "A", "text": "30" },
+      { "id": "B", "text": "36" },
+      { "id": "C", "text": "40" },
+      { "id": "D", "text": "44" },
+      { "id": "E", "text": "66.7" }
+    ],
+    "answer": "C",
+    "solutionStandard": "Area ratio \\(36:100\\) means side (and perimeter) ratio \\(\\sqrt{36}:\\sqrt{100}=6:10=3:5\\). Perimeter of larger \\(=24\\times\\dfrac{5}{3}=40\\).",
+    "timeTargetSec": 80
+  },
+  {
+    "id": "similar-triangles-020",
+    "type": "QC",
+    "primarySkill": "similar-triangles",
+    "secondarySkills": [],
+    "difficulty": 5,
+    "stem": "Two similar triangles have a combined (sum) area of 325, and their side ratio is 2:3.",
+    "quantityA": "The area of the larger triangle",
+    "quantityB": "\\(225\\)",
+    "answer": "C",
+    "solutionStandard": "The area ratio is \\(4:9\\), so let the areas be \\(4k\\) and \\(9k\\). Their sum is \\(13k=325\\), so \\(k=25\\). The larger area is \\(9(25)=225\\), exactly equal to Quantity B.",
+    "timeTargetSec": 100
   }
 ]
