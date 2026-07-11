@@ -154,5 +154,156 @@
     "answer": "B",
     "solutionStandard": "Item A: 40% increase, multiplier 1.4. Item B: \\(1.2 \\times 1.2 = 1.44\\), a 44% increase. Since \\(44\\% > 40\\%\\), Quantity B is greater.",
     "timeTargetSec": 75
+  },
+  {
+    "id": "percent-change-011",
+    "type": "Numeric",
+    "primarySkill": "percent-change",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "variables": [
+      { "name": "orig", "min": 40, "max": 200, "step": 10 },
+      { "name": "pct", "min": 10, "max": 50, "step": 5 }
+    ],
+    "stem": "A price of ${{orig}} is decreased by {{pct}}%. What is the new price?",
+    "answer": 80,
+    "answerFormula": "orig * (1 - pct/100)",
+    "solutionStandard": "New price \\(= {{orig}} \\times (1 - {{pct}}/100) = {{orig * (1 - pct/100)}}\\).",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "percent-change-012",
+    "type": "MC",
+    "primarySkill": "percent-change",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "A value increases from 50 to 60. What is the percent increase?",
+    "options": [
+      { "id": "A", "text": "10%" },
+      { "id": "B", "text": "16.7%" },
+      { "id": "C", "text": "20%" },
+      { "id": "D", "text": "25%" },
+      { "id": "E", "text": "50%" }
+    ],
+    "answer": "C",
+    "solutionStandard": "Percent increase \\(= \\dfrac{60-50}{50}\\times100 = 20\\%\\).",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "percent-change-013",
+    "type": "Numeric",
+    "primarySkill": "percent-change",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "variables": [{ "name": "newp", "min": 60, "max": 600, "step": 12 }],
+    "stem": "After a 20% increase, a price is ${{newp}}. What was the original price?",
+    "answer": 100,
+    "answerFormula": "newp / 1.2",
+    "solutionStandard": "\\(1.2x = {{newp}}\\), so \\(x = {{newp}}/1.2 = {{newp/1.2}}\\).",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "percent-change-014",
+    "type": "MC",
+    "primarySkill": "percent-change",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "A price decreases by 30% to $70. What was the original price?",
+    "options": [
+      { "id": "A", "text": "$90" },
+      { "id": "B", "text": "$95" },
+      { "id": "C", "text": "$100" },
+      { "id": "D", "text": "$105" },
+      { "id": "E", "text": "$110" }
+    ],
+    "answer": "C",
+    "solutionStandard": "\\(0.7x = 70\\), so \\(x = 100\\).",
+    "timeTargetSec": 50
+  },
+  {
+    "id": "percent-change-015",
+    "type": "QC",
+    "primarySkill": "percent-change",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "variables": [{ "name": "p", "min": 10, "max": 40, "step": 5 }],
+    "stem": "A value increases by {{p}}%, then increases by another {{p}}% (on the new value).",
+    "quantityA": "The actual total percent increase after both changes",
+    "quantityB": "{{2*p}}%",
+    "answer": "A",
+    "solutionStandard": "The actual multiplier is \\((1+{{p}}/100)^2\\), giving a total increase of \\(2({{p}})+({{p}}/100)^2 \\times 100\\)%, which is always more than simply doubling the rate to \\({{2*p}}\\%\\), since successive percent increases compound rather than add.",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "percent-change-016",
+    "type": "MultiMC",
+    "primarySkill": "percent-change",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "Which of the following result in a lower final value than a single 20% decrease? Select all that apply.",
+    "options": [
+      { "id": "A", "text": "A single 25% decrease" },
+      { "id": "B", "text": "A single 15% decrease" },
+      { "id": "C", "text": "Two successive 10% decreases" },
+      { "id": "D", "text": "A single 30% decrease" }
+    ],
+    "answer": ["A", "D"],
+    "solutionStandard": "A 20% decrease leaves 80% of the value. (A) leaves 75% \\(<80\\%\\), lower. (B) leaves 85%, higher. (C): \\(0.9\\times0.9=0.81=81\\%\\), higher. (D) leaves 70%, lower.",
+    "timeTargetSec": 85
+  },
+  {
+    "id": "percent-change-017",
+    "type": "Numeric",
+    "primarySkill": "percent-change",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "A price is discounted by 20%, and then the reduced price is discounted by an additional 15%. What single percent discount, applied once to the original price, would give the same final price?",
+    "answer": 32,
+    "solutionStandard": "Net multiplier: \\(0.8 \\times 0.85 = 0.68\\), i.e. a single 32% discount.",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "percent-change-018",
+    "type": "MC",
+    "primarySkill": "percent-change",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "A price decreases by 20%, and then the new price is increased by \\(x\\)% to return exactly to the original price. What is \\(x\\)?",
+    "options": [
+      { "id": "A", "text": "16.7" },
+      { "id": "B", "text": "20" },
+      { "id": "C", "text": "25" },
+      { "id": "D", "text": "30" },
+      { "id": "E", "text": "33.3" }
+    ],
+    "answer": "C",
+    "solutionStandard": "Let the original price be 100. After a 20% decrease: 80. To return to 100: \\(x\\% \\text{ of } 80 = 20\\), so \\(x = 20/80 \\times 100 = 25\\).",
+    "timeTargetSec": 80
+  },
+  {
+    "id": "percent-change-019",
+    "type": "Numeric",
+    "primarySkill": "percent-change",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "variables": [{ "name": "r", "min": 5, "max": 30, "step": 5 }],
+    "stem": "A population grows by {{r}}% each year. After 2 years, the population has increased by what total percent from the original? (Round to the nearest whole percent.)",
+    "answer": 21,
+    "answerFormula": "Math.round((Math.pow(1 + r/100, 2) - 1) * 100)",
+    "solutionStandard": "The multiplier after 2 years is \\((1+{{r}}/100)^2\\), giving a total percent increase of \\({{Math.round((Math.pow(1+r/100,2)-1)*100)}}\\%\\) — more than simply doubling \\({{r}}\\%\\), since the growth compounds.",
+    "timeTargetSec": 85
+  },
+  {
+    "id": "percent-change-020",
+    "type": "QC",
+    "primarySkill": "percent-change",
+    "secondarySkills": [],
+    "difficulty": 5,
+    "stem": "One price is increased by \\(p\\%\\) and then decreased by \\(p\\%\\). A different price is decreased by \\(p\\%\\) and then increased by \\(p\\%\\) (same \\(p\\), possibly different starting price).",
+    "quantityA": "The net percent change of the first price",
+    "quantityB": "The net percent change of the second price",
+    "answer": "C",
+    "solutionStandard": "The first price's net multiplier is \\((1+p/100)(1-p/100)\\), and the second's is \\((1-p/100)(1+p/100)\\) — the same product, just written in the opposite order. Since multiplication is commutative, the two percent changes are always identical, regardless of the (possibly different) starting prices.",
+    "timeTargetSec": 90
   }
 ]
