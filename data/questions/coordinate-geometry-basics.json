@@ -151,5 +151,167 @@
     "answer": "C",
     "solutionStandard": "\\(BC=\\sqrt{4^2+3^2}=5\\). Perimeter \\(=AB+AC+BC=4+3+5=12\\). Perimeter minus 7 \\(=5\\). The quantities are equal.",
     "timeTargetSec": 80
+  },
+  {
+    "id": "coordinate-geometry-basics-011",
+    "type": "Numeric",
+    "primarySkill": "coordinate-geometry-basics",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "variables": [{ "name": "k", "min": 1, "max": 8, "step": 1 }],
+    "stem": "What is the distance between \\((0,0)\\) and \\(({{3*k}}, {{4*k}})\\)?",
+    "answer": 15,
+    "answerFormula": "5 * k",
+    "solutionStandard": "This is the 3-4-5 triple scaled by \\({{k}}\\): distance \\(={{5*k}}\\).",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "coordinate-geometry-basics-012",
+    "type": "MC",
+    "primarySkill": "coordinate-geometry-basics",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "What is the midpoint of the segment connecting \\((1, 3)\\) and \\((7, 9)\\)?",
+    "options": [
+      { "id": "A", "text": "(3, 5)" },
+      { "id": "B", "text": "(4, 6)" },
+      { "id": "C", "text": "(4, 5)" },
+      { "id": "D", "text": "(8, 12)" },
+      { "id": "E", "text": "(3, 6)" }
+    ],
+    "answer": "B",
+    "solutionStandard": "Midpoint \\(=\\left(\\dfrac{1+7}{2},\\dfrac{3+9}{2}\\right)=(4,6)\\).",
+    "timeTargetSec": 40
+  },
+  {
+    "id": "coordinate-geometry-basics-013",
+    "type": "Numeric",
+    "primarySkill": "coordinate-geometry-basics",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "variables": [
+      { "name": "a", "min": -10, "max": 10, "step": 1 },
+      { "name": "b", "min": -10, "max": 10, "step": 1 },
+      { "name": "k", "min": 1, "max": 6, "step": 1 }
+    ],
+    "stem": "What is the distance between \\(({{a}}, {{b}})\\) and \\(({{a+3*k}}, {{b+4*k}})\\)?",
+    "answer": 15,
+    "answerFormula": "5 * k",
+    "solutionStandard": "The coordinate differences are \\({{3*k}}\\) and \\({{4*k}}\\), a 3-4-5 triple scaled by \\({{k}}\\): distance \\(={{5*k}}\\), regardless of the starting point.",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "coordinate-geometry-basics-014",
+    "type": "MC",
+    "primarySkill": "coordinate-geometry-basics",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "Point \\(P\\) is at \\((-4, 7)\\). In which quadrant does \\(P\\) lie?",
+    "options": [
+      { "id": "A", "text": "I" },
+      { "id": "B", "text": "II" },
+      { "id": "C", "text": "III" },
+      { "id": "D", "text": "IV" },
+      { "id": "E", "text": "On an axis" }
+    ],
+    "answer": "B",
+    "solutionStandard": "\\(x<0\\) and \\(y>0\\) is Quadrant II.",
+    "timeTargetSec": 35
+  },
+  {
+    "id": "coordinate-geometry-basics-015",
+    "type": "QC",
+    "primarySkill": "coordinate-geometry-basics",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "variables": [{ "name": "k", "min": 1, "max": 8, "step": 1 }],
+    "stem": "Point \\(A\\) is at \\((0,0)\\) and point \\(B\\) is at \\(({{6*k}}, {{8*k}})\\).",
+    "quantityA": "The distance from \\(A\\) to \\(B\\)",
+    "quantityB": "{{10*k - 1}}",
+    "answer": "A",
+    "solutionStandard": "This is the 3-4-5 triple scaled by \\(2({{k}})\\): distance \\(={{10*k}}\\), always exactly 1 more than Quantity B.",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "coordinate-geometry-basics-016",
+    "type": "Numeric",
+    "primarySkill": "coordinate-geometry-basics",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "variables": [
+      { "name": "mx", "min": -10, "max": 10, "step": 1 },
+      { "name": "my", "min": -10, "max": 10, "step": 1 },
+      { "name": "ay", "min": -10, "max": 10, "step": 1 }
+    ],
+    "stem": "The midpoint of segment \\(AB\\) is \\(({{mx}}, {{my}})\\). If \\(A = (-2, {{ay}})\\), what is the \\(y\\)-coordinate of \\(B\\)?",
+    "answer": -3,
+    "answerFormula": "2*my - ay",
+    "solutionStandard": "\\(\\dfrac{ {{ay}}+y_B}{2}={{my}}\\), so \\(y_B = 2({{my}}) - {{ay}} = {{2*my-ay}}\\).",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "coordinate-geometry-basics-017",
+    "type": "MC",
+    "primarySkill": "coordinate-geometry-basics",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "A square has three of its vertices at \\((0,0)\\), \\((5,0)\\), and \\((5,5)\\). What are the coordinates of the fourth vertex?",
+    "options": [
+      { "id": "A", "text": "(0, 5)" },
+      { "id": "B", "text": "(5, -5)" },
+      { "id": "C", "text": "(-5, 5)" },
+      { "id": "D", "text": "(0, -5)" },
+      { "id": "E", "text": "(10, 5)" }
+    ],
+    "answer": "A",
+    "solutionStandard": "Completing the square from \\((0,0)\\), \\((5,0)\\), \\((5,5)\\) requires a fourth vertex at \\((0,5)\\).",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "coordinate-geometry-basics-018",
+    "type": "Numeric",
+    "primarySkill": "coordinate-geometry-basics",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "variables": [
+      { "name": "a", "min": -10, "max": 10, "step": 1 },
+      { "name": "b", "min": -10, "max": 10, "step": 1 },
+      { "name": "k", "min": 1, "max": 6, "step": 1 }
+    ],
+    "stem": "A circle is centered at \\(({{a}}, {{b}})\\) and passes through \\(({{a+3*k}}, {{b+4*k}})\\). What is the radius of the circle?",
+    "answer": 15,
+    "answerFormula": "5 * k",
+    "solutionStandard": "The coordinate differences form a 3-4-5 triple scaled by \\({{k}}\\): radius \\(={{5*k}}\\).",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "coordinate-geometry-basics-019",
+    "type": "MultiMC",
+    "primarySkill": "coordinate-geometry-basics",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "Which of the following points are equidistant from \\((0,0)\\) and \\((8,0)\\)? Select all that apply.",
+    "options": [
+      { "id": "A", "text": "(4, 5)" },
+      { "id": "B", "text": "(4, -3)" },
+      { "id": "C", "text": "(3, 5)" },
+      { "id": "D", "text": "(4, 0)" }
+    ],
+    "answer": ["A", "B", "D"],
+    "solutionStandard": "Points equidistant from \\((0,0)\\) and \\((8,0)\\) lie on the perpendicular bisector \\(x=4\\). (A), (B), and (D) all have \\(x=4\\); (C) does not.",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "coordinate-geometry-basics-020",
+    "type": "QC",
+    "primarySkill": "coordinate-geometry-basics",
+    "secondarySkills": [],
+    "difficulty": 5,
+    "stem": "Triangle \\(ABC\\) has vertices \\(A=(0,0)\\), \\(B=(6,0)\\), and \\(C=(0,8)\\).",
+    "quantityA": "The area of the triangle",
+    "quantityB": "The perimeter of the triangle",
+    "answer": "C",
+    "solutionStandard": "Area \\(=\\frac{1}{2}(6)(8)=24\\). \\(BC=\\sqrt{6^2+8^2}=10\\) (the 3-4-5 triple doubled), so perimeter \\(=6+8+10=24\\). The quantities happen to be exactly equal for this particular triangle.",
+    "timeTargetSec": 90
   }
 ]
