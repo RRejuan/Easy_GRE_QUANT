@@ -231,5 +231,152 @@
     "answer": "C",
     "solutionStandard": "\\(18 = 2 \\times 3^2\\), \\(24 = 2^3 \\times 3\\). \\(\\text{lcm} = 2^3 \\times 3^2 = 72\\). Digit sum of 72 is \\(7+2=9\\).",
     "timeTargetSec": 80
+  },
+  {
+    "id": "integer-properties-011",
+    "type": "Numeric",
+    "primarySkill": "integer-properties",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "variables": [{ "name": "k", "min": 2, "max": 6, "step": 1 }],
+    "stem": "What is the greatest common divisor of {{4*k}} and {{6*k}}?",
+    "answer": 8,
+    "answerFormula": "2 * k",
+    "solutionStandard": "\\(\\gcd(4k, 6k) = k \\times \\gcd(4,6) = 2k\\).",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "integer-properties-012",
+    "type": "MC",
+    "primarySkill": "integer-properties",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "variables": [{ "name": "n", "min": 3, "max": 9, "step": 1 }],
+    "stem": "Which of the following is NOT a multiple of {{n}}?",
+    "options": [
+      { "id": "A", "text": "{{n*2}}" },
+      { "id": "B", "text": "{{n*3}}" },
+      { "id": "C", "text": "{{n*4}}" },
+      { "id": "D", "text": "{{n*5+1}}" },
+      { "id": "E", "text": "{{n*6}}" }
+    ],
+    "answer": "D",
+    "solutionStandard": "Every option except (D) is \\(n\\) times a whole number. (D) is \\(5n+1\\), which leaves a remainder of 1 when divided by \\(n\\).",
+    "timeTargetSec": 40
+  },
+  {
+    "id": "integer-properties-013",
+    "type": "Numeric",
+    "primarySkill": "integer-properties",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "variables": [{ "name": "k", "min": 1, "max": 8, "step": 1 }],
+    "stem": "What is the least common multiple of {{3*k}} and {{5*k}}?",
+    "answer": 15,
+    "answerFormula": "15 * k",
+    "solutionStandard": "Since \\(\\gcd(3,5)=1\\), \\(\\text{lcm}(3k,5k) = 15k\\).",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "integer-properties-014",
+    "type": "MultiMC",
+    "primarySkill": "integer-properties",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "A number is divisible by 15. Which of the following must also be true? Select all that apply.",
+    "options": [
+      { "id": "A", "text": "The number is divisible by 3." },
+      { "id": "B", "text": "The number is divisible by 5." },
+      { "id": "C", "text": "The number is divisible by 45." },
+      { "id": "D", "text": "The number is odd." }
+    ],
+    "answer": ["A", "B"],
+    "solutionStandard": "\\(15 = 3 \\times 5\\), so any multiple of 15 is automatically divisible by 3 and by 5. Divisibility by 45 is not guaranteed (e.g. 30 is divisible by 15 but not 45), and 30 is also a counterexample to (D), since it's even.",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "integer-properties-015",
+    "type": "Numeric",
+    "primarySkill": "integer-properties",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "If \\(p\\) and \\(q\\) are distinct prime numbers, how many positive divisors does \\(p^2 q\\) have?",
+    "answer": 6,
+    "solutionStandard": "The number of divisors of \\(p^2 q^1\\) is \\((2+1)(1+1) = 6\\), regardless of which two distinct primes \\(p\\) and \\(q\\) are.",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "integer-properties-016",
+    "type": "MC",
+    "primarySkill": "integer-properties",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "What is the greatest number of consecutive integers, starting from 1, whose product does not exceed 30?",
+    "options": [
+      { "id": "A", "text": "3" },
+      { "id": "B", "text": "4" },
+      { "id": "C", "text": "5" },
+      { "id": "D", "text": "6" },
+      { "id": "E", "text": "7" }
+    ],
+    "answer": "B",
+    "solutionStandard": "\\(1\\times2\\times3\\times4=24 \\le 30\\), but \\(1\\times2\\times3\\times4\\times5=120 > 30\\). So 4 integers is the greatest that keeps the product at or below 30.",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "integer-properties-017",
+    "type": "QC",
+    "primarySkill": "integer-properties",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "variables": [{ "name": "k", "min": 1, "max": 10, "step": 1 }],
+    "stem": "\\(n = {{2*k}}\\), a positive even integer.",
+    "quantityA": "The remainder when \\(n^2\\) is divided by 4",
+    "quantityB": "\\(0\\)",
+    "answer": "C",
+    "solutionStandard": "Since \\(n\\) is even, \\(n=2m\\) for some integer \\(m\\), so \\(n^2 = 4m^2\\), which is always exactly divisible by 4. The remainder is always 0.",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "integer-properties-018",
+    "type": "Numeric",
+    "primarySkill": "integer-properties",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "\\(N\\) is the smallest positive integer that is divisible by both 20 and 30. What is the sum of the digits of \\(N\\)?",
+    "answer": 6,
+    "solutionStandard": "\\(20 = 2^2 \\times 5\\), \\(30 = 2 \\times 3 \\times 5\\). \\(\\text{lcm} = 2^2 \\times 3 \\times 5 = 60\\). Digit sum of 60 is \\(6+0=6\\).",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "integer-properties-019",
+    "type": "MC",
+    "primarySkill": "integer-properties",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "If \\(x\\) is an integer and \\(x^3\\) is odd, which of the following must be true?",
+    "options": [
+      { "id": "A", "text": "\\(x\\) is odd" },
+      { "id": "B", "text": "\\(x\\) is even" },
+      { "id": "C", "text": "\\(x\\) is prime" },
+      { "id": "D", "text": "\\(x > 0\\)" },
+      { "id": "E", "text": "\\(x\\) is a perfect square" }
+    ],
+    "answer": "A",
+    "solutionStandard": "An odd number cubed is always odd, and an even number cubed is always even. So \\(x^3\\) odd forces \\(x\\) to be odd. None of the other properties are required (e.g. \\(x=-3\\) works: odd, negative, not prime, not a perfect square).",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "integer-properties-020",
+    "type": "QC",
+    "primarySkill": "integer-properties",
+    "secondarySkills": [],
+    "difficulty": 5,
+    "stem": "\\(x\\) is a positive integer such that \\(x^2\\) has exactly 3 positive divisors.",
+    "quantityA": "\\(x\\)",
+    "quantityB": "The smallest prime number",
+    "answer": "D",
+    "solutionStandard": "A number has exactly 3 positive divisors only if it is the square of a prime (divisors \\(1, p, p^2\\)). So \\(x^2 = p^2\\) for some prime \\(p\\), meaning \\(x = p\\) itself must be prime — but it could be any prime (2, 3, 5, ...), not necessarily the smallest. If \\(x=2\\), the quantities are equal; if \\(x=3\\), Quantity A is greater. The relationship cannot be determined.",
+    "timeTargetSec": 90
   }
 ]

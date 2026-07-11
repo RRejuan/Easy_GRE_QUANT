@@ -148,5 +148,151 @@
     "answer": "C",
     "solutionStandard": "Values from 150 up to and including 249 round to 200 (250 would round up to 300). The greatest possible integer value is 249, equal to Quantity B.",
     "timeTargetSec": 75
+  },
+  {
+    "id": "estimation-rounding-011",
+    "type": "Numeric",
+    "primarySkill": "estimation-rounding",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "variables": [{ "name": "n", "min": 150, "max": 9999, "step": 1 }],
+    "stem": "What is {{n}} rounded to the nearest hundred?",
+    "answer": 4700,
+    "answerFormula": "Math.round(n / 100) * 100",
+    "solutionStandard": "Look at the tens digit; round up if it's 5 or more: {{n}} rounds to \\({{Math.round(n/100)*100}}\\).",
+    "timeTargetSec": 30
+  },
+  {
+    "id": "estimation-rounding-012",
+    "type": "MC",
+    "primarySkill": "estimation-rounding",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "What is 3.14159 rounded to the nearest hundredth?",
+    "options": [
+      { "id": "A", "text": "3.1" },
+      { "id": "B", "text": "3.14" },
+      { "id": "C", "text": "3.142" },
+      { "id": "D", "text": "3.15" },
+      { "id": "E", "text": "3" }
+    ],
+    "answer": "B",
+    "solutionStandard": "The thousandths digit is 1 (less than 5), so the hundredths digit stays the same: \\(3.14159 \\to 3.14\\).",
+    "timeTargetSec": 35
+  },
+  {
+    "id": "estimation-rounding-013",
+    "type": "Numeric",
+    "primarySkill": "estimation-rounding",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "Estimate \\(512 \\times 29\\) by rounding each number to the nearest ten, then compute the estimate exactly.",
+    "answer": 15300,
+    "solutionStandard": "\\(512 \\to 510\\) and \\(29 \\to 30\\): \\(510 \\times 30 = 15{,}300\\).",
+    "timeTargetSec": 50
+  },
+  {
+    "id": "estimation-rounding-014",
+    "type": "MC",
+    "primarySkill": "estimation-rounding",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "Which of the following is the best estimate of \\(803 \\div 39\\)?",
+    "options": [
+      { "id": "A", "text": "15" },
+      { "id": "B", "text": "20" },
+      { "id": "C", "text": "25" },
+      { "id": "D", "text": "30" },
+      { "id": "E", "text": "40" }
+    ],
+    "answer": "B",
+    "solutionStandard": "Round to \\(800 \\div 40 = 20\\).",
+    "timeTargetSec": 40
+  },
+  {
+    "id": "estimation-rounding-015",
+    "type": "QC",
+    "primarySkill": "estimation-rounding",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "\\(x = 125\\), rounded to the nearest ten.",
+    "quantityA": "\\(x\\)",
+    "quantityB": "\\(130\\)",
+    "answer": "C",
+    "solutionStandard": "125 is exactly halfway between 120 and 130; by the standard \"round half up\" convention, it rounds to 130. The quantities are equal.",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "estimation-rounding-016",
+    "type": "MultiMC",
+    "primarySkill": "estimation-rounding",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "Which of the following round to 20 when rounded to the nearest ten? Select all that apply.",
+    "options": [
+      { "id": "A", "text": "15" },
+      { "id": "B", "text": "24" },
+      { "id": "C", "text": "25" },
+      { "id": "D", "text": "16" },
+      { "id": "E", "text": "14" }
+    ],
+    "answer": ["A", "B", "D"],
+    "solutionStandard": "\\(15, 24,\\) and \\(16\\) all round to 20. \\(25\\) rounds up to 30 (halfway rounds up), and \\(14\\) rounds down to 10.",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "estimation-rounding-017",
+    "type": "Numeric",
+    "primarySkill": "estimation-rounding",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "A number rounds to 500 when rounded to the nearest hundred. What is the smallest possible integer value of the number?",
+    "answer": 450,
+    "solutionStandard": "Values from 450 up to (but not including) 550 round to 500. The smallest possible integer value is 450.",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "estimation-rounding-018",
+    "type": "MC",
+    "primarySkill": "estimation-rounding",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "The population of a town, rounded to the nearest thousand, is 24,000. Which of the following could NOT be the actual population?",
+    "options": [
+      { "id": "A", "text": "23,500" },
+      { "id": "B", "text": "23,999" },
+      { "id": "C", "text": "24,000" },
+      { "id": "D", "text": "24,499" },
+      { "id": "E", "text": "24,500" }
+    ],
+    "answer": "E",
+    "solutionStandard": "Values from 23,500 up to (but not including) 24,500 round to 24,000. 24,500 is exactly halfway to 25,000 and rounds up to 25,000, so it could NOT be the actual population.",
+    "timeTargetSec": 80
+  },
+  {
+    "id": "estimation-rounding-019",
+    "type": "Numeric",
+    "primarySkill": "estimation-rounding",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "variables": [{ "name": "n", "min": 10, "max": 500, "step": 1 }],
+    "stem": "A length of {{n}} cm is recorded, rounded to the nearest centimeter. What is the maximum possible difference, in cm, between the recorded value and the true length?",
+    "answer": 0.5,
+    "answerFormula": "0.5",
+    "solutionStandard": "Rounding to the nearest whole unit can shift a value by at most half of that unit, regardless of the value itself — here, at most 0.5 cm.",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "estimation-rounding-020",
+    "type": "QC",
+    "primarySkill": "estimation-rounding",
+    "secondarySkills": [],
+    "difficulty": 5,
+    "stem": "A number \\(x\\) is rounded to the nearest integer \\(r\\) (exact halves round up).",
+    "quantityA": "The greatest possible value of \\(|x - r|\\)",
+    "quantityB": "\\(0.5\\)",
+    "answer": "C",
+    "solutionStandard": "The worst case is when \\(x\\) sits exactly halfway between two integers (e.g. \\(x=2.5, r=3\\)), giving \\(|x-r|=0.5\\) exactly. No value of \\(x\\) can be rounded with a larger error than this. The quantities are equal.",
+    "timeTargetSec": 80
   }
 ]

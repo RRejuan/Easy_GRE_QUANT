@@ -248,5 +248,150 @@
     "answer": "C",
     "solutionStandard": "Scale both ratios to share the same \\(b\\): \\(a:b = 2:3 = 8:12\\), and \\(b:c = 4:5 = 12:15\\). So \\(a:b:c = 8:12:15\\), giving \\(a:c = 8:15\\).",
     "timeTargetSec": 90
+  },
+  {
+    "id": "ratios-proportions-011",
+    "type": "Numeric",
+    "primarySkill": "ratios-proportions",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "variables": [{ "name": "k", "min": 2, "max": 9, "step": 1 }],
+    "stem": "The ratio of cats to dogs at a shelter is 3 to 5. If there are {{3*k}} cats, how many dogs are there?",
+    "answer": 15,
+    "answerFormula": "5 * k",
+    "solutionStandard": "The scale factor is \\(k={{k}}\\) (since \\(3k={{3*k}}\\)), so dogs \\(=5k={{5*k}}\\).",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "ratios-proportions-012",
+    "type": "MC",
+    "primarySkill": "ratios-proportions",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "A recipe uses 2 cups of flour for every 3 cups of sugar. If 12 cups of sugar are used, how many cups of flour are needed?",
+    "options": [
+      { "id": "A", "text": "6" },
+      { "id": "B", "text": "8" },
+      { "id": "C", "text": "9" },
+      { "id": "D", "text": "10" },
+      { "id": "E", "text": "18" }
+    ],
+    "answer": "B",
+    "solutionStandard": "\\(\\dfrac{2}{3} = \\dfrac{x}{12}\\), so \\(x = \\dfrac{2 \\times 12}{3} = 8\\).",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "ratios-proportions-013",
+    "type": "Numeric",
+    "primarySkill": "ratios-proportions",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "variables": [{ "name": "k", "min": 3, "max": 12, "step": 1 }],
+    "stem": "In a class, the ratio of boys to girls is 4:7. If there are {{11*k}} students total, how many are girls?",
+    "answer": 42,
+    "answerFormula": "7 * k",
+    "solutionStandard": "Total parts \\(=4+7=11\\), so each part is \\(k={{k}}\\) students. Girls \\(=7k={{7*k}}\\).",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "ratios-proportions-014",
+    "type": "QC",
+    "primarySkill": "ratios-proportions",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "The ratio of \\(x\\) to \\(y\\) is 3 to 8.",
+    "quantityA": "\\(\\dfrac{x}{y}\\)",
+    "quantityB": "\\(0.4\\)",
+    "answer": "B",
+    "solutionStandard": "\\(\\dfrac{x}{y} = \\dfrac{3}{8} = 0.375\\). Since \\(0.375 < 0.4\\), Quantity B is greater.",
+    "timeTargetSec": 50
+  },
+  {
+    "id": "ratios-proportions-015",
+    "type": "MC",
+    "primarySkill": "ratios-proportions",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "A map has a scale of 1 inch to 25 miles. Two cities are 3.5 inches apart on the map. What is the actual distance, in miles?",
+    "options": [
+      { "id": "A", "text": "70" },
+      { "id": "B", "text": "75" },
+      { "id": "C", "text": "87.5" },
+      { "id": "D", "text": "90" },
+      { "id": "E", "text": "100" }
+    ],
+    "answer": "C",
+    "solutionStandard": "\\(3.5 \\times 25 = 87.5\\) miles.",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "ratios-proportions-016",
+    "type": "MultiMC",
+    "primarySkill": "ratios-proportions",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "A mixture of paint is 2 parts blue to 5 parts white. Which of the following mixtures have the same blue-to-white ratio? Select all that apply.",
+    "options": [
+      { "id": "A", "text": "4 parts blue, 10 parts white" },
+      { "id": "B", "text": "6 parts blue, 15 parts white" },
+      { "id": "C", "text": "10 parts blue, 20 parts white" },
+      { "id": "D", "text": "3 parts blue, 7.5 parts white" }
+    ],
+    "answer": ["A", "B", "D"],
+    "solutionStandard": "\\(2:5\\) scales to \\(4:10\\), \\(6:15\\), and \\(3:7.5\\) (multiply by 2, 3, and 1.5 respectively). But \\(10:20 = 1:2 \\neq 2:5\\).",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "ratios-proportions-017",
+    "type": "Numeric",
+    "primarySkill": "ratios-proportions",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "Two numbers are in the ratio 5:9. If the smaller number is 20, what is the larger number?",
+    "answer": 36,
+    "solutionStandard": "\\(\\dfrac{5}{9} = \\dfrac{20}{x}\\), so \\(x = \\dfrac{20 \\times 9}{5} = 36\\).",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "ratios-proportions-018",
+    "type": "MC",
+    "primarySkill": "ratios-proportions",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "A solution is 40% acid and the rest water. If 10 liters of water are added to 15 liters of the solution, what percent of the new mixture is acid?",
+    "options": [
+      { "id": "A", "text": "20%" },
+      { "id": "B", "text": "24%" },
+      { "id": "C", "text": "28%" },
+      { "id": "D", "text": "32%" },
+      { "id": "E", "text": "36%" }
+    ],
+    "answer": "B",
+    "solutionStandard": "Acid in original solution: \\(0.40 \\times 15 = 6\\) liters. New total volume: \\(15+10=25\\) liters. New percent acid: \\(6/25 = 0.24 = 24\\%\\).",
+    "timeTargetSec": 80
+  },
+  {
+    "id": "ratios-proportions-019",
+    "type": "QC",
+    "primarySkill": "ratios-proportions",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "\\(a:b = 2:3\\) and \\(b:c = 3:4\\), where \\(a\\), \\(b\\), \\(c\\) are all positive.",
+    "quantityA": "\\(a:c\\)",
+    "quantityB": "\\(1:2\\)",
+    "answer": "C",
+    "solutionStandard": "Since \\(b\\) already matches in both ratios (both are 3), \\(a:b:c = 2:3:4\\), so \\(a:c = 2:4 = 1:2\\), exactly equal to Quantity B.",
+    "timeTargetSec": 85
+  },
+  {
+    "id": "ratios-proportions-020",
+    "type": "Numeric",
+    "primarySkill": "ratios-proportions",
+    "secondarySkills": [],
+    "difficulty": 5,
+    "stem": "In a group, the ratio of men to women is 3:4. After 6 men leave and 6 women join, the ratio becomes 1:2. How many men were originally in the group?",
+    "answer": 27,
+    "solutionStandard": "Let men \\(=3k\\), women \\(=4k\\). After the change: \\(\\dfrac{3k-6}{4k+6} = \\dfrac{1}{2}\\). Cross-multiply: \\(2(3k-6) = 4k+6\\), so \\(6k-12=4k+6\\), giving \\(2k=18\\) and \\(k=9\\). Original men \\(=3k=27\\). Check: men \\(27-6=21\\), women \\(36+6=42\\), and \\(21:42=1:2\\). ✓",
+    "timeTargetSec": 100
   }
 ]

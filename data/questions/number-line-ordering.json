@@ -162,5 +162,166 @@
     "answer": "A",
     "solutionStandard": "Since \\(y < -1\\) throughout the given range, \\(|y| > 1\\) always, so \\(y^2 > 1\\) for every possible value of \\(y\\). Quantity A is always greater.",
     "timeTargetSec": 90
+  },
+  {
+    "id": "number-line-ordering-011",
+    "type": "MC",
+    "primarySkill": "number-line-ordering",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "Which of the following is smallest?",
+    "options": [
+      { "id": "A", "text": "-0.5" },
+      { "id": "B", "text": "-0.05" },
+      { "id": "C", "text": "0" },
+      { "id": "D", "text": "0.05" },
+      { "id": "E", "text": "0.5" }
+    ],
+    "answer": "A",
+    "solutionStandard": "Among the negative values, \\(-0.5\\) has the larger magnitude, so it is the smallest: \\(-0.5 < -0.05 < 0 < 0.05 < 0.5\\).",
+    "timeTargetSec": 35
+  },
+  {
+    "id": "number-line-ordering-012",
+    "type": "Numeric",
+    "primarySkill": "number-line-ordering",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "variables": [
+      { "name": "a", "min": -20, "max": -1, "step": 1 },
+      { "name": "b", "min": 1, "max": 20, "step": 1 }
+    ],
+    "stem": "How many integers are there from {{a}} to {{b}}, inclusive?",
+    "answer": 14,
+    "answerFormula": "b - a + 1",
+    "solutionStandard": "The count of integers from \\({{a}}\\) to \\({{b}}\\) inclusive is \\({{b}}-({{a}})+1 = {{b-a+1}}\\).",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "number-line-ordering-013",
+    "type": "QC",
+    "primarySkill": "number-line-ordering",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "variables": [{ "name": "a", "min": 1, "max": 20, "step": 1 }],
+    "stem": "Compare the two quantities.",
+    "quantityA": "\\(-|{{a}}|\\)",
+    "quantityB": "\\(0\\)",
+    "answer": "B",
+    "solutionStandard": "\\(|{{a}}|\\) is always positive (since \\({{a}}\\) is nonzero), so \\(-|{{a}}|\\) is always negative. Quantity B is always greater.",
+    "timeTargetSec": 40
+  },
+  {
+    "id": "number-line-ordering-014",
+    "type": "MC",
+    "primarySkill": "number-line-ordering",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "Which of the following is least?",
+    "options": [
+      { "id": "A", "text": "-2/3" },
+      { "id": "B", "text": "-0.6" },
+      { "id": "C", "text": "-3/4" },
+      { "id": "D", "text": "-0.5" },
+      { "id": "E", "text": "-0.7" }
+    ],
+    "answer": "C",
+    "solutionStandard": "As decimals: \\(-2/3\\approx-0.667\\), \\(-0.6\\), \\(-3/4=-0.75\\), \\(-0.5\\), \\(-0.7\\). The most negative (least) is \\(-0.75\\), i.e. \\(-3/4\\).",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "number-line-ordering-015",
+    "type": "MultiMC",
+    "primarySkill": "number-line-ordering",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "\\(x\\) is an integer with \\(-5 \\le x \\le 5\\). Which of the following could equal \\(|x| + x\\)? Select all that apply.",
+    "options": [
+      { "id": "A", "text": "0" },
+      { "id": "B", "text": "3" },
+      { "id": "C", "text": "6" },
+      { "id": "D", "text": "9" },
+      { "id": "E", "text": "10" }
+    ],
+    "answer": ["A", "C", "E"],
+    "solutionStandard": "For \\(x<0\\), \\(|x|+x=0\\). For \\(x\\ge0\\), \\(|x|+x=2x\\), an even number. So the only possible values are 0 and the even numbers \\(2,4,6,8,10\\) — 3 and 9 are impossible (odd).",
+    "timeTargetSec": 80
+  },
+  {
+    "id": "number-line-ordering-016",
+    "type": "Numeric",
+    "primarySkill": "number-line-ordering",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "variables": [
+      { "name": "a", "min": -10, "max": 5, "step": 1 },
+      { "name": "w", "min": 3, "max": 12, "step": 1 }
+    ],
+    "stem": "If \\({{a}} < x < {{a+w}}\\), how many integers could \\(x\\) be?",
+    "answer": 4,
+    "answerFormula": "w - 1",
+    "solutionStandard": "The integers strictly between \\({{a}}\\) and \\({{a+w}}\\) form a run of \\({{w}}-1 = {{w-1}}\\) consecutive integers.",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "number-line-ordering-017",
+    "type": "MC",
+    "primarySkill": "number-line-ordering",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "If \\(x < 0 < y\\) and \\(|x| > |y|\\), which of the following must be true?",
+    "options": [
+      { "id": "A", "text": "\\(x + y > 0\\)" },
+      { "id": "B", "text": "\\(x + y < 0\\)" },
+      { "id": "C", "text": "\\(x + y = 0\\)" },
+      { "id": "D", "text": "\\(xy > 0\\)" },
+      { "id": "E", "text": "\\(x - y > 0\\)" }
+    ],
+    "answer": "B",
+    "solutionStandard": "Since \\(x\\) has the larger magnitude and is negative, it dominates the sum. For example, \\(x=-5, y=2\\): \\(x+y=-3<0\\). In general, \\(|x|>|y|\\) with \\(x<0<y\\) forces \\(x+y<0\\).",
+    "timeTargetSec": 80
+  },
+  {
+    "id": "number-line-ordering-018",
+    "type": "QC",
+    "primarySkill": "number-line-ordering",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "variables": [
+      { "name": "a", "min": -10, "max": 5, "step": 1 },
+      { "name": "k", "min": 4, "max": 15, "step": 1 }
+    ],
+    "stem": "\\(n\\) is an integer such that \\({{a}} \\le n < {{a+k}}\\).",
+    "quantityA": "The greatest possible value of \\(n\\)",
+    "quantityB": "{{a+k}}",
+    "answer": "B",
+    "solutionStandard": "Since the upper bound is strict (\\(n < {{a+k}}\\)), the greatest possible integer is \\({{a+k}}-1\\), which is always 1 less than Quantity B. Quantity B is greater.",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "number-line-ordering-019",
+    "type": "Numeric",
+    "primarySkill": "number-line-ordering",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "variables": [{ "name": "n", "min": 4, "max": 15, "step": 1 }],
+    "stem": "How many integers \\(x\\) satisfy \\(-{{n}} < x \\le {{n}}\\)?",
+    "answer": 14,
+    "answerFormula": "2 * n",
+    "solutionStandard": "The integers range from \\(-{{n}}+1\\) to \\({{n}}\\), inclusive — a total of \\(2({{n}}) = {{2*n}}\\) integers.",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "number-line-ordering-020",
+    "type": "QC",
+    "primarySkill": "number-line-ordering",
+    "secondarySkills": [],
+    "difficulty": 5,
+    "stem": "\\(x < y < z\\) are real numbers, and the distance from \\(x\\) to \\(y\\) equals the distance from \\(y\\) to \\(z\\).",
+    "quantityA": "\\(y\\)",
+    "quantityB": "\\(\\dfrac{x+z}{2}\\)",
+    "answer": "C",
+    "solutionStandard": "Equal distances (\\(y-x = z-y\\)) means \\(y\\) is exactly the midpoint of \\(x\\) and \\(z\\), which by definition is \\(\\dfrac{x+z}{2}\\). The quantities are always equal.",
+    "timeTargetSec": 80
   }
 ]

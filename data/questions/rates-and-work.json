@@ -148,5 +148,163 @@
     "answer": "B",
     "solutionStandard": "Two workers together always finish faster than either could alone, so the combined time is always less than the smaller individual time. Quantity B is greater.",
     "timeTargetSec": 80
+  },
+  {
+    "id": "rates-and-work-011",
+    "type": "Numeric",
+    "primarySkill": "rates-and-work",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "variables": [
+      { "name": "t", "min": 2, "max": 6, "step": 1 },
+      { "name": "s", "min": 20, "max": 60, "step": 5 }
+    ],
+    "stem": "A cyclist travels {{t*s}} miles in {{t}} hours. What is the cyclist's speed, in miles per hour?",
+    "answer": 40,
+    "answerFormula": "s",
+    "solutionStandard": "Speed \\(= \\dfrac{\\text{distance}}{\\text{time}} = \\dfrac{ {{t*s}} }{ {{t}} } = {{s}}\\) mph.",
+    "timeTargetSec": 40
+  },
+  {
+    "id": "rates-and-work-012",
+    "type": "MC",
+    "primarySkill": "rates-and-work",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "A copier produces 15 pages per minute. How many pages does it produce in 8 minutes?",
+    "options": [
+      { "id": "A", "text": "100" },
+      { "id": "B", "text": "110" },
+      { "id": "C", "text": "120" },
+      { "id": "D", "text": "130" },
+      { "id": "E", "text": "150" }
+    ],
+    "answer": "C",
+    "solutionStandard": "\\(15 \\times 8 = 120\\) pages.",
+    "timeTargetSec": 35
+  },
+  {
+    "id": "rates-and-work-013",
+    "type": "Numeric",
+    "primarySkill": "rates-and-work",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "variables": [{ "name": "a", "min": 3, "max": 30, "step": 3 }],
+    "stem": "Machine A can complete a job in {{a}} hours, and Machine B takes twice as long, {{2*a}} hours. Working together, how many hours does it take to complete the job?",
+    "answer": 4,
+    "answerFormula": "(2 * a) / 3",
+    "solutionStandard": "Combined rate \\(= \\dfrac{1}{ {{a}} } + \\dfrac{1}{ {{2*a}} } = \\dfrac{3}{2({{a}})}\\) jobs per hour, so time \\(= \\dfrac{2({{a}})}{3} = {{(2*a)/3}}\\) hours.",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "rates-and-work-014",
+    "type": "MC",
+    "primarySkill": "rates-and-work",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "A plane flies 750 miles in 3 hours. At this same rate, how far would it fly in 5 hours?",
+    "options": [
+      { "id": "A", "text": "1000" },
+      { "id": "B", "text": "1100" },
+      { "id": "C", "text": "1200" },
+      { "id": "D", "text": "1250" },
+      { "id": "E", "text": "1300" }
+    ],
+    "answer": "D",
+    "solutionStandard": "Rate \\(= 750/3 = 250\\) mph. Distance in 5 hours: \\(250 \\times 5 = 1250\\) miles.",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "rates-and-work-015",
+    "type": "QC",
+    "primarySkill": "rates-and-work",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "variables": [
+      { "name": "v1", "min": 30, "max": 50, "step": 5 },
+      { "name": "v2", "min": 60, "max": 90, "step": 5 }
+    ],
+    "stem": "A car travels a distance at {{v1}} mph and returns the same distance at {{v2}} mph.",
+    "quantityA": "The average speed for the entire round trip",
+    "quantityB": "The arithmetic mean of {{v1}} and {{v2}}",
+    "answer": "B",
+    "solutionStandard": "The average speed for a round trip of equal distances is the harmonic mean of the two speeds, which is always less than or equal to the arithmetic mean (and strictly less whenever the speeds differ, as they do here). Quantity B is greater.",
+    "timeTargetSec": 90
+  },
+  {
+    "id": "rates-and-work-016",
+    "type": "MultiMC",
+    "primarySkill": "rates-and-work",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "Pipe A and Pipe B can each fill a tank in 6 hours, working alone. Which of the following are true? Select all that apply.",
+    "options": [
+      { "id": "A", "text": "Working together, they fill the tank in 3 hours." },
+      { "id": "B", "text": "Working together, they fill the tank in 12 hours." },
+      { "id": "C", "text": "Pipe A's rate is double Pipe B's rate." },
+      { "id": "D", "text": "Together they fill the tank twice as fast as either alone." }
+    ],
+    "answer": ["A", "D"],
+    "solutionStandard": "Combined rate \\(=1/6+1/6=1/3\\) tank per hour, so time \\(=3\\) hours — twice as fast as 6 hours alone. The two pipes have equal (not double) individual rates.",
+    "timeTargetSec": 80
+  },
+  {
+    "id": "rates-and-work-017",
+    "type": "Numeric",
+    "primarySkill": "rates-and-work",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "variables": [
+      { "name": "v1", "min": 30, "max": 60, "step": 10 },
+      { "name": "v2", "min": 30, "max": 60, "step": 10 },
+      { "name": "t", "min": 2, "max": 6, "step": 1 }
+    ],
+    "stem": "Two cars start at the same point and travel in opposite directions, one at {{v1}} mph and the other at {{v2}} mph. After how many hours will they be {{(v1+v2)*t}} miles apart?",
+    "answer": 4,
+    "answerFormula": "((v1 + v2) * t) / (v1 + v2)",
+    "solutionStandard": "Their separation rate is \\({{v1}}+{{v2}}={{v1+v2}}\\) mph. Time \\(= \\dfrac{ {{(v1+v2)*t}} }{ {{v1+v2}} } = {{t}}\\) hours.",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "rates-and-work-018",
+    "type": "Numeric",
+    "primarySkill": "rates-and-work",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "Machine A alone takes 8 hours to complete a job. Machine A and Machine B working together take 3 hours. How many hours would Machine B take alone?",
+    "answer": 4.8,
+    "solutionStandard": "\\(1/8 + 1/b = 1/3\\), so \\(1/b = 1/3 - 1/8 = 8/24 - 3/24 = 5/24\\), giving \\(b = 24/5 = 4.8\\) hours.",
+    "timeTargetSec": 90
+  },
+  {
+    "id": "rates-and-work-019",
+    "type": "MC",
+    "primarySkill": "rates-and-work",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "Pipe A can fill a tank in 4 hours. Pipe A runs alone for 1 hour, then Pipe B joins and together they finish the remaining work in 1.5 more hours. How long would Pipe B take to fill the tank alone?",
+    "options": [
+      { "id": "A", "text": "2 hours" },
+      { "id": "B", "text": "3 hours" },
+      { "id": "C", "text": "4 hours" },
+      { "id": "D", "text": "5 hours" },
+      { "id": "E", "text": "6 hours" }
+    ],
+    "answer": "C",
+    "solutionStandard": "Pipe A does \\(1/4\\) of the tank in the first hour, leaving \\(3/4\\). In the next 1.5 hours together: \\(1.5(1/4 + 1/b) = 3/4\\), so \\(1/4+1/b=1/2\\), giving \\(1/b=1/4\\) and \\(b=4\\) hours.",
+    "timeTargetSec": 100
+  },
+  {
+    "id": "rates-and-work-020",
+    "type": "QC",
+    "primarySkill": "rates-and-work",
+    "secondarySkills": [],
+    "difficulty": 5,
+    "stem": "Worker X takes \\(a\\) hours to finish a job alone. Worker Y, working alone, takes \\(2a\\) hours (half as fast as X).",
+    "quantityA": "The time for X and Y to finish the job together",
+    "quantityB": "\\(\\dfrac{2}{3}a\\)",
+    "answer": "C",
+    "solutionStandard": "Combined rate \\(= \\dfrac{1}{a}+\\dfrac{1}{2a} = \\dfrac{3}{2a}\\), so combined time \\(= \\dfrac{2a}{3}\\) — exactly equal to Quantity B, for every positive value of \\(a\\).",
+    "timeTargetSec": 90
   }
 ]
