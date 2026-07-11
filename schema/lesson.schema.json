@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "gre-quant-app/lesson.schema.json",
+  "title": "Lesson",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["skillId", "summary", "formulas", "explanation"],
+  "properties": {
+    "skillId": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "summary": { "type": "string", "minLength": 1 },
+    "formulas": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "expression"],
+        "properties": {
+          "name": { "type": "string", "minLength": 1 },
+          "expression": { "type": "string", "minLength": 1 },
+          "notes": { "type": "string" }
+        }
+      }
+    },
+    "explanation": { "type": "string", "minLength": 1 }
+  }
+}

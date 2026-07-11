@@ -1,3 +1,4 @@
 export * from "./skill";
 export * from "./question";
 export * from "./diSet";
+export * from "./lesson";

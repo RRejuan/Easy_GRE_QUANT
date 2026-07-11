@@ -1,0 +1,169 @@
+[
+  {
+    "id": "percent-basics-001",
+    "type": "MC",
+    "primarySkill": "percent-basics",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "What is $3/8$ expressed as a percent?",
+    "options": [
+      { "id": "A", "text": "3.8%" },
+      { "id": "B", "text": "8.3%" },
+      { "id": "C", "text": "37.5%" },
+      { "id": "D", "text": "38%" },
+      { "id": "E", "text": "83.3%" }
+    ],
+    "answer": "C",
+    "solutionStandard": "$3/8 = 0.375 = 37.5\\%$.",
+    "timeTargetSec": 40
+  },
+  {
+    "id": "percent-basics-002",
+    "type": "QC",
+    "primarySkill": "percent-basics",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "$x$ is 20% of 50.",
+    "quantityA": "$x$",
+    "quantityB": "$8$",
+    "answer": "A",
+    "solutionStandard": "$x = 0.20 \\times 50 = 10$, and $10 > 8$, so Quantity A is greater.",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "percent-basics-003",
+    "type": "MC",
+    "primarySkill": "percent-basics",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "What is 15% of 200?",
+    "options": [
+      { "id": "A", "text": "15" },
+      { "id": "B", "text": "20" },
+      { "id": "C", "text": "30" },
+      { "id": "D", "text": "150" },
+      { "id": "E", "text": "300" }
+    ],
+    "answer": "C",
+    "solutionStandard": "$15\\% \\times 200 = 0.15 \\times 200 = 30$.",
+    "timeTargetSec": 40
+  },
+  {
+    "id": "percent-basics-004",
+    "type": "Numeric",
+    "primarySkill": "percent-basics",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "What is 45% of 160?",
+    "answer": 72,
+    "solutionStandard": "$0.45 \\times 160 = 72$.",
+    "solutionShortcut": "10% of 160 is 16, so 40% is 64 and 5% is 8; $64 + 8 = 72$.",
+    "shortcutTags": ["estimate"],
+    "timeTargetSec": 60
+  },
+  {
+    "id": "percent-basics-005",
+    "type": "MC",
+    "primarySkill": "percent-basics",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "A shirt originally priced at $40 is discounted by 25%. What is the sale price?",
+    "options": [
+      { "id": "A", "text": "$10" },
+      { "id": "B", "text": "$28" },
+      { "id": "C", "text": "$30" },
+      { "id": "D", "text": "$32" },
+      { "id": "E", "text": "$35" }
+    ],
+    "answer": "C",
+    "solutionStandard": "25% of $40 is $0.25 \\times 40 = 10$. The sale price is $40 - 10 = 30$.",
+    "solutionShortcut": "A 25% discount leaves 75% of the price: $0.75 \\times 40 = 30$.",
+    "shortcutTags": ["estimate"],
+    "timeTargetSec": 50
+  },
+  {
+    "id": "percent-basics-006",
+    "type": "QC",
+    "primarySkill": "percent-basics",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "Compare the two quantities.",
+    "quantityA": "30% of 90",
+    "quantityB": "90% of 30",
+    "answer": "C",
+    "solutionStandard": "$30\\% \\times 90 = 27$, and $90\\% \\times 30 = 27$. The quantities are equal.",
+    "solutionShortcut": "\"$p\\%$ of $q$\" always equals \"$q\\%$ of $p$\" since both equal $\\frac{pq}{100}$. No computation needed.",
+    "shortcutTags": ["estimate"],
+    "timeTargetSec": 45
+  },
+  {
+    "id": "percent-basics-007",
+    "type": "MultiMC",
+    "primarySkill": "percent-basics",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "Which of the following are equivalent to 40%? Select all that apply.",
+    "options": [
+      { "id": "A", "text": "2/5" },
+      { "id": "B", "text": "0.4" },
+      { "id": "C", "text": "4/10" },
+      { "id": "D", "text": "40/100" },
+      { "id": "E", "text": "0.04" },
+      { "id": "F", "text": "4" }
+    ],
+    "answer": ["A", "B", "C", "D"],
+    "solutionStandard": "$40\\% = 0.40 = \\frac{40}{100} = \\frac{2}{5} = \\frac{4}{10}$. Options E ($0.04 = 4\\%$) and F ($4 = 400\\%$) are not equivalent.",
+    "timeTargetSec": 80
+  },
+  {
+    "id": "percent-basics-008",
+    "type": "Numeric",
+    "primarySkill": "percent-basics",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "A quantity increases from 80 to 100. What is the percent increase? (Enter your answer as a number, without the percent sign.)",
+    "answer": 25,
+    "solutionStandard": "Percent increase $= \\frac{100 - 80}{80} \\times 100 = 25$.",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "percent-basics-009",
+    "type": "MC",
+    "primarySkill": "percent-basics",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "In a class of 40 students, 60% are girls. How many boys are in the class?",
+    "options": [
+      { "id": "A", "text": "10" },
+      { "id": "B", "text": "16" },
+      { "id": "C", "text": "20" },
+      { "id": "D", "text": "24" },
+      { "id": "E", "text": "26" }
+    ],
+    "answer": "B",
+    "solutionStandard": "60% of 40 are girls: $0.60 \\times 40 = 24$. Boys $= 40 - 24 = 16$.",
+    "solutionShortcut": "If 60% are girls, 40% are boys: $0.40 \\times 40 = 16$.",
+    "shortcutTags": ["estimate"],
+    "timeTargetSec": 55
+  },
+  {
+    "id": "percent-basics-010",
+    "type": "MC",
+    "primarySkill": "percent-basics",
+    "secondarySkills": ["linear-equations-one-var"],
+    "difficulty": 4,
+    "stem": "After a 20% increase, the price of an item is $60. What was the original price?",
+    "options": [
+      { "id": "A", "text": "$40" },
+      { "id": "B", "text": "$45" },
+      { "id": "C", "text": "$48" },
+      { "id": "D", "text": "$50" },
+      { "id": "E", "text": "$52" }
+    ],
+    "answer": "D",
+    "solutionStandard": "Let $x$ be the original price. $1.20x = 60$, so $x = 60 / 1.20 = 50$.",
+    "solutionShortcut": "Backsolve from the choices: test D, $50. A 20% increase on $50 is $50 + 10 = 60$, which matches. (A common wrong answer is $48, from mistakenly taking 20% of $60 and subtracting.)",
+    "shortcutTags": ["backsolve"],
+    "timeTargetSec": 75
+  }
+]

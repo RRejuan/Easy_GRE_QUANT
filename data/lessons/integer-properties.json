@@ -1,0 +1,10 @@
+{
+  "skillId": "integer-properties",
+  "summary": "Even/odd rules, divisibility, and prime factorization let you reason about numbers without brute-force computation.",
+  "formulas": [
+    { "name": "Even/odd addition", "expression": "\\text{even} \\pm \\text{even} = \\text{even},\\ \\ \\text{odd} \\pm \\text{odd} = \\text{even},\\ \\ \\text{even} \\pm \\text{odd} = \\text{odd}" },
+    { "name": "Even/odd multiplication", "expression": "\\text{even} \\times \\text{anything} = \\text{even},\\ \\ \\text{odd} \\times \\text{odd} = \\text{odd}" },
+    { "name": "GCD/LCM relation", "expression": "\\gcd(a,b) \\times \\text{lcm}(a,b) = a \\times b" }
+  ],
+  "explanation": "A number's factors are the integers that divide it evenly; its multiples are the numbers it divides into evenly. A prime number has exactly two factors, 1 and itself (note: 1 is not prime, and 2 is the only even prime). Divisibility rules speed up factor-finding: a number is divisible by 2 if its last digit is even, by 3 if its digit sum is divisible by 3, by 5 if it ends in 0 or 5, and by 9 if its digit sum is divisible by 9. Even/odd behavior follows simple parity rules (see formulas) and often lets you eliminate answer choices without computing exact values. To find the greatest common divisor (GCD) and least common multiple (LCM) of two numbers, break each into its prime factorization: the GCD takes the lowest power of each shared prime, and the LCM takes the highest power of every prime that appears in either number."
+}

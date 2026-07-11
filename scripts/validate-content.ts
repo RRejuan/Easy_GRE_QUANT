@@ -17,6 +17,7 @@ function loadSchema(name: string) {
 const validateSkill = ajv.compile(loadSchema("skill.schema.json"));
 const validateQuestion = ajv.compile(loadSchema("question.schema.json"));
 const validateDISet = ajv.compile(loadSchema("di-set.schema.json"));
+const validateLesson = ajv.compile(loadSchema("lesson.schema.json"));
 
 const errors: string[] = [];
 
@@ -72,6 +73,40 @@ try {
       errors.push(`di-sets.json > duplicate DI set id "${id}"`);
     }
     diSetIds.add(id);
+  }
+} catch (err) {
+  if ((err as NodeJS.ErrnoException).code !== "ENOENT") throw err;
+}
+
+// --- Lessons ---
+const lessonsDir = path.join(dataDir, "lessons");
+const lessonSkillIds = new Set<string>();
+try {
+  for (const fileName of readdirSync(lessonsDir)) {
+    if (!fileName.endsWith(".json")) continue;
+    const skillIdFromFileName = fileName.replace(/\.json$/, "");
+    const lesson = readJson(path.join(lessonsDir, fileName)) as Record<string, unknown>;
+
+    if (!validateLesson(lesson)) {
+      errors.push(
+        `lessons/${fileName}: ${ajv.errorsText(validateLesson.errors)}`,
+      );
+      continue;
+    }
+
+    const skillId = lesson.skillId as string;
+    if (skillId !== skillIdFromFileName) {
+      errors.push(
+        `lessons/${fileName}: skillId "${skillId}" does not match file name`,
+      );
+    }
+    if (!skillIds.has(skillId)) {
+      errors.push(`lessons/${fileName}: unknown skillId "${skillId}"`);
+    }
+    if (lessonSkillIds.has(skillId)) {
+      errors.push(`lessons/${fileName}: duplicate lesson for skill "${skillId}"`);
+    }
+    lessonSkillIds.add(skillId);
   }
 } catch (err) {
   if ((err as NodeJS.ErrnoException).code !== "ENOENT") throw err;
@@ -143,5 +178,5 @@ if (errors.length > 0) {
 }
 
 console.log(
-  `Content validation passed: ${skillIds.size} skill(s), ${questionIds.size} question(s), ${diSetIds.size} DI set(s).`,
+  `Content validation passed: ${skillIds.size} skill(s), ${lessonSkillIds.size} lesson(s), ${questionIds.size} question(s), ${diSetIds.size} DI set(s).`,
 );
