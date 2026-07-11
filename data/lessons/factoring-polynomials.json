@@ -1,0 +1,10 @@
+{
+  "skillId": "factoring-polynomials",
+  "summary": "Factoring rewrites a sum as a product — pull out common factors first, then recognize difference-of-squares and trinomial patterns.",
+  "formulas": [
+    { "name": "Difference of squares", "expression": "a^2 - b^2 = (a-b)(a+b)" },
+    { "name": "Trinomial factoring", "expression": "x^2 + (p+q)x + pq = (x+p)(x+q)" },
+    { "name": "Perfect square trinomial", "expression": "a^2 \\pm 2ab + b^2 = (a \\pm b)^2" }
+  ],
+  "explanation": "Always check for a greatest common factor (GCF) first: factor it out of every term before anything else. A difference of two perfect squares always factors as \\((a-b)(a+b)\\) — this pattern shows up constantly and is easy to miss when the terms aren't obviously square. For a trinomial \\(x^2 + bx + c\\), look for two numbers that multiply to \\(c\\) and add to \\(b\\); those numbers become the constants in the two binomial factors. A perfect square trinomial (\\(a^2+2ab+b^2\\) or \\(a^2-2ab+b^2\\)) factors as a single squared binomial. Factoring is most often used to solve equations (set each factor equal to zero) or to simplify fractions (cancel common factors in the numerator and denominator)."
+}

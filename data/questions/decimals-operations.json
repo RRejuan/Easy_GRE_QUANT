@@ -1,0 +1,141 @@
+[
+  {
+    "id": "decimals-operations-001",
+    "type": "Numeric",
+    "primarySkill": "decimals-operations",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "What is \\(4.75 + 2.6\\)?",
+    "answer": 7.35,
+    "solutionStandard": "Align decimal points: \\(4.75 + 2.60 = 7.35\\).",
+    "timeTargetSec": 35
+  },
+  {
+    "id": "decimals-operations-002",
+    "type": "Numeric",
+    "primarySkill": "decimals-operations",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "What is \\(8.2 - 3.65\\)?",
+    "answer": 4.55,
+    "solutionStandard": "Align decimal points: \\(8.20 - 3.65 = 4.55\\).",
+    "timeTargetSec": 35
+  },
+  {
+    "id": "decimals-operations-003",
+    "type": "MC",
+    "primarySkill": "decimals-operations",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "What is \\(0.4 \\times 0.3\\)?",
+    "options": [
+      { "id": "A", "text": "0.012" },
+      { "id": "B", "text": "0.12" },
+      { "id": "C", "text": "1.2" },
+      { "id": "D", "text": "0.7" },
+      { "id": "E", "text": "12" }
+    ],
+    "answer": "B",
+    "solutionStandard": "\\(4 \\times 3 = 12\\), and the product has \\(1+1=2\\) decimal places: \\(0.12\\).",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "decimals-operations-004",
+    "type": "Numeric",
+    "primarySkill": "decimals-operations",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "What is \\(6.4 \\div 0.8\\)?",
+    "answer": 8,
+    "solutionStandard": "Shift both decimal points one place: \\(64 \\div 8 = 8\\).",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "decimals-operations-005",
+    "type": "QC",
+    "primarySkill": "decimals-operations",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "Compare the two quantities.",
+    "quantityA": "\\(0.3 \\times 0.3\\)",
+    "quantityB": "\\(0.3 + 0.3\\)",
+    "answer": "B",
+    "solutionStandard": "\\(0.3 \\times 0.3 = 0.09\\), and \\(0.3 + 0.3 = 0.6\\). Since \\(0.6 > 0.09\\), Quantity B is greater.",
+    "timeTargetSec": 50
+  },
+  {
+    "id": "decimals-operations-006",
+    "type": "MC",
+    "primarySkill": "decimals-operations",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "What is \\(0.125\\) expressed as a fraction in lowest terms?",
+    "options": [
+      { "id": "A", "text": "1/8" },
+      { "id": "B", "text": "1/4" },
+      { "id": "C", "text": "1/80" },
+      { "id": "D", "text": "5/8" },
+      { "id": "E", "text": "1/2" }
+    ],
+    "answer": "A",
+    "solutionStandard": "\\(0.125 = 125/1000\\). Dividing numerator and denominator by 125 gives \\(1/8\\).",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "decimals-operations-007",
+    "type": "Numeric",
+    "primarySkill": "decimals-operations",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "What is \\(2.5 \\times 1.2 \\times 2\\)?",
+    "answer": 6,
+    "solutionStandard": "\\(2.5 \\times 1.2 = 3\\), then \\(3 \\times 2 = 6\\).",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "decimals-operations-008",
+    "type": "MultiMC",
+    "primarySkill": "decimals-operations",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "Which of the following are equal to \\(1.5\\)? Select all that apply.",
+    "options": [
+      { "id": "A", "text": "3/2" },
+      { "id": "B", "text": "0.15 \\times 10" },
+      { "id": "C", "text": "15/100" },
+      { "id": "D", "text": "6 \\div 4" }
+    ],
+    "answer": ["A", "B", "D"],
+    "solutionStandard": "\\(3/2 = 1.5\\). \\(0.15 \\times 10 = 1.5\\). \\(15/100 = 0.15 \\neq 1.5\\). \\(6 \\div 4 = 1.5\\).",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "decimals-operations-009",
+    "type": "MC",
+    "primarySkill": "decimals-operations",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "A recipe calls for 2.25 cups of flour per batch. How many cups are needed for 3.5 batches?",
+    "options": [
+      { "id": "A", "text": "6.75" },
+      { "id": "B", "text": "7.325" },
+      { "id": "C", "text": "7.875" },
+      { "id": "D", "text": "8.25" },
+      { "id": "E", "text": "9.0" }
+    ],
+    "answer": "C",
+    "solutionStandard": "\\(2.25 \\times 3.5 = 7.875\\).",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "decimals-operations-010",
+    "type": "Numeric",
+    "primarySkill": "decimals-operations",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "What is \\(12.6 \\div 0.06\\)?",
+    "answer": 210,
+    "solutionStandard": "Shift both decimal points two places: \\(1260 \\div 6 = 210\\).",
+    "timeTargetSec": 65
+  }
+]

@@ -1,0 +1,150 @@
+[
+  {
+    "id": "exponents-basic-001",
+    "type": "Numeric",
+    "primarySkill": "exponents-basic",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "What is \\(2^5\\)?",
+    "answer": 32,
+    "solutionStandard": "\\(2^5 = 2\\times2\\times2\\times2\\times2 = 32\\).",
+    "timeTargetSec": 30
+  },
+  {
+    "id": "exponents-basic-002",
+    "type": "MC",
+    "primarySkill": "exponents-basic",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "What is \\(3^4 \\times 3^2\\)?",
+    "options": [
+      { "id": "A", "text": "\\(3^6\\)" },
+      { "id": "B", "text": "\\(3^8\\)" },
+      { "id": "C", "text": "\\(9^6\\)" },
+      { "id": "D", "text": "\\(3^2\\)" },
+      { "id": "E", "text": "\\(6^6\\)" }
+    ],
+    "answer": "A",
+    "solutionStandard": "Add the exponents when multiplying same-base powers: \\(3^{4+2} = 3^6\\).",
+    "timeTargetSec": 35
+  },
+  {
+    "id": "exponents-basic-003",
+    "type": "Numeric",
+    "primarySkill": "exponents-basic",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "What is \\(\\dfrac{5^7}{5^4}\\)?",
+    "answer": 125,
+    "solutionStandard": "\\(5^{7-4} = 5^3 = 125\\).",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "exponents-basic-004",
+    "type": "MC",
+    "primarySkill": "exponents-basic",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "What is \\((2^3)^2\\)?",
+    "options": [
+      { "id": "A", "text": "16" },
+      { "id": "B", "text": "32" },
+      { "id": "C", "text": "64" },
+      { "id": "D", "text": "36" },
+      { "id": "E", "text": "8" }
+    ],
+    "answer": "C",
+    "solutionStandard": "Multiply the exponents: \\((2^3)^2 = 2^6 = 64\\).",
+    "timeTargetSec": 40
+  },
+  {
+    "id": "exponents-basic-005",
+    "type": "QC",
+    "primarySkill": "exponents-basic",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "Compare the two quantities.",
+    "quantityA": "\\(2^{10}\\)",
+    "quantityB": "\\(10^2\\)",
+    "answer": "A",
+    "solutionStandard": "\\(2^{10} = 1024\\), and \\(10^2 = 100\\). Since \\(1024 > 100\\), Quantity A is greater.",
+    "timeTargetSec": 50
+  },
+  {
+    "id": "exponents-basic-006",
+    "type": "Numeric",
+    "primarySkill": "exponents-basic",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "What is \\(4^{-2}\\) expressed as a fraction? (Enter as a decimal.)",
+    "answer": 0.0625,
+    "solutionStandard": "\\(4^{-2} = \\dfrac{1}{4^2} = \\dfrac{1}{16} = 0.0625\\).",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "exponents-basic-007",
+    "type": "MC",
+    "primarySkill": "exponents-basic",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "What is \\(\\dfrac{6^5}{6^5} + 3^0\\)?",
+    "options": [
+      { "id": "A", "text": "0" },
+      { "id": "B", "text": "1" },
+      { "id": "C", "text": "2" },
+      { "id": "D", "text": "6" },
+      { "id": "E", "text": "9" }
+    ],
+    "answer": "C",
+    "solutionStandard": "\\(6^5/6^5 = 6^0 = 1\\), and \\(3^0 = 1\\). Sum: \\(1+1=2\\).",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "exponents-basic-008",
+    "type": "MultiMC",
+    "primarySkill": "exponents-basic",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "Which of the following equal \\(2^{12}\\)? Select all that apply.",
+    "options": [
+      { "id": "A", "text": "\\(2^8 \\times 2^4\\)" },
+      { "id": "B", "text": "\\((2^3)^4\\)" },
+      { "id": "C", "text": "\\(2^{16} \\div 2^4\\)" },
+      { "id": "D", "text": "\\(2^6 + 2^6\\)" }
+    ],
+    "answer": ["A", "B", "C"],
+    "solutionStandard": "(A) \\(2^{8+4}=2^{12}\\). (B) \\(2^{3\\times4}=2^{12}\\). (C) \\(2^{16-4}=2^{12}\\). (D) \\(2^6+2^6 = 2\\times2^6 = 2^7 \\neq 2^{12}\\) — exponent rules apply to multiplication/division, not addition.",
+    "timeTargetSec": 80
+  },
+  {
+    "id": "exponents-basic-009",
+    "type": "MC",
+    "primarySkill": "exponents-basic",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "If \\(3^x = 81\\), what is the value of \\(3^{x+2}\\)?",
+    "options": [
+      { "id": "A", "text": "83" },
+      { "id": "B", "text": "243" },
+      { "id": "C", "text": "486" },
+      { "id": "D", "text": "729" },
+      { "id": "E", "text": "6561" }
+    ],
+    "answer": "D",
+    "solutionStandard": "\\(3^x=81=3^4\\), so \\(x=4\\). \\(3^{x+2}=3^6=729\\).",
+    "solutionShortcut": "\\(3^{x+2} = 3^x \\times 3^2 = 81 \\times 9 = 729\\), no need to solve for \\(x\\) first.",
+    "shortcutTags": ["estimate"],
+    "timeTargetSec": 75
+  },
+  {
+    "id": "exponents-basic-010",
+    "type": "Numeric",
+    "primarySkill": "exponents-basic",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "What is the units digit of \\(7^{10}\\)?",
+    "answer": 9,
+    "solutionStandard": "Units digits of powers of 7 cycle every 4: \\(7^1=7, 7^2=...9, 7^3=...3, 7^4=...1\\), then repeat. \\(10 \\mod 4 = 2\\), so the units digit matches \\(7^2\\), which is 9.",
+    "timeTargetSec": 90
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "skillId": "counting-combinations",
+  "summary": "Combinations count selections where order doesn't matter, which is always a smaller count than the corresponding number of permutations.",
+  "formulas": [
+    { "name": "Combinations of n items taken r at a time", "expression": "C(n,r) = \\binom{n}{r} = \\frac{n!}{r!(n-r)!}" },
+    { "name": "Relation to permutations", "expression": "C(n,r) = \\frac{P(n,r)}{r!}" }
+  ],
+  "explanation": "A combination is a selection of items where order does not matter — choosing a committee of 3 from 10 people is a combination problem, since \"Alice, Bob, Carol\" is the same committee as \"Carol, Alice, Bob.\" Because each group of \\(r\\) items can be arranged in \\(r!\\) different orders, the number of combinations is the number of permutations divided by \\(r!\\): \\(C(n,r) = P(n,r)/r!\\). The key skill is recognizing which situation you're in: if rearranging the same items would count as a different outcome (like a race's 1st/2nd/3rd place), use permutations; if rearranging the same items gives the same outcome (like picking a committee, a hand of cards, or a subset), use combinations."
+}

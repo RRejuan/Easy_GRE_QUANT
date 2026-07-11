@@ -1,0 +1,9 @@
+{
+  "skillId": "circles-basic",
+  "summary": "A circle's circumference and area are both determined entirely by its radius.",
+  "formulas": [
+    { "name": "Circumference", "expression": "C = 2\\pi r = \\pi d" },
+    { "name": "Area", "expression": "A = \\pi r^2" }
+  ],
+  "explanation": "The radius is the distance from the center to any point on the circle; the diameter is twice the radius and passes through the center. Circumference (the distance around the circle) is \\(2\\pi r\\), and area is \\(\\pi r^2\\). On the GRE, \\(\\pi\\) is often left as a symbol in the answer rather than approximated, unless the problem specifically asks for a decimal estimate (in which case \\(\\pi \\approx 3.14\\)). A common trap is confusing radius and diameter — always double-check which one a problem gives you before plugging into a formula, since using the diameter where the formula calls for radius (or vice versa) is one of the most frequent GRE geometry errors."
+}

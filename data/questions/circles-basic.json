@@ -1,0 +1,148 @@
+[
+  {
+    "id": "circles-basic-001",
+    "type": "MC",
+    "primarySkill": "circles-basic",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "A circle has radius 5. What is its circumference?",
+    "options": [
+      { "id": "A", "text": "\\(5\\pi\\)" },
+      { "id": "B", "text": "\\(10\\pi\\)" },
+      { "id": "C", "text": "\\(25\\pi\\)" },
+      { "id": "D", "text": "\\(20\\pi\\)" },
+      { "id": "E", "text": "\\(2.5\\pi\\)" }
+    ],
+    "answer": "B",
+    "solutionStandard": "\\(C = 2\\pi r = 2\\pi(5) = 10\\pi\\).",
+    "timeTargetSec": 35
+  },
+  {
+    "id": "circles-basic-002",
+    "type": "Numeric",
+    "primarySkill": "circles-basic",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "A circle has radius 4. What is its area, in terms of \\(\\pi\\)? (Enter just the coefficient of \\(\\pi\\).)",
+    "answer": 16,
+    "solutionStandard": "\\(A = \\pi r^2 = \\pi(4)^2 = 16\\pi\\).",
+    "timeTargetSec": 40
+  },
+  {
+    "id": "circles-basic-003",
+    "type": "MC",
+    "primarySkill": "circles-basic",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "A circle has diameter 18. What is its circumference?",
+    "options": [
+      { "id": "A", "text": "\\(9\\pi\\)" },
+      { "id": "B", "text": "\\(18\\pi\\)" },
+      { "id": "C", "text": "\\(36\\pi\\)" },
+      { "id": "D", "text": "\\(81\\pi\\)" },
+      { "id": "E", "text": "\\(324\\pi\\)" }
+    ],
+    "answer": "B",
+    "solutionStandard": "\\(C = \\pi d = \\pi(18) = 18\\pi\\).",
+    "timeTargetSec": 40
+  },
+  {
+    "id": "circles-basic-004",
+    "type": "Numeric",
+    "primarySkill": "circles-basic",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "A circle has area \\(49\\pi\\). What is its radius?",
+    "answer": 7,
+    "solutionStandard": "\\(\\pi r^2 = 49\\pi\\), so \\(r^2=49\\) and \\(r=7\\).",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "circles-basic-005",
+    "type": "QC",
+    "primarySkill": "circles-basic",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "Circle A has radius 3. Circle B has diameter 5.",
+    "quantityA": "The area of Circle A",
+    "quantityB": "The area of Circle B",
+    "answer": "A",
+    "solutionStandard": "Area of A: \\(\\pi(3)^2=9\\pi\\). Circle B has radius \\(2.5\\), so area \\(=\\pi(2.5)^2=6.25\\pi\\). Since \\(9\\pi > 6.25\\pi\\), Quantity A is greater.",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "circles-basic-006",
+    "type": "MC",
+    "primarySkill": "circles-basic",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "A circle's circumference is \\(16\\pi\\). What is its area?",
+    "options": [
+      { "id": "A", "text": "\\(16\\pi\\)" },
+      { "id": "B", "text": "\\(32\\pi\\)" },
+      { "id": "C", "text": "\\(64\\pi\\)" },
+      { "id": "D", "text": "\\(128\\pi\\)" },
+      { "id": "E", "text": "\\(256\\pi\\)" }
+    ],
+    "answer": "C",
+    "solutionStandard": "\\(2\\pi r=16\\pi\\), so \\(r=8\\). Area \\(=\\pi(8)^2=64\\pi\\).",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "circles-basic-007",
+    "type": "Numeric",
+    "primarySkill": "circles-basic",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "A circular garden has a radius of 6 meters. A path is built around its entire border. Approximately how many meters long is the path, using \\(\\pi \\approx 3.14\\)? (Round to the nearest whole number.)",
+    "answer": 38,
+    "solutionStandard": "\\(C=2\\pi r \\approx 2(3.14)(6) = 37.68 \\approx 38\\).",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "circles-basic-008",
+    "type": "MultiMC",
+    "primarySkill": "circles-basic",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "A circle has radius \\(r\\). If \\(r\\) is doubled, which of the following also exactly double? Select all that apply.",
+    "options": [
+      { "id": "A", "text": "The diameter" },
+      { "id": "B", "text": "The circumference" },
+      { "id": "C", "text": "The area" },
+      { "id": "D", "text": "The radius itself" }
+    ],
+    "answer": ["A", "B", "D"],
+    "solutionStandard": "Diameter and circumference are both linear in \\(r\\) (proportional to \\(r\\)), so doubling \\(r\\) doubles them, and the radius itself obviously doubles. Area is proportional to \\(r^2\\), so doubling \\(r\\) quadruples the area, not doubles it.",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "circles-basic-009",
+    "type": "MC",
+    "primarySkill": "circles-basic",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "A circle is inscribed in a square with side length 10 (the circle touches all four sides). What is the area of the circle?",
+    "options": [
+      { "id": "A", "text": "\\(5\\pi\\)" },
+      { "id": "B", "text": "\\(10\\pi\\)" },
+      { "id": "C", "text": "\\(25\\pi\\)" },
+      { "id": "D", "text": "\\(50\\pi\\)" },
+      { "id": "E", "text": "\\(100\\pi\\)" }
+    ],
+    "answer": "C",
+    "solutionStandard": "The circle's diameter equals the square's side length, 10, so the radius is 5. Area \\(=\\pi(5)^2=25\\pi\\).",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "circles-basic-010",
+    "type": "Numeric",
+    "primarySkill": "circles-basic",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "A square with side length 8 is inscribed in a circle (all four corners touch the circle). What is the area of the circle, in terms of \\(\\pi\\)? (Enter just the coefficient of \\(\\pi\\).)",
+    "answer": 32,
+    "solutionStandard": "The square's diagonal equals the circle's diameter: diagonal \\(=8\\sqrt{2}\\), so radius \\(=4\\sqrt{2}\\). Area \\(=\\pi(4\\sqrt{2})^2=\\pi(32)=32\\pi\\).",
+    "timeTargetSec": 90
+  }
+]
