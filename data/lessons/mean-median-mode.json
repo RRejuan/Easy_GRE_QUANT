@@ -1,0 +1,10 @@
+{
+  "skillId": "mean-median-mode",
+  "summary": "Mean, median, and mode are three different ways to describe the \"center\" of a data set, and they can disagree sharply when data is skewed or has outliers.",
+  "formulas": [
+    { "name": "Mean (average)", "expression": "\\text{mean} = \\frac{\\text{sum of values}}{\\text{number of values}}" },
+    { "name": "Median", "expression": "\\text{middle value when sorted (average of two middle values if } n \\text{ is even)}" },
+    { "name": "Mode", "expression": "\\text{most frequently occurring value(s)}" }
+  ],
+  "explanation": "The mean is the sum of all values divided by how many values there are. The median is the middle value once the data is sorted in order; if there is an even number of values, the median is the average of the two middle values. The mode is whichever value (or values) occurs most often — a data set can have one mode, multiple modes, or no mode at all. The mean is sensitive to outliers (a single very large or small value can pull it far from the bulk of the data), while the median is resistant to outliers. On the GRE, a common trap is a question that gives you the mean and asks you to find a missing value, or that describes a skewed distribution and asks which measure (mean vs. median) is larger — for a right-skewed (long tail to the right) distribution, the mean is pulled above the median."
+}

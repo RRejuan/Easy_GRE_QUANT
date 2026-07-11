@@ -1,0 +1,8 @@
+{
+  "skillId": "linear-equations-one-var",
+  "summary": "Isolate the variable by applying the same operation to both sides of the equation, in reverse order of operations.",
+  "formulas": [
+    { "name": "General linear equation", "expression": "ax + b = c \\implies x = \\frac{c - b}{a}", "notes": "a \\neq 0" }
+  ],
+  "explanation": "A linear equation in one variable can always be reduced to the form $ax + b = c$. Solve by undoing operations in reverse order: first add or subtract to isolate the term with $x$, then multiply or divide to isolate $x$ itself. Whatever you do to one side of the equation, you must do to the other. When variables or constants appear on both sides, first simplify each side separately (distribute and combine like terms), then move all variable terms to one side and all constants to the other. Always check your solution by substituting it back into the original equation — this is especially useful for catching sign errors, and on multiple-choice questions it is often faster to plug in the given answer choices than to solve algebraically (backsolving)."
+}
