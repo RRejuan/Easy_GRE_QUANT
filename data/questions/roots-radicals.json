@@ -144,5 +144,156 @@
     "answer": 5,
     "solutionStandard": "\\(\\sqrt{200}=10\\sqrt{2}\\) and \\(\\sqrt{50}=5\\sqrt{2}\\). Difference: \\(10\\sqrt2-5\\sqrt2=5\\sqrt2\\), so \\(k=5\\).",
     "timeTargetSec": 80
+  },
+  {
+    "id": "roots-radicals-011",
+    "type": "Numeric",
+    "primarySkill": "roots-radicals",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "variables": [{ "name": "n", "min": 2, "max": 20, "step": 1 }],
+    "stem": "If \\(n = {{n}}\\), what is \\(\\sqrt{n^2}\\)?",
+    "answer": 8,
+    "answerFormula": "n",
+    "solutionStandard": "For a positive \\(n\\), \\(\\sqrt{n^2} = n\\), so the answer is just \\({{n}}\\).",
+    "timeTargetSec": 30
+  },
+  {
+    "id": "roots-radicals-012",
+    "type": "MC",
+    "primarySkill": "roots-radicals",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "What is \\(\\sqrt{121}\\)?",
+    "options": [
+      { "id": "A", "text": "10" },
+      { "id": "B", "text": "11" },
+      { "id": "C", "text": "12" },
+      { "id": "D", "text": "60.5" },
+      { "id": "E", "text": "21" }
+    ],
+    "answer": "B",
+    "solutionStandard": "\\(11^2=121\\), so \\(\\sqrt{121}=11\\).",
+    "timeTargetSec": 30
+  },
+  {
+    "id": "roots-radicals-013",
+    "type": "Numeric",
+    "primarySkill": "roots-radicals",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "variables": [{ "name": "k", "min": 2, "max": 20, "step": 1 }],
+    "stem": "If \\(k = {{k}}\\), what is \\(\\sqrt{4k^2}\\)?",
+    "answer": 10,
+    "answerFormula": "2 * k",
+    "solutionStandard": "\\(\\sqrt{4k^2} = \\sqrt{4}\\times\\sqrt{k^2} = 2k = {{2*k}}\\).",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "roots-radicals-014",
+    "type": "MC",
+    "primarySkill": "roots-radicals",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "Simplify: \\(\\sqrt{72}\\)",
+    "options": [
+      { "id": "A", "text": "\\(6\\sqrt{2}\\)" },
+      { "id": "B", "text": "\\(8\\sqrt{3}\\)" },
+      { "id": "C", "text": "\\(3\\sqrt{8}\\)" },
+      { "id": "D", "text": "\\(72\\)" },
+      { "id": "E", "text": "\\(36\\sqrt{2}\\)" }
+    ],
+    "answer": "A",
+    "solutionStandard": "\\(\\sqrt{72} = \\sqrt{36\\times2} = 6\\sqrt{2}\\).",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "roots-radicals-015",
+    "type": "QC",
+    "primarySkill": "roots-radicals",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "variables": [
+      { "name": "a", "min": 2, "max": 10, "step": 1 },
+      { "name": "b", "min": 2, "max": 10, "step": 1 }
+    ],
+    "stem": "\\(a = {{a}}\\) and \\(b = {{b}}\\), both positive.",
+    "quantityA": "\\(\\sqrt{a} + \\sqrt{b}\\)",
+    "quantityB": "\\(\\sqrt{a+b}\\)",
+    "answer": "A",
+    "solutionStandard": "For any positive \\(a\\) and \\(b\\), \\(\\sqrt{a}+\\sqrt{b} > \\sqrt{a+b}\\) — squaring the left side gives \\(a+b+2\\sqrt{ab}\\), which exceeds \\(a+b\\) since \\(\\sqrt{ab}>0\\). Quantity A is always greater.",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "roots-radicals-016",
+    "type": "MultiMC",
+    "primarySkill": "roots-radicals",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "Which of the following equal \\(\\sqrt{75}\\)? Select all that apply.",
+    "options": [
+      { "id": "A", "text": "\\(5\\sqrt{3}\\)" },
+      { "id": "B", "text": "\\(3\\sqrt{25}\\)" },
+      { "id": "C", "text": "\\(\\sqrt{3} \\times 5\\)" },
+      { "id": "D", "text": "\\(\\sqrt{300}/2\\)" }
+    ],
+    "answer": ["A", "C", "D"],
+    "solutionStandard": "\\(\\sqrt{75}=\\sqrt{25\\times3}=5\\sqrt3\\). (A) and (C) are both \\(5\\sqrt3\\). (D): \\(\\sqrt{300}=10\\sqrt3\\), so \\(\\sqrt{300}/2=5\\sqrt3\\). But (B) \\(3\\sqrt{25}=3\\times5=15 \\neq 5\\sqrt3 \\approx 8.66\\).",
+    "timeTargetSec": 85
+  },
+  {
+    "id": "roots-radicals-017",
+    "type": "Numeric",
+    "primarySkill": "roots-radicals",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "variables": [{ "name": "k", "min": 2, "max": 15, "step": 1 }],
+    "stem": "If \\(\\sqrt{x} = {{k}}\\), what is \\(\\sqrt{4x}\\)?",
+    "answer": 4,
+    "answerFormula": "2 * k",
+    "solutionStandard": "\\(\\sqrt{4x} = 2\\sqrt{x} = 2({{k}}) = {{2*k}}\\).",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "roots-radicals-018",
+    "type": "MC",
+    "primarySkill": "roots-radicals",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "If \\(\\sqrt{2x+1} = 5\\), what is the value of \\(x\\)?",
+    "options": [
+      { "id": "A", "text": "10" },
+      { "id": "B", "text": "11" },
+      { "id": "C", "text": "12" },
+      { "id": "D", "text": "13" },
+      { "id": "E", "text": "24" }
+    ],
+    "answer": "C",
+    "solutionStandard": "\\(2x+1=25\\), so \\(2x=24\\) and \\(x=12\\).",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "roots-radicals-019",
+    "type": "Numeric",
+    "primarySkill": "roots-radicals",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "What is \\(\\sqrt{18} + \\sqrt{32}\\), expressed as \\(k\\sqrt{2}\\)? (Enter just the value of \\(k\\).)",
+    "answer": 7,
+    "solutionStandard": "\\(\\sqrt{18}=3\\sqrt2\\) and \\(\\sqrt{32}=4\\sqrt2\\). Sum: \\(3\\sqrt2+4\\sqrt2=7\\sqrt2\\), so \\(k=7\\).",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "roots-radicals-020",
+    "type": "QC",
+    "primarySkill": "roots-radicals",
+    "secondarySkills": [],
+    "difficulty": 5,
+    "stem": "\\(x > 1\\)",
+    "quantityA": "\\(\\sqrt{x+1} - \\sqrt{x}\\)",
+    "quantityB": "\\(\\sqrt{x} - \\sqrt{x-1}\\)",
+    "answer": "B",
+    "solutionStandard": "The gap between consecutive square roots shrinks as the numbers get larger (the square root function flattens out). Checking \\(x=4\\): Quantity A is \\(\\sqrt5-\\sqrt4\\approx0.236\\), Quantity B is \\(\\sqrt4-\\sqrt3\\approx0.268\\). Quantity B is always greater for \\(x>1\\).",
+    "timeTargetSec": 90
   }
 ]
