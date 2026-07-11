@@ -155,5 +155,157 @@
     "answer": 6,
     "solutionStandard": "\\(2<|x|<6\\) means \\(x \\in \\{3,4,5\\}\\) or \\(x \\in \\{-3,-4,-5\\}\\), a total of 6 integers.",
     "timeTargetSec": 75
+  },
+  {
+    "id": "absolute-value-011",
+    "type": "Numeric",
+    "primarySkill": "absolute-value",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "variables": [{ "name": "n", "min": -30, "max": -1, "step": 1 }],
+    "stem": "What is \\(-|{{n}}|\\)?",
+    "answer": -15,
+    "answerFormula": "-Math.abs(n)",
+    "solutionStandard": "\\(|{{n}}| = {{Math.abs(n)}}\\), so \\(-|{{n}}| = {{-Math.abs(n)}}\\). Since \\({{n}}\\) is already negative, this just gives back \\({{n}}\\) itself.",
+    "timeTargetSec": 30
+  },
+  {
+    "id": "absolute-value-012",
+    "type": "MC",
+    "primarySkill": "absolute-value",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "What is \\(|7 - 10|\\)?",
+    "options": [
+      { "id": "A", "text": "3" },
+      { "id": "B", "text": "-3" },
+      { "id": "C", "text": "17" },
+      { "id": "D", "text": "-17" },
+      { "id": "E", "text": "7" }
+    ],
+    "answer": "A",
+    "solutionStandard": "\\(7-10=-3\\), and \\(|-3|=3\\).",
+    "timeTargetSec": 30
+  },
+  {
+    "id": "absolute-value-013",
+    "type": "Numeric",
+    "primarySkill": "absolute-value",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "variables": [{ "name": "k", "min": 2, "max": 20, "step": 2 }],
+    "stem": "If \\(|2x - 6| = {{k}}\\), what is the positive solution for \\(x\\)?",
+    "answer": 7,
+    "answerFormula": "3 + k / 2",
+    "solutionStandard": "\\(2x-6={{k}}\\) gives \\(x = \\dfrac{6+{{k}}}{2} = {{3 + k/2}}\\) (the positive branch).",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "absolute-value-014",
+    "type": "MC",
+    "primarySkill": "absolute-value",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "If \\(|x + 2| = 5\\), what is the sum of all possible values of \\(x\\)?",
+    "options": [
+      { "id": "A", "text": "-4" },
+      { "id": "B", "text": "-2" },
+      { "id": "C", "text": "2" },
+      { "id": "D", "text": "4" },
+      { "id": "E", "text": "12" }
+    ],
+    "answer": "A",
+    "solutionStandard": "\\(x+2=5\\) gives \\(x=3\\), or \\(x+2=-5\\) gives \\(x=-7\\). Sum: \\(3+(-7)=-4\\).",
+    "solutionShortcut": "The two solutions of \\(|x-h|=k\\) are always symmetric around \\(h\\), so their sum is always \\(2h\\). Here \\(h=-2\\), so the sum is \\(-4\\) without solving either equation.",
+    "shortcutTags": ["estimate"],
+    "timeTargetSec": 65
+  },
+  {
+    "id": "absolute-value-015",
+    "type": "QC",
+    "primarySkill": "absolute-value",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "\\(x\\) is any real number.",
+    "quantityA": "\\(|x| + |-x|\\)",
+    "quantityB": "\\(|2x|\\)",
+    "answer": "C",
+    "solutionStandard": "\\(|-x|=|x|\\), so Quantity A is \\(2|x|\\). Quantity B is \\(|2x|=2|x|\\). Always equal.",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "absolute-value-016",
+    "type": "MultiMC",
+    "primarySkill": "absolute-value",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "\\(|x| = |y|\\). Which of the following must be true? Select all that apply.",
+    "options": [
+      { "id": "A", "text": "\\(x = y\\)" },
+      { "id": "B", "text": "\\(x = -y\\)" },
+      { "id": "C", "text": "\\(x^2 = y^2\\)" },
+      { "id": "D", "text": "\\(x + y = 0\\)" }
+    ],
+    "answer": ["C"],
+    "solutionStandard": "\\(|x|=|y|\\) means either \\(x=y\\) or \\(x=-y\\) — either case alone isn't guaranteed. But squaring removes the sign ambiguity: \\(x^2=|x|^2=|y|^2=y^2\\) always holds. (D) only holds in the \\(x=-y\\) case.",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "absolute-value-017",
+    "type": "Numeric",
+    "primarySkill": "absolute-value",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "variables": [
+      { "name": "c", "min": -10, "max": 10, "step": 1 },
+      { "name": "r", "min": 2, "max": 6, "step": 1 }
+    ],
+    "stem": "How many integer values of \\(x\\) satisfy \\(|x - {{c}}| < {{r}}\\)?",
+    "answer": 5,
+    "answerFormula": "2 * r - 1",
+    "solutionStandard": "The solutions form a run of consecutive integers centered at \\({{c}}\\), from \\({{c}}-{{r}}+1\\) to \\({{c}}+{{r}}-1\\): that's \\(2({{r}})-1 = {{2*r-1}}\\) integers, regardless of where the center \\({{c}}\\) is.",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "absolute-value-018",
+    "type": "MC",
+    "primarySkill": "absolute-value",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "If \\(|x - 4| \\le 3\\) and \\(|y - 4| \\le 3\\), what is the maximum possible value of \\(|x - y|\\)?",
+    "options": [
+      { "id": "A", "text": "0" },
+      { "id": "B", "text": "3" },
+      { "id": "C", "text": "6" },
+      { "id": "D", "text": "7" },
+      { "id": "E", "text": "14" }
+    ],
+    "answer": "C",
+    "solutionStandard": "\\(x\\) ranges over \\([1,7]\\) and \\(y\\) ranges over \\([1,7]\\). The farthest apart \\(x\\) and \\(y\\) can be is when one is at each extreme: \\(|7-1|=6\\).",
+    "timeTargetSec": 80
+  },
+  {
+    "id": "absolute-value-019",
+    "type": "Numeric",
+    "primarySkill": "absolute-value",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "If \\(|3x - 1| = |x + 7|\\), what is the greatest possible value of \\(x\\)?",
+    "answer": 4,
+    "solutionStandard": "Case 1: \\(3x-1=x+7 \\Rightarrow 2x=8 \\Rightarrow x=4\\). Case 2: \\(3x-1=-(x+7) \\Rightarrow 4x=-6 \\Rightarrow x=-1.5\\). The greatest value is 4.",
+    "timeTargetSec": 85
+  },
+  {
+    "id": "absolute-value-020",
+    "type": "QC",
+    "primarySkill": "absolute-value",
+    "secondarySkills": [],
+    "difficulty": 5,
+    "stem": "\\(x\\) and \\(y\\) are real numbers such that \\(|x + y| = |x - y|\\).",
+    "quantityA": "\\(xy\\)",
+    "quantityB": "\\(0\\)",
+    "answer": "C",
+    "solutionStandard": "Since both sides are nonnegative, squaring preserves the equation: \\((x+y)^2 = (x-y)^2\\), which expands to \\(x^2+2xy+y^2 = x^2-2xy+y^2\\), giving \\(4xy=0\\), so \\(xy=0\\) always. The quantities are always equal.",
+    "timeTargetSec": 90
   }
 ]
