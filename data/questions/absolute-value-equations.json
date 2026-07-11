@@ -157,5 +157,170 @@
     "answer": 3,
     "solutionStandard": "\\(|2x+1|<9\\) means \\(-9 < 2x+1 < 9\\), so \\(-10 < 2x < 8\\), giving \\(-5 < x < 4\\). The greatest integer in this range is 3.",
     "timeTargetSec": 85
+  },
+  {
+    "id": "absolute-value-equations-011",
+    "type": "Numeric",
+    "primarySkill": "absolute-value-equations",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "variables": [
+      { "name": "h", "min": 1, "max": 20, "step": 1 },
+      { "name": "k", "min": 1, "max": 15, "step": 1 }
+    ],
+    "stem": "What is the sum of all solutions to \\(|x - {{h}}| = {{k}}\\)?",
+    "answer": 20,
+    "answerFormula": "2 * h",
+    "solutionStandard": "The two solutions are \\({{h}}+{{k}}\\) and \\({{h}}-{{k}}\\), symmetric around \\({{h}}\\). Their sum is always \\(2({{h}}) = {{2*h}}\\).",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "absolute-value-equations-012",
+    "type": "MC",
+    "primarySkill": "absolute-value-equations",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "Solve: \\(|x + 5| = 8\\)",
+    "options": [
+      { "id": "A", "text": "\\(x=3\\) or \\(x=-13\\)" },
+      { "id": "B", "text": "\\(x=13\\) or \\(x=-3\\)" },
+      { "id": "C", "text": "\\(x=3\\) only" },
+      { "id": "D", "text": "\\(x=-13\\) only" },
+      { "id": "E", "text": "No solution" }
+    ],
+    "answer": "A",
+    "solutionStandard": "\\(x+5=8\\) gives \\(x=3\\), or \\(x+5=-8\\) gives \\(x=-13\\).",
+    "timeTargetSec": 50
+  },
+  {
+    "id": "absolute-value-equations-013",
+    "type": "Numeric",
+    "primarySkill": "absolute-value-equations",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "variables": [
+      { "name": "h", "min": -10, "max": 10, "step": 1 },
+      { "name": "k", "min": 1, "max": 15, "step": 1 }
+    ],
+    "stem": "How many integer values of \\(x\\) satisfy \\(|x - {{h}}| \\le {{k}}\\)?",
+    "answer": 9,
+    "answerFormula": "2 * k + 1",
+    "solutionStandard": "The solutions run from \\({{h}}-{{k}}\\) to \\({{h}}+{{k}}\\), inclusive — a total of \\(2({{k}})+1 = {{2*k+1}}\\) integers.",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "absolute-value-equations-014",
+    "type": "MC",
+    "primarySkill": "absolute-value-equations",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "Solve: \\(|x + 4| < 6\\)",
+    "options": [
+      { "id": "A", "text": "\\(-10 < x < 2\\)" },
+      { "id": "B", "text": "\\(x < -10\\) or \\(x > 2\\)" },
+      { "id": "C", "text": "\\(-2 < x < 10\\)" },
+      { "id": "D", "text": "\\(2 < x < 10\\)" },
+      { "id": "E", "text": "\\(x < 2\\)" }
+    ],
+    "answer": "A",
+    "solutionStandard": "\\(|x+4|<6\\) means \\(-6<x+4<6\\). Subtract 4: \\(-10<x<2\\).",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "absolute-value-equations-015",
+    "type": "QC",
+    "primarySkill": "absolute-value-equations",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "variables": [
+      { "name": "a", "min": 1, "max": 10, "step": 1 },
+      { "name": "b", "min": 11, "max": 20, "step": 1 }
+    ],
+    "stem": "\\(|x - {{a}}| = |x - {{b}}|\\)",
+    "quantityA": "\\(x\\)",
+    "quantityB": "{{(a+b)/2}}",
+    "answer": "C",
+    "solutionStandard": "\\(x\\) is equidistant from \\({{a}}\\) and \\({{b}}\\), so it must be their midpoint: \\(x = \\dfrac{ {{a}}+{{b}} }{2} = {{(a+b)/2}}\\). The quantities are always equal.",
+    "timeTargetSec": 85
+  },
+  {
+    "id": "absolute-value-equations-016",
+    "type": "MultiMC",
+    "primarySkill": "absolute-value-equations",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "Which of the following describe the solution set of \\(|x - 3| > 5\\)? Select all that apply.",
+    "options": [
+      { "id": "A", "text": "\\(x > 8\\)" },
+      { "id": "B", "text": "\\(x < -2\\)" },
+      { "id": "C", "text": "\\(-2 < x < 8\\)" },
+      { "id": "D", "text": "\\(x = 8\\) is included" }
+    ],
+    "answer": ["A", "B"],
+    "solutionStandard": "\\(|x-3|>5\\) means \\(x-3>5\\) (so \\(x>8\\)) or \\(x-3<-5\\) (so \\(x<-2\\)). (C) describes the complement, not the solution set, and since the inequality is strict, \\(x=8\\) is not included.",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "absolute-value-equations-017",
+    "type": "Numeric",
+    "primarySkill": "absolute-value-equations",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "variables": [
+      { "name": "a", "min": 2, "max": 6, "step": 1 },
+      { "name": "xt", "min": 2, "max": 15, "step": 1 }
+    ],
+    "stem": "If \\(|{{a}}x - 1| = {{a*xt - 1}}\\), what is the positive solution for \\(x\\)?",
+    "answer": 5,
+    "answerFormula": "xt",
+    "solutionStandard": "\\({{a}}x - 1 = {{a*xt-1}}\\) gives \\({{a}}x = {{a*xt}}\\), so \\(x = {{xt}}\\) (the other branch gives a negative value).",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "absolute-value-equations-018",
+    "type": "MC",
+    "primarySkill": "absolute-value-equations",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "If \\(|3x - 2| = |x + 4|\\), what are all possible values of \\(x\\)?",
+    "options": [
+      { "id": "A", "text": "\\(3\\) and \\(-0.5\\)" },
+      { "id": "B", "text": "\\(3\\) only" },
+      { "id": "C", "text": "\\(-0.5\\) only" },
+      { "id": "D", "text": "\\(3\\) and \\(0.5\\)" },
+      { "id": "E", "text": "\\(-3\\) and \\(0.5\\)" }
+    ],
+    "answer": "A",
+    "solutionStandard": "Case 1: \\(3x-2=x+4\\) gives \\(2x=6\\), so \\(x=3\\). Case 2: \\(3x-2=-(x+4)\\) gives \\(4x=-2\\), so \\(x=-0.5\\).",
+    "timeTargetSec": 85
+  },
+  {
+    "id": "absolute-value-equations-019",
+    "type": "Numeric",
+    "primarySkill": "absolute-value-equations",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "variables": [
+      { "name": "a", "min": 2, "max": 6, "step": 2 },
+      { "name": "k", "min": 2, "max": 15, "step": 1 }
+    ],
+    "stem": "What is the greatest integer \\(x\\) satisfying \\(|{{a}}x + 1| < {{a*(k+0.5)+1}}\\)?",
+    "answer": 5,
+    "answerFormula": "k",
+    "solutionStandard": "The inequality gives \\(-{{a*(k+0.5)+1}} < {{a}}x+1 < {{a*(k+0.5)+1}}\\). The right side simplifies to \\(x < {{k+0.5}}\\), so the greatest integer is \\({{k}}\\).",
+    "timeTargetSec": 90
+  },
+  {
+    "id": "absolute-value-equations-020",
+    "type": "QC",
+    "primarySkill": "absolute-value-equations",
+    "secondarySkills": [],
+    "difficulty": 5,
+    "stem": "\\(x\\) is a real number, and \\(|x - 3| + |x - 7| = 4\\).",
+    "quantityA": "The number of values of \\(x\\) satisfying the equation",
+    "quantityB": "\\(6\\)",
+    "answer": "A",
+    "solutionStandard": "\\(|x-3|+|x-7|\\) is the sum of distances from \\(x\\) to 3 and to 7. Its minimum possible value is the distance between 3 and 7, which is exactly 4 — and that minimum is achieved by every \\(x\\) between 3 and 7 (inclusive), not just one value. So infinitely many values of \\(x\\) satisfy the equation, which is greater than any finite number like 6. Quantity A is greater.",
+    "timeTargetSec": 100
   }
 ]
