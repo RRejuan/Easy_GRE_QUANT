@@ -147,5 +147,158 @@
     "answer": "C",
     "solutionStandard": "Cylinder volume \\(=\\pi(16)(9)=144\\pi\\). Cone volume \\(=\\frac{1}{3}\\pi(16)(9)=48\\pi\\), so 3 times that is \\(144\\pi\\). The quantities are equal.",
     "timeTargetSec": 75
+  },
+  {
+    "id": "three-d-solids-011",
+    "type": "MC",
+    "primarySkill": "three-d-solids",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "A cube has edge length 5. What is its volume?",
+    "options": [
+      { "id": "A", "text": "15" },
+      { "id": "B", "text": "25" },
+      { "id": "C", "text": "75" },
+      { "id": "D", "text": "100" },
+      { "id": "E", "text": "125" }
+    ],
+    "answer": "E",
+    "solutionStandard": "\\(V=s^3=5^3=125\\).",
+    "timeTargetSec": 35
+  },
+  {
+    "id": "three-d-solids-012",
+    "type": "Numeric",
+    "primarySkill": "three-d-solids",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "variables": [{ "name": "s", "min": 2, "max": 12, "step": 1 }],
+    "stem": "A cube has edge length {{s}}. What is its volume?",
+    "answer": 27,
+    "answerFormula": "s * s * s",
+    "solutionStandard": "\\(V=s^3={{s}}^3={{s*s*s}}\\).",
+    "timeTargetSec": 40
+  },
+  {
+    "id": "three-d-solids-013",
+    "type": "Numeric",
+    "primarySkill": "three-d-solids",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "variables": [{ "name": "s", "min": 2, "max": 15, "step": 1 }],
+    "stem": "A cube has edge length {{s}}. What is its total surface area?",
+    "answer": 150,
+    "answerFormula": "6 * s * s",
+    "solutionStandard": "\\(SA=6s^2=6({{s*s}})={{6*s*s}}\\).",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "three-d-solids-014",
+    "type": "MC",
+    "primarySkill": "three-d-solids",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "A cylinder has radius 4 and height 6. What is its volume, in terms of \\(\\pi\\)?",
+    "options": [
+      { "id": "A", "text": "\\(24\\pi\\)" },
+      { "id": "B", "text": "\\(48\\pi\\)" },
+      { "id": "C", "text": "\\(72\\pi\\)" },
+      { "id": "D", "text": "\\(96\\pi\\)" },
+      { "id": "E", "text": "\\(144\\pi\\)" }
+    ],
+    "answer": "D",
+    "solutionStandard": "\\(V=\\pi r^2 h=\\pi(16)(6)=96\\pi\\).",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "three-d-solids-015",
+    "type": "QC",
+    "primarySkill": "three-d-solids",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "variables": [
+      { "name": "a", "min": 2, "max": 6, "step": 1 },
+      { "name": "b", "min": 2, "max": 6, "step": 1 },
+      { "name": "c", "min": 2, "max": 6, "step": 1 }
+    ],
+    "stem": "A rectangular box has dimensions {{a}}, {{b}}, and {{c}}. A cube has edge length {{a+b+c}}.",
+    "quantityA": "The volume of the box",
+    "quantityB": "The volume of the cube",
+    "answer": "B",
+    "solutionStandard": "By the AM-GM inequality, \\(({{a}}+{{b}}+{{c}})^3 \\ge 27({{a}})({{b}})({{c}})\\), so the cube (edge \\({{a+b+c}}\\)) always has at least 27 times the box's volume. Quantity B is always greater.",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "three-d-solids-016",
+    "type": "MC",
+    "primarySkill": "three-d-solids",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "A cylindrical tank has radius 3 and height 8. What is its total surface area, in terms of \\(\\pi\\)?",
+    "options": [
+      { "id": "A", "text": "\\(48\\pi\\)" },
+      { "id": "B", "text": "\\(54\\pi\\)" },
+      { "id": "C", "text": "\\(66\\pi\\)" },
+      { "id": "D", "text": "\\(72\\pi\\)" },
+      { "id": "E", "text": "\\(96\\pi\\)" }
+    ],
+    "answer": "C",
+    "solutionStandard": "\\(SA=2\\pi r^2+2\\pi rh=2\\pi(9)+2\\pi(3)(8)=18\\pi+48\\pi=66\\pi\\).",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "three-d-solids-017",
+    "type": "Numeric",
+    "primarySkill": "three-d-solids",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "variables": [
+      { "name": "s", "min": 2, "max": 10, "step": 1 },
+      { "name": "h", "min": 2, "max": 15, "step": 1 }
+    ],
+    "stem": "A rectangular box has a square base with side {{s}} and a volume of {{s*s*h}}. What is the height of the box?",
+    "answer": 6,
+    "answerFormula": "h",
+    "solutionStandard": "\\(V={{s}}\\times{{s}}\\times h={{s*s*h}}\\), so \\(h={{h}}\\).",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "three-d-solids-018",
+    "type": "Numeric",
+    "primarySkill": "three-d-solids",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "variables": [{ "name": "s", "min": 2, "max": 12, "step": 1 }],
+    "stem": "A cube's surface area is {{6*s*s}}. What is its volume?",
+    "answer": 64,
+    "answerFormula": "s * s * s",
+    "solutionStandard": "\\(6s^2={{6*s*s}}\\), so \\(s^2={{s*s}}\\), giving \\(s={{s}}\\). Volume \\(={{s}}^3={{s*s*s}}\\).",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "three-d-solids-019",
+    "type": "Numeric",
+    "primarySkill": "three-d-solids",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "variables": [{ "name": "k", "min": 1, "max": 8, "step": 1 }],
+    "stem": "A rectangular box has length {{3*k}}, width {{4*k}}, and height {{12*k}}. What is the length of its main diagonal (corner to opposite corner)?",
+    "answer": 13,
+    "answerFormula": "13 * k",
+    "solutionStandard": "\\(d=\\sqrt{({{3*k}})^2+({{4*k}})^2+({{12*k}})^2}\\). Since \\(3^2+4^2+12^2=9+16+144=169=13^2\\), this is the 3-4-12-13 Pythagorean quadruple scaled by \\({{k}}\\): \\(d={{13*k}}\\).",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "three-d-solids-020",
+    "type": "QC",
+    "primarySkill": "three-d-solids",
+    "secondarySkills": [],
+    "difficulty": 5,
+    "stem": "A sphere has radius 6 (volume \\(=\\frac{4}{3}\\pi r^3\\), surface area \\(=4\\pi r^2\\)).",
+    "quantityA": "The volume of the sphere",
+    "quantityB": "Twice the surface area of the sphere",
+    "answer": "C",
+    "solutionStandard": "Volume \\(=\\frac{4}{3}\\pi(216)=288\\pi\\). Surface area \\(=4\\pi(36)=144\\pi\\), so twice that is \\(288\\pi\\). The quantities happen to be exactly equal at this specific radius.",
+    "timeTargetSec": 95
   }
 ]
