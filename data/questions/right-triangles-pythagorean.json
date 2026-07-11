@@ -286,5 +286,166 @@
       "plug-in"
     ],
     "timeTargetSec": 75
+  },
+  {
+    "id": "right-triangles-pythagorean-011",
+    "type": "Numeric",
+    "primarySkill": "right-triangles-pythagorean",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "variables": [{ "name": "k", "min": 1, "max": 5, "step": 1 }],
+    "stem": "A right triangle has legs of length {{8*k}} and {{15*k}}. What is the length of the hypotenuse?",
+    "answer": 17,
+    "answerFormula": "17 * k",
+    "solutionStandard": "This is the 8-15-17 triple scaled by \\({{k}}\\): hypotenuse \\(= {{17*k}}\\).",
+    "timeTargetSec": 40
+  },
+  {
+    "id": "right-triangles-pythagorean-012",
+    "type": "MC",
+    "primarySkill": "right-triangles-pythagorean",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "In the figure, what is the length of the hypotenuse?",
+    "figure": {
+      "viewBox": "0 0 200 150",
+      "elements": [
+        { "kind": "polygon", "points": [{ "x": 20, "y": 130 }, { "x": 140, "y": 130 }, { "x": 20, "y": 30 } ] },
+        { "kind": "rightAngleMarker", "at": { "x": 20, "y": 130 } },
+        { "kind": "label", "at": { "x": 8, "y": 82 }, "text": "6" },
+        { "kind": "label", "at": { "x": 75, "y": 148 }, "text": "8" },
+        { "kind": "label", "at": { "x": 85, "y": 72 }, "text": "x" }
+      ]
+    },
+    "options": [
+      { "id": "A", "text": "8" },
+      { "id": "B", "text": "9" },
+      { "id": "C", "text": "10" },
+      { "id": "D", "text": "11" },
+      { "id": "E", "text": "12" }
+    ],
+    "answer": "C",
+    "solutionStandard": "This is the 3-4-5 triple scaled by 2: \\(x = 10\\).",
+    "timeTargetSec": 40
+  },
+  {
+    "id": "right-triangles-pythagorean-013",
+    "type": "Numeric",
+    "primarySkill": "right-triangles-pythagorean",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "variables": [{ "name": "k", "min": 1, "max": 4, "step": 1 }],
+    "stem": "A right triangle has a hypotenuse of length {{25*k}} and one leg of length {{7*k}}. What is the length of the other leg?",
+    "answer": 24,
+    "answerFormula": "24 * k",
+    "solutionStandard": "This is the 7-24-25 triple scaled by \\({{k}}\\): the other leg is \\({{24*k}}\\).",
+    "timeTargetSec": 50
+  },
+  {
+    "id": "right-triangles-pythagorean-014",
+    "type": "MC",
+    "primarySkill": "right-triangles-pythagorean",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "A rectangular TV screen has width 24 inches and height 18 inches. What is the length of the diagonal, in inches?",
+    "options": [
+      { "id": "A", "text": "26" },
+      { "id": "B", "text": "28" },
+      { "id": "C", "text": "30" },
+      { "id": "D", "text": "32" },
+      { "id": "E", "text": "42" }
+    ],
+    "answer": "C",
+    "solutionStandard": "18 and 24 are \\(6\\times\\) the 3-4-5 triple: diagonal \\(= 6\\times5=30\\).",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "right-triangles-pythagorean-015",
+    "type": "QC",
+    "primarySkill": "right-triangles-pythagorean",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "variables": [{ "name": "k", "min": 1, "max": 8, "step": 1 }],
+    "stem": "A right triangle has legs of length {{3*k}} and {{4*k}}.",
+    "quantityA": "The length of the hypotenuse",
+    "quantityB": "{{5*k - 1}}",
+    "answer": "A",
+    "solutionStandard": "This is the 3-4-5 triple scaled by \\({{k}}\\), so the hypotenuse is \\({{5*k}}\\), always exactly 1 more than Quantity B.",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "right-triangles-pythagorean-016",
+    "type": "MultiMC",
+    "primarySkill": "right-triangles-pythagorean",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "Which of the following could be the side lengths of a right triangle? Select all that apply.",
+    "options": [
+      { "id": "A", "text": "9, 12, 15" },
+      { "id": "B", "text": "8, 15, 17" },
+      { "id": "C", "text": "4, 5, 6" },
+      { "id": "D", "text": "10, 24, 26" },
+      { "id": "E", "text": "3, 3, 3" }
+    ],
+    "answer": ["A", "B", "D"],
+    "solutionStandard": "(A) is \\(3\\times\\) the 3-4-5 triple. (B) is a standard triple. (D) is \\(2\\times\\) the 5-12-13 triple. (C): \\(16+25=41\\neq36\\), no. (E) is equilateral, not right (all angles \\(60^\\circ\\)).",
+    "timeTargetSec": 85
+  },
+  {
+    "id": "right-triangles-pythagorean-017",
+    "type": "Numeric",
+    "primarySkill": "right-triangles-pythagorean",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "variables": [{ "name": "k", "min": 1, "max": 4, "step": 1 }],
+    "stem": "A right triangle has one leg of length {{7*k}} and a hypotenuse of length {{25*k}}. What is the area of the triangle?",
+    "answer": 84,
+    "answerFormula": "84 * k * k",
+    "solutionStandard": "This is the 7-24-25 triple scaled by \\({{k}}\\), so the other leg is \\({{24*k}}\\). Area \\(= \\frac{1}{2}({{7*k}})({{24*k}}) = {{84*k*k}}\\).",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "right-triangles-pythagorean-018",
+    "type": "MC",
+    "primarySkill": "right-triangles-pythagorean",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "A right triangle has integer side lengths, a hypotenuse of 25, and one leg of length 15. What is its perimeter?",
+    "options": [
+      { "id": "A", "text": "45" },
+      { "id": "B", "text": "50" },
+      { "id": "C", "text": "56" },
+      { "id": "D", "text": "60" },
+      { "id": "E", "text": "64" }
+    ],
+    "answer": "D",
+    "solutionStandard": "15-20-25 is \\(5\\times\\) the 3-4-5 triple, so the other leg is 20. Perimeter \\(= 15+20+25=60\\).",
+    "timeTargetSec": 80
+  },
+  {
+    "id": "right-triangles-pythagorean-019",
+    "type": "Numeric",
+    "primarySkill": "right-triangles-pythagorean",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "variables": [{ "name": "k", "min": 1, "max": 6, "step": 1 }],
+    "stem": "A right triangle has integer side lengths and a hypotenuse of {{17*k}}, with the shortest leg being {{8*k}}. What is its perimeter?",
+    "answer": 40,
+    "answerFormula": "40 * k",
+    "solutionStandard": "This is the 8-15-17 triple scaled by \\({{k}}\\): perimeter \\(= {{8*k}}+{{15*k}}+{{17*k}} = {{40*k}}\\).",
+    "timeTargetSec": 85
+  },
+  {
+    "id": "right-triangles-pythagorean-020",
+    "type": "QC",
+    "primarySkill": "right-triangles-pythagorean",
+    "secondarySkills": [],
+    "difficulty": 5,
+    "stem": "A right triangle has legs \\(a\\) and \\(b\\) with \\(a+b=14\\), and hypotenuse \\(c\\).",
+    "quantityA": "\\(c\\)",
+    "quantityB": "\\(10\\)",
+    "answer": "D",
+    "solutionStandard": "\\(c^2=a^2+b^2=(a+b)^2-2ab=196-2ab\\). When \\(a=b=7\\) (most \"balanced\"), \\(ab=49\\) is maximized, giving \\(c^2=98\\) and \\(c=7\\sqrt2\\approx9.9<10\\). When the legs are very unequal (e.g. \\(a=13,b=1\\)), \\(c^2=170\\) and \\(c\\approx13>10\\). Since \\(c\\) can be either less than or greater than 10, the relationship cannot be determined.",
+    "timeTargetSec": 100
   }
 ]
