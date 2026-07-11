@@ -156,5 +156,168 @@
     "answer": "B",
     "solutionStandard": "Sector A: \\(\\dfrac{40}{360}\\times\\pi(36)=4\\pi\\). Sector B: \\(\\dfrac{20}{360}\\times\\pi(81)=4.5\\pi\\). Since \\(4.5\\pi>4\\pi\\), Quantity B is greater.",
     "timeTargetSec": 80
+  },
+  {
+    "id": "circles-arcs-sectors-011",
+    "type": "Numeric",
+    "primarySkill": "circles-arcs-sectors",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "variables": [{ "name": "r", "min": 2, "max": 40, "step": 2 }],
+    "stem": "A circle has radius {{r}}. What is the length of an arc with a central angle of 90°, in terms of \\(\\pi\\)? (Enter just the coefficient of \\(\\pi\\).)",
+    "answer": 6,
+    "answerFormula": "r / 2",
+    "solutionStandard": "Arc length \\(=\\dfrac{90}{360}\\times2\\pi({{r}}) = \\dfrac{ {{r}} }{2}\\pi\\).",
+    "timeTargetSec": 50
+  },
+  {
+    "id": "circles-arcs-sectors-012",
+    "type": "MC",
+    "primarySkill": "circles-arcs-sectors",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "An inscribed angle subtends an arc with a central angle of 100°. What is the measure of the inscribed angle?",
+    "options": [
+      { "id": "A", "text": "25°" },
+      { "id": "B", "text": "50°" },
+      { "id": "C", "text": "100°" },
+      { "id": "D", "text": "200°" },
+      { "id": "E", "text": "80°" }
+    ],
+    "answer": "B",
+    "solutionStandard": "An inscribed angle is always half the central angle subtending the same arc: \\(100/2=50\\) degrees.",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "circles-arcs-sectors-013",
+    "type": "Numeric",
+    "primarySkill": "circles-arcs-sectors",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "variables": [{ "name": "r", "min": 6, "max": 36, "step": 6 }],
+    "stem": "A circle has radius {{r}}. What is the area of a sector with a central angle of 60°, in terms of \\(\\pi\\)? (Enter just the coefficient of \\(\\pi\\).)",
+    "answer": 6,
+    "answerFormula": "(r * r) / 6",
+    "solutionStandard": "Sector area \\(= \\dfrac{60}{360} \\times {{r}}^2 = \\dfrac{ {{r*r}} }{6}\\pi\\).",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "circles-arcs-sectors-014",
+    "type": "MC",
+    "primarySkill": "circles-arcs-sectors",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "In the figure, \\(AB\\) is a diameter of the circle. What is the measure of angle \\(x\\)?",
+    "figure": {
+      "viewBox": "0 0 200 160",
+      "elements": [
+        { "kind": "circle", "center": { "x": 100, "y": 90 }, "radius": 70 },
+        { "kind": "polygon", "points": [{ "x": 30, "y": 90 }, { "x": 170, "y": 90 }, { "x": 108, "y": 21 }] },
+        { "kind": "label", "at": { "x": 15, "y": 100 }, "text": "A" },
+        { "kind": "label", "at": { "x": 174, "y": 100 }, "text": "B" },
+        { "kind": "label", "at": { "x": 108, "y": 40 }, "text": "x" }
+      ]
+    },
+    "options": [
+      { "id": "A", "text": "45°" },
+      { "id": "B", "text": "60°" },
+      { "id": "C", "text": "90°" },
+      { "id": "D", "text": "120°" },
+      { "id": "E", "text": "Cannot be determined" }
+    ],
+    "answer": "C",
+    "solutionStandard": "An inscribed angle subtending a diameter always measures \\(90^\\circ\\) (Thales' theorem), regardless of where the third point sits on the circle.",
+    "timeTargetSec": 50
+  },
+  {
+    "id": "circles-arcs-sectors-015",
+    "type": "QC",
+    "primarySkill": "circles-arcs-sectors",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "variables": [
+      { "name": "a", "min": 10, "max": 90, "step": 5 },
+      { "name": "r", "min": 2, "max": 20, "step": 1 }
+    ],
+    "stem": "Sector A has central angle {{a}}° and radius {{r}}. Sector B has central angle {{2*a}}° and the same radius, {{r}}.",
+    "quantityA": "The area of Sector A",
+    "quantityB": "The area of Sector B",
+    "answer": "B",
+    "solutionStandard": "With the same radius, sector area is directly proportional to the central angle. Since Sector B's angle is always double Sector A's, its area is always double as well. Quantity B is greater.",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "circles-arcs-sectors-016",
+    "type": "MC",
+    "primarySkill": "circles-arcs-sectors",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "A circle has circumference \\(36\\pi\\). What is the length of an arc with a central angle of 30°?",
+    "options": [
+      { "id": "A", "text": "\\(\\pi\\)" },
+      { "id": "B", "text": "\\(2\\pi\\)" },
+      { "id": "C", "text": "\\(3\\pi\\)" },
+      { "id": "D", "text": "\\(4\\pi\\)" },
+      { "id": "E", "text": "\\(6\\pi\\)" }
+    ],
+    "answer": "C",
+    "solutionStandard": "Arc length \\(=\\dfrac{30}{360}\\times36\\pi=\\dfrac{1}{12}\\times36\\pi=3\\pi\\).",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "circles-arcs-sectors-017",
+    "type": "MultiMC",
+    "primarySkill": "circles-arcs-sectors",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "A circle has radius 5. Which of the following are possible areas of a sector of this circle? Select all that apply.",
+    "options": [
+      { "id": "A", "text": "\\(5\\pi\\)" },
+      { "id": "B", "text": "\\(20\\pi\\)" },
+      { "id": "C", "text": "\\(25\\pi\\)" },
+      { "id": "D", "text": "\\(30\\pi\\)" }
+    ],
+    "answer": ["A", "B", "C"],
+    "solutionStandard": "The full circle's area is \\(\\pi(5)^2=25\\pi\\), so any sector area must be between 0 and \\(25\\pi\\), inclusive. \\(30\\pi\\) exceeds the full circle's area.",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "circles-arcs-sectors-018",
+    "type": "Numeric",
+    "primarySkill": "circles-arcs-sectors",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "variables": [{ "name": "r", "min": 3, "max": 60, "step": 3 }],
+    "stem": "A sector has a central angle of 120° and radius {{r}}. What is the arc length, in terms of \\(\\pi\\)? (Enter just the coefficient of \\(\\pi\\).)",
+    "answer": 8,
+    "answerFormula": "(2 * r) / 3",
+    "solutionStandard": "Arc length \\(=\\dfrac{120}{360}\\times2({{r}}) = \\dfrac{2({{r}})}{3}\\pi = \\dfrac{ {{2*r}} }{3}\\pi\\).",
+    "timeTargetSec": 80
+  },
+  {
+    "id": "circles-arcs-sectors-019",
+    "type": "Numeric",
+    "primarySkill": "circles-arcs-sectors",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "variables": [{ "name": "rt", "min": 5, "max": 60, "step": 5 }],
+    "stem": "A sector has a central angle of 72° and an arc length of \\({{2*rt/5}}\\pi\\). What is the radius of the circle?",
+    "answer": 10,
+    "answerFormula": "rt",
+    "solutionStandard": "\\(\\dfrac{72}{360}\\times2\\pi r = {{2*rt/5}}\\pi\\), so \\(\\dfrac{2r}{5} = {{2*rt/5}}\\), giving \\(r={{rt}}\\).",
+    "timeTargetSec": 80
+  },
+  {
+    "id": "circles-arcs-sectors-020",
+    "type": "QC",
+    "primarySkill": "circles-arcs-sectors",
+    "secondarySkills": [],
+    "difficulty": 5,
+    "stem": "Sector A has central angle \\(2\\theta\\) and radius \\(r\\). Sector B has central angle \\(\\theta\\) and radius \\(2r\\) (same positive \\(\\theta\\) and \\(r\\)).",
+    "quantityA": "The area of Sector A",
+    "quantityB": "The area of Sector B",
+    "answer": "B",
+    "solutionStandard": "Sector A's area is \\(\\dfrac{2\\theta}{360}\\pi r^2\\). Sector B's area is \\(\\dfrac{\\theta}{360}\\pi(2r)^2 = \\dfrac{4\\theta}{360}\\pi r^2\\), which is always exactly double Sector A's area, regardless of the values of \\(\\theta\\) and \\(r\\). Quantity B is greater.",
+    "timeTargetSec": 100
   }
 ]
