@@ -1,0 +1,142 @@
+[
+  {
+    "id": "word-problems-algebraic-translation-001",
+    "type": "Numeric",
+    "primarySkill": "word-problems-algebraic-translation",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "5 less than twice a number is 17. What is the number?",
+    "answer": 11,
+    "solutionStandard": "Translate: \\(2x - 5 = 17\\), so \\(2x=22\\) and \\(x=11\\).",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "word-problems-algebraic-translation-002",
+    "type": "MC",
+    "primarySkill": "word-problems-algebraic-translation",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "The sum of three consecutive integers is discussed as 72. What is the largest of the three integers?",
+    "options": [
+      { "id": "A", "text": "22" },
+      { "id": "B", "text": "23" },
+      { "id": "C", "text": "24" },
+      { "id": "D", "text": "25" },
+      { "id": "E", "text": "26" }
+    ],
+    "answer": "D",
+    "solutionStandard": "Let the integers be \\(n, n+1, n+2\\). Sum: \\(3n+3=72\\), so \\(n=23\\). The largest is \\(n+2=25\\).",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "word-problems-algebraic-translation-003",
+    "type": "Numeric",
+    "primarySkill": "word-problems-algebraic-translation",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "Maria is currently 3 times as old as her son. In 5 years, she will be 2 times as old as her son will be then. How old is Maria's son now?",
+    "answer": 5,
+    "solutionStandard": "Let the son's current age be \\(x\\); Maria's is \\(3x\\). In 5 years: \\(3x+5 = 2(x+5)\\), so \\(3x+5=2x+10\\), giving \\(x=5\\).",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "word-problems-algebraic-translation-004",
+    "type": "MC",
+    "primarySkill": "word-problems-algebraic-translation",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "A number increased by 40% of itself equals 12 less than three times the number. What is the number?",
+    "options": [
+      { "id": "A", "text": "6" },
+      { "id": "B", "text": "7" },
+      { "id": "C", "text": "7.5" },
+      { "id": "D", "text": "8" },
+      { "id": "E", "text": "9" }
+    ],
+    "answer": "C",
+    "solutionStandard": "\\(x + 0.4x = 3x - 12\\), so \\(1.4x = 3x-12\\), giving \\(1.6x=12\\) and \\(x=7.5\\).",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "word-problems-algebraic-translation-005",
+    "type": "Numeric",
+    "primarySkill": "word-problems-algebraic-translation",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "A rectangle's length is 4 more than twice its width. If the perimeter is 38, what is the width?",
+    "answer": 5,
+    "solutionStandard": "Let width \\(=w\\), length \\(=2w+4\\). Perimeter: \\(2(w + 2w+4) = 38\\), so \\(2(3w+4)=38\\), giving \\(6w+8=38\\), so \\(w=5\\).",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "word-problems-algebraic-translation-006",
+    "type": "MC",
+    "primarySkill": "word-problems-algebraic-translation",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "A jar contains only nickels and dimes worth $3.15 total. There are 39 coins in all. How many dimes are there?",
+    "options": [
+      { "id": "A", "text": "12" },
+      { "id": "B", "text": "15" },
+      { "id": "C", "text": "18" },
+      { "id": "D", "text": "21" },
+      { "id": "E", "text": "24" }
+    ],
+    "answer": "E",
+    "solutionStandard": "Let \\(d\\)=dimes, \\(n\\)=nickels. \\(d+n=39\\) and \\(10d+5n=315\\) (cents). From the first, \\(n=39-d\\). Substituting: \\(10d+5(39-d)=315\\), so \\(10d+195-5d=315\\), giving \\(5d=120\\) and \\(d=24\\).",
+    "timeTargetSec": 90
+  },
+  {
+    "id": "word-problems-algebraic-translation-007",
+    "type": "QC",
+    "primarySkill": "word-problems-algebraic-translation",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "The sum of two numbers is 15, and one number is 3 more than the other.",
+    "quantityA": "The smaller number",
+    "quantityB": "\\(6\\)",
+    "answer": "C",
+    "solutionStandard": "Let the smaller be \\(x\\); the larger is \\(x+3\\). Sum: \\(2x+3=15\\), so \\(x=6\\). The quantities are equal.",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "word-problems-algebraic-translation-008",
+    "type": "Numeric",
+    "primarySkill": "word-problems-algebraic-translation",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "Ticket prices are $8 for adults and $5 for children. A group of 20 people paid a total of $130. How many adults were in the group?",
+    "answer": 10,
+    "solutionStandard": "Let \\(a\\)=adults, \\(c\\)=children. \\(a+c=20\\) and \\(8a+5c=130\\). Substituting \\(c=20-a\\): \\(8a+5(20-a)=130\\), so \\(8a+100-5a=130\\), giving \\(3a=30\\) and \\(a=10\\).",
+    "timeTargetSec": 85
+  },
+  {
+    "id": "word-problems-algebraic-translation-009",
+    "type": "MC",
+    "primarySkill": "word-problems-algebraic-translation",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "Five years ago, a father was 4 times as old as his daughter. In 10 years, he will be twice as old as she will be. How old is the father now?",
+    "options": [
+      { "id": "A", "text": "35" },
+      { "id": "B", "text": "40" },
+      { "id": "C", "text": "45" },
+      { "id": "D", "text": "50" },
+      { "id": "E", "text": "55" }
+    ],
+    "answer": "A",
+    "solutionStandard": "Let the daughter's current age be \\(x\\); the father's is \\(y\\). Five years ago: \\(y-5=4(x-5)\\), so \\(y=4x-15\\). In 10 years: \\(y+10=2(x+10)\\), so \\(y=2x+10\\). Setting these equal: \\(4x-15=2x+10\\), giving \\(x=12.5\\) and \\(y=4(12.5)-15=35\\).",
+    "timeTargetSec": 100
+  },
+  {
+    "id": "word-problems-algebraic-translation-010",
+    "type": "Numeric",
+    "primarySkill": "word-problems-algebraic-translation",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "A merchant mixes coffee worth $6 per pound with coffee worth $9 per pound to make 20 pounds of a blend worth $7.50 per pound. How many pounds of the $6 coffee are used?",
+    "answer": 10,
+    "solutionStandard": "Let \\(x\\) = pounds of $6 coffee; \\(20-x\\) = pounds of $9 coffee. \\(6x + 9(20-x) = 7.5(20)\\), so \\(6x+180-9x=150\\), giving \\(-3x=-30\\) and \\(x=10\\).",
+    "timeTargetSec": 90
+  }
+]

@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { groupSkillsByAreaAndTopic, skillsWithContent } from "../lib/content";
 import { storageAdapter } from "../lib/storage";
 import { computeMastery } from "../lib/mastery";
+import { MasteryBar } from "../components/MasteryBar";
 
 export function SkillListPage() {
   const groups = groupSkillsByAreaAndTopic(skillsWithContent());
@@ -20,9 +21,8 @@ export function SkillListPage() {
                   const mastery = storageAdapter.getSkillMastery(skill.id);
                   return (
                     <li key={skill.id}>
-                      <Link to={`/skill/${skill.id}`}>{skill.name}</Link>
-                      {" — mastery: "}
-                      {mastery ? computeMastery(mastery) : 0}%
+                      <Link to={`/skill/${skill.id}`}>{skill.name}</Link>{" "}
+                      <MasteryBar percent={mastery ? computeMastery(mastery) : 0} />
                     </li>
                   );
                 })}

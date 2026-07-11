@@ -1,0 +1,8 @@
+{
+  "skillId": "number-line-ordering",
+  "summary": "On the number line, values increase to the right; comparing signed numbers, fractions, and decimals is easiest once they share a common form.",
+  "formulas": [
+    { "name": "Ordering rule", "expression": "a < b \\iff a \\text{ is to the left of } b \\text{ on the number line}" }
+  ],
+  "explanation": "Every real number corresponds to exactly one point on the number line, with values increasing left to right. Negative numbers are always less than positive numbers, and among negatives, the one with the larger absolute value is actually smaller (e.g. \\(-10 < -3\\)). To compare fractions or a mix of fractions and decimals, convert everything to decimals (or a common denominator) first — comparing \\(5/8\\) and \\(0.6\\) directly is error-prone, but \\(0.625\\) vs \\(0.6\\) is immediate. Between any two distinct numbers there are infinitely many other numbers, which matters for GRE questions asking whether a value \"must\" fall in a range."
+}

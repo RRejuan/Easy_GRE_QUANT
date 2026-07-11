@@ -1,0 +1,155 @@
+[
+  {
+    "id": "coordinate-geometry-basics-001",
+    "type": "Numeric",
+    "primarySkill": "coordinate-geometry-basics",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "In the figure below, what is the distance between points \\(A\\) and \\(B\\)?",
+    "figure": {
+      "viewBox": "0 0 200 170",
+      "elements": [
+        { "kind": "line", "from": { "x": 0, "y": 150 }, "to": { "x": 200, "y": 150 } },
+        { "kind": "line", "from": { "x": 60, "y": 0 }, "to": { "x": 60, "y": 170 } },
+        { "kind": "line", "from": { "x": 90, "y": 105 }, "to": { "x": 150, "y": 60 }, "dashed": true },
+        { "kind": "circle", "center": { "x": 90, "y": 105 }, "radius": 2.5 },
+        { "kind": "circle", "center": { "x": 150, "y": 60 }, "radius": 2.5 },
+        { "kind": "label", "at": { "x": 95, "y": 118 }, "text": "A (2, 3)" },
+        { "kind": "label", "at": { "x": 155, "y": 55 }, "text": "B (6, 6)" }
+      ]
+    },
+    "answer": 5,
+    "solutionStandard": "\\(d = \\sqrt{(6-2)^2+(6-3)^2} = \\sqrt{16+9} = \\sqrt{25} = 5\\).",
+    "timeTargetSec": 50
+  },
+  {
+    "id": "coordinate-geometry-basics-002",
+    "type": "MC",
+    "primarySkill": "coordinate-geometry-basics",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "What is the midpoint of the segment connecting \\((2, 4)\\) and \\((8, 10)\\)?",
+    "options": [
+      { "id": "A", "text": "(4, 6)" },
+      { "id": "B", "text": "(5, 7)" },
+      { "id": "C", "text": "(6, 8)" },
+      { "id": "D", "text": "(10, 14)" },
+      { "id": "E", "text": "(5, 6)" }
+    ],
+    "answer": "B",
+    "solutionStandard": "Midpoint \\(= \\left(\\dfrac{2+8}{2}, \\dfrac{4+10}{2}\\right) = (5, 7)\\).",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "coordinate-geometry-basics-003",
+    "type": "Numeric",
+    "primarySkill": "coordinate-geometry-basics",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "What is the distance between \\((-1, 2)\\) and \\((3, -1)\\)?",
+    "answer": 5,
+    "solutionStandard": "\\(d=\\sqrt{(3-(-1))^2+(-1-2)^2}=\\sqrt{16+9}=\\sqrt{25}=5\\).",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "coordinate-geometry-basics-004",
+    "type": "MC",
+    "primarySkill": "coordinate-geometry-basics",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "Point \\(P\\) is at \\((3, -5)\\). In which quadrant does \\(P\\) lie?",
+    "options": [
+      { "id": "A", "text": "I" },
+      { "id": "B", "text": "II" },
+      { "id": "C", "text": "III" },
+      { "id": "D", "text": "IV" },
+      { "id": "E", "text": "On an axis" }
+    ],
+    "answer": "D",
+    "solutionStandard": "\\(x>0\\) and \\(y<0\\) is Quadrant IV.",
+    "timeTargetSec": 35
+  },
+  {
+    "id": "coordinate-geometry-basics-005",
+    "type": "QC",
+    "primarySkill": "coordinate-geometry-basics",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "Point \\(A\\) is at \\((0,0)\\) and point \\(B\\) is at \\((6, 8)\\).",
+    "quantityA": "The distance from \\(A\\) to \\(B\\)",
+    "quantityB": "\\(9\\)",
+    "answer": "A",
+    "solutionStandard": "\\(d=\\sqrt{6^2+8^2}=\\sqrt{36+64}=\\sqrt{100}=10\\). Since \\(10>9\\), Quantity A is greater.",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "coordinate-geometry-basics-006",
+    "type": "Numeric",
+    "primarySkill": "coordinate-geometry-basics",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "The midpoint of segment \\(AB\\) is \\((4, 1)\\). If \\(A = (-2, 5)\\), what is the \\(y\\)-coordinate of \\(B\\)?",
+    "answer": -3,
+    "solutionStandard": "\\(\\dfrac{5+y_B}{2}=1\\), so \\(5+y_B=2\\), giving \\(y_B=-3\\).",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "coordinate-geometry-basics-007",
+    "type": "MC",
+    "primarySkill": "coordinate-geometry-basics",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "A square has three of its vertices at \\((0,0)\\), \\((4,0)\\), and \\((4,4)\\). What are the coordinates of the fourth vertex?",
+    "options": [
+      { "id": "A", "text": "(0, 4)" },
+      { "id": "B", "text": "(4, -4)" },
+      { "id": "C", "text": "(-4, 4)" },
+      { "id": "D", "text": "(0, -4)" },
+      { "id": "E", "text": "(8, 4)" }
+    ],
+    "answer": "A",
+    "solutionStandard": "The square's sides are horizontal and vertical of length 4. Completing the square from \\((0,0)\\), \\((4,0)\\), \\((4,4)\\) requires a fourth vertex at \\((0,4)\\).",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "coordinate-geometry-basics-008",
+    "type": "MultiMC",
+    "primarySkill": "coordinate-geometry-basics",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "Which of the following points are equidistant from \\((0,0)\\) and \\((6,0)\\)? Select all that apply.",
+    "options": [
+      { "id": "A", "text": "(3, 5)" },
+      { "id": "B", "text": "(3, -2)" },
+      { "id": "C", "text": "(2, 4)" },
+      { "id": "D", "text": "(3, 0)" }
+    ],
+    "answer": ["A", "B", "D"],
+    "solutionStandard": "Points equidistant from \\((0,0)\\) and \\((6,0)\\) lie on the perpendicular bisector \\(x=3\\). (A), (B), and (D) all have \\(x=3\\); (C) does not.",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "coordinate-geometry-basics-009",
+    "type": "Numeric",
+    "primarySkill": "coordinate-geometry-basics",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "A circle is centered at \\((2, 3)\\) and passes through \\((6, 6)\\). What is the radius of the circle?",
+    "answer": 5,
+    "solutionStandard": "Radius \\(=\\sqrt{(6-2)^2+(6-3)^2}=\\sqrt{16+9}=\\sqrt{25}=5\\).",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "coordinate-geometry-basics-010",
+    "type": "QC",
+    "primarySkill": "coordinate-geometry-basics",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "Triangle \\(ABC\\) has vertices \\(A=(0,0)\\), \\(B=(4,0)\\), and \\(C=(0,3)\\).",
+    "quantityA": "The length of \\(BC\\)",
+    "quantityB": "The perimeter of the triangle minus 7",
+    "answer": "C",
+    "solutionStandard": "\\(BC=\\sqrt{4^2+3^2}=5\\). Perimeter \\(=AB+AC+BC=4+3+5=12\\). Perimeter minus 7 \\(=5\\). The quantities are equal.",
+    "timeTargetSec": 80
+  }
+]

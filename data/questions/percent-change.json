@@ -1,0 +1,158 @@
+[
+  {
+    "id": "percent-change-001",
+    "type": "Numeric",
+    "primarySkill": "percent-change",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "variables": [
+      { "name": "orig", "min": 40, "max": 200, "step": 10 },
+      { "name": "pct", "min": 10, "max": 50, "step": 5 }
+    ],
+    "stem": "A price of ${{orig}} is increased by {{pct}}%. What is the new price?",
+    "answer": 120,
+    "answerFormula": "orig * (1 + pct/100)",
+    "solutionStandard": "New price \\(= {{orig}} \\times (1 + {{pct}}/100) = {{orig * (1 + pct/100)}}\\).",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "percent-change-002",
+    "type": "MC",
+    "primarySkill": "percent-change",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "A price is decreased from $80 to $60. What is the percent decrease?",
+    "options": [
+      { "id": "A", "text": "20%" },
+      { "id": "B", "text": "25%" },
+      { "id": "C", "text": "30%" },
+      { "id": "D", "text": "33.3%" },
+      { "id": "E", "text": "40%" }
+    ],
+    "answer": "B",
+    "solutionStandard": "Percent decrease \\(= \\dfrac{80-60}{80} \\times 100 = 25\\%\\). Note the denominator is the original value, 80.",
+    "timeTargetSec": 50
+  },
+  {
+    "id": "percent-change-003",
+    "type": "QC",
+    "primarySkill": "percent-change",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "variables": [{ "name": "p", "min": 10, "max": 40, "step": 5 }],
+    "stem": "A value is increased by {{p}}% and then decreased by {{p}}%.",
+    "quantityA": "The final value",
+    "quantityB": "The original value",
+    "answer": "B",
+    "solutionStandard": "The net multiplier is \\((1+{{p}}/100)(1-{{p}}/100) = 1 - ({{p}}/100)^2 < 1\\), so the final value is always less than the original. Quantity B is greater.",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "percent-change-004",
+    "type": "MC",
+    "primarySkill": "percent-change",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "After a 25% discount, an item costs $60. What was the original price?",
+    "options": [
+      { "id": "A", "text": "$70" },
+      { "id": "B", "text": "$75" },
+      { "id": "C", "text": "$80" },
+      { "id": "D", "text": "$85" },
+      { "id": "E", "text": "$90" }
+    ],
+    "answer": "C",
+    "solutionStandard": "\\(0.75x = 60\\), so \\(x = 60/0.75 = 80\\).",
+    "solutionShortcut": "Backsolve: test $80: a 25% discount is \\(80 - 20 = 60\\). Matches.",
+    "shortcutTags": ["backsolve"],
+    "timeTargetSec": 65
+  },
+  {
+    "id": "percent-change-005",
+    "type": "Numeric",
+    "primarySkill": "percent-change",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "A stock price increases by 50% and then decreases by 50%. If the original price was $80, what is the final price?",
+    "answer": 60,
+    "solutionStandard": "\\(80 \\times 1.5 = 120\\). Then \\(120 \\times 0.5 = 60\\).",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "percent-change-006",
+    "type": "MC",
+    "primarySkill": "percent-change",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "A population grows by 10% each year. After 2 years, what is the total percent increase from the original population?",
+    "options": [
+      { "id": "A", "text": "20%" },
+      { "id": "B", "text": "20.5%" },
+      { "id": "C", "text": "21%" },
+      { "id": "D", "text": "22%" },
+      { "id": "E", "text": "25%" }
+    ],
+    "answer": "C",
+    "solutionStandard": "The net multiplier after 2 years is \\(1.1 \\times 1.1 = 1.21\\), a 21% increase — not simply \\(10\\%+10\\%=20\\%\\).",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "percent-change-007",
+    "type": "MultiMC",
+    "primarySkill": "percent-change",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "Which of the following result in exactly the same final value as a single 30% increase? Select all that apply.",
+    "options": [
+      { "id": "A", "text": "A single 30% increase" },
+      { "id": "B", "text": "A 4% increase followed by a 25% increase on the new total" },
+      { "id": "C", "text": "Two successive 15% increases" },
+      { "id": "D", "text": "A 50% increase followed by a 20% decrease" }
+    ],
+    "answer": ["A", "B"],
+    "solutionStandard": "(A) trivially matches. (B): \\(1.04 \\times 1.25 = 1.3\\), a 30% increase. (C): \\(1.15 \\times 1.15 = 1.3225\\), a 32.25% increase — not 30%. (D): \\(1.5 \\times 0.8 = 1.2\\), a 20% increase — not 30%.",
+    "timeTargetSec": 100
+  },
+  {
+    "id": "percent-change-008",
+    "type": "Numeric",
+    "primarySkill": "percent-change",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "A shirt's price is increased by 20% to $54. It is then discounted by 10% off this new price. What is the final price?",
+    "answer": 48.6,
+    "solutionStandard": "New price after increase: $54 (given). After a 10% discount: \\(54 \\times 0.9 = 48.6\\).",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "percent-change-009",
+    "type": "MC",
+    "primarySkill": "percent-change",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "A price increases by 25%, and then the new price is decreased by \\(x\\)% to return exactly to the original price. What is \\(x\\)?",
+    "options": [
+      { "id": "A", "text": "20" },
+      { "id": "B", "text": "25" },
+      { "id": "C", "text": "22.5" },
+      { "id": "D", "text": "15" },
+      { "id": "E", "text": "30" }
+    ],
+    "answer": "A",
+    "solutionStandard": "Let the original price be 100. After a 25% increase: 125. To return to 100: \\(x\\% \\text{ of } 125 = 25\\), so \\(x = 25/125 \\times 100 = 20\\).",
+    "timeTargetSec": 80
+  },
+  {
+    "id": "percent-change-010",
+    "type": "QC",
+    "primarySkill": "percent-change",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "Item A's price increases by 40%. Item B's price increases by 20% and then by another 20% (on the new price).",
+    "quantityA": "Item A's total percent increase",
+    "quantityB": "Item B's total percent increase",
+    "answer": "B",
+    "solutionStandard": "Item A: 40% increase, multiplier 1.4. Item B: \\(1.2 \\times 1.2 = 1.44\\), a 44% increase. Since \\(44\\% > 40\\%\\), Quantity B is greater.",
+    "timeTargetSec": 75
+  }
+]

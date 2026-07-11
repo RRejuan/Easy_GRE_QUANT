@@ -1,0 +1,8 @@
+{
+  "skillId": "inequalities-compound",
+  "summary": "A compound inequality combines two conditions with \"and\" (the solution is the overlap) or \"or\" (the solution is the union).",
+  "formulas": [
+    { "name": "Combined (sandwich) form", "expression": "a < x + b < c \\implies a - b < x < c - b" }
+  ],
+  "explanation": "An \"and\" compound inequality (like \\(1 < x < 5\\)) requires both conditions to hold, so the solution is the overlap of the two ranges. An \"or\" compound inequality (like \\(x < 1\\) or \\(x > 5\\)) requires at least one condition to hold, so the solution is everything outside a middle range. To solve a \"sandwich\" inequality like \\(3 < 2x+1 < 9\\), perform the same operation on all three parts simultaneously: subtract 1 from all three parts, then divide all three by 2. As always, dividing all three parts by a negative number flips both inequality signs."
+}

@@ -1,0 +1,8 @@
+{
+  "skillId": "word-problems-algebraic-translation",
+  "summary": "Translating a word problem into algebra means assigning a variable to the unknown and converting each phrase into a mathematical operation.",
+  "formulas": [
+    { "name": "Common phrase translations", "expression": "\\text{\"more than\"} \\to +,\\ \\text{\"less than\"} \\to -\\ (\\text{reversed order}),\\ \\text{\"times\"} \\to \\times,\\ \\text{\"is\"} \\to =" }
+  ],
+  "explanation": "Start by naming the unknown quantity with a variable, then translate the sentence piece by piece. Watch for phrases that reverse the expected order: \"5 less than x\" means \\(x-5\\), not \\(5-x\\); \"half of x\" means \\(x/2\\). Consecutive integers are \\(n, n+1, n+2, \\ldots\\); consecutive even or odd integers are \\(n, n+2, n+4, \\ldots\\). For age problems, define the variable as a CURRENT age, and express past/future ages by adding or subtracting years from that same variable — a common error is using different variables for the same person at different times instead of shifting one variable consistently. Once translated, solve the resulting equation using standard algebra."
+}

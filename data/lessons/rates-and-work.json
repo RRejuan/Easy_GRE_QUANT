@@ -1,0 +1,9 @@
+{
+  "skillId": "rates-and-work",
+  "summary": "Distance/rate/time problems and combined work problems both use the same idea: rates add when working together, and rate x time = amount done.",
+  "formulas": [
+    { "name": "Distance-rate-time", "expression": "d = rt" },
+    { "name": "Combined work rate", "expression": "\\frac{1}{t_1} + \\frac{1}{t_2} = \\frac{1}{t_{\\text{together}}}" }
+  ],
+  "explanation": "For motion problems, distance equals rate times time (\\(d=rt\\)); rearrange to find whichever quantity is unknown. For work problems, express each worker's rate as \"1 job per T time\" (e.g. a machine that takes 4 hours has a rate of \\(1/4\\) job per hour). When two agents work together, their rates add: combined rate \\(= 1/t_1 + 1/t_2\\), and the time to finish together is the reciprocal of that sum. A common shortcut for two workers with times \\(a\\) and \\(b\\): time together \\(= \\dfrac{ab}{a+b}\\). For average speed over a round trip with different speeds each way, don't average the speeds directly — use total distance divided by total time."
+}

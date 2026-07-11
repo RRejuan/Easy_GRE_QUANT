@@ -1,0 +1,9 @@
+{
+  "skillId": "range-standard-deviation",
+  "summary": "Range and standard deviation both measure spread, but standard deviation accounts for every value, not just the extremes.",
+  "formulas": [
+    { "name": "Range", "expression": "\\text{range} = \\text{max} - \\text{min}" },
+    { "name": "Standard deviation (concept)", "expression": "\\text{typical distance of a data point from the mean}" }
+  ],
+  "explanation": "The range is simply the difference between the largest and smallest values — quick to compute but sensitive only to the two extreme values. Standard deviation measures how spread out ALL the values are around the mean: a small standard deviation means values cluster tightly around the mean, while a large one means they're spread widely. The GRE rarely asks for an exact standard deviation calculation; instead, it tests conceptual understanding — comparing which of two data sets is more spread out, or predicting how adding/removing a value or shifting every value by a constant affects the standard deviation. Adding the same constant to every value shifts the mean but does NOT change the standard deviation (the spread stays the same); multiplying every value by a constant multiplies the standard deviation by that same constant."
+}

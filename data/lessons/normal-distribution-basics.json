@@ -1,0 +1,8 @@
+{
+  "skillId": "normal-distribution-basics",
+  "summary": "In a normal distribution, data clusters symmetrically around the mean, and the 68-95-99.7 rule tells you what percent falls within each standard deviation.",
+  "formulas": [
+    { "name": "68-95-99.7 rule", "expression": "\\text{within 1 SD: } 68\\%,\\ \\ \\text{within 2 SD: } 95\\%,\\ \\ \\text{within 3 SD: } 99.7\\%" }
+  ],
+  "explanation": "A normal distribution is symmetric and bell-shaped, centered at the mean, where mean = median = mode. The 68-95-99.7 rule (empirical rule) says approximately 68% of data falls within 1 standard deviation of the mean, 95% within 2 standard deviations, and 99.7% within 3. Because the curve is symmetric, exactly 50% of the data lies above the mean and 50% below. To find the percent above or below a specific cutoff that's a whole number of standard deviations from the mean, use the rule together with the symmetry: e.g., the percent below \"mean + 1 SD\" is \\(50\\% + 34\\%=84\\%\\) (half the distribution, plus half of the middle 68%)."
+}

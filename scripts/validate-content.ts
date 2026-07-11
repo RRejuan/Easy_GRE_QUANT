@@ -14,6 +14,8 @@ function loadSchema(name: string) {
   return JSON.parse(readFileSync(path.join(schemaDir, name), "utf8"));
 }
 
+ajv.addSchema(loadSchema("figure.schema.json"));
+
 const validateSkill = ajv.compile(loadSchema("skill.schema.json"));
 const validateQuestion = ajv.compile(loadSchema("question.schema.json"));
 const validateDISet = ajv.compile(loadSchema("di-set.schema.json"));

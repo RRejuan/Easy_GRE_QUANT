@@ -1,0 +1,10 @@
+{
+  "skillId": "absolute-value-equations",
+  "summary": "Solving an absolute value equation or inequality means splitting it into two separate cases, one positive and one negative.",
+  "formulas": [
+    { "name": "Equation split", "expression": "|x| = k \\implies x = k \\text{ or } x = -k \\quad (k \\ge 0)" },
+    { "name": "Inequality (less than)", "expression": "|x| < k \\implies -k < x < k" },
+    { "name": "Inequality (greater than)", "expression": "|x| > k \\implies x < -k \\text{ or } x > k" }
+  ],
+  "explanation": "To solve \\(|expression| = k\\), set the expression equal to \\(k\\) AND to \\(-k\\), then solve each equation separately — always check both solutions in the original equation, since occasionally an extraneous root appears. For inequalities, \\(|x| < k\\) means \\(x\\) is within \\(k\\) of 0, giving a single connected range \\(-k < x < k\\); but \\(|x| > k\\) means \\(x\\) is farther than \\(k\\) from 0, giving two separate rays (\\(x<-k\\) or \\(x>k\\)) — remembering which pattern goes with which symbol (\"less than\" stays connected, \"greater than\" splits apart) is the key skill. If \\(k<0\\), an equation \\(|expression|=k\\) has no solution, since absolute value can't be negative."
+}

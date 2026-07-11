@@ -1,0 +1,152 @@
+[
+  {
+    "id": "estimation-rounding-001",
+    "type": "Numeric",
+    "primarySkill": "estimation-rounding",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "variables": [{ "name": "n", "min": 100, "max": 999, "step": 1 }],
+    "stem": "What is {{n}} rounded to the nearest ten?",
+    "answer": 470,
+    "answerFormula": "Math.round(n / 10) * 10",
+    "solutionStandard": "Look at the units digit; round up if it's 5 or more: {{n}} rounds to \\({{Math.round(n/10)*10}}\\).",
+    "timeTargetSec": 30
+  },
+  {
+    "id": "estimation-rounding-002",
+    "type": "MC",
+    "primarySkill": "estimation-rounding",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "What is 6.47 rounded to the nearest tenth?",
+    "options": [
+      { "id": "A", "text": "6.4" },
+      { "id": "B", "text": "6.5" },
+      { "id": "C", "text": "6" },
+      { "id": "D", "text": "7" },
+      { "id": "E", "text": "6.47" }
+    ],
+    "answer": "B",
+    "solutionStandard": "The hundredths digit is 7, so round the tenths digit up: \\(6.47 \\to 6.5\\).",
+    "timeTargetSec": 35
+  },
+  {
+    "id": "estimation-rounding-003",
+    "type": "Numeric",
+    "primarySkill": "estimation-rounding",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "Estimate \\(297 \\times 41\\) by rounding each number to the nearest ten, then compute the estimate exactly.",
+    "answer": 12300,
+    "solutionStandard": "\\(297 \\to 300\\) and \\(41 \\to 40\\): \\(300 \\times 40 = 12{,}300\\).",
+    "timeTargetSec": 50
+  },
+  {
+    "id": "estimation-rounding-004",
+    "type": "MC",
+    "primarySkill": "estimation-rounding",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "Which of the following is the best estimate of \\(\\dfrac{5978}{19.8}\\)?",
+    "options": [
+      { "id": "A", "text": "30" },
+      { "id": "B", "text": "60" },
+      { "id": "C", "text": "300" },
+      { "id": "D", "text": "600" },
+      { "id": "E", "text": "3000" }
+    ],
+    "answer": "C",
+    "solutionStandard": "Round to \\(6000 \\div 20 = 300\\).",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "estimation-rounding-005",
+    "type": "QC",
+    "primarySkill": "estimation-rounding",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "\\(x = 4.999\\) rounded to the nearest whole number.",
+    "quantityA": "\\(x\\)",
+    "quantityB": "\\(5\\)",
+    "answer": "C",
+    "solutionStandard": "\\(4.999\\) rounds up to \\(5\\) (the tenths digit is 9). The quantities are equal.",
+    "timeTargetSec": 40
+  },
+  {
+    "id": "estimation-rounding-006",
+    "type": "MC",
+    "primarySkill": "estimation-rounding",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "A store's revenue was $48,750 last month. Which of the following is the revenue rounded to the nearest thousand?",
+    "options": [
+      { "id": "A", "text": "$48,000" },
+      { "id": "B", "text": "$48,500" },
+      { "id": "C", "text": "$49,000" },
+      { "id": "D", "text": "$50,000" },
+      { "id": "E", "text": "$48,750" }
+    ],
+    "answer": "C",
+    "solutionStandard": "The hundreds digit is 7 (\\(\\ge5\\)), so round the thousands digit up: \\(48{,}750 \\to 49{,}000\\).",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "estimation-rounding-007",
+    "type": "Numeric",
+    "primarySkill": "estimation-rounding",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "A survey estimates a population count by rounding to the nearest hundred. If the rounded value is 3,600, what is the smallest possible actual population?",
+    "answer": 3550,
+    "solutionStandard": "The smallest value that rounds up to 3,600 is 3,550 (values from 3,550 up to but not including 3,650 round to 3,600).",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "estimation-rounding-008",
+    "type": "MultiMC",
+    "primarySkill": "estimation-rounding",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "Which of the following round to 15.0 when rounded to the nearest tenth? Select all that apply.",
+    "options": [
+      { "id": "A", "text": "14.96" },
+      { "id": "B", "text": "15.04" },
+      { "id": "C", "text": "14.94" },
+      { "id": "D", "text": "15.06" }
+    ],
+    "answer": ["A", "B"],
+    "solutionStandard": "Rounding to the nearest tenth means the hundredths digit determines rounding: \\(14.96 \\to 15.0\\), \\(15.04 \\to 15.0\\). But \\(14.94 \\to 14.9\\) and \\(15.06 \\to 15.1\\).",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "estimation-rounding-009",
+    "type": "MC",
+    "primarySkill": "estimation-rounding",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "Which of the following is the best estimate of \\(\\sqrt{50} \\times 11\\)?",
+    "options": [
+      { "id": "A", "text": "55" },
+      { "id": "B", "text": "70" },
+      { "id": "C", "text": "78" },
+      { "id": "D", "text": "90" },
+      { "id": "E", "text": "110" }
+    ],
+    "answer": "C",
+    "solutionStandard": "\\(\\sqrt{50} \\approx 7.07\\), so \\(\\sqrt{50}\\times11 \\approx 7 \\times 11 = 77\\), closest to 78.",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "estimation-rounding-010",
+    "type": "QC",
+    "primarySkill": "estimation-rounding",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "\\(n\\) rounds to 200 when rounded to the nearest hundred, and \\(n\\) is an integer.",
+    "quantityA": "The greatest possible value of \\(n\\)",
+    "quantityB": "\\(249\\)",
+    "answer": "C",
+    "solutionStandard": "Values from 150 up to and including 249 round to 200 (250 would round up to 300). The greatest possible integer value is 249, equal to Quantity B.",
+    "timeTargetSec": 75
+  }
+]

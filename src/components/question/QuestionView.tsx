@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { Question } from "../../types";
 import { MathText } from "../MathText";
+import { FigureView } from "../FigureView";
 import { QCInput } from "./QCInput";
 import { MCInput } from "./MCInput";
 import { MultiMCInput } from "./MultiMCInput";
@@ -116,6 +117,8 @@ export function QuestionView({
       <p className="question-stem">
         <MathText text={displayQuestion.stem} />
       </p>
+
+      {question.figure && <FigureView figure={question.figure} />}
 
       {!submitted && displayQuestion.type === "QC" && (
         <QCInput question={displayQuestion} onSubmit={handleSubmit} />

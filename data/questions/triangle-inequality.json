@@ -1,0 +1,149 @@
+[
+  {
+    "id": "triangle-inequality-001",
+    "type": "MultiMC",
+    "primarySkill": "triangle-inequality",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "Which of the following could be the side lengths of a triangle? Select all that apply.",
+    "options": [
+      { "id": "A", "text": "3, 4, 5" },
+      { "id": "B", "text": "2, 3, 6" },
+      { "id": "C", "text": "5, 5, 9" },
+      { "id": "D", "text": "1, 2, 3" }
+    ],
+    "answer": ["A", "C"],
+    "solutionStandard": "(A) \\(3+4=7>5\\), valid. (B) \\(2+3=5<6\\), invalid. (C) \\(5+5=10>9\\), valid. (D) \\(1+2=3\\), not strictly greater than 3, so it's degenerate, not a valid triangle.",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "triangle-inequality-002",
+    "type": "MC",
+    "primarySkill": "triangle-inequality",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "A triangle has two sides of length 7 and 10. Which of the following could NOT be the length of the third side?",
+    "options": [
+      { "id": "A", "text": "4" },
+      { "id": "B", "text": "8" },
+      { "id": "C", "text": "12" },
+      { "id": "D", "text": "16" },
+      { "id": "E", "text": "17" }
+    ],
+    "answer": "E",
+    "solutionStandard": "The third side must satisfy \\(10-7 < c < 10+7\\), i.e. \\(3 < c < 17\\). Since 17 is not strictly less than 17, it's excluded.",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "triangle-inequality-003",
+    "type": "Numeric",
+    "primarySkill": "triangle-inequality",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "A triangle has sides of length 6 and 9. What is the greatest possible integer value of the third side?",
+    "answer": 14,
+    "solutionStandard": "The third side \\(c\\) satisfies \\(3 < c < 15\\). The greatest integer less than 15 is 14.",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "triangle-inequality-004",
+    "type": "QC",
+    "primarySkill": "triangle-inequality",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "A triangle has sides 5, 12, and \\(x\\).",
+    "quantityA": "The greatest possible integer value of \\(x\\)",
+    "quantityB": "\\(16\\)",
+    "answer": "C",
+    "solutionStandard": "\\(x\\) satisfies \\(7 < x < 17\\). The greatest integer strictly less than 17 is 16, so Quantity A equals 16 — the same as Quantity B.",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "triangle-inequality-005",
+    "type": "Numeric",
+    "primarySkill": "triangle-inequality",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "A triangle has sides of length 8 and 8. What is the smallest possible integer value of the third side?",
+    "answer": 1,
+    "solutionStandard": "The third side \\(c\\) satisfies \\(0 < c < 16\\). The smallest positive integer is 1.",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "triangle-inequality-006",
+    "type": "MC",
+    "primarySkill": "triangle-inequality",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "How many distinct integer values are possible for the third side of a triangle whose other two sides are 4 and 10?",
+    "options": [
+      { "id": "A", "text": "5" },
+      { "id": "B", "text": "6" },
+      { "id": "C", "text": "7" },
+      { "id": "D", "text": "8" },
+      { "id": "E", "text": "9" }
+    ],
+    "answer": "C",
+    "solutionStandard": "The third side \\(c\\) satisfies \\(6 < c < 14\\), so integers 7 through 13 — that's 7 values.",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "triangle-inequality-007",
+    "type": "MC",
+    "primarySkill": "triangle-inequality",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "A triangle has a perimeter of 20 and one side of length 4. What is the greatest possible integer length of another side?",
+    "options": [
+      { "id": "A", "text": "9" },
+      { "id": "B", "text": "10" },
+      { "id": "C", "text": "11" },
+      { "id": "D", "text": "12" },
+      { "id": "E", "text": "13" }
+    ],
+    "answer": "A",
+    "solutionStandard": "Let the other two sides be \\(b\\) and \\(c\\) with \\(b+c=16\\). Each of \\(b, c\\) must be less than the sum of the other two sides (4 and the other): \\(b < 4+c\\), and since \\(c=16-b\\), \\(b < 4+16-b\\), so \\(2b<20\\), giving \\(b<10\\). The greatest integer is 9.",
+    "timeTargetSec": 90
+  },
+  {
+    "id": "triangle-inequality-008",
+    "type": "MultiMC",
+    "primarySkill": "triangle-inequality",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "A triangle has sides 6, 8, and \\(x\\). Which of the following values of \\(x\\) are possible? Select all that apply.",
+    "options": [
+      { "id": "A", "text": "2" },
+      { "id": "B", "text": "3" },
+      { "id": "C", "text": "10" },
+      { "id": "D", "text": "14" }
+    ],
+    "answer": ["B", "C"],
+    "solutionStandard": "\\(x\\) must satisfy \\(2 < x < 14\\). Only 3 and 10 fall strictly in this range; 2 and 14 are excluded (boundary values).",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "triangle-inequality-009",
+    "type": "Numeric",
+    "primarySkill": "triangle-inequality",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "An isosceles triangle has two sides of length 5 and one side of length \\(x\\), where \\(x\\) is an integer and \\(x \\neq 5\\). What is the greatest possible value of \\(x\\)?",
+    "answer": 9,
+    "solutionStandard": "With two sides equal to 5, the third side \\(x\\) satisfies \\(0 < x < 10\\). The greatest integer less than 10 (and not equal to 5) is 9.",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "triangle-inequality-010",
+    "type": "QC",
+    "primarySkill": "triangle-inequality",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "A triangle has sides \\(a\\), \\(b\\), and \\(c\\), with \\(a=10\\) and \\(b=3\\).",
+    "quantityA": "\\(c\\)",
+    "quantityB": "\\(7\\)",
+    "answer": "A",
+    "solutionStandard": "\\(c\\) must satisfy \\(7 < c < 13\\). Since \\(c\\) is always strictly greater than 7, Quantity A is always greater.",
+    "timeTargetSec": 85
+  }
+]

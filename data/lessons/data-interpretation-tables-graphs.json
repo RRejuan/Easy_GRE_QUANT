@@ -1,0 +1,8 @@
+{
+  "skillId": "data-interpretation-tables-graphs",
+  "summary": "Reading tables, bar/line graphs, and pie charts is mostly about careful lookup — the math itself is usually simple once you find the right numbers.",
+  "formulas": [
+    { "name": "Pie chart slice value", "expression": "\\text{slice value} = \\frac{\\text{slice \\%}}{100} \\times \\text{total}" }
+  ],
+  "explanation": "Before doing any calculation, read the title, axis labels, legend, and units carefully — most errors come from misreading what a chart represents, not from the arithmetic itself. In a pie chart, each slice's percentage of the whole tells you what fraction of the total that category represents; multiply by the total to get the actual value. In bar and line graphs, read values off the axis carefully, watching for axes that don't start at 0 (which can visually exaggerate differences) and for units specified in the title or axis label (thousands, percentages, etc.). When a question asks for a change or comparison between two data points, subtract the actual values rather than comparing bar heights visually. For multi-panel or multi-series charts, make sure you're reading the correct series (matching colors/patterns to the legend) before extracting a value."
+}

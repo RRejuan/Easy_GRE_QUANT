@@ -1,0 +1,161 @@
+[
+  {
+    "id": "absolute-value-equations-001",
+    "type": "MultiMC",
+    "primarySkill": "absolute-value-equations",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "Which values of \\(x\\) satisfy \\(|x + 2| = 5\\)? Select all that apply.",
+    "options": [
+      { "id": "A", "text": "3" },
+      { "id": "B", "text": "-7" },
+      { "id": "C", "text": "7" },
+      { "id": "D", "text": "-3" }
+    ],
+    "answer": ["A", "B"],
+    "solutionStandard": "\\(x+2=5\\) gives \\(x=3\\), or \\(x+2=-5\\) gives \\(x=-7\\).",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "absolute-value-equations-002",
+    "type": "MC",
+    "primarySkill": "absolute-value-equations",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "Solve: \\(|2x - 4| = 10\\)",
+    "options": [
+      { "id": "A", "text": "\\(x=7\\) or \\(x=-3\\)" },
+      { "id": "B", "text": "\\(x=3\\) or \\(x=-7\\)" },
+      { "id": "C", "text": "\\(x=7\\) only" },
+      { "id": "D", "text": "\\(x=3\\) only" },
+      { "id": "E", "text": "No solution" }
+    ],
+    "answer": "A",
+    "solutionStandard": "\\(2x-4=10\\) gives \\(x=7\\), or \\(2x-4=-10\\) gives \\(x=-3\\).",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "absolute-value-equations-003",
+    "type": "MC",
+    "primarySkill": "absolute-value-equations",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "Solve: \\(|x - 3| < 5\\)",
+    "options": [
+      { "id": "A", "text": "\\(-2 < x < 8\\)" },
+      { "id": "B", "text": "\\(x < -2\\) or \\(x > 8\\)" },
+      { "id": "C", "text": "\\(2 < x < 8\\)" },
+      { "id": "D", "text": "\\(-8 < x < 2\\)" },
+      { "id": "E", "text": "\\(x < 8\\)" }
+    ],
+    "answer": "A",
+    "solutionStandard": "\\(|x-3|<5\\) means \\(-5 < x-3 < 5\\). Add 3 to all parts: \\(-2 < x < 8\\).",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "absolute-value-equations-004",
+    "type": "MC",
+    "primarySkill": "absolute-value-equations",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "Solve: \\(|3x + 1| > 7\\)",
+    "options": [
+      { "id": "A", "text": "\\(-\\frac{8}{3} < x < 2\\)" },
+      { "id": "B", "text": "\\(x < -\\frac{8}{3}\\) or \\(x > 2\\)" },
+      { "id": "C", "text": "\\(x > 2\\) only" },
+      { "id": "D", "text": "\\(x < -\\frac{8}{3}\\) only" },
+      { "id": "E", "text": "\\(2 < x < \\frac{8}{3}\\)" }
+    ],
+    "answer": "B",
+    "solutionStandard": "\\(|3x+1|>7\\) splits into \\(3x+1>7\\) or \\(3x+1<-7\\). First: \\(3x>6\\), \\(x>2\\). Second: \\(3x<-8\\), \\(x<-8/3\\).",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "absolute-value-equations-005",
+    "type": "QC",
+    "primarySkill": "absolute-value-equations",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "\\(|x - 2| = |x + 4|\\)",
+    "quantityA": "\\(x\\)",
+    "quantityB": "\\(-1\\)",
+    "answer": "C",
+    "solutionStandard": "\\(x\\) is equidistant from 2 and from \\(-4\\), so it's the midpoint: \\(x = \\dfrac{2+(-4)}{2} = -1\\). (Algebraically: \\(x-2=x+4\\) has no solution, and \\(x-2=-(x+4)\\) gives \\(2x=-2\\), so \\(x=-1\\).) The quantities are equal.",
+    "timeTargetSec": 90
+  },
+  {
+    "id": "absolute-value-equations-006",
+    "type": "Numeric",
+    "primarySkill": "absolute-value-equations",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "What is the sum of all solutions to \\(|x - 6| = 4\\)?",
+    "answer": 12,
+    "solutionStandard": "\\(x=10\\) or \\(x=2\\). Sum: \\(10+2=12\\).",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "absolute-value-equations-007",
+    "type": "MultiMC",
+    "primarySkill": "absolute-value-equations",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "Which of the following describe the solution set of \\(|x+2| \\ge 6\\)? Select all that apply.",
+    "options": [
+      { "id": "A", "text": "\\(x \\ge 4\\)" },
+      { "id": "B", "text": "\\(x \\le -8\\)" },
+      { "id": "C", "text": "\\(-8 \\le x \\le 4\\)" },
+      { "id": "D", "text": "\\(x = 4\\) is included" }
+    ],
+    "answer": ["A", "B", "D"],
+    "solutionStandard": "\\(|x+2|\\ge6\\) means \\(x+2\\ge6\\) (so \\(x\\ge4\\)) or \\(x+2\\le-6\\) (so \\(x\\le-8\\)). Since the inequality is \"greater than\", the solution splits into two rays, not the connected range in (C). \\(x=4\\) satisfies equality, so it's included.",
+    "timeTargetSec": 80
+  },
+  {
+    "id": "absolute-value-equations-008",
+    "type": "MC",
+    "primarySkill": "absolute-value-equations",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "How many integer values of \\(x\\) satisfy \\(|x - 5| \\le 3\\)?",
+    "options": [
+      { "id": "A", "text": "5" },
+      { "id": "B", "text": "6" },
+      { "id": "C", "text": "7" },
+      { "id": "D", "text": "8" },
+      { "id": "E", "text": "9" }
+    ],
+    "answer": "C",
+    "solutionStandard": "\\(|x-5|\\le3\\) means \\(2\\le x\\le8\\), which includes \\(2,3,4,5,6,7,8\\) — 7 integers.",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "absolute-value-equations-009",
+    "type": "MC",
+    "primarySkill": "absolute-value-equations",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "If \\(|2x - 6| = |x|\\), what are all possible values of \\(x\\)?",
+    "options": [
+      { "id": "A", "text": "\\(2\\) and \\(6\\)" },
+      { "id": "B", "text": "\\(2\\) only" },
+      { "id": "C", "text": "\\(6\\) only" },
+      { "id": "D", "text": "\\(-2\\) and \\(6\\)" },
+      { "id": "E", "text": "\\(3\\) only" }
+    ],
+    "answer": "A",
+    "solutionStandard": "Case 1: \\(2x-6=x\\) gives \\(x=6\\). Case 2: \\(2x-6=-x\\) gives \\(3x=6\\), so \\(x=2\\). Check both: \\(x=6\\): \\(|12-6|=6=|6|\\), works. \\(x=2\\): \\(|4-6|=2=|2|\\), works.",
+    "timeTargetSec": 85
+  },
+  {
+    "id": "absolute-value-equations-010",
+    "type": "Numeric",
+    "primarySkill": "absolute-value-equations",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "What is the greatest integer \\(x\\) satisfying \\(|2x + 1| < 9\\)?",
+    "answer": 3,
+    "solutionStandard": "\\(|2x+1|<9\\) means \\(-9 < 2x+1 < 9\\), so \\(-10 < 2x < 8\\), giving \\(-5 < x < 4\\). The greatest integer in this range is 3.",
+    "timeTargetSec": 85
+  }
+]

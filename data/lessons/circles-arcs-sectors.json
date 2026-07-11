@@ -1,0 +1,10 @@
+{
+  "skillId": "circles-arcs-sectors",
+  "summary": "An arc or sector is just a fraction of the whole circle — the central angle over 360° tells you exactly which fraction.",
+  "formulas": [
+    { "name": "Arc length", "expression": "\\text{arc length} = \\frac{\\theta}{360^\\circ} \\times 2\\pi r" },
+    { "name": "Sector area", "expression": "\\text{sector area} = \\frac{\\theta}{360^\\circ} \\times \\pi r^2" },
+    { "name": "Inscribed angle theorem", "expression": "\\text{inscribed angle} = \\frac{1}{2} \\times \\text{central angle (same arc)}" }
+  ],
+  "explanation": "A central angle of \\(\\theta\\) degrees marks off a fraction \\(\\theta/360\\) of the entire circle. Arc length is that same fraction of the full circumference, and sector area is that same fraction of the full area. The inscribed angle theorem is a distinct but related idea: an inscribed angle (vertex on the circle) is always exactly half of the central angle that subtends the same arc — in particular, an inscribed angle subtending a diameter is always exactly 90°. When a problem gives you an inscribed angle, double it to get the central angle (or the arc measure) before applying the arc/sector fraction formulas."
+}

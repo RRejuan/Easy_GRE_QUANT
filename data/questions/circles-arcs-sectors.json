@@ -1,0 +1,160 @@
+[
+  {
+    "id": "circles-arcs-sectors-001",
+    "type": "MC",
+    "primarySkill": "circles-arcs-sectors",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "In the figure below, \\(O\\) is the center of the circle with radius 7, and the central angle shown is 60°. What is the length of the arc (in terms of \\(\\pi\\))?",
+    "figure": {
+      "viewBox": "0 0 200 160",
+      "elements": [
+        { "kind": "circle", "center": { "x": 100, "y": 90 }, "radius": 70 },
+        { "kind": "line", "from": { "x": 100, "y": 90 }, "to": { "x": 170, "y": 90 } },
+        { "kind": "line", "from": { "x": 100, "y": 90 }, "to": { "x": 135, "y": 29 } },
+        { "kind": "label", "at": { "x": 95, "y": 85 }, "text": "O" },
+        { "kind": "label", "at": { "x": 108, "y": 65 }, "text": "60°" }
+      ]
+    },
+    "options": [
+      { "id": "A", "text": "\\(\\frac{7\\pi}{3}\\)" },
+      { "id": "B", "text": "\\(\\frac{7\\pi}{6}\\)" },
+      { "id": "C", "text": "\\(7\\pi\\)" },
+      { "id": "D", "text": "\\(\\frac{14\\pi}{3}\\)" },
+      { "id": "E", "text": "\\(\\frac{49\\pi}{6}\\)" }
+    ],
+    "answer": "A",
+    "solutionStandard": "Arc length \\(= \\dfrac{60}{360} \\times 2\\pi(7) = \\dfrac{1}{6} \\times 14\\pi = \\dfrac{14\\pi}{6} = \\dfrac{7\\pi}{3}\\).",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "circles-arcs-sectors-002",
+    "type": "Numeric",
+    "primarySkill": "circles-arcs-sectors",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "A circle has radius 6. What is the area of a sector with a central angle of 90°, in terms of \\(\\pi\\)? (Enter just the coefficient of \\(\\pi\\).)",
+    "answer": 9,
+    "solutionStandard": "Sector area \\(= \\dfrac{90}{360} \\times \\pi(6)^2 = \\dfrac{1}{4} \\times 36\\pi = 9\\pi\\).",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "circles-arcs-sectors-003",
+    "type": "MC",
+    "primarySkill": "circles-arcs-sectors",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "An inscribed angle subtends an arc with a central angle of 80°. What is the measure of the inscribed angle?",
+    "options": [
+      { "id": "A", "text": "20°" },
+      { "id": "B", "text": "40°" },
+      { "id": "C", "text": "80°" },
+      { "id": "D", "text": "160°" },
+      { "id": "E", "text": "100°" }
+    ],
+    "answer": "B",
+    "solutionStandard": "An inscribed angle is always half the central angle subtending the same arc: \\(80/2=40\\) degrees.",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "circles-arcs-sectors-004",
+    "type": "QC",
+    "primarySkill": "circles-arcs-sectors",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "A triangle is inscribed in a circle such that one of its sides is a diameter.",
+    "quantityA": "The angle opposite the diameter",
+    "quantityB": "\\(90^\\circ\\)",
+    "answer": "C",
+    "solutionStandard": "An inscribed angle subtending a diameter (a 180° arc) is always half of that: \\(180/2=90\\) degrees. The quantities are equal.",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "circles-arcs-sectors-005",
+    "type": "Numeric",
+    "primarySkill": "circles-arcs-sectors",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "A sector of a circle with radius 9 has an area of \\(27\\pi\\). What is the central angle of the sector, in degrees?",
+    "answer": 120,
+    "solutionStandard": "\\(\\dfrac{\\theta}{360}\\times\\pi(9)^2 = 27\\pi\\), so \\(\\dfrac{\\theta}{360}\\times81=27\\), giving \\(\\theta/360=1/3\\), so \\(\\theta=120\\).",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "circles-arcs-sectors-006",
+    "type": "MC",
+    "primarySkill": "circles-arcs-sectors",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "A circle has circumference \\(24\\pi\\). What is the length of an arc with a central angle of 45°?",
+    "options": [
+      { "id": "A", "text": "\\(\\pi\\)" },
+      { "id": "B", "text": "\\(2\\pi\\)" },
+      { "id": "C", "text": "\\(3\\pi\\)" },
+      { "id": "D", "text": "\\(4\\pi\\)" },
+      { "id": "E", "text": "\\(6\\pi\\)" }
+    ],
+    "answer": "C",
+    "solutionStandard": "Arc length \\(=\\dfrac{45}{360}\\times24\\pi=\\dfrac{1}{8}\\times24\\pi=3\\pi\\).",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "circles-arcs-sectors-007",
+    "type": "MultiMC",
+    "primarySkill": "circles-arcs-sectors",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "A circle has radius 4. Which of the following are possible areas of a sector of this circle? Select all that apply.",
+    "options": [
+      { "id": "A", "text": "\\(2\\pi\\)" },
+      { "id": "B", "text": "\\(8\\pi\\)" },
+      { "id": "C", "text": "\\(16\\pi\\)" },
+      { "id": "D", "text": "\\(20\\pi\\)" }
+    ],
+    "answer": ["A", "B", "C"],
+    "solutionStandard": "The full circle's area is \\(\\pi(4)^2=16\\pi\\), so any sector area must be between 0 and \\(16\\pi\\), inclusive. \\(2\\pi\\), \\(8\\pi\\), and \\(16\\pi\\) (the whole circle) are all valid; \\(20\\pi\\) exceeds the full circle's area.",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "circles-arcs-sectors-008",
+    "type": "MC",
+    "primarySkill": "circles-arcs-sectors",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "Two radii of a circle with radius 10 form a central angle of 120°, creating a sector. What is the perimeter of the sector (the two radii plus the arc), in terms of \\(\\pi\\)?",
+    "options": [
+      { "id": "A", "text": "\\(20 + \\frac{10\\pi}{3}\\)" },
+      { "id": "B", "text": "\\(20 + \\frac{20\\pi}{3}\\)" },
+      { "id": "C", "text": "\\(10 + \\frac{20\\pi}{3}\\)" },
+      { "id": "D", "text": "\\(20\\pi\\)" },
+      { "id": "E", "text": "\\(20 + 10\\pi\\)" }
+    ],
+    "answer": "B",
+    "solutionStandard": "Arc length \\(=\\dfrac{120}{360}\\times2\\pi(10)=\\dfrac{1}{3}\\times20\\pi=\\dfrac{20\\pi}{3}\\). Perimeter \\(= 10+10+\\dfrac{20\\pi}{3}=20+\\dfrac{20\\pi}{3}\\).",
+    "timeTargetSec": 85
+  },
+  {
+    "id": "circles-arcs-sectors-009",
+    "type": "Numeric",
+    "primarySkill": "circles-arcs-sectors",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "A sector has a central angle of 72° and an arc length of \\(4\\pi\\). What is the radius of the circle?",
+    "answer": 10,
+    "solutionStandard": "\\(\\dfrac{72}{360}\\times2\\pi r=4\\pi\\), so \\(\\dfrac{1}{5}\\times2\\pi r=4\\pi\\), giving \\(2r/5=4\\), so \\(r=10\\).",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "circles-arcs-sectors-010",
+    "type": "QC",
+    "primarySkill": "circles-arcs-sectors",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "Sector A has central angle 40° and radius 6. Sector B has central angle 20° and radius 9.",
+    "quantityA": "The area of Sector A",
+    "quantityB": "The area of Sector B",
+    "answer": "B",
+    "solutionStandard": "Sector A: \\(\\dfrac{40}{360}\\times\\pi(36)=4\\pi\\). Sector B: \\(\\dfrac{20}{360}\\times\\pi(81)=4.5\\pi\\). Since \\(4.5\\pi>4\\pi\\), Quantity B is greater.",
+    "timeTargetSec": 80
+  }
+]

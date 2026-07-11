@@ -1,0 +1,8 @@
+{
+  "skillId": "linear-inequalities",
+  "summary": "Inequalities solve almost exactly like equations, with one critical rule: multiplying or dividing by a negative number flips the inequality sign.",
+  "formulas": [
+    { "name": "Sign flip rule", "expression": "\\text{if } c < 0 \\text{, then } a < b \\iff ac > bc" }
+  ],
+  "explanation": "Solve linear inequalities the same way as equations — add, subtract, multiply, or divide both sides — with one key exception: multiplying or dividing both sides by a negative number reverses the direction of the inequality. For example, \\(-2x < 6\\) becomes \\(x > -3\\) (the sign flips) when dividing by \\(-2\\). Solutions to an inequality are typically a range of values, not a single number, and are often represented on a number line or in interval notation. When a word problem asks for the greatest or least possible integer value satisfying an inequality, solve the inequality first, then round appropriately in the direction the inequality allows."
+}

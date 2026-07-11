@@ -1,0 +1,9 @@
+{
+  "skillId": "special-right-triangles",
+  "summary": "45-45-90 and 30-60-90 triangles have fixed side ratios, so knowing just one side gives you all three instantly.",
+  "formulas": [
+    { "name": "45-45-90 ratio", "expression": "\\text{leg} : \\text{leg} : \\text{hypotenuse} = x : x : x\\sqrt{2}" },
+    { "name": "30-60-90 ratio", "expression": "\\text{short leg} : \\text{long leg} : \\text{hypotenuse} = x : x\\sqrt{3} : 2x" }
+  ],
+  "explanation": "A 45-45-90 triangle is an isosceles right triangle: the two legs are equal, and the hypotenuse is always \\(\\sqrt{2}\\) times a leg. A 30-60-90 triangle has sides in the fixed ratio \\(x : x\\sqrt{3} : 2x\\), where \\(x\\) is the side opposite the 30° angle (the shortest side), \\(x\\sqrt3\\) is opposite the 60° angle, and \\(2x\\) (the hypotenuse) is opposite the 90° angle. These ratios let you find every side from just one given side, without needing the Pythagorean theorem at all. These triangles show up constantly in GRE geometry — half of a square (cut along a diagonal) is a 45-45-90 triangle, and half of an equilateral triangle (cut by an altitude) is a 30-60-90 triangle."
+}

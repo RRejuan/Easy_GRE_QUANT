@@ -1,0 +1,10 @@
+{
+  "skillId": "coordinate-geometry-lines",
+  "summary": "Slope measures steepness (rise over run), and it's the key to writing and interpreting the equation of any line.",
+  "formulas": [
+    { "name": "Slope", "expression": "m = \\frac{y_2-y_1}{x_2-x_1}" },
+    { "name": "Slope-intercept form", "expression": "y = mx + b" },
+    { "name": "Parallel and perpendicular slopes", "expression": "\\text{parallel: same } m; \\quad \\text{perpendicular: } m_1 \\times m_2 = -1" }
+  ],
+  "explanation": "Slope is \"rise over run\": the change in \\(y\\) divided by the change in \\(x\\) between any two points on the line. In slope-intercept form \\(y=mx+b\\), \\(m\\) is the slope and \\(b\\) is the \\(y\\)-intercept (where the line crosses the \\(y\\)-axis, i.e. where \\(x=0\\)). Parallel lines have equal slopes; perpendicular lines have slopes that are negative reciprocals of each other (their product is \\(-1\\)). A horizontal line has slope 0; a vertical line has undefined slope (division by zero in the rise/run formula). To find where two lines intersect, set their equations equal and solve, or use substitution/elimination as with any system of equations."
+}
