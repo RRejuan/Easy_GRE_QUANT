@@ -66,3 +66,36 @@ fieldset label {
 .lesson-formulas {
   padding-left: 20px;
 }
+
+.calculator {
+  width: 220px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 8px;
+  margin: 12px 0;
+}
+
+.calculator-display {
+  text-align: right;
+  font-family: monospace;
+  font-size: 1.2rem;
+  padding: 8px;
+  margin-bottom: 8px;
+  background: rgba(127, 127, 127, 0.08);
+  border-radius: 4px;
+  min-height: 1.5em;
+}
+
+.calculator-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4px;
+}
+
+.calculator-grid button {
+  padding: 8px 0;
+}
+
+.calculator-equals {
+  grid-column: span 2;
+}
