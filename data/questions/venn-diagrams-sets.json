@@ -140,5 +140,172 @@
     "answer": "C",
     "solutionStandard": "Both \\(= 55+50-90=15\\). Hiking only \\(=50-15=35\\). The quantities are equal.",
     "timeTargetSec": 80
+  },
+  {
+    "id": "venn-diagrams-sets-011",
+    "type": "Numeric",
+    "primarySkill": "venn-diagrams-sets",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "variables": [
+      { "name": "aOnly", "min": 5, "max": 20, "step": 1 },
+      { "name": "bOnly", "min": 3, "max": 15, "step": 1 },
+      { "name": "both", "min": 2, "max": 10, "step": 1 },
+      { "name": "neither", "min": 0, "max": 10, "step": 1 }
+    ],
+    "stem": "In a class of {{aOnly+bOnly+both+neither}} students, {{aOnly+both}} take Spanish and {{bOnly+both}} take French, with {{both}} taking both. How many students take at least one of the two languages?",
+    "answer": 23,
+    "answerFormula": "aOnly+bOnly+both",
+    "solutionStandard": "\\(|S \\cup F| = ({{aOnly+both}}) + ({{bOnly+both}}) - {{both}} = {{aOnly+bOnly+both}}\\).",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "venn-diagrams-sets-012",
+    "type": "MC",
+    "primarySkill": "venn-diagrams-sets",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "In a survey of 60 people, 35 like coffee and 30 like tea, with 15 liking both. How many people like neither coffee nor tea?",
+    "options": [
+      { "id": "A", "text": "5" },
+      { "id": "B", "text": "8" },
+      { "id": "C", "text": "10" },
+      { "id": "D", "text": "15" },
+      { "id": "E", "text": "20" }
+    ],
+    "answer": "C",
+    "solutionStandard": "\\(|C \\cup T| = 35+30-15=50\\). Neither: \\(60-50=10\\).",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "venn-diagrams-sets-013",
+    "type": "Numeric",
+    "primarySkill": "venn-diagrams-sets",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "variables": [
+      { "name": "aOnly", "min": 8, "max": 20, "step": 1 },
+      { "name": "bOnly", "min": 5, "max": 15, "step": 1 },
+      { "name": "both", "min": 2, "max": 10, "step": 1 }
+    ],
+    "stem": "Of {{aOnly+bOnly+both}} students, {{aOnly+both}} play soccer and {{bOnly+both}} play basketball, with {{both}} playing both. How many students play soccer only (not basketball)?",
+    "answer": 14,
+    "answerFormula": "aOnly",
+    "solutionStandard": "Soccer only \\(= ({{aOnly+both}}) - {{both}} = {{aOnly}}\\).",
+    "timeTargetSec": 50
+  },
+  {
+    "id": "venn-diagrams-sets-014",
+    "type": "QC",
+    "primarySkill": "venn-diagrams-sets",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "variables": [
+      { "name": "aOnly", "min": 15, "max": 35, "step": 1 },
+      { "name": "bOnly", "min": 10, "max": 30, "step": 1 },
+      { "name": "both", "min": 5, "max": 20, "step": 1 }
+    ],
+    "stem": "In a group of {{aOnly+bOnly+both}} people, {{aOnly+both}} speak English and {{bOnly+both}} speak Spanish. Every person speaks at least one of the two languages.",
+    "quantityA": "The number of people who speak both languages",
+    "quantityB": "{{both}}",
+    "answer": "C",
+    "solutionStandard": "\\(|E \\cup S| = {{aOnly+bOnly+both}} = ({{aOnly+both}})+({{bOnly+both}})-\\text{both}\\), so both \\(={{both}}\\). The quantities are equal.",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "venn-diagrams-sets-015",
+    "type": "MC",
+    "primarySkill": "venn-diagrams-sets",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "In a class, 20 students study biology, 16 study chemistry, and 8 study both. If every student studies at least one of the two subjects, how many students are in the class?",
+    "options": [
+      { "id": "A", "text": "20" },
+      { "id": "B", "text": "24" },
+      { "id": "C", "text": "28" },
+      { "id": "D", "text": "36" },
+      { "id": "E", "text": "44" }
+    ],
+    "answer": "C",
+    "solutionStandard": "\\(|B \\cup C| = 20+16-8=28\\).",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "venn-diagrams-sets-016",
+    "type": "Numeric",
+    "primarySkill": "venn-diagrams-sets",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "variables": [
+      { "name": "aOnly", "min": 20, "max": 40, "step": 1 },
+      { "name": "bOnly", "min": 15, "max": 35, "step": 1 },
+      { "name": "both", "min": 10, "max": 25, "step": 1 },
+      { "name": "neither", "min": 5, "max": 20, "step": 1 }
+    ],
+    "stem": "Of {{aOnly+bOnly+both+neither}} people surveyed, {{aOnly+both}} own a car, {{bOnly+both}} own a bike, and {{both}} own both. How many people own neither?",
+    "answer": 15,
+    "answerFormula": "neither",
+    "solutionStandard": "\\(|C \\cup B| = ({{aOnly+both}})+({{bOnly+both}})-{{both}} = {{aOnly+bOnly+both}}\\). Neither: \\({{aOnly+bOnly+both+neither}}-{{aOnly+bOnly+both}}={{neither}}\\).",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "venn-diagrams-sets-017",
+    "type": "MultiMC",
+    "primarySkill": "venn-diagrams-sets",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "In a group of 60 students, 32 take art and 26 take music, with 10 taking both. Which of the following are true? Select all that apply.",
+    "options": [
+      { "id": "A", "text": "48 students take at least one of art or music" },
+      { "id": "B", "text": "12 students take neither" },
+      { "id": "C", "text": "22 students take art only" },
+      { "id": "D", "text": "16 students take music only" },
+      { "id": "E", "text": "32 students take art only" }
+    ],
+    "answer": ["A", "B", "C", "D"],
+    "solutionStandard": "\\(|A \\cup M| = 32+26-10=48\\), so (A) is true, and neither \\(=60-48=12\\), so (B) is true. Art only \\(=32-10=22\\), so (C) is true, not (E)'s 32 (that double-counts the 10 who take both). Music only \\(=26-10=16\\), so (D) is true.",
+    "timeTargetSec": 90
+  },
+  {
+    "id": "venn-diagrams-sets-018",
+    "type": "MC",
+    "primarySkill": "venn-diagrams-sets",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "In a survey of 100 people, 55 like burgers, 45 like tacos, and 25 like both. If 10 people like neither, how many like exactly one of the two dishes?",
+    "options": [
+      { "id": "A", "text": "45" },
+      { "id": "B", "text": "55" },
+      { "id": "C", "text": "60" },
+      { "id": "D", "text": "65" },
+      { "id": "E", "text": "70" }
+    ],
+    "answer": "D",
+    "solutionStandard": "At least one: \\(100-10=90\\). Of those, 25 like both, so exactly one \\(=90-25=65\\).",
+    "timeTargetSec": 90
+  },
+  {
+    "id": "venn-diagrams-sets-019",
+    "type": "Numeric",
+    "primarySkill": "venn-diagrams-sets",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "In a school, 75 students take at least one of reading, writing, or art. 38 take reading, 30 take writing, and 25 take art. 12 take both reading and writing, 8 take both writing and art, 10 take both reading and art, and 4 take all three. How many students take reading only?",
+    "answer": 20,
+    "solutionStandard": "Reading only \\(= |\\text{reading}| - (\\text{reading}\\cap\\text{writing}) - (\\text{reading}\\cap\\text{art}) + (\\text{all three}) = 38-12-10+4=20\\).",
+    "timeTargetSec": 100
+  },
+  {
+    "id": "venn-diagrams-sets-020",
+    "type": "QC",
+    "primarySkill": "venn-diagrams-sets",
+    "secondarySkills": [],
+    "difficulty": 5,
+    "stem": "In a group of 100 people, 60 like jazz and 45 like rock. The number of people who like both genres is not given.",
+    "quantityA": "The number of people who like exactly one of the two genres",
+    "quantityB": "\\(45\\)",
+    "answer": "D",
+    "solutionStandard": "If \\(x\\) people like both, then exactly one \\(=(60-x)+(45-x)=105-2x\\). Since \\(x\\) can range from 5 (the minimum consistent with a group of 100) up to 45 (it can't exceed either individual count), exactly one ranges from \\(105-90=15\\) up to \\(105-10=95\\) — sometimes less than 45, sometimes more, sometimes equal. The relationship cannot be determined.",
+    "timeTargetSec": 100
   }
 ]

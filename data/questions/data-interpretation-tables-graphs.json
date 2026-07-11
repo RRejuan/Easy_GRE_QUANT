@@ -139,5 +139,173 @@
     "answer": "C",
     "solutionStandard": "Education + Health \\(= (30+20)\\% = 50\\%\\) of $10 million \\(= \\$5{,}000{,}000\\). The quantities are equal.",
     "timeTargetSec": 70
+  },
+  {
+    "id": "data-interpretation-tables-graphs-011",
+    "type": "Numeric",
+    "primarySkill": "data-interpretation-tables-graphs",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "variables": [
+      { "name": "jan", "min": 1, "max": 9, "step": 1 },
+      { "name": "feb", "min": 1, "max": 9, "step": 1 },
+      { "name": "mar", "min": 1, "max": 9, "step": 1 }
+    ],
+    "stem": "A bar graph shows monthly sales: January ${{jan}},000; February ${{feb}},000; March ${{mar}},000. What is the total sales for these three months, in dollars?",
+    "answer": 15000,
+    "answerFormula": "(jan+feb+mar)*1000",
+    "solutionStandard": "\\(({{jan}}+{{feb}}+{{mar}}) \\times 1000 = {{(jan+feb+mar)*1000}}\\).",
+    "timeTargetSec": 40
+  },
+  {
+    "id": "data-interpretation-tables-graphs-012",
+    "type": "MC",
+    "primarySkill": "data-interpretation-tables-graphs",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "A pie chart shows a company's 500 employees by department: 20% Sales, 35% Engineering, 25% Support, and the remainder Admin. How many employees are in Admin?",
+    "options": [
+      { "id": "A", "text": "50" },
+      { "id": "B", "text": "75" },
+      { "id": "C", "text": "100" },
+      { "id": "D", "text": "125" },
+      { "id": "E", "text": "150" }
+    ],
+    "answer": "C",
+    "solutionStandard": "Admin is \\(100-20-35-25=20\\%\\) of employees: \\(0.20 \\times 500 = 100\\).",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "data-interpretation-tables-graphs-013",
+    "type": "Numeric",
+    "primarySkill": "data-interpretation-tables-graphs",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "variables": [
+      { "name": "v1", "min": 20, "max": 80, "step": 10 },
+      { "name": "pct", "min": 10, "max": 100, "step": 10 }
+    ],
+    "stem": "A table shows a company's profit by year: 2020: ${{v1}},000; 2022: ${{v1*(100+pct)/100}},000. What was the percent increase in profit from 2020 to 2022?",
+    "answer": 60,
+    "answerFormula": "pct",
+    "solutionStandard": "Percent increase \\(= \\dfrac{ {{v1*(100+pct)/100}} - {{v1}} }{ {{v1}} } \\times 100 = {{pct}}\\%\\).",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "data-interpretation-tables-graphs-014",
+    "type": "QC",
+    "primarySkill": "data-interpretation-tables-graphs",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "A bar graph shows rainfall (in inches): April 6, May 2, June 7, July 1.",
+    "quantityA": "The average monthly rainfall over these 4 months",
+    "quantityB": "\\(4\\)",
+    "answer": "C",
+    "solutionStandard": "Average \\(= (6+2+7+1)/4=16/4=4\\). The quantities are equal.",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "data-interpretation-tables-graphs-015",
+    "type": "MC",
+    "primarySkill": "data-interpretation-tables-graphs",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "A pie chart of a household budget shows: Rent 40%, Food 15%, Transportation 10%, Savings 15%, Other 20%. If the monthly budget is $5,000, how much more is spent on Rent than on Transportation?",
+    "options": [
+      { "id": "A", "text": "$1,000" },
+      { "id": "B", "text": "$1,200" },
+      { "id": "C", "text": "$1,500" },
+      { "id": "D", "text": "$1,800" },
+      { "id": "E", "text": "$2,000" }
+    ],
+    "answer": "C",
+    "solutionStandard": "Rent: \\(0.40\\times5000=2000\\). Transportation: \\(0.10\\times5000=500\\). Difference: \\(2000-500=1500\\).",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "data-interpretation-tables-graphs-016",
+    "type": "Numeric",
+    "primarySkill": "data-interpretation-tables-graphs",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "variables": [
+      { "name": "v1", "min": 200, "max": 500, "step": 20 },
+      { "name": "pctDec", "min": 5, "max": 40, "step": 5 }
+    ],
+    "stem": "A line graph shows a company's employee count: 2021: {{v1}}; 2022: {{v1*(100-pctDec)/100}}. What was the percent decrease from 2021 to 2022?",
+    "answer": 10,
+    "answerFormula": "pctDec",
+    "solutionStandard": "Percent decrease \\(=\\dfrac{ {{v1}} - {{v1*(100-pctDec)/100}} }{ {{v1}} }\\times100={{pctDec}}\\%\\).",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "data-interpretation-tables-graphs-017",
+    "type": "MultiMC",
+    "primarySkill": "data-interpretation-tables-graphs",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "A table shows quarterly revenue: Q1 $15,000; Q2 $35,000; Q3 $40,000; Q4 $30,000. Which of the following statements are true? Select all that apply.",
+    "options": [
+      { "id": "A", "text": "Q3 revenue is more than double Q1 revenue" },
+      { "id": "B", "text": "Total annual revenue exceeds $110,000" },
+      { "id": "C", "text": "Q1 revenue is the lowest of the year" },
+      { "id": "D", "text": "The average quarterly revenue is $32,500" }
+    ],
+    "answer": ["A", "B", "C"],
+    "solutionStandard": "(A) \\(40000 > 2\\times15000=30000\\), true. (B) Total \\(=15000+35000+40000+30000=120000>110000\\), true. (C) Q1 ($15,000) is indeed the lowest, true. (D) Average \\(=120000/4=30000\\), not $32,500, so false.",
+    "timeTargetSec": 90
+  },
+  {
+    "id": "data-interpretation-tables-graphs-018",
+    "type": "Numeric",
+    "primarySkill": "data-interpretation-tables-graphs",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "variables": [
+      { "name": "total", "min": 400, "max": 1000, "step": 100 },
+      { "name": "pctSummer", "min": 30, "max": 50, "step": 5 },
+      { "name": "pctWS", "min": 20, "max": 40, "step": 5 }
+    ],
+    "stem": "A pie chart shows a survey of {{total}} people's favorite season: Summer {{pctSummer}}%, Winter and Spring combined {{pctWS}}%, and Fall {{100-pctSummer-pctWS}}%. How many more people chose Summer than chose Winter and Spring combined?",
+    "answer": 60,
+    "answerFormula": "total*(pctSummer-pctWS)/100",
+    "solutionStandard": "Summer: \\({{pctSummer}}\\% \\times {{total}}\\). Winter+Spring: \\({{pctWS}}\\% \\times {{total}}\\). Difference: \\({{total*(pctSummer-pctWS)/100}}\\).",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "data-interpretation-tables-graphs-019",
+    "type": "MC",
+    "primarySkill": "data-interpretation-tables-graphs",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "A table shows a store's sales by category as a percent of $60,000 total sales: Electronics 30%, Clothing 25%, Groceries 25%, Other 20%. If Electronics sales increase by 50% (of their own value) next month while total sales stay the same, what percent of the new total do Electronics represent?",
+    "options": [
+      { "id": "A", "text": "30%" },
+      { "id": "B", "text": "35%" },
+      { "id": "C", "text": "40%" },
+      { "id": "D", "text": "45%" },
+      { "id": "E", "text": "50%" }
+    ],
+    "answer": "D",
+    "solutionStandard": "Electronics sales: \\(0.30\\times60000=18000\\). After a 50% increase: \\(18000\\times1.5=27000\\). As a percent of the same $60,000 total: \\(27000/60000=45\\%\\).",
+    "timeTargetSec": 90
+  },
+  {
+    "id": "data-interpretation-tables-graphs-020",
+    "type": "QC",
+    "primarySkill": "data-interpretation-tables-graphs",
+    "secondarySkills": [],
+    "difficulty": 5,
+    "variables": [
+      { "name": "total", "min": 4, "max": 20, "step": 2 },
+      { "name": "pctA", "min": 20, "max": 40, "step": 5 },
+      { "name": "pctB", "min": 15, "max": 35, "step": 5 }
+    ],
+    "stem": "A pie chart shows a company's ${{total}} million budget: R&D {{pctA}}%, Marketing {{pctB}}%, with the remaining {{100-pctA-pctB}}% split between Operations and Admin in an unspecified ratio.",
+    "quantityA": "The amount spent on Operations",
+    "quantityB": "The amount spent on Admin",
+    "answer": "D",
+    "solutionStandard": "The combined Operations-and-Admin share is fixed, but with no information on how it splits between the two, Operations could be larger, smaller, or equal to Admin. The relationship cannot be determined.",
+    "timeTargetSec": 90
   }
 ]
