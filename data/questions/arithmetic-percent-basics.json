@@ -1,0 +1,35 @@
+[
+  {
+    "id": "arithmetic-percent-basics-001",
+    "type": "MC",
+    "primarySkill": "arithmetic-percent-basics",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "A shirt originally priced at $40 is discounted by 25%. What is the sale price?",
+    "options": [
+      { "id": "A", "text": "$10" },
+      { "id": "B", "text": "$28" },
+      { "id": "C", "text": "$30" },
+      { "id": "D", "text": "$32" },
+      { "id": "E", "text": "$35" }
+    ],
+    "answer": "C",
+    "solutionStandard": "25% of $40 is 0.25 \\times 40 = 10. The sale price is 40 - 10 = 30.",
+    "solutionShortcut": "A 25% discount leaves 75% of the price: 0.75 \\times 40 = 30.",
+    "shortcutTags": ["estimate"],
+    "timeTargetSec": 45
+  },
+  {
+    "id": "arithmetic-percent-basics-002",
+    "type": "QC",
+    "primarySkill": "arithmetic-percent-basics",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "x is 20% of 50.",
+    "quantityA": "x",
+    "quantityB": "8",
+    "answer": "A",
+    "solutionStandard": "x = 0.20 \\times 50 = 10, and 10 > 8, so Quantity A is greater.",
+    "timeTargetSec": 60
+  }
+]

@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "gre-quant-app/question.schema.json",
+  "title": "Question",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "type",
+    "primarySkill",
+    "secondarySkills",
+    "difficulty",
+    "stem",
+    "solutionStandard",
+    "timeTargetSec",
+    "answer"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "type": { "enum": ["QC", "MC", "MultiMC", "Numeric"] },
+    "primarySkill": { "type": "string" },
+    "secondarySkills": {
+      "type": "array",
+      "items": { "type": "string" },
+      "uniqueItems": true
+    },
+    "difficulty": { "type": "integer", "minimum": 1, "maximum": 5 },
+    "stem": { "type": "string", "minLength": 1 },
+    "quantityA": { "type": "string" },
+    "quantityB": { "type": "string" },
+    "options": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "text"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "text": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "answer": {},
+    "acceptableRange": {
+      "type": "array",
+      "items": { "type": "number" },
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "solutionStandard": { "type": "string", "minLength": 1 },
+    "solutionShortcut": { "type": "string", "minLength": 1 },
+    "shortcutTags": {
+      "type": "array",
+      "items": { "enum": ["backsolve", "plug-in", "estimate", "eliminate"] }
+    },
+    "timeTargetSec": { "type": "integer", "minimum": 10 },
+    "diSetId": { "type": "string" }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "type": { "const": "QC" } } },
+      "then": {
+        "required": ["quantityA", "quantityB"],
+        "properties": { "answer": { "enum": ["A", "B", "C", "D"] } },
+        "not": { "required": ["options"] }
+      }
+    },
+    {
+      "if": { "properties": { "type": { "const": "MC" } } },
+      "then": {
+        "required": ["options"],
+        "properties": { "answer": { "type": "string" } }
+      }
+    },
+    {
+      "if": { "properties": { "type": { "const": "MultiMC" } } },
+      "then": {
+        "required": ["options"],
+        "properties": {
+          "answer": {
+            "type": "array",
+            "items": { "type": "string" },
+            "minItems": 1,
+            "uniqueItems": true
+          }
+        }
+      }
+    },
+    {
+      "if": { "properties": { "type": { "const": "Numeric" } } },
+      "then": {
+        "properties": { "answer": { "type": "number" } },
+        "not": { "required": ["options"] }
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "id": "arithmetic-percent-basics",
+    "area": "Arithmetic",
+    "topic": "Percents",
+    "name": "Percent Basics",
+    "prerequisites": [],
+    "description": "Converting between percents, fractions, and decimals; computing percent of a quantity; percent increase/decrease."
+  }
+]
