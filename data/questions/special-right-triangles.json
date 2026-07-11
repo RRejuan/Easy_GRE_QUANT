@@ -157,5 +157,166 @@
     "answer": 10,
     "solutionStandard": "Since length equals width, the diagonal splits the rectangle (a square in this case) into 45-45-90 triangles: diagonal \\(=10\\sqrt2\\), so \\(k=10\\).",
     "timeTargetSec": 70
+  },
+  {
+    "id": "special-right-triangles-011",
+    "type": "Numeric",
+    "primarySkill": "special-right-triangles",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "variables": [{ "name": "a", "min": 2, "max": 20, "step": 1 }],
+    "stem": "A 45-45-90 triangle has legs of length {{a}}. The hypotenuse can be written as \\(k\\sqrt{2}\\). What is the value of \\(k\\)?",
+    "answer": 9,
+    "answerFormula": "a",
+    "solutionStandard": "For a 45-45-90 triangle, hypotenuse \\(= \\text{leg} \\times \\sqrt2 = {{a}}\\sqrt2\\), so \\(k={{a}}\\).",
+    "timeTargetSec": 40
+  },
+  {
+    "id": "special-right-triangles-012",
+    "type": "MC",
+    "primarySkill": "special-right-triangles",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "In the figure, what is the length of the hypotenuse \\(x\\)?",
+    "figure": {
+      "viewBox": "0 0 200 150",
+      "elements": [
+        { "kind": "polygon", "points": [{ "x": 20, "y": 130 }, { "x": 140, "y": 130 }, { "x": 20, "y": 30 }] },
+        { "kind": "rightAngleMarker", "at": { "x": 20, "y": 130 } },
+        { "kind": "label", "at": { "x": 8, "y": 82 }, "text": "7" },
+        { "kind": "label", "at": { "x": 75, "y": 148 }, "text": "7" },
+        { "kind": "label", "at": { "x": 85, "y": 72 }, "text": "x" }
+      ]
+    },
+    "options": [
+      { "id": "A", "text": "7" },
+      { "id": "B", "text": "\\(7\\sqrt{2}\\)" },
+      { "id": "C", "text": "14" },
+      { "id": "D", "text": "\\(7\\sqrt{3}\\)" },
+      { "id": "E", "text": "10" }
+    ],
+    "answer": "B",
+    "solutionStandard": "Both legs equal 7, so this is a 45-45-90 triangle: hypotenuse \\(=7\\sqrt2\\).",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "special-right-triangles-013",
+    "type": "Numeric",
+    "primarySkill": "special-right-triangles",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "variables": [{ "name": "a", "min": 2, "max": 25, "step": 1 }],
+    "stem": "A 30-60-90 triangle has a short leg of length {{a}}. What is the length of the hypotenuse?",
+    "answer": 18,
+    "answerFormula": "2 * a",
+    "solutionStandard": "The hypotenuse is always twice the short leg: \\(2 \\times {{a}} = {{2*a}}\\).",
+    "timeTargetSec": 40
+  },
+  {
+    "id": "special-right-triangles-014",
+    "type": "MC",
+    "primarySkill": "special-right-triangles",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "A square has a side length of 9. What is the length of its diagonal?",
+    "options": [
+      { "id": "A", "text": "9" },
+      { "id": "B", "text": "\\(9\\sqrt{2}\\)" },
+      { "id": "C", "text": "\\(9\\sqrt{3}\\)" },
+      { "id": "D", "text": "18" },
+      { "id": "E", "text": "\\(18\\sqrt{2}\\)" }
+    ],
+    "answer": "B",
+    "solutionStandard": "A square's diagonal \\(= \\text{side} \\times \\sqrt2 = 9\\sqrt2\\).",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "special-right-triangles-015",
+    "type": "QC",
+    "primarySkill": "special-right-triangles",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "variables": [{ "name": "s", "min": 4, "max": 30, "step": 2 }],
+    "stem": "An equilateral triangle has side length {{s}}. An altitude is drawn from one vertex to the opposite side.",
+    "quantityA": "The length of the altitude",
+    "quantityB": "{{s*0.85}}",
+    "answer": "A",
+    "solutionStandard": "The altitude of an equilateral triangle with side \\(s\\) is \\(\\dfrac{s\\sqrt3}{2} \\approx 0.866s\\), which is always greater than \\(0.85s\\) (Quantity B), since \\(\\sqrt3/2>0.85\\).",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "special-right-triangles-016",
+    "type": "MC",
+    "primarySkill": "special-right-triangles",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "What is the area of an equilateral triangle with side length 6?",
+    "options": [
+      { "id": "A", "text": "9" },
+      { "id": "B", "text": "\\(9\\sqrt{3}\\)" },
+      { "id": "C", "text": "18" },
+      { "id": "D", "text": "\\(18\\sqrt{3}\\)" },
+      { "id": "E", "text": "36" }
+    ],
+    "answer": "B",
+    "solutionStandard": "Altitude \\(=\\dfrac{6\\sqrt3}{2}=3\\sqrt3\\). Area \\(=\\dfrac{1}{2}(6)(3\\sqrt3)=9\\sqrt3\\).",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "special-right-triangles-017",
+    "type": "Numeric",
+    "primarySkill": "special-right-triangles",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "variables": [{ "name": "a", "min": 2, "max": 25, "step": 1 }],
+    "stem": "A 45-45-90 triangle has a hypotenuse of length \\({{a}}\\sqrt{2}\\). What is the length of each leg?",
+    "answer": 13,
+    "answerFormula": "a",
+    "solutionStandard": "Leg \\(= \\text{hypotenuse}/\\sqrt2 = {{a}}\\sqrt2/\\sqrt2={{a}}\\).",
+    "timeTargetSec": 50
+  },
+  {
+    "id": "special-right-triangles-018",
+    "type": "MC",
+    "primarySkill": "special-right-triangles",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "A ladder 16 feet long leans against a wall, making a 30° angle with the ground. How high up the wall does the ladder reach?",
+    "options": [
+      { "id": "A", "text": "4" },
+      { "id": "B", "text": "8" },
+      { "id": "C", "text": "\\(8\\sqrt{2}\\)" },
+      { "id": "D", "text": "\\(8\\sqrt{3}\\)" },
+      { "id": "E", "text": "\\(16\\sqrt{3}\\)" }
+    ],
+    "answer": "B",
+    "solutionStandard": "The ladder is the hypotenuse of a 30-60-90 triangle. The height is opposite the 30° angle (at the ground), which is always the short leg: \\(16/2=8\\).",
+    "timeTargetSec": 90
+  },
+  {
+    "id": "special-right-triangles-019",
+    "type": "Numeric",
+    "primarySkill": "special-right-triangles",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "variables": [{ "name": "a", "min": 2, "max": 16, "step": 2 }],
+    "stem": "A 30-60-90 triangle has a hypotenuse of length {{2*a}}. The area of the triangle can be written as \\(k\\sqrt{3}\\). What is the value of \\(k\\)?",
+    "answer": 8,
+    "answerFormula": "(a * a) / 2",
+    "solutionStandard": "Short leg \\(={{a}}\\), long leg \\(={{a}}\\sqrt3\\). Area \\(=\\dfrac{1}{2}({{a}})({{a}}\\sqrt3) = \\dfrac{ {{a*a}} }{2}\\sqrt3\\), so \\(k={{(a*a)/2}}\\).",
+    "timeTargetSec": 95
+  },
+  {
+    "id": "special-right-triangles-020",
+    "type": "QC",
+    "primarySkill": "special-right-triangles",
+    "secondarySkills": [],
+    "difficulty": 5,
+    "stem": "A regular hexagon can be divided into 6 equilateral triangles, each with side length 4.",
+    "quantityA": "The area of the hexagon",
+    "quantityB": "\\(40\\)",
+    "answer": "A",
+    "solutionStandard": "Each equilateral triangle has area \\(\\dfrac{\\sqrt3}{4}(4^2)=4\\sqrt3\\approx6.93\\). The hexagon's area is \\(6\\times4\\sqrt3=24\\sqrt3\\approx41.6\\). Since \\(41.6>40\\), Quantity A is greater.",
+    "timeTargetSec": 100
   }
 ]
