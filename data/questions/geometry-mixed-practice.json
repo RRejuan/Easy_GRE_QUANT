@@ -1,0 +1,771 @@
+[
+  {
+    "id": "geometry-mixed-practice-001",
+    "type": "Numeric",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": ["lines-angles"],
+    "difficulty": 2,
+    "variables": [{ "name": "a", "min": 20, "max": 150, "step": 1 }],
+    "stem": "Two angles are supplementary. If one angle measures {{a}} degrees, what is the measure of the other angle, in degrees?",
+    "answer": 60,
+    "answerFormula": "180-a",
+    "solutionStandard": "Supplementary angles sum to 180°: \\(180-{{a}}={{180-a}}\\).",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "geometry-mixed-practice-002",
+    "type": "MC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": ["lines-angles"],
+    "difficulty": 2,
+    "stem": "Two parallel lines are cut by a transversal. One angle measures 65°. What is the measure of its corresponding angle?",
+    "options": [
+      { "id": "A", "text": "25°" },
+      { "id": "B", "text": "65°" },
+      { "id": "C", "text": "90°" },
+      { "id": "D", "text": "115°" },
+      { "id": "E", "text": "155°" }
+    ],
+    "answer": "B",
+    "solutionStandard": "Corresponding angles formed by a transversal across parallel lines are always equal: 65°.",
+    "timeTargetSec": 40
+  },
+  {
+    "id": "geometry-mixed-practice-003",
+    "type": "Numeric",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": ["triangles-basic"],
+    "difficulty": 3,
+    "variables": [
+      { "name": "a", "min": 20, "max": 70, "step": 1 },
+      { "name": "b", "min": 20, "max": 70, "step": 1 }
+    ],
+    "stem": "In a triangle, two angles measure {{a}}° and {{b}}°. What is the measure of the third angle, in degrees?",
+    "answer": 70,
+    "answerFormula": "180-a-b",
+    "solutionStandard": "The angles of a triangle sum to 180°: \\(180-{{a}}-{{b}}={{180-a-b}}\\).",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "geometry-mixed-practice-004",
+    "type": "QC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": ["triangle-inequality"],
+    "difficulty": 3,
+    "stem": "A triangle has two sides of length 5 and 9.",
+    "quantityA": "The length of the third side",
+    "quantityB": "4",
+    "answer": "A",
+    "solutionStandard": "By the triangle inequality, the third side must be strictly greater than \\(9-5=4\\) (and strictly less than \\(9+5=14\\)). Quantity A is always greater.",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "geometry-mixed-practice-005",
+    "type": "MC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": ["triangles-basic"],
+    "difficulty": 3,
+    "stem": "In a triangle, one exterior angle measures 130°. If one of the two remote interior angles is 55°, what is the other remote interior angle?",
+    "options": [
+      { "id": "A", "text": "50°" },
+      { "id": "B", "text": "65°" },
+      { "id": "C", "text": "75°" },
+      { "id": "D", "text": "85°" },
+      { "id": "E", "text": "95°" }
+    ],
+    "answer": "C",
+    "solutionStandard": "The exterior angle equals the sum of the two remote interior angles: \\(130=55+x\\), so \\(x=75°\\).",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "geometry-mixed-practice-006",
+    "type": "Numeric",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": ["triangle-inequality"],
+    "difficulty": 4,
+    "variables": [
+      { "name": "s1", "min": 3, "max": 15, "step": 1 },
+      { "name": "s2", "min": 3, "max": 15, "step": 1 }
+    ],
+    "stem": "A triangle has two sides of length {{s1}} and {{s2}}. If the third side has an integer length, what is the greatest possible integer value for the third side?",
+    "answer": 14,
+    "answerFormula": "s1+s2-1",
+    "solutionStandard": "The third side must be strictly less than \\({{s1}}+{{s2}}={{s1+s2}}\\), so the greatest possible integer value is \\({{s1+s2-1}}\\).",
+    "timeTargetSec": 80
+  },
+  {
+    "id": "geometry-mixed-practice-007",
+    "type": "MC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": ["triangles-basic"],
+    "difficulty": 4,
+    "stem": "In an isosceles triangle, the vertex angle measures 40°. What is the measure of each base angle?",
+    "options": [
+      { "id": "A", "text": "40°" },
+      { "id": "B", "text": "60°" },
+      { "id": "C", "text": "70°" },
+      { "id": "D", "text": "80°" },
+      { "id": "E", "text": "140°" }
+    ],
+    "answer": "C",
+    "solutionStandard": "The two base angles are equal: \\((180-40)/2=70°\\) each.",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "geometry-mixed-practice-008",
+    "type": "QC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": ["lines-angles"],
+    "difficulty": 5,
+    "stem": "Line \\(m\\) is parallel to line \\(n\\). A transversal crosses both, creating angle \\(x\\) on line \\(m\\) and angle \\(y\\) on line \\(n\\), where \\(x\\) and \\(y\\) are alternate interior angles.",
+    "quantityA": "\\(x\\)",
+    "quantityB": "\\(y\\)",
+    "answer": "C",
+    "solutionStandard": "Alternate interior angles formed by a transversal across parallel lines are always equal. The quantities are equal.",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "geometry-mixed-practice-009",
+    "type": "MC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": ["lines-angles"],
+    "difficulty": 2,
+    "stem": "Two angles are complementary. If one measures 37°, what is the other?",
+    "options": [
+      { "id": "A", "text": "43°" },
+      { "id": "B", "text": "53°" },
+      { "id": "C", "text": "63°" },
+      { "id": "D", "text": "143°" },
+      { "id": "E", "text": "153°" }
+    ],
+    "answer": "B",
+    "solutionStandard": "Complementary angles sum to 90°: \\(90-37=53°\\).",
+    "timeTargetSec": 40
+  },
+  {
+    "id": "geometry-mixed-practice-010",
+    "type": "Numeric",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": ["triangles-basic"],
+    "difficulty": 3,
+    "stem": "What is the sum of the exterior angles (one at each vertex) of any triangle, in degrees?",
+    "answer": 360,
+    "solutionStandard": "The exterior angles of any convex polygon, including a triangle, always sum to 360°.",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "geometry-mixed-practice-011",
+    "type": "Numeric",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": ["right-triangles-pythagorean"],
+    "difficulty": 2,
+    "variables": [{ "name": "k", "min": 2, "max": 15, "step": 1 }],
+    "stem": "A right triangle has legs of length {{3*k}} and {{4*k}}. What is the length of the hypotenuse?",
+    "answer": 25,
+    "answerFormula": "5*k",
+    "solutionStandard": "This is a 3-4-5 triple scaled by {{k}}: hypotenuse \\(={{5*k}}\\).",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "geometry-mixed-practice-012",
+    "type": "MC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": ["right-triangles-pythagorean"],
+    "difficulty": 3,
+    "stem": "A ladder 13 feet long leans against a wall, with its base 5 feet from the wall. How high up the wall does the ladder reach, in feet?",
+    "options": [
+      { "id": "A", "text": "8" },
+      { "id": "B", "text": "10" },
+      { "id": "C", "text": "12" },
+      { "id": "D", "text": "12.5" },
+      { "id": "E", "text": "18" }
+    ],
+    "answer": "C",
+    "solutionStandard": "This is a 5-12-13 right triangle: \\(\\sqrt{13^2-5^2}=\\sqrt{169-25}=\\sqrt{144}=12\\) feet.",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "geometry-mixed-practice-013",
+    "type": "Numeric",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": ["right-triangles-pythagorean"],
+    "difficulty": 3,
+    "variables": [{ "name": "k", "min": 2, "max": 10, "step": 1 }],
+    "stem": "A right triangle has a leg of length {{8*k}} and hypotenuse {{17*k}}. What is the length of the other leg?",
+    "answer": 15,
+    "answerFormula": "15*k",
+    "solutionStandard": "This is an 8-15-17 triple scaled by {{k}}: other leg \\(={{15*k}}\\).",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "geometry-mixed-practice-014",
+    "type": "QC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": ["right-triangles-pythagorean", "triangles-basic"],
+    "difficulty": 4,
+    "stem": "Triangle ABC has sides 6, 8, and 11.",
+    "quantityA": "The measure of the angle opposite the side of length 11",
+    "quantityB": "\\(90°\\)",
+    "answer": "A",
+    "solutionStandard": "Since \\(6^2+8^2=100 < 11^2=121\\), the triangle is obtuse at the angle opposite the longest side, so that angle exceeds 90°. Quantity A is greater.",
+    "timeTargetSec": 90
+  },
+  {
+    "id": "geometry-mixed-practice-015",
+    "type": "MC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": ["special-right-triangles"],
+    "difficulty": 4,
+    "stem": "In a 30-60-90 triangle, the side opposite the 30° angle measures 7. What is the length of the side opposite the 60° angle?",
+    "options": [
+      { "id": "A", "text": "7" },
+      { "id": "B", "text": "\\(7\\sqrt{2}\\)" },
+      { "id": "C", "text": "\\(7\\sqrt{3}\\)" },
+      { "id": "D", "text": "14" },
+      { "id": "E", "text": "\\(14\\sqrt{3}\\)" }
+    ],
+    "answer": "C",
+    "solutionStandard": "In a 30-60-90 triangle, the sides are in ratio \\(1:\\sqrt{3}:2\\) (opposite the 30°, 60°, and 90° angles). The side opposite 60° is \\(7\\sqrt{3}\\).",
+    "timeTargetSec": 80
+  },
+  {
+    "id": "geometry-mixed-practice-016",
+    "type": "Numeric",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": ["special-right-triangles"],
+    "difficulty": 4,
+    "variables": [{ "name": "k", "min": 2, "max": 15, "step": 1 }],
+    "stem": "In a 45-45-90 triangle, each leg measures {{k}}. What is the square of the hypotenuse's length?",
+    "answer": 8,
+    "answerFormula": "2*k*k",
+    "solutionStandard": "The hypotenuse is \\(k\\sqrt{2}\\), so its square is \\(2k^2 = {{2*k*k}}\\).",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "geometry-mixed-practice-017",
+    "type": "MC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": ["right-triangles-pythagorean"],
+    "difficulty": 4,
+    "stem": "A right triangle has legs of length 7 and 24. What is its area?",
+    "options": [
+      { "id": "A", "text": "31" },
+      { "id": "B", "text": "84" },
+      { "id": "C", "text": "168" },
+      { "id": "D", "text": "175" },
+      { "id": "E", "text": "300" }
+    ],
+    "answer": "B",
+    "solutionStandard": "Area \\(=\\dfrac{1}{2}(7)(24)=84\\).",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "geometry-mixed-practice-018",
+    "type": "Numeric",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": ["right-triangles-pythagorean"],
+    "difficulty": 5,
+    "variables": [{ "name": "k", "min": 2, "max": 12, "step": 1 }],
+    "stem": "A right triangle has legs {{3*k}} and {{4*k}}. What is its area?",
+    "answer": 24,
+    "answerFormula": "6*k*k",
+    "solutionStandard": "Area \\(=\\dfrac{1}{2}({{3*k}})({{4*k}}) = 6k^2 = {{6*k*k}}\\).",
+    "timeTargetSec": 90
+  },
+  {
+    "id": "geometry-mixed-practice-019",
+    "type": "QC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": ["right-triangles-pythagorean"],
+    "difficulty": 4,
+    "stem": "A right triangle has legs 9 and 12.",
+    "quantityA": "The hypotenuse",
+    "quantityB": "14",
+    "answer": "A",
+    "solutionStandard": "This is a 3-4-5 triple scaled by 3: \\(\\sqrt{9^2+12^2}=\\sqrt{81+144}=\\sqrt{225}=15\\), which is greater than 14.",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "geometry-mixed-practice-020",
+    "type": "MC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": ["right-triangles-pythagorean"],
+    "difficulty": 3,
+    "stem": "A rectangular field is 30 meters long and 40 meters wide. What is the length of its diagonal, in meters?",
+    "options": [
+      { "id": "A", "text": "35" },
+      { "id": "B", "text": "45" },
+      { "id": "C", "text": "50" },
+      { "id": "D", "text": "60" },
+      { "id": "E", "text": "70" }
+    ],
+    "answer": "C",
+    "solutionStandard": "This is a 3-4-5 triple scaled by 10: diagonal \\(=\\sqrt{30^2+40^2}=\\sqrt{900+1600}=\\sqrt{2500}=50\\).",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "geometry-mixed-practice-021",
+    "type": "Numeric",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": ["similar-triangles"],
+    "difficulty": 3,
+    "variables": [
+      { "name": "scale", "min": 2, "max": 6, "step": 1 },
+      { "name": "side", "min": 3, "max": 15, "step": 1 }
+    ],
+    "stem": "Triangle ABC is similar to triangle DEF with a scale factor of {{scale}}. If side AB = {{side}}, what is the length of the corresponding side DE?",
+    "answer": 24,
+    "answerFormula": "side*scale",
+    "solutionStandard": "DE \\(= {{side}} \\times {{scale}} = {{side*scale}}\\).",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "geometry-mixed-practice-022",
+    "type": "MC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": ["similar-triangles"],
+    "difficulty": 3,
+    "stem": "Triangle ABC \\(\\sim\\) Triangle DEF. AB = 6, DE = 9, BC = 8. What is EF?",
+    "options": [
+      { "id": "A", "text": "9" },
+      { "id": "B", "text": "10" },
+      { "id": "C", "text": "12" },
+      { "id": "D", "text": "14" },
+      { "id": "E", "text": "16" }
+    ],
+    "answer": "C",
+    "solutionStandard": "Scale factor: \\(9/6=1.5\\). \\(EF = 8 \\times 1.5 = 12\\).",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "geometry-mixed-practice-023",
+    "type": "Numeric",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": ["similar-triangles"],
+    "difficulty": 4,
+    "variables": [
+      { "name": "scale", "min": 2, "max": 5, "step": 1 },
+      { "name": "smallArea", "min": 2, "max": 20, "step": 1 }
+    ],
+    "stem": "Two similar triangles have a scale factor of {{scale}}:1 (larger to smaller). If the area of the smaller triangle is {{smallArea}}, what is the area of the larger triangle?",
+    "answer": 32,
+    "answerFormula": "smallArea*scale*scale",
+    "solutionStandard": "Areas of similar figures scale with the square of the linear scale factor: \\({{smallArea}} \\times {{scale}}^2 = {{smallArea*scale*scale}}\\).",
+    "timeTargetSec": 90
+  },
+  {
+    "id": "geometry-mixed-practice-024",
+    "type": "QC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": ["quadrilaterals"],
+    "difficulty": 3,
+    "stem": "ABCD is a (simple) quadrilateral.",
+    "quantityA": "The sum of the interior angles of ABCD",
+    "quantityB": "360°",
+    "answer": "C",
+    "solutionStandard": "The interior angles of any simple quadrilateral always sum to 360°. The quantities are equal.",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "geometry-mixed-practice-025",
+    "type": "Numeric",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": ["quadrilaterals"],
+    "difficulty": 2,
+    "variables": [
+      { "name": "l", "min": 5, "max": 30, "step": 1 },
+      { "name": "w", "min": 3, "max": 20, "step": 1 }
+    ],
+    "stem": "A rectangle has length {{l}} and width {{w}}. What is its perimeter?",
+    "answer": 40,
+    "answerFormula": "2*(l+w)",
+    "solutionStandard": "Perimeter \\(= 2({{l}}+{{w}}) = {{2*(l+w)}}\\).",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "geometry-mixed-practice-026",
+    "type": "MC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": ["quadrilaterals"],
+    "difficulty": 4,
+    "stem": "A parallelogram has a base of 12 and a height of 7. What is its area?",
+    "options": [
+      { "id": "A", "text": "19" },
+      { "id": "B", "text": "38" },
+      { "id": "C", "text": "42" },
+      { "id": "D", "text": "84" },
+      { "id": "E", "text": "168" }
+    ],
+    "answer": "D",
+    "solutionStandard": "Area \\(=\\) base \\(\\times\\) height \\(=12 \\times 7=84\\).",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "geometry-mixed-practice-027",
+    "type": "Numeric",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": ["polygons-general"],
+    "difficulty": 4,
+    "variables": [{ "name": "n", "min": 5, "max": 12, "step": 1 }],
+    "stem": "What is the sum of the interior angles of a convex polygon with {{n}} sides, in degrees?",
+    "answer": 540,
+    "answerFormula": "(n-2)*180",
+    "solutionStandard": "Sum of interior angles \\(= ({{n}}-2) \\times 180 = {{(n-2)*180}}°\\).",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "geometry-mixed-practice-028",
+    "type": "QC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": ["polygons-general"],
+    "difficulty": 5,
+    "stem": "Polygon A is a regular polygon with 6 sides. Polygon B is a regular polygon with 10 sides.",
+    "quantityA": "The measure of one interior angle of Polygon A",
+    "quantityB": "The measure of one interior angle of Polygon B",
+    "answer": "B",
+    "solutionStandard": "Interior angle \\(=\\dfrac{(n-2)\\times180}{n}\\), which increases as \\(n\\) increases. Polygon A: \\(120°\\). Polygon B: \\(144°\\). Quantity B is greater.",
+    "timeTargetSec": 90
+  },
+  {
+    "id": "geometry-mixed-practice-029",
+    "type": "MC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": ["quadrilaterals"],
+    "difficulty": 3,
+    "stem": "A trapezoid has parallel sides of length 8 and 14, and a height of 5. What is its area?",
+    "options": [
+      { "id": "A", "text": "35" },
+      { "id": "B", "text": "44" },
+      { "id": "C", "text": "55" },
+      { "id": "D", "text": "70" },
+      { "id": "E", "text": "110" }
+    ],
+    "answer": "C",
+    "solutionStandard": "Area \\(=\\dfrac{8+14}{2}\\times5=11\\times5=55\\).",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "geometry-mixed-practice-030",
+    "type": "Numeric",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": ["quadrilaterals"],
+    "difficulty": 4,
+    "variables": [
+      { "name": "d1", "min": 4, "max": 20, "step": 2 },
+      { "name": "d2", "min": 4, "max": 20, "step": 2 }
+    ],
+    "stem": "A rhombus has diagonals of length {{d1}} and {{d2}}. What is its area?",
+    "answer": 48,
+    "answerFormula": "d1*d2/2",
+    "solutionStandard": "Area of a rhombus \\(=\\dfrac{d_1 d_2}{2} = \\dfrac{ {{d1}} \\times {{d2}} }{2} = {{d1*d2/2}}\\).",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "geometry-mixed-practice-031",
+    "type": "Numeric",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": ["circles-basic"],
+    "difficulty": 2,
+    "variables": [{ "name": "r", "min": 2, "max": 20, "step": 1 }],
+    "stem": "A circle has a radius of {{r}}. What is its circumference, in terms of \\(\\pi\\)? (Enter just the coefficient of \\(\\pi\\).)",
+    "answer": 20,
+    "answerFormula": "2*r",
+    "solutionStandard": "Circumference \\(=2\\pi r = {{2*r}}\\pi\\).",
+    "timeTargetSec": 50
+  },
+  {
+    "id": "geometry-mixed-practice-032",
+    "type": "MC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": ["circles-basic"],
+    "difficulty": 3,
+    "stem": "A circle has a diameter of 10. What is its area, in terms of \\(\\pi\\)?",
+    "options": [
+      { "id": "A", "text": "\\(5\\pi\\)" },
+      { "id": "B", "text": "\\(10\\pi\\)" },
+      { "id": "C", "text": "\\(25\\pi\\)" },
+      { "id": "D", "text": "\\(50\\pi\\)" },
+      { "id": "E", "text": "\\(100\\pi\\)" }
+    ],
+    "answer": "C",
+    "solutionStandard": "Radius \\(=5\\). Area \\(=\\pi r^2 = 25\\pi\\).",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "geometry-mixed-practice-033",
+    "type": "Numeric",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": ["circles-arcs-sectors"],
+    "difficulty": 4,
+    "variables": [
+      { "name": "angleDeg", "min": 30, "max": 270, "step": 30 },
+      { "name": "r", "min": 6, "max": 24, "step": 6 }
+    ],
+    "stem": "A circle has radius {{r}}. What is the length of an arc with a central angle of {{angleDeg}}°, in terms of \\(\\pi\\)? (Enter just the coefficient of \\(\\pi\\).)",
+    "answer": 6,
+    "answerFormula": "angleDeg*r/180",
+    "solutionStandard": "Arc length \\(= \\dfrac{ {{angleDeg}} }{360} \\times 2\\pi({{r}}) = {{angleDeg*r/180}}\\pi\\).",
+    "timeTargetSec": 90
+  },
+  {
+    "id": "geometry-mixed-practice-034",
+    "type": "QC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": ["circles-basic"],
+    "difficulty": 4,
+    "stem": "In a circle, an inscribed angle and a central angle both intercept the same arc.",
+    "quantityA": "The measure of the central angle",
+    "quantityB": "The measure of the inscribed angle",
+    "answer": "A",
+    "solutionStandard": "By the inscribed angle theorem, the central angle is always exactly twice the inscribed angle intercepting the same arc. Quantity A is always greater (for a nonzero arc).",
+    "timeTargetSec": 85
+  },
+  {
+    "id": "geometry-mixed-practice-035",
+    "type": "Numeric",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": ["circles-arcs-sectors"],
+    "difficulty": 4,
+    "variables": [
+      { "name": "angleDeg", "min": 30, "max": 270, "step": 30 },
+      { "name": "r", "min": 6, "max": 24, "step": 6 }
+    ],
+    "stem": "A circle has radius {{r}}. What is the area of a sector with a central angle of {{angleDeg}}°, in terms of \\(\\pi\\)? (Enter just the coefficient of \\(\\pi\\).)",
+    "answer": 36,
+    "answerFormula": "(angleDeg/360)*r*r",
+    "solutionStandard": "Sector area \\(= \\dfrac{ {{angleDeg}} }{360} \\times \\pi({{r}})^2 = {{(angleDeg/360)*r*r}}\\pi\\).",
+    "timeTargetSec": 95
+  },
+  {
+    "id": "geometry-mixed-practice-036",
+    "type": "MC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": ["circles-basic"],
+    "difficulty": 3,
+    "stem": "A circle has an area of \\(49\\pi\\). What is its radius?",
+    "options": [
+      { "id": "A", "text": "6" },
+      { "id": "B", "text": "7" },
+      { "id": "C", "text": "14" },
+      { "id": "D", "text": "24.5" },
+      { "id": "E", "text": "49" }
+    ],
+    "answer": "B",
+    "solutionStandard": "\\(\\pi r^2=49\\pi\\), so \\(r^2=49\\) and \\(r=7\\).",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "geometry-mixed-practice-037",
+    "type": "Numeric",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": ["circles-basic", "right-triangles-pythagorean"],
+    "difficulty": 5,
+    "variables": [{ "name": "k", "min": 2, "max": 10, "step": 1 }],
+    "stem": "A chord of a circle is {{8*k}} long, and its perpendicular distance from the center is {{3*k}}. What is the radius of the circle?",
+    "answer": 25,
+    "answerFormula": "5*k",
+    "solutionStandard": "The radius, half the chord, and the distance from center form a right triangle: half-chord \\(={{4*k}}\\), distance \\(={{3*k}}\\), so radius \\(=\\sqrt{({{4*k}})^2+({{3*k}})^2}={{5*k}}\\) (a 3-4-5 triple scaled by {{k}}).",
+    "timeTargetSec": 105
+  },
+  {
+    "id": "geometry-mixed-practice-038",
+    "type": "QC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": ["circles-arcs-sectors"],
+    "difficulty": 5,
+    "stem": "A circle has two chords of different lengths, each subtending a minor arc no larger than a semicircle.",
+    "quantityA": "The length of the arc corresponding to the longer chord",
+    "quantityB": "The length of the arc corresponding to the shorter chord",
+    "answer": "A",
+    "solutionStandard": "For chords up to a semicircle, chord length increases monotonically with the central angle (and thus with arc length). A longer chord always corresponds to a longer arc. Quantity A is greater.",
+    "timeTargetSec": 95
+  },
+  {
+    "id": "geometry-mixed-practice-039",
+    "type": "MC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": ["circles-basic"],
+    "difficulty": 3,
+    "stem": "A line is tangent to a circle at point P. If O is the center of the circle and T is any other point on the tangent line, what is the measure of angle OPT?",
+    "options": [
+      { "id": "A", "text": "45°" },
+      { "id": "B", "text": "60°" },
+      { "id": "C", "text": "90°" },
+      { "id": "D", "text": "120°" },
+      { "id": "E", "text": "Cannot be determined" }
+    ],
+    "answer": "C",
+    "solutionStandard": "A tangent line is always perpendicular to the radius at the point of tangency, so angle OPT is 90°.",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "geometry-mixed-practice-040",
+    "type": "Numeric",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": ["circles-basic", "right-triangles-pythagorean"],
+    "difficulty": 4,
+    "variables": [{ "name": "r", "min": 3, "max": 20, "step": 1 }],
+    "stem": "A right triangle is inscribed in a circle such that its hypotenuse is a diameter of the circle. If the circle has radius {{r}}, what is the length of the hypotenuse of the triangle?",
+    "answer": 10,
+    "answerFormula": "2*r",
+    "solutionStandard": "By Thales' theorem, any triangle inscribed in a circle with one side as a diameter is a right triangle, and that side (the diameter) is \\(2 \\times {{r}} = {{2*r}}\\).",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "geometry-mixed-practice-041",
+    "type": "Numeric",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": ["three-d-solids"],
+    "difficulty": 3,
+    "variables": [
+      { "name": "l", "min": 2, "max": 15, "step": 1 },
+      { "name": "w", "min": 2, "max": 15, "step": 1 },
+      { "name": "h", "min": 2, "max": 15, "step": 1 }
+    ],
+    "stem": "A rectangular box has length {{l}}, width {{w}}, and height {{h}}. What is its volume?",
+    "answer": 60,
+    "answerFormula": "l*w*h",
+    "solutionStandard": "Volume \\(= {{l}} \\times {{w}} \\times {{h}} = {{l*w*h}}\\).",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "geometry-mixed-practice-042",
+    "type": "MC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": ["three-d-solids"],
+    "difficulty": 3,
+    "stem": "A cylinder has radius 4 and height 9. What is its volume, in terms of \\(\\pi\\)?",
+    "options": [
+      { "id": "A", "text": "\\(36\\pi\\)" },
+      { "id": "B", "text": "\\(72\\pi\\)" },
+      { "id": "C", "text": "\\(108\\pi\\)" },
+      { "id": "D", "text": "\\(144\\pi\\)" },
+      { "id": "E", "text": "\\(324\\pi\\)" }
+    ],
+    "answer": "D",
+    "solutionStandard": "Volume \\(=\\pi r^2 h = \\pi(4)^2(9) = 144\\pi\\).",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "geometry-mixed-practice-043",
+    "type": "Numeric",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": ["three-d-solids"],
+    "difficulty": 4,
+    "variables": [
+      { "name": "l", "min": 2, "max": 12, "step": 1 },
+      { "name": "w", "min": 2, "max": 12, "step": 1 },
+      { "name": "h", "min": 2, "max": 12, "step": 1 }
+    ],
+    "stem": "A rectangular box has length {{l}}, width {{w}}, and height {{h}}. What is its total surface area?",
+    "answer": 100,
+    "answerFormula": "2*(l*w+l*h+w*h)",
+    "solutionStandard": "Surface area \\(=2(lw+lh+wh)=2({{l*w}}+{{l*h}}+{{w*h}})={{2*(l*w+l*h+w*h)}}\\).",
+    "timeTargetSec": 90
+  },
+  {
+    "id": "geometry-mixed-practice-044",
+    "type": "QC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": ["three-d-solids"],
+    "difficulty": 5,
+    "stem": "A rectangular box has a fixed sum of its three dimensions (length + width + height) equal to the sum of the three dimensions of a cube with edge length 6.",
+    "quantityA": "The maximum possible volume of the box",
+    "quantityB": "The volume of the cube",
+    "answer": "C",
+    "solutionStandard": "By AM-GM, for a fixed sum of three positive dimensions, volume is maximized when all three are equal — that is, when the box is itself a cube with edge 6. So the maximum possible volume of the box equals the cube's volume exactly.",
+    "timeTargetSec": 100
+  },
+  {
+    "id": "geometry-mixed-practice-045",
+    "type": "Numeric",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": ["three-d-solids", "right-triangles-pythagorean"],
+    "difficulty": 5,
+    "variables": [{ "name": "k", "min": 2, "max": 10, "step": 1 }],
+    "stem": "A rectangular box has dimensions {{3*k}} by {{4*k}} by {{12*k}}. What is the length of its space diagonal?",
+    "answer": 39,
+    "answerFormula": "13*k",
+    "solutionStandard": "Space diagonal \\(=\\sqrt{({{3*k}})^2+({{4*k}})^2+({{12*k}})^2}\\), which simplifies to \\(13k = {{13*k}}\\) (since \\(3^2+4^2+12^2=13^2\\)).",
+    "timeTargetSec": 100
+  },
+  {
+    "id": "geometry-mixed-practice-046",
+    "type": "MC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": ["three-d-solids"],
+    "difficulty": 4,
+    "stem": "A cylinder has radius 3 and height 10. What is its total surface area, in terms of \\(\\pi\\)?",
+    "options": [
+      { "id": "A", "text": "\\(30\\pi\\)" },
+      { "id": "B", "text": "\\(60\\pi\\)" },
+      { "id": "C", "text": "\\(66\\pi\\)" },
+      { "id": "D", "text": "\\(78\\pi\\)" },
+      { "id": "E", "text": "\\(90\\pi\\)" }
+    ],
+    "answer": "D",
+    "solutionStandard": "Surface area \\(=2\\pi r^2+2\\pi rh = 2\\pi(9)+2\\pi(3)(10)=18\\pi+60\\pi=78\\pi\\).",
+    "timeTargetSec": 90
+  },
+  {
+    "id": "geometry-mixed-practice-047",
+    "type": "Numeric",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": ["coordinate-geometry-basics"],
+    "difficulty": 3,
+    "variables": [
+      { "name": "x1", "min": 0, "max": 10, "step": 1 },
+      { "name": "y1", "min": 0, "max": 10, "step": 1 },
+      { "name": "k", "min": 2, "max": 8, "step": 1 }
+    ],
+    "stem": "What is the distance between the points ({{x1}}, {{y1}}) and ({{x1+3*k}}, {{y1+4*k}})?",
+    "answer": 25,
+    "answerFormula": "5*k",
+    "solutionStandard": "The horizontal and vertical differences are \\({{3*k}}\\) and \\({{4*k}}\\), a 3-4-5 triple scaled by {{k}}: distance \\(={{5*k}}\\).",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "geometry-mixed-practice-048",
+    "type": "MC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": ["coordinate-geometry-basics"],
+    "difficulty": 3,
+    "stem": "What is the midpoint of the segment connecting (-4, 6) and (8, -2)?",
+    "options": [
+      { "id": "A", "text": "(2, 2)" },
+      { "id": "B", "text": "(2, 4)" },
+      { "id": "C", "text": "(6, 2)" },
+      { "id": "D", "text": "(-2, 2)" },
+      { "id": "E", "text": "(4, -2)" }
+    ],
+    "answer": "A",
+    "solutionStandard": "Midpoint \\(=\\left(\\dfrac{-4+8}{2}, \\dfrac{6-2}{2}\\right)=(2,2)\\).",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "geometry-mixed-practice-049",
+    "type": "QC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": ["coordinate-geometry-basics"],
+    "difficulty": 5,
+    "stem": "Point A is at the origin. Point B is at \\((a, b)\\), where \\(a\\) and \\(b\\) are both nonzero.",
+    "quantityA": "The distance from A to B",
+    "quantityB": "\\(|a| + |b|\\)",
+    "answer": "B",
+    "solutionStandard": "The distance is \\(\\sqrt{a^2+b^2}\\). Since \\((|a|+|b|)^2 = a^2+b^2+2|a||b|\\) and \\(2|a||b|>0\\) (as \\(a,b\\neq0\\)), we get \\((|a|+|b|)^2 > a^2+b^2\\), so \\(|a|+|b| > \\sqrt{a^2+b^2}\\) always. Quantity B is greater.",
+    "timeTargetSec": 100
+  },
+  {
+    "id": "geometry-mixed-practice-050",
+    "type": "QC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": ["three-d-solids"],
+    "difficulty": 5,
+    "stem": "A cube has volume 27.",
+    "quantityA": "The cube's surface area",
+    "quantityB": "60",
+    "answer": "B",
+    "solutionStandard": "Since \\(3^3=27\\), the edge length is 3, so surface area \\(=6(3)^2=54\\), which is less than 60. Quantity B is greater.",
+    "timeTargetSec": 85
+  }
+]
