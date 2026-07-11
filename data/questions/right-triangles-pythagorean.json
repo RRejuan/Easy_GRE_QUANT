@@ -1,0 +1,172 @@
+[
+  {
+    "id": "right-triangles-pythagorean-001",
+    "type": "MC",
+    "primarySkill": "right-triangles-pythagorean",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "A right triangle has legs of length 3 and 4. What is the length of the hypotenuse?",
+    "options": [
+      { "id": "A", "text": "5" },
+      { "id": "B", "text": "6" },
+      { "id": "C", "text": "7" },
+      { "id": "D", "text": "\\sqrt{7}" },
+      { "id": "E", "text": "12" }
+    ],
+    "answer": "A",
+    "solutionStandard": "c^2 = 3^2 + 4^2 = 9 + 16 = 25, so c = 5.",
+    "solutionShortcut": "3-4-5 is the most common Pythagorean triple; recognize it directly.",
+    "shortcutTags": ["estimate"],
+    "timeTargetSec": 40
+  },
+  {
+    "id": "right-triangles-pythagorean-002",
+    "type": "QC",
+    "primarySkill": "right-triangles-pythagorean",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "A right triangle has legs of length 6 and 8.",
+    "quantityA": "The length of the hypotenuse",
+    "quantityB": "11",
+    "answer": "B",
+    "solutionStandard": "c^2 = 6^2 + 8^2 = 36 + 64 = 100, so c = 10. Since 10 < 11, Quantity B is greater.",
+    "solutionShortcut": "6-8-10 is a 2\\times scaling of the 3-4-5 triple, so the hypotenuse is 10 directly.",
+    "shortcutTags": ["estimate"],
+    "timeTargetSec": 45
+  },
+  {
+    "id": "right-triangles-pythagorean-003",
+    "type": "Numeric",
+    "primarySkill": "right-triangles-pythagorean",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "A right triangle has a hypotenuse of length 13 and one leg of length 5. What is the length of the other leg?",
+    "answer": 12,
+    "solutionStandard": "5^2 + b^2 = 13^2, so b^2 = 169 - 25 = 144, and b = 12.",
+    "solutionShortcut": "5-12-13 is a common Pythagorean triple.",
+    "shortcutTags": ["estimate"],
+    "timeTargetSec": 50
+  },
+  {
+    "id": "right-triangles-pythagorean-004",
+    "type": "MC",
+    "primarySkill": "right-triangles-pythagorean",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "A 10-foot ladder leans against a vertical wall with its base 6 feet from the wall. How high up the wall does the ladder reach, in feet?",
+    "options": [
+      { "id": "A", "text": "6" },
+      { "id": "B", "text": "7" },
+      { "id": "C", "text": "8" },
+      { "id": "D", "text": "8.5" },
+      { "id": "E", "text": "9" }
+    ],
+    "answer": "C",
+    "solutionStandard": "The ladder is the hypotenuse: 6^2 + h^2 = 10^2, so h^2 = 100 - 36 = 64, and h = 8.",
+    "solutionShortcut": "6-8-10 is a 2\\times scaling of the 3-4-5 triple.",
+    "shortcutTags": ["estimate"],
+    "timeTargetSec": 60
+  },
+  {
+    "id": "right-triangles-pythagorean-005",
+    "type": "MultiMC",
+    "primarySkill": "right-triangles-pythagorean",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "Which of the following could be the side lengths of a right triangle? Select all that apply.",
+    "options": [
+      { "id": "A", "text": "3, 4, 5" },
+      { "id": "B", "text": "5, 12, 13" },
+      { "id": "C", "text": "2, 3, 4" },
+      { "id": "D", "text": "6, 8, 10" },
+      { "id": "E", "text": "7, 24, 25" },
+      { "id": "F", "text": "1, 1, 1" }
+    ],
+    "answer": ["A", "B", "D", "E"],
+    "solutionStandard": "Check whether the square of the longest side equals the sum of squares of the other two: (3,4,5): 25=9+16 yes. (5,12,13): 169=25+144 yes. (2,3,4): 16 \\neq 4+9=13, no. (6,8,10): 100=36+64 yes. (7,24,25): 625=49+576 yes. (1,1,1): 1 \\neq 1+1=2, no.",
+    "solutionShortcut": "Recognize 3-4-5, 5-12-13, and 7-24-25 as standard triples, and 6-8-10 as 2\\times the 3-4-5 triple; no computation needed for those four.",
+    "shortcutTags": ["estimate", "eliminate"],
+    "timeTargetSec": 90
+  },
+  {
+    "id": "right-triangles-pythagorean-006",
+    "type": "QC",
+    "primarySkill": "right-triangles-pythagorean",
+    "secondarySkills": ["special-right-triangles"],
+    "difficulty": 3,
+    "stem": "A right triangle has two legs of equal length x.",
+    "quantityA": "The length of the hypotenuse",
+    "quantityB": "x\\sqrt{2}",
+    "answer": "C",
+    "solutionStandard": "c^2 = x^2 + x^2 = 2x^2, so c = x\\sqrt{2}. The quantities are equal.",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "right-triangles-pythagorean-007",
+    "type": "Numeric",
+    "primarySkill": "right-triangles-pythagorean",
+    "secondarySkills": ["quadrilaterals"],
+    "difficulty": 3,
+    "stem": "A rectangle has a diagonal of length 15 and one side of length 9. What is the length of the other side?",
+    "answer": 12,
+    "solutionStandard": "The diagonal splits the rectangle into right triangles with legs 9 and the unknown side, and hypotenuse 15: 9^2 + b^2 = 15^2, so b^2 = 225 - 81 = 144, and b = 12.",
+    "solutionShortcut": "9-12-15 is a 3\\times scaling of the 3-4-5 triple.",
+    "shortcutTags": ["estimate"],
+    "timeTargetSec": 70
+  },
+  {
+    "id": "right-triangles-pythagorean-008",
+    "type": "MC",
+    "primarySkill": "right-triangles-pythagorean",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "A right triangle has one leg of length 7 and a hypotenuse of length 25. What is the area of the triangle?",
+    "options": [
+      { "id": "A", "text": "42" },
+      { "id": "B", "text": "60" },
+      { "id": "C", "text": "84" },
+      { "id": "D", "text": "168" },
+      { "id": "E", "text": "175" }
+    ],
+    "answer": "C",
+    "solutionStandard": "7^2 + b^2 = 25^2, so b^2 = 625 - 49 = 576, and b = 24. Area = \\frac{1}{2}(7)(24) = 84.",
+    "solutionShortcut": "7-24-25 is a standard Pythagorean triple, giving the other leg directly as 24.",
+    "shortcutTags": ["estimate"],
+    "timeTargetSec": 75
+  },
+  {
+    "id": "right-triangles-pythagorean-009",
+    "type": "MC",
+    "primarySkill": "right-triangles-pythagorean",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "A right triangle has integer side lengths and a hypotenuse of 17. What is its perimeter?",
+    "options": [
+      { "id": "A", "text": "30" },
+      { "id": "B", "text": "36" },
+      { "id": "C", "text": "40" },
+      { "id": "D", "text": "42" },
+      { "id": "E", "text": "46" }
+    ],
+    "answer": "C",
+    "solutionStandard": "Look for integer legs a, b with a^2 + b^2 = 289. The pair (8, 15) works: 64 + 225 = 289. Perimeter = 8 + 15 + 17 = 40.",
+    "solutionShortcut": "8-15-17 is a standard Pythagorean triple.",
+    "shortcutTags": ["estimate"],
+    "timeTargetSec": 90
+  },
+  {
+    "id": "right-triangles-pythagorean-010",
+    "type": "QC",
+    "primarySkill": "right-triangles-pythagorean",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "A right triangle has legs a and b (both positive) and hypotenuse c.",
+    "quantityA": "c",
+    "quantityB": "a + b",
+    "answer": "B",
+    "solutionStandard": "c^2 = a^2 + b^2, while (a+b)^2 = a^2 + 2ab + b^2. Since a, b > 0, 2ab > 0, so (a+b)^2 > c^2, and therefore a + b > c.",
+    "solutionShortcut": "Plug in a concrete case, e.g. the 3-4-5 triangle: c = 5 and a + b = 7, so Quantity B is greater. This matches the general result for any positive legs.",
+    "shortcutTags": ["plug-in"],
+    "timeTargetSec": 75
+  }
+]

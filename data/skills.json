@@ -1,10 +1,378 @@
 [
   {
-    "id": "arithmetic-percent-basics",
+    "id": "integer-properties",
     "area": "Arithmetic",
-    "topic": "Percents",
-    "name": "Percent Basics",
+    "topic": "Number Properties",
+    "name": "Integer Properties",
     "prerequisites": [],
-    "description": "Converting between percents, fractions, and decimals; computing percent of a quantity; percent increase/decrease."
+    "description": "Factors, multiples, primes, even/odd rules, divisibility, LCM and GCD."
+  },
+  {
+    "id": "number-line-ordering",
+    "area": "Arithmetic",
+    "topic": "Number Properties",
+    "name": "Number Line & Ordering",
+    "prerequisites": [],
+    "description": "Comparing and ordering numbers, including negatives and fractions, on a number line."
+  },
+  {
+    "id": "order-of-operations",
+    "area": "Arithmetic",
+    "topic": "Number Properties",
+    "name": "Order of Operations",
+    "prerequisites": [],
+    "description": "Evaluating arithmetic expressions using PEMDAS with signed numbers."
+  },
+  {
+    "id": "absolute-value",
+    "area": "Arithmetic",
+    "topic": "Number Properties",
+    "name": "Absolute Value",
+    "prerequisites": ["number-line-ordering"],
+    "description": "Definition and evaluation of absolute value, distance interpretation on the number line."
+  },
+  {
+    "id": "estimation-rounding",
+    "area": "Arithmetic",
+    "topic": "Number Properties",
+    "name": "Estimation & Rounding",
+    "prerequisites": [],
+    "description": "Rounding numbers and estimating results to check reasonableness or save time."
+  },
+  {
+    "id": "fractions-operations",
+    "area": "Arithmetic",
+    "topic": "Fractions, Decimals & Percents",
+    "name": "Fraction Operations",
+    "prerequisites": ["order-of-operations"],
+    "description": "Adding, subtracting, multiplying, dividing, and simplifying fractions."
+  },
+  {
+    "id": "decimals-operations",
+    "area": "Arithmetic",
+    "topic": "Fractions, Decimals & Percents",
+    "name": "Decimal Operations",
+    "prerequisites": ["order-of-operations"],
+    "description": "Arithmetic with decimals, including place value and conversion to/from fractions."
+  },
+  {
+    "id": "percent-basics",
+    "area": "Arithmetic",
+    "topic": "Fractions, Decimals & Percents",
+    "name": "Percent Basics",
+    "prerequisites": ["fractions-operations", "decimals-operations"],
+    "description": "Converting between percents, fractions, and decimals; computing a percent of a quantity."
+  },
+  {
+    "id": "percent-change",
+    "area": "Arithmetic",
+    "topic": "Fractions, Decimals & Percents",
+    "name": "Percent Increase/Decrease",
+    "prerequisites": ["percent-basics"],
+    "description": "Percent increase and decrease, successive percent changes, and reverse-percent problems."
+  },
+  {
+    "id": "ratios-proportions",
+    "area": "Arithmetic",
+    "topic": "Ratios & Rates",
+    "name": "Ratios & Proportions",
+    "prerequisites": ["fractions-operations"],
+    "description": "Setting up and solving ratio and proportion problems, including part-to-whole relationships."
+  },
+  {
+    "id": "rates-and-work",
+    "area": "Arithmetic",
+    "topic": "Ratios & Rates",
+    "name": "Rates, Distance/Time & Work",
+    "prerequisites": ["ratios-proportions"],
+    "description": "Rate problems including distance/rate/time and combined work-rate problems."
+  },
+  {
+    "id": "exponents-basic",
+    "area": "Arithmetic",
+    "topic": "Exponents & Roots",
+    "name": "Laws of Exponents",
+    "prerequisites": ["order-of-operations"],
+    "description": "Rules for multiplying, dividing, and raising powers, including zero and negative exponents."
+  },
+  {
+    "id": "roots-radicals",
+    "area": "Arithmetic",
+    "topic": "Exponents & Roots",
+    "name": "Roots & Radicals",
+    "prerequisites": ["exponents-basic"],
+    "description": "Simplifying square and cube roots and operations with radical expressions."
+  },
+  {
+    "id": "algebraic-expressions-simplify",
+    "area": "Algebra",
+    "topic": "Expressions & Equations",
+    "name": "Simplifying Expressions",
+    "prerequisites": ["order-of-operations", "integer-properties"],
+    "description": "Combining like terms and simplifying algebraic expressions using the distributive property."
+  },
+  {
+    "id": "linear-equations-one-var",
+    "area": "Algebra",
+    "topic": "Expressions & Equations",
+    "name": "Linear Equations, One Variable",
+    "prerequisites": ["algebraic-expressions-simplify"],
+    "description": "Solving linear equations in a single variable."
+  },
+  {
+    "id": "linear-equations-two-var",
+    "area": "Algebra",
+    "topic": "Expressions & Equations",
+    "name": "Systems of Linear Equations",
+    "prerequisites": ["linear-equations-one-var"],
+    "description": "Solving systems of two linear equations by substitution and elimination."
+  },
+  {
+    "id": "linear-inequalities",
+    "area": "Algebra",
+    "topic": "Inequalities",
+    "name": "Linear Inequalities",
+    "prerequisites": ["linear-equations-one-var"],
+    "description": "Solving and graphing linear inequalities, including sign flips when multiplying/dividing by negatives."
+  },
+  {
+    "id": "inequalities-compound",
+    "area": "Algebra",
+    "topic": "Inequalities",
+    "name": "Compound Inequalities",
+    "prerequisites": ["linear-inequalities"],
+    "description": "Solving compound (and/or) inequalities and expressing solution sets."
+  },
+  {
+    "id": "absolute-value-equations",
+    "area": "Algebra",
+    "topic": "Inequalities",
+    "name": "Absolute Value Equations/Inequalities",
+    "prerequisites": ["linear-equations-one-var", "absolute-value"],
+    "description": "Solving equations and inequalities that involve absolute value expressions."
+  },
+  {
+    "id": "factoring-polynomials",
+    "area": "Algebra",
+    "topic": "Quadratics & Functions",
+    "name": "Factoring Polynomials",
+    "prerequisites": ["algebraic-expressions-simplify"],
+    "description": "Factoring common factor, difference of squares, and trinomial expressions."
+  },
+  {
+    "id": "quadratic-equations",
+    "area": "Algebra",
+    "topic": "Quadratics & Functions",
+    "name": "Quadratic Equations",
+    "prerequisites": ["factoring-polynomials"],
+    "description": "Solving quadratic equations by factoring, the quadratic formula, and interpreting roots."
+  },
+  {
+    "id": "functions-basics",
+    "area": "Algebra",
+    "topic": "Quadratics & Functions",
+    "name": "Functions & f(x) Notation",
+    "prerequisites": ["algebraic-expressions-simplify"],
+    "description": "Evaluating and interpreting functions given in f(x) notation, including piecewise/defined operations."
+  },
+  {
+    "id": "word-problems-algebraic-translation",
+    "area": "Algebra",
+    "topic": "Word Problems & Sequences",
+    "name": "Translating Word Problems",
+    "prerequisites": ["linear-equations-one-var"],
+    "description": "Translating verbal descriptions into algebraic equations and solving them."
+  },
+  {
+    "id": "sequences-algebraic",
+    "area": "Algebra",
+    "topic": "Word Problems & Sequences",
+    "name": "Arithmetic & Geometric Sequences",
+    "prerequisites": ["linear-equations-one-var"],
+    "description": "Finding terms and sums of arithmetic and geometric sequences."
+  },
+  {
+    "id": "lines-angles",
+    "area": "Geometry",
+    "topic": "Lines, Angles & Triangles",
+    "name": "Lines & Angles",
+    "prerequisites": [],
+    "description": "Angle relationships formed by intersecting lines, parallel lines, and transversals."
+  },
+  {
+    "id": "triangles-basic",
+    "area": "Geometry",
+    "topic": "Lines, Angles & Triangles",
+    "name": "Triangle Basics",
+    "prerequisites": ["lines-angles"],
+    "description": "Angle sum, exterior angle theorem, and classification of triangles."
+  },
+  {
+    "id": "triangle-inequality",
+    "area": "Geometry",
+    "topic": "Lines, Angles & Triangles",
+    "name": "Triangle Inequality",
+    "prerequisites": ["triangles-basic"],
+    "description": "The triangle inequality theorem and its use in bounding unknown side lengths."
+  },
+  {
+    "id": "right-triangles-pythagorean",
+    "area": "Geometry",
+    "topic": "Lines, Angles & Triangles",
+    "name": "Right Triangles & Pythagorean Theorem",
+    "prerequisites": ["triangles-basic"],
+    "description": "The Pythagorean theorem, common integer triples, and their application to right triangles."
+  },
+  {
+    "id": "special-right-triangles",
+    "area": "Geometry",
+    "topic": "Lines, Angles & Triangles",
+    "name": "30-60-90 & 45-45-90 Triangles",
+    "prerequisites": ["right-triangles-pythagorean"],
+    "description": "Side-length ratios in 30-60-90 and 45-45-90 right triangles."
+  },
+  {
+    "id": "similar-triangles",
+    "area": "Geometry",
+    "topic": "Lines, Angles & Triangles",
+    "name": "Similar Triangles",
+    "prerequisites": ["triangles-basic", "ratios-proportions"],
+    "description": "Identifying similar triangles and using proportional side ratios to find unknowns."
+  },
+  {
+    "id": "quadrilaterals",
+    "area": "Geometry",
+    "topic": "Quadrilaterals & Polygons",
+    "name": "Quadrilaterals",
+    "prerequisites": ["lines-angles", "triangles-basic"],
+    "description": "Properties, perimeter, and area of parallelograms, rectangles, squares, and trapezoids."
+  },
+  {
+    "id": "polygons-general",
+    "area": "Geometry",
+    "topic": "Quadrilaterals & Polygons",
+    "name": "General Polygons",
+    "prerequisites": ["quadrilaterals"],
+    "description": "Interior/exterior angle sums and properties of regular polygons."
+  },
+  {
+    "id": "circles-basic",
+    "area": "Geometry",
+    "topic": "Circles",
+    "name": "Circle Basics",
+    "prerequisites": ["lines-angles"],
+    "description": "Radius, diameter, circumference, and area of circles."
+  },
+  {
+    "id": "circles-arcs-sectors",
+    "area": "Geometry",
+    "topic": "Circles",
+    "name": "Arcs & Sectors",
+    "prerequisites": ["circles-basic"],
+    "description": "Arc length, sector area, and central/inscribed angle relationships."
+  },
+  {
+    "id": "three-d-solids",
+    "area": "Geometry",
+    "topic": "Solids & Coordinate Geometry",
+    "name": "3D Solids: Volume & Surface Area",
+    "prerequisites": ["quadrilaterals", "circles-basic"],
+    "description": "Volume and surface area of rectangular solids, cylinders, and other common solids."
+  },
+  {
+    "id": "coordinate-geometry-basics",
+    "area": "Geometry",
+    "topic": "Solids & Coordinate Geometry",
+    "name": "Coordinate Plane, Distance & Midpoint",
+    "prerequisites": ["lines-angles", "right-triangles-pythagorean"],
+    "description": "Plotting points and computing distance and midpoint in the coordinate plane."
+  },
+  {
+    "id": "coordinate-geometry-lines",
+    "area": "Geometry",
+    "topic": "Solids & Coordinate Geometry",
+    "name": "Slope & Equations of Lines",
+    "prerequisites": ["coordinate-geometry-basics", "linear-equations-two-var"],
+    "description": "Computing slope and writing/interpreting equations of lines in the coordinate plane."
+  },
+  {
+    "id": "mean-median-mode",
+    "area": "Data Analysis",
+    "topic": "Descriptive Statistics",
+    "name": "Mean, Median & Mode",
+    "prerequisites": [],
+    "description": "Computing and comparing mean, median, and mode of a data set."
+  },
+  {
+    "id": "range-standard-deviation",
+    "area": "Data Analysis",
+    "topic": "Descriptive Statistics",
+    "name": "Range & Standard Deviation",
+    "prerequisites": ["mean-median-mode"],
+    "description": "Measures of spread: range and an intuitive/computational treatment of standard deviation."
+  },
+  {
+    "id": "weighted-averages",
+    "area": "Data Analysis",
+    "topic": "Descriptive Statistics",
+    "name": "Weighted Averages",
+    "prerequisites": ["mean-median-mode", "ratios-proportions"],
+    "description": "Computing averages where groups contribute unequally to the overall mean."
+  },
+  {
+    "id": "normal-distribution-basics",
+    "area": "Data Analysis",
+    "topic": "Descriptive Statistics",
+    "name": "Normal Distribution Basics",
+    "prerequisites": ["range-standard-deviation"],
+    "description": "Basic properties of the normal distribution and the 68-95-99.7 rule."
+  },
+  {
+    "id": "counting-permutations",
+    "area": "Data Analysis",
+    "topic": "Counting & Probability",
+    "name": "Permutations",
+    "prerequisites": ["integer-properties"],
+    "description": "Counting ordered arrangements using the fundamental counting principle and factorials."
+  },
+  {
+    "id": "counting-combinations",
+    "area": "Data Analysis",
+    "topic": "Counting & Probability",
+    "name": "Combinations",
+    "prerequisites": ["counting-permutations"],
+    "description": "Counting unordered selections and distinguishing combinations from permutations."
+  },
+  {
+    "id": "probability-basic",
+    "area": "Data Analysis",
+    "topic": "Counting & Probability",
+    "name": "Basic Probability",
+    "prerequisites": ["fractions-operations", "counting-combinations"],
+    "description": "Computing probability of simple and combined events using counting techniques."
+  },
+  {
+    "id": "probability-compound",
+    "area": "Data Analysis",
+    "topic": "Counting & Probability",
+    "name": "Compound & Conditional Probability",
+    "prerequisites": ["probability-basic"],
+    "description": "Independent/dependent events, mutually exclusive events, and conditional probability."
+  },
+  {
+    "id": "data-interpretation-tables-graphs",
+    "area": "Data Analysis",
+    "topic": "Data Representation & Sets",
+    "name": "Reading Tables & Graphs",
+    "prerequisites": ["percent-basics", "mean-median-mode"],
+    "description": "Extracting and computing values from tables, bar/line graphs, and pie charts."
+  },
+  {
+    "id": "venn-diagrams-sets",
+    "area": "Data Analysis",
+    "topic": "Data Representation & Sets",
+    "name": "Venn Diagrams & Sets",
+    "prerequisites": [],
+    "description": "Set operations and using Venn diagrams to solve overlapping-group problems."
   }
 ]
