@@ -145,5 +145,167 @@
     "answer": "A",
     "solutionStandard": "\\(c\\) must satisfy \\(7 < c < 13\\). Since \\(c\\) is always strictly greater than 7, Quantity A is always greater.",
     "timeTargetSec": 85
+  },
+  {
+    "id": "triangle-inequality-011",
+    "type": "Numeric",
+    "primarySkill": "triangle-inequality",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "variables": [
+      { "name": "a", "min": 3, "max": 10, "step": 1 },
+      { "name": "b", "min": 15, "max": 25, "step": 1 }
+    ],
+    "stem": "A triangle has sides of length {{a}} and {{b}}. What is the greatest possible integer value of the third side?",
+    "answer": 24,
+    "answerFormula": "a + b - 1",
+    "solutionStandard": "The third side must be less than \\({{a}}+{{b}}={{a+b}}\\). The greatest integer below that is \\({{a+b-1}}\\).",
+    "timeTargetSec": 50
+  },
+  {
+    "id": "triangle-inequality-012",
+    "type": "MC",
+    "primarySkill": "triangle-inequality",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "A triangle has two sides of length 5 and 8. Which of the following could NOT be the length of the third side?",
+    "options": [
+      { "id": "A", "text": "4" },
+      { "id": "B", "text": "6" },
+      { "id": "C", "text": "9" },
+      { "id": "D", "text": "12" },
+      { "id": "E", "text": "13" }
+    ],
+    "answer": "E",
+    "solutionStandard": "The third side must satisfy \\(8-5 < c < 8+5\\), i.e. \\(3<c<13\\). Since 13 is not strictly less than 13, it's excluded.",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "triangle-inequality-013",
+    "type": "Numeric",
+    "primarySkill": "triangle-inequality",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "variables": [
+      { "name": "a", "min": 3, "max": 10, "step": 1 },
+      { "name": "b", "min": 15, "max": 25, "step": 1 }
+    ],
+    "stem": "A triangle has sides of length {{a}} and {{b}}. What is the smallest possible integer value of the third side?",
+    "answer": 16,
+    "answerFormula": "b - a + 1",
+    "solutionStandard": "The third side must be greater than \\({{b}}-{{a}}={{b-a}}\\). The smallest integer above that is \\({{b-a+1}}\\).",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "triangle-inequality-014",
+    "type": "QC",
+    "primarySkill": "triangle-inequality",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "variables": [
+      { "name": "a", "min": 3, "max": 15, "step": 1 },
+      { "name": "b", "min": 3, "max": 15, "step": 1 }
+    ],
+    "stem": "A triangle has sides {{a}}, {{b}}, and \\(x\\).",
+    "quantityA": "The greatest possible integer value of \\(x\\)",
+    "quantityB": "{{a + b - 1}}",
+    "answer": "C",
+    "solutionStandard": "\\(x\\) must be less than \\({{a}}+{{b}}={{a+b}}\\), so the greatest possible integer is \\({{a+b-1}}\\) — exactly equal to Quantity B.",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "triangle-inequality-015",
+    "type": "Numeric",
+    "primarySkill": "triangle-inequality",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "variables": [{ "name": "a", "min": 3, "max": 20, "step": 1 }],
+    "stem": "An isosceles triangle has two sides of length {{a}} and one side of length \\(x\\), where \\(x\\) is an integer and \\(x \\neq {{a}}\\). What is the greatest possible value of \\(x\\)?",
+    "answer": 9,
+    "answerFormula": "2*a - 1",
+    "solutionStandard": "With two sides equal to \\({{a}}\\), the third side satisfies \\(0<x<{{2*a}}\\). The greatest integer below \\({{2*a}}\\) is \\({{2*a-1}}\\), which is never equal to \\({{a}}\\) here.",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "triangle-inequality-016",
+    "type": "MC",
+    "primarySkill": "triangle-inequality",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "How many distinct integer values are possible for the third side of a triangle whose other two sides are 5 and 12?",
+    "options": [
+      { "id": "A", "text": "7" },
+      { "id": "B", "text": "8" },
+      { "id": "C", "text": "9" },
+      { "id": "D", "text": "10" },
+      { "id": "E", "text": "11" }
+    ],
+    "answer": "C",
+    "solutionStandard": "The third side satisfies \\(7<c<17\\), so integers 8 through 16 — that's 9 values.",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "triangle-inequality-017",
+    "type": "MC",
+    "primarySkill": "triangle-inequality",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "A triangle has a perimeter of 24 and one side of length 6. What is the greatest possible integer length of another side?",
+    "options": [
+      { "id": "A", "text": "9" },
+      { "id": "B", "text": "10" },
+      { "id": "C", "text": "11" },
+      { "id": "D", "text": "12" },
+      { "id": "E", "text": "17" }
+    ],
+    "answer": "C",
+    "solutionStandard": "Let the other two sides be \\(b\\) and \\(c\\) with \\(b+c=18\\). Since \\(b<6+c=6+(18-b)\\), \\(2b<24\\), so \\(b<12\\). The greatest integer is 11.",
+    "timeTargetSec": 90
+  },
+  {
+    "id": "triangle-inequality-018",
+    "type": "MultiMC",
+    "primarySkill": "triangle-inequality",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "A triangle has sides 7, 9, and \\(x\\). Which of the following values of \\(x\\) are possible? Select all that apply.",
+    "options": [
+      { "id": "A", "text": "2" },
+      { "id": "B", "text": "5" },
+      { "id": "C", "text": "12" },
+      { "id": "D", "text": "16" }
+    ],
+    "answer": ["B", "C"],
+    "solutionStandard": "\\(x\\) must satisfy \\(2 < x < 16\\). Only 5 and 12 fall strictly in this range; 2 and 16 are excluded (boundary values).",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "triangle-inequality-019",
+    "type": "Numeric",
+    "primarySkill": "triangle-inequality",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "variables": [
+      { "name": "a", "min": 3, "max": 10, "step": 1 },
+      { "name": "b", "min": 15, "max": 25, "step": 1 }
+    ],
+    "stem": "A triangle has sides \\(a\\), \\(b\\), and \\(c\\), with \\(a={{a}}\\) and \\(b={{b}}\\) (\\(a<b\\)). How many integer values are possible for \\(c\\)?",
+    "answer": 5,
+    "answerFormula": "2*a - 1",
+    "solutionStandard": "\\(c\\) satisfies \\({{b}}-{{a}} < c < {{b}}+{{a}}\\), a range of integers from \\({{b-a+1}}\\) to \\({{a+b-1}}\\) — that's always \\(2({{a}})-1 = {{2*a-1}}\\) values, depending only on the smaller side \\({{a}}\\).",
+    "timeTargetSec": 90
+  },
+  {
+    "id": "triangle-inequality-020",
+    "type": "QC",
+    "primarySkill": "triangle-inequality",
+    "secondarySkills": [],
+    "difficulty": 5,
+    "stem": "A triangle has sides \\(a\\), \\(b\\), \\(c\\) with \\(a+b+c=30\\) and \\(a=10\\).",
+    "quantityA": "\\(c\\)",
+    "quantityB": "\\(15\\)",
+    "answer": "B",
+    "solutionStandard": "Since \\(b+c=20\\), \\(b=20-c\\). The triangle inequality requires \\(c < a+b = 10+(20-c) = 30-c\\), so \\(2c<30\\) and \\(c<15\\). Since \\(c\\) is always strictly less than 15, Quantity B is always greater.",
+    "timeTargetSec": 95
   }
 ]
