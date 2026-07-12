@@ -8,7 +8,37 @@
     "stem": "What is the sum of the interior angles of a pentagon (5 sides)?",
     "answer": 540,
     "solutionStandard": "\\((5-2) \\times 180 = 3 \\times 180 = 540\\) degrees.",
-    "timeTargetSec": 35
+    "timeTargetSec": 35,
+    "figure": {
+      "viewBox": "0 0 200 180",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 100,
+              "y": 25
+            },
+            {
+              "x": 162,
+              "y": 70
+            },
+            {
+              "x": 138,
+              "y": 143
+            },
+            {
+              "x": 62,
+              "y": 143
+            },
+            {
+              "x": 38,
+              "y": 70
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "id": "polygons-general-002",
@@ -41,7 +71,49 @@
     ],
     "answer": "D",
     "solutionStandard": "Sum of interior angles: \\((6-2)\\times180=720\\). Each angle: \\(720/6=120\\) degrees.",
-    "timeTargetSec": 50
+    "timeTargetSec": 50,
+    "figure": {
+      "viewBox": "0 0 200 180",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 100,
+              "y": 25
+            },
+            {
+              "x": 156,
+              "y": 58
+            },
+            {
+              "x": 156,
+              "y": 123
+            },
+            {
+              "x": 100,
+              "y": 155
+            },
+            {
+              "x": 44,
+              "y": 123
+            },
+            {
+              "x": 44,
+              "y": 57
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 90,
+            "y": 33
+          },
+          "text": "?"
+        }
+      ]
+    }
   },
   {
     "id": "polygons-general-003",
@@ -186,7 +258,77 @@
     "stem": "A pentagon has four angles measuring 100°, 110°, 120°, and 95°. What is the measure of the fifth angle?",
     "answer": 115,
     "solutionStandard": "Sum of interior angles of a pentagon: \\((5-2)\\times180=540\\). Fifth angle: \\(540-(100+110+120+95)=540-425=115\\).",
-    "timeTargetSec": 65
+    "timeTargetSec": 65,
+    "figure": {
+      "viewBox": "0 0 200 180",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 100,
+              "y": 25
+            },
+            {
+              "x": 162,
+              "y": 70
+            },
+            {
+              "x": 138,
+              "y": 143
+            },
+            {
+              "x": 62,
+              "y": 143
+            },
+            {
+              "x": 38,
+              "y": 70
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 100,
+            "y": 13
+          },
+          "text": "100°"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 184,
+            "y": 75
+          },
+          "text": "110°"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 150,
+            "y": 159
+          },
+          "text": "120°"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 50,
+            "y": 159
+          },
+          "text": "95°"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 16,
+            "y": 75
+          },
+          "text": "?"
+        }
+      ]
+    }
   },
   {
     "id": "polygons-general-010",
@@ -252,7 +394,57 @@
     ],
     "answer": "D",
     "solutionStandard": "Sum of interior angles: \\((8-2)\\times180=1080\\). Each angle: \\(1080/8=135\\) degrees.",
-    "timeTargetSec": 50
+    "timeTargetSec": 50,
+    "figure": {
+      "viewBox": "0 0 200 180",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 100,
+              "y": 25
+            },
+            {
+              "x": 146,
+              "y": 44
+            },
+            {
+              "x": 165,
+              "y": 90
+            },
+            {
+              "x": 146,
+              "y": 136
+            },
+            {
+              "x": 100,
+              "y": 155
+            },
+            {
+              "x": 54,
+              "y": 136
+            },
+            {
+              "x": 35,
+              "y": 90
+            },
+            {
+              "x": 54,
+              "y": 44
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 90,
+            "y": 33
+          },
+          "text": "?"
+        }
+      ]
+    }
   },
   {
     "id": "polygons-general-013",
@@ -357,7 +549,77 @@
     "stem": "A pentagon has four angles measuring 95°, 105°, 115°, and 100°. What is the measure of the fifth angle?",
     "answer": 125,
     "solutionStandard": "Sum of interior angles of a pentagon: \\((5-2)\\times180=540\\). Fifth angle: \\(540-(95+105+115+100)=540-415=125\\).",
-    "timeTargetSec": 65
+    "timeTargetSec": 65,
+    "figure": {
+      "viewBox": "0 0 200 180",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 100,
+              "y": 25
+            },
+            {
+              "x": 162,
+              "y": 70
+            },
+            {
+              "x": 138,
+              "y": 143
+            },
+            {
+              "x": 62,
+              "y": 143
+            },
+            {
+              "x": 38,
+              "y": 70
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 100,
+            "y": 13
+          },
+          "text": "95°"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 184,
+            "y": 75
+          },
+          "text": "105°"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 150,
+            "y": 159
+          },
+          "text": "115°"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 50,
+            "y": 159
+          },
+          "text": "100°"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 16,
+            "y": 75
+          },
+          "text": "?"
+        }
+      ]
+    }
   },
   {
     "id": "polygons-general-018",

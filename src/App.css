@@ -175,6 +175,7 @@
   height: auto;
   stroke: var(--text);
   fill: none;
+  overflow: visible;
 }
 .figure-wrap text {
   fill: var(--text);
