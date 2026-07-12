@@ -546,7 +546,17 @@
       "data-interpretation-tables-graphs"
     ],
     "difficulty": 2,
-    "stem": "A pie chart shows a school's 400 students by grade: 25% freshmen. How many students are freshmen?",
+    "stem": "The pie chart below shows a school's 400 students by grade. How many students are freshmen?",
+    "chart": {
+      "kind": "pie",
+      "title": "Students by Grade",
+      "data": [
+        { "label": "Freshmen", "value": 25 },
+        { "label": "Sophomores", "value": 30 },
+        { "label": "Juniors", "value": 25 },
+        { "label": "Seniors", "value": 20 }
+      ]
+    },
     "options": [
       {
         "id": "A",
@@ -1137,7 +1147,16 @@
         "step": 5
       }
     ],
-    "stem": "A pie chart shows a company's ${{total}} million budget: R&D {{pctA}}%, Marketing {{pctB}}%, with the remaining {{100-pctA-pctB}}% split between Operations and Admin in an unspecified ratio.",
+    "stem": "The pie chart below shows a company's ${{total}} million budget. The Operations & Admin slice is split between the two departments in an unspecified ratio.",
+    "chart": {
+      "kind": "pie",
+      "title": "Company Budget",
+      "data": [
+        { "label": "R&D", "value": "pctA" },
+        { "label": "Marketing", "value": "pctB" },
+        { "label": "Operations & Admin", "value": "100-pctA-pctB" }
+      ]
+    },
     "quantityA": "The amount spent on Operations",
     "quantityB": "The amount spent on Admin",
     "answer": "D",
