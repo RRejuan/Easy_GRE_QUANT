@@ -2,10 +2,12 @@ import { useState } from "react";
 
 export function NumericInput({
   onSubmit,
+  initialAnswer,
 }: {
   onSubmit: (answer: number) => void;
+  initialAnswer?: number;
 }) {
-  const [value, setValue] = useState("");
+  const [value, setValue] = useState(initialAnswer !== undefined ? String(initialAnswer) : "");
   const parsed = Number(value);
   const isValid = value.trim() !== "" && !Number.isNaN(parsed);
 

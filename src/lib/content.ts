@@ -26,6 +26,17 @@ for (const [path, mod] of Object.entries(lessonModules)) {
   lessonsBySkill.set(skillIdFromPath(path), mod.default);
 }
 
+const questionsById = new Map<string, Question>();
+for (const questionList of questionsBySkill.values()) {
+  for (const question of questionList) {
+    questionsById.set(question.id, question);
+  }
+}
+
+export function getQuestionById(questionId: string): Question | undefined {
+  return questionsById.get(questionId);
+}
+
 export function getSkill(skillId: string): Skill | undefined {
   return skills.find((skill) => skill.id === skillId);
 }
