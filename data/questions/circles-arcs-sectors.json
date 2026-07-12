@@ -92,7 +92,46 @@
     "stem": "A circle has radius 6. What is the area of a sector with a central angle of 90°, in terms of \\(\\pi\\)? (Enter just the coefficient of \\(\\pi\\).)",
     "answer": 9,
     "solutionStandard": "Sector area \\(= \\dfrac{90}{360} \\times \\pi(6)^2 = \\dfrac{1}{4} \\times 36\\pi = 9\\pi\\).",
-    "timeTargetSec": 55
+    "timeTargetSec": 55,
+    "figure": {
+      "viewBox": "0 0 200 170",
+      "elements": [
+        {
+          "kind": "circle",
+          "center": {
+            "x": 100,
+            "y": 90
+          },
+          "radius": 70
+        },
+        {
+          "kind": "arc",
+          "center": {
+            "x": 100,
+            "y": 90
+          },
+          "radius": 70,
+          "startAngle": -90,
+          "endAngle": 0
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 88,
+            "y": 52
+          },
+          "text": "6"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 120,
+            "y": 70
+          },
+          "text": "90°"
+        }
+      ]
+    }
   },
   {
     "id": "circles-arcs-sectors-003",
@@ -149,7 +188,46 @@
     "stem": "A sector of a circle with radius 9 has an area of \\(27\\pi\\). What is the central angle of the sector, in degrees?",
     "answer": 120,
     "solutionStandard": "\\(\\dfrac{\\theta}{360}\\times\\pi(9)^2 = 27\\pi\\), so \\(\\dfrac{\\theta}{360}\\times81=27\\), giving \\(\\theta/360=1/3\\), so \\(\\theta=120\\).",
-    "timeTargetSec": 70
+    "timeTargetSec": 70,
+    "figure": {
+      "viewBox": "0 0 200 170",
+      "elements": [
+        {
+          "kind": "circle",
+          "center": {
+            "x": 100,
+            "y": 90
+          },
+          "radius": 70
+        },
+        {
+          "kind": "arc",
+          "center": {
+            "x": 100,
+            "y": 90
+          },
+          "radius": 70,
+          "startAngle": -90,
+          "endAngle": 30
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 88,
+            "y": 52
+          },
+          "text": "9"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 124,
+            "y": 76
+          },
+          "text": "θ"
+        }
+      ]
+    }
   },
   {
     "id": "circles-arcs-sectors-006",
@@ -182,7 +260,46 @@
     ],
     "answer": "C",
     "solutionStandard": "Arc length \\(=\\dfrac{45}{360}\\times24\\pi=\\dfrac{1}{8}\\times24\\pi=3\\pi\\).",
-    "timeTargetSec": 60
+    "timeTargetSec": 60,
+    "figure": {
+      "viewBox": "0 0 200 170",
+      "elements": [
+        {
+          "kind": "circle",
+          "center": {
+            "x": 100,
+            "y": 90
+          },
+          "radius": 70
+        },
+        {
+          "kind": "arc",
+          "center": {
+            "x": 100,
+            "y": 90
+          },
+          "radius": 70,
+          "startAngle": -90,
+          "endAngle": -45
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 88,
+            "y": 52
+          },
+          "text": "?"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 111,
+            "y": 64
+          },
+          "text": "45°"
+        }
+      ]
+    }
   },
   {
     "id": "circles-arcs-sectors-007",
@@ -248,7 +365,46 @@
     ],
     "answer": "B",
     "solutionStandard": "Arc length \\(=\\dfrac{120}{360}\\times2\\pi(10)=\\dfrac{1}{3}\\times20\\pi=\\dfrac{20\\pi}{3}\\). Perimeter \\(= 10+10+\\dfrac{20\\pi}{3}=20+\\dfrac{20\\pi}{3}\\).",
-    "timeTargetSec": 85
+    "timeTargetSec": 85,
+    "figure": {
+      "viewBox": "0 0 200 170",
+      "elements": [
+        {
+          "kind": "circle",
+          "center": {
+            "x": 100,
+            "y": 90
+          },
+          "radius": 70
+        },
+        {
+          "kind": "arc",
+          "center": {
+            "x": 100,
+            "y": 90
+          },
+          "radius": 70,
+          "startAngle": -90,
+          "endAngle": 30
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 88,
+            "y": 52
+          },
+          "text": "10"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 124,
+            "y": 76
+          },
+          "text": "120°"
+        }
+      ]
+    }
   },
   {
     "id": "circles-arcs-sectors-009",
@@ -259,7 +415,46 @@
     "stem": "A sector has a central angle of 72° and an arc length of \\(4\\pi\\). What is the radius of the circle?",
     "answer": 10,
     "solutionStandard": "\\(\\dfrac{72}{360}\\times2\\pi r=4\\pi\\), so \\(\\dfrac{1}{5}\\times2\\pi r=4\\pi\\), giving \\(2r/5=4\\), so \\(r=10\\).",
-    "timeTargetSec": 75
+    "timeTargetSec": 75,
+    "figure": {
+      "viewBox": "0 0 200 170",
+      "elements": [
+        {
+          "kind": "circle",
+          "center": {
+            "x": 100,
+            "y": 90
+          },
+          "radius": 70
+        },
+        {
+          "kind": "arc",
+          "center": {
+            "x": 100,
+            "y": 90
+          },
+          "radius": 70,
+          "startAngle": -90,
+          "endAngle": -18
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 88,
+            "y": 52
+          },
+          "text": "?"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 116,
+            "y": 67
+          },
+          "text": "72°"
+        }
+      ]
+    }
   },
   {
     "id": "circles-arcs-sectors-010",
@@ -292,7 +487,46 @@
     "answer": 6,
     "answerFormula": "r / 2",
     "solutionStandard": "Arc length \\(=\\dfrac{90}{360}\\times2\\pi({{r}}) = \\dfrac{ {{r}} }{2}\\pi\\).",
-    "timeTargetSec": 50
+    "timeTargetSec": 50,
+    "figure": {
+      "viewBox": "0 0 200 170",
+      "elements": [
+        {
+          "kind": "circle",
+          "center": {
+            "x": 100,
+            "y": 90
+          },
+          "radius": 70
+        },
+        {
+          "kind": "arc",
+          "center": {
+            "x": 100,
+            "y": 90
+          },
+          "radius": 70,
+          "startAngle": -90,
+          "endAngle": 0
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 88,
+            "y": 52
+          },
+          "text": "{{r}}"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 120,
+            "y": 70
+          },
+          "text": "90°"
+        }
+      ]
+    }
   },
   {
     "id": "circles-arcs-sectors-012",
@@ -345,7 +579,46 @@
     "answer": 6,
     "answerFormula": "(r * r) / 6",
     "solutionStandard": "Sector area \\(= \\dfrac{60}{360} \\times {{r}}^2 = \\dfrac{ {{r*r}} }{6}\\pi\\).",
-    "timeTargetSec": 60
+    "timeTargetSec": 60,
+    "figure": {
+      "viewBox": "0 0 200 170",
+      "elements": [
+        {
+          "kind": "circle",
+          "center": {
+            "x": 100,
+            "y": 90
+          },
+          "radius": 70
+        },
+        {
+          "kind": "arc",
+          "center": {
+            "x": 100,
+            "y": 90
+          },
+          "radius": 70,
+          "startAngle": -90,
+          "endAngle": -30
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 88,
+            "y": 52
+          },
+          "text": "{{r}}"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 114,
+            "y": 66
+          },
+          "text": "60°"
+        }
+      ]
+    }
   },
   {
     "id": "circles-arcs-sectors-014",
@@ -492,7 +765,46 @@
     ],
     "answer": "C",
     "solutionStandard": "Arc length \\(=\\dfrac{30}{360}\\times36\\pi=\\dfrac{1}{12}\\times36\\pi=3\\pi\\).",
-    "timeTargetSec": 60
+    "timeTargetSec": 60,
+    "figure": {
+      "viewBox": "0 0 200 170",
+      "elements": [
+        {
+          "kind": "circle",
+          "center": {
+            "x": 100,
+            "y": 90
+          },
+          "radius": 70
+        },
+        {
+          "kind": "arc",
+          "center": {
+            "x": 100,
+            "y": 90
+          },
+          "radius": 70,
+          "startAngle": -90,
+          "endAngle": -60
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 88,
+            "y": 52
+          },
+          "text": "?"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 107,
+            "y": 63
+          },
+          "text": "30°"
+        }
+      ]
+    }
   },
   {
     "id": "circles-arcs-sectors-017",
@@ -545,7 +857,46 @@
     "answer": 8,
     "answerFormula": "(2 * r) / 3",
     "solutionStandard": "Arc length \\(=\\dfrac{120}{360}\\times2({{r}}) = \\dfrac{2({{r}})}{3}\\pi = \\dfrac{ {{2*r}} }{3}\\pi\\).",
-    "timeTargetSec": 80
+    "timeTargetSec": 80,
+    "figure": {
+      "viewBox": "0 0 200 170",
+      "elements": [
+        {
+          "kind": "circle",
+          "center": {
+            "x": 100,
+            "y": 90
+          },
+          "radius": 70
+        },
+        {
+          "kind": "arc",
+          "center": {
+            "x": 100,
+            "y": 90
+          },
+          "radius": 70,
+          "startAngle": -90,
+          "endAngle": 30
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 88,
+            "y": 52
+          },
+          "text": "{{r}}"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 124,
+            "y": 76
+          },
+          "text": "120°"
+        }
+      ]
+    }
   },
   {
     "id": "circles-arcs-sectors-019",
@@ -565,7 +916,46 @@
     "answer": 10,
     "answerFormula": "rt",
     "solutionStandard": "\\(\\dfrac{72}{360}\\times2\\pi r = {{2*rt/5}}\\pi\\), so \\(\\dfrac{2r}{5} = {{2*rt/5}}\\), giving \\(r={{rt}}\\).",
-    "timeTargetSec": 80
+    "timeTargetSec": 80,
+    "figure": {
+      "viewBox": "0 0 200 170",
+      "elements": [
+        {
+          "kind": "circle",
+          "center": {
+            "x": 100,
+            "y": 90
+          },
+          "radius": 70
+        },
+        {
+          "kind": "arc",
+          "center": {
+            "x": 100,
+            "y": 90
+          },
+          "radius": 70,
+          "startAngle": -90,
+          "endAngle": -18
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 88,
+            "y": 52
+          },
+          "text": "?"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 116,
+            "y": 67
+          },
+          "text": "72°"
+        }
+      ]
+    }
   },
   {
     "id": "circles-arcs-sectors-020",
