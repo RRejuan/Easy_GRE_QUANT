@@ -136,9 +136,9 @@ function PieChartView({
   });
 
   return (
-    <svg className="data-chart" viewBox="0 0 340 220" role="img" aria-label={chart.title ?? "Pie chart"}>
+    <svg className="data-chart data-chart-pie" viewBox="0 0 440 220" role="img" aria-label={chart.title ?? "Pie chart"}>
       {chart.title && (
-        <text x={170} y={16} textAnchor="middle" className="chart-title">
+        <text x={100} y={16} textAnchor="middle" className="chart-title">
           {chart.title}
         </text>
       )}
@@ -147,9 +147,9 @@ function PieChartView({
           <title>{`${slice.label}: ${slice.value}%`}</title>
         </path>
       ))}
-      <g transform="translate(210, 40)">
+      <g transform="translate(200, 40)">
         {slices.map((slice, i) => (
-          <g key={i} transform={`translate(0, ${i * 22})`}>
+          <g key={i} transform={`translate(0, ${i * 24})`}>
             <rect x={0} y={0} width={12} height={12} fill={slice.color} rx={2} />
             <text x={18} y={10} className="chart-axis-label chart-legend-label">
               {slice.label} —{" "}
@@ -218,12 +218,44 @@ function LineChartView({
   );
 }
 
+function TableChartView({
+  chart,
+  values,
+}: {
+  chart: Extract<Chart, { kind: "table" }>;
+  values: Record<string, number>;
+}) {
+  const resolved = chart.data.map((d) => ({ label: d.label, ...resolveValue(d.value, values) }));
+  return (
+    <div className="table-wrap">
+      {chart.title && <p className="chart-title chart-title-html">{chart.title}</p>}
+      <table>
+        <thead>
+          <tr>
+            <th>{chart.columns[0]}</th>
+            <th>{chart.columns[1]}</th>
+          </tr>
+        </thead>
+        <tbody>
+          {resolved.map((row, i) => (
+            <tr key={i}>
+              <td>{row.label}</td>
+              <td className={row.isVariable ? "variable-value" : undefined}>{row.value}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+}
+
 export function ChartView({ chart, values = {} }: { chart: Chart; values?: Record<string, number> }) {
   return (
     <div className="chart-wrap">
       {chart.kind === "bar" && <BarChartView chart={chart} values={values} />}
       {chart.kind === "pie" && <PieChartView chart={chart} values={values} />}
       {chart.kind === "line" && <LineChartView chart={chart} values={values} />}
+      {chart.kind === "table" && <TableChartView chart={chart} values={values} />}
     </div>
   );
 }

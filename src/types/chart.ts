@@ -39,4 +39,12 @@ export interface LineChart {
   points: LineChartPoint[];
 }
 
-export type Chart = BarChart | PieChart | LineChart;
+export interface TableChart {
+  kind: "table";
+  title?: string;
+  /** [row-label column header, value column header], e.g. ["Quarter", "Revenue ($)"]. */
+  columns: [string, string];
+  data: BarChartDatum[];
+}
+
+export type Chart = BarChart | PieChart | LineChart | TableChart;

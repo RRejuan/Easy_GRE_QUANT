@@ -68,7 +68,17 @@
     "primarySkill": "data-interpretation-tables-graphs",
     "secondarySkills": [],
     "difficulty": 2,
-    "stem": "A table shows a company's profit by year: 2020: $50,000; 2021: $65,000; 2022: $80,000. What was the percent increase in profit from 2020 to 2022?",
+    "stem": "The table below shows a company's profit by year. What was the percent increase in profit from 2020 to 2022?",
+    "chart": {
+      "kind": "table",
+      "title": "Annual Profit",
+      "columns": ["Year", "Profit ($)"],
+      "data": [
+        { "label": "2020", "value": 50000 },
+        { "label": "2021", "value": 65000 },
+        { "label": "2022", "value": 80000 }
+      ]
+    },
     "answer": 60,
     "solutionStandard": "Percent increase \\(= \\dfrac{80000-50000}{50000}\\times100 = \\dfrac{30000}{50000}\\times100=60\\%\\).",
     "timeTargetSec": 60
@@ -79,7 +89,17 @@
     "primarySkill": "data-interpretation-tables-graphs",
     "secondarySkills": [],
     "difficulty": 2,
-    "stem": "A bar graph shows rainfall (in inches): April 3, May 5, June 2, July 4.",
+    "stem": "The bar graph below shows monthly rainfall, in inches.",
+    "chart": {
+      "kind": "bar",
+      "title": "Monthly Rainfall (inches)",
+      "data": [
+        { "label": "April", "value": 3 },
+        { "label": "May", "value": 5 },
+        { "label": "June", "value": 2 },
+        { "label": "July", "value": 4 }
+      ]
+    },
     "quantityA": "The average monthly rainfall over these 4 months",
     "quantityB": "\\(4\\)",
     "answer": "B",
@@ -92,7 +112,18 @@
     "primarySkill": "data-interpretation-tables-graphs",
     "secondarySkills": [],
     "difficulty": 3,
-    "stem": "A pie chart of a household budget shows: Housing 35%, Food 20%, Transportation 15%, Savings 10%, Other 20%. If the monthly budget is $4,000, how much more is spent on Housing than on Savings?",
+    "stem": "The pie chart below shows a household's monthly budget. If the monthly budget is $4,000, how much more is spent on Housing than on Savings?",
+    "chart": {
+      "kind": "pie",
+      "title": "Household Budget",
+      "data": [
+        { "label": "Housing", "value": 35 },
+        { "label": "Food", "value": 20 },
+        { "label": "Transportation", "value": 15 },
+        { "label": "Savings", "value": 10 },
+        { "label": "Other", "value": 20 }
+      ]
+    },
     "options": [
       {
         "id": "A",
@@ -146,7 +177,18 @@
     "primarySkill": "data-interpretation-tables-graphs",
     "secondarySkills": [],
     "difficulty": 3,
-    "stem": "A table shows quarterly revenue: Q1 $20,000; Q2 $30,000; Q3 $25,000; Q4 $45,000. Which of the following statements are true? Select all that apply.",
+    "stem": "The table below shows quarterly revenue. Which of the following statements are true? Select all that apply.",
+    "chart": {
+      "kind": "table",
+      "title": "Quarterly Revenue",
+      "columns": ["Quarter", "Revenue ($)"],
+      "data": [
+        { "label": "Q1", "value": 20000 },
+        { "label": "Q2", "value": 30000 },
+        { "label": "Q3", "value": 25000 },
+        { "label": "Q4", "value": 45000 }
+      ]
+    },
     "options": [
       {
         "id": "A",
@@ -179,7 +221,17 @@
     "primarySkill": "data-interpretation-tables-graphs",
     "secondarySkills": [],
     "difficulty": 4,
-    "stem": "A pie chart shows a survey of 600 people's favorite season: Spring 15%, Summer 40%, Fall 30%, Winter 15%. How many more people chose Summer than chose Winter and Spring combined?",
+    "stem": "The pie chart below shows a survey of 600 people's favorite season. How many more people chose Summer than chose Winter and Spring combined?",
+    "chart": {
+      "kind": "pie",
+      "title": "Favorite Season",
+      "data": [
+        { "label": "Spring", "value": 15 },
+        { "label": "Summer", "value": 40 },
+        { "label": "Fall", "value": 30 },
+        { "label": "Winter", "value": 15 }
+      ]
+    },
     "answer": 60,
     "solutionStandard": "Summer: \\(0.40\\times600=240\\). Winter + Spring: \\((0.15+0.15)\\times600=0.30\\times600=180\\). Difference: \\(240-180=60\\).",
     "timeTargetSec": 75
@@ -190,7 +242,18 @@
     "primarySkill": "data-interpretation-tables-graphs",
     "secondarySkills": [],
     "difficulty": 4,
-    "stem": "A table shows a store's sales by category as a percent of $50,000 total sales: Electronics 40%, Clothing 25%, Groceries 20%, Other 15%. If Electronics sales increase by 20% (of their own value) next month while total sales stay the same, what percent of the new total do Electronics represent?",
+    "stem": "The table below shows a store's sales by category as a percent of $50,000 total sales. If Electronics sales increase by 20% (of their own value) next month while total sales stay the same, what percent of the new total do Electronics represent?",
+    "chart": {
+      "kind": "table",
+      "title": "Sales by Category",
+      "columns": ["Category", "Percent of Sales"],
+      "data": [
+        { "label": "Electronics", "value": 40 },
+        { "label": "Clothing", "value": 25 },
+        { "label": "Groceries", "value": 20 },
+        { "label": "Other", "value": 15 }
+      ]
+    },
     "options": [
       {
         "id": "A",
@@ -223,7 +286,18 @@
     "primarySkill": "data-interpretation-tables-graphs",
     "secondarySkills": [],
     "difficulty": 4,
-    "stem": "A pie chart shows a city budget of $10 million: Education 30%, Infrastructure 25%, Health 20%, Public Safety 15%, Other 10%.",
+    "stem": "The pie chart below shows a city's $10 million budget.",
+    "chart": {
+      "kind": "pie",
+      "title": "City Budget",
+      "data": [
+        { "label": "Education", "value": 30 },
+        { "label": "Infrastructure", "value": 25 },
+        { "label": "Health", "value": 20 },
+        { "label": "Public Safety", "value": 15 },
+        { "label": "Other", "value": 10 }
+      ]
+    },
     "quantityA": "The amount spent on Education and Health combined",
     "quantityB": "\\(\\$5{,}000{,}000\\)",
     "answer": "C",
@@ -256,7 +330,16 @@
         "step": 1
       }
     ],
-    "stem": "A bar graph shows monthly sales: January ${{jan}},000; February ${{feb}},000; March ${{mar}},000. What is the total sales for these three months, in dollars?",
+    "stem": "The bar graph below shows monthly sales, in thousands of dollars. What is the total sales for these three months, in dollars?",
+    "chart": {
+      "kind": "bar",
+      "title": "Monthly Sales ($ thousands)",
+      "data": [
+        { "label": "January", "value": "jan" },
+        { "label": "February", "value": "feb" },
+        { "label": "March", "value": "mar" }
+      ]
+    },
     "answer": 15000,
     "answerFormula": "(jan+feb+mar)*1000",
     "solutionStandard": "\\(({{jan}}+{{feb}}+{{mar}}) \\times 1000 = {{(jan+feb+mar)*1000}}\\).",
@@ -268,7 +351,17 @@
     "primarySkill": "data-interpretation-tables-graphs",
     "secondarySkills": [],
     "difficulty": 1,
-    "stem": "A pie chart shows a company's 500 employees by department: 20% Sales, 35% Engineering, 25% Support, and the remainder Admin. How many employees are in Admin?",
+    "stem": "The pie chart below shows a company's 500 employees by department. How many employees are in Admin?",
+    "chart": {
+      "kind": "pie",
+      "title": "Employees by Department",
+      "data": [
+        { "label": "Sales", "value": 20 },
+        { "label": "Engineering", "value": 35 },
+        { "label": "Support", "value": 25 },
+        { "label": "Admin", "value": 20, "hideValue": true }
+      ]
+    },
     "options": [
       {
         "id": "A",
@@ -315,7 +408,16 @@
         "step": 10
       }
     ],
-    "stem": "A table shows a company's profit by year: 2020: ${{v1}},000; 2022: ${{v1*(100+pct)/100}},000. What was the percent increase in profit from 2020 to 2022?",
+    "stem": "The table below shows a company's profit by year, in thousands of dollars. What was the percent increase in profit from 2020 to 2022?",
+    "chart": {
+      "kind": "table",
+      "title": "Annual Profit ($ thousands)",
+      "columns": ["Year", "Profit ($ thousands)"],
+      "data": [
+        { "label": "2020", "value": "v1" },
+        { "label": "2022", "value": "v1*(100+pct)/100" }
+      ]
+    },
     "answer": 60,
     "answerFormula": "pct",
     "solutionStandard": "Percent increase \\(= \\dfrac{ {{v1*(100+pct)/100}} - {{v1}} }{ {{v1}} } \\times 100 = {{pct}}\\%\\).",
@@ -327,7 +429,17 @@
     "primarySkill": "data-interpretation-tables-graphs",
     "secondarySkills": [],
     "difficulty": 2,
-    "stem": "A bar graph shows rainfall (in inches): April 6, May 2, June 7, July 1.",
+    "stem": "The bar graph below shows monthly rainfall, in inches.",
+    "chart": {
+      "kind": "bar",
+      "title": "Monthly Rainfall (inches)",
+      "data": [
+        { "label": "April", "value": 6 },
+        { "label": "May", "value": 2 },
+        { "label": "June", "value": 7 },
+        { "label": "July", "value": 1 }
+      ]
+    },
     "quantityA": "The average monthly rainfall over these 4 months",
     "quantityB": "\\(4\\)",
     "answer": "C",
@@ -340,7 +452,18 @@
     "primarySkill": "data-interpretation-tables-graphs",
     "secondarySkills": [],
     "difficulty": 3,
-    "stem": "A pie chart of a household budget shows: Rent 40%, Food 15%, Transportation 10%, Savings 15%, Other 20%. If the monthly budget is $5,000, how much more is spent on Rent than on Transportation?",
+    "stem": "The pie chart below shows a household's monthly budget. If the monthly budget is $5,000, how much more is spent on Rent than on Transportation?",
+    "chart": {
+      "kind": "pie",
+      "title": "Household Budget",
+      "data": [
+        { "label": "Rent", "value": 40 },
+        { "label": "Food", "value": 15 },
+        { "label": "Transportation", "value": 10 },
+        { "label": "Savings", "value": 15 },
+        { "label": "Other", "value": 20 }
+      ]
+    },
     "options": [
       {
         "id": "A",
@@ -407,7 +530,18 @@
     "primarySkill": "data-interpretation-tables-graphs",
     "secondarySkills": [],
     "difficulty": 3,
-    "stem": "A table shows quarterly revenue: Q1 $15,000; Q2 $35,000; Q3 $40,000; Q4 $30,000. Which of the following statements are true? Select all that apply.",
+    "stem": "The table below shows quarterly revenue. Which of the following statements are true? Select all that apply.",
+    "chart": {
+      "kind": "table",
+      "title": "Quarterly Revenue",
+      "columns": ["Quarter", "Revenue ($)"],
+      "data": [
+        { "label": "Q1", "value": 15000 },
+        { "label": "Q2", "value": 35000 },
+        { "label": "Q3", "value": 40000 },
+        { "label": "Q4", "value": 30000 }
+      ]
+    },
     "options": [
       {
         "id": "A",
@@ -460,7 +594,16 @@
         "step": 5
       }
     ],
-    "stem": "A pie chart shows a survey of {{total}} people's favorite season: Summer {{pctSummer}}%, Winter and Spring combined {{pctWS}}%, and Fall {{100-pctSummer-pctWS}}%. How many more people chose Summer than chose Winter and Spring combined?",
+    "stem": "The pie chart below shows a survey of {{total}} people's favorite season. How many more people chose Summer than chose Winter and Spring combined?",
+    "chart": {
+      "kind": "pie",
+      "title": "Favorite Season",
+      "data": [
+        { "label": "Summer", "value": "pctSummer" },
+        { "label": "Winter & Spring", "value": "pctWS" },
+        { "label": "Fall", "value": "100-pctSummer-pctWS" }
+      ]
+    },
     "answer": 60,
     "answerFormula": "total*(pctSummer-pctWS)/100",
     "solutionStandard": "Summer: \\({{pctSummer}}\\% \\times {{total}}\\). Winter+Spring: \\({{pctWS}}\\% \\times {{total}}\\). Difference: \\({{total*(pctSummer-pctWS)/100}}\\).",
@@ -472,7 +615,18 @@
     "primarySkill": "data-interpretation-tables-graphs",
     "secondarySkills": [],
     "difficulty": 5,
-    "stem": "A table shows a store's sales by category as a percent of $60,000 total sales: Electronics 30%, Clothing 25%, Groceries 25%, Other 20%. If Electronics sales increase by 50% (of their own value) next month while total sales stay the same, what percent of the new total do Electronics represent?",
+    "stem": "The table below shows a store's sales by category as a percent of $60,000 total sales. If Electronics sales increase by 50% (of their own value) next month while total sales stay the same, what percent of the new total do Electronics represent?",
+    "chart": {
+      "kind": "table",
+      "title": "Sales by Category",
+      "columns": ["Category", "Percent of Sales"],
+      "data": [
+        { "label": "Electronics", "value": 30 },
+        { "label": "Clothing", "value": 25 },
+        { "label": "Groceries", "value": 25 },
+        { "label": "Other", "value": 20 }
+      ]
+    },
     "options": [
       {
         "id": "A",
@@ -525,7 +679,16 @@
         "step": 5
       }
     ],
-    "stem": "A pie chart shows a company's ${{total}} million budget: R&D {{pctA}}%, Marketing {{pctB}}%, with the remaining {{100-pctA-pctB}}% split between Operations and Admin in an unspecified ratio.",
+    "stem": "The pie chart below shows a company's ${{total}} million budget. The Operations & Admin slice is split between the two departments in an unspecified ratio.",
+    "chart": {
+      "kind": "pie",
+      "title": "Company Budget",
+      "data": [
+        { "label": "R&D", "value": "pctA" },
+        { "label": "Marketing", "value": "pctB" },
+        { "label": "Operations & Admin", "value": "100-pctA-pctB" }
+      ]
+    },
     "quantityA": "The amount spent on Operations",
     "quantityB": "The amount spent on Admin",
     "answer": "D",

@@ -193,6 +193,7 @@
 .chart-wrap svg {
   width: 100%;
   height: auto;
+  overflow: visible;
 }
 .chart-wrap text {
   fill: var(--text);
@@ -217,6 +218,20 @@
 }
 .chart-legend-label {
   font-size: 12px;
+}
+.chart-title-html {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-h);
+  text-align: center;
+  margin: 0 0 4px;
+}
+.chart-wrap .table-wrap {
+  max-width: 400px;
+}
+.chart-wrap .table-wrap .variable-value {
+  color: var(--variable);
+  font-weight: 600;
 }
 
 .question {
