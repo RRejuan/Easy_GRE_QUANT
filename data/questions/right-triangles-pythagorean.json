@@ -104,7 +104,60 @@
     "shortcutTags": [
       "estimate"
     ],
-    "timeTargetSec": 45
+    "timeTargetSec": 45,
+    "figure": {
+      "viewBox": "0 0 200 150",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 130
+            },
+            {
+              "x": 140,
+              "y": 130
+            },
+            {
+              "x": 20,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 20,
+            "y": 130
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 8,
+            "y": 82
+          },
+          "text": "6"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 75,
+            "y": 148
+          },
+          "text": "8"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 85,
+            "y": 72
+          },
+          "text": "?"
+        }
+      ]
+    }
   },
   {
     "id": "right-triangles-pythagorean-003",
@@ -128,7 +181,60 @@
     "shortcutTags": [
       "estimate"
     ],
-    "timeTargetSec": 50
+    "timeTargetSec": 50,
+    "figure": {
+      "viewBox": "0 0 200 150",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 130
+            },
+            {
+              "x": 140,
+              "y": 130
+            },
+            {
+              "x": 20,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 20,
+            "y": 130
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 8,
+            "y": 82
+          },
+          "text": "{{5*k}}"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 75,
+            "y": 148
+          },
+          "text": "?"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 85,
+            "y": 72
+          },
+          "text": "{{13*k}}"
+        }
+      ]
+    }
   },
   {
     "id": "right-triangles-pythagorean-004",
@@ -165,7 +271,60 @@
     "shortcutTags": [
       "estimate"
     ],
-    "timeTargetSec": 60
+    "timeTargetSec": 60,
+    "figure": {
+      "viewBox": "0 0 200 150",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 130
+            },
+            {
+              "x": 140,
+              "y": 130
+            },
+            {
+              "x": 20,
+              "y": 50
+            }
+          ]
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 20,
+            "y": 130
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 75,
+            "y": 148
+          },
+          "text": "6"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 6,
+            "y": 95
+          },
+          "text": "?"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 82,
+            "y": 82
+          },
+          "text": "10"
+        }
+      ]
+    }
   },
   {
     "id": "right-triangles-pythagorean-005",
@@ -227,7 +386,60 @@
     "quantityB": "\\(x\\sqrt{2}\\)",
     "answer": "C",
     "solutionStandard": "\\(c^2 = x^2 + x^2 = 2x^2\\), so \\(c = x\\sqrt{2}\\). The quantities are equal.",
-    "timeTargetSec": 60
+    "timeTargetSec": 60,
+    "figure": {
+      "viewBox": "0 0 200 150",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 130
+            },
+            {
+              "x": 140,
+              "y": 130
+            },
+            {
+              "x": 20,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 20,
+            "y": 130
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 8,
+            "y": 82
+          },
+          "text": "x"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 75,
+            "y": 148
+          },
+          "text": "x"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 85,
+            "y": 72
+          },
+          "text": "?"
+        }
+      ]
+    }
   },
   {
     "id": "right-triangles-pythagorean-007",
@@ -244,7 +456,75 @@
     "shortcutTags": [
       "estimate"
     ],
-    "timeTargetSec": 70
+    "timeTargetSec": 70,
+    "figure": {
+      "viewBox": "0 0 200 150",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 30
+            },
+            {
+              "x": 140,
+              "y": 30
+            },
+            {
+              "x": 140,
+              "y": 130
+            },
+            {
+              "x": 20,
+              "y": 130
+            }
+          ]
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 20,
+            "y": 130
+          },
+          "to": {
+            "x": 140,
+            "y": 30
+          }
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 20,
+            "y": 130
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 8,
+            "y": 82
+          },
+          "text": "9"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 75,
+            "y": 148
+          },
+          "text": "?"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 95,
+            "y": 68
+          },
+          "text": "15"
+        }
+      ]
+    }
   },
   {
     "id": "right-triangles-pythagorean-008",
@@ -281,7 +561,60 @@
     "shortcutTags": [
       "estimate"
     ],
-    "timeTargetSec": 75
+    "timeTargetSec": 75,
+    "figure": {
+      "viewBox": "0 0 200 150",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 130
+            },
+            {
+              "x": 140,
+              "y": 130
+            },
+            {
+              "x": 20,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 20,
+            "y": 130
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 8,
+            "y": 82
+          },
+          "text": "7"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 75,
+            "y": 148
+          },
+          "text": "?"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 85,
+            "y": 72
+          },
+          "text": "25"
+        }
+      ]
+    }
   },
   {
     "id": "right-triangles-pythagorean-009",
@@ -318,7 +651,60 @@
     "shortcutTags": [
       "estimate"
     ],
-    "timeTargetSec": 90
+    "timeTargetSec": 90,
+    "figure": {
+      "viewBox": "0 0 200 150",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 130
+            },
+            {
+              "x": 140,
+              "y": 130
+            },
+            {
+              "x": 20,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 20,
+            "y": 130
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 8,
+            "y": 82
+          },
+          "text": "?"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 75,
+            "y": 148
+          },
+          "text": "?"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 85,
+            "y": 72
+          },
+          "text": "17"
+        }
+      ]
+    }
   },
   {
     "id": "right-triangles-pythagorean-010",
@@ -355,7 +741,60 @@
     "answer": 17,
     "answerFormula": "17 * k",
     "solutionStandard": "This is the 8-15-17 triple scaled by \\({{k}}\\): hypotenuse \\(= {{17*k}}\\).",
-    "timeTargetSec": 40
+    "timeTargetSec": 40,
+    "figure": {
+      "viewBox": "0 0 200 150",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 130
+            },
+            {
+              "x": 140,
+              "y": 130
+            },
+            {
+              "x": 20,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 20,
+            "y": 130
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 8,
+            "y": 82
+          },
+          "text": "{{8*k}}"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 75,
+            "y": 148
+          },
+          "text": "{{15*k}}"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 85,
+            "y": 72
+          },
+          "text": "?"
+        }
+      ]
+    }
   },
   {
     "id": "right-triangles-pythagorean-012",
@@ -461,7 +900,60 @@
     "answer": 24,
     "answerFormula": "24 * k",
     "solutionStandard": "This is the 7-24-25 triple scaled by \\({{k}}\\): the other leg is \\({{24*k}}\\).",
-    "timeTargetSec": 50
+    "timeTargetSec": 50,
+    "figure": {
+      "viewBox": "0 0 200 150",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 130
+            },
+            {
+              "x": 140,
+              "y": 130
+            },
+            {
+              "x": 20,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 20,
+            "y": 130
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 8,
+            "y": 82
+          },
+          "text": "{{7*k}}"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 75,
+            "y": 148
+          },
+          "text": "?"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 85,
+            "y": 72
+          },
+          "text": "{{25*k}}"
+        }
+      ]
+    }
   },
   {
     "id": "right-triangles-pythagorean-014",
@@ -494,7 +986,75 @@
     ],
     "answer": "C",
     "solutionStandard": "18 and 24 are \\(6\\times\\) the 3-4-5 triple: diagonal \\(= 6\\times5=30\\).",
-    "timeTargetSec": 55
+    "timeTargetSec": 55,
+    "figure": {
+      "viewBox": "0 0 200 150",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 30
+            },
+            {
+              "x": 140,
+              "y": 30
+            },
+            {
+              "x": 140,
+              "y": 130
+            },
+            {
+              "x": 20,
+              "y": 130
+            }
+          ]
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 20,
+            "y": 130
+          },
+          "to": {
+            "x": 140,
+            "y": 30
+          }
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 20,
+            "y": 130
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 8,
+            "y": 82
+          },
+          "text": "18"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 75,
+            "y": 148
+          },
+          "text": "24"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 95,
+            "y": 68
+          },
+          "text": "?"
+        }
+      ]
+    }
   },
   {
     "id": "right-triangles-pythagorean-015",
@@ -515,7 +1075,60 @@
     "quantityB": "{{5*k - 1}}",
     "answer": "A",
     "solutionStandard": "This is the 3-4-5 triple scaled by \\({{k}}\\), so the hypotenuse is \\({{5*k}}\\), always exactly 1 more than Quantity B.",
-    "timeTargetSec": 55
+    "timeTargetSec": 55,
+    "figure": {
+      "viewBox": "0 0 200 150",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 130
+            },
+            {
+              "x": 140,
+              "y": 130
+            },
+            {
+              "x": 20,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 20,
+            "y": 130
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 8,
+            "y": 82
+          },
+          "text": "{{3*k}}"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 75,
+            "y": 148
+          },
+          "text": "{{4*k}}"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 85,
+            "y": 72
+          },
+          "text": "?"
+        }
+      ]
+    }
   },
   {
     "id": "right-triangles-pythagorean-016",
@@ -572,7 +1185,60 @@
     "answer": 84,
     "answerFormula": "84 * k * k",
     "solutionStandard": "This is the 7-24-25 triple scaled by \\({{k}}\\), so the other leg is \\({{24*k}}\\). Area \\(= \\frac{1}{2}({{7*k}})({{24*k}}) = {{84*k*k}}\\).",
-    "timeTargetSec": 75
+    "timeTargetSec": 75,
+    "figure": {
+      "viewBox": "0 0 200 150",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 130
+            },
+            {
+              "x": 140,
+              "y": 130
+            },
+            {
+              "x": 20,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 20,
+            "y": 130
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 8,
+            "y": 82
+          },
+          "text": "{{7*k}}"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 75,
+            "y": 148
+          },
+          "text": "?"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 85,
+            "y": 72
+          },
+          "text": "{{25*k}}"
+        }
+      ]
+    }
   },
   {
     "id": "right-triangles-pythagorean-018",
@@ -605,7 +1271,60 @@
     ],
     "answer": "D",
     "solutionStandard": "15-20-25 is \\(5\\times\\) the 3-4-5 triple, so the other leg is 20. Perimeter \\(= 15+20+25=60\\).",
-    "timeTargetSec": 80
+    "timeTargetSec": 80,
+    "figure": {
+      "viewBox": "0 0 200 150",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 130
+            },
+            {
+              "x": 140,
+              "y": 130
+            },
+            {
+              "x": 20,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 20,
+            "y": 130
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 8,
+            "y": 82
+          },
+          "text": "15"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 75,
+            "y": 148
+          },
+          "text": "?"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 85,
+            "y": 72
+          },
+          "text": "25"
+        }
+      ]
+    }
   },
   {
     "id": "right-triangles-pythagorean-019",
@@ -625,7 +1344,60 @@
     "answer": 40,
     "answerFormula": "40 * k",
     "solutionStandard": "This is the 8-15-17 triple scaled by \\({{k}}\\): perimeter \\(= {{8*k}}+{{15*k}}+{{17*k}} = {{40*k}}\\).",
-    "timeTargetSec": 85
+    "timeTargetSec": 85,
+    "figure": {
+      "viewBox": "0 0 200 150",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 130
+            },
+            {
+              "x": 140,
+              "y": 130
+            },
+            {
+              "x": 20,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 20,
+            "y": 130
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 8,
+            "y": 82
+          },
+          "text": "{{8*k}}"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 75,
+            "y": 148
+          },
+          "text": "?"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 85,
+            "y": 72
+          },
+          "text": "{{17*k}}"
+        }
+      ]
+    }
   },
   {
     "id": "right-triangles-pythagorean-020",
