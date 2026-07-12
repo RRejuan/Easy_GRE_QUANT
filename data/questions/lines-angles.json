@@ -8,7 +8,50 @@
     "stem": "Two angles lie on a straight line. One measures \\(65^\\circ\\). What is the measure, in degrees, of the other angle?",
     "answer": 115,
     "solutionStandard": "Angles on a straight line sum to \\(180^\\circ\\): \\(180 - 65 = 115\\).",
-    "timeTargetSec": 30
+    "timeTargetSec": 30,
+    "figure": {
+      "viewBox": "0 0 200 100",
+      "elements": [
+        {
+          "kind": "line",
+          "from": {
+            "x": 20,
+            "y": 80
+          },
+          "to": {
+            "x": 180,
+            "y": 80
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 100,
+            "y": 80
+          },
+          "to": {
+            "x": 140,
+            "y": 20
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 70,
+            "y": 65
+          },
+          "text": "65°"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 128,
+            "y": 55
+          },
+          "text": "?"
+        }
+      ]
+    }
   },
   {
     "id": "lines-angles-002",
@@ -41,7 +84,50 @@
     ],
     "answer": "A",
     "solutionStandard": "Vertical angles are always equal, so the vertical angle also measures \\(40^\\circ\\).",
-    "timeTargetSec": 30
+    "timeTargetSec": 30,
+    "figure": {
+      "viewBox": "0 0 200 160",
+      "elements": [
+        {
+          "kind": "line",
+          "from": {
+            "x": 20,
+            "y": 20
+          },
+          "to": {
+            "x": 180,
+            "y": 140
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 20,
+            "y": 140
+          },
+          "to": {
+            "x": 180,
+            "y": 20
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 88,
+            "y": 38
+          },
+          "text": "40°"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 90,
+            "y": 128
+          },
+          "text": "?"
+        }
+      ]
+    }
   },
   {
     "id": "lines-angles-003",
@@ -52,7 +138,50 @@
     "stem": "Two lines intersect. One of the four angles formed is \\(70^\\circ\\). What is the measure, in degrees, of an angle adjacent to it?",
     "answer": 110,
     "solutionStandard": "Adjacent angles formed by intersecting lines are supplementary: \\(180 - 70 = 110\\).",
-    "timeTargetSec": 40
+    "timeTargetSec": 40,
+    "figure": {
+      "viewBox": "0 0 200 160",
+      "elements": [
+        {
+          "kind": "line",
+          "from": {
+            "x": 20,
+            "y": 20
+          },
+          "to": {
+            "x": 180,
+            "y": 140
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 20,
+            "y": 140
+          },
+          "to": {
+            "x": 180,
+            "y": 20
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 88,
+            "y": 38
+          },
+          "text": "70°"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 90,
+            "y": 128
+          },
+          "text": "?"
+        }
+      ]
+    }
   },
   {
     "id": "lines-angles-004",
@@ -85,7 +214,61 @@
     ],
     "answer": "C",
     "solutionStandard": "Corresponding angles formed by a transversal crossing parallel lines are always equal, so the corresponding angle is also \\(110^\\circ\\).",
-    "timeTargetSec": 45
+    "timeTargetSec": 45,
+    "figure": {
+      "viewBox": "0 0 200 160",
+      "elements": [
+        {
+          "kind": "line",
+          "from": {
+            "x": 20,
+            "y": 40
+          },
+          "to": {
+            "x": 180,
+            "y": 40
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 20,
+            "y": 120
+          },
+          "to": {
+            "x": 180,
+            "y": 120
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 40,
+            "y": 10
+          },
+          "to": {
+            "x": 160,
+            "y": 150
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 78,
+            "y": 30
+          },
+          "text": "110°"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 146,
+            "y": 108
+          },
+          "text": "?"
+        }
+      ]
+    }
   },
   {
     "id": "lines-angles-005",
@@ -98,7 +281,61 @@
     "quantityB": "\\(115^\\circ\\)",
     "answer": "C",
     "solutionStandard": "Co-interior angles are supplementary: \\(180 - 65 = 115\\). The quantities are equal.",
-    "timeTargetSec": 55
+    "timeTargetSec": 55,
+    "figure": {
+      "viewBox": "0 0 200 160",
+      "elements": [
+        {
+          "kind": "line",
+          "from": {
+            "x": 20,
+            "y": 40
+          },
+          "to": {
+            "x": 180,
+            "y": 40
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 20,
+            "y": 120
+          },
+          "to": {
+            "x": 180,
+            "y": 120
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 40,
+            "y": 10
+          },
+          "to": {
+            "x": 160,
+            "y": 150
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 78,
+            "y": 30
+          },
+          "text": "65°"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 146,
+            "y": 108
+          },
+          "text": "?"
+        }
+      ]
+    }
   },
   {
     "id": "lines-angles-006",
@@ -141,7 +378,69 @@
     "stem": "Three angles around a point measure \\(x\\), \\(2x\\), and \\(3x\\) degrees. What is the value of \\(x\\)?",
     "answer": 60,
     "solutionStandard": "Angles around a point sum to \\(360^\\circ\\): \\(x + 2x + 3x = 360\\), so \\(6x = 360\\) and \\(x = 60\\).",
-    "timeTargetSec": 55
+    "timeTargetSec": 55,
+    "figure": {
+      "viewBox": "0 0 200 170",
+      "elements": [
+        {
+          "kind": "line",
+          "from": {
+            "x": 100,
+            "y": 90
+          },
+          "to": {
+            "x": 165,
+            "y": 90
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 100,
+            "y": 90
+          },
+          "to": {
+            "x": 133,
+            "y": 34
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 100,
+            "y": 90
+          },
+          "to": {
+            "x": 35,
+            "y": 90
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 128,
+            "y": 74
+          },
+          "text": "x"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 84,
+            "y": 62
+          },
+          "text": "2x"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 100,
+            "y": 123
+          },
+          "text": "3x"
+        }
+      ]
+    }
   },
   {
     "id": "lines-angles-008",
@@ -207,7 +506,61 @@
     ],
     "answer": "D",
     "solutionStandard": "Co-interior angles are supplementary: \\((3x+10) + (2x+20) = 180\\), so \\(5x + 30 = 180\\), giving \\(5x=150\\) and \\(x=30\\).",
-    "timeTargetSec": 75
+    "timeTargetSec": 75,
+    "figure": {
+      "viewBox": "0 0 200 160",
+      "elements": [
+        {
+          "kind": "line",
+          "from": {
+            "x": 20,
+            "y": 40
+          },
+          "to": {
+            "x": 180,
+            "y": 40
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 20,
+            "y": 120
+          },
+          "to": {
+            "x": 180,
+            "y": 120
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 40,
+            "y": 10
+          },
+          "to": {
+            "x": 160,
+            "y": 150
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 78,
+            "y": 30
+          },
+          "text": "3x+10"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 146,
+            "y": 108
+          },
+          "text": "2x+20"
+        }
+      ]
+    }
   },
   {
     "id": "lines-angles-010",
@@ -316,7 +669,50 @@
     ],
     "answer": "C",
     "solutionStandard": "Angles on a straight line sum to \\(180^\\circ\\): \\(180-72=108^\\circ\\).",
-    "timeTargetSec": 30
+    "timeTargetSec": 30,
+    "figure": {
+      "viewBox": "0 0 200 100",
+      "elements": [
+        {
+          "kind": "line",
+          "from": {
+            "x": 20,
+            "y": 80
+          },
+          "to": {
+            "x": 180,
+            "y": 80
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 100,
+            "y": 80
+          },
+          "to": {
+            "x": 140,
+            "y": 20
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 70,
+            "y": 65
+          },
+          "text": "72°"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 128,
+            "y": 55
+          },
+          "text": "?"
+        }
+      ]
+    }
   },
   {
     "id": "lines-angles-013",
@@ -423,7 +819,61 @@
     ],
     "answer": "B",
     "solutionStandard": "Alternate interior angles formed by a transversal crossing parallel lines are always equal, so it is also \\(75^\\circ\\).",
-    "timeTargetSec": 40
+    "timeTargetSec": 40,
+    "figure": {
+      "viewBox": "0 0 200 160",
+      "elements": [
+        {
+          "kind": "line",
+          "from": {
+            "x": 20,
+            "y": 40
+          },
+          "to": {
+            "x": 180,
+            "y": 40
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 20,
+            "y": 120
+          },
+          "to": {
+            "x": 180,
+            "y": 120
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 40,
+            "y": 10
+          },
+          "to": {
+            "x": 160,
+            "y": 150
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 78,
+            "y": 30
+          },
+          "text": "75°"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 146,
+            "y": 108
+          },
+          "text": "?"
+        }
+      ]
+    }
   },
   {
     "id": "lines-angles-015",
@@ -444,7 +894,61 @@
     "quantityB": "{{180-a}}",
     "answer": "C",
     "solutionStandard": "Co-interior angles are always supplementary: \\(180-{{a}}={{180-a}}\\). The quantities are equal.",
-    "timeTargetSec": 55
+    "timeTargetSec": 55,
+    "figure": {
+      "viewBox": "0 0 200 160",
+      "elements": [
+        {
+          "kind": "line",
+          "from": {
+            "x": 20,
+            "y": 40
+          },
+          "to": {
+            "x": 180,
+            "y": 40
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 20,
+            "y": 120
+          },
+          "to": {
+            "x": 180,
+            "y": 120
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 40,
+            "y": 10
+          },
+          "to": {
+            "x": 160,
+            "y": 150
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 78,
+            "y": 30
+          },
+          "text": "{{a}}°"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 146,
+            "y": 108
+          },
+          "text": "?"
+        }
+      ]
+    }
   },
   {
     "id": "lines-angles-016",
@@ -477,7 +981,61 @@
       "D"
     ],
     "solutionStandard": "The corresponding angle equals \\(70^\\circ\\) (A). The alternate interior angle also equals \\(70^\\circ\\) (B). The vertical angle to the corresponding angle equals it, so also \\(70^\\circ\\) (D). The co-interior angle is supplementary: \\(180-70=110^\\circ \\neq 70^\\circ\\) (C is false).",
-    "timeTargetSec": 85
+    "timeTargetSec": 85,
+    "figure": {
+      "viewBox": "0 0 200 160",
+      "elements": [
+        {
+          "kind": "line",
+          "from": {
+            "x": 20,
+            "y": 40
+          },
+          "to": {
+            "x": 180,
+            "y": 40
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 20,
+            "y": 120
+          },
+          "to": {
+            "x": 180,
+            "y": 120
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 40,
+            "y": 10
+          },
+          "to": {
+            "x": 160,
+            "y": 150
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 78,
+            "y": 30
+          },
+          "text": "70°"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 146,
+            "y": 108
+          },
+          "text": "?"
+        }
+      ]
+    }
   },
   {
     "id": "lines-angles-017",
@@ -497,7 +1055,88 @@
     "answer": 60,
     "answerFormula": "(360 - k) / 4",
     "solutionStandard": "Angles around a point sum to \\(360^\\circ\\): \\(x+x+2x+{{k}}=360\\), so \\(4x = 360-{{k}} = {{360-k}}\\), giving \\(x = {{(360-k)/4}}\\).",
-    "timeTargetSec": 60
+    "timeTargetSec": 60,
+    "figure": {
+      "viewBox": "0 0 200 170",
+      "elements": [
+        {
+          "kind": "line",
+          "from": {
+            "x": 100,
+            "y": 90
+          },
+          "to": {
+            "x": 165,
+            "y": 90
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 100,
+            "y": 90
+          },
+          "to": {
+            "x": 122,
+            "y": 29
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 100,
+            "y": 90
+          },
+          "to": {
+            "x": 50,
+            "y": 48
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 100,
+            "y": 90
+          },
+          "to": {
+            "x": 50,
+            "y": 132
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 127,
+            "y": 71
+          },
+          "text": "x"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 92,
+            "y": 59
+          },
+          "text": "x"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 68,
+            "y": 90
+          },
+          "text": "2x"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 111,
+            "y": 121
+          },
+          "text": "{{k}}°"
+        }
+      ]
+    }
   },
   {
     "id": "lines-angles-018",
