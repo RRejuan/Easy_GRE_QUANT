@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { groupSkillsByAreaAndTopic, skillsWithContent } from "../lib/content";
-import { storageAdapter } from "../lib/storage";
+import { storageAdapter, resetProgress } from "../lib/storage";
 import { computeMastery } from "../lib/mastery";
 import { recommendNextSkill } from "../lib/recommend";
 import { AreaMasteryChart } from "../components/AreaMasteryChart";
@@ -39,6 +39,15 @@ export function DashboardPage() {
 
   const recommended = recommendNextSkill();
   const groups = groupSkillsByAreaAndTopic(skills);
+
+  function handleResetProgress() {
+    const confirmed = window.confirm(
+      "Reset all progress for this profile? This clears every skill's mastery and attempt history and cannot be undone. Consider using Export first if you want a backup.",
+    );
+    if (!confirmed) return;
+    resetProgress();
+    window.location.reload();
+  }
 
   return (
     <div className="skill-page dashboard-page">
@@ -92,6 +101,16 @@ export function DashboardPage() {
           ))}
         </section>
       ))}
+
+      <div className="danger-zone">
+        <button type="button" className="reset-progress-button" onClick={handleResetProgress}>
+          Reset progress
+        </button>
+        <p className="danger-zone-hint">
+          Clears this profile's mastery and attempt history. Export first if
+          you want a backup.
+        </p>
+      </div>
     </div>
   );
 }

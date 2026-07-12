@@ -200,6 +200,65 @@
   margin: 12px 0;
 }
 
+.table-wrap {
+  overflow-x: auto;
+  margin: 16px 0;
+}
+
+.table-wrap table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--bg-card);
+}
+
+.table-wrap th,
+.table-wrap td {
+  border: 1px solid var(--border);
+  padding: 8px 12px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.table-wrap th {
+  background: var(--bg);
+  color: var(--text-h);
+}
+
+.about-gre-page h2 {
+  margin-top: 32px;
+}
+
+.about-gre-page h3 {
+  margin-top: 20px;
+}
+
+.danger-zone {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+}
+
+.reset-progress-button {
+  background: transparent;
+  color: var(--danger);
+  border: 1px solid var(--danger);
+  border-radius: 6px;
+  padding: 8px 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.reset-progress-button:hover {
+  background: var(--danger);
+  color: var(--primary-contrast);
+}
+
+.danger-zone-hint {
+  margin-top: 6px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
 .question-timer {
   display: flex;
   align-items: center;

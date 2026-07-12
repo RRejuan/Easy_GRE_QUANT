@@ -68,3 +68,8 @@ export function importProgressJSON(json: string): void {
   JSON.parse(json); // throws if invalid, before we touch storage
   localStorage.setItem(storageKey(), json);
 }
+
+/** Clears all mastery/attempt data for the active profile only. */
+export function resetProgress(): void {
+  localStorage.removeItem(storageKey());
+}
