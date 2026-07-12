@@ -64,8 +64,12 @@ export class LocalStorageAdapter implements StorageAdapter {
       skillId: attempt.skillId,
       attempts: existing.attempts + 1,
       correctCount: existing.correctCount + (attempt.correct ? 1 : 0),
-      totalTimeSec: existing.totalTimeSec + attempt.timeSec,
-      totalTimeTargetSec: existing.totalTimeTargetSec + attempt.timeTargetSec,
+      // Only correct attempts count toward the pace metric -- answering
+      // wrong quickly isn't "fast", it's just wrong, and shouldn't prop up
+      // the mastery score's speed component.
+      totalTimeSec: existing.totalTimeSec + (attempt.correct ? attempt.timeSec : 0),
+      totalTimeTargetSec:
+        existing.totalTimeTargetSec + (attempt.correct ? attempt.timeTargetSec : 0),
       highestDifficultyCleared: attempt.correct
         ? Math.max(existing.highestDifficultyCleared, attempt.difficulty)
         : existing.highestDifficultyCleared,

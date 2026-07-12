@@ -12,8 +12,11 @@ export function computeMastery(state: SkillMasteryState): number {
 
   const accuracyScore = (state.correctCount / state.attempts) * 100;
 
-  const timeRatio = state.totalTimeSec / state.totalTimeTargetSec;
-  const speedScore = clamp((2 - timeRatio) * 100, 0, 100);
+  // totalTimeTargetSec only accumulates on correct attempts (see
+  // recordAttempt), so it's 0 whenever nothing has been solved correctly
+  // yet -- guard the division rather than let a 0/0 NaN leak into the score.
+  const timeRatio = state.totalTimeTargetSec > 0 ? state.totalTimeSec / state.totalTimeTargetSec : 1;
+  const speedScore = state.totalTimeTargetSec > 0 ? clamp((2 - timeRatio) * 100, 0, 100) : 0;
 
   const difficultyScore = (state.highestDifficultyCleared / MAX_DIFFICULTY) * 100;
 
