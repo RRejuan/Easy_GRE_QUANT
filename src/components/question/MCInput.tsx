@@ -5,11 +5,13 @@ import { MathText } from "../MathText";
 export function MCInput({
   question,
   onSubmit,
+  initialAnswer,
 }: {
   question: MCQuestion;
   onSubmit: (answer: string) => void;
+  initialAnswer?: string;
 }) {
-  const [selected, setSelected] = useState<string>();
+  const [selected, setSelected] = useState<string | undefined>(initialAnswer);
 
   return (
     <div className="mc-input">

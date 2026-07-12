@@ -1,12 +1,29 @@
 import type {
   AttemptRecord,
+  MockTestResult,
   SkillMasteryState,
   StorageAdapter,
 } from "./StorageAdapter";
 import { getActiveProfileId } from "./profiles";
 
+const MAX_MOCK_HISTORY = 50;
+
 function storageKey(): string {
   return `gre-quant:mastery:${getActiveProfileId()}`;
+}
+
+function mockHistoryKey(): string {
+  return `gre-quant:mock-history:${getActiveProfileId()}`;
+}
+
+function loadMockHistory(): MockTestResult[] {
+  const raw = localStorage.getItem(mockHistoryKey());
+  if (!raw) return [];
+  try {
+    return JSON.parse(raw) as MockTestResult[];
+  } catch {
+    return [];
+  }
 }
 
 function loadAll(): Record<string, SkillMasteryState> {
@@ -58,6 +75,17 @@ export class LocalStorageAdapter implements StorageAdapter {
     saveAll(all);
     return updated;
   }
+
+  recordMockTestResult(result: MockTestResult): void {
+    const history = loadMockHistory();
+    history.push(result);
+    while (history.length > MAX_MOCK_HISTORY) history.shift();
+    localStorage.setItem(mockHistoryKey(), JSON.stringify(history));
+  }
+
+  getMockTestHistory(): MockTestResult[] {
+    return loadMockHistory();
+  }
 }
 
 export function exportProgressJSON(): string {
@@ -69,7 +97,8 @@ export function importProgressJSON(json: string): void {
   localStorage.setItem(storageKey(), json);
 }
 
-/** Clears all mastery/attempt data for the active profile only. */
+/** Clears all mastery/attempt data and mock test history for the active profile only. */
 export function resetProgress(): void {
   localStorage.removeItem(storageKey());
+  localStorage.removeItem(mockHistoryKey());
 }

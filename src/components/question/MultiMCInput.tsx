@@ -5,11 +5,13 @@ import { MathText } from "../MathText";
 export function MultiMCInput({
   question,
   onSubmit,
+  initialAnswer,
 }: {
   question: MultiMCQuestion;
   onSubmit: (answer: string[]) => void;
+  initialAnswer?: string[];
 }) {
-  const [selected, setSelected] = useState<Set<string>>(new Set());
+  const [selected, setSelected] = useState<Set<string>>(new Set(initialAnswer ?? []));
 
   function toggle(optionId: string) {
     setSelected((prev) => {

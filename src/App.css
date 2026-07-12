@@ -357,6 +357,145 @@ fieldset label {
   font-weight: bold;
 }
 
+.result-skipped {
+  color: var(--text-muted);
+  font-weight: bold;
+}
+
+.answer-saved-hint {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-top: 8px;
+}
+
+.mock-toolbar {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.mock-palette {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 12px 0;
+}
+
+.mock-palette-item {
+  width: 34px;
+  height: 34px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+  cursor: pointer;
+  font-variant-numeric: tabular-nums;
+}
+
+.mock-palette-current {
+  border-color: var(--primary);
+  color: var(--primary);
+  font-weight: 700;
+}
+
+.mock-palette-answered {
+  background: var(--success);
+  color: var(--primary-contrast);
+  border-color: var(--success);
+}
+
+.mock-palette-unanswered {
+  color: var(--text-muted);
+}
+
+.mock-nav {
+  display: flex;
+  gap: 10px;
+  margin-top: 16px;
+  flex-wrap: wrap;
+}
+
+.mock-history {
+  margin: 20px 0;
+  padding: 16px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+.mock-history-list {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0 0;
+}
+
+.mock-history-list li {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.mock-history-list li:last-child {
+  border-bottom: none;
+}
+
+.mock-review-actions {
+  margin: 16px 0;
+}
+
+.review-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-left-width: 4px;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px 0;
+}
+
+.review-card-correct {
+  border-left-color: var(--success);
+}
+
+.review-card-incorrect {
+  border-left-color: var(--danger);
+}
+
+.review-card-skipped {
+  border-left-color: var(--text-muted);
+}
+
+.review-card-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.review-options {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.review-options li {
+  padding: 6px 10px;
+  border-radius: 6px;
+  margin-bottom: 4px;
+}
+
+.review-option-correct {
+  background: color-mix(in srgb, var(--success) 18%, transparent);
+}
+
+.review-option-chosen-wrong {
+  background: color-mix(in srgb, var(--danger) 18%, transparent);
+}
+
+.review-numeric {
+  margin: 10px 0;
+}
+
 .solution {
   background: var(--bg);
   border-radius: 8px;

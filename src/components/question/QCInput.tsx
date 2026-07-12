@@ -12,11 +12,13 @@ const QC_CHOICES: { id: "A" | "B" | "C" | "D"; label: string }[] = [
 export function QCInput({
   question,
   onSubmit,
+  initialAnswer,
 }: {
   question: QCQuestion;
   onSubmit: (answer: "A" | "B" | "C" | "D") => void;
+  initialAnswer?: "A" | "B" | "C" | "D";
 }) {
-  const [selected, setSelected] = useState<"A" | "B" | "C" | "D">();
+  const [selected, setSelected] = useState<"A" | "B" | "C" | "D" | undefined>(initialAnswer);
 
   return (
     <div className="qc-input">

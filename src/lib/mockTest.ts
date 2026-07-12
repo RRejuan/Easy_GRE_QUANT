@@ -44,10 +44,13 @@ export function determineTier(correctCount: number, total: number): Tier {
   return "easy";
 }
 
+// Section 2 pools skew harder than skill-practice sessions, since the real
+// GRE's section-2 difficulty (even the "easy" routing) still draws from a
+// pool calibrated above introductory skill drills.
 const TIER_DIFFICULTY_RANGE: Record<Tier, [number, number]> = {
-  easy: [1, 2],
-  medium: [2, 3],
-  hard: [3, 5],
+  easy: [2, 3],
+  medium: [3, 4],
+  hard: [4, 5],
 };
 
 export function assembleSection2(tier: Tier, excludeIds: Set<string>): Question[] {
