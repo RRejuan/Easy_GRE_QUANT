@@ -5,7 +5,16 @@
     "primarySkill": "data-interpretation-tables-graphs",
     "secondarySkills": [],
     "difficulty": 1,
-    "stem": "A bar graph shows monthly sales: January $4,000; February $6,000; March $5,000. What is the total sales for these three months, in dollars?",
+    "stem": "The bar graph below shows a company's sales for the first three months of the year. What is the total sales for these three months, in dollars?",
+    "chart": {
+      "kind": "bar",
+      "title": "Monthly Sales",
+      "data": [
+        { "label": "January", "value": 4000 },
+        { "label": "February", "value": 6000 },
+        { "label": "March", "value": 5000 }
+      ]
+    },
     "answer": 15000,
     "solutionStandard": "\\(4000+6000+5000=15000\\).",
     "timeTargetSec": 40
@@ -16,7 +25,17 @@
     "primarySkill": "data-interpretation-tables-graphs",
     "secondarySkills": [],
     "difficulty": 1,
-    "stem": "A pie chart shows a school's 400 students by grade: 25% freshmen, 30% sophomores, 20% juniors, and the remainder seniors. How many students are seniors?",
+    "stem": "The pie chart below shows the grade distribution of a school's 400 students. How many students are seniors?",
+    "chart": {
+      "kind": "pie",
+      "title": "Students by Grade",
+      "data": [
+        { "label": "Freshmen", "value": 25 },
+        { "label": "Sophomores", "value": 30 },
+        { "label": "Juniors", "value": 20 },
+        { "label": "Seniors", "value": 25, "hideValue": true }
+      ]
+    },
     "options": [
       {
         "id": "A",
@@ -106,7 +125,17 @@
     "primarySkill": "data-interpretation-tables-graphs",
     "secondarySkills": [],
     "difficulty": 3,
-    "stem": "A line graph shows a company's employee count: 2019: 200; 2020: 250; 2021: 300; 2022: 270. What was the percent decrease from 2021 to 2022?",
+    "stem": "The line graph below shows a company's employee count over four years. What was the percent decrease from 2021 to 2022?",
+    "chart": {
+      "kind": "line",
+      "title": "Employee Count",
+      "points": [
+        { "x": "2019", "y": 200 },
+        { "x": "2020", "y": 250 },
+        { "x": "2021", "y": 300 },
+        { "x": "2022", "y": 270 }
+      ]
+    },
     "answer": 10,
     "solutionStandard": "Percent decrease \\(=\\dfrac{300-270}{300}\\times100=\\dfrac{30}{300}\\times100=10\\%\\).",
     "timeTargetSec": 65
@@ -358,7 +387,15 @@
         "step": 5
       }
     ],
-    "stem": "A line graph shows a company's employee count: 2021: {{v1}}; 2022: {{v1*(100-pctDec)/100}}. What was the percent decrease from 2021 to 2022?",
+    "stem": "The line graph below shows a company's employee count for 2021 and 2022. What was the percent decrease from 2021 to 2022?",
+    "chart": {
+      "kind": "line",
+      "title": "Employee Count",
+      "points": [
+        { "x": "2021", "y": "v1" },
+        { "x": "2022", "y": "v1*(100-pctDec)/100" }
+      ]
+    },
     "answer": 10,
     "answerFormula": "pctDec",
     "solutionStandard": "Percent decrease \\(=\\dfrac{ {{v1}} - {{v1*(100-pctDec)/100}} }{ {{v1}} }\\times100={{pctDec}}\\%\\).",

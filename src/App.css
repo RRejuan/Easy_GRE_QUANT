@@ -186,6 +186,39 @@
   font-weight: 600;
 }
 
+.chart-wrap {
+  margin: 16px 0;
+  max-width: 560px;
+}
+.chart-wrap svg {
+  width: 100%;
+  height: auto;
+}
+.chart-wrap text {
+  fill: var(--text);
+}
+.chart-wrap text .variable-value {
+  fill: var(--variable);
+  font-weight: 600;
+}
+.chart-title {
+  font-size: 14px;
+  font-weight: 700;
+  fill: var(--text-h);
+  text-anchor: middle;
+}
+.chart-line {
+  fill: none;
+  stroke: var(--secondary);
+  stroke-width: 2;
+}
+.chart-point {
+  fill: var(--secondary);
+}
+.chart-legend-label {
+  font-size: 12px;
+}
+
 .question {
   border: 1px solid var(--border);
   background: var(--bg-card);

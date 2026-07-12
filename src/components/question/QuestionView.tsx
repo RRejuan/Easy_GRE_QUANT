@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import type { Question } from "../../types";
 import { MathText } from "../MathText";
 import { FigureView } from "../FigureView";
+import { ChartView } from "../ChartView";
 import { QCInput } from "./QCInput";
 import { MCInput } from "./MCInput";
 import { MultiMCInput } from "./MultiMCInput";
@@ -154,6 +155,7 @@ export function QuestionView({
       </p>
 
       {question.figure && <FigureView figure={question.figure} values={values} />}
+      {question.chart && <ChartView chart={question.chart} values={values} />}
 
       {!submitted && displayQuestion.type === "QC" && (
         <QCInput question={displayQuestion} onSubmit={handleSubmit} />
