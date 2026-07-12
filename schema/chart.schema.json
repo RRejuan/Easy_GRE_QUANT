@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "gre-quant-app/chart.schema.json",
+  "title": "Chart",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["kind"],
+  "properties": {
+    "kind": { "enum": ["bar", "pie", "line", "table"] },
+    "title": { "type": "string" },
+    "yLabel": { "type": "string" },
+    "columns": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "data": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["label", "value"],
+        "properties": {
+          "label": { "type": "string", "minLength": 1 },
+          "value": { "$ref": "#/$defs/chartValue" },
+          "hideValue": { "type": "boolean" }
+        }
+      }
+    },
+    "points": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["x", "y"],
+        "properties": {
+          "x": { "type": "string", "minLength": 1 },
+          "y": { "$ref": "#/$defs/chartValue" }
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "kind": { "const": "bar" } } },
+      "then": { "required": ["data"] }
+    },
+    {
+      "if": { "properties": { "kind": { "const": "pie" } } },
+      "then": { "required": ["data"] }
+    },
+    {
+      "if": { "properties": { "kind": { "const": "line" } } },
+      "then": { "required": ["points"] }
+    },
+    {
+      "if": { "properties": { "kind": { "const": "table" } } },
+      "then": { "required": ["columns", "data"] }
+    }
+  ],
+  "$defs": {
+    "chartValue": {
+      "oneOf": [{ "type": "number" }, { "type": "string", "minLength": 1 }]
+    }
+  }
+}

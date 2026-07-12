@@ -15,7 +15,7 @@
     "type": "QC",
     "primarySkill": "range-standard-deviation",
     "secondarySkills": [],
-    "difficulty": 2,
+    "difficulty": 1,
     "stem": "Data set A: \\(5, 5, 5, 5\\). Data set B: \\(1, 5, 5, 9\\). Both have a mean of 5.",
     "quantityA": "The standard deviation of Data set A",
     "quantityB": "The standard deviation of Data set B",
@@ -31,11 +31,26 @@
     "difficulty": 2,
     "stem": "A data set has a standard deviation of 4. If every value in the set is increased by 10, what is the new standard deviation?",
     "options": [
-      { "id": "A", "text": "4" },
-      { "id": "B", "text": "10" },
-      { "id": "C", "text": "14" },
-      { "id": "D", "text": "40" },
-      { "id": "E", "text": "Cannot be determined" }
+      {
+        "id": "A",
+        "text": "4"
+      },
+      {
+        "id": "B",
+        "text": "10"
+      },
+      {
+        "id": "C",
+        "text": "14"
+      },
+      {
+        "id": "D",
+        "text": "40"
+      },
+      {
+        "id": "E",
+        "text": "Cannot be determined"
+      }
     ],
     "answer": "A",
     "solutionStandard": "Adding a constant to every value shifts the mean but does not change the spread of the data, so the standard deviation stays 4.",
@@ -46,14 +61,29 @@
     "type": "MC",
     "primarySkill": "range-standard-deviation",
     "secondarySkills": [],
-    "difficulty": 3,
+    "difficulty": 2,
     "stem": "A data set has a standard deviation of 3. If every value is doubled, what is the new standard deviation?",
     "options": [
-      { "id": "A", "text": "3" },
-      { "id": "B", "text": "5" },
-      { "id": "C", "text": "6" },
-      { "id": "D", "text": "9" },
-      { "id": "E", "text": "12" }
+      {
+        "id": "A",
+        "text": "3"
+      },
+      {
+        "id": "B",
+        "text": "5"
+      },
+      {
+        "id": "C",
+        "text": "6"
+      },
+      {
+        "id": "D",
+        "text": "9"
+      },
+      {
+        "id": "E",
+        "text": "12"
+      }
     ],
     "answer": "C",
     "solutionStandard": "Multiplying every value by a constant multiplies the standard deviation by the same constant: \\(3 \\times 2 = 6\\).",
@@ -67,10 +97,22 @@
     "difficulty": 3,
     "stem": "Which of the following data sets has the largest standard deviation?",
     "options": [
-      { "id": "A", "text": "10, 10, 10, 10" },
-      { "id": "B", "text": "9, 10, 10, 11" },
-      { "id": "C", "text": "1, 10, 10, 19" },
-      { "id": "D", "text": "10, 10, 10, 11" }
+      {
+        "id": "A",
+        "text": "10, 10, 10, 10"
+      },
+      {
+        "id": "B",
+        "text": "9, 10, 10, 11"
+      },
+      {
+        "id": "C",
+        "text": "1, 10, 10, 19"
+      },
+      {
+        "id": "D",
+        "text": "10, 10, 10, 11"
+      }
     ],
     "answer": "C",
     "solutionStandard": "Standard deviation increases as values spread farther from the mean (10 in every case). Set C has values farthest from 10 (as far as 9 away), giving it the largest standard deviation.",
@@ -108,11 +150,26 @@
     "difficulty": 4,
     "stem": "A data set of 5 values has a standard deviation of 0. Which of the following must be true?",
     "options": [
-      { "id": "A", "text": "All 5 values are equal" },
-      { "id": "B", "text": "The values are evenly spaced" },
-      { "id": "C", "text": "The mean is 0" },
-      { "id": "D", "text": "The range is 1" },
-      { "id": "E", "text": "The median is negative" }
+      {
+        "id": "A",
+        "text": "All 5 values are equal"
+      },
+      {
+        "id": "B",
+        "text": "The values are evenly spaced"
+      },
+      {
+        "id": "C",
+        "text": "The mean is 0"
+      },
+      {
+        "id": "D",
+        "text": "The range is 1"
+      },
+      {
+        "id": "E",
+        "text": "The median is negative"
+      }
     ],
     "answer": "A",
     "solutionStandard": "A standard deviation of 0 means there is no spread at all — every value must equal the mean, so all 5 values are identical.",
@@ -141,5 +198,301 @@
     "answer": "A",
     "solutionStandard": "Adding a value exactly at the mean pulls the overall spread slightly tighter (it contributes zero deviation while slightly diluting the influence of every other point), so Data set B's standard deviation is slightly smaller. Quantity A is greater.",
     "timeTargetSec": 85
+  },
+  {
+    "id": "range-standard-deviation-011",
+    "type": "Numeric",
+    "primarySkill": "range-standard-deviation",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "variables": [
+      {
+        "name": "lo",
+        "min": 1,
+        "max": 20,
+        "step": 1
+      },
+      {
+        "name": "r",
+        "min": 5,
+        "max": 40,
+        "step": 1
+      }
+    ],
+    "stem": "A data set has a minimum value of {{lo}} and a maximum value of {{lo+r}}. What is the range?",
+    "answer": 20,
+    "answerFormula": "r",
+    "solutionStandard": "Range \\(=\\max-\\min = ({{lo+r}}) - ({{lo}}) = {{r}}\\).",
+    "timeTargetSec": 35
+  },
+  {
+    "id": "range-standard-deviation-012",
+    "type": "MC",
+    "primarySkill": "range-standard-deviation",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "What is the range of the data set \\(6, 20, 3, 11, 17\\)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "11"
+      },
+      {
+        "id": "B",
+        "text": "14"
+      },
+      {
+        "id": "C",
+        "text": "17"
+      },
+      {
+        "id": "D",
+        "text": "20"
+      },
+      {
+        "id": "E",
+        "text": "23"
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "Range \\(=\\max-\\min = 20 - 3 = 17\\).",
+    "timeTargetSec": 35
+  },
+  {
+    "id": "range-standard-deviation-013",
+    "type": "Numeric",
+    "primarySkill": "range-standard-deviation",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "variables": [
+      {
+        "name": "s",
+        "min": 1,
+        "max": 15,
+        "step": 1
+      },
+      {
+        "name": "c",
+        "min": 1,
+        "max": 20,
+        "step": 1
+      }
+    ],
+    "stem": "A data set has a standard deviation of {{s}}. If every value in the set is increased by {{c}}, what is the new standard deviation?",
+    "answer": 5,
+    "answerFormula": "s",
+    "solutionStandard": "Adding a constant to every value shifts the mean but leaves the spread of the data unchanged, so the standard deviation stays \\({{s}}\\).",
+    "timeTargetSec": 50
+  },
+  {
+    "id": "range-standard-deviation-014",
+    "type": "Numeric",
+    "primarySkill": "range-standard-deviation",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "variables": [
+      {
+        "name": "s",
+        "min": 1,
+        "max": 10,
+        "step": 1
+      },
+      {
+        "name": "k",
+        "min": 2,
+        "max": 6,
+        "step": 1
+      }
+    ],
+    "stem": "A data set has a standard deviation of {{s}}. If every value in the set is multiplied by {{k}}, what is the new standard deviation?",
+    "answer": 12,
+    "answerFormula": "s*k",
+    "solutionStandard": "Multiplying every value by a constant multiplies the standard deviation by that same constant: \\({{s}} \\times {{k}} = {{s*k}}\\).",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "range-standard-deviation-015",
+    "type": "MC",
+    "primarySkill": "range-standard-deviation",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "Each of the following data sets has a mean of 10 and no standard deviation of 0. Which has the smallest standard deviation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "9, 10, 10, 11"
+      },
+      {
+        "id": "B",
+        "text": "8, 10, 10, 12"
+      },
+      {
+        "id": "C",
+        "text": "5, 10, 10, 15"
+      },
+      {
+        "id": "D",
+        "text": "1, 10, 10, 19"
+      }
+    ],
+    "answer": "A",
+    "solutionStandard": "Standard deviation grows as values spread farther from the mean. Set A stays closest to the mean of 10 (at most 1 away), giving it the smallest standard deviation.",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "range-standard-deviation-016",
+    "type": "Numeric",
+    "primarySkill": "range-standard-deviation",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "variables": [
+      {
+        "name": "s",
+        "min": 1,
+        "max": 10,
+        "step": 1
+      },
+      {
+        "name": "c",
+        "min": 1,
+        "max": 30,
+        "step": 1
+      }
+    ],
+    "stem": "A data set has a standard deviation of {{s}}. Every value is tripled and then increased by {{c}}. What is the new standard deviation?",
+    "answer": 15,
+    "answerFormula": "s*3",
+    "solutionStandard": "Tripling every value multiplies the standard deviation by 3; adding a constant afterward doesn't change it further: \\({{s}} \\times 3 = {{s*3}}\\).",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "range-standard-deviation-017",
+    "type": "QC",
+    "primarySkill": "range-standard-deviation",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "variables": [
+      {
+        "name": "rng",
+        "min": 10,
+        "max": 60,
+        "step": 1
+      }
+    ],
+    "stem": "Data set A has range {{rng}}. Data set B consists of the same values as Data set A, plus one additional value equal to the mean of Data set A.",
+    "quantityA": "The range of Data set A",
+    "quantityB": "The range of Data set B",
+    "answer": "C",
+    "solutionStandard": "The mean of any data set always lies between its minimum and maximum (inclusive), so inserting a value equal to the mean can never create a new maximum or minimum. The range is unchanged, so the quantities are always equal.",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "range-standard-deviation-018",
+    "type": "Numeric",
+    "primarySkill": "range-standard-deviation",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "variables": [
+      {
+        "name": "lo",
+        "min": 1,
+        "max": 15,
+        "step": 1
+      },
+      {
+        "name": "r",
+        "min": 5,
+        "max": 30,
+        "step": 1
+      },
+      {
+        "name": "k",
+        "min": 2,
+        "max": 5,
+        "step": 1
+      },
+      {
+        "name": "c",
+        "min": 1,
+        "max": 20,
+        "step": 1
+      }
+    ],
+    "stem": "A data set has a minimum of {{lo}} and a maximum of {{lo+r}}. Every value is multiplied by {{k}} and then decreased by {{c}}. What is the range of the new data set?",
+    "answer": 40,
+    "answerFormula": "k*r",
+    "solutionStandard": "The original range is \\({{r}}\\). Subtracting a constant doesn't affect range; multiplying by \\({{k}}\\) scales the range by \\({{k}}\\): new range \\(= {{k}} \\times {{r}} = {{k*r}}\\).",
+    "timeTargetSec": 85
+  },
+  {
+    "id": "range-standard-deviation-019",
+    "type": "MC",
+    "primarySkill": "range-standard-deviation",
+    "secondarySkills": [],
+    "difficulty": 5,
+    "stem": "The standard deviation of a data set is positive. Which of the following must be true?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The range of the data set is positive"
+      },
+      {
+        "id": "B",
+        "text": "The mean of the data set is positive"
+      },
+      {
+        "id": "C",
+        "text": "All values in the data set are positive"
+      },
+      {
+        "id": "D",
+        "text": "The median is greater than the mean"
+      },
+      {
+        "id": "E",
+        "text": "The mode is undefined"
+      }
+    ],
+    "answer": "A",
+    "solutionStandard": "A positive standard deviation means the data has some spread, so not every value is identical — there must be a maximum strictly greater than the minimum, making the range positive. The mean, values, median, and mode need not follow any particular rule.",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "range-standard-deviation-020",
+    "type": "Numeric",
+    "primarySkill": "range-standard-deviation",
+    "secondarySkills": [],
+    "difficulty": 5,
+    "variables": [
+      {
+        "name": "s1",
+        "min": 1,
+        "max": 10,
+        "step": 1
+      },
+      {
+        "name": "k",
+        "min": 2,
+        "max": 5,
+        "step": 1
+      },
+      {
+        "name": "c1",
+        "min": 1,
+        "max": 30,
+        "step": 1
+      },
+      {
+        "name": "k2",
+        "min": 2,
+        "max": 4,
+        "step": 1
+      }
+    ],
+    "stem": "A data set has a standard deviation of {{s1}}. It is transformed by first multiplying every value by {{k}}, then increasing every value by {{c1}}, and finally multiplying every value by {{k2}}. What is the standard deviation of the final data set?",
+    "answer": 24,
+    "answerFormula": "s1*k*k2",
+    "solutionStandard": "Only multiplicative steps affect standard deviation; the additive step is irrelevant. The two multiplications compound: \\({{s1}} \\times {{k}} \\times {{k2}} = {{s1*k*k2}}\\).",
+    "timeTargetSec": 90
   }
 ]

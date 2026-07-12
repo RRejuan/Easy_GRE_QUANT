@@ -1,0 +1,1488 @@
+[
+  {
+    "id": "arithmetic-mixed-practice-001",
+    "type": "Numeric",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "ratios-proportions"
+    ],
+    "difficulty": 1,
+    "variables": [
+      {
+        "name": "a",
+        "min": 2,
+        "max": 6,
+        "step": 1
+      },
+      {
+        "name": "b",
+        "min": 2,
+        "max": 8,
+        "step": 1
+      },
+      {
+        "name": "k",
+        "min": 2,
+        "max": 10,
+        "step": 1
+      }
+    ],
+    "stem": "In a class, the ratio of boys to girls is {{a}}:{{b}}. If there are {{a*k}} boys, how many girls are there?",
+    "answer": 12,
+    "answerFormula": "b*k",
+    "solutionStandard": "The scale factor is \\({{a*k}}/{{a}} = {{k}}\\), so girls \\(= {{b}} \\times {{k}} = {{b*k}}\\).",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "arithmetic-mixed-practice-002",
+    "type": "MC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "percent-basics",
+      "percent-change"
+    ],
+    "difficulty": 1,
+    "stem": "A jacket originally costs $80. It is discounted by 25%, and then 8% sales tax is added to the discounted price. What is the final price, to the nearest cent?",
+    "options": [
+      {
+        "id": "A",
+        "text": "$60.00"
+      },
+      {
+        "id": "B",
+        "text": "$62.40"
+      },
+      {
+        "id": "C",
+        "text": "$64.80"
+      },
+      {
+        "id": "D",
+        "text": "$66.40"
+      },
+      {
+        "id": "E",
+        "text": "$68.00"
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "Discounted price: \\(80 \\times 0.75 = 60\\). With 8% tax: \\(60 \\times 1.08 = 64.80\\).",
+    "timeTargetSec": 80
+  },
+  {
+    "id": "arithmetic-mixed-practice-003",
+    "type": "Numeric",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "percent-change"
+    ],
+    "difficulty": 2,
+    "variables": [
+      {
+        "name": "p1",
+        "min": 10,
+        "max": 40,
+        "step": 5
+      },
+      {
+        "name": "p2",
+        "min": 10,
+        "max": 40,
+        "step": 5
+      }
+    ],
+    "stem": "A price increases by {{p1}}% and then decreases by {{p2}}%. If the original price was $100, what is the net percent change from the original price? (A decrease should be entered as a negative number.)",
+    "answer": 8,
+    "answerFormula": "(100+p1)*(100-p2)/100 - 100",
+    "solutionStandard": "New price \\(= 100 \\times \\dfrac{100+{{p1}}}{100} \\times \\dfrac{100-{{p2}}}{100} = {{(100+p1)*(100-p2)/100}}\\). Net change: \\({{(100+p1)*(100-p2)/100 - 100}}\\%\\).",
+    "timeTargetSec": 90
+  },
+  {
+    "id": "arithmetic-mixed-practice-004",
+    "type": "QC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "percent-change"
+    ],
+    "difficulty": 2,
+    "variables": [
+      {
+        "name": "p",
+        "min": 5,
+        "max": 40,
+        "step": 5
+      }
+    ],
+    "stem": "A price is increased by {{p}}%, and the resulting price is then decreased by {{p}}%.",
+    "quantityA": "The final price",
+    "quantityB": "The original price",
+    "answer": "B",
+    "solutionStandard": "Final price \\(= \\text{original} \\times (1+p/100)(1-p/100) = \\text{original} \\times (1 - (p/100)^2)\\), which is always less than the original for any \\(p>0\\). Quantity B is greater.",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "arithmetic-mixed-practice-005",
+    "type": "Numeric",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "ratios-proportions"
+    ],
+    "difficulty": 3,
+    "variables": [
+      {
+        "name": "a",
+        "min": 2,
+        "max": 6,
+        "step": 1
+      },
+      {
+        "name": "b",
+        "min": 2,
+        "max": 6,
+        "step": 1
+      },
+      {
+        "name": "c",
+        "min": 2,
+        "max": 6,
+        "step": 1
+      },
+      {
+        "name": "k",
+        "min": 3,
+        "max": 15,
+        "step": 1
+      }
+    ],
+    "stem": "Three partners split a profit in the ratio {{a}}:{{b}}:{{c}}. If the total profit is ${{(a+b+c)*k}}, how much does the partner with ratio share {{a}} receive, in dollars?",
+    "answer": 40,
+    "answerFormula": "a*k",
+    "solutionStandard": "Each ratio unit is worth \\({{(a+b+c)*k}}/({{a}}+{{b}}+{{c}}) = {{k}}\\) dollars, so this partner receives \\({{a}} \\times {{k}} = {{a*k}}\\).",
+    "timeTargetSec": 95
+  },
+  {
+    "id": "arithmetic-mixed-practice-006",
+    "type": "MC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "ratios-proportions",
+      "percent-basics"
+    ],
+    "difficulty": 3,
+    "stem": "A chemist mixes 3 liters of a solution that is 40% acid with 7 liters of a solution that is 20% acid. What is the concentration of the resulting mixture?",
+    "options": [
+      {
+        "id": "A",
+        "text": "24%"
+      },
+      {
+        "id": "B",
+        "text": "26%"
+      },
+      {
+        "id": "C",
+        "text": "28%"
+      },
+      {
+        "id": "D",
+        "text": "30%"
+      },
+      {
+        "id": "E",
+        "text": "32%"
+      }
+    ],
+    "answer": "B",
+    "solutionStandard": "Total acid: \\(3(0.4)+7(0.2)=1.2+1.4=2.6\\) liters. Total volume: 10 liters. Concentration: \\(2.6/10=26\\%\\).",
+    "timeTargetSec": 95
+  },
+  {
+    "id": "arithmetic-mixed-practice-007",
+    "type": "Numeric",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "percent-basics"
+    ],
+    "difficulty": 3,
+    "variables": [
+      {
+        "name": "total",
+        "min": 100,
+        "max": 500,
+        "step": 50
+      },
+      {
+        "name": "pctA",
+        "min": 20,
+        "max": 60,
+        "step": 5
+      },
+      {
+        "name": "pctB",
+        "min": 10,
+        "max": 50,
+        "step": 5
+      }
+    ],
+    "stem": "In a survey, {{pctA}}% of {{total}} people prefer brand X. Of those who prefer brand X, {{pctB}}% are under age 30. How many people under 30 prefer brand X?",
+    "answer": 30,
+    "answerFormula": "total*pctA*pctB/10000",
+    "solutionStandard": "Brand X preference: \\({{pctA}}\\% \\times {{total}} = {{total*pctA/100}}\\) people. Under 30: \\({{pctB}}\\% \\times {{total*pctA/100}} = {{total*pctA*pctB/10000}}\\).",
+    "timeTargetSec": 100
+  },
+  {
+    "id": "arithmetic-mixed-practice-008",
+    "type": "QC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "ratios-proportions"
+    ],
+    "difficulty": 4,
+    "stem": "The ratio of red to blue marbles in a jar is 3:5.",
+    "quantityA": "The number of red marbles",
+    "quantityB": "20",
+    "answer": "D",
+    "solutionStandard": "The number of red marbles must be a multiple of 3 (e.g., 3, 6, 9, ..., 18, 21, ...), since it scales with the ratio. This could be less than 20 (e.g., 18) or greater than 20 (e.g., 21), depending on the unknown scale factor. The relationship cannot be determined.",
+    "timeTargetSec": 100
+  },
+  {
+    "id": "arithmetic-mixed-practice-009",
+    "type": "MC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "ratios-proportions"
+    ],
+    "difficulty": 1,
+    "stem": "A recipe calls for flour and sugar in a ratio of 5:2. If 15 cups of flour are used, how many cups of sugar are needed?",
+    "options": [
+      {
+        "id": "A",
+        "text": "3"
+      },
+      {
+        "id": "B",
+        "text": "4"
+      },
+      {
+        "id": "C",
+        "text": "6"
+      },
+      {
+        "id": "D",
+        "text": "8"
+      },
+      {
+        "id": "E",
+        "text": "10"
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "Scale factor: \\(15/5=3\\). Sugar: \\(2 \\times 3 = 6\\).",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "arithmetic-mixed-practice-010",
+    "type": "Numeric",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "percent-change"
+    ],
+    "difficulty": 2,
+    "variables": [
+      {
+        "name": "original",
+        "min": 20,
+        "max": 160,
+        "step": 20
+      },
+      {
+        "name": "pct",
+        "min": 5,
+        "max": 50,
+        "step": 5
+      }
+    ],
+    "stem": "After a {{pct}}% increase, an item's price is ${{original*(100+pct)/100}}. What was the original price, in dollars?",
+    "answer": 40,
+    "answerFormula": "original",
+    "solutionStandard": "If \\(x\\) is the original price, \\(x \\times \\dfrac{100+{{pct}}}{100} = {{original*(100+pct)/100}}\\), so \\(x = {{original}}\\).",
+    "timeTargetSec": 85
+  },
+  {
+    "id": "arithmetic-mixed-practice-011",
+    "type": "Numeric",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "rates-and-work"
+    ],
+    "difficulty": 1,
+    "variables": [
+      {
+        "name": "speed",
+        "min": 20,
+        "max": 80,
+        "step": 5
+      },
+      {
+        "name": "time",
+        "min": 2,
+        "max": 8,
+        "step": 1
+      }
+    ],
+    "stem": "A car travels at {{speed}} miles per hour for {{time}} hours. How far does it travel, in miles?",
+    "answer": 100,
+    "answerFormula": "speed*time",
+    "solutionStandard": "Distance \\(=\\) rate \\(\\times\\) time \\(= {{speed}} \\times {{time}} = {{speed*time}}\\).",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "arithmetic-mixed-practice-012",
+    "type": "MC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "rates-and-work"
+    ],
+    "difficulty": 2,
+    "stem": "Working alone, Pump A can fill a tank in 6 hours, and Pump B can fill it in 3 hours. Working together, how long would it take to fill the tank?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1 hour"
+      },
+      {
+        "id": "B",
+        "text": "1.5 hours"
+      },
+      {
+        "id": "C",
+        "text": "2 hours"
+      },
+      {
+        "id": "D",
+        "text": "2.5 hours"
+      },
+      {
+        "id": "E",
+        "text": "4.5 hours"
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "Combined rate: \\(1/6+1/3=1/6+2/6=3/6=1/2\\) tank per hour. Time: \\(1/(1/2)=2\\) hours.",
+    "timeTargetSec": 85
+  },
+  {
+    "id": "arithmetic-mixed-practice-013",
+    "type": "Numeric",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "rates-and-work"
+    ],
+    "difficulty": 2,
+    "stem": "Pump C fills a tank in 4 hours alone. Pump D fills the same tank in 12 hours alone. Working together, how long does it take to fill the tank, in hours?",
+    "answer": 3,
+    "solutionStandard": "Combined rate: \\(1/4+1/12=3/12+1/12=4/12=1/3\\) tank per hour. Time: \\(1/(1/3)=3\\) hours.",
+    "timeTargetSec": 80
+  },
+  {
+    "id": "arithmetic-mixed-practice-014",
+    "type": "Numeric",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "rates-and-work"
+    ],
+    "difficulty": 2,
+    "variables": [
+      {
+        "name": "s1",
+        "min": 20,
+        "max": 50,
+        "step": 5
+      },
+      {
+        "name": "s2",
+        "min": 20,
+        "max": 50,
+        "step": 5
+      },
+      {
+        "name": "T",
+        "min": 2,
+        "max": 6,
+        "step": 1
+      }
+    ],
+    "stem": "Two trains start {{(s1+s2)*T}} miles apart and travel toward each other, one at {{s1}} mph and the other at {{s2}} mph. How many hours until they meet?",
+    "answer": 3,
+    "answerFormula": "T",
+    "solutionStandard": "Their combined closing speed is \\({{s1}}+{{s2}}={{s1+s2}}\\) mph, so time \\(= {{(s1+s2)*T}}/{{s1+s2}} = {{T}}\\) hours.",
+    "timeTargetSec": 85
+  },
+  {
+    "id": "arithmetic-mixed-practice-015",
+    "type": "MC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "rates-and-work"
+    ],
+    "difficulty": 3,
+    "stem": "A boat travels 24 miles downstream in 2 hours and returns the same 24 miles upstream in 3 hours. What is the speed of the boat in still water, in mph?",
+    "options": [
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "8"
+      },
+      {
+        "id": "C",
+        "text": "10"
+      },
+      {
+        "id": "D",
+        "text": "12"
+      },
+      {
+        "id": "E",
+        "text": "20"
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "Downstream speed: \\(24/2=12\\) mph. Upstream speed: \\(24/3=8\\) mph. Still-water speed is the average: \\((12+8)/2=10\\) mph.",
+    "timeTargetSec": 100
+  },
+  {
+    "id": "arithmetic-mixed-practice-016",
+    "type": "Numeric",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "ratios-proportions",
+      "percent-basics"
+    ],
+    "difficulty": 3,
+    "variables": [
+      {
+        "name": "v1",
+        "min": 2,
+        "max": 10,
+        "step": 1
+      },
+      {
+        "name": "v2",
+        "min": 2,
+        "max": 8,
+        "step": 1
+      },
+      {
+        "name": "P",
+        "min": 20,
+        "max": 45,
+        "step": 1
+      },
+      {
+        "name": "k",
+        "min": 1,
+        "max": 2,
+        "step": 1
+      }
+    ],
+    "stem": "A chemist mixes {{v1}} liters of a solution that is {{P-k*v2}}% acid with {{v2}} liters of a solution that is {{P+k*v1}}% acid. What percent of the resulting mixture is acid?",
+    "answer": 30,
+    "answerFormula": "P",
+    "solutionStandard": "Total acid \\(= {{v1}}({{P-k*v2}}) + {{v2}}({{P+k*v1}})\\), which always simplifies to \\(({{v1}}+{{v2}}) \\times {{P}}\\) (the deviations cancel exactly), so the mixture's concentration is \\({{P}}\\%\\).",
+    "timeTargetSec": 100
+  },
+  {
+    "id": "arithmetic-mixed-practice-017",
+    "type": "MC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "rates-and-work"
+    ],
+    "difficulty": 3,
+    "stem": "It takes 8 workers 6 days to build a wall. If 4 more workers join from the very start (12 workers total), how many days would it take to build the same wall, assuming every worker works at the same constant rate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "3"
+      },
+      {
+        "id": "C",
+        "text": "4"
+      },
+      {
+        "id": "D",
+        "text": "5"
+      },
+      {
+        "id": "E",
+        "text": "9"
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "Total work \\(= 8 \\times 6 = 48\\) worker-days. With 12 workers: \\(48/12=4\\) days.",
+    "timeTargetSec": 90
+  },
+  {
+    "id": "arithmetic-mixed-practice-018",
+    "type": "Numeric",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "rates-and-work"
+    ],
+    "difficulty": 4,
+    "variables": [
+      {
+        "name": "s1",
+        "min": 10,
+        "max": 40,
+        "step": 2
+      }
+    ],
+    "stem": "A round trip covers the same distance each way, once at {{s1}} mph and once at {{3*s1}} mph. What is the average speed for the entire round trip, in mph?",
+    "answer": 30,
+    "answerFormula": "3*s1/2",
+    "solutionStandard": "For equal distances, average speed is the harmonic mean: \\(\\dfrac{2 \\times {{s1}} \\times {{3*s1}}}{ {{s1}} + {{3*s1}} } = \\dfrac{ {{2*s1*3*s1}} }{ {{4*s1}} } = {{3*s1/2}}\\) mph.",
+    "timeTargetSec": 110
+  },
+  {
+    "id": "arithmetic-mixed-practice-019",
+    "type": "MC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "rates-and-work"
+    ],
+    "difficulty": 1,
+    "stem": "Machine X produces 15 widgets per hour. How many widgets does it produce in 40 minutes?",
+    "options": [
+      {
+        "id": "A",
+        "text": "6"
+      },
+      {
+        "id": "B",
+        "text": "8"
+      },
+      {
+        "id": "C",
+        "text": "10"
+      },
+      {
+        "id": "D",
+        "text": "12"
+      },
+      {
+        "id": "E",
+        "text": "15"
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "40 minutes is \\(2/3\\) of an hour: \\(15 \\times 2/3 = 10\\) widgets.",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "arithmetic-mixed-practice-020",
+    "type": "Numeric",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "rates-and-work"
+    ],
+    "difficulty": 2,
+    "variables": [
+      {
+        "name": "rate",
+        "min": 4,
+        "max": 20,
+        "step": 2
+      },
+      {
+        "name": "hours",
+        "min": 2,
+        "max": 10,
+        "step": 1
+      }
+    ],
+    "stem": "A factory produces {{rate}} units per hour. At this rate, how many hours are needed to produce {{rate*hours}} units?",
+    "answer": 5,
+    "answerFormula": "hours",
+    "solutionStandard": "Time \\(=\\) units \\(\\div\\) rate \\(= {{rate*hours}} \\div {{rate}} = {{hours}}\\) hours.",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "arithmetic-mixed-practice-021",
+    "type": "Numeric",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "exponents-basic"
+    ],
+    "difficulty": 1,
+    "variables": [
+      {
+        "name": "b",
+        "min": 2,
+        "max": 5,
+        "step": 1
+      },
+      {
+        "name": "n",
+        "min": 2,
+        "max": 4,
+        "step": 1
+      }
+    ],
+    "stem": "What is {{b}} raised to the {{n}}th power?",
+    "answer": 16,
+    "answerFormula": "(function(){let r=1;for(let i=0;i<n;i++)r*=b;return r;})()",
+    "solutionStandard": "Multiply {{b}} by itself {{n}} times.",
+    "timeTargetSec": 50
+  },
+  {
+    "id": "arithmetic-mixed-practice-022",
+    "type": "MC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "roots-radicals"
+    ],
+    "difficulty": 2,
+    "stem": "What is the value of \\(\\sqrt{72}\\) in simplest radical form?",
+    "options": [
+      {
+        "id": "A",
+        "text": "\\(2\\sqrt{18}\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(3\\sqrt{8}\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(6\\sqrt{2}\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(8\\sqrt{3}\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(36\\sqrt{2}\\)"
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "\\(72 = 36 \\times 2\\), so \\(\\sqrt{72} = \\sqrt{36}\\times\\sqrt{2} = 6\\sqrt{2}\\).",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "arithmetic-mixed-practice-023",
+    "type": "Numeric",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "integer-properties"
+    ],
+    "difficulty": 2,
+    "variables": [
+      {
+        "name": "a",
+        "min": 4,
+        "max": 20,
+        "step": 1
+      },
+      {
+        "name": "b",
+        "min": 4,
+        "max": 20,
+        "step": 1
+      }
+    ],
+    "stem": "What is the least common multiple of {{a}} and {{b}}?",
+    "answer": 36,
+    "answerFormula": "(function(){function gcd(x,y){while(y){[x,y]=[y,x%y];}return x;} return a*b/gcd(a,b);})()",
+    "solutionStandard": "\\(\\text{lcm}({{a}},{{b}}) = \\dfrac{ {{a}} \\times {{b}} }{ \\gcd({{a}},{{b}}) }\\).",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "arithmetic-mixed-practice-024",
+    "type": "QC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "integer-properties"
+    ],
+    "difficulty": 2,
+    "stem": "\\(x\\) is a positive integer greater than 1.",
+    "quantityA": "The number of positive divisors of \\(x^2\\)",
+    "quantityB": "The number of positive divisors of \\(x\\)",
+    "answer": "A",
+    "solutionStandard": "Every divisor of \\(x\\) is also a divisor of \\(x^2\\), and \\(x^2\\) always picks up additional divisors beyond those (e.g., \\(x=4\\) has divisors \\(\\{1,2,4\\}\\), but \\(x^2=16\\) has \\(\\{1,2,4,8,16\\}\\)). Quantity A is always greater.",
+    "timeTargetSec": 80
+  },
+  {
+    "id": "arithmetic-mixed-practice-025",
+    "type": "Numeric",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "exponents-basic"
+    ],
+    "difficulty": 3,
+    "variables": [
+      {
+        "name": "total",
+        "min": 6,
+        "max": 20,
+        "step": 1
+      }
+    ],
+    "stem": "If 2 raised to the power \\(a\\), multiplied by 2 raised to the power \\(b\\), equals 2 raised to the power {{total}}, and \\(a\\) and \\(b\\) are positive integers with \\(a > b\\), what is the greatest possible value of \\(a\\)?",
+    "answer": 11,
+    "answerFormula": "total-1",
+    "solutionStandard": "Since \\(2^a \\times 2^b = 2^{a+b}\\), we need \\(a+b={{total}}\\) with \\(a>b\\ge1\\). The greatest \\(a\\) occurs at the smallest \\(b=1\\): \\(a={{total}}-1={{total-1}}\\).",
+    "timeTargetSec": 95
+  },
+  {
+    "id": "arithmetic-mixed-practice-026",
+    "type": "MC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "roots-radicals",
+      "exponents-basic"
+    ],
+    "difficulty": 3,
+    "stem": "What is \\(\\sqrt[3]{125} \\times \\sqrt{16}\\)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "9"
+      },
+      {
+        "id": "B",
+        "text": "15"
+      },
+      {
+        "id": "C",
+        "text": "20"
+      },
+      {
+        "id": "D",
+        "text": "24"
+      },
+      {
+        "id": "E",
+        "text": "36"
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "\\(\\sqrt[3]{125}=5\\) and \\(\\sqrt{16}=4\\): \\(5 \\times 4 = 20\\).",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "arithmetic-mixed-practice-027",
+    "type": "Numeric",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "integer-properties"
+    ],
+    "difficulty": 3,
+    "variables": [
+      {
+        "name": "n",
+        "min": 50,
+        "max": 300,
+        "step": 1
+      },
+      {
+        "name": "d",
+        "min": 6,
+        "max": 15,
+        "step": 1
+      }
+    ],
+    "stem": "What is the remainder when {{n}} is divided by {{d}}?",
+    "answer": 2,
+    "answerFormula": "n % d",
+    "solutionStandard": "\\({{n}} = {{d}} \\times \\lfloor {{n}}/{{d}} \\rfloor + r\\), where \\(r\\) is the remainder.",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "arithmetic-mixed-practice-028",
+    "type": "QC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "integer-properties"
+    ],
+    "difficulty": 4,
+    "stem": "\\(x\\) and \\(y\\) are both prime numbers greater than 2 (so both are odd).",
+    "quantityA": "The number of even values among \\(x\\), \\(y\\), and \\(x+y\\)",
+    "quantityB": "2",
+    "answer": "B",
+    "solutionStandard": "\\(x\\) and \\(y\\) are both odd, so neither is even, but \\(x+y=\\text{odd}+\\text{odd}=\\text{even}\\). Exactly one of the three values is even, so Quantity A is always 1, which is less than Quantity B.",
+    "timeTargetSec": 90
+  },
+  {
+    "id": "arithmetic-mixed-practice-029",
+    "type": "MC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "absolute-value",
+      "number-line-ordering"
+    ],
+    "difficulty": 1,
+    "stem": "What is the distance between -8 and 5 on the number line?",
+    "options": [
+      {
+        "id": "A",
+        "text": "3"
+      },
+      {
+        "id": "B",
+        "text": "8"
+      },
+      {
+        "id": "C",
+        "text": "10"
+      },
+      {
+        "id": "D",
+        "text": "13"
+      },
+      {
+        "id": "E",
+        "text": "40"
+      }
+    ],
+    "answer": "D",
+    "solutionStandard": "Distance \\(=|5-(-8)|=|13|=13\\).",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "arithmetic-mixed-practice-030",
+    "type": "Numeric",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "estimation-rounding"
+    ],
+    "difficulty": 3,
+    "variables": [
+      {
+        "name": "val",
+        "min": 100,
+        "max": 9999,
+        "step": 1
+      }
+    ],
+    "stem": "Round {{val}} to the nearest hundred.",
+    "answer": 100,
+    "answerFormula": "Math.round(val/100)*100",
+    "solutionStandard": "Divide by 100, round to the nearest whole number, then multiply back by 100.",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "arithmetic-mixed-practice-031",
+    "type": "MC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "fractions-operations"
+    ],
+    "difficulty": 1,
+    "stem": "What is \\(\\dfrac{3}{8} + \\dfrac{5}{12}\\)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "\\(8/20\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(9/24\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(19/24\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(4/5\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(15/24\\)"
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "Common denominator 24: \\(9/24 + 10/24 = 19/24\\).",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "arithmetic-mixed-practice-032",
+    "type": "MC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "decimals-operations"
+    ],
+    "difficulty": 3,
+    "stem": "What is \\(4.8 \\div 0.6\\)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "0.8"
+      },
+      {
+        "id": "B",
+        "text": "6"
+      },
+      {
+        "id": "C",
+        "text": "8"
+      },
+      {
+        "id": "D",
+        "text": "48"
+      },
+      {
+        "id": "E",
+        "text": "80"
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "\\(4.8 \\div 0.6 = 48/6 = 8\\).",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "arithmetic-mixed-practice-033",
+    "type": "Numeric",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "percent-basics"
+    ],
+    "difficulty": 3,
+    "variables": [
+      {
+        "name": "price",
+        "min": 20,
+        "max": 200,
+        "step": 10
+      },
+      {
+        "name": "pct",
+        "min": 5,
+        "max": 50,
+        "step": 5
+      }
+    ],
+    "stem": "An item costs ${{price}}. What is {{pct}}% of the price, in dollars?",
+    "answer": 3,
+    "answerFormula": "price*pct/100",
+    "solutionStandard": "\\({{pct}}\\% \\times {{price}} = {{price*pct/100}}\\).",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "arithmetic-mixed-practice-034",
+    "type": "QC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "fractions-operations",
+      "decimals-operations"
+    ],
+    "difficulty": 4,
+    "stem": "\\(x = \\dfrac{2}{7}\\).",
+    "quantityA": "\\(x\\)",
+    "quantityB": "0.29",
+    "answer": "B",
+    "solutionStandard": "\\(2/7 \\approx 0.2857\\), which is less than \\(0.29\\). Quantity B is greater.",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "arithmetic-mixed-practice-035",
+    "type": "Numeric",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "fractions-operations"
+    ],
+    "difficulty": 4,
+    "variables": [
+      {
+        "name": "fracNum",
+        "min": 1,
+        "max": 2,
+        "step": 1
+      },
+      {
+        "name": "fracDen",
+        "min": 3,
+        "max": 6,
+        "step": 1
+      },
+      {
+        "name": "m",
+        "min": 5,
+        "max": 25,
+        "step": 1
+      }
+    ],
+    "stem": "Of the {{fracDen*m}} students in a school, {{fracNum}}/{{fracDen}} play a sport. How many students play a sport?",
+    "answer": 15,
+    "answerFormula": "fracNum*m",
+    "solutionStandard": "\\(\\dfrac{ {{fracNum}} }{ {{fracDen}} } \\times {{fracDen*m}} = {{fracNum}} \\times {{m}} = {{fracNum*m}}\\).",
+    "timeTargetSec": 80
+  },
+  {
+    "id": "arithmetic-mixed-practice-036",
+    "type": "MC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "absolute-value",
+      "number-line-ordering"
+    ],
+    "difficulty": 1,
+    "stem": "On the number line, what is the distance from -12 to -3?",
+    "options": [
+      {
+        "id": "A",
+        "text": "3"
+      },
+      {
+        "id": "B",
+        "text": "9"
+      },
+      {
+        "id": "C",
+        "text": "12"
+      },
+      {
+        "id": "D",
+        "text": "15"
+      },
+      {
+        "id": "E",
+        "text": "36"
+      }
+    ],
+    "answer": "B",
+    "solutionStandard": "Distance \\(=|-3-(-12)|=|9|=9\\).",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "arithmetic-mixed-practice-037",
+    "type": "Numeric",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "order-of-operations"
+    ],
+    "difficulty": 3,
+    "variables": [
+      {
+        "name": "a",
+        "min": 2,
+        "max": 10,
+        "step": 1
+      },
+      {
+        "name": "b",
+        "min": 2,
+        "max": 10,
+        "step": 1
+      },
+      {
+        "name": "c",
+        "min": 2,
+        "max": 10,
+        "step": 1
+      },
+      {
+        "name": "d",
+        "min": 2,
+        "max": 10,
+        "step": 1
+      }
+    ],
+    "stem": "What is {{a}} + {{b}} \\(\\times\\) ({{c}} - {{d}})?",
+    "answer": 10,
+    "answerFormula": "a+b*(c-d)",
+    "solutionStandard": "By order of operations, evaluate the parentheses first, then multiply, then add: \\({{a}} + {{b}} \\times ({{c}}-{{d}}) = {{a+b*(c-d)}}\\).",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "arithmetic-mixed-practice-038",
+    "type": "MC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "estimation-rounding"
+    ],
+    "difficulty": 4,
+    "stem": "A rectangular garden measures 19.8 feet by 30.2 feet. Which of the following is the best estimate of its area, in square feet?",
+    "options": [
+      {
+        "id": "A",
+        "text": "450"
+      },
+      {
+        "id": "B",
+        "text": "500"
+      },
+      {
+        "id": "C",
+        "text": "600"
+      },
+      {
+        "id": "D",
+        "text": "700"
+      },
+      {
+        "id": "E",
+        "text": "900"
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "Rounding each dimension to the nearest ten: \\(20 \\times 30 = 600\\), a close estimate of the true product.",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "arithmetic-mixed-practice-039",
+    "type": "Numeric",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "ratios-proportions",
+      "percent-basics"
+    ],
+    "difficulty": 3,
+    "variables": [
+      {
+        "name": "den",
+        "min": 4,
+        "max": 10,
+        "step": 1
+      },
+      {
+        "name": "num",
+        "min": 1,
+        "max": 3,
+        "step": 1
+      }
+    ],
+    "stem": "A ratio is {{num}}:{{den}}. What percent is this, rounded to the nearest whole percent?",
+    "answer": 43,
+    "answerFormula": "Math.round(num/den*100)",
+    "solutionStandard": "\\(\\dfrac{ {{num}} }{ {{den}} } \\times 100 \\approx {{Math.round(num/den*100)}}\\%\\), rounded to the nearest whole percent.",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "arithmetic-mixed-practice-040",
+    "type": "QC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "fractions-operations"
+    ],
+    "difficulty": 4,
+    "stem": "\\(0 < x < 1\\).",
+    "quantityA": "\\(x\\)",
+    "quantityB": "\\(x^2\\)",
+    "answer": "A",
+    "solutionStandard": "For any fraction strictly between 0 and 1, squaring it makes it smaller (e.g., \\((1/2)^2=1/4<1/2\\)). Quantity A is always greater.",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "arithmetic-mixed-practice-041",
+    "type": "Numeric",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "percent-change"
+    ],
+    "difficulty": 4,
+    "variables": [
+      {
+        "name": "m",
+        "min": 1,
+        "max": 10,
+        "step": 1
+      },
+      {
+        "name": "disc1",
+        "min": 10,
+        "max": 30,
+        "step": 5
+      },
+      {
+        "name": "disc2",
+        "min": 5,
+        "max": 20,
+        "step": 5
+      }
+    ],
+    "stem": "A store offers a {{disc1}}% discount on an item originally priced at ${{100*m}}, followed by an additional {{disc2}}% off the discounted price. What is the final price, in dollars?",
+    "answer": 216,
+    "answerFormula": "m*(100-disc1)*(100-disc2)/100",
+    "solutionStandard": "After the first discount: \\({{100*m}} \\times \\dfrac{100-{{disc1}}}{100}\\). After the second: multiply by \\(\\dfrac{100-{{disc2}}}{100}\\) as well, giving \\({{m*(100-disc1)*(100-disc2)/100}}\\).",
+    "timeTargetSec": 105
+  },
+  {
+    "id": "arithmetic-mixed-practice-042",
+    "type": "MC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "rates-and-work"
+    ],
+    "difficulty": 4,
+    "stem": "A cyclist travels 60 miles at 15 mph, rests for 1 hour, then travels another 40 miles at 20 mph. What is the total time for the trip, in hours?",
+    "options": [
+      {
+        "id": "A",
+        "text": "5"
+      },
+      {
+        "id": "B",
+        "text": "6"
+      },
+      {
+        "id": "C",
+        "text": "7"
+      },
+      {
+        "id": "D",
+        "text": "8"
+      },
+      {
+        "id": "E",
+        "text": "9"
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "First leg: \\(60/15=4\\) hours. Rest: 1 hour. Second leg: \\(40/20=2\\) hours. Total: \\(4+1+2=7\\) hours.",
+    "timeTargetSec": 90
+  },
+  {
+    "id": "arithmetic-mixed-practice-043",
+    "type": "Numeric",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "ratios-proportions",
+      "percent-basics"
+    ],
+    "difficulty": 5,
+    "variables": [
+      {
+        "name": "d",
+        "min": 1,
+        "max": 4,
+        "step": 1
+      },
+      {
+        "name": "t",
+        "min": 8,
+        "max": 15,
+        "step": 1
+      },
+      {
+        "name": "k",
+        "min": 3,
+        "max": 20,
+        "step": 1
+      },
+      {
+        "name": "cost",
+        "min": 5,
+        "max": 50,
+        "step": 5
+      }
+    ],
+    "stem": "In a factory, the ratio of defective items to total items produced is {{d}}:{{t}}. If the factory produces {{t*k}} items in a day, and each defective item costs the factory ${{cost}} to replace, what is the total replacement cost for that day's defective items, in dollars?",
+    "answer": 300,
+    "answerFormula": "d*k*cost",
+    "solutionStandard": "Defective items: \\(\\dfrac{ {{d}} }{ {{t}} } \\times {{t*k}} = {{d}} \\times {{k}} = {{d*k}}\\). Total cost: \\({{d*k}} \\times {{cost}} = {{d*k*cost}}\\).",
+    "timeTargetSec": 110
+  },
+  {
+    "id": "arithmetic-mixed-practice-044",
+    "type": "QC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "ratios-proportions"
+    ],
+    "difficulty": 5,
+    "variables": [
+      {
+        "name": "a",
+        "min": 2,
+        "max": 9,
+        "step": 1
+      }
+    ],
+    "stem": "The ratio of \\(x\\) to \\(y\\) is {{a}}:1, where \\(x\\) and \\(y\\) are positive integers.",
+    "quantityA": "\\(x\\)",
+    "quantityB": "{{a*10}}",
+    "answer": "D",
+    "solutionStandard": "\\(x\\) equals {{a}} times the (unknown) scale factor applied to \\(y\\); since \\(y\\) can be any positive integer, \\(x\\) can be smaller than, equal to, or greater than {{a*10}} depending on that scale factor. The relationship cannot be determined.",
+    "timeTargetSec": 100
+  },
+  {
+    "id": "arithmetic-mixed-practice-045",
+    "type": "MultiMC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "percent-change"
+    ],
+    "difficulty": 5,
+    "stem": "A store's revenue increased by 10% in January and then decreased by 10% in February. Which of the following are true? Select all that apply.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Revenue at the end of February is lower than at the start of January"
+      },
+      {
+        "id": "B",
+        "text": "Revenue at the end of February equals revenue at the start of January"
+      },
+      {
+        "id": "C",
+        "text": "The percent decrease that would exactly reverse January's increase is slightly less than 10%"
+      },
+      {
+        "id": "D",
+        "text": "If both changes are combined, the net two-month change is exactly -1%"
+      }
+    ],
+    "answer": [
+      "A",
+      "C",
+      "D"
+    ],
+    "solutionStandard": "After January, revenue is \\(1.1x\\). After February's 10% decrease: \\(1.1x \\times 0.9 = 0.99x\\), which is less than \\(x\\) (confirming A, contradicting B, and confirming D's exact \\(-1\\%\\)). To exactly reverse the 10% increase, you'd need to decrease by \\(1-1/1.1 \\approx 9.09\\%\\), slightly less than 10% (confirming C).",
+    "timeTargetSec": 110
+  },
+  {
+    "id": "arithmetic-mixed-practice-046",
+    "type": "Numeric",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "rates-and-work"
+    ],
+    "difficulty": 5,
+    "variables": [
+      {
+        "name": "tB",
+        "min": 3,
+        "max": 15,
+        "step": 3
+      }
+    ],
+    "stem": "Working together, two people can complete a task in {{2*tB/3}} hours. Alone, one person takes {{2*tB}} hours. How long would it take the other person to complete the task alone, in hours?",
+    "answer": 9,
+    "answerFormula": "tB",
+    "solutionStandard": "If the other person takes \\(t\\) hours alone, \\(\\dfrac{1}{ {{2*tB}} } + \\dfrac{1}{t} = \\dfrac{1}{ {{2*tB/3}} }\\), which solves to \\(t={{tB}}\\).",
+    "timeTargetSec": 115
+  },
+  {
+    "id": "arithmetic-mixed-practice-047",
+    "type": "MC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "percent-change"
+    ],
+    "difficulty": 4,
+    "stem": "A town's population was 20,000 in 2020. It grew by 15% in 2021, then declined by 8% in 2022. What was the population at the end of 2022?",
+    "options": [
+      {
+        "id": "A",
+        "text": "20,240"
+      },
+      {
+        "id": "B",
+        "text": "20,700"
+      },
+      {
+        "id": "C",
+        "text": "21,160"
+      },
+      {
+        "id": "D",
+        "text": "21,850"
+      },
+      {
+        "id": "E",
+        "text": "23,000"
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "After 2021: \\(20000 \\times 1.15=23000\\). After 2022: \\(23000 \\times 0.92=21160\\).",
+    "timeTargetSec": 90
+  },
+  {
+    "id": "arithmetic-mixed-practice-048",
+    "type": "Numeric",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "percent-basics"
+    ],
+    "difficulty": 3,
+    "variables": [
+      {
+        "name": "total",
+        "min": 200,
+        "max": 1000,
+        "step": 50
+      },
+      {
+        "name": "pct",
+        "min": 10,
+        "max": 90,
+        "step": 10
+      }
+    ],
+    "stem": "A charity raised ${{total}}. If {{pct}}% of the funds go to administrative costs, how much money, in dollars, goes directly to the cause?",
+    "answer": 400,
+    "answerFormula": "total*(100-pct)/100",
+    "solutionStandard": "Directly to the cause: \\((100-{{pct}})\\% \\times {{total}} = {{total*(100-pct)/100}}\\).",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "arithmetic-mixed-practice-049",
+    "type": "MC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "rates-and-work"
+    ],
+    "difficulty": 1,
+    "stem": "A printer prints 8 pages per minute. How many pages does it print in 5 minutes?",
+    "options": [
+      {
+        "id": "A",
+        "text": "13"
+      },
+      {
+        "id": "B",
+        "text": "24"
+      },
+      {
+        "id": "C",
+        "text": "40"
+      },
+      {
+        "id": "D",
+        "text": "45"
+      },
+      {
+        "id": "E",
+        "text": "56"
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "\\(8 \\times 5 = 40\\) pages.",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "arithmetic-mixed-practice-050",
+    "type": "QC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "integer-properties"
+    ],
+    "difficulty": 5,
+    "stem": "\\(n\\) is a positive integer greater than 1.",
+    "quantityA": "The remainder when \\(n^2\\) is divided by \\(n\\)",
+    "quantityB": "The remainder when \\(n+1\\) is divided by \\(n\\)",
+    "answer": "B",
+    "solutionStandard": "\\(n^2\\) is always exactly divisible by \\(n\\), so Quantity A is always 0. \\(n+1 = 1\\times n + 1\\), so Quantity B is always 1 (valid since \\(n>1\\)). Quantity B is always greater.",
+    "timeTargetSec": 85
+  }
+]

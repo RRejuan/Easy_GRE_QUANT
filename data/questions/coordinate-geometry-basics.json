@@ -9,13 +9,72 @@
     "figure": {
       "viewBox": "0 0 200 170",
       "elements": [
-        { "kind": "line", "from": { "x": 0, "y": 150 }, "to": { "x": 200, "y": 150 } },
-        { "kind": "line", "from": { "x": 60, "y": 0 }, "to": { "x": 60, "y": 170 } },
-        { "kind": "line", "from": { "x": 90, "y": 105 }, "to": { "x": 150, "y": 60 }, "dashed": true },
-        { "kind": "circle", "center": { "x": 90, "y": 105 }, "radius": 2.5 },
-        { "kind": "circle", "center": { "x": 150, "y": 60 }, "radius": 2.5 },
-        { "kind": "label", "at": { "x": 95, "y": 118 }, "text": "A (2, 3)" },
-        { "kind": "label", "at": { "x": 155, "y": 55 }, "text": "B (6, 6)" }
+        {
+          "kind": "line",
+          "from": {
+            "x": 0,
+            "y": 150
+          },
+          "to": {
+            "x": 200,
+            "y": 150
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 60,
+            "y": 0
+          },
+          "to": {
+            "x": 60,
+            "y": 170
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 90,
+            "y": 105
+          },
+          "to": {
+            "x": 150,
+            "y": 60
+          },
+          "dashed": true
+        },
+        {
+          "kind": "circle",
+          "center": {
+            "x": 90,
+            "y": 105
+          },
+          "radius": 2.5
+        },
+        {
+          "kind": "circle",
+          "center": {
+            "x": 150,
+            "y": 60
+          },
+          "radius": 2.5
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 95,
+            "y": 118
+          },
+          "text": "A (2, 3)"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 155,
+            "y": 55
+          },
+          "text": "B (6, 6)"
+        }
       ]
     },
     "answer": 5,
@@ -30,11 +89,26 @@
     "difficulty": 1,
     "stem": "What is the midpoint of the segment connecting \\((2, 4)\\) and \\((8, 10)\\)?",
     "options": [
-      { "id": "A", "text": "(4, 6)" },
-      { "id": "B", "text": "(5, 7)" },
-      { "id": "C", "text": "(6, 8)" },
-      { "id": "D", "text": "(10, 14)" },
-      { "id": "E", "text": "(5, 6)" }
+      {
+        "id": "A",
+        "text": "(4, 6)"
+      },
+      {
+        "id": "B",
+        "text": "(5, 7)"
+      },
+      {
+        "id": "C",
+        "text": "(6, 8)"
+      },
+      {
+        "id": "D",
+        "text": "(10, 14)"
+      },
+      {
+        "id": "E",
+        "text": "(5, 6)"
+      }
     ],
     "answer": "B",
     "solutionStandard": "Midpoint \\(= \\left(\\dfrac{2+8}{2}, \\dfrac{4+10}{2}\\right) = (5, 7)\\).",
@@ -49,7 +123,78 @@
     "stem": "What is the distance between \\((-1, 2)\\) and \\((3, -1)\\)?",
     "answer": 5,
     "solutionStandard": "\\(d=\\sqrt{(3-(-1))^2+(-1-2)^2}=\\sqrt{16+9}=\\sqrt{25}=5\\).",
-    "timeTargetSec": 55
+    "timeTargetSec": 55,
+    "figure": {
+      "viewBox": "0 0 200 170",
+      "elements": [
+        {
+          "kind": "line",
+          "from": {
+            "x": 0,
+            "y": 90
+          },
+          "to": {
+            "x": 200,
+            "y": 90
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 60,
+            "y": 0
+          },
+          "to": {
+            "x": 60,
+            "y": 170
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 40,
+            "y": 50
+          },
+          "to": {
+            "x": 120,
+            "y": 110
+          },
+          "dashed": true
+        },
+        {
+          "kind": "circle",
+          "center": {
+            "x": 40,
+            "y": 50
+          },
+          "radius": 2.5
+        },
+        {
+          "kind": "circle",
+          "center": {
+            "x": 120,
+            "y": 110
+          },
+          "radius": 2.5
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 46,
+            "y": 42
+          },
+          "text": "(-1, 2)"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 126,
+            "y": 102
+          },
+          "text": "(3, -1)"
+        }
+      ]
+    }
   },
   {
     "id": "coordinate-geometry-basics-004",
@@ -59,15 +204,73 @@
     "difficulty": 2,
     "stem": "Point \\(P\\) is at \\((3, -5)\\). In which quadrant does \\(P\\) lie?",
     "options": [
-      { "id": "A", "text": "I" },
-      { "id": "B", "text": "II" },
-      { "id": "C", "text": "III" },
-      { "id": "D", "text": "IV" },
-      { "id": "E", "text": "On an axis" }
+      {
+        "id": "A",
+        "text": "I"
+      },
+      {
+        "id": "B",
+        "text": "II"
+      },
+      {
+        "id": "C",
+        "text": "III"
+      },
+      {
+        "id": "D",
+        "text": "IV"
+      },
+      {
+        "id": "E",
+        "text": "On an axis"
+      }
     ],
     "answer": "D",
     "solutionStandard": "\\(x>0\\) and \\(y<0\\) is Quadrant IV.",
-    "timeTargetSec": 35
+    "timeTargetSec": 35,
+    "figure": {
+      "viewBox": "0 0 200 170",
+      "elements": [
+        {
+          "kind": "line",
+          "from": {
+            "x": 0,
+            "y": 50
+          },
+          "to": {
+            "x": 200,
+            "y": 50
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 70,
+            "y": 0
+          },
+          "to": {
+            "x": 70,
+            "y": 170
+          }
+        },
+        {
+          "kind": "circle",
+          "center": {
+            "x": 115,
+            "y": 125
+          },
+          "radius": 3
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 123,
+            "y": 119
+          },
+          "text": "(3, -5)"
+        }
+      ]
+    }
   },
   {
     "id": "coordinate-geometry-basics-005",
@@ -80,7 +283,78 @@
     "quantityB": "\\(9\\)",
     "answer": "A",
     "solutionStandard": "\\(d=\\sqrt{6^2+8^2}=\\sqrt{36+64}=\\sqrt{100}=10\\). Since \\(10>9\\), Quantity A is greater.",
-    "timeTargetSec": 55
+    "timeTargetSec": 55,
+    "figure": {
+      "viewBox": "0 0 200 170",
+      "elements": [
+        {
+          "kind": "line",
+          "from": {
+            "x": 0,
+            "y": 140
+          },
+          "to": {
+            "x": 200,
+            "y": 140
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 40,
+            "y": 0
+          },
+          "to": {
+            "x": 40,
+            "y": 170
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 40,
+            "y": 140
+          },
+          "to": {
+            "x": 130,
+            "y": 20
+          },
+          "dashed": true
+        },
+        {
+          "kind": "circle",
+          "center": {
+            "x": 40,
+            "y": 140
+          },
+          "radius": 2.5
+        },
+        {
+          "kind": "circle",
+          "center": {
+            "x": 130,
+            "y": 20
+          },
+          "radius": 2.5
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 46,
+            "y": 132
+          },
+          "text": "A (0, 0)"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 136,
+            "y": 12
+          },
+          "text": "B (6, 8)"
+        }
+      ]
+    }
   },
   {
     "id": "coordinate-geometry-basics-006",
@@ -101,15 +375,88 @@
     "difficulty": 3,
     "stem": "A square has three of its vertices at \\((0,0)\\), \\((4,0)\\), and \\((4,4)\\). What are the coordinates of the fourth vertex?",
     "options": [
-      { "id": "A", "text": "(0, 4)" },
-      { "id": "B", "text": "(4, -4)" },
-      { "id": "C", "text": "(-4, 4)" },
-      { "id": "D", "text": "(0, -4)" },
-      { "id": "E", "text": "(8, 4)" }
+      {
+        "id": "A",
+        "text": "(0, 4)"
+      },
+      {
+        "id": "B",
+        "text": "(4, -4)"
+      },
+      {
+        "id": "C",
+        "text": "(-4, 4)"
+      },
+      {
+        "id": "D",
+        "text": "(0, -4)"
+      },
+      {
+        "id": "E",
+        "text": "(8, 4)"
+      }
     ],
     "answer": "A",
     "solutionStandard": "The square's sides are horizontal and vertical of length 4. Completing the square from \\((0,0)\\), \\((4,0)\\), \\((4,4)\\) requires a fourth vertex at \\((0,4)\\).",
-    "timeTargetSec": 60
+    "timeTargetSec": 60,
+    "figure": {
+      "viewBox": "0 0 200 170",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 40,
+              "y": 140
+            },
+            {
+              "x": 120,
+              "y": 140
+            },
+            {
+              "x": 120,
+              "y": 60
+            },
+            {
+              "x": 40,
+              "y": 60
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 34,
+            "y": 154
+          },
+          "text": "(0,0)"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 126,
+            "y": 154
+          },
+          "text": "(4,0)"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 126,
+            "y": 52
+          },
+          "text": "(4,4)"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 34,
+            "y": 52
+          },
+          "text": "?"
+        }
+      ]
+    }
   },
   {
     "id": "coordinate-geometry-basics-008",
@@ -119,12 +466,28 @@
     "difficulty": 3,
     "stem": "Which of the following points are equidistant from \\((0,0)\\) and \\((6,0)\\)? Select all that apply.",
     "options": [
-      { "id": "A", "text": "(3, 5)" },
-      { "id": "B", "text": "(3, -2)" },
-      { "id": "C", "text": "(2, 4)" },
-      { "id": "D", "text": "(3, 0)" }
+      {
+        "id": "A",
+        "text": "(3, 5)"
+      },
+      {
+        "id": "B",
+        "text": "(3, -2)"
+      },
+      {
+        "id": "C",
+        "text": "(2, 4)"
+      },
+      {
+        "id": "D",
+        "text": "(3, 0)"
+      }
     ],
-    "answer": ["A", "B", "D"],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
     "solutionStandard": "Points equidistant from \\((0,0)\\) and \\((6,0)\\) lie on the perpendicular bisector \\(x=3\\). (A), (B), and (D) all have \\(x=3\\); (C) does not.",
     "timeTargetSec": 70
   },
@@ -137,7 +500,74 @@
     "stem": "A circle is centered at \\((2, 3)\\) and passes through \\((6, 6)\\). What is the radius of the circle?",
     "answer": 5,
     "solutionStandard": "Radius \\(=\\sqrt{(6-2)^2+(6-3)^2}=\\sqrt{16+9}=\\sqrt{25}=5\\).",
-    "timeTargetSec": 60
+    "timeTargetSec": 60,
+    "figure": {
+      "viewBox": "0 0 200 170",
+      "elements": [
+        {
+          "kind": "line",
+          "from": {
+            "x": 0,
+            "y": 140
+          },
+          "to": {
+            "x": 200,
+            "y": 140
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 30,
+            "y": 0
+          },
+          "to": {
+            "x": 30,
+            "y": 170
+          }
+        },
+        {
+          "kind": "circle",
+          "center": {
+            "x": 50,
+            "y": 110
+          },
+          "radius": 50
+        },
+        {
+          "kind": "circle",
+          "center": {
+            "x": 50,
+            "y": 110
+          },
+          "radius": 2.5
+        },
+        {
+          "kind": "circle",
+          "center": {
+            "x": 90,
+            "y": 80
+          },
+          "radius": 2.5
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 56,
+            "y": 102
+          },
+          "text": "(2, 3)"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 96,
+            "y": 72
+          },
+          "text": "(6, 6)"
+        }
+      ]
+    }
   },
   {
     "id": "coordinate-geometry-basics-010",
@@ -150,6 +580,525 @@
     "quantityB": "The perimeter of the triangle minus 7",
     "answer": "C",
     "solutionStandard": "\\(BC=\\sqrt{4^2+3^2}=5\\). Perimeter \\(=AB+AC+BC=4+3+5=12\\). Perimeter minus 7 \\(=5\\). The quantities are equal.",
-    "timeTargetSec": 80
+    "timeTargetSec": 80,
+    "figure": {
+      "viewBox": "0 0 200 170",
+      "elements": [
+        {
+          "kind": "line",
+          "from": {
+            "x": 0,
+            "y": 140
+          },
+          "to": {
+            "x": 200,
+            "y": 140
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 30,
+            "y": 0
+          },
+          "to": {
+            "x": 30,
+            "y": 170
+          }
+        },
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 30,
+              "y": 140
+            },
+            {
+              "x": 110,
+              "y": 140
+            },
+            {
+              "x": 30,
+              "y": 80
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 16,
+            "y": 154
+          },
+          "text": "A(0,0)"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 116,
+            "y": 154
+          },
+          "text": "B(4,0)"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 16,
+            "y": 74
+          },
+          "text": "C(0,3)"
+        }
+      ]
+    }
+  },
+  {
+    "id": "coordinate-geometry-basics-011",
+    "type": "Numeric",
+    "primarySkill": "coordinate-geometry-basics",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "variables": [
+      {
+        "name": "k",
+        "min": 1,
+        "max": 8,
+        "step": 1
+      }
+    ],
+    "stem": "What is the distance between \\((0,0)\\) and \\(({{3*k}}, {{4*k}})\\)?",
+    "answer": 15,
+    "answerFormula": "5 * k",
+    "solutionStandard": "This is the 3-4-5 triple scaled by \\({{k}}\\): distance \\(={{5*k}}\\).",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "coordinate-geometry-basics-012",
+    "type": "MC",
+    "primarySkill": "coordinate-geometry-basics",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "What is the midpoint of the segment connecting \\((1, 3)\\) and \\((7, 9)\\)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "(3, 5)"
+      },
+      {
+        "id": "B",
+        "text": "(4, 6)"
+      },
+      {
+        "id": "C",
+        "text": "(4, 5)"
+      },
+      {
+        "id": "D",
+        "text": "(8, 12)"
+      },
+      {
+        "id": "E",
+        "text": "(3, 6)"
+      }
+    ],
+    "answer": "B",
+    "solutionStandard": "Midpoint \\(=\\left(\\dfrac{1+7}{2},\\dfrac{3+9}{2}\\right)=(4,6)\\).",
+    "timeTargetSec": 40
+  },
+  {
+    "id": "coordinate-geometry-basics-013",
+    "type": "Numeric",
+    "primarySkill": "coordinate-geometry-basics",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "variables": [
+      {
+        "name": "a",
+        "min": -10,
+        "max": 10,
+        "step": 1
+      },
+      {
+        "name": "b",
+        "min": -10,
+        "max": 10,
+        "step": 1
+      },
+      {
+        "name": "k",
+        "min": 1,
+        "max": 6,
+        "step": 1
+      }
+    ],
+    "stem": "What is the distance between \\(({{a}}, {{b}})\\) and \\(({{a+3*k}}, {{b+4*k}})\\)?",
+    "answer": 15,
+    "answerFormula": "5 * k",
+    "solutionStandard": "The coordinate differences are \\({{3*k}}\\) and \\({{4*k}}\\), a 3-4-5 triple scaled by \\({{k}}\\): distance \\(={{5*k}}\\), regardless of the starting point.",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "coordinate-geometry-basics-014",
+    "type": "MC",
+    "primarySkill": "coordinate-geometry-basics",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "Point \\(P\\) is at \\((-4, 7)\\). In which quadrant does \\(P\\) lie?",
+    "options": [
+      {
+        "id": "A",
+        "text": "I"
+      },
+      {
+        "id": "B",
+        "text": "II"
+      },
+      {
+        "id": "C",
+        "text": "III"
+      },
+      {
+        "id": "D",
+        "text": "IV"
+      },
+      {
+        "id": "E",
+        "text": "On an axis"
+      }
+    ],
+    "answer": "B",
+    "solutionStandard": "\\(x<0\\) and \\(y>0\\) is Quadrant II.",
+    "timeTargetSec": 35,
+    "figure": {
+      "viewBox": "0 0 200 170",
+      "elements": [
+        {
+          "kind": "line",
+          "from": {
+            "x": 0,
+            "y": 140
+          },
+          "to": {
+            "x": 200,
+            "y": 140
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 120,
+            "y": 0
+          },
+          "to": {
+            "x": 120,
+            "y": 170
+          }
+        },
+        {
+          "kind": "circle",
+          "center": {
+            "x": 88,
+            "y": 84
+          },
+          "radius": 3
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 96,
+            "y": 78
+          },
+          "text": "(-4, 7)"
+        }
+      ]
+    }
+  },
+  {
+    "id": "coordinate-geometry-basics-015",
+    "type": "QC",
+    "primarySkill": "coordinate-geometry-basics",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "variables": [
+      {
+        "name": "k",
+        "min": 1,
+        "max": 8,
+        "step": 1
+      }
+    ],
+    "stem": "Point \\(A\\) is at \\((0,0)\\) and point \\(B\\) is at \\(({{6*k}}, {{8*k}})\\).",
+    "quantityA": "The distance from \\(A\\) to \\(B\\)",
+    "quantityB": "{{10*k - 1}}",
+    "answer": "A",
+    "solutionStandard": "This is the 3-4-5 triple scaled by \\(2({{k}})\\): distance \\(={{10*k}}\\), always exactly 1 more than Quantity B.",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "coordinate-geometry-basics-016",
+    "type": "Numeric",
+    "primarySkill": "coordinate-geometry-basics",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "variables": [
+      {
+        "name": "mx",
+        "min": -10,
+        "max": 10,
+        "step": 1
+      },
+      {
+        "name": "my",
+        "min": -10,
+        "max": 10,
+        "step": 1
+      },
+      {
+        "name": "ay",
+        "min": -10,
+        "max": 10,
+        "step": 1
+      }
+    ],
+    "stem": "The midpoint of segment \\(AB\\) is \\(({{mx}}, {{my}})\\). If \\(A = (-2, {{ay}})\\), what is the \\(y\\)-coordinate of \\(B\\)?",
+    "answer": -3,
+    "answerFormula": "2*my - ay",
+    "solutionStandard": "\\(\\dfrac{ {{ay}}+y_B}{2}={{my}}\\), so \\(y_B = 2({{my}}) - {{ay}} = {{2*my-ay}}\\).",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "coordinate-geometry-basics-017",
+    "type": "MC",
+    "primarySkill": "coordinate-geometry-basics",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "A square has three of its vertices at \\((0,0)\\), \\((5,0)\\), and \\((5,5)\\). What are the coordinates of the fourth vertex?",
+    "options": [
+      {
+        "id": "A",
+        "text": "(0, 5)"
+      },
+      {
+        "id": "B",
+        "text": "(5, -5)"
+      },
+      {
+        "id": "C",
+        "text": "(-5, 5)"
+      },
+      {
+        "id": "D",
+        "text": "(0, -5)"
+      },
+      {
+        "id": "E",
+        "text": "(10, 5)"
+      }
+    ],
+    "answer": "A",
+    "solutionStandard": "Completing the square from \\((0,0)\\), \\((5,0)\\), \\((5,5)\\) requires a fourth vertex at \\((0,5)\\).",
+    "timeTargetSec": 60,
+    "figure": {
+      "viewBox": "0 0 200 170",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 30,
+              "y": 140
+            },
+            {
+              "x": 120,
+              "y": 140
+            },
+            {
+              "x": 120,
+              "y": 50
+            },
+            {
+              "x": 30,
+              "y": 50
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 24,
+            "y": 154
+          },
+          "text": "(0,0)"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 126,
+            "y": 154
+          },
+          "text": "(5,0)"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 126,
+            "y": 42
+          },
+          "text": "(5,5)"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 24,
+            "y": 42
+          },
+          "text": "?"
+        }
+      ]
+    }
+  },
+  {
+    "id": "coordinate-geometry-basics-018",
+    "type": "Numeric",
+    "primarySkill": "coordinate-geometry-basics",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "variables": [
+      {
+        "name": "a",
+        "min": -10,
+        "max": 10,
+        "step": 1
+      },
+      {
+        "name": "b",
+        "min": -10,
+        "max": 10,
+        "step": 1
+      },
+      {
+        "name": "k",
+        "min": 1,
+        "max": 6,
+        "step": 1
+      }
+    ],
+    "stem": "A circle is centered at \\(({{a}}, {{b}})\\) and passes through \\(({{a+3*k}}, {{b+4*k}})\\). What is the radius of the circle?",
+    "answer": 15,
+    "answerFormula": "5 * k",
+    "solutionStandard": "The coordinate differences form a 3-4-5 triple scaled by \\({{k}}\\): radius \\(={{5*k}}\\).",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "coordinate-geometry-basics-019",
+    "type": "MultiMC",
+    "primarySkill": "coordinate-geometry-basics",
+    "secondarySkills": [],
+    "difficulty": 5,
+    "stem": "Which of the following points are equidistant from \\((0,0)\\) and \\((8,0)\\)? Select all that apply.",
+    "options": [
+      {
+        "id": "A",
+        "text": "(4, 5)"
+      },
+      {
+        "id": "B",
+        "text": "(4, -3)"
+      },
+      {
+        "id": "C",
+        "text": "(3, 5)"
+      },
+      {
+        "id": "D",
+        "text": "(4, 0)"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "solutionStandard": "Points equidistant from \\((0,0)\\) and \\((8,0)\\) lie on the perpendicular bisector \\(x=4\\). (A), (B), and (D) all have \\(x=4\\); (C) does not.",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "coordinate-geometry-basics-020",
+    "type": "QC",
+    "primarySkill": "coordinate-geometry-basics",
+    "secondarySkills": [],
+    "difficulty": 5,
+    "stem": "Triangle \\(ABC\\) has vertices \\(A=(0,0)\\), \\(B=(6,0)\\), and \\(C=(0,8)\\).",
+    "quantityA": "The area of the triangle",
+    "quantityB": "The perimeter of the triangle",
+    "answer": "C",
+    "solutionStandard": "Area \\(=\\frac{1}{2}(6)(8)=24\\). \\(BC=\\sqrt{6^2+8^2}=10\\) (the 3-4-5 triple doubled), so perimeter \\(=6+8+10=24\\). The quantities happen to be exactly equal for this particular triangle.",
+    "timeTargetSec": 90,
+    "figure": {
+      "viewBox": "0 0 200 170",
+      "elements": [
+        {
+          "kind": "line",
+          "from": {
+            "x": 0,
+            "y": 150
+          },
+          "to": {
+            "x": 200,
+            "y": 150
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 30,
+            "y": 0
+          },
+          "to": {
+            "x": 30,
+            "y": 170
+          }
+        },
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 30,
+              "y": 150
+            },
+            {
+              "x": 102,
+              "y": 150
+            },
+            {
+              "x": 30,
+              "y": 54
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 16,
+            "y": 164
+          },
+          "text": "A(0,0)"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 108,
+            "y": 164
+          },
+          "text": "B(6,0)"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 16,
+            "y": 48
+          },
+          "text": "C(0,8)"
+        }
+      ]
+    }
   }
 ]

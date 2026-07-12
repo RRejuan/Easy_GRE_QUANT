@@ -18,14 +18,23 @@ function shuffle<T>(items: T[]): T[] {
 }
 
 /**
- * The pool doesn't yet have enough dedicated, non-practice mock content
- * (~500 planned, ~140 built so far), so section 1 and the tiered section 2
- * pools are assembled dynamically from the existing skill question pool
- * rather than from a fixed, hand-curated mock. Revisit once dedicated mock
- * content exists.
+ * Section 1 and the tiered section 2 pools are assembled dynamically from
+ * the full question pool (every skill plus the four GRE-mock-style mixed
+ * practice pools), rather than from a fixed, hand-curated mock — this
+ * mirrors the real test, where a single section mixes topics freely.
  */
 export function assembleSection1(): Question[] {
-  return shuffle(allQuestions()).slice(0, SECTION1_QUESTION_COUNT);
+  // On the real GRE, section 1 of each measure is always calibrated to
+  // medium difficulty (that's the whole basis for routing section 2).
+  // Draw from difficulty 3 first, and only reach into neighboring
+  // difficulties if the medium pool somehow can't fill the section.
+  const pool = allQuestions();
+  const medium = shuffle(pool.filter((q) => q.difficulty === 3));
+  if (medium.length >= SECTION1_QUESTION_COUNT) {
+    return medium.slice(0, SECTION1_QUESTION_COUNT);
+  }
+  const nearMedium = shuffle(pool.filter((q) => q.difficulty === 2 || q.difficulty === 4));
+  return [...medium, ...nearMedium].slice(0, SECTION1_QUESTION_COUNT);
 }
 
 export function determineTier(correctCount: number, total: number): Tier {

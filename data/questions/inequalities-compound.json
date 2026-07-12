@@ -7,11 +7,26 @@
     "difficulty": 1,
     "stem": "Solve: \\(3 < x + 2 < 9\\)",
     "options": [
-      { "id": "A", "text": "\\(1 < x < 7\\)" },
-      { "id": "B", "text": "\\(5 < x < 11\\)" },
-      { "id": "C", "text": "\\(1 < x < 11\\)" },
-      { "id": "D", "text": "\\(3 < x < 9\\)" },
-      { "id": "E", "text": "\\(-1 < x < 7\\)" }
+      {
+        "id": "A",
+        "text": "\\(1 < x < 7\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(5 < x < 11\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(1 < x < 11\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(3 < x < 9\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(-1 < x < 7\\)"
+      }
     ],
     "answer": "A",
     "solutionStandard": "Subtract 2 from all three parts: \\(1 < x < 7\\).",
@@ -22,7 +37,7 @@
     "type": "Numeric",
     "primarySkill": "inequalities-compound",
     "secondarySkills": [],
-    "difficulty": 2,
+    "difficulty": 1,
     "stem": "How many integers satisfy \\(-2 \\le x \\le 5\\)?",
     "answer": 8,
     "solutionStandard": "The integers are \\(-2,-1,0,1,2,3,4,5\\) — 8 values.",
@@ -36,11 +51,26 @@
     "difficulty": 2,
     "stem": "Solve: \\(4 < 2x - 2 < 10\\)",
     "options": [
-      { "id": "A", "text": "\\(2 < x < 5\\)" },
-      { "id": "B", "text": "\\(3 < x < 6\\)" },
-      { "id": "C", "text": "\\(1 < x < 4\\)" },
-      { "id": "D", "text": "\\(6 < x < 12\\)" },
-      { "id": "E", "text": "\\(3 < x < 4\\)" }
+      {
+        "id": "A",
+        "text": "\\(2 < x < 5\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(3 < x < 6\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(1 < x < 4\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(6 < x < 12\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(3 < x < 4\\)"
+      }
     ],
     "answer": "B",
     "solutionStandard": "Add 2 to all parts: \\(6 < 2x < 12\\). Divide by 2: \\(3 < x < 6\\).",
@@ -67,12 +97,28 @@
     "difficulty": 3,
     "stem": "Which of the following satisfy \\(x \\le -3\\) or \\(x \\ge 4\\)? Select all that apply.",
     "options": [
-      { "id": "A", "text": "-3" },
-      { "id": "B", "text": "0" },
-      { "id": "C", "text": "4" },
-      { "id": "D", "text": "5" }
+      {
+        "id": "A",
+        "text": "-3"
+      },
+      {
+        "id": "B",
+        "text": "0"
+      },
+      {
+        "id": "C",
+        "text": "4"
+      },
+      {
+        "id": "D",
+        "text": "5"
+      }
     ],
-    "answer": ["A", "C", "D"],
+    "answer": [
+      "A",
+      "C",
+      "D"
+    ],
     "solutionStandard": "\\(-3\\) satisfies \\(x\\le-3\\). \\(0\\) satisfies neither. \\(4\\) and \\(5\\) satisfy \\(x\\ge4\\).",
     "timeTargetSec": 60
   },
@@ -95,11 +141,26 @@
     "difficulty": 3,
     "stem": "Solve: \\(-6 < -2x < 4\\)",
     "options": [
-      { "id": "A", "text": "\\(-2 < x < 3\\)" },
-      { "id": "B", "text": "\\(-3 < x < 2\\)" },
-      { "id": "C", "text": "\\(2 < x < 3\\)" },
-      { "id": "D", "text": "\\(-2 < x < -3\\)" },
-      { "id": "E", "text": "\\(3 < x < -2\\)" }
+      {
+        "id": "A",
+        "text": "\\(-2 < x < 3\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(-3 < x < 2\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(2 < x < 3\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(-2 < x < -3\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(3 < x < -2\\)"
+      }
     ],
     "answer": "A",
     "solutionStandard": "Divide all parts by \\(-2\\), flipping both inequalities: \\(-6/(-2)=3\\) and \\(4/(-2)=-2\\), giving \\(3 > x > -2\\), i.e. \\(-2 < x < 3\\).",
@@ -124,11 +185,26 @@
     "difficulty": 4,
     "stem": "If \\(2 \\le x \\le 5\\) and \\(1 \\le y \\le 3\\), what is the greatest possible value of \\(x - y\\)?",
     "options": [
-      { "id": "A", "text": "2" },
-      { "id": "B", "text": "3" },
-      { "id": "C", "text": "4" },
-      { "id": "D", "text": "5" },
-      { "id": "E", "text": "8" }
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "3"
+      },
+      {
+        "id": "C",
+        "text": "4"
+      },
+      {
+        "id": "D",
+        "text": "5"
+      },
+      {
+        "id": "E",
+        "text": "8"
+      }
     ],
     "answer": "C",
     "solutionStandard": "To maximize \\(x-y\\), take the largest \\(x\\) (5) and smallest \\(y\\) (1): \\(5-1=4\\).",
@@ -146,5 +222,273 @@
     "answer": "C",
     "solutionStandard": "\\(|x|\\) is maximized at whichever endpoint is farthest from 0. \\(|-3|=3\\) and \\(|7|=7\\), so the greatest possible value is 7, equal to Quantity B.",
     "timeTargetSec": 70
+  },
+  {
+    "id": "inequalities-compound-011",
+    "type": "Numeric",
+    "primarySkill": "inequalities-compound",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "variables": [
+      {
+        "name": "a",
+        "min": -10,
+        "max": 0,
+        "step": 1
+      },
+      {
+        "name": "b",
+        "min": 1,
+        "max": 15,
+        "step": 1
+      }
+    ],
+    "stem": "How many integers satisfy \\({{a}} \\le x \\le {{b}}\\)?",
+    "answer": 12,
+    "answerFormula": "b - a + 1",
+    "solutionStandard": "The count of integers from \\({{a}}\\) to \\({{b}}\\), inclusive, is \\({{b}}-({{a}})+1 = {{b-a+1}}\\).",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "inequalities-compound-012",
+    "type": "MC",
+    "primarySkill": "inequalities-compound",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "Solve: \\(2 < x + 3 < 9\\)",
+    "options": [
+      {
+        "id": "A",
+        "text": "\\(-1 < x < 6\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(5 < x < 12\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(-1 < x < 12\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(2 < x < 9\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(1 < x < 6\\)"
+      }
+    ],
+    "answer": "A",
+    "solutionStandard": "Subtract 3 from all three parts: \\(-1 < x < 6\\).",
+    "timeTargetSec": 40
+  },
+  {
+    "id": "inequalities-compound-013",
+    "type": "Numeric",
+    "primarySkill": "inequalities-compound",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "variables": [
+      {
+        "name": "b",
+        "min": 1,
+        "max": 10,
+        "step": 1
+      },
+      {
+        "name": "k",
+        "min": 2,
+        "max": 20,
+        "step": 1
+      }
+    ],
+    "stem": "\\({{3*(k-9)+b}} < 3x + {{b}} \\le {{3*k+b}}\\). What is the greatest integer value of \\(x\\) satisfying this?",
+    "answer": 10,
+    "answerFormula": "k",
+    "solutionStandard": "The right side gives \\(3x \\le {{3*k}}\\), so \\(x \\le {{k}}\\). The greatest integer satisfying this is \\({{k}}\\).",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "inequalities-compound-014",
+    "type": "QC",
+    "primarySkill": "inequalities-compound",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "stem": "\\(x < -5\\) or \\(x > 5\\)",
+    "quantityA": "The number of integers from -5 to 5, inclusive, satisfying the condition",
+    "quantityB": "\\(0\\)",
+    "answer": "C",
+    "solutionStandard": "Neither endpoint (\\(-5\\) or \\(5\\)) nor anything between them satisfies a strict \\(<\\) or \\(>\\) condition at that same boundary. The count is 0, equal to Quantity B.",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "inequalities-compound-015",
+    "type": "MultiMC",
+    "primarySkill": "inequalities-compound",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "Which of the following satisfy \\(x \\le -2\\) or \\(x \\ge 6\\)? Select all that apply.",
+    "options": [
+      {
+        "id": "A",
+        "text": "-2"
+      },
+      {
+        "id": "B",
+        "text": "1"
+      },
+      {
+        "id": "C",
+        "text": "6"
+      },
+      {
+        "id": "D",
+        "text": "7"
+      }
+    ],
+    "answer": [
+      "A",
+      "C",
+      "D"
+    ],
+    "solutionStandard": "\\(-2\\) satisfies \\(x\\le-2\\). \\(1\\) satisfies neither. \\(6\\) and \\(7\\) satisfy \\(x\\ge6\\).",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "inequalities-compound-016",
+    "type": "Numeric",
+    "primarySkill": "inequalities-compound",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "variables": [
+      {
+        "name": "a",
+        "min": -10,
+        "max": 0,
+        "step": 1
+      },
+      {
+        "name": "k",
+        "min": 5,
+        "max": 25,
+        "step": 1
+      }
+    ],
+    "stem": "How many integers satisfy both \\(x > {{a}}\\) and \\(2x + 1 < {{2*k+2}}\\)?",
+    "answer": 10,
+    "answerFormula": "k - a",
+    "solutionStandard": "The second condition gives \\(2x < {{2*k+1}}\\), so \\(x < {{k+0.5}}\\), meaning \\(x \\le {{k}}\\). Combined with \\(x>{{a}}\\): the integers \\({{a}}+1\\) through \\({{k}}\\), which is \\({{k}}-({{a}}) = {{k-a}}\\) values.",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "inequalities-compound-017",
+    "type": "MC",
+    "primarySkill": "inequalities-compound",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "Solve: \\(-8 < -4x \\le 12\\)",
+    "options": [
+      {
+        "id": "A",
+        "text": "\\(-3 \\le x < 2\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(2 \\le x < -3\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(-3 < x \\le 2\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(-2 \\le x < 3\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(3 \\le x < -2\\)"
+      }
+    ],
+    "answer": "A",
+    "solutionStandard": "Divide by \\(-4\\), flipping both inequalities: \\(-8/(-4)=2\\) and \\(12/(-4)=-3\\), giving \\(2 > x \\ge -3\\), i.e. \\(-3 \\le x < 2\\).",
+    "timeTargetSec": 80
+  },
+  {
+    "id": "inequalities-compound-018",
+    "type": "Numeric",
+    "primarySkill": "inequalities-compound",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "variables": [
+      {
+        "name": "a",
+        "min": 1,
+        "max": 5,
+        "step": 1
+      },
+      {
+        "name": "b",
+        "min": 6,
+        "max": 15,
+        "step": 1
+      },
+      {
+        "name": "c",
+        "min": 1,
+        "max": 5,
+        "step": 1
+      },
+      {
+        "name": "d",
+        "min": 6,
+        "max": 15,
+        "step": 1
+      }
+    ],
+    "stem": "If \\({{a}} \\le x \\le {{b}}\\) and \\({{c}} \\le y \\le {{d}}\\), what is the greatest possible value of \\(x - y\\)?",
+    "answer": 9,
+    "answerFormula": "b - c",
+    "solutionStandard": "To maximize \\(x-y\\), take the greatest possible \\(x\\) (\\({{b}}\\)) and the least possible \\(y\\) (\\({{c}}\\)): \\({{b}} - {{c}} = {{b-c}}\\).",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "inequalities-compound-019",
+    "type": "QC",
+    "primarySkill": "inequalities-compound",
+    "secondarySkills": [],
+    "difficulty": 5,
+    "variables": [
+      {
+        "name": "a",
+        "min": 1,
+        "max": 10,
+        "step": 1
+      },
+      {
+        "name": "b",
+        "min": 11,
+        "max": 20,
+        "step": 1
+      }
+    ],
+    "stem": "\\(-{{a}} \\le x \\le {{b}}\\)",
+    "quantityA": "The greatest possible value of \\(|x|\\)",
+    "quantityB": "{{b}}",
+    "answer": "C",
+    "solutionStandard": "\\(|x|\\) is maximized at whichever endpoint is farthest from 0. Since \\({{b}} > {{a}}\\), the endpoint \\({{b}}\\) gives the greater absolute value, so the greatest possible \\(|x|\\) is \\({{b}}\\), equal to Quantity B.",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "inequalities-compound-020",
+    "type": "QC",
+    "primarySkill": "inequalities-compound",
+    "secondarySkills": [],
+    "difficulty": 5,
+    "stem": "\\(x\\) and \\(y\\) are integers such that \\(2 \\le x \\le 8\\) and \\(x < y < 2x\\).",
+    "quantityA": "The greatest possible value of \\(y\\)",
+    "quantityB": "\\(15\\)",
+    "answer": "C",
+    "solutionStandard": "Since \\(y<2x\\) increases with \\(x\\), the greatest possible \\(y\\) occurs at the greatest allowed \\(x\\), which is 8: \\(y < 16\\), so the greatest integer \\(y\\) can be is 15. The quantities are equal.",
+    "timeTargetSec": 90
   }
 ]

@@ -255,5 +255,265 @@
     "answer": "C",
     "solutionStandard": "\\(\\frac{1}{x} + \\frac{1}{2x} = \\frac{2}{2x} + \\frac{1}{2x} = \\frac{3}{2x}\\). Setting \\(\\frac{3}{2x} = \\frac{3}{4}\\) gives \\(2x = 4\\), so \\(x = 2\\).",
     "timeTargetSec": 90
+  },
+  {
+    "id": "linear-equations-one-var-011",
+    "type": "Numeric",
+    "primarySkill": "linear-equations-one-var",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "variables": [
+      {
+        "name": "a",
+        "min": 2,
+        "max": 9,
+        "step": 1
+      },
+      {
+        "name": "b",
+        "min": 1,
+        "max": 30,
+        "step": 1
+      },
+      {
+        "name": "xt",
+        "min": 1,
+        "max": 15,
+        "step": 1
+      }
+    ],
+    "stem": "If \\({{a}}x + {{b}} = {{a*xt+b}}\\), what is \\(x\\)?",
+    "answer": 7,
+    "answerFormula": "xt",
+    "solutionStandard": "\\({{a}}x = {{a*xt+b}} - {{b}} = {{a*xt}}\\), so \\(x = {{xt}}\\).",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "linear-equations-one-var-012",
+    "type": "MC",
+    "primarySkill": "linear-equations-one-var",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "If \\(4x - 3 = 17\\), what is \\(x\\)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "3"
+      },
+      {
+        "id": "B",
+        "text": "4"
+      },
+      {
+        "id": "C",
+        "text": "5"
+      },
+      {
+        "id": "D",
+        "text": "6"
+      },
+      {
+        "id": "E",
+        "text": "7"
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "\\(4x = 20\\), so \\(x=5\\).",
+    "timeTargetSec": 35
+  },
+  {
+    "id": "linear-equations-one-var-013",
+    "type": "Numeric",
+    "primarySkill": "linear-equations-one-var",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "variables": [
+      {
+        "name": "k",
+        "min": 1,
+        "max": 30,
+        "step": 1
+      }
+    ],
+    "stem": "The sum of a number and {{k}} is 3 less than twice the number. What is the number?",
+    "answer": 10,
+    "answerFormula": "k + 3",
+    "solutionStandard": "Let the number be \\(n\\): \\(n + {{k}} = 2n - 3\\), so \\(n = {{k}} + 3 = {{k+3}}\\).",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "linear-equations-one-var-014",
+    "type": "MC",
+    "primarySkill": "linear-equations-one-var",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "If \\(5x - 2 = 3x + 8\\), what is \\(x\\)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "3"
+      },
+      {
+        "id": "B",
+        "text": "4"
+      },
+      {
+        "id": "C",
+        "text": "5"
+      },
+      {
+        "id": "D",
+        "text": "6"
+      },
+      {
+        "id": "E",
+        "text": "7"
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "\\(2x = 10\\), so \\(x=5\\).",
+    "timeTargetSec": 40
+  },
+  {
+    "id": "linear-equations-one-var-015",
+    "type": "Numeric",
+    "primarySkill": "linear-equations-one-var",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "variables": [
+      {
+        "name": "d",
+        "min": 2,
+        "max": 8,
+        "step": 1
+      },
+      {
+        "name": "k",
+        "min": 1,
+        "max": 10,
+        "step": 1
+      },
+      {
+        "name": "q",
+        "min": 2,
+        "max": 20,
+        "step": 1
+      }
+    ],
+    "stem": "If \\(\\dfrac{x}{ {{d}} } + {{k}} = {{q+k}}\\), what is \\(x\\)?",
+    "answer": 20,
+    "answerFormula": "q * d",
+    "solutionStandard": "\\(\\dfrac{x}{ {{d}} } = {{q+k}} - {{k}} = {{q}}\\), so \\(x = {{q}} \\times {{d}} = {{q*d}}\\).",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "linear-equations-one-var-016",
+    "type": "MultiMC",
+    "primarySkill": "linear-equations-one-var",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "\\(3x + 5 = 2x + 12\\). Which of the following equal \\(x\\)? Select all that apply.",
+    "options": [
+      {
+        "id": "A",
+        "text": "7"
+      },
+      {
+        "id": "B",
+        "text": "\\(\\sqrt{49}\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(21/3\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(12/2\\)"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "solutionStandard": "\\(x=7\\). \\(\\sqrt{49}=7\\) and \\(21/3=7\\) both match. But \\(12/2=6 \\neq 7\\).",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "linear-equations-one-var-017",
+    "type": "Numeric",
+    "primarySkill": "linear-equations-one-var",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "variables": [
+      {
+        "name": "k",
+        "min": 1,
+        "max": 30,
+        "step": 1
+      }
+    ],
+    "stem": "A number decreased by {{k}} equals half the number. What is the number?",
+    "answer": 20,
+    "answerFormula": "2 * k",
+    "solutionStandard": "Let the number be \\(n\\): \\(n - {{k}} = \\dfrac{n}{2}\\), so \\(\\dfrac{n}{2} = {{k}}\\), giving \\(n = {{2*k}}\\).",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "linear-equations-one-var-018",
+    "type": "MC",
+    "primarySkill": "linear-equations-one-var",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "If \\(\\dfrac{2}{x} - \\dfrac{1}{3x} = \\dfrac{5}{6}\\), what is \\(x\\)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "3"
+      },
+      {
+        "id": "D",
+        "text": "4"
+      },
+      {
+        "id": "E",
+        "text": "6"
+      }
+    ],
+    "answer": "B",
+    "solutionStandard": "\\(\\dfrac{2}{x} - \\dfrac{1}{3x} = \\dfrac{6}{3x} - \\dfrac{1}{3x} = \\dfrac{5}{3x}\\). Setting \\(\\dfrac{5}{3x}=\\dfrac{5}{6}\\) gives \\(3x=6\\), so \\(x=2\\).",
+    "timeTargetSec": 85
+  },
+  {
+    "id": "linear-equations-one-var-019",
+    "type": "Numeric",
+    "primarySkill": "linear-equations-one-var",
+    "secondarySkills": [],
+    "difficulty": 5,
+    "stem": "If \\(3(2x - 1) = 5(x + 2) - 7\\), what is the value of \\(x\\)?",
+    "answer": 6,
+    "solutionStandard": "\\(6x - 3 = 5x + 10 - 7\\), so \\(6x-3=5x+3\\), giving \\(x=6\\).",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "linear-equations-one-var-020",
+    "type": "QC",
+    "primarySkill": "linear-equations-one-var",
+    "secondarySkills": [],
+    "difficulty": 5,
+    "stem": "For every real number \\(x\\), \\(a(x+2) = ax + b\\).",
+    "quantityA": "\\(b\\)",
+    "quantityB": "\\(2a\\)",
+    "answer": "C",
+    "solutionStandard": "Expanding the left side: \\(ax + 2a\\). For this to equal \\(ax+b\\) for every value of \\(x\\), the constant terms must match exactly: \\(b = 2a\\). The quantities are always equal.",
+    "timeTargetSec": 85
   }
 ]

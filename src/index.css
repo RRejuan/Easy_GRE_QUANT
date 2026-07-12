@@ -16,6 +16,9 @@
   --chart-bar: #c1440e;
   --chart-baseline: #c3b8a4;
   --chart-label: #8a7c6a;
+  --chart-slice-4: #b8860b;
+  --chart-slice-5: #4a6fa5;
+  --chart-slice-6: #a5486b;
   --shadow:
     rgba(74, 63, 53, 0.12) 0 10px 15px -3px, rgba(74, 63, 53, 0.08) 0 4px 6px -2px;
 
@@ -57,6 +60,9 @@
     --chart-bar: #e0793f;
     --chart-baseline: #5a4d40;
     --chart-label: #b0a290;
+    --chart-slice-4: #d4a72c;
+    --chart-slice-5: #7b9fd4;
+    --chart-slice-6: #d4708f;
     --shadow:
       rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
   }

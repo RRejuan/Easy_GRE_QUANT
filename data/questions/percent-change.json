@@ -6,8 +6,18 @@
     "secondarySkills": [],
     "difficulty": 1,
     "variables": [
-      { "name": "orig", "min": 40, "max": 200, "step": 10 },
-      { "name": "pct", "min": 10, "max": 50, "step": 5 }
+      {
+        "name": "orig",
+        "min": 40,
+        "max": 200,
+        "step": 10
+      },
+      {
+        "name": "pct",
+        "min": 10,
+        "max": 50,
+        "step": 5
+      }
     ],
     "stem": "A price of ${{orig}} is increased by {{pct}}%. What is the new price?",
     "answer": 120,
@@ -20,14 +30,29 @@
     "type": "MC",
     "primarySkill": "percent-change",
     "secondarySkills": [],
-    "difficulty": 2,
+    "difficulty": 1,
     "stem": "A price is decreased from $80 to $60. What is the percent decrease?",
     "options": [
-      { "id": "A", "text": "20%" },
-      { "id": "B", "text": "25%" },
-      { "id": "C", "text": "30%" },
-      { "id": "D", "text": "33.3%" },
-      { "id": "E", "text": "40%" }
+      {
+        "id": "A",
+        "text": "20%"
+      },
+      {
+        "id": "B",
+        "text": "25%"
+      },
+      {
+        "id": "C",
+        "text": "30%"
+      },
+      {
+        "id": "D",
+        "text": "33.3%"
+      },
+      {
+        "id": "E",
+        "text": "40%"
+      }
     ],
     "answer": "B",
     "solutionStandard": "Percent decrease \\(= \\dfrac{80-60}{80} \\times 100 = 25\\%\\). Note the denominator is the original value, 80.",
@@ -39,7 +64,14 @@
     "primarySkill": "percent-change",
     "secondarySkills": [],
     "difficulty": 2,
-    "variables": [{ "name": "p", "min": 10, "max": 40, "step": 5 }],
+    "variables": [
+      {
+        "name": "p",
+        "min": 10,
+        "max": 40,
+        "step": 5
+      }
+    ],
     "stem": "A value is increased by {{p}}% and then decreased by {{p}}%.",
     "quantityA": "The final value",
     "quantityB": "The original value",
@@ -52,19 +84,36 @@
     "type": "MC",
     "primarySkill": "percent-change",
     "secondarySkills": [],
-    "difficulty": 3,
+    "difficulty": 2,
     "stem": "After a 25% discount, an item costs $60. What was the original price?",
     "options": [
-      { "id": "A", "text": "$70" },
-      { "id": "B", "text": "$75" },
-      { "id": "C", "text": "$80" },
-      { "id": "D", "text": "$85" },
-      { "id": "E", "text": "$90" }
+      {
+        "id": "A",
+        "text": "$70"
+      },
+      {
+        "id": "B",
+        "text": "$75"
+      },
+      {
+        "id": "C",
+        "text": "$80"
+      },
+      {
+        "id": "D",
+        "text": "$85"
+      },
+      {
+        "id": "E",
+        "text": "$90"
+      }
     ],
     "answer": "C",
     "solutionStandard": "\\(0.75x = 60\\), so \\(x = 60/0.75 = 80\\).",
     "solutionShortcut": "Backsolve: test $80: a 25% discount is \\(80 - 20 = 60\\). Matches.",
-    "shortcutTags": ["backsolve"],
+    "shortcutTags": [
+      "backsolve"
+    ],
     "timeTargetSec": 65
   },
   {
@@ -86,11 +135,26 @@
     "difficulty": 3,
     "stem": "A population grows by 10% each year. After 2 years, what is the total percent increase from the original population?",
     "options": [
-      { "id": "A", "text": "20%" },
-      { "id": "B", "text": "20.5%" },
-      { "id": "C", "text": "21%" },
-      { "id": "D", "text": "22%" },
-      { "id": "E", "text": "25%" }
+      {
+        "id": "A",
+        "text": "20%"
+      },
+      {
+        "id": "B",
+        "text": "20.5%"
+      },
+      {
+        "id": "C",
+        "text": "21%"
+      },
+      {
+        "id": "D",
+        "text": "22%"
+      },
+      {
+        "id": "E",
+        "text": "25%"
+      }
     ],
     "answer": "C",
     "solutionStandard": "The net multiplier after 2 years is \\(1.1 \\times 1.1 = 1.21\\), a 21% increase — not simply \\(10\\%+10\\%=20\\%\\).",
@@ -104,12 +168,27 @@
     "difficulty": 3,
     "stem": "Which of the following result in exactly the same final value as a single 30% increase? Select all that apply.",
     "options": [
-      { "id": "A", "text": "A single 30% increase" },
-      { "id": "B", "text": "A 4% increase followed by a 25% increase on the new total" },
-      { "id": "C", "text": "Two successive 15% increases" },
-      { "id": "D", "text": "A 50% increase followed by a 20% decrease" }
+      {
+        "id": "A",
+        "text": "A single 30% increase"
+      },
+      {
+        "id": "B",
+        "text": "A 4% increase followed by a 25% increase on the new total"
+      },
+      {
+        "id": "C",
+        "text": "Two successive 15% increases"
+      },
+      {
+        "id": "D",
+        "text": "A 50% increase followed by a 20% decrease"
+      }
     ],
-    "answer": ["A", "B"],
+    "answer": [
+      "A",
+      "B"
+    ],
     "solutionStandard": "(A) trivially matches. (B): \\(1.04 \\times 1.25 = 1.3\\), a 30% increase. (C): \\(1.15 \\times 1.15 = 1.3225\\), a 32.25% increase — not 30%. (D): \\(1.5 \\times 0.8 = 1.2\\), a 20% increase — not 30%.",
     "timeTargetSec": 100
   },
@@ -132,11 +211,26 @@
     "difficulty": 4,
     "stem": "A price increases by 25%, and then the new price is decreased by \\(x\\)% to return exactly to the original price. What is \\(x\\)?",
     "options": [
-      { "id": "A", "text": "20" },
-      { "id": "B", "text": "25" },
-      { "id": "C", "text": "22.5" },
-      { "id": "D", "text": "15" },
-      { "id": "E", "text": "30" }
+      {
+        "id": "A",
+        "text": "20"
+      },
+      {
+        "id": "B",
+        "text": "25"
+      },
+      {
+        "id": "C",
+        "text": "22.5"
+      },
+      {
+        "id": "D",
+        "text": "15"
+      },
+      {
+        "id": "E",
+        "text": "30"
+      }
     ],
     "answer": "A",
     "solutionStandard": "Let the original price be 100. After a 25% increase: 125. To return to 100: \\(x\\% \\text{ of } 125 = 25\\), so \\(x = 25/125 \\times 100 = 20\\).",
@@ -162,8 +256,18 @@
     "secondarySkills": [],
     "difficulty": 1,
     "variables": [
-      { "name": "orig", "min": 40, "max": 200, "step": 10 },
-      { "name": "pct", "min": 10, "max": 50, "step": 5 }
+      {
+        "name": "orig",
+        "min": 40,
+        "max": 200,
+        "step": 10
+      },
+      {
+        "name": "pct",
+        "min": 10,
+        "max": 50,
+        "step": 5
+      }
     ],
     "stem": "A price of ${{orig}} is decreased by {{pct}}%. What is the new price?",
     "answer": 80,
@@ -179,11 +283,26 @@
     "difficulty": 1,
     "stem": "A value increases from 50 to 60. What is the percent increase?",
     "options": [
-      { "id": "A", "text": "10%" },
-      { "id": "B", "text": "16.7%" },
-      { "id": "C", "text": "20%" },
-      { "id": "D", "text": "25%" },
-      { "id": "E", "text": "50%" }
+      {
+        "id": "A",
+        "text": "10%"
+      },
+      {
+        "id": "B",
+        "text": "16.7%"
+      },
+      {
+        "id": "C",
+        "text": "20%"
+      },
+      {
+        "id": "D",
+        "text": "25%"
+      },
+      {
+        "id": "E",
+        "text": "50%"
+      }
     ],
     "answer": "C",
     "solutionStandard": "Percent increase \\(= \\dfrac{60-50}{50}\\times100 = 20\\%\\).",
@@ -195,7 +314,14 @@
     "primarySkill": "percent-change",
     "secondarySkills": [],
     "difficulty": 2,
-    "variables": [{ "name": "newp", "min": 60, "max": 600, "step": 12 }],
+    "variables": [
+      {
+        "name": "newp",
+        "min": 60,
+        "max": 600,
+        "step": 12
+      }
+    ],
     "stem": "After a 20% increase, a price is ${{newp}}. What was the original price?",
     "answer": 100,
     "answerFormula": "newp / 1.2",
@@ -210,11 +336,26 @@
     "difficulty": 2,
     "stem": "A price decreases by 30% to $70. What was the original price?",
     "options": [
-      { "id": "A", "text": "$90" },
-      { "id": "B", "text": "$95" },
-      { "id": "C", "text": "$100" },
-      { "id": "D", "text": "$105" },
-      { "id": "E", "text": "$110" }
+      {
+        "id": "A",
+        "text": "$90"
+      },
+      {
+        "id": "B",
+        "text": "$95"
+      },
+      {
+        "id": "C",
+        "text": "$100"
+      },
+      {
+        "id": "D",
+        "text": "$105"
+      },
+      {
+        "id": "E",
+        "text": "$110"
+      }
     ],
     "answer": "C",
     "solutionStandard": "\\(0.7x = 70\\), so \\(x = 100\\).",
@@ -226,7 +367,14 @@
     "primarySkill": "percent-change",
     "secondarySkills": [],
     "difficulty": 3,
-    "variables": [{ "name": "p", "min": 10, "max": 40, "step": 5 }],
+    "variables": [
+      {
+        "name": "p",
+        "min": 10,
+        "max": 40,
+        "step": 5
+      }
+    ],
     "stem": "A value increases by {{p}}%, then increases by another {{p}}% (on the new value).",
     "quantityA": "The actual total percent increase after both changes",
     "quantityB": "{{2*p}}%",
@@ -242,12 +390,27 @@
     "difficulty": 3,
     "stem": "Which of the following result in a lower final value than a single 20% decrease? Select all that apply.",
     "options": [
-      { "id": "A", "text": "A single 25% decrease" },
-      { "id": "B", "text": "A single 15% decrease" },
-      { "id": "C", "text": "Two successive 10% decreases" },
-      { "id": "D", "text": "A single 30% decrease" }
+      {
+        "id": "A",
+        "text": "A single 25% decrease"
+      },
+      {
+        "id": "B",
+        "text": "A single 15% decrease"
+      },
+      {
+        "id": "C",
+        "text": "Two successive 10% decreases"
+      },
+      {
+        "id": "D",
+        "text": "A single 30% decrease"
+      }
     ],
-    "answer": ["A", "D"],
+    "answer": [
+      "A",
+      "D"
+    ],
     "solutionStandard": "A 20% decrease leaves 80% of the value. (A) leaves 75% \\(<80\\%\\), lower. (B) leaves 85%, higher. (C): \\(0.9\\times0.9=0.81=81\\%\\), higher. (D) leaves 70%, lower.",
     "timeTargetSec": 85
   },
@@ -270,11 +433,26 @@
     "difficulty": 4,
     "stem": "A price decreases by 20%, and then the new price is increased by \\(x\\)% to return exactly to the original price. What is \\(x\\)?",
     "options": [
-      { "id": "A", "text": "16.7" },
-      { "id": "B", "text": "20" },
-      { "id": "C", "text": "25" },
-      { "id": "D", "text": "30" },
-      { "id": "E", "text": "33.3" }
+      {
+        "id": "A",
+        "text": "16.7"
+      },
+      {
+        "id": "B",
+        "text": "20"
+      },
+      {
+        "id": "C",
+        "text": "25"
+      },
+      {
+        "id": "D",
+        "text": "30"
+      },
+      {
+        "id": "E",
+        "text": "33.3"
+      }
     ],
     "answer": "C",
     "solutionStandard": "Let the original price be 100. After a 20% decrease: 80. To return to 100: \\(x\\% \\text{ of } 80 = 20\\), so \\(x = 20/80 \\times 100 = 25\\).",
@@ -285,8 +463,15 @@
     "type": "Numeric",
     "primarySkill": "percent-change",
     "secondarySkills": [],
-    "difficulty": 4,
-    "variables": [{ "name": "r", "min": 5, "max": 30, "step": 5 }],
+    "difficulty": 5,
+    "variables": [
+      {
+        "name": "r",
+        "min": 5,
+        "max": 30,
+        "step": 5
+      }
+    ],
     "stem": "A population grows by {{r}}% each year. After 2 years, the population has increased by what total percent from the original? (Round to the nearest whole percent.)",
     "answer": 21,
     "answerFormula": "Math.round((Math.pow(1 + r/100, 2) - 1) * 100)",

@@ -29,11 +29,26 @@
     "difficulty": 2,
     "stem": "What is \\(0.4 \\times 0.3\\)?",
     "options": [
-      { "id": "A", "text": "0.012" },
-      { "id": "B", "text": "0.12" },
-      { "id": "C", "text": "1.2" },
-      { "id": "D", "text": "0.7" },
-      { "id": "E", "text": "12" }
+      {
+        "id": "A",
+        "text": "0.012"
+      },
+      {
+        "id": "B",
+        "text": "0.12"
+      },
+      {
+        "id": "C",
+        "text": "1.2"
+      },
+      {
+        "id": "D",
+        "text": "0.7"
+      },
+      {
+        "id": "E",
+        "text": "12"
+      }
     ],
     "answer": "B",
     "solutionStandard": "\\(4 \\times 3 = 12\\), and the product has \\(1+1=2\\) decimal places: \\(0.12\\).",
@@ -71,11 +86,26 @@
     "difficulty": 3,
     "stem": "What is \\(0.125\\) expressed as a fraction in lowest terms?",
     "options": [
-      { "id": "A", "text": "1/8" },
-      { "id": "B", "text": "1/4" },
-      { "id": "C", "text": "1/80" },
-      { "id": "D", "text": "5/8" },
-      { "id": "E", "text": "1/2" }
+      {
+        "id": "A",
+        "text": "1/8"
+      },
+      {
+        "id": "B",
+        "text": "1/4"
+      },
+      {
+        "id": "C",
+        "text": "1/80"
+      },
+      {
+        "id": "D",
+        "text": "5/8"
+      },
+      {
+        "id": "E",
+        "text": "1/2"
+      }
     ],
     "answer": "A",
     "solutionStandard": "\\(0.125 = 125/1000\\). Dividing numerator and denominator by 125 gives \\(1/8\\).",
@@ -100,12 +130,28 @@
     "difficulty": 3,
     "stem": "Which of the following are equal to \\(1.5\\)? Select all that apply.",
     "options": [
-      { "id": "A", "text": "3/2" },
-      { "id": "B", "text": "\\(0.15 \\times 10\\)" },
-      { "id": "C", "text": "15/100" },
-      { "id": "D", "text": "\\(6 \\div 4\\)" }
+      {
+        "id": "A",
+        "text": "3/2"
+      },
+      {
+        "id": "B",
+        "text": "\\(0.15 \\times 10\\)"
+      },
+      {
+        "id": "C",
+        "text": "15/100"
+      },
+      {
+        "id": "D",
+        "text": "\\(6 \\div 4\\)"
+      }
     ],
-    "answer": ["A", "B", "D"],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
     "solutionStandard": "\\(3/2 = 1.5\\). \\(0.15 \\times 10 = 1.5\\). \\(15/100 = 0.15 \\neq 1.5\\). \\(6 \\div 4 = 1.5\\).",
     "timeTargetSec": 70
   },
@@ -117,11 +163,26 @@
     "difficulty": 4,
     "stem": "A recipe calls for 2.25 cups of flour per batch. How many cups are needed for 3.5 batches?",
     "options": [
-      { "id": "A", "text": "6.75" },
-      { "id": "B", "text": "7.325" },
-      { "id": "C", "text": "7.875" },
-      { "id": "D", "text": "8.25" },
-      { "id": "E", "text": "9.0" }
+      {
+        "id": "A",
+        "text": "6.75"
+      },
+      {
+        "id": "B",
+        "text": "7.325"
+      },
+      {
+        "id": "C",
+        "text": "7.875"
+      },
+      {
+        "id": "D",
+        "text": "8.25"
+      },
+      {
+        "id": "E",
+        "text": "9.0"
+      }
     ],
     "answer": "C",
     "solutionStandard": "\\(2.25 \\times 3.5 = 7.875\\).",
@@ -145,8 +206,18 @@
     "secondarySkills": [],
     "difficulty": 1,
     "variables": [
-      { "name": "a", "min": 1, "max": 9, "step": 1 },
-      { "name": "b", "min": 1, "max": 9, "step": 1 }
+      {
+        "name": "a",
+        "min": 1,
+        "max": 9,
+        "step": 1
+      },
+      {
+        "name": "b",
+        "min": 1,
+        "max": 9,
+        "step": 1
+      }
     ],
     "stem": "What is \\({{a}}.2 + {{b}}.3\\)?",
     "answer": 7.5,
@@ -162,11 +233,26 @@
     "difficulty": 1,
     "stem": "What is \\(0.75 + 0.125\\)?",
     "options": [
-      { "id": "A", "text": "0.775" },
-      { "id": "B", "text": "0.8" },
-      { "id": "C", "text": "0.875" },
-      { "id": "D", "text": "0.925" },
-      { "id": "E", "text": "1.0" }
+      {
+        "id": "A",
+        "text": "0.775"
+      },
+      {
+        "id": "B",
+        "text": "0.8"
+      },
+      {
+        "id": "C",
+        "text": "0.875"
+      },
+      {
+        "id": "D",
+        "text": "0.925"
+      },
+      {
+        "id": "E",
+        "text": "1.0"
+      }
     ],
     "answer": "C",
     "solutionStandard": "Align decimal places: \\(0.750 + 0.125 = 0.875\\).",
@@ -178,7 +264,14 @@
     "primarySkill": "decimals-operations",
     "secondarySkills": [],
     "difficulty": 2,
-    "variables": [{ "name": "n", "min": 10, "max": 990, "step": 10 }],
+    "variables": [
+      {
+        "name": "n",
+        "min": 10,
+        "max": 990,
+        "step": 10
+      }
+    ],
     "stem": "What is \\({{n}} \\times 0.01\\)?",
     "answer": 2.5,
     "answerFormula": "n * 0.01",
@@ -190,14 +283,29 @@
     "type": "MC",
     "primarySkill": "decimals-operations",
     "secondarySkills": [],
-    "difficulty": 2,
+    "difficulty": 3,
     "stem": "Which of the following is greatest?",
     "options": [
-      { "id": "A", "text": "0.45" },
-      { "id": "B", "text": "0.5" },
-      { "id": "C", "text": "0.099" },
-      { "id": "D", "text": "0.399" },
-      { "id": "E", "text": "0.045" }
+      {
+        "id": "A",
+        "text": "0.45"
+      },
+      {
+        "id": "B",
+        "text": "0.5"
+      },
+      {
+        "id": "C",
+        "text": "0.099"
+      },
+      {
+        "id": "D",
+        "text": "0.399"
+      },
+      {
+        "id": "E",
+        "text": "0.045"
+      }
     ],
     "answer": "B",
     "solutionStandard": "Comparing to a common number of decimal places (0.450, 0.500, 0.099, 0.399, 0.045), 0.500 is the largest.",
@@ -208,8 +316,15 @@
     "type": "QC",
     "primarySkill": "decimals-operations",
     "secondarySkills": [],
-    "difficulty": 2,
-    "variables": [{ "name": "a", "min": 2, "max": 20, "step": 1 }],
+    "difficulty": 3,
+    "variables": [
+      {
+        "name": "a",
+        "min": 2,
+        "max": 20,
+        "step": 1
+      }
+    ],
     "stem": "\\(n = {{a}}\\).",
     "quantityA": "\\(n \\times 0.1\\)",
     "quantityB": "\\(n \\div 10\\)",
@@ -225,13 +340,32 @@
     "difficulty": 3,
     "stem": "Which of the following equal 0.6? Select all that apply.",
     "options": [
-      { "id": "A", "text": "3/5" },
-      { "id": "B", "text": "0.60" },
-      { "id": "C", "text": "6/100" },
-      { "id": "D", "text": "60/100" },
-      { "id": "E", "text": "0.06" }
+      {
+        "id": "A",
+        "text": "3/5"
+      },
+      {
+        "id": "B",
+        "text": "0.60"
+      },
+      {
+        "id": "C",
+        "text": "6/100"
+      },
+      {
+        "id": "D",
+        "text": "60/100"
+      },
+      {
+        "id": "E",
+        "text": "0.06"
+      }
     ],
-    "answer": ["A", "B", "D"],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
     "solutionStandard": "\\(0.6 = 3/5 = 60/100\\). But \\(6/100 = 0.06\\) and \\(0.06 \\neq 0.6\\).",
     "timeTargetSec": 70
   },
@@ -240,8 +374,15 @@
     "type": "Numeric",
     "primarySkill": "decimals-operations",
     "secondarySkills": [],
-    "difficulty": 3,
-    "variables": [{ "name": "p", "min": 3, "max": 40, "step": 1 }],
+    "difficulty": 4,
+    "variables": [
+      {
+        "name": "p",
+        "min": 3,
+        "max": 40,
+        "step": 1
+      }
+    ],
     "stem": "An item costs \\({{p}}.50\\) dollars. What is the total cost, in dollars, for buying exactly 4 of them?",
     "answer": 42,
     "answerFormula": "(p + 0.5) * 4",
@@ -256,11 +397,26 @@
     "difficulty": 4,
     "stem": "What is \\(0.0036 \\div 0.09\\)?",
     "options": [
-      { "id": "A", "text": "0.004" },
-      { "id": "B", "text": "0.04" },
-      { "id": "C", "text": "0.4" },
-      { "id": "D", "text": "4" },
-      { "id": "E", "text": "40" }
+      {
+        "id": "A",
+        "text": "0.004"
+      },
+      {
+        "id": "B",
+        "text": "0.04"
+      },
+      {
+        "id": "C",
+        "text": "0.4"
+      },
+      {
+        "id": "D",
+        "text": "4"
+      },
+      {
+        "id": "E",
+        "text": "40"
+      }
     ],
     "answer": "B",
     "solutionStandard": "Shift both decimal points four places: \\(36 \\div 900 = 0.04\\).",
@@ -271,14 +427,29 @@
     "type": "MC",
     "primarySkill": "decimals-operations",
     "secondarySkills": [],
-    "difficulty": 4,
+    "difficulty": 5,
     "stem": "If \\(0.00045\\) is written in scientific notation as \\(a \\times 10^{n}\\), where \\(1 \\le a < 10\\), what is \\(n\\)?",
     "options": [
-      { "id": "A", "text": "-5" },
-      { "id": "B", "text": "-4" },
-      { "id": "C", "text": "-3" },
-      { "id": "D", "text": "4" },
-      { "id": "E", "text": "5" }
+      {
+        "id": "A",
+        "text": "-5"
+      },
+      {
+        "id": "B",
+        "text": "-4"
+      },
+      {
+        "id": "C",
+        "text": "-3"
+      },
+      {
+        "id": "D",
+        "text": "4"
+      },
+      {
+        "id": "E",
+        "text": "5"
+      }
     ],
     "answer": "B",
     "solutionStandard": "\\(0.00045 = 4.5 \\times 10^{-4}\\), so \\(n=-4\\).",

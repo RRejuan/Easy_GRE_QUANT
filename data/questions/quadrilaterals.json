@@ -30,7 +30,49 @@
     ],
     "answer": "D",
     "solutionStandard": "\\(A = l \\times w = 8 \\times 5 = 40\\).",
-    "timeTargetSec": 35
+    "timeTargetSec": 35,
+    "figure": {
+      "viewBox": "0 0 200 140",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 30,
+              "y": 30
+            },
+            {
+              "x": 170,
+              "y": 30
+            },
+            {
+              "x": 170,
+              "y": 110
+            },
+            {
+              "x": 30,
+              "y": 110
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 92,
+            "y": 22
+          },
+          "text": "8"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 180,
+            "y": 74
+          },
+          "text": "5"
+        }
+      ]
+    }
   },
   {
     "id": "quadrilaterals-002",
@@ -41,7 +83,41 @@
     "stem": "A square has a perimeter of 24. What is its area?",
     "answer": 36,
     "solutionStandard": "Side \\(= 24/4 = 6\\). Area \\(= 6^2 = 36\\).",
-    "timeTargetSec": 45
+    "timeTargetSec": 45,
+    "figure": {
+      "viewBox": "0 0 200 140",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 50,
+              "y": 20
+            },
+            {
+              "x": 150,
+              "y": 20
+            },
+            {
+              "x": 150,
+              "y": 120
+            },
+            {
+              "x": 50,
+              "y": 120
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 92,
+            "y": 12
+          },
+          "text": "?"
+        }
+      ]
+    }
   },
   {
     "id": "quadrilaterals-003",
@@ -74,7 +150,68 @@
     ],
     "answer": "D",
     "solutionStandard": "\\(A = \\text{base} \\times \\text{height} = 10 \\times 6 = 60\\).",
-    "timeTargetSec": 40
+    "timeTargetSec": 40,
+    "figure": {
+      "viewBox": "0 0 200 140",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 50,
+              "y": 30
+            },
+            {
+              "x": 170,
+              "y": 30
+            },
+            {
+              "x": 150,
+              "y": 110
+            },
+            {
+              "x": 30,
+              "y": 110
+            }
+          ]
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 50,
+            "y": 30
+          },
+          "to": {
+            "x": 50,
+            "y": 110
+          },
+          "dashed": true
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 50,
+            "y": 110
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 90,
+            "y": 125
+          },
+          "text": "10"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 32,
+            "y": 72
+          },
+          "text": "6"
+        }
+      ]
+    }
   },
   {
     "id": "quadrilaterals-004",
@@ -102,7 +239,76 @@
     "stem": "A trapezoid has parallel sides of length 8 and 12, and a height of 5. What is its area?",
     "answer": 50,
     "solutionStandard": "\\(A = \\frac{1}{2}(8+12)(5) = \\frac{1}{2}(20)(5) = 50\\).",
-    "timeTargetSec": 55
+    "timeTargetSec": 55,
+    "figure": {
+      "viewBox": "0 0 200 140",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 60,
+              "y": 30
+            },
+            {
+              "x": 140,
+              "y": 30
+            },
+            {
+              "x": 180,
+              "y": 110
+            },
+            {
+              "x": 20,
+              "y": 110
+            }
+          ]
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 60,
+            "y": 30
+          },
+          "to": {
+            "x": 60,
+            "y": 110
+          },
+          "dashed": true
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 60,
+            "y": 110
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 100,
+            "y": 22
+          },
+          "text": "8"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 100,
+            "y": 125
+          },
+          "text": "12"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 42,
+            "y": 72
+          },
+          "text": "5"
+        }
+      ]
+    }
   },
   {
     "id": "quadrilaterals-006",
@@ -156,7 +362,75 @@
     "shortcutTags": [
       "estimate"
     ],
-    "timeTargetSec": 60
+    "timeTargetSec": 60,
+    "figure": {
+      "viewBox": "0 0 200 150",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 30
+            },
+            {
+              "x": 140,
+              "y": 30
+            },
+            {
+              "x": 140,
+              "y": 130
+            },
+            {
+              "x": 20,
+              "y": 130
+            }
+          ]
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 20,
+            "y": 130
+          },
+          "to": {
+            "x": 140,
+            "y": 30
+          }
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 20,
+            "y": 130
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 8,
+            "y": 82
+          },
+          "text": "5"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 75,
+            "y": 148
+          },
+          "text": "?"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 95,
+            "y": 68
+          },
+          "text": "13"
+        }
+      ]
+    }
   },
   {
     "id": "quadrilaterals-008",
@@ -191,7 +465,49 @@
     ],
     "answer": "C",
     "solutionStandard": "Let width \\(= w\\), length \\(= 2w\\). Perimeter: \\(2(w + 2w) = 60\\), so \\(6w = 60\\) and \\(w = 10\\). Length \\(= 20\\). Area \\(= 10 \\times 20 = 200\\).",
-    "timeTargetSec": 75
+    "timeTargetSec": 75,
+    "figure": {
+      "viewBox": "0 0 200 140",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 30,
+              "y": 30
+            },
+            {
+              "x": 170,
+              "y": 30
+            },
+            {
+              "x": 170,
+              "y": 110
+            },
+            {
+              "x": 30,
+              "y": 110
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 92,
+            "y": 22
+          },
+          "text": "2w"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 180,
+            "y": 74
+          },
+          "text": "w"
+        }
+      ]
+    }
   },
   {
     "id": "quadrilaterals-009",
@@ -239,6 +555,695 @@
     ],
     "answer": "B",
     "solutionStandard": "Side \\(= \\sqrt{49} = 7\\). The diagonal of a square with side \\(s\\) is \\(s\\sqrt{2}\\), so the diagonal is \\(7\\sqrt{2}\\).",
+    "timeTargetSec": 65,
+    "figure": {
+      "viewBox": "0 0 200 140",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 50,
+              "y": 20
+            },
+            {
+              "x": 150,
+              "y": 20
+            },
+            {
+              "x": 150,
+              "y": 120
+            },
+            {
+              "x": 50,
+              "y": 120
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 92,
+            "y": 12
+          },
+          "text": "?"
+        }
+      ]
+    }
+  },
+  {
+    "id": "quadrilaterals-011",
+    "type": "Numeric",
+    "primarySkill": "quadrilaterals",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "variables": [
+      {
+        "name": "l",
+        "min": 5,
+        "max": 20,
+        "step": 1
+      },
+      {
+        "name": "w",
+        "min": 3,
+        "max": 15,
+        "step": 1
+      }
+    ],
+    "stem": "In the figure, what is the area of the rectangle?",
+    "figure": {
+      "viewBox": "0 0 200 140",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 30,
+              "y": 30
+            },
+            {
+              "x": 170,
+              "y": 30
+            },
+            {
+              "x": 170,
+              "y": 110
+            },
+            {
+              "x": 30,
+              "y": 110
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 92,
+            "y": 22
+          },
+          "text": "{{l}}"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 180,
+            "y": 74
+          },
+          "text": "{{w}}"
+        }
+      ]
+    },
+    "answer": 96,
+    "answerFormula": "l * w",
+    "solutionStandard": "\\(A = l \\times w = {{l}} \\times {{w}} = {{l*w}}\\).",
+    "timeTargetSec": 35
+  },
+  {
+    "id": "quadrilaterals-012",
+    "type": "MC",
+    "primarySkill": "quadrilaterals",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "A square has a perimeter of 32. What is its area?",
+    "options": [
+      {
+        "id": "A",
+        "text": "16"
+      },
+      {
+        "id": "B",
+        "text": "32"
+      },
+      {
+        "id": "C",
+        "text": "48"
+      },
+      {
+        "id": "D",
+        "text": "64"
+      },
+      {
+        "id": "E",
+        "text": "128"
+      }
+    ],
+    "answer": "D",
+    "solutionStandard": "Side \\(=32/4=8\\). Area \\(=8^2=64\\).",
+    "timeTargetSec": 40,
+    "figure": {
+      "viewBox": "0 0 200 140",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 50,
+              "y": 20
+            },
+            {
+              "x": 150,
+              "y": 20
+            },
+            {
+              "x": 150,
+              "y": 120
+            },
+            {
+              "x": 50,
+              "y": 120
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 92,
+            "y": 12
+          },
+          "text": "?"
+        }
+      ]
+    }
+  },
+  {
+    "id": "quadrilaterals-013",
+    "type": "Numeric",
+    "primarySkill": "quadrilaterals",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "variables": [
+      {
+        "name": "b",
+        "min": 4,
+        "max": 20,
+        "step": 1
+      },
+      {
+        "name": "h",
+        "min": 3,
+        "max": 15,
+        "step": 1
+      }
+    ],
+    "stem": "A parallelogram has a base of {{b}} and a height of {{h}}. What is its area?",
+    "answer": 60,
+    "answerFormula": "b * h",
+    "solutionStandard": "\\(A = \\text{base} \\times \\text{height} = {{b}} \\times {{h}} = {{b*h}}\\).",
+    "timeTargetSec": 40,
+    "figure": {
+      "viewBox": "0 0 200 140",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 50,
+              "y": 30
+            },
+            {
+              "x": 170,
+              "y": 30
+            },
+            {
+              "x": 150,
+              "y": 110
+            },
+            {
+              "x": 30,
+              "y": 110
+            }
+          ]
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 50,
+            "y": 30
+          },
+          "to": {
+            "x": 50,
+            "y": 110
+          },
+          "dashed": true
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 50,
+            "y": 110
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 90,
+            "y": 125
+          },
+          "text": "{{b}}"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 32,
+            "y": 72
+          },
+          "text": "{{h}}"
+        }
+      ]
+    }
+  },
+  {
+    "id": "quadrilaterals-014",
+    "type": "QC",
+    "primarySkill": "quadrilaterals",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "variables": [
+      {
+        "name": "s",
+        "min": 6,
+        "max": 20,
+        "step": 1
+      },
+      {
+        "name": "d",
+        "min": 1,
+        "max": 4,
+        "step": 1
+      }
+    ],
+    "stem": "A square and a rectangle each have a perimeter of {{4*s}}. The rectangle has length {{s+d}} and width {{s-d}}.",
+    "quantityA": "The area of the square",
+    "quantityB": "The area of the rectangle",
+    "answer": "A",
+    "solutionStandard": "Square area \\(={{s}}^2\\). Rectangle area \\(=({{s}}+{{d}})({{s}}-{{d}})={{s}}^2-{{d}}^2\\), always less than the square's area whenever \\({{d}} \\neq 0\\). Quantity A is greater.",
+    "solutionShortcut": "For a fixed perimeter, a square always encloses the most area among all rectangles — no computation needed.",
+    "shortcutTags": [
+      "estimate"
+    ],
     "timeTargetSec": 65
+  },
+  {
+    "id": "quadrilaterals-015",
+    "type": "Numeric",
+    "primarySkill": "quadrilaterals",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "variables": [
+      {
+        "name": "a",
+        "min": 4,
+        "max": 20,
+        "step": 1
+      },
+      {
+        "name": "b",
+        "min": 4,
+        "max": 20,
+        "step": 1
+      },
+      {
+        "name": "h",
+        "min": 2,
+        "max": 15,
+        "step": 1
+      }
+    ],
+    "stem": "A trapezoid has parallel sides of length {{a}} and {{b}}, and a height of {{h}}. What is its area?",
+    "answer": 50,
+    "answerFormula": "(a + b) * h / 2",
+    "solutionStandard": "\\(A = \\dfrac{1}{2}({{a}}+{{b}})({{h}}) = {{(a+b)*h/2}}\\).",
+    "timeTargetSec": 55,
+    "figure": {
+      "viewBox": "0 0 200 140",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 60,
+              "y": 30
+            },
+            {
+              "x": 140,
+              "y": 30
+            },
+            {
+              "x": 180,
+              "y": 110
+            },
+            {
+              "x": 20,
+              "y": 110
+            }
+          ]
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 60,
+            "y": 30
+          },
+          "to": {
+            "x": 60,
+            "y": 110
+          },
+          "dashed": true
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 60,
+            "y": 110
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 100,
+            "y": 22
+          },
+          "text": "{{a}}"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 100,
+            "y": 125
+          },
+          "text": "{{b}}"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 42,
+            "y": 72
+          },
+          "text": "{{h}}"
+        }
+      ]
+    }
+  },
+  {
+    "id": "quadrilaterals-016",
+    "type": "MultiMC",
+    "primarySkill": "quadrilaterals",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "Which of the following are true for every rectangle? Select all that apply.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The diagonals are equal in length."
+      },
+      {
+        "id": "B",
+        "text": "The diagonals bisect each other."
+      },
+      {
+        "id": "C",
+        "text": "All four angles are right angles."
+      },
+      {
+        "id": "D",
+        "text": "All four sides are equal in length."
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "solutionStandard": "Equal diagonals, diagonals bisecting each other, and four right angles hold for every rectangle. Equal side lengths (D) hold only for the special case of a square.",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "quadrilaterals-017",
+    "type": "Numeric",
+    "primarySkill": "quadrilaterals",
+    "secondarySkills": [
+      "right-triangles-pythagorean"
+    ],
+    "difficulty": 3,
+    "variables": [
+      {
+        "name": "k",
+        "min": 1,
+        "max": 6,
+        "step": 1
+      }
+    ],
+    "stem": "A rectangle has a diagonal of length {{13*k}} and one side of length {{5*k}}. What is the length of the other side?",
+    "answer": 24,
+    "answerFormula": "12 * k",
+    "solutionStandard": "This is the 5-12-13 triple scaled by \\({{k}}\\): the other side is \\({{12*k}}\\).",
+    "timeTargetSec": 60,
+    "figure": {
+      "viewBox": "0 0 200 150",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 30
+            },
+            {
+              "x": 140,
+              "y": 30
+            },
+            {
+              "x": 140,
+              "y": 130
+            },
+            {
+              "x": 20,
+              "y": 130
+            }
+          ]
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 20,
+            "y": 130
+          },
+          "to": {
+            "x": 140,
+            "y": 30
+          }
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 20,
+            "y": 130
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 8,
+            "y": 82
+          },
+          "text": "{{5*k}}"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 75,
+            "y": 148
+          },
+          "text": "?"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 95,
+            "y": 68
+          },
+          "text": "{{13*k}}"
+        }
+      ]
+    }
+  },
+  {
+    "id": "quadrilaterals-018",
+    "type": "Numeric",
+    "primarySkill": "quadrilaterals",
+    "secondarySkills": [
+      "linear-equations-one-var"
+    ],
+    "difficulty": 4,
+    "variables": [
+      {
+        "name": "w",
+        "min": 5,
+        "max": 30,
+        "step": 1
+      }
+    ],
+    "stem": "A rectangular garden has a length twice its width. If the perimeter is {{6*w}}, what is the area of the garden?",
+    "answer": 200,
+    "answerFormula": "2 * w * w",
+    "solutionStandard": "With width \\(w\\) and length \\(2w\\), perimeter \\(=6w={{6*w}}\\), so \\(w={{w}}\\) and length \\(={{2*w}}\\). Area \\(={{w}}\\times{{2*w}}={{2*w*w}}\\).",
+    "timeTargetSec": 75,
+    "figure": {
+      "viewBox": "0 0 200 140",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 30,
+              "y": 30
+            },
+            {
+              "x": 170,
+              "y": 30
+            },
+            {
+              "x": 170,
+              "y": 110
+            },
+            {
+              "x": 30,
+              "y": 110
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 92,
+            "y": 22
+          },
+          "text": "2w"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 180,
+            "y": 74
+          },
+          "text": "w"
+        }
+      ]
+    }
+  },
+  {
+    "id": "quadrilaterals-019",
+    "type": "QC",
+    "primarySkill": "quadrilaterals",
+    "secondarySkills": [],
+    "difficulty": 5,
+    "stem": "\\(ABCD\\) is a parallelogram whose diagonals intersect at point \\(P\\).",
+    "quantityA": "The distance from \\(P\\) to vertex \\(A\\)",
+    "quantityB": "The distance from \\(P\\) to vertex \\(C\\)",
+    "answer": "C",
+    "solutionStandard": "The diagonals of any parallelogram bisect each other, so \\(P\\) is always the midpoint of diagonal \\(AC\\), making \\(PA=PC\\). The quantities are always equal.",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "quadrilaterals-020",
+    "type": "MC",
+    "primarySkill": "quadrilaterals",
+    "secondarySkills": [],
+    "difficulty": 5,
+    "stem": "A rectangle has a diagonal of length 10 and a perimeter of 28. What is its area?",
+    "options": [
+      {
+        "id": "A",
+        "text": "24"
+      },
+      {
+        "id": "B",
+        "text": "40"
+      },
+      {
+        "id": "C",
+        "text": "48"
+      },
+      {
+        "id": "D",
+        "text": "50"
+      },
+      {
+        "id": "E",
+        "text": "96"
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "Let the sides be \\(l\\) and \\(w\\). \\(l+w=14\\) (half the perimeter) and \\(l^2+w^2=100\\) (diagonal squared). Since \\((l+w)^2 = l^2+2lw+w^2\\), \\(196 = 100+2lw\\), giving \\(2lw=96\\) and the area \\(lw=48\\).",
+    "timeTargetSec": 100,
+    "figure": {
+      "viewBox": "0 0 200 150",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 30
+            },
+            {
+              "x": 140,
+              "y": 30
+            },
+            {
+              "x": 140,
+              "y": 130
+            },
+            {
+              "x": 20,
+              "y": 130
+            }
+          ]
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 20,
+            "y": 130
+          },
+          "to": {
+            "x": 140,
+            "y": 30
+          }
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 20,
+            "y": 130
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 8,
+            "y": 82
+          },
+          "text": "w"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 75,
+            "y": 148
+          },
+          "text": "l"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 95,
+            "y": 68
+          },
+          "text": "10"
+        }
+      ]
+    }
   }
 ]

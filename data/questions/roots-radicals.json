@@ -15,14 +15,29 @@
     "type": "MC",
     "primarySkill": "roots-radicals",
     "secondarySkills": [],
-    "difficulty": 2,
+    "difficulty": 1,
     "stem": "Simplify: \\(\\sqrt{50}\\)",
     "options": [
-      { "id": "A", "text": "\\(5\\sqrt{2}\\)" },
-      { "id": "B", "text": "\\(2\\sqrt{5}\\)" },
-      { "id": "C", "text": "\\(10\\sqrt{5}\\)" },
-      { "id": "D", "text": "\\(25\\sqrt{2}\\)" },
-      { "id": "E", "text": "\\(5\\sqrt{10}\\)" }
+      {
+        "id": "A",
+        "text": "\\(5\\sqrt{2}\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(2\\sqrt{5}\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(10\\sqrt{5}\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(25\\sqrt{2}\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(5\\sqrt{10}\\)"
+      }
     ],
     "answer": "A",
     "solutionStandard": "\\(\\sqrt{50} = \\sqrt{25 \\times 2} = 5\\sqrt{2}\\).",
@@ -36,11 +51,26 @@
     "difficulty": 2,
     "stem": "What is \\(3\\sqrt{5} + 2\\sqrt{5}\\)?",
     "options": [
-      { "id": "A", "text": "\\(5\\sqrt{5}\\)" },
-      { "id": "B", "text": "\\(5\\sqrt{10}\\)" },
-      { "id": "C", "text": "\\(6\\sqrt{5}\\)" },
-      { "id": "D", "text": "\\(\\sqrt{25}\\)" },
-      { "id": "E", "text": "\\(5\\sqrt{2}\\)" }
+      {
+        "id": "A",
+        "text": "\\(5\\sqrt{5}\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(5\\sqrt{10}\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(6\\sqrt{5}\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(\\sqrt{25}\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(5\\sqrt{2}\\)"
+      }
     ],
     "answer": "A",
     "solutionStandard": "Like radicals combine like like terms: \\(3\\sqrt{5}+2\\sqrt{5}=5\\sqrt{5}\\).",
@@ -78,11 +108,26 @@
     "difficulty": 3,
     "stem": "Simplify: \\(\\sqrt{12} + \\sqrt{27}\\)",
     "options": [
-      { "id": "A", "text": "\\(5\\sqrt{3}\\)" },
-      { "id": "B", "text": "\\(\\sqrt{39}\\)" },
-      { "id": "C", "text": "\\(6\\sqrt{3}\\)" },
-      { "id": "D", "text": "\\(9\\sqrt{3}\\)" },
-      { "id": "E", "text": "\\(13\\)" }
+      {
+        "id": "A",
+        "text": "\\(5\\sqrt{3}\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(\\sqrt{39}\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(6\\sqrt{3}\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(9\\sqrt{3}\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(13\\)"
+      }
     ],
     "answer": "A",
     "solutionStandard": "\\(\\sqrt{12}=2\\sqrt{3}\\) and \\(\\sqrt{27}=3\\sqrt{3}\\). Sum: \\(2\\sqrt{3}+3\\sqrt{3}=5\\sqrt{3}\\).",
@@ -107,12 +152,28 @@
     "difficulty": 3,
     "stem": "Which of the following are equivalent to \\(4\\sqrt{3}\\)? Select all that apply.",
     "options": [
-      { "id": "A", "text": "\\(\\sqrt{48}\\)" },
-      { "id": "B", "text": "\\(2\\sqrt{3} + 2\\sqrt{3}\\)" },
-      { "id": "C", "text": "\\(\\sqrt{12} \\times 2\\)" },
-      { "id": "D", "text": "\\(\\sqrt{12} + \\sqrt{3}\\)" }
+      {
+        "id": "A",
+        "text": "\\(\\sqrt{48}\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(2\\sqrt{3} + 2\\sqrt{3}\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(\\sqrt{12} \\times 2\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(\\sqrt{12} + \\sqrt{3}\\)"
+      }
     ],
-    "answer": ["A", "B", "C"],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
     "solutionStandard": "\\(4\\sqrt{3}=\\sqrt{16\\times3}=\\sqrt{48}\\). (B) \\(2\\sqrt3+2\\sqrt3=4\\sqrt3\\). (C) \\(\\sqrt{12}=2\\sqrt3\\), so \\(2\\sqrt3\\times2=4\\sqrt3\\). (D) \\(\\sqrt{12}+\\sqrt3=2\\sqrt3+\\sqrt3=3\\sqrt3 \\neq 4\\sqrt3\\).",
     "timeTargetSec": 90
   },
@@ -124,11 +185,26 @@
     "difficulty": 4,
     "stem": "If \\(\\sqrt{x} + 3 = 8\\), what is the value of \\(x\\)?",
     "options": [
-      { "id": "A", "text": "5" },
-      { "id": "B", "text": "11" },
-      { "id": "C", "text": "16" },
-      { "id": "D", "text": "25" },
-      { "id": "E", "text": "64" }
+      {
+        "id": "A",
+        "text": "5"
+      },
+      {
+        "id": "B",
+        "text": "11"
+      },
+      {
+        "id": "C",
+        "text": "16"
+      },
+      {
+        "id": "D",
+        "text": "25"
+      },
+      {
+        "id": "E",
+        "text": "64"
+      }
     ],
     "answer": "D",
     "solutionStandard": "\\(\\sqrt{x}=5\\), so \\(x=25\\).",
@@ -151,7 +227,14 @@
     "primarySkill": "roots-radicals",
     "secondarySkills": [],
     "difficulty": 1,
-    "variables": [{ "name": "n", "min": 2, "max": 20, "step": 1 }],
+    "variables": [
+      {
+        "name": "n",
+        "min": 2,
+        "max": 20,
+        "step": 1
+      }
+    ],
     "stem": "If \\(n = {{n}}\\), what is \\(\\sqrt{n^2}\\)?",
     "answer": 8,
     "answerFormula": "n",
@@ -166,11 +249,26 @@
     "difficulty": 1,
     "stem": "What is \\(\\sqrt{121}\\)?",
     "options": [
-      { "id": "A", "text": "10" },
-      { "id": "B", "text": "11" },
-      { "id": "C", "text": "12" },
-      { "id": "D", "text": "60.5" },
-      { "id": "E", "text": "21" }
+      {
+        "id": "A",
+        "text": "10"
+      },
+      {
+        "id": "B",
+        "text": "11"
+      },
+      {
+        "id": "C",
+        "text": "12"
+      },
+      {
+        "id": "D",
+        "text": "60.5"
+      },
+      {
+        "id": "E",
+        "text": "21"
+      }
     ],
     "answer": "B",
     "solutionStandard": "\\(11^2=121\\), so \\(\\sqrt{121}=11\\).",
@@ -182,7 +280,14 @@
     "primarySkill": "roots-radicals",
     "secondarySkills": [],
     "difficulty": 2,
-    "variables": [{ "name": "k", "min": 2, "max": 20, "step": 1 }],
+    "variables": [
+      {
+        "name": "k",
+        "min": 2,
+        "max": 20,
+        "step": 1
+      }
+    ],
     "stem": "If \\(k = {{k}}\\), what is \\(\\sqrt{4k^2}\\)?",
     "answer": 10,
     "answerFormula": "2 * k",
@@ -197,11 +302,26 @@
     "difficulty": 2,
     "stem": "Simplify: \\(\\sqrt{72}\\)",
     "options": [
-      { "id": "A", "text": "\\(6\\sqrt{2}\\)" },
-      { "id": "B", "text": "\\(8\\sqrt{3}\\)" },
-      { "id": "C", "text": "\\(3\\sqrt{8}\\)" },
-      { "id": "D", "text": "\\(72\\)" },
-      { "id": "E", "text": "\\(36\\sqrt{2}\\)" }
+      {
+        "id": "A",
+        "text": "\\(6\\sqrt{2}\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(8\\sqrt{3}\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(3\\sqrt{8}\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(72\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(36\\sqrt{2}\\)"
+      }
     ],
     "answer": "A",
     "solutionStandard": "\\(\\sqrt{72} = \\sqrt{36\\times2} = 6\\sqrt{2}\\).",
@@ -212,10 +332,20 @@
     "type": "QC",
     "primarySkill": "roots-radicals",
     "secondarySkills": [],
-    "difficulty": 2,
+    "difficulty": 3,
     "variables": [
-      { "name": "a", "min": 2, "max": 10, "step": 1 },
-      { "name": "b", "min": 2, "max": 10, "step": 1 }
+      {
+        "name": "a",
+        "min": 2,
+        "max": 10,
+        "step": 1
+      },
+      {
+        "name": "b",
+        "min": 2,
+        "max": 10,
+        "step": 1
+      }
     ],
     "stem": "\\(a = {{a}}\\) and \\(b = {{b}}\\), both positive.",
     "quantityA": "\\(\\sqrt{a} + \\sqrt{b}\\)",
@@ -232,12 +362,28 @@
     "difficulty": 3,
     "stem": "Which of the following equal \\(\\sqrt{75}\\)? Select all that apply.",
     "options": [
-      { "id": "A", "text": "\\(5\\sqrt{3}\\)" },
-      { "id": "B", "text": "\\(3\\sqrt{25}\\)" },
-      { "id": "C", "text": "\\(\\sqrt{3} \\times 5\\)" },
-      { "id": "D", "text": "\\(\\sqrt{300}/2\\)" }
+      {
+        "id": "A",
+        "text": "\\(5\\sqrt{3}\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(3\\sqrt{25}\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(\\sqrt{3} \\times 5\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(\\sqrt{300}/2\\)"
+      }
     ],
-    "answer": ["A", "C", "D"],
+    "answer": [
+      "A",
+      "C",
+      "D"
+    ],
     "solutionStandard": "\\(\\sqrt{75}=\\sqrt{25\\times3}=5\\sqrt3\\). (A) and (C) are both \\(5\\sqrt3\\). (D): \\(\\sqrt{300}=10\\sqrt3\\), so \\(\\sqrt{300}/2=5\\sqrt3\\). But (B) \\(3\\sqrt{25}=3\\times5=15 \\neq 5\\sqrt3 \\approx 8.66\\).",
     "timeTargetSec": 85
   },
@@ -246,8 +392,15 @@
     "type": "Numeric",
     "primarySkill": "roots-radicals",
     "secondarySkills": [],
-    "difficulty": 3,
-    "variables": [{ "name": "k", "min": 2, "max": 15, "step": 1 }],
+    "difficulty": 4,
+    "variables": [
+      {
+        "name": "k",
+        "min": 2,
+        "max": 15,
+        "step": 1
+      }
+    ],
     "stem": "If \\(\\sqrt{x} = {{k}}\\), what is \\(\\sqrt{4x}\\)?",
     "answer": 4,
     "answerFormula": "2 * k",
@@ -262,11 +415,26 @@
     "difficulty": 4,
     "stem": "If \\(\\sqrt{2x+1} = 5\\), what is the value of \\(x\\)?",
     "options": [
-      { "id": "A", "text": "10" },
-      { "id": "B", "text": "11" },
-      { "id": "C", "text": "12" },
-      { "id": "D", "text": "13" },
-      { "id": "E", "text": "24" }
+      {
+        "id": "A",
+        "text": "10"
+      },
+      {
+        "id": "B",
+        "text": "11"
+      },
+      {
+        "id": "C",
+        "text": "12"
+      },
+      {
+        "id": "D",
+        "text": "13"
+      },
+      {
+        "id": "E",
+        "text": "24"
+      }
     ],
     "answer": "C",
     "solutionStandard": "\\(2x+1=25\\), so \\(2x=24\\) and \\(x=12\\).",
@@ -277,7 +445,7 @@
     "type": "Numeric",
     "primarySkill": "roots-radicals",
     "secondarySkills": [],
-    "difficulty": 4,
+    "difficulty": 5,
     "stem": "What is \\(\\sqrt{18} + \\sqrt{32}\\), expressed as \\(k\\sqrt{2}\\)? (Enter just the value of \\(k\\).)",
     "answer": 7,
     "solutionStandard": "\\(\\sqrt{18}=3\\sqrt2\\) and \\(\\sqrt{32}=4\\sqrt2\\). Sum: \\(3\\sqrt2+4\\sqrt2=7\\sqrt2\\), so \\(k=7\\).",

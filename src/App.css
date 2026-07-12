@@ -93,6 +93,12 @@
   margin: 16px 0;
 }
 
+.cta-button-row {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
 .cta-button {
   display: inline-block;
   margin-top: 8px;
@@ -169,11 +175,64 @@
   height: auto;
   stroke: var(--text);
   fill: none;
+  overflow: visible;
 }
 .figure-wrap text {
   fill: var(--text);
   stroke: none;
   font-size: 10px;
+}
+.figure-wrap text .variable-value {
+  fill: var(--variable);
+  font-weight: 600;
+}
+
+.chart-wrap {
+  margin: 16px 0;
+  max-width: 560px;
+}
+.chart-wrap svg {
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+.chart-wrap text {
+  fill: var(--text);
+}
+.chart-wrap text .variable-value {
+  fill: var(--variable);
+  font-weight: 600;
+}
+.chart-title {
+  font-size: 14px;
+  font-weight: 700;
+  fill: var(--text-h);
+  text-anchor: middle;
+}
+.chart-line {
+  fill: none;
+  stroke: var(--secondary);
+  stroke-width: 2;
+}
+.chart-point {
+  fill: var(--secondary);
+}
+.chart-legend-label {
+  font-size: 12px;
+}
+.chart-title-html {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-h);
+  text-align: center;
+  margin: 0 0 4px;
+}
+.chart-wrap .table-wrap {
+  max-width: 400px;
+}
+.chart-wrap .table-wrap .variable-value {
+  color: var(--variable);
+  font-weight: 600;
 }
 
 .question {
@@ -188,6 +247,93 @@
   display: flex;
   gap: 24px;
   margin: 12px 0;
+}
+
+.table-wrap {
+  overflow-x: auto;
+  margin: 16px 0;
+}
+
+.table-wrap table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--bg-card);
+}
+
+.table-wrap th,
+.table-wrap td {
+  border: 1px solid var(--border);
+  padding: 8px 12px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.table-wrap th {
+  background: var(--bg);
+  color: var(--text-h);
+}
+
+.about-gre-page h2 {
+  margin-top: 32px;
+}
+
+.about-gre-page h3 {
+  margin-top: 20px;
+}
+
+.danger-zone {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+}
+
+.reset-progress-button {
+  background: transparent;
+  color: var(--danger);
+  border: 1px solid var(--danger);
+  border-radius: 6px;
+  padding: 8px 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.reset-progress-button:hover {
+  background: var(--danger);
+  color: var(--primary-contrast);
+}
+
+.danger-zone-hint {
+  margin-top: 6px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.question-timer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin-bottom: 10px;
+}
+
+.question-timer-elapsed {
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  color: var(--text-h);
+}
+
+.question-timer-target {
+  font-variant-numeric: tabular-nums;
+}
+
+.question-timer-warning,
+.question-timer.question-timer-over .question-timer-elapsed {
+  color: var(--danger);
+}
+
+.question-timer-recap {
+  font-variant-numeric: tabular-nums;
 }
 
 fieldset {

@@ -71,7 +71,8 @@
       }
     },
     "answerFormula": { "type": "string" },
-    "figure": { "$ref": "figure.schema.json" }
+    "figure": { "$ref": "figure.schema.json" },
+    "chart": { "$ref": "chart.schema.json" }
   },
   "allOf": [
     {

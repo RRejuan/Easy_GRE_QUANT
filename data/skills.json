@@ -374,5 +374,37 @@
     "name": "Venn Diagrams & Sets",
     "prerequisites": [],
     "description": "Set operations and using Venn diagrams to solve overlapping-group problems."
+  },
+  {
+    "id": "arithmetic-mixed-practice",
+    "area": "Arithmetic",
+    "topic": "Mixed Practice",
+    "name": "Mixed GRE-Style Practice: Arithmetic",
+    "prerequisites": ["integer-properties", "number-line-ordering", "order-of-operations", "absolute-value", "estimation-rounding", "fractions-operations", "decimals-operations", "percent-basics", "percent-change", "ratios-proportions", "rates-and-work", "exponents-basic", "roots-radicals"],
+    "description": "A standalone pool of full-length, GRE-mock-style Arithmetic problems mixing multiple sub-skills, with randomized numbers on every attempt."
+  },
+  {
+    "id": "algebra-mixed-practice",
+    "area": "Algebra",
+    "topic": "Mixed Practice",
+    "name": "Mixed GRE-Style Practice: Algebra",
+    "prerequisites": ["algebraic-expressions-simplify", "linear-equations-one-var", "linear-equations-two-var", "linear-inequalities", "inequalities-compound", "absolute-value-equations", "factoring-polynomials", "quadratic-equations", "functions-basics", "word-problems-algebraic-translation", "sequences-algebraic"],
+    "description": "A standalone pool of full-length, GRE-mock-style Algebra problems mixing multiple sub-skills, with randomized numbers on every attempt."
+  },
+  {
+    "id": "geometry-mixed-practice",
+    "area": "Geometry",
+    "topic": "Mixed Practice",
+    "name": "Mixed GRE-Style Practice: Geometry",
+    "prerequisites": ["lines-angles", "triangles-basic", "triangle-inequality", "right-triangles-pythagorean", "special-right-triangles", "similar-triangles", "quadrilaterals", "polygons-general", "circles-basic", "circles-arcs-sectors", "three-d-solids", "coordinate-geometry-basics", "coordinate-geometry-lines"],
+    "description": "A standalone pool of full-length, GRE-mock-style Geometry problems mixing multiple sub-skills, with randomized numbers on every attempt."
+  },
+  {
+    "id": "data-analysis-mixed-practice",
+    "area": "Data Analysis",
+    "topic": "Mixed Practice",
+    "name": "Mixed GRE-Style Practice: Data Analysis",
+    "prerequisites": ["mean-median-mode", "range-standard-deviation", "weighted-averages", "normal-distribution-basics", "counting-permutations", "counting-combinations", "probability-basic", "probability-compound", "data-interpretation-tables-graphs", "venn-diagrams-sets"],
+    "description": "A standalone pool of full-length, GRE-mock-style Data Analysis problems mixing multiple sub-skills, with randomized numbers on every attempt."
   }
 ]

@@ -15,6 +15,7 @@ function loadSchema(name: string) {
 }
 
 ajv.addSchema(loadSchema("figure.schema.json"));
+ajv.addSchema(loadSchema("chart.schema.json"));
 
 const validateSkill = ajv.compile(loadSchema("skill.schema.json"));
 const validateQuestion = ajv.compile(loadSchema("question.schema.json"));

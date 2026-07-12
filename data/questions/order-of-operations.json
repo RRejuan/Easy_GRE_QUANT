@@ -254,8 +254,18 @@
     "secondarySkills": [],
     "difficulty": 1,
     "variables": [
-      { "name": "a", "min": 2, "max": 9, "step": 1 },
-      { "name": "b", "min": 2, "max": 9, "step": 1 }
+      {
+        "name": "a",
+        "min": 2,
+        "max": 9,
+        "step": 1
+      },
+      {
+        "name": "b",
+        "min": 2,
+        "max": 9,
+        "step": 1
+      }
     ],
     "stem": "What is \\({{a}} + {{b}} \\times 2\\)?",
     "answer": 12,
@@ -271,11 +281,26 @@
     "difficulty": 1,
     "stem": "What is \\(10 - 2 \\times 3\\)?",
     "options": [
-      { "id": "A", "text": "4" },
-      { "id": "B", "text": "6" },
-      { "id": "C", "text": "8" },
-      { "id": "D", "text": "24" },
-      { "id": "E", "text": "-14" }
+      {
+        "id": "A",
+        "text": "4"
+      },
+      {
+        "id": "B",
+        "text": "6"
+      },
+      {
+        "id": "C",
+        "text": "8"
+      },
+      {
+        "id": "D",
+        "text": "24"
+      },
+      {
+        "id": "E",
+        "text": "-14"
+      }
     ],
     "answer": "A",
     "solutionStandard": "Multiplication before subtraction: \\(10 - (2\\times3) = 10-6=4\\).",
@@ -287,13 +312,22 @@
     "primarySkill": "order-of-operations",
     "secondarySkills": [],
     "difficulty": 2,
-    "variables": [{ "name": "n", "min": 2, "max": 8, "step": 1 }],
+    "variables": [
+      {
+        "name": "n",
+        "min": 2,
+        "max": 8,
+        "step": 1
+      }
+    ],
     "stem": "What is \\(({{n}} + 3)^2 - {{n}}^2\\)?",
     "answer": 33,
     "answerFormula": "(n+3)*(n+3) - n*n",
     "solutionStandard": "\\(({{n}}+3)^2 = {{(n+3)*(n+3)}}\\) and \\({{n}}^2 = {{n*n}}\\), so the difference is \\({{(n+3)*(n+3) - n*n}}\\).",
     "solutionShortcut": "\\((n+3)^2 - n^2 = 6n+9\\) by difference of squares, avoiding squaring the larger number.",
-    "shortcutTags": ["estimate"],
+    "shortcutTags": [
+      "estimate"
+    ],
     "timeTargetSec": 60
   },
   {
@@ -301,14 +335,29 @@
     "type": "MC",
     "primarySkill": "order-of-operations",
     "secondarySkills": [],
-    "difficulty": 2,
+    "difficulty": 3,
     "stem": "What is \\(\\dfrac{2 + 3 \\times 4}{2}\\)?",
     "options": [
-      { "id": "A", "text": "4" },
-      { "id": "B", "text": "7" },
-      { "id": "C", "text": "10" },
-      { "id": "D", "text": "12" },
-      { "id": "E", "text": "20" }
+      {
+        "id": "A",
+        "text": "4"
+      },
+      {
+        "id": "B",
+        "text": "7"
+      },
+      {
+        "id": "C",
+        "text": "10"
+      },
+      {
+        "id": "D",
+        "text": "12"
+      },
+      {
+        "id": "E",
+        "text": "20"
+      }
     ],
     "answer": "B",
     "solutionStandard": "Numerator first: \\(2 + 3\\times4 = 2+12=14\\). Then \\(14/2=7\\).",
@@ -335,12 +384,27 @@
     "difficulty": 3,
     "stem": "Which of the following equal 16? Select all that apply.",
     "options": [
-      { "id": "A", "text": "\\((2+7) \\times 2\\)" },
-      { "id": "B", "text": "\\((2+7) \\times 2 - 2\\)" },
-      { "id": "C", "text": "\\(4^2\\)" },
-      { "id": "D", "text": "\\(2 \\times 7 + 3\\)" }
+      {
+        "id": "A",
+        "text": "\\((2+7) \\times 2\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\((2+7) \\times 2 - 2\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(4^2\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(2 \\times 7 + 3\\)"
+      }
     ],
-    "answer": ["B", "C"],
+    "answer": [
+      "B",
+      "C"
+    ],
     "solutionStandard": "(A) \\((2+7)\\times2 = 9\\times2=18 \\neq 16\\). (B) \\((2+7)\\times2-2 = 18-2=16\\). (C) \\(4^2=16\\). (D) \\(2\\times7+3=14+3=17 \\neq 16\\).",
     "timeTargetSec": 80
   },
@@ -349,8 +413,15 @@
     "type": "Numeric",
     "primarySkill": "order-of-operations",
     "secondarySkills": [],
-    "difficulty": 3,
-    "variables": [{ "name": "n", "min": 2, "max": 6, "step": 1 }],
+    "difficulty": 4,
+    "variables": [
+      {
+        "name": "n",
+        "min": 2,
+        "max": 6,
+        "step": 1
+      }
+    ],
     "stem": "If \\(n = {{n}}\\), what is \\(2^n + 2^n\\)?",
     "answer": 16,
     "answerFormula": "2 * Math.pow(2, n)",
@@ -365,11 +436,26 @@
     "difficulty": 4,
     "stem": "What is \\(3 + 2 \\times [4 - (6 - 8)^2]\\)?",
     "options": [
-      { "id": "A", "text": "-1" },
-      { "id": "B", "text": "3" },
-      { "id": "C", "text": "11" },
-      { "id": "D", "text": "15" },
-      { "id": "E", "text": "19" }
+      {
+        "id": "A",
+        "text": "-1"
+      },
+      {
+        "id": "B",
+        "text": "3"
+      },
+      {
+        "id": "C",
+        "text": "11"
+      },
+      {
+        "id": "D",
+        "text": "15"
+      },
+      {
+        "id": "E",
+        "text": "19"
+      }
     ],
     "answer": "B",
     "solutionStandard": "Innermost: \\(6-8=-2\\), so \\((-2)^2=4\\). Then \\(4-4=0\\). Then \\(2\\times0=0\\). Finally \\(3+0=3\\).",
@@ -380,7 +466,7 @@
     "type": "Numeric",
     "primarySkill": "order-of-operations",
     "secondarySkills": [],
-    "difficulty": 4,
+    "difficulty": 5,
     "stem": "What is \\(\\dfrac{5^2 - 3^2}{5-3}\\)?",
     "answer": 8,
     "solutionStandard": "\\(5^2-3^2=25-9=16\\), and \\(5-3=2\\), so \\(16/2=8\\).",
@@ -394,11 +480,26 @@
     "difficulty": 5,
     "stem": "What is \\(2 - [3 - 4(5 - 2 \\times 3)]\\)?",
     "options": [
-      { "id": "A", "text": "-11" },
-      { "id": "B", "text": "-5" },
-      { "id": "C", "text": "1" },
-      { "id": "D", "text": "13" },
-      { "id": "E", "text": "15" }
+      {
+        "id": "A",
+        "text": "-11"
+      },
+      {
+        "id": "B",
+        "text": "-5"
+      },
+      {
+        "id": "C",
+        "text": "1"
+      },
+      {
+        "id": "D",
+        "text": "13"
+      },
+      {
+        "id": "E",
+        "text": "15"
+      }
     ],
     "answer": "B",
     "solutionStandard": "Innermost: \\(2\\times3=6\\), so \\(5-6=-1\\). Then \\(4\\times(-1)=-4\\). Then \\(3-(-4)=3+4=7\\). Finally \\(2-7=-5\\).",

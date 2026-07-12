@@ -238,7 +238,14 @@
     "primarySkill": "integer-properties",
     "secondarySkills": [],
     "difficulty": 1,
-    "variables": [{ "name": "k", "min": 2, "max": 6, "step": 1 }],
+    "variables": [
+      {
+        "name": "k",
+        "min": 2,
+        "max": 6,
+        "step": 1
+      }
+    ],
     "stem": "What is the greatest common divisor of {{4*k}} and {{6*k}}?",
     "answer": 8,
     "answerFormula": "2 * k",
@@ -251,14 +258,36 @@
     "primarySkill": "integer-properties",
     "secondarySkills": [],
     "difficulty": 1,
-    "variables": [{ "name": "n", "min": 3, "max": 9, "step": 1 }],
+    "variables": [
+      {
+        "name": "n",
+        "min": 3,
+        "max": 9,
+        "step": 1
+      }
+    ],
     "stem": "Which of the following is NOT a multiple of {{n}}?",
     "options": [
-      { "id": "A", "text": "{{n*2}}" },
-      { "id": "B", "text": "{{n*3}}" },
-      { "id": "C", "text": "{{n*4}}" },
-      { "id": "D", "text": "{{n*5+1}}" },
-      { "id": "E", "text": "{{n*6}}" }
+      {
+        "id": "A",
+        "text": "{{n*2}}"
+      },
+      {
+        "id": "B",
+        "text": "{{n*3}}"
+      },
+      {
+        "id": "C",
+        "text": "{{n*4}}"
+      },
+      {
+        "id": "D",
+        "text": "{{n*5+1}}"
+      },
+      {
+        "id": "E",
+        "text": "{{n*6}}"
+      }
     ],
     "answer": "D",
     "solutionStandard": "Every option except (D) is \\(n\\) times a whole number. (D) is \\(5n+1\\), which leaves a remainder of 1 when divided by \\(n\\).",
@@ -270,7 +299,14 @@
     "primarySkill": "integer-properties",
     "secondarySkills": [],
     "difficulty": 2,
-    "variables": [{ "name": "k", "min": 1, "max": 8, "step": 1 }],
+    "variables": [
+      {
+        "name": "k",
+        "min": 1,
+        "max": 8,
+        "step": 1
+      }
+    ],
     "stem": "What is the least common multiple of {{3*k}} and {{5*k}}?",
     "answer": 15,
     "answerFormula": "15 * k",
@@ -282,15 +318,30 @@
     "type": "MultiMC",
     "primarySkill": "integer-properties",
     "secondarySkills": [],
-    "difficulty": 2,
+    "difficulty": 3,
     "stem": "A number is divisible by 15. Which of the following must also be true? Select all that apply.",
     "options": [
-      { "id": "A", "text": "The number is divisible by 3." },
-      { "id": "B", "text": "The number is divisible by 5." },
-      { "id": "C", "text": "The number is divisible by 45." },
-      { "id": "D", "text": "The number is odd." }
+      {
+        "id": "A",
+        "text": "The number is divisible by 3."
+      },
+      {
+        "id": "B",
+        "text": "The number is divisible by 5."
+      },
+      {
+        "id": "C",
+        "text": "The number is divisible by 45."
+      },
+      {
+        "id": "D",
+        "text": "The number is odd."
+      }
     ],
-    "answer": ["A", "B"],
+    "answer": [
+      "A",
+      "B"
+    ],
     "solutionStandard": "\\(15 = 3 \\times 5\\), so any multiple of 15 is automatically divisible by 3 and by 5. Divisibility by 45 is not guaranteed (e.g. 30 is divisible by 15 but not 45), and 30 is also a counterexample to (D), since it's even.",
     "timeTargetSec": 70
   },
@@ -313,11 +364,26 @@
     "difficulty": 3,
     "stem": "What is the greatest number of consecutive integers, starting from 1, whose product does not exceed 30?",
     "options": [
-      { "id": "A", "text": "3" },
-      { "id": "B", "text": "4" },
-      { "id": "C", "text": "5" },
-      { "id": "D", "text": "6" },
-      { "id": "E", "text": "7" }
+      {
+        "id": "A",
+        "text": "3"
+      },
+      {
+        "id": "B",
+        "text": "4"
+      },
+      {
+        "id": "C",
+        "text": "5"
+      },
+      {
+        "id": "D",
+        "text": "6"
+      },
+      {
+        "id": "E",
+        "text": "7"
+      }
     ],
     "answer": "B",
     "solutionStandard": "\\(1\\times2\\times3\\times4=24 \\le 30\\), but \\(1\\times2\\times3\\times4\\times5=120 > 30\\). So 4 integers is the greatest that keeps the product at or below 30.",
@@ -328,8 +394,15 @@
     "type": "QC",
     "primarySkill": "integer-properties",
     "secondarySkills": [],
-    "difficulty": 3,
-    "variables": [{ "name": "k", "min": 1, "max": 10, "step": 1 }],
+    "difficulty": 4,
+    "variables": [
+      {
+        "name": "k",
+        "min": 1,
+        "max": 10,
+        "step": 1
+      }
+    ],
     "stem": "\\(n = {{2*k}}\\), a positive even integer.",
     "quantityA": "The remainder when \\(n^2\\) is divided by 4",
     "quantityB": "\\(0\\)",
@@ -353,14 +426,29 @@
     "type": "MC",
     "primarySkill": "integer-properties",
     "secondarySkills": [],
-    "difficulty": 4,
+    "difficulty": 5,
     "stem": "If \\(x\\) is an integer and \\(x^3\\) is odd, which of the following must be true?",
     "options": [
-      { "id": "A", "text": "\\(x\\) is odd" },
-      { "id": "B", "text": "\\(x\\) is even" },
-      { "id": "C", "text": "\\(x\\) is prime" },
-      { "id": "D", "text": "\\(x > 0\\)" },
-      { "id": "E", "text": "\\(x\\) is a perfect square" }
+      {
+        "id": "A",
+        "text": "\\(x\\) is odd"
+      },
+      {
+        "id": "B",
+        "text": "\\(x\\) is even"
+      },
+      {
+        "id": "C",
+        "text": "\\(x\\) is prime"
+      },
+      {
+        "id": "D",
+        "text": "\\(x > 0\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(x\\) is a perfect square"
+      }
     ],
     "answer": "A",
     "solutionStandard": "An odd number cubed is always odd, and an even number cubed is always even. So \\(x^3\\) odd forces \\(x\\) to be odd. None of the other properties are required (e.g. \\(x=-3\\) works: odd, negative, not prime, not a perfect square).",

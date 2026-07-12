@@ -224,5 +224,286 @@
     "answer": 84,
     "solutionStandard": "Combined sum \\(= 30(80) + 20(90) = 2400 + 1800 = 4200\\). Combined mean \\(= 4200 / 50 = 84\\).",
     "timeTargetSec": 75
+  },
+  {
+    "id": "mean-median-mode-011",
+    "type": "Numeric",
+    "primarySkill": "mean-median-mode",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "variables": [
+      {
+        "name": "a",
+        "min": 1,
+        "max": 20,
+        "step": 1
+      },
+      {
+        "name": "d",
+        "min": 1,
+        "max": 8,
+        "step": 1
+      }
+    ],
+    "stem": "What is the mean of {{a}}, {{a+d}}, {{a+2*d}}, {{a+3*d}}, {{a+4*d}}?",
+    "answer": 5,
+    "answerFormula": "a+2*d",
+    "solutionStandard": "These five numbers form an evenly spaced (arithmetic) sequence, so their mean equals the middle value: \\({{a+2*d}}\\).",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "mean-median-mode-012",
+    "type": "MC",
+    "primarySkill": "mean-median-mode",
+    "secondarySkills": [],
+    "difficulty": 1,
+    "stem": "What is the median of the data set \\(3, 17, 8, 12, 5\\)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "5"
+      },
+      {
+        "id": "B",
+        "text": "8"
+      },
+      {
+        "id": "C",
+        "text": "12"
+      },
+      {
+        "id": "D",
+        "text": "17"
+      },
+      {
+        "id": "E",
+        "text": "9"
+      }
+    ],
+    "answer": "B",
+    "solutionStandard": "Sorted: \\(3, 5, 8, 12, 17\\). The middle value is 8.",
+    "timeTargetSec": 40
+  },
+  {
+    "id": "mean-median-mode-013",
+    "type": "Numeric",
+    "primarySkill": "mean-median-mode",
+    "secondarySkills": [],
+    "difficulty": 2,
+    "variables": [
+      {
+        "name": "n",
+        "min": 4,
+        "max": 12,
+        "step": 1
+      },
+      {
+        "name": "m",
+        "min": 5,
+        "max": 50,
+        "step": 1
+      }
+    ],
+    "stem": "The mean of {{n}} numbers is {{m}}. What is the sum of these numbers?",
+    "answer": 60,
+    "answerFormula": "n*m",
+    "solutionStandard": "Sum \\(=\\) mean \\(\\times\\) count \\(= {{m}} \\times {{n}} = {{n*m}}\\).",
+    "timeTargetSec": 35
+  },
+  {
+    "id": "mean-median-mode-014",
+    "type": "MC",
+    "primarySkill": "mean-median-mode",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "The mean of 6 numbers is 12. If five of the numbers are 8, 10, 14, 16, and 9, what is the sixth number?",
+    "options": [
+      {
+        "id": "A",
+        "text": "12"
+      },
+      {
+        "id": "B",
+        "text": "13"
+      },
+      {
+        "id": "C",
+        "text": "14"
+      },
+      {
+        "id": "D",
+        "text": "15"
+      },
+      {
+        "id": "E",
+        "text": "16"
+      }
+    ],
+    "answer": "D",
+    "solutionStandard": "Total sum \\(= 12 \\times 6 = 72\\). The five known numbers sum to \\(8+10+14+16+9=57\\). Sixth number \\(=72-57=15\\).",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "mean-median-mode-015",
+    "type": "QC",
+    "primarySkill": "mean-median-mode",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "variables": [
+      {
+        "name": "k",
+        "min": 1,
+        "max": 20,
+        "step": 1
+      }
+    ],
+    "stem": "Data set: {{k}}, {{k}}, {{k+1}}, {{k+5}}, {{k+9}}.",
+    "quantityA": "The mean",
+    "quantityB": "The mode",
+    "answer": "A",
+    "solutionStandard": "The mode is \\({{k}}\\) (it appears twice; all others appear once). The mean is \\(\\dfrac{2({{k}})+({{k+1}})+({{k+5}})+({{k+9}})}{5} = \\dfrac{5k+15}{5} = k+3\\), which is always 3 more than the mode. Quantity A is greater.",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "mean-median-mode-016",
+    "type": "MultiMC",
+    "primarySkill": "mean-median-mode",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "A data set has mean 15 and median 15. Which of the following data sets could this describe? Select all that apply.",
+    "options": [
+      {
+        "id": "A",
+        "text": "10, 12, 15, 18, 20"
+      },
+      {
+        "id": "B",
+        "text": "5, 10, 15, 20, 25"
+      },
+      {
+        "id": "C",
+        "text": "1, 2, 3, 4, 65"
+      },
+      {
+        "id": "D",
+        "text": "5, 5, 5, 5, 55"
+      }
+    ],
+    "answer": [
+      "A",
+      "B"
+    ],
+    "solutionStandard": "Check each: (A) sum \\(=75\\), mean \\(15\\); sorted median \\(15\\). Works. (B) sum \\(=75\\), mean \\(15\\); median \\(15\\). Works. (C) sum \\(=75\\), mean \\(15\\), but sorted median is \\(3\\) — fails. (D) sum \\(=75\\), mean \\(15\\), but sorted median is \\(5\\) — fails.",
+    "timeTargetSec": 100
+  },
+  {
+    "id": "mean-median-mode-017",
+    "type": "Numeric",
+    "primarySkill": "mean-median-mode",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "variables": [
+      {
+        "name": "n",
+        "min": 5,
+        "max": 12,
+        "step": 1
+      },
+      {
+        "name": "m1",
+        "min": 10,
+        "max": 40,
+        "step": 1
+      },
+      {
+        "name": "d",
+        "min": -6,
+        "max": -1,
+        "step": 1
+      }
+    ],
+    "stem": "The mean of {{n}} numbers is {{m1}}. When one number is removed, the mean of the remaining {{n-1}} numbers is {{m1+d}}. What number was removed?",
+    "answer": 24,
+    "answerFormula": "m1-(n-1)*d",
+    "solutionStandard": "Original sum \\(= n \\times m_1\\). New sum \\(= (n-1)(m_1+d)\\). Removed number \\(= n \\cdot m_1 - (n-1)(m_1+d) = {{m1-(n-1)*d}}\\).",
+    "timeTargetSec": 80
+  },
+  {
+    "id": "mean-median-mode-018",
+    "type": "QC",
+    "primarySkill": "mean-median-mode",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "Every number in a data set is increased by 5.",
+    "quantityA": "The amount by which the mean increases",
+    "quantityB": "5",
+    "answer": "C",
+    "solutionStandard": "Adding a constant \\(c\\) to every value in a data set increases the mean by exactly \\(c\\), since the sum increases by \\(cn\\) and the mean increases by \\(cn/n=c\\). Here \\(c=5\\), so the quantities are always equal.",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "mean-median-mode-019",
+    "type": "MC",
+    "primarySkill": "mean-median-mode",
+    "secondarySkills": [],
+    "difficulty": 5,
+    "stem": "What is the median of the data set \\(4, 9, 7, 4, 12, 9, 15, 9\\)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "7"
+      },
+      {
+        "id": "B",
+        "text": "8"
+      },
+      {
+        "id": "C",
+        "text": "9"
+      },
+      {
+        "id": "D",
+        "text": "9.5"
+      },
+      {
+        "id": "E",
+        "text": "10"
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "Sorted: \\(4,4,7,9,9,9,12,15\\). With 8 values, the median is the average of the 4th and 5th values, which are both \\(9\\): \\((9+9)/2 = 9\\).",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "mean-median-mode-020",
+    "type": "Numeric",
+    "primarySkill": "mean-median-mode",
+    "secondarySkills": [],
+    "difficulty": 5,
+    "variables": [
+      {
+        "name": "n",
+        "min": 4,
+        "max": 15,
+        "step": 1
+      },
+      {
+        "name": "m",
+        "min": 10,
+        "max": 40,
+        "step": 1
+      },
+      {
+        "name": "e",
+        "min": 1,
+        "max": 8,
+        "step": 1
+      }
+    ],
+    "stem": "A data set of {{n}} numbers has a mean of {{m}}. One more number is added, making the mean of all {{n+1}} numbers equal to {{m+e}}. What number was added?",
+    "answer": 47,
+    "answerFormula": "m+(n+1)*e",
+    "solutionStandard": "Original sum \\(= n \\cdot m\\). New sum \\(= (n+1)(m+e)\\). Added number \\(= (n+1)(m+e) - n \\cdot m = m + (n+1)e = {{m+(n+1)*e}}\\).",
+    "timeTargetSec": 90
   }
 ]

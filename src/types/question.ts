@@ -1,4 +1,5 @@
 import type { Figure } from "./figure";
+import type { Chart } from "./chart";
 
 export type ShortcutTag = "backsolve" | "plug-in" | "estimate" | "eliminate";
 
@@ -29,8 +30,10 @@ interface QuestionBase {
   diSetId?: string;
   /** When present, {{name}} placeholders in text fields are replaced with a random value on each load. */
   variables?: VariableSpec[];
-  /** An optional diagram shown alongside the stem. */
+  /** An optional geometric diagram shown alongside the stem. */
   figure?: Figure;
+  /** An optional data chart (bar/pie/line) shown alongside the stem, for Data Interpretation questions. */
+  chart?: Chart;
 }
 
 export interface QCQuestion extends QuestionBase {

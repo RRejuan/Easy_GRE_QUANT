@@ -1,0 +1,1473 @@
+[
+  {
+    "id": "algebra-mixed-practice-001",
+    "type": "Numeric",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "linear-equations-one-var"
+    ],
+    "difficulty": 1,
+    "variables": [
+      {
+        "name": "a",
+        "min": 2,
+        "max": 9,
+        "step": 1
+      },
+      {
+        "name": "b",
+        "min": 1,
+        "max": 30,
+        "step": 1
+      },
+      {
+        "name": "x0",
+        "min": 1,
+        "max": 15,
+        "step": 1
+      }
+    ],
+    "stem": "Solve for x: {{a}}x + {{b}} = {{a*x0+b}}.",
+    "answer": 5,
+    "answerFormula": "x0",
+    "solutionStandard": "\\({{a}}x = {{a*x0+b}} - {{b}} = {{a*x0}}\\), so \\(x = {{x0}}\\).",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "algebra-mixed-practice-002",
+    "type": "MC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "linear-equations-one-var"
+    ],
+    "difficulty": 1,
+    "stem": "If \\(3x - 7 = 20\\), what is \\(x\\)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "7"
+      },
+      {
+        "id": "B",
+        "text": "8"
+      },
+      {
+        "id": "C",
+        "text": "9"
+      },
+      {
+        "id": "D",
+        "text": "11"
+      },
+      {
+        "id": "E",
+        "text": "13"
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "\\(3x = 27\\), so \\(x = 9\\).",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "algebra-mixed-practice-003",
+    "type": "Numeric",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "linear-equations-two-var"
+    ],
+    "difficulty": 1,
+    "variables": [
+      {
+        "name": "x0",
+        "min": 2,
+        "max": 20,
+        "step": 1
+      },
+      {
+        "name": "y0",
+        "min": 1,
+        "max": 15,
+        "step": 1
+      }
+    ],
+    "stem": "If \\(x + y = {{x0+y0}}\\) and \\(x - y = {{x0-y0}}\\), what is \\(x\\)?",
+    "answer": 12,
+    "answerFormula": "x0",
+    "solutionStandard": "Adding the two equations: \\(2x = {{x0+y0}} + {{x0-y0}} = {{2*x0}}\\), so \\(x = {{x0}}\\).",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "algebra-mixed-practice-004",
+    "type": "QC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "linear-inequalities"
+    ],
+    "difficulty": 1,
+    "stem": "\\(x < 0\\).",
+    "quantityA": "\\(3x\\)",
+    "quantityB": "\\(5x\\)",
+    "answer": "A",
+    "solutionStandard": "\\(3x - 5x = -2x\\), which is positive whenever \\(x<0\\), so \\(3x>5x\\) for every negative \\(x\\). Quantity A is always greater.",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "algebra-mixed-practice-005",
+    "type": "Numeric",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "inequalities-compound"
+    ],
+    "difficulty": 1,
+    "variables": [
+      {
+        "name": "lo",
+        "min": 1,
+        "max": 15,
+        "step": 1
+      },
+      {
+        "name": "range",
+        "min": 3,
+        "max": 15,
+        "step": 1
+      }
+    ],
+    "stem": "How many integers \\(x\\) satisfy {{lo}} < x < {{lo+range}}?",
+    "answer": 6,
+    "answerFormula": "range-1",
+    "solutionStandard": "The integers from \\({{lo}}+1\\) to \\({{lo+range}}-1\\) satisfy this, which is \\({{range}}-1={{range-1}}\\) integers.",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "algebra-mixed-practice-006",
+    "type": "MC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "algebraic-expressions-simplify"
+    ],
+    "difficulty": 3,
+    "stem": "Simplify: \\(3(2x - 5) - 4(x + 3)\\).",
+    "options": [
+      {
+        "id": "A",
+        "text": "\\(2x - 27\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(2x - 3\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(10x - 27\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(2x + 3\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(-2x - 27\\)"
+      }
+    ],
+    "answer": "A",
+    "solutionStandard": "\\(3(2x-5)-4(x+3) = 6x-15-4x-12 = 2x-27\\).",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "algebra-mixed-practice-007",
+    "type": "Numeric",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "functions-basics"
+    ],
+    "difficulty": 1,
+    "variables": [
+      {
+        "name": "a",
+        "min": 2,
+        "max": 8,
+        "step": 1
+      },
+      {
+        "name": "b",
+        "min": 1,
+        "max": 10,
+        "step": 1
+      },
+      {
+        "name": "x0",
+        "min": 1,
+        "max": 6,
+        "step": 1
+      }
+    ],
+    "stem": "If \\(f(x) = {{a}}x + {{b}}\\), what is \\(f({{x0}})\\)?",
+    "answer": 10,
+    "answerFormula": "a*x0+b",
+    "solutionStandard": "\\(f({{x0}}) = {{a}}({{x0}}) + {{b}} = {{a*x0+b}}\\).",
+    "timeTargetSec": 50
+  },
+  {
+    "id": "algebra-mixed-practice-008",
+    "type": "QC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "linear-inequalities"
+    ],
+    "difficulty": 3,
+    "stem": "\\(a < b\\), and \\(c\\) is a negative number.",
+    "quantityA": "\\(ac\\)",
+    "quantityB": "\\(bc\\)",
+    "answer": "A",
+    "solutionStandard": "Multiplying both sides of \\(a<b\\) by a negative number \\(c\\) flips the inequality: \\(ac > bc\\). Quantity A is always greater.",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "algebra-mixed-practice-009",
+    "type": "MC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "absolute-value-equations"
+    ],
+    "difficulty": 1,
+    "stem": "Solve for \\(x\\): \\(|x - 4| = 9\\). What are the possible values of \\(x\\)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "13 and -5"
+      },
+      {
+        "id": "B",
+        "text": "5 and -13"
+      },
+      {
+        "id": "C",
+        "text": "13 only"
+      },
+      {
+        "id": "D",
+        "text": "5 and 13"
+      },
+      {
+        "id": "E",
+        "text": "-5 only"
+      }
+    ],
+    "answer": "A",
+    "solutionStandard": "\\(x-4=9\\) gives \\(x=13\\); \\(x-4=-9\\) gives \\(x=-5\\).",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "algebra-mixed-practice-010",
+    "type": "Numeric",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "absolute-value-equations"
+    ],
+    "difficulty": 3,
+    "variables": [
+      {
+        "name": "c",
+        "min": 3,
+        "max": 15,
+        "step": 1
+      },
+      {
+        "name": "d",
+        "min": 1,
+        "max": 20,
+        "step": 1
+      }
+    ],
+    "stem": "If \\(|x - {{d}}| = {{c}}\\), what is the sum of all possible values of \\(x\\)?",
+    "answer": 20,
+    "answerFormula": "2*d",
+    "solutionStandard": "The two solutions are \\({{d}}+{{c}}\\) and \\({{d}}-{{c}}\\), which sum to \\(2 \\times {{d}} = {{2*d}}\\) (the \\({{c}}\\) terms cancel).",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "algebra-mixed-practice-011",
+    "type": "MC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "factoring-polynomials"
+    ],
+    "difficulty": 2,
+    "stem": "Factor: \\(x^2 - 5x - 14\\).",
+    "options": [
+      {
+        "id": "A",
+        "text": "\\((x-7)(x+2)\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\((x+7)(x-2)\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\((x-14)(x+1)\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\((x-2)(x-7)\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\((x+14)(x-1)\\)"
+      }
+    ],
+    "answer": "A",
+    "solutionStandard": "Look for two numbers multiplying to \\(-14\\) and summing to \\(-5\\): \\(-7\\) and \\(2\\). So \\(x^2-5x-14=(x-7)(x+2)\\).",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "algebra-mixed-practice-012",
+    "type": "Numeric",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "quadratic-equations"
+    ],
+    "difficulty": 2,
+    "variables": [
+      {
+        "name": "b",
+        "min": -15,
+        "max": 15,
+        "step": 1
+      },
+      {
+        "name": "c",
+        "min": -30,
+        "max": 30,
+        "step": 1
+      }
+    ],
+    "stem": "If \\(x^2 + {{b}}x + {{c}} = 0\\), what is the sum of the two roots?",
+    "answer": 4,
+    "answerFormula": "-b",
+    "solutionStandard": "By Vieta's formulas, for \\(x^2+bx+c=0\\), the sum of the roots is always \\(-b = {{-b}}\\).",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "algebra-mixed-practice-013",
+    "type": "MC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "quadratic-equations"
+    ],
+    "difficulty": 2,
+    "stem": "If the two roots of \\(x^2 - 9x + 20 = 0\\) are \\(r\\) and \\(s\\), what is \\(r \\times s\\)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "-20"
+      },
+      {
+        "id": "B",
+        "text": "-9"
+      },
+      {
+        "id": "C",
+        "text": "9"
+      },
+      {
+        "id": "D",
+        "text": "20"
+      },
+      {
+        "id": "E",
+        "text": "29"
+      }
+    ],
+    "answer": "D",
+    "solutionStandard": "By Vieta's formulas, the product of the roots of \\(x^2+bx+c=0\\) is \\(c\\), so \\(r \\times s = 20\\).",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "algebra-mixed-practice-014",
+    "type": "Numeric",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "quadratic-equations"
+    ],
+    "difficulty": 3,
+    "variables": [
+      {
+        "name": "b",
+        "min": -15,
+        "max": 15,
+        "step": 1
+      },
+      {
+        "name": "c",
+        "min": -40,
+        "max": 40,
+        "step": 1
+      }
+    ],
+    "stem": "If \\(x^2 + {{b}}x + {{c}} = 0\\), what is the product of the two roots?",
+    "answer": 12,
+    "answerFormula": "c",
+    "solutionStandard": "By Vieta's formulas, for \\(x^2+bx+c=0\\), the product of the roots is always \\(c={{c}}\\).",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "algebra-mixed-practice-015",
+    "type": "MC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "factoring-polynomials"
+    ],
+    "difficulty": 3,
+    "stem": "Factor completely: \\(2x^2 + 7x + 3\\).",
+    "options": [
+      {
+        "id": "A",
+        "text": "\\((2x+1)(x+3)\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\((2x+3)(x+1)\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\((x+1)(2x+7)\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\((2x-1)(x-3)\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\((x+3)(x+2)\\)"
+      }
+    ],
+    "answer": "A",
+    "solutionStandard": "\\((2x+1)(x+3) = 2x^2+6x+x+3 = 2x^2+7x+3\\), matching the original.",
+    "timeTargetSec": 90
+  },
+  {
+    "id": "algebra-mixed-practice-016",
+    "type": "QC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "quadratic-equations"
+    ],
+    "difficulty": 4,
+    "variables": [
+      {
+        "name": "k",
+        "min": 2,
+        "max": 20,
+        "step": 2
+      }
+    ],
+    "stem": "\\(x^2 - {{k}}x + {{(k/2)*(k/2)}} = 0\\).",
+    "quantityA": "The number of distinct real solutions for \\(x\\)",
+    "quantityB": "1",
+    "answer": "C",
+    "solutionStandard": "This is a perfect square: \\(x^2-{{k}}x+({{k}}/2)^2 = (x-{{k}}/2)^2=0\\), which has exactly one repeated real solution. The quantities are always equal.",
+    "timeTargetSec": 95
+  },
+  {
+    "id": "algebra-mixed-practice-017",
+    "type": "Numeric",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "quadratic-equations"
+    ],
+    "difficulty": 3,
+    "variables": [
+      {
+        "name": "r1",
+        "min": 1,
+        "max": 10,
+        "step": 1
+      },
+      {
+        "name": "r2",
+        "min": 1,
+        "max": 10,
+        "step": 1
+      }
+    ],
+    "stem": "The equation \\(x^2 - ({{r1+r2}})x + {{r1*r2}} = 0\\) has two solutions. What is the larger of the two solutions?",
+    "answer": 7,
+    "answerFormula": "Math.max(r1,r2)",
+    "solutionStandard": "This factors as \\((x-{{r1}})(x-{{r2}})=0\\), so the solutions are \\({{r1}}\\) and \\({{r2}}\\); the larger is \\({{Math.max(r1,r2)}}\\).",
+    "timeTargetSec": 85
+  },
+  {
+    "id": "algebra-mixed-practice-018",
+    "type": "MC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "functions-basics",
+      "quadratic-equations"
+    ],
+    "difficulty": 2,
+    "stem": "If \\(f(x) = x^2 - 3x + 2\\), what is \\(f(5)\\)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "7"
+      },
+      {
+        "id": "B",
+        "text": "10"
+      },
+      {
+        "id": "C",
+        "text": "12"
+      },
+      {
+        "id": "D",
+        "text": "17"
+      },
+      {
+        "id": "E",
+        "text": "22"
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "\\(f(5)=25-15+2=12\\).",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "algebra-mixed-practice-019",
+    "type": "QC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "quadratic-equations",
+      "functions-basics"
+    ],
+    "difficulty": 4,
+    "stem": "The graph of \\(y = -(x-3)^2 + 7\\) is a parabola.",
+    "quantityA": "The maximum possible value of \\(y\\)",
+    "quantityB": "7",
+    "answer": "C",
+    "solutionStandard": "\\(-(x-3)^2 \\le 0\\) for all real \\(x\\), with equality only at \\(x=3\\), so \\(y \\le 7\\) always, and \\(y=7\\) is achieved. The maximum value is exactly 7.",
+    "timeTargetSec": 85
+  },
+  {
+    "id": "algebra-mixed-practice-020",
+    "type": "Numeric",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "word-problems-algebraic-translation"
+    ],
+    "difficulty": 3,
+    "variables": [
+      {
+        "name": "w",
+        "min": 3,
+        "max": 15,
+        "step": 1
+      },
+      {
+        "name": "extra",
+        "min": 2,
+        "max": 10,
+        "step": 1
+      }
+    ],
+    "stem": "A rectangular garden has a length that is {{extra}} feet more than its width. If the width is {{w}} feet, what is the area of the garden, in square feet?",
+    "answer": 70,
+    "answerFormula": "w*(w+extra)",
+    "solutionStandard": "Length \\(= {{w}}+{{extra}}={{w+extra}}\\). Area \\(= {{w}} \\times {{w+extra}} = {{w*(w+extra)}}\\).",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "algebra-mixed-practice-021",
+    "type": "Numeric",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "functions-basics"
+    ],
+    "difficulty": 2,
+    "variables": [
+      {
+        "name": "a",
+        "min": 2,
+        "max": 6,
+        "step": 1
+      },
+      {
+        "name": "b",
+        "min": 1,
+        "max": 10,
+        "step": 1
+      },
+      {
+        "name": "c",
+        "min": 1,
+        "max": 8,
+        "step": 1
+      },
+      {
+        "name": "x0",
+        "min": 5,
+        "max": 15,
+        "step": 1
+      }
+    ],
+    "stem": "If \\(f(x) = {{a}}x + {{b}}\\) and \\(g(x) = x - {{c}}\\), what is \\(f(g({{x0}}))\\)?",
+    "answer": 30,
+    "answerFormula": "a*(x0-c)+b",
+    "solutionStandard": "\\(g({{x0}}) = {{x0}}-{{c}} = {{x0-c}}\\). \\(f({{x0-c}}) = {{a}}({{x0-c}})+{{b}} = {{a*(x0-c)+b}}\\).",
+    "timeTargetSec": 85
+  },
+  {
+    "id": "algebra-mixed-practice-022",
+    "type": "MC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "functions-basics"
+    ],
+    "difficulty": 2,
+    "stem": "If \\(f(x) = \\sqrt{x-4}\\), what is the domain of \\(f\\)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "\\(x \\ge 0\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(x \\ge 4\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(x > 4\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(x \\le 4\\)"
+      },
+      {
+        "id": "E",
+        "text": "All real numbers"
+      }
+    ],
+    "answer": "B",
+    "solutionStandard": "The expression under the square root must be non-negative: \\(x-4 \\ge 0\\), so \\(x \\ge 4\\).",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "algebra-mixed-practice-023",
+    "type": "Numeric",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "functions-basics"
+    ],
+    "difficulty": 2,
+    "variables": [
+      {
+        "name": "a",
+        "min": 2,
+        "max": 7,
+        "step": 1
+      },
+      {
+        "name": "b",
+        "min": 1,
+        "max": 15,
+        "step": 1
+      },
+      {
+        "name": "x0",
+        "min": 2,
+        "max": 15,
+        "step": 1
+      }
+    ],
+    "stem": "If \\(f(x) = {{a}}x + {{b}}\\), for what value of \\(x\\) does \\(f(x) = {{a*x0+b}}\\)?",
+    "answer": 7,
+    "answerFormula": "x0",
+    "solutionStandard": "\\({{a}}x+{{b}}={{a*x0+b}}\\), so \\(x = ({{a*x0+b}}-{{b}})/{{a}} = {{x0}}\\).",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "algebra-mixed-practice-024",
+    "type": "QC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "functions-basics"
+    ],
+    "difficulty": 3,
+    "stem": "\\(f(x) = 2x + 3\\) and \\(g(x) = x - 5\\).",
+    "quantityA": "\\(f(g(4))\\)",
+    "quantityB": "\\(g(f(4))\\)",
+    "answer": "B",
+    "solutionStandard": "\\(f(g(4)) = f(-1) = 2(-1)+3=1\\). \\(g(f(4)) = g(11) = 11-5=6\\). Quantity B is greater.",
+    "timeTargetSec": 85
+  },
+  {
+    "id": "algebra-mixed-practice-025",
+    "type": "Numeric",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "functions-basics",
+      "quadratic-equations"
+    ],
+    "difficulty": 3,
+    "variables": [
+      {
+        "name": "a",
+        "min": 1,
+        "max": 3,
+        "step": 1
+      },
+      {
+        "name": "b",
+        "min": -5,
+        "max": 5,
+        "step": 1
+      },
+      {
+        "name": "c",
+        "min": -10,
+        "max": 10,
+        "step": 1
+      },
+      {
+        "name": "x0",
+        "min": 1,
+        "max": 8,
+        "step": 1
+      }
+    ],
+    "stem": "If \\(f(x) = {{a}}x^2 + {{b}}x + {{c}}\\), what is \\(f({{x0}})\\)?",
+    "answer": 20,
+    "answerFormula": "a*x0*x0+b*x0+c",
+    "solutionStandard": "\\(f({{x0}}) = {{a}}({{x0}})^2 + {{b}}({{x0}}) + {{c}} = {{a*x0*x0+b*x0+c}}\\).",
+    "timeTargetSec": 95
+  },
+  {
+    "id": "algebra-mixed-practice-026",
+    "type": "MC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "functions-basics"
+    ],
+    "difficulty": 2,
+    "stem": "If \\(f(x) = x^2\\) for all real \\(x\\), which of the following is NOT a possible value of \\(f(x)\\)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "0"
+      },
+      {
+        "id": "B",
+        "text": "4"
+      },
+      {
+        "id": "C",
+        "text": "9"
+      },
+      {
+        "id": "D",
+        "text": "-1"
+      },
+      {
+        "id": "E",
+        "text": "16"
+      }
+    ],
+    "answer": "D",
+    "solutionStandard": "A square of a real number can never be negative, so \\(-1\\) is impossible.",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "algebra-mixed-practice-027",
+    "type": "QC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "functions-basics"
+    ],
+    "difficulty": 4,
+    "variables": [
+      {
+        "name": "m",
+        "min": 2,
+        "max": 6,
+        "step": 1
+      },
+      {
+        "name": "b1",
+        "min": 1,
+        "max": 10,
+        "step": 1
+      },
+      {
+        "name": "s",
+        "min": 1,
+        "max": 10,
+        "step": 1
+      }
+    ],
+    "stem": "\\(f(x) = {{m}}x + {{b1}}\\) and \\(g(x) = x - {{s}}\\), where {{m}} > 1. Let \\(x\\) be any real number.",
+    "quantityA": "\\(f(g(x))\\)",
+    "quantityB": "\\(g(f(x))\\)",
+    "answer": "B",
+    "solutionStandard": "\\(f(g(x)) = {{m}}(x-{{s}})+{{b1}}\\) and \\(g(f(x)) = ({{m}}x+{{b1}})-{{s}}\\). Their difference, \\(g(f(x))-f(g(x))\\), simplifies to \\({{s}}({{m}}-1)\\), which is always positive since {{m}} > 1 and {{s}} > 0 — independent of \\(x\\). Quantity B is always greater.",
+    "timeTargetSec": 105
+  },
+  {
+    "id": "algebra-mixed-practice-028",
+    "type": "Numeric",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "functions-basics",
+      "word-problems-algebraic-translation"
+    ],
+    "difficulty": 2,
+    "variables": [
+      {
+        "name": "f",
+        "min": 5,
+        "max": 20,
+        "step": 1
+      },
+      {
+        "name": "p",
+        "min": 5,
+        "max": 20,
+        "step": 1
+      },
+      {
+        "name": "d0",
+        "min": 2,
+        "max": 10,
+        "step": 1
+      }
+    ],
+    "stem": "A rental company charges a flat fee of ${{f}} plus ${{p}} per day. If \\(C(d)\\) represents the total cost for \\(d\\) days, what is \\(C({{d0}})\\), in dollars?",
+    "answer": 65,
+    "answerFormula": "f+p*d0",
+    "solutionStandard": "\\(C({{d0}}) = {{f}} + {{p}} \\times {{d0}} = {{f+p*d0}}\\).",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "algebra-mixed-practice-029",
+    "type": "MC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "functions-basics"
+    ],
+    "difficulty": 2,
+    "stem": "The graph of \\(y = f(x)\\) is shifted up 3 units and right 2 units. Which of the following represents the new function?",
+    "options": [
+      {
+        "id": "A",
+        "text": "\\(y = f(x-2) + 3\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(y = f(x+2) + 3\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(y = f(x-2) - 3\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(y = f(x+3) - 2\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(y = f(x) + 2 - 3\\)"
+      }
+    ],
+    "answer": "A",
+    "solutionStandard": "Shifting right by 2 replaces \\(x\\) with \\(x-2\\) inside the function; shifting up by 3 adds 3 outside: \\(y=f(x-2)+3\\).",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "algebra-mixed-practice-030",
+    "type": "QC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "functions-basics"
+    ],
+    "difficulty": 4,
+    "stem": "\\(f\\) is an even function, meaning \\(f(-x) = f(x)\\) for all \\(x\\). \\(f(3) = 7\\).",
+    "quantityA": "\\(f(-3)\\)",
+    "quantityB": "\\(7\\)",
+    "answer": "C",
+    "solutionStandard": "By the definition of an even function, \\(f(-3)=f(3)=7\\). The quantities are always equal.",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "algebra-mixed-practice-031",
+    "type": "Numeric",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "word-problems-algebraic-translation"
+    ],
+    "difficulty": 1,
+    "variables": [
+      {
+        "name": "a",
+        "min": 10,
+        "max": 40,
+        "step": 1
+      },
+      {
+        "name": "y",
+        "min": 2,
+        "max": 15,
+        "step": 1
+      }
+    ],
+    "stem": "Maria is currently {{a}} years old. In {{y}} years, how old will she be?",
+    "answer": 30,
+    "answerFormula": "a+y",
+    "solutionStandard": "\\({{a}} + {{y}} = {{a+y}}\\).",
+    "timeTargetSec": 40
+  },
+  {
+    "id": "algebra-mixed-practice-032",
+    "type": "MC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "word-problems-algebraic-translation"
+    ],
+    "difficulty": 3,
+    "stem": "Tom is 4 years older than twice his sister's age. If his sister is 9, how old is Tom?",
+    "options": [
+      {
+        "id": "A",
+        "text": "13"
+      },
+      {
+        "id": "B",
+        "text": "18"
+      },
+      {
+        "id": "C",
+        "text": "20"
+      },
+      {
+        "id": "D",
+        "text": "22"
+      },
+      {
+        "id": "E",
+        "text": "26"
+      }
+    ],
+    "answer": "D",
+    "solutionStandard": "Tom's age \\(= 2(9) + 4 = 22\\).",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "algebra-mixed-practice-033",
+    "type": "Numeric",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "word-problems-algebraic-translation"
+    ],
+    "difficulty": 3,
+    "variables": [
+      {
+        "name": "n0",
+        "min": 1,
+        "max": 50,
+        "step": 1
+      }
+    ],
+    "stem": "The sum of three consecutive integers is {{3*n0+3}}. What is the smallest of the three integers?",
+    "answer": 10,
+    "answerFormula": "n0",
+    "solutionStandard": "If the smallest is \\(n\\), the sum is \\(n+(n+1)+(n+2)=3n+3\\). Setting \\(3n+3={{3*n0+3}}\\) gives \\(n={{n0}}\\).",
+    "timeTargetSec": 70
+  },
+  {
+    "id": "algebra-mixed-practice-034",
+    "type": "QC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "word-problems-algebraic-translation"
+    ],
+    "difficulty": 3,
+    "stem": "Currently, John's age is twice Mary's age.",
+    "quantityA": "John's age 10 years from now",
+    "quantityB": "Twice Mary's age 10 years from now",
+    "answer": "B",
+    "solutionStandard": "Let Mary's current age be \\(M\\), so John's is \\(2M\\). In 10 years: John is \\(2M+10\\); twice Mary's future age is \\(2(M+10)=2M+20\\). Since \\(2M+20 > 2M+10\\) always, Quantity B is greater — the 2:1 ratio doesn't carry forward once you add the same number of years to both ages.",
+    "timeTargetSec": 90
+  },
+  {
+    "id": "algebra-mixed-practice-035",
+    "type": "Numeric",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "word-problems-algebraic-translation"
+    ],
+    "difficulty": 4,
+    "variables": [
+      {
+        "name": "d",
+        "min": 2,
+        "max": 20,
+        "step": 1
+      },
+      {
+        "name": "nick",
+        "min": 2,
+        "max": 20,
+        "step": 1
+      }
+    ],
+    "stem": "A jar has {{d}} dimes and {{nick}} nickels. What is the total value of the coins, in cents?",
+    "answer": 130,
+    "answerFormula": "10*d+5*nick",
+    "solutionStandard": "\\(10 \\times {{d}} + 5 \\times {{nick}} = {{10*d+5*nick}}\\) cents.",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "algebra-mixed-practice-036",
+    "type": "MC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "word-problems-algebraic-translation"
+    ],
+    "difficulty": 4,
+    "stem": "The sum of two consecutive even integers is 74. What is the larger integer?",
+    "options": [
+      {
+        "id": "A",
+        "text": "34"
+      },
+      {
+        "id": "B",
+        "text": "36"
+      },
+      {
+        "id": "C",
+        "text": "37"
+      },
+      {
+        "id": "D",
+        "text": "38"
+      },
+      {
+        "id": "E",
+        "text": "40"
+      }
+    ],
+    "answer": "D",
+    "solutionStandard": "Let the integers be \\(n\\) and \\(n+2\\): \\(n+(n+2)=74\\), so \\(n=36\\) and the larger is \\(38\\).",
+    "timeTargetSec": 75
+  },
+  {
+    "id": "algebra-mixed-practice-037",
+    "type": "Numeric",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "word-problems-algebraic-translation",
+      "linear-equations-one-var"
+    ],
+    "difficulty": 4,
+    "variables": [
+      {
+        "name": "x0",
+        "min": 4,
+        "max": 40,
+        "step": 1
+      },
+      {
+        "name": "mult",
+        "min": 2,
+        "max": 5,
+        "step": 1
+      },
+      {
+        "name": "inc",
+        "min": 1,
+        "max": 3,
+        "step": 1
+      }
+    ],
+    "stem": "A number, increased by {{inc}}, equals {{mult}} times the number, decreased by {{(mult-1)*x0-inc}}. What is the number?",
+    "answer": 10,
+    "answerFormula": "x0",
+    "solutionStandard": "\\(x+{{inc}} = {{mult}}x - ({{(mult-1)*x0-inc}})\\). Rearranging: \\(({{mult}}-1)x = {{inc}}+({{(mult-1)*x0-inc}}) = {{(mult-1)*x0}}\\), so \\(x={{x0}}\\).",
+    "timeTargetSec": 110
+  },
+  {
+    "id": "algebra-mixed-practice-038",
+    "type": "MC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "linear-equations-one-var"
+    ],
+    "difficulty": 1,
+    "stem": "A number \\(x\\) satisfies: twice the number, minus 7, equals 15. What is \\(x\\)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "4"
+      },
+      {
+        "id": "B",
+        "text": "8"
+      },
+      {
+        "id": "C",
+        "text": "11"
+      },
+      {
+        "id": "D",
+        "text": "22"
+      },
+      {
+        "id": "E",
+        "text": "44"
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "\\(2x-7=15\\), so \\(2x=22\\) and \\(x=11\\).",
+    "timeTargetSec": 45
+  },
+  {
+    "id": "algebra-mixed-practice-039",
+    "type": "Numeric",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "linear-equations-two-var",
+      "word-problems-algebraic-translation"
+    ],
+    "difficulty": 4,
+    "variables": [
+      {
+        "name": "L",
+        "min": 20,
+        "max": 60,
+        "step": 1
+      },
+      {
+        "name": "S",
+        "min": 1,
+        "max": 15,
+        "step": 1
+      }
+    ],
+    "stem": "The sum of two numbers is {{L+S}}, and their difference is {{L-S}}. What is the larger number?",
+    "answer": 35,
+    "answerFormula": "L",
+    "solutionStandard": "Adding sum and difference: \\(2 \\times \\text{larger} = ({{L+S}})+({{L-S}}) = {{2*L}}\\), so the larger number is \\({{L}}\\).",
+    "timeTargetSec": 80
+  },
+  {
+    "id": "algebra-mixed-practice-040",
+    "type": "QC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "word-problems-algebraic-translation"
+    ],
+    "difficulty": 5,
+    "stem": "The product of two consecutive positive integers is 56.",
+    "quantityA": "The smaller integer",
+    "quantityB": "7",
+    "answer": "C",
+    "solutionStandard": "\\(7 \\times 8 = 56\\), and these are the only consecutive positive integers with this product. The smaller is 7, so the quantities are equal.",
+    "timeTargetSec": 85
+  },
+  {
+    "id": "algebra-mixed-practice-041",
+    "type": "Numeric",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "sequences-algebraic"
+    ],
+    "difficulty": 1,
+    "variables": [
+      {
+        "name": "a1",
+        "min": 1,
+        "max": 20,
+        "step": 1
+      },
+      {
+        "name": "d",
+        "min": 1,
+        "max": 10,
+        "step": 1
+      },
+      {
+        "name": "n",
+        "min": 3,
+        "max": 15,
+        "step": 1
+      }
+    ],
+    "stem": "An arithmetic sequence has first term {{a1}} and common difference {{d}}. What is the {{n}}th term?",
+    "answer": 15,
+    "answerFormula": "a1+(n-1)*d",
+    "solutionStandard": "The \\(n\\)th term of an arithmetic sequence is \\(a_1+(n-1)d = {{a1}}+({{n}}-1)({{d}}) = {{a1+(n-1)*d}}\\).",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "algebra-mixed-practice-042",
+    "type": "MC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "sequences-algebraic"
+    ],
+    "difficulty": 3,
+    "stem": "In a geometric sequence, the first term is 3 and the common ratio is 2. What is the 5th term?",
+    "options": [
+      {
+        "id": "A",
+        "text": "16"
+      },
+      {
+        "id": "B",
+        "text": "24"
+      },
+      {
+        "id": "C",
+        "text": "32"
+      },
+      {
+        "id": "D",
+        "text": "48"
+      },
+      {
+        "id": "E",
+        "text": "96"
+      }
+    ],
+    "answer": "D",
+    "solutionStandard": "The 5th term is \\(3 \\times 2^4 = 3 \\times 16 = 48\\).",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "algebra-mixed-practice-043",
+    "type": "Numeric",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "sequences-algebraic"
+    ],
+    "difficulty": 3,
+    "variables": [
+      {
+        "name": "a1",
+        "min": 1,
+        "max": 10,
+        "step": 1
+      },
+      {
+        "name": "d",
+        "min": 1,
+        "max": 8,
+        "step": 1
+      },
+      {
+        "name": "n",
+        "min": 3,
+        "max": 10,
+        "step": 1
+      }
+    ],
+    "stem": "What is the sum of the first {{n}} terms of an arithmetic sequence with first term {{a1}} and common difference {{d}}?",
+    "answer": 45,
+    "answerFormula": "n*(2*a1+(n-1)*d)/2",
+    "solutionStandard": "Sum \\(= \\dfrac{n}{2}(2a_1+(n-1)d) = \\dfrac{ {{n}} }{2}(2({{a1}})+({{n}}-1)({{d}})) = {{n*(2*a1+(n-1)*d)/2}}\\).",
+    "timeTargetSec": 90
+  },
+  {
+    "id": "algebra-mixed-practice-044",
+    "type": "QC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "sequences-algebraic"
+    ],
+    "difficulty": 4,
+    "stem": "Sequence A is arithmetic: 2, 5, 8, 11, .... Sequence B is geometric: 2, 4, 8, 16, ....",
+    "quantityA": "The 10th term of Sequence A",
+    "quantityB": "The 10th term of Sequence B",
+    "answer": "B",
+    "solutionStandard": "Sequence A's 10th term: \\(2+9(3)=29\\). Sequence B's 10th term: \\(2\\times2^9=1024\\). Geometric growth overtakes linear growth: Quantity B is much greater.",
+    "timeTargetSec": 85
+  },
+  {
+    "id": "algebra-mixed-practice-045",
+    "type": "Numeric",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "absolute-value-equations"
+    ],
+    "difficulty": 5,
+    "variables": [
+      {
+        "name": "m",
+        "min": 2,
+        "max": 6,
+        "step": 1
+      },
+      {
+        "name": "c",
+        "min": 3,
+        "max": 20,
+        "step": 1
+      },
+      {
+        "name": "target",
+        "min": 1,
+        "max": 50,
+        "step": 1
+      }
+    ],
+    "stem": "If \\(|{{m}}x - {{m*c}}| = {{target}}\\), what is the sum of the two solutions for \\(x\\)?",
+    "answer": 10,
+    "answerFormula": "2*c",
+    "solutionStandard": "The two solutions are \\(\\dfrac{ {{m*c}}+{{target}} }{ {{m}} }\\) and \\(\\dfrac{ {{m*c}}-{{target}} }{ {{m}} }\\); the \\({{target}}\\) terms cancel when summed, leaving \\(\\dfrac{2({{m*c}})}{ {{m}} } = 2({{c}}) = {{2*c}}\\).",
+    "timeTargetSec": 105
+  },
+  {
+    "id": "algebra-mixed-practice-046",
+    "type": "MC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "quadratic-equations",
+      "word-problems-algebraic-translation"
+    ],
+    "difficulty": 5,
+    "stem": "The length of a rectangle is 3 more than its width. If the area is 40, what is the width?",
+    "options": [
+      {
+        "id": "A",
+        "text": "4"
+      },
+      {
+        "id": "B",
+        "text": "5"
+      },
+      {
+        "id": "C",
+        "text": "6"
+      },
+      {
+        "id": "D",
+        "text": "7"
+      },
+      {
+        "id": "E",
+        "text": "8"
+      }
+    ],
+    "answer": "B",
+    "solutionStandard": "\\(w(w+3)=40\\), so \\(w^2+3w-40=0\\), which factors as \\((w+8)(w-5)=0\\). The positive solution is \\(w=5\\).",
+    "timeTargetSec": 100
+  },
+  {
+    "id": "algebra-mixed-practice-047",
+    "type": "Numeric",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "sequences-algebraic"
+    ],
+    "difficulty": 5,
+    "variables": [
+      {
+        "name": "a1",
+        "min": 1,
+        "max": 10,
+        "step": 1
+      },
+      {
+        "name": "ruleAdd",
+        "min": 1,
+        "max": 5,
+        "step": 1
+      }
+    ],
+    "stem": "A sequence is defined by \\(a_1 = {{a1}}\\) and \\(a_{n+1} = a_n + {{ruleAdd}} \\times n\\) for \\(n \\ge 1\\). What is \\(a_4\\)?",
+    "answer": 15,
+    "answerFormula": "a1+6*ruleAdd",
+    "solutionStandard": "\\(a_2=a_1+{{ruleAdd}}(1)\\), \\(a_3=a_2+{{ruleAdd}}(2)\\), \\(a_4=a_3+{{ruleAdd}}(3)\\). Overall, \\(a_4 = a_1 + {{ruleAdd}}(1+2+3) = {{a1}}+6({{ruleAdd}}) = {{a1+6*ruleAdd}}\\).",
+    "timeTargetSec": 100
+  },
+  {
+    "id": "algebra-mixed-practice-048",
+    "type": "QC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "inequalities-compound"
+    ],
+    "difficulty": 4,
+    "variables": [
+      {
+        "name": "lo",
+        "min": 1,
+        "max": 10,
+        "step": 1
+      },
+      {
+        "name": "range",
+        "min": 5,
+        "max": 20,
+        "step": 1
+      }
+    ],
+    "stem": "{{lo}} < x < {{lo+range}}",
+    "quantityA": "The maximum possible integer value of \\(x\\)",
+    "quantityB": "{{lo+range-1}}",
+    "answer": "C",
+    "solutionStandard": "The largest integer strictly less than \\({{lo+range}}\\) is \\({{lo+range}}-1={{lo+range-1}}\\). The quantities are always equal.",
+    "timeTargetSec": 80
+  },
+  {
+    "id": "algebra-mixed-practice-049",
+    "type": "MC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "factoring-polynomials"
+    ],
+    "difficulty": 3,
+    "stem": "Factor: \\(x^2 - 49\\).",
+    "options": [
+      {
+        "id": "A",
+        "text": "\\((x-7)(x+7)\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\((x-49)(x+1)\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\((x-7)^2\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\((x+7)^2\\)"
+      },
+      {
+        "id": "E",
+        "text": "Cannot be factored"
+      }
+    ],
+    "answer": "A",
+    "solutionStandard": "This is a difference of squares: \\(x^2-49=x^2-7^2=(x-7)(x+7)\\).",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "algebra-mixed-practice-050",
+    "type": "QC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "quadratic-equations"
+    ],
+    "difficulty": 5,
+    "stem": "\\(x\\) and \\(y\\) are real numbers such that \\(x + y = 10\\).",
+    "quantityA": "The maximum possible value of \\(xy\\)",
+    "quantityB": "25",
+    "answer": "C",
+    "solutionStandard": "For a fixed sum, the product \\(xy\\) is maximized when \\(x=y=5\\), giving \\(xy=25\\). This maximum value is exactly 25, so the quantities are equal.",
+    "timeTargetSec": 95
+  }
+]
