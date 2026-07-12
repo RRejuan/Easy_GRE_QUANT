@@ -93,6 +93,12 @@
   margin: 16px 0;
 }
 
+.cta-button-row {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
 .cta-button {
   display: inline-block;
   margin-top: 8px;
@@ -192,6 +198,34 @@
   display: flex;
   gap: 24px;
   margin: 12px 0;
+}
+
+.question-timer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin-bottom: 10px;
+}
+
+.question-timer-elapsed {
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  color: var(--text-h);
+}
+
+.question-timer-target {
+  font-variant-numeric: tabular-nums;
+}
+
+.question-timer-warning,
+.question-timer.question-timer-over .question-timer-elapsed {
+  color: var(--danger);
+}
+
+.question-timer-recap {
+  font-variant-numeric: tabular-nums;
 }
 
 fieldset {

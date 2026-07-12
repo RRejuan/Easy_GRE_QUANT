@@ -18,11 +18,10 @@ function shuffle<T>(items: T[]): T[] {
 }
 
 /**
- * The pool doesn't yet have enough dedicated, non-practice mock content
- * (~500 planned, ~140 built so far), so section 1 and the tiered section 2
- * pools are assembled dynamically from the existing skill question pool
- * rather than from a fixed, hand-curated mock. Revisit once dedicated mock
- * content exists.
+ * Section 1 and the tiered section 2 pools are assembled dynamically from
+ * the full question pool (every skill plus the four GRE-mock-style mixed
+ * practice pools), rather than from a fixed, hand-curated mock — this
+ * mirrors the real test, where a single section mixes topics freely.
  */
 export function assembleSection1(): Question[] {
   return shuffle(allQuestions()).slice(0, SECTION1_QUESTION_COUNT);

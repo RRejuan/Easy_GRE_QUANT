@@ -1,11 +1,39 @@
-import type { Question } from "../types";
+import type { Question, Skill } from "../types";
 import { getQuestionsForSkill, skillsWithContent } from "./content";
 
-/** Spreads across every skill with content first (one question each, medium difficulty), then adds more per skill in later rounds until the target count is hit or content is exhausted. */
-export function buildDiagnostic(targetCount = 24): Question[] {
-  const queues = skillsWithContent().map((skill) => [
-    ...getQuestionsForSkill(skill.id),
-  ]);
+const AREA_ORDER = ["Arithmetic", "Algebra", "Geometry", "Data Analysis"];
+
+/**
+ * Round-robin merge of skills by area (Arithmetic[0], Algebra[0], Geometry[0],
+ * Data Analysis[0], Arithmetic[1], ...) so that taking the first N skills off
+ * this list always yields a roughly even spread across all 4 areas, instead
+ * of exhausting one area before ever reaching the next.
+ */
+function interleaveByArea(skills: Skill[]): Skill[] {
+  const buckets = AREA_ORDER.map((area) => skills.filter((s) => s.area === area));
+  const result: Skill[] = [];
+  let i = 0;
+  while (buckets.some((bucket) => i < bucket.length)) {
+    for (const bucket of buckets) {
+      if (i < bucket.length) result.push(bucket[i]);
+    }
+    i += 1;
+  }
+  return result;
+}
+
+/**
+ * Spreads across every real skill (excluding the standalone mixed-practice
+ * pools, which are for capstone review rather than initial diagnosis),
+ * interleaved evenly across all 4 areas, one question each at first, then
+ * more per skill in later rounds until the target count is hit or content
+ * is exhausted.
+ */
+export function buildDiagnostic(targetCount = 40): Question[] {
+  const skills = interleaveByArea(
+    skillsWithContent().filter((skill) => skill.topic !== "Mixed Practice"),
+  );
+  const queues = skills.map((skill) => [...getQuestionsForSkill(skill.id)]);
 
   const picked: Question[] = [];
   let round = 0;

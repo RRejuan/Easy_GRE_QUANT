@@ -29,10 +29,12 @@ export function DiagnosticPage() {
     <div className="skill-page">
       <h1>Diagnostic</h1>
       <p>
-        A quick spread of questions across every skill with content so far,
-        to seed your mastery map. Results feed directly into the "what to
-        study next" recommendation on the{" "}
-        <Link to="/">dashboard</Link>.
+        A placement check spanning all four areas (Arithmetic, Algebra,
+        Geometry, Data Analysis) evenly, to seed your mastery map. Results
+        feed directly into the "what to study next" recommendation on the{" "}
+        <Link to="/">dashboard</Link>. For a full, timed, section-adaptive
+        practice test matching the real GRE Quant format, use{" "}
+        <Link to="/mock-test">Mock Test</Link> instead.
       </p>
 
       {question ? (

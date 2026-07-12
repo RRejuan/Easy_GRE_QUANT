@@ -47,11 +47,18 @@ export function DashboardPage() {
       <div className="mock-test-cta">
         <p>
           New here, or want a fresh read on where you stand? Take a quick
-          spread of questions across every skill available so far.
+          diagnostic spanning all four areas to seed your mastery map, or
+          jump into a full, timed, section-adaptive mock test matching the
+          real GRE Quant format.
         </p>
-        <Link to="/diagnostic" className="cta-button">
-          Let's start with a mock test
-        </Link>
+        <div className="cta-button-row">
+          <Link to="/diagnostic" className="cta-button">
+            Start the diagnostic
+          </Link>
+          <Link to="/mock-test" className="cta-button">
+            Take a full mock test
+          </Link>
+        </div>
       </div>
 
       <AreaMasteryChart data={areaMastery} />

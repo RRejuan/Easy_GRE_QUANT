@@ -13,6 +13,13 @@ export interface AnswerResult {
   timeSec: number;
 }
 
+function formatTime(totalSec: number): string {
+  const s = Math.max(0, Math.round(totalSec));
+  const m = Math.floor(s / 60);
+  const rem = s % 60;
+  return `${m}:${rem.toString().padStart(2, "0")}`;
+}
+
 function resolveDisplayQuestion(question: Question, values: Record<string, number>): Question {
   if (!question.variables || question.variables.length === 0) return question;
 
@@ -77,6 +84,8 @@ export function QuestionView({
 }) {
   const [submittedAnswer, setSubmittedAnswer] = useState<unknown>(undefined);
   const [showShortcut, setShowShortcut] = useState(false);
+  const [elapsedSec, setElapsedSec] = useState(0);
+  const [finalTimeSec, setFinalTimeSec] = useState(0);
   const startRef = useRef(performance.now());
 
   const [values] = useState(() => resolveVariables(question.variables));
@@ -101,19 +110,45 @@ export function QuestionView({
     startRef.current = performance.now();
     setSubmittedAnswer(undefined);
     setShowShortcut(false);
+    setElapsedSec(0);
   }, [question.id]);
+
+  useEffect(() => {
+    if (submittedAnswer !== undefined) return;
+    const interval = setInterval(() => {
+      setElapsedSec((performance.now() - startRef.current) / 1000);
+    }, 1000);
+    return () => clearInterval(interval);
+  }, [question.id, submittedAnswer]);
 
   function handleSubmit(answer: unknown) {
     const timeSec = (performance.now() - startRef.current) / 1000;
     setSubmittedAnswer(answer);
+    setFinalTimeSec(timeSec);
     onAnswered({ correct: isCorrect(question, answer, resolvedAnswer), timeSec });
   }
 
   const submitted = submittedAnswer !== undefined;
   const correct = submitted && isCorrect(question, submittedAnswer, resolvedAnswer);
+  const target = question.timeTargetSec;
+  const overTarget = !submitted && elapsedSec > target;
+  const displayedTimeSec = submitted ? finalTimeSec : elapsedSec;
 
   return (
     <div className="question">
+      <div className={`question-timer${overTarget ? " question-timer-over" : ""}`}>
+        <span className="question-timer-elapsed">⏱ {formatTime(displayedTimeSec)}</span>
+        <span className="question-timer-target">target {formatTime(target)}</span>
+        {submitted ? (
+          <span className="question-timer-recap">
+            {displayedTimeSec <= target
+              ? `${formatTime(target - displayedTimeSec)} under target`
+              : `${formatTime(displayedTimeSec - target)} over target`}
+          </span>
+        ) : (
+          overTarget && <span className="question-timer-warning">over target — move on if stuck</span>
+        )}
+      </div>
       <p className="question-stem">
         <MathText text={displayQuestion.stem} />
       </p>
