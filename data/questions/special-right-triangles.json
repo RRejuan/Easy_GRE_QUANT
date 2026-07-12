@@ -12,7 +12,60 @@
       7.08
     ],
     "solutionStandard": "Hypotenuse \\(= 5\\sqrt{2} \\approx 7.07\\).",
-    "timeTargetSec": 45
+    "timeTargetSec": 45,
+    "figure": {
+      "viewBox": "0 0 200 150",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 130
+            },
+            {
+              "x": 140,
+              "y": 130
+            },
+            {
+              "x": 20,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 20,
+            "y": 130
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 8,
+            "y": 82
+          },
+          "text": "5"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 75,
+            "y": 148
+          },
+          "text": "5"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 85,
+            "y": 72
+          },
+          "text": "?"
+        }
+      ]
+    }
   },
   {
     "id": "special-right-triangles-002",
@@ -125,7 +178,52 @@
     "stem": "A 30-60-90 triangle has a short leg of length 6. What is the length of the hypotenuse?",
     "answer": 12,
     "solutionStandard": "The hypotenuse is always twice the short leg: \\(2 \\times 6 = 12\\).",
-    "timeTargetSec": 40
+    "timeTargetSec": 40,
+    "figure": {
+      "viewBox": "0 0 200 150",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 130
+            },
+            {
+              "x": 150,
+              "y": 130
+            },
+            {
+              "x": 20,
+              "y": 50
+            }
+          ]
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 20,
+            "y": 130
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 8,
+            "y": 92
+          },
+          "text": "6"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 90,
+            "y": 82
+          },
+          "text": "?"
+        }
+      ]
+    }
   },
   {
     "id": "special-right-triangles-004",
@@ -158,7 +256,67 @@
     ],
     "answer": "B",
     "solutionStandard": "A square's diagonal splits it into two 45-45-90 triangles, with diagonal \\(=\\text{side}\\times\\sqrt{2}\\). So side \\(=10\\sqrt2/\\sqrt2=10\\).",
-    "timeTargetSec": 60
+    "timeTargetSec": 60,
+    "figure": {
+      "viewBox": "0 0 200 150",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 30
+            },
+            {
+              "x": 140,
+              "y": 30
+            },
+            {
+              "x": 140,
+              "y": 130
+            },
+            {
+              "x": 20,
+              "y": 130
+            }
+          ]
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 20,
+            "y": 130
+          },
+          "to": {
+            "x": 140,
+            "y": 30
+          }
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 20,
+            "y": 130
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 75,
+            "y": 20
+          },
+          "text": "?"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 95,
+            "y": 68
+          },
+          "text": "10√2"
+        }
+      ]
+    }
   },
   {
     "id": "special-right-triangles-005",
@@ -171,7 +329,64 @@
     "quantityB": "\\(8.5\\)",
     "answer": "A",
     "solutionStandard": "The altitude splits the equilateral triangle into two 30-60-90 triangles with hypotenuse 10 and short leg 5, so the altitude (long leg) is \\(5\\sqrt3\\approx8.66\\). Since \\(8.66>8.5\\), Quantity A is greater.",
-    "timeTargetSec": 75
+    "timeTargetSec": 75,
+    "figure": {
+      "viewBox": "0 0 200 150",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 80,
+              "y": 20
+            },
+            {
+              "x": 20,
+              "y": 130
+            },
+            {
+              "x": 140,
+              "y": 130
+            }
+          ]
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 80,
+            "y": 20
+          },
+          "to": {
+            "x": 80,
+            "y": 130
+          },
+          "dashed": true
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 80,
+            "y": 130
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 40,
+            "y": 70
+          },
+          "text": "10"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 88,
+            "y": 75
+          },
+          "text": "?"
+        }
+      ]
+    }
   },
   {
     "id": "special-right-triangles-006",
@@ -182,7 +397,60 @@
     "stem": "A 45-45-90 triangle has a hypotenuse of length \\(12\\sqrt{2}\\). What is the length of each leg?",
     "answer": 12,
     "solutionStandard": "Leg \\(= \\text{hypotenuse}/\\sqrt2 = 12\\sqrt2/\\sqrt2=12\\).",
-    "timeTargetSec": 55
+    "timeTargetSec": 55,
+    "figure": {
+      "viewBox": "0 0 200 150",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 130
+            },
+            {
+              "x": 140,
+              "y": 130
+            },
+            {
+              "x": 20,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 20,
+            "y": 130
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 8,
+            "y": 82
+          },
+          "text": "?"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 75,
+            "y": 148
+          },
+          "text": "?"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 85,
+            "y": 72
+          },
+          "text": "12√2"
+        }
+      ]
+    }
   },
   {
     "id": "special-right-triangles-007",
@@ -215,7 +483,64 @@
     ],
     "answer": "B",
     "solutionStandard": "The altitude of an equilateral triangle with side \\(s\\) is \\(\\frac{s\\sqrt3}{2}\\); for \\(s=8\\), altitude \\(=4\\sqrt3\\). Area \\(=\\frac{1}{2}(8)(4\\sqrt3)=16\\sqrt3\\).",
-    "timeTargetSec": 80
+    "timeTargetSec": 80,
+    "figure": {
+      "viewBox": "0 0 200 150",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 80,
+              "y": 20
+            },
+            {
+              "x": 20,
+              "y": 130
+            },
+            {
+              "x": 140,
+              "y": 130
+            }
+          ]
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 80,
+            "y": 20
+          },
+          "to": {
+            "x": 80,
+            "y": 130
+          },
+          "dashed": true
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 80,
+            "y": 130
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 40,
+            "y": 70
+          },
+          "text": "8"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 88,
+            "y": 75
+          },
+          "text": "?"
+        }
+      ]
+    }
   },
   {
     "id": "special-right-triangles-008",
@@ -281,7 +606,60 @@
     ],
     "answer": "C",
     "solutionStandard": "The ladder is the hypotenuse of a 30-60-90 triangle (angles 60° at the ground, 30° at the top, 90° at the wall). The height is the long leg, opposite the 60° angle: with hypotenuse 20, the short leg (opposite 30°, along the ground) is 10, and the long leg (height) is \\(10\\sqrt3\\).",
-    "timeTargetSec": 90
+    "timeTargetSec": 90,
+    "figure": {
+      "viewBox": "0 0 200 150",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 130
+            },
+            {
+              "x": 150,
+              "y": 130
+            },
+            {
+              "x": 20,
+              "y": 50
+            }
+          ]
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 20,
+            "y": 130
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 8,
+            "y": 92
+          },
+          "text": "?"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 90,
+            "y": 82
+          },
+          "text": "20"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 128,
+            "y": 122
+          },
+          "text": "60°"
+        }
+      ]
+    }
   },
   {
     "id": "special-right-triangles-010",
@@ -292,7 +670,67 @@
     "stem": "A rectangle has length 10 and width 10. What is the length of its diagonal? (Enter as \\(k\\sqrt{2}\\); give just the value of \\(k\\).)",
     "answer": 10,
     "solutionStandard": "Since length equals width, the diagonal splits the rectangle (a square in this case) into 45-45-90 triangles: diagonal \\(=10\\sqrt2\\), so \\(k=10\\).",
-    "timeTargetSec": 70
+    "timeTargetSec": 70,
+    "figure": {
+      "viewBox": "0 0 200 150",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 30
+            },
+            {
+              "x": 140,
+              "y": 30
+            },
+            {
+              "x": 140,
+              "y": 130
+            },
+            {
+              "x": 20,
+              "y": 130
+            }
+          ]
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 20,
+            "y": 130
+          },
+          "to": {
+            "x": 140,
+            "y": 30
+          }
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 20,
+            "y": 130
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 75,
+            "y": 20
+          },
+          "text": "10"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 95,
+            "y": 68
+          },
+          "text": "?"
+        }
+      ]
+    }
   },
   {
     "id": "special-right-triangles-011",
@@ -312,7 +750,60 @@
     "answer": 9,
     "answerFormula": "a",
     "solutionStandard": "For a 45-45-90 triangle, hypotenuse \\(= \\text{leg} \\times \\sqrt2 = {{a}}\\sqrt2\\), so \\(k={{a}}\\).",
-    "timeTargetSec": 40
+    "timeTargetSec": 40,
+    "figure": {
+      "viewBox": "0 0 200 150",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 130
+            },
+            {
+              "x": 140,
+              "y": 130
+            },
+            {
+              "x": 20,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 20,
+            "y": 130
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 8,
+            "y": 82
+          },
+          "text": "{{a}}"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 75,
+            "y": 148
+          },
+          "text": "{{a}}"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 85,
+            "y": 72
+          },
+          "text": "?"
+        }
+      ]
+    }
   },
   {
     "id": "special-right-triangles-012",
@@ -418,7 +909,52 @@
     "answer": 18,
     "answerFormula": "2 * a",
     "solutionStandard": "The hypotenuse is always twice the short leg: \\(2 \\times {{a}} = {{2*a}}\\).",
-    "timeTargetSec": 40
+    "timeTargetSec": 40,
+    "figure": {
+      "viewBox": "0 0 200 150",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 130
+            },
+            {
+              "x": 150,
+              "y": 130
+            },
+            {
+              "x": 20,
+              "y": 50
+            }
+          ]
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 20,
+            "y": 130
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 8,
+            "y": 92
+          },
+          "text": "{{a}}"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 90,
+            "y": 82
+          },
+          "text": "?"
+        }
+      ]
+    }
   },
   {
     "id": "special-right-triangles-014",
@@ -451,7 +987,67 @@
     ],
     "answer": "B",
     "solutionStandard": "A square's diagonal \\(= \\text{side} \\times \\sqrt2 = 9\\sqrt2\\).",
-    "timeTargetSec": 45
+    "timeTargetSec": 45,
+    "figure": {
+      "viewBox": "0 0 200 150",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 30
+            },
+            {
+              "x": 140,
+              "y": 30
+            },
+            {
+              "x": 140,
+              "y": 130
+            },
+            {
+              "x": 20,
+              "y": 130
+            }
+          ]
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 20,
+            "y": 130
+          },
+          "to": {
+            "x": 140,
+            "y": 30
+          }
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 20,
+            "y": 130
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 75,
+            "y": 20
+          },
+          "text": "9"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 95,
+            "y": 68
+          },
+          "text": "?"
+        }
+      ]
+    }
   },
   {
     "id": "special-right-triangles-015",
@@ -472,7 +1068,64 @@
     "quantityB": "{{s*0.85}}",
     "answer": "A",
     "solutionStandard": "The altitude of an equilateral triangle with side \\(s\\) is \\(\\dfrac{s\\sqrt3}{2} \\approx 0.866s\\), which is always greater than \\(0.85s\\) (Quantity B), since \\(\\sqrt3/2>0.85\\).",
-    "timeTargetSec": 75
+    "timeTargetSec": 75,
+    "figure": {
+      "viewBox": "0 0 200 150",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 80,
+              "y": 20
+            },
+            {
+              "x": 20,
+              "y": 130
+            },
+            {
+              "x": 140,
+              "y": 130
+            }
+          ]
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 80,
+            "y": 20
+          },
+          "to": {
+            "x": 80,
+            "y": 130
+          },
+          "dashed": true
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 80,
+            "y": 130
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 40,
+            "y": 70
+          },
+          "text": "{{s}}"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 88,
+            "y": 75
+          },
+          "text": "?"
+        }
+      ]
+    }
   },
   {
     "id": "special-right-triangles-016",
@@ -505,7 +1158,64 @@
     ],
     "answer": "B",
     "solutionStandard": "Altitude \\(=\\dfrac{6\\sqrt3}{2}=3\\sqrt3\\). Area \\(=\\dfrac{1}{2}(6)(3\\sqrt3)=9\\sqrt3\\).",
-    "timeTargetSec": 75
+    "timeTargetSec": 75,
+    "figure": {
+      "viewBox": "0 0 200 150",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 80,
+              "y": 20
+            },
+            {
+              "x": 20,
+              "y": 130
+            },
+            {
+              "x": 140,
+              "y": 130
+            }
+          ]
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 80,
+            "y": 20
+          },
+          "to": {
+            "x": 80,
+            "y": 130
+          },
+          "dashed": true
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 80,
+            "y": 130
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 40,
+            "y": 70
+          },
+          "text": "6"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 88,
+            "y": 75
+          },
+          "text": "?"
+        }
+      ]
+    }
   },
   {
     "id": "special-right-triangles-017",
@@ -525,7 +1235,60 @@
     "answer": 13,
     "answerFormula": "a",
     "solutionStandard": "Leg \\(= \\text{hypotenuse}/\\sqrt2 = {{a}}\\sqrt2/\\sqrt2={{a}}\\).",
-    "timeTargetSec": 50
+    "timeTargetSec": 50,
+    "figure": {
+      "viewBox": "0 0 200 150",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 130
+            },
+            {
+              "x": 140,
+              "y": 130
+            },
+            {
+              "x": 20,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 20,
+            "y": 130
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 8,
+            "y": 82
+          },
+          "text": "?"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 75,
+            "y": 148
+          },
+          "text": "?"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 85,
+            "y": 72
+          },
+          "text": "{{a}}√2"
+        }
+      ]
+    }
   },
   {
     "id": "special-right-triangles-018",
@@ -558,7 +1321,60 @@
     ],
     "answer": "B",
     "solutionStandard": "The ladder is the hypotenuse of a 30-60-90 triangle. The height is opposite the 30° angle (at the ground), which is always the short leg: \\(16/2=8\\).",
-    "timeTargetSec": 90
+    "timeTargetSec": 90,
+    "figure": {
+      "viewBox": "0 0 200 150",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 130
+            },
+            {
+              "x": 150,
+              "y": 130
+            },
+            {
+              "x": 20,
+              "y": 50
+            }
+          ]
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 20,
+            "y": 130
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 8,
+            "y": 92
+          },
+          "text": "?"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 90,
+            "y": 82
+          },
+          "text": "16"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 128,
+            "y": 122
+          },
+          "text": "30°"
+        }
+      ]
+    }
   },
   {
     "id": "special-right-triangles-019",
@@ -578,7 +1394,60 @@
     "answer": 8,
     "answerFormula": "(a * a) / 2",
     "solutionStandard": "Short leg \\(={{a}}\\), long leg \\(={{a}}\\sqrt3\\). Area \\(=\\dfrac{1}{2}({{a}})({{a}}\\sqrt3) = \\dfrac{ {{a*a}} }{2}\\sqrt3\\), so \\(k={{(a*a)/2}}\\).",
-    "timeTargetSec": 95
+    "timeTargetSec": 95,
+    "figure": {
+      "viewBox": "0 0 200 150",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 130
+            },
+            {
+              "x": 150,
+              "y": 130
+            },
+            {
+              "x": 20,
+              "y": 50
+            }
+          ]
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 20,
+            "y": 130
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 8,
+            "y": 92
+          },
+          "text": "{{a}}"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 80,
+            "y": 148
+          },
+          "text": "{{a}}√3"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 90,
+            "y": 82
+          },
+          "text": "{{2*a}}"
+        }
+      ]
+    }
   },
   {
     "id": "special-right-triangles-020",
@@ -591,6 +1460,114 @@
     "quantityB": "\\(40\\)",
     "answer": "A",
     "solutionStandard": "Each equilateral triangle has area \\(\\dfrac{\\sqrt3}{4}(4^2)=4\\sqrt3\\approx6.93\\). The hexagon's area is \\(6\\times4\\sqrt3=24\\sqrt3\\approx41.6\\). Since \\(41.6>40\\), Quantity A is greater.",
-    "timeTargetSec": 100
+    "timeTargetSec": 100,
+    "figure": {
+      "viewBox": "0 0 200 160",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 100,
+              "y": 20
+            },
+            {
+              "x": 152,
+              "y": 50
+            },
+            {
+              "x": 152,
+              "y": 110
+            },
+            {
+              "x": 100,
+              "y": 140
+            },
+            {
+              "x": 48,
+              "y": 110
+            },
+            {
+              "x": 48,
+              "y": 50
+            }
+          ]
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 100,
+            "y": 80
+          },
+          "to": {
+            "x": 100,
+            "y": 20
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 100,
+            "y": 80
+          },
+          "to": {
+            "x": 152,
+            "y": 50
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 100,
+            "y": 80
+          },
+          "to": {
+            "x": 152,
+            "y": 110
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 100,
+            "y": 80
+          },
+          "to": {
+            "x": 100,
+            "y": 140
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 100,
+            "y": 80
+          },
+          "to": {
+            "x": 48,
+            "y": 110
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 100,
+            "y": 80
+          },
+          "to": {
+            "x": 48,
+            "y": 50
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 134,
+            "y": 35
+          },
+          "text": "4"
+        }
+      ]
+    }
   }
 ]
