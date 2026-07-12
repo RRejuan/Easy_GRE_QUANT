@@ -19,7 +19,50 @@
     "answer": 60,
     "answerFormula": "180-a",
     "solutionStandard": "Supplementary angles sum to 180°: \\(180-{{a}}={{180-a}}\\).",
-    "timeTargetSec": 45
+    "timeTargetSec": 45,
+    "figure": {
+      "viewBox": "0 0 200 100",
+      "elements": [
+        {
+          "kind": "line",
+          "from": {
+            "x": 20,
+            "y": 80
+          },
+          "to": {
+            "x": 180,
+            "y": 80
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 100,
+            "y": 80
+          },
+          "to": {
+            "x": 140,
+            "y": 20
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 70,
+            "y": 65
+          },
+          "text": "{{a}}°"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 128,
+            "y": 55
+          },
+          "text": "?"
+        }
+      ]
+    }
   },
   {
     "id": "geometry-mixed-practice-002",
@@ -54,7 +97,61 @@
     ],
     "answer": "B",
     "solutionStandard": "Corresponding angles formed by a transversal across parallel lines are always equal: 65°.",
-    "timeTargetSec": 40
+    "timeTargetSec": 40,
+    "figure": {
+      "viewBox": "0 0 200 160",
+      "elements": [
+        {
+          "kind": "line",
+          "from": {
+            "x": 20,
+            "y": 40
+          },
+          "to": {
+            "x": 180,
+            "y": 40
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 20,
+            "y": 120
+          },
+          "to": {
+            "x": 180,
+            "y": 120
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 40,
+            "y": 10
+          },
+          "to": {
+            "x": 160,
+            "y": 150
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 78,
+            "y": 30
+          },
+          "text": "65°"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 146,
+            "y": 108
+          },
+          "text": "?"
+        }
+      ]
+    }
   },
   {
     "id": "geometry-mixed-practice-003",
@@ -82,7 +179,53 @@
     "answer": 70,
     "answerFormula": "180-a-b",
     "solutionStandard": "The angles of a triangle sum to 180°: \\(180-{{a}}-{{b}}={{180-a-b}}\\).",
-    "timeTargetSec": 55
+    "timeTargetSec": 55,
+    "figure": {
+      "viewBox": "0 0 200 160",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 140
+            },
+            {
+              "x": 180,
+              "y": 140
+            },
+            {
+              "x": 100,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 32,
+            "y": 130
+          },
+          "text": "{{a}}°"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 155,
+            "y": 130
+          },
+          "text": "{{b}}°"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 95,
+            "y": 45
+          },
+          "text": "x"
+        }
+      ]
+    }
   },
   {
     "id": "geometry-mixed-practice-004",
@@ -97,7 +240,53 @@
     "quantityB": "4",
     "answer": "A",
     "solutionStandard": "By the triangle inequality, the third side must be strictly greater than \\(9-5=4\\) (and strictly less than \\(9+5=14\\)). Quantity A is always greater.",
-    "timeTargetSec": 70
+    "timeTargetSec": 70,
+    "figure": {
+      "viewBox": "0 0 200 160",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 140
+            },
+            {
+              "x": 180,
+              "y": 140
+            },
+            {
+              "x": 100,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 40,
+            "y": 90
+          },
+          "text": "5"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 95,
+            "y": 155
+          },
+          "text": "x"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 145,
+            "y": 90
+          },
+          "text": "9"
+        }
+      ]
+    }
   },
   {
     "id": "geometry-mixed-practice-005",
@@ -132,7 +321,64 @@
     ],
     "answer": "C",
     "solutionStandard": "The exterior angle equals the sum of the two remote interior angles: \\(130=55+x\\), so \\(x=75°\\).",
-    "timeTargetSec": 65
+    "timeTargetSec": 65,
+    "figure": {
+      "viewBox": "0 0 240 160",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 140
+            },
+            {
+              "x": 180,
+              "y": 140
+            },
+            {
+              "x": 100,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 180,
+            "y": 140
+          },
+          "to": {
+            "x": 230,
+            "y": 140
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 32,
+            "y": 130
+          },
+          "text": "55°"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 95,
+            "y": 45
+          },
+          "text": "?"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 190,
+            "y": 125
+          },
+          "text": "130°"
+        }
+      ]
+    }
   },
   {
     "id": "geometry-mixed-practice-006",
@@ -160,7 +406,53 @@
     "answer": 14,
     "answerFormula": "s1+s2-1",
     "solutionStandard": "The third side must be strictly less than \\({{s1}}+{{s2}}={{s1+s2}}\\), so the greatest possible integer value is \\({{s1+s2-1}}\\).",
-    "timeTargetSec": 80
+    "timeTargetSec": 80,
+    "figure": {
+      "viewBox": "0 0 200 160",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 140
+            },
+            {
+              "x": 180,
+              "y": 140
+            },
+            {
+              "x": 100,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 40,
+            "y": 90
+          },
+          "text": "{{s1}}"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 95,
+            "y": 155
+          },
+          "text": "x"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 145,
+            "y": 90
+          },
+          "text": "{{s2}}"
+        }
+      ]
+    }
   },
   {
     "id": "geometry-mixed-practice-007",
@@ -195,7 +487,53 @@
     ],
     "answer": "C",
     "solutionStandard": "The two base angles are equal: \\((180-40)/2=70°\\) each.",
-    "timeTargetSec": 60
+    "timeTargetSec": 60,
+    "figure": {
+      "viewBox": "0 0 200 160",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 140
+            },
+            {
+              "x": 180,
+              "y": 140
+            },
+            {
+              "x": 100,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 32,
+            "y": 130
+          },
+          "text": "?"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 155,
+            "y": 130
+          },
+          "text": "?"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 95,
+            "y": 45
+          },
+          "text": "40°"
+        }
+      ]
+    }
   },
   {
     "id": "geometry-mixed-practice-008",
@@ -210,7 +548,61 @@
     "quantityB": "\\(y\\)",
     "answer": "C",
     "solutionStandard": "Alternate interior angles formed by a transversal across parallel lines are always equal. The quantities are equal.",
-    "timeTargetSec": 75
+    "timeTargetSec": 75,
+    "figure": {
+      "viewBox": "0 0 200 160",
+      "elements": [
+        {
+          "kind": "line",
+          "from": {
+            "x": 20,
+            "y": 40
+          },
+          "to": {
+            "x": 180,
+            "y": 40
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 20,
+            "y": 120
+          },
+          "to": {
+            "x": 180,
+            "y": 120
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 40,
+            "y": 10
+          },
+          "to": {
+            "x": 160,
+            "y": 150
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 78,
+            "y": 30
+          },
+          "text": "x"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 146,
+            "y": 108
+          },
+          "text": "y"
+        }
+      ]
+    }
   },
   {
     "id": "geometry-mixed-practice-009",
@@ -280,7 +672,60 @@
     "answer": 25,
     "answerFormula": "5*k",
     "solutionStandard": "This is a 3-4-5 triple scaled by {{k}}: hypotenuse \\(={{5*k}}\\).",
-    "timeTargetSec": 55
+    "timeTargetSec": 55,
+    "figure": {
+      "viewBox": "0 0 200 150",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 130
+            },
+            {
+              "x": 140,
+              "y": 130
+            },
+            {
+              "x": 20,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 20,
+            "y": 130
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 8,
+            "y": 82
+          },
+          "text": "{{3*k}}"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 75,
+            "y": 148
+          },
+          "text": "{{4*k}}"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 85,
+            "y": 72
+          },
+          "text": "?"
+        }
+      ]
+    }
   },
   {
     "id": "geometry-mixed-practice-012",
@@ -315,7 +760,60 @@
     ],
     "answer": "C",
     "solutionStandard": "This is a 5-12-13 right triangle: \\(\\sqrt{13^2-5^2}=\\sqrt{169-25}=\\sqrt{144}=12\\) feet.",
-    "timeTargetSec": 70
+    "timeTargetSec": 70,
+    "figure": {
+      "viewBox": "0 0 200 150",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 130
+            },
+            {
+              "x": 140,
+              "y": 130
+            },
+            {
+              "x": 20,
+              "y": 50
+            }
+          ]
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 20,
+            "y": 130
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 75,
+            "y": 148
+          },
+          "text": "5"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 6,
+            "y": 95
+          },
+          "text": "?"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 82,
+            "y": 82
+          },
+          "text": "13"
+        }
+      ]
+    }
   },
   {
     "id": "geometry-mixed-practice-013",
@@ -337,7 +835,60 @@
     "answer": 15,
     "answerFormula": "15*k",
     "solutionStandard": "This is an 8-15-17 triple scaled by {{k}}: other leg \\(={{15*k}}\\).",
-    "timeTargetSec": 65
+    "timeTargetSec": 65,
+    "figure": {
+      "viewBox": "0 0 200 150",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 130
+            },
+            {
+              "x": 140,
+              "y": 130
+            },
+            {
+              "x": 20,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 20,
+            "y": 130
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 8,
+            "y": 82
+          },
+          "text": "{{8*k}}"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 75,
+            "y": 148
+          },
+          "text": "?"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 85,
+            "y": 72
+          },
+          "text": "{{17*k}}"
+        }
+      ]
+    }
   },
   {
     "id": "geometry-mixed-practice-014",
@@ -353,7 +904,53 @@
     "quantityB": "\\(90°\\)",
     "answer": "A",
     "solutionStandard": "Since \\(6^2+8^2=100 < 11^2=121\\), the triangle is obtuse at the angle opposite the longest side, so that angle exceeds 90°. Quantity A is greater.",
-    "timeTargetSec": 90
+    "timeTargetSec": 90,
+    "figure": {
+      "viewBox": "0 0 200 160",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 140
+            },
+            {
+              "x": 180,
+              "y": 140
+            },
+            {
+              "x": 100,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 40,
+            "y": 90
+          },
+          "text": "6"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 95,
+            "y": 155
+          },
+          "text": "11"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 145,
+            "y": 90
+          },
+          "text": "8"
+        }
+      ]
+    }
   },
   {
     "id": "geometry-mixed-practice-015",
@@ -388,7 +985,52 @@
     ],
     "answer": "C",
     "solutionStandard": "In a 30-60-90 triangle, the sides are in ratio \\(1:\\sqrt{3}:2\\) (opposite the 30°, 60°, and 90° angles). The side opposite 60° is \\(7\\sqrt{3}\\).",
-    "timeTargetSec": 80
+    "timeTargetSec": 80,
+    "figure": {
+      "viewBox": "0 0 200 150",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 130
+            },
+            {
+              "x": 150,
+              "y": 130
+            },
+            {
+              "x": 20,
+              "y": 50
+            }
+          ]
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 20,
+            "y": 130
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 8,
+            "y": 92
+          },
+          "text": "7"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 80,
+            "y": 148
+          },
+          "text": "?"
+        }
+      ]
+    }
   },
   {
     "id": "geometry-mixed-practice-016",
@@ -410,7 +1052,60 @@
     "answer": 8,
     "answerFormula": "2*k*k",
     "solutionStandard": "The hypotenuse is \\(k\\sqrt{2}\\), so its square is \\(2k^2 = {{2*k*k}}\\).",
-    "timeTargetSec": 75
+    "timeTargetSec": 75,
+    "figure": {
+      "viewBox": "0 0 200 150",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 130
+            },
+            {
+              "x": 140,
+              "y": 130
+            },
+            {
+              "x": 20,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 20,
+            "y": 130
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 8,
+            "y": 82
+          },
+          "text": "{{k}}"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 75,
+            "y": 148
+          },
+          "text": "{{k}}"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 85,
+            "y": 72
+          },
+          "text": "?"
+        }
+      ]
+    }
   },
   {
     "id": "geometry-mixed-practice-017",
@@ -445,7 +1140,52 @@
     ],
     "answer": "B",
     "solutionStandard": "Area \\(=\\dfrac{1}{2}(7)(24)=84\\).",
-    "timeTargetSec": 60
+    "timeTargetSec": 60,
+    "figure": {
+      "viewBox": "0 0 200 150",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 130
+            },
+            {
+              "x": 140,
+              "y": 130
+            },
+            {
+              "x": 20,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 20,
+            "y": 130
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 8,
+            "y": 82
+          },
+          "text": "7"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 75,
+            "y": 148
+          },
+          "text": "24"
+        }
+      ]
+    }
   },
   {
     "id": "geometry-mixed-practice-018",
@@ -467,7 +1207,52 @@
     "answer": 24,
     "answerFormula": "6*k*k",
     "solutionStandard": "Area \\(=\\dfrac{1}{2}({{3*k}})({{4*k}}) = 6k^2 = {{6*k*k}}\\).",
-    "timeTargetSec": 90
+    "timeTargetSec": 90,
+    "figure": {
+      "viewBox": "0 0 200 150",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 130
+            },
+            {
+              "x": 140,
+              "y": 130
+            },
+            {
+              "x": 20,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 20,
+            "y": 130
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 8,
+            "y": 82
+          },
+          "text": "{{3*k}}"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 75,
+            "y": 148
+          },
+          "text": "{{4*k}}"
+        }
+      ]
+    }
   },
   {
     "id": "geometry-mixed-practice-019",
@@ -482,7 +1267,60 @@
     "quantityB": "14",
     "answer": "A",
     "solutionStandard": "This is a 3-4-5 triple scaled by 3: \\(\\sqrt{9^2+12^2}=\\sqrt{81+144}=\\sqrt{225}=15\\), which is greater than 14.",
-    "timeTargetSec": 75
+    "timeTargetSec": 75,
+    "figure": {
+      "viewBox": "0 0 200 150",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 130
+            },
+            {
+              "x": 140,
+              "y": 130
+            },
+            {
+              "x": 20,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 20,
+            "y": 130
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 8,
+            "y": 82
+          },
+          "text": "9"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 75,
+            "y": 148
+          },
+          "text": "12"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 85,
+            "y": 72
+          },
+          "text": "?"
+        }
+      ]
+    }
   },
   {
     "id": "geometry-mixed-practice-020",
@@ -517,7 +1355,75 @@
     ],
     "answer": "C",
     "solutionStandard": "This is a 3-4-5 triple scaled by 10: diagonal \\(=\\sqrt{30^2+40^2}=\\sqrt{900+1600}=\\sqrt{2500}=50\\).",
-    "timeTargetSec": 65
+    "timeTargetSec": 65,
+    "figure": {
+      "viewBox": "0 0 200 150",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 30
+            },
+            {
+              "x": 140,
+              "y": 30
+            },
+            {
+              "x": 140,
+              "y": 130
+            },
+            {
+              "x": 20,
+              "y": 130
+            }
+          ]
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 20,
+            "y": 130
+          },
+          "to": {
+            "x": 140,
+            "y": 30
+          }
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 20,
+            "y": 130
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 8,
+            "y": 82
+          },
+          "text": "30"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 75,
+            "y": 148
+          },
+          "text": "40"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 95,
+            "y": 68
+          },
+          "text": "?"
+        }
+      ]
+    }
   },
   {
     "id": "geometry-mixed-practice-021",
@@ -651,7 +1557,49 @@
     "answer": 40,
     "answerFormula": "2*(l+w)",
     "solutionStandard": "Perimeter \\(= 2({{l}}+{{w}}) = {{2*(l+w)}}\\).",
-    "timeTargetSec": 45
+    "timeTargetSec": 45,
+    "figure": {
+      "viewBox": "0 0 200 140",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 30,
+              "y": 30
+            },
+            {
+              "x": 170,
+              "y": 30
+            },
+            {
+              "x": 170,
+              "y": 110
+            },
+            {
+              "x": 30,
+              "y": 110
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 92,
+            "y": 22
+          },
+          "text": "{{l}}"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 180,
+            "y": 74
+          },
+          "text": "{{w}}"
+        }
+      ]
+    }
   },
   {
     "id": "geometry-mixed-practice-026",
@@ -686,7 +1634,68 @@
     ],
     "answer": "D",
     "solutionStandard": "Area \\(=\\) base \\(\\times\\) height \\(=12 \\times 7=84\\).",
-    "timeTargetSec": 55
+    "timeTargetSec": 55,
+    "figure": {
+      "viewBox": "0 0 200 140",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 50,
+              "y": 30
+            },
+            {
+              "x": 170,
+              "y": 30
+            },
+            {
+              "x": 150,
+              "y": 110
+            },
+            {
+              "x": 30,
+              "y": 110
+            }
+          ]
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 50,
+            "y": 30
+          },
+          "to": {
+            "x": 50,
+            "y": 110
+          },
+          "dashed": true
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 50,
+            "y": 110
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 90,
+            "y": 125
+          },
+          "text": "12"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 32,
+            "y": 72
+          },
+          "text": "7"
+        }
+      ]
+    }
   },
   {
     "id": "geometry-mixed-practice-027",
@@ -758,7 +1767,76 @@
     ],
     "answer": "C",
     "solutionStandard": "Area \\(=\\dfrac{8+14}{2}\\times5=11\\times5=55\\).",
-    "timeTargetSec": 70
+    "timeTargetSec": 70,
+    "figure": {
+      "viewBox": "0 0 200 140",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 60,
+              "y": 30
+            },
+            {
+              "x": 140,
+              "y": 30
+            },
+            {
+              "x": 180,
+              "y": 110
+            },
+            {
+              "x": 20,
+              "y": 110
+            }
+          ]
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 60,
+            "y": 30
+          },
+          "to": {
+            "x": 60,
+            "y": 110
+          },
+          "dashed": true
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 60,
+            "y": 110
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 100,
+            "y": 22
+          },
+          "text": "8"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 100,
+            "y": 125
+          },
+          "text": "14"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 42,
+            "y": 72
+          },
+          "text": "5"
+        }
+      ]
+    }
   },
   {
     "id": "geometry-mixed-practice-030",
@@ -786,7 +1864,73 @@
     "answer": 48,
     "answerFormula": "d1*d2/2",
     "solutionStandard": "Area of a rhombus \\(=\\dfrac{d_1 d_2}{2} = \\dfrac{ {{d1}} \\times {{d2}} }{2} = {{d1*d2/2}}\\).",
-    "timeTargetSec": 65
+    "timeTargetSec": 65,
+    "figure": {
+      "viewBox": "0 0 200 160",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 100,
+              "y": 20
+            },
+            {
+              "x": 170,
+              "y": 80
+            },
+            {
+              "x": 100,
+              "y": 140
+            },
+            {
+              "x": 30,
+              "y": 80
+            }
+          ]
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 100,
+            "y": 20
+          },
+          "to": {
+            "x": 100,
+            "y": 140
+          },
+          "dashed": true
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 30,
+            "y": 80
+          },
+          "to": {
+            "x": 170,
+            "y": 80
+          },
+          "dashed": true
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 106,
+            "y": 55
+          },
+          "text": "{{d1}}"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 90,
+            "y": 95
+          },
+          "text": "{{d2}}"
+        }
+      ]
+    }
   },
   {
     "id": "geometry-mixed-practice-031",
@@ -808,7 +1952,39 @@
     "answer": 20,
     "answerFormula": "2*r",
     "solutionStandard": "Circumference \\(=2\\pi r = {{2*r}}\\pi\\).",
-    "timeTargetSec": 50
+    "timeTargetSec": 50,
+    "figure": {
+      "viewBox": "0 0 200 160",
+      "elements": [
+        {
+          "kind": "circle",
+          "center": {
+            "x": 100,
+            "y": 80
+          },
+          "radius": 50
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 100,
+            "y": 80
+          },
+          "to": {
+            "x": 150,
+            "y": 80
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 118,
+            "y": 72
+          },
+          "text": "{{r}}"
+        }
+      ]
+    }
   },
   {
     "id": "geometry-mixed-practice-032",
@@ -843,7 +2019,39 @@
     ],
     "answer": "C",
     "solutionStandard": "Radius \\(=5\\). Area \\(=\\pi r^2 = 25\\pi\\).",
-    "timeTargetSec": 55
+    "timeTargetSec": 55,
+    "figure": {
+      "viewBox": "0 0 200 160",
+      "elements": [
+        {
+          "kind": "circle",
+          "center": {
+            "x": 100,
+            "y": 80
+          },
+          "radius": 50
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 50,
+            "y": 80
+          },
+          "to": {
+            "x": 150,
+            "y": 80
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 90,
+            "y": 72
+          },
+          "text": "10"
+        }
+      ]
+    }
   },
   {
     "id": "geometry-mixed-practice-033",
@@ -871,7 +2079,46 @@
     "answer": 6,
     "answerFormula": "angleDeg*r/180",
     "solutionStandard": "Arc length \\(= \\dfrac{ {{angleDeg}} }{360} \\times 2\\pi({{r}}) = {{angleDeg*r/180}}\\pi\\).",
-    "timeTargetSec": 90
+    "timeTargetSec": 90,
+    "figure": {
+      "viewBox": "0 0 200 170",
+      "elements": [
+        {
+          "kind": "circle",
+          "center": {
+            "x": 100,
+            "y": 90
+          },
+          "radius": 70
+        },
+        {
+          "kind": "arc",
+          "center": {
+            "x": 100,
+            "y": 90
+          },
+          "radius": 70,
+          "startAngle": -90,
+          "endAngle": 0
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 88,
+            "y": 52
+          },
+          "text": "{{r}}"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 120,
+            "y": 70
+          },
+          "text": "{{angleDeg}}°"
+        }
+      ]
+    }
   },
   {
     "id": "geometry-mixed-practice-034",
@@ -914,7 +2161,46 @@
     "answer": 36,
     "answerFormula": "(angleDeg/360)*r*r",
     "solutionStandard": "Sector area \\(= \\dfrac{ {{angleDeg}} }{360} \\times \\pi({{r}})^2 = {{(angleDeg/360)*r*r}}\\pi\\).",
-    "timeTargetSec": 95
+    "timeTargetSec": 95,
+    "figure": {
+      "viewBox": "0 0 200 170",
+      "elements": [
+        {
+          "kind": "circle",
+          "center": {
+            "x": 100,
+            "y": 90
+          },
+          "radius": 70
+        },
+        {
+          "kind": "arc",
+          "center": {
+            "x": 100,
+            "y": 90
+          },
+          "radius": 70,
+          "startAngle": -90,
+          "endAngle": 0
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 88,
+            "y": 52
+          },
+          "text": "{{r}}"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 120,
+            "y": 70
+          },
+          "text": "{{angleDeg}}°"
+        }
+      ]
+    }
   },
   {
     "id": "geometry-mixed-practice-036",
@@ -972,7 +2258,67 @@
     "answer": 25,
     "answerFormula": "5*k",
     "solutionStandard": "The radius, half the chord, and the distance from center form a right triangle: half-chord \\(={{4*k}}\\), distance \\(={{3*k}}\\), so radius \\(=\\sqrt{({{4*k}})^2+({{3*k}})^2}={{5*k}}\\) (a 3-4-5 triple scaled by {{k}}).",
-    "timeTargetSec": 105
+    "timeTargetSec": 105,
+    "figure": {
+      "viewBox": "0 0 200 160",
+      "elements": [
+        {
+          "kind": "circle",
+          "center": {
+            "x": 100,
+            "y": 85
+          },
+          "radius": 65
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 45,
+            "y": 55
+          },
+          "to": {
+            "x": 155,
+            "y": 55
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 100,
+            "y": 55
+          },
+          "to": {
+            "x": 100,
+            "y": 85
+          },
+          "dashed": true
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 100,
+            "y": 55
+          },
+          "rotation": 180
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 90,
+            "y": 45
+          },
+          "text": "{{8*k}}"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 106,
+            "y": 72
+          },
+          "text": "{{3*k}}"
+        }
+      ]
+    }
   },
   {
     "id": "geometry-mixed-practice-038",
@@ -1022,7 +2368,86 @@
     ],
     "answer": "C",
     "solutionStandard": "A tangent line is always perpendicular to the radius at the point of tangency, so angle OPT is 90°.",
-    "timeTargetSec": 60
+    "timeTargetSec": 60,
+    "figure": {
+      "viewBox": "0 0 200 160",
+      "elements": [
+        {
+          "kind": "circle",
+          "center": {
+            "x": 100,
+            "y": 85
+          },
+          "radius": 55
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 100,
+            "y": 85
+          },
+          "to": {
+            "x": 155,
+            "y": 85
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 100,
+            "y": 30
+          },
+          "to": {
+            "x": 190,
+            "y": 30
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 100,
+            "y": 85
+          },
+          "to": {
+            "x": 100,
+            "y": 30
+          },
+          "dashed": true
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 100,
+            "y": 30
+          },
+          "rotation": 90
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 105,
+            "y": 78
+          },
+          "text": "O"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 88,
+            "y": 22
+          },
+          "text": "P"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 175,
+            "y": 22
+          },
+          "text": "T"
+        }
+      ]
+    }
   },
   {
     "id": "geometry-mixed-practice-040",
@@ -1045,7 +2470,53 @@
     "answer": 10,
     "answerFormula": "2*r",
     "solutionStandard": "By Thales' theorem, any triangle inscribed in a circle with one side as a diameter is a right triangle, and that side (the diameter) is \\(2 \\times {{r}} = {{2*r}}\\).",
-    "timeTargetSec": 75
+    "timeTargetSec": 75,
+    "figure": {
+      "viewBox": "0 0 200 160",
+      "elements": [
+        {
+          "kind": "circle",
+          "center": {
+            "x": 100,
+            "y": 85
+          },
+          "radius": 65
+        },
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 35,
+              "y": 85
+            },
+            {
+              "x": 165,
+              "y": 85
+            },
+            {
+              "x": 130,
+              "y": 25
+            }
+          ]
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 130,
+            "y": 25
+          },
+          "rotation": 245
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 90,
+            "y": 100
+          },
+          "text": "{{2*r}}"
+        }
+      ]
+    }
   },
   {
     "id": "geometry-mixed-practice-041",
@@ -1079,7 +2550,99 @@
     "answer": 60,
     "answerFormula": "l*w*h",
     "solutionStandard": "Volume \\(= {{l}} \\times {{w}} \\times {{h}} = {{l*w*h}}\\).",
-    "timeTargetSec": 55
+    "timeTargetSec": 55,
+    "figure": {
+      "viewBox": "0 0 200 170",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 40,
+              "y": 140
+            },
+            {
+              "x": 130,
+              "y": 140
+            },
+            {
+              "x": 130,
+              "y": 70
+            },
+            {
+              "x": 40,
+              "y": 70
+            }
+          ]
+        },
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 40,
+              "y": 70
+            },
+            {
+              "x": 130,
+              "y": 70
+            },
+            {
+              "x": 160,
+              "y": 40
+            },
+            {
+              "x": 70,
+              "y": 40
+            }
+          ]
+        },
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 130,
+              "y": 140
+            },
+            {
+              "x": 130,
+              "y": 70
+            },
+            {
+              "x": 160,
+              "y": 40
+            },
+            {
+              "x": 160,
+              "y": 110
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 82,
+            "y": 156
+          },
+          "text": "{{l}}"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 22,
+            "y": 108
+          },
+          "text": "{{h}}"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 148,
+            "y": 128
+          },
+          "text": "{{w}}"
+        }
+      ]
+    }
   },
   {
     "id": "geometry-mixed-practice-042",
@@ -1114,7 +2677,263 @@
     ],
     "answer": "D",
     "solutionStandard": "Volume \\(=\\pi r^2 h = \\pi(4)^2(9) = 144\\pi\\).",
-    "timeTargetSec": 65
+    "timeTargetSec": 65,
+    "figure": {
+      "viewBox": "0 0 200 170",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 160,
+              "y": 45
+            },
+            {
+              "x": 158,
+              "y": 50
+            },
+            {
+              "x": 152,
+              "y": 54
+            },
+            {
+              "x": 142,
+              "y": 58
+            },
+            {
+              "x": 130,
+              "y": 61
+            },
+            {
+              "x": 116,
+              "y": 62
+            },
+            {
+              "x": 100,
+              "y": 63
+            },
+            {
+              "x": 84,
+              "y": 62
+            },
+            {
+              "x": 70,
+              "y": 61
+            },
+            {
+              "x": 58,
+              "y": 58
+            },
+            {
+              "x": 48,
+              "y": 54
+            },
+            {
+              "x": 42,
+              "y": 50
+            },
+            {
+              "x": 40,
+              "y": 45
+            },
+            {
+              "x": 42,
+              "y": 40
+            },
+            {
+              "x": 48,
+              "y": 36
+            },
+            {
+              "x": 58,
+              "y": 32
+            },
+            {
+              "x": 70,
+              "y": 29
+            },
+            {
+              "x": 84,
+              "y": 28
+            },
+            {
+              "x": 100,
+              "y": 27
+            },
+            {
+              "x": 116,
+              "y": 28
+            },
+            {
+              "x": 130,
+              "y": 29
+            },
+            {
+              "x": 142,
+              "y": 32
+            },
+            {
+              "x": 152,
+              "y": 36
+            },
+            {
+              "x": 158,
+              "y": 40
+            }
+          ]
+        },
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 160,
+              "y": 140
+            },
+            {
+              "x": 158,
+              "y": 145
+            },
+            {
+              "x": 152,
+              "y": 149
+            },
+            {
+              "x": 142,
+              "y": 153
+            },
+            {
+              "x": 130,
+              "y": 156
+            },
+            {
+              "x": 116,
+              "y": 157
+            },
+            {
+              "x": 100,
+              "y": 158
+            },
+            {
+              "x": 84,
+              "y": 157
+            },
+            {
+              "x": 70,
+              "y": 156
+            },
+            {
+              "x": 58,
+              "y": 153
+            },
+            {
+              "x": 48,
+              "y": 149
+            },
+            {
+              "x": 42,
+              "y": 145
+            },
+            {
+              "x": 40,
+              "y": 140
+            },
+            {
+              "x": 42,
+              "y": 135
+            },
+            {
+              "x": 48,
+              "y": 131
+            },
+            {
+              "x": 58,
+              "y": 127
+            },
+            {
+              "x": 70,
+              "y": 124
+            },
+            {
+              "x": 84,
+              "y": 123
+            },
+            {
+              "x": 100,
+              "y": 122
+            },
+            {
+              "x": 116,
+              "y": 123
+            },
+            {
+              "x": 130,
+              "y": 124
+            },
+            {
+              "x": 142,
+              "y": 127
+            },
+            {
+              "x": 152,
+              "y": 131
+            },
+            {
+              "x": 158,
+              "y": 135
+            }
+          ]
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 40,
+            "y": 45
+          },
+          "to": {
+            "x": 40,
+            "y": 140
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 160,
+            "y": 45
+          },
+          "to": {
+            "x": 160,
+            "y": 140
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 100,
+            "y": 45
+          },
+          "to": {
+            "x": 160,
+            "y": 45
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 122,
+            "y": 38
+          },
+          "text": "4"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 22,
+            "y": 95
+          },
+          "text": "9"
+        }
+      ]
+    }
   },
   {
     "id": "geometry-mixed-practice-043",
@@ -1148,7 +2967,99 @@
     "answer": 100,
     "answerFormula": "2*(l*w+l*h+w*h)",
     "solutionStandard": "Surface area \\(=2(lw+lh+wh)=2({{l*w}}+{{l*h}}+{{w*h}})={{2*(l*w+l*h+w*h)}}\\).",
-    "timeTargetSec": 90
+    "timeTargetSec": 90,
+    "figure": {
+      "viewBox": "0 0 200 170",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 40,
+              "y": 140
+            },
+            {
+              "x": 130,
+              "y": 140
+            },
+            {
+              "x": 130,
+              "y": 70
+            },
+            {
+              "x": 40,
+              "y": 70
+            }
+          ]
+        },
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 40,
+              "y": 70
+            },
+            {
+              "x": 130,
+              "y": 70
+            },
+            {
+              "x": 160,
+              "y": 40
+            },
+            {
+              "x": 70,
+              "y": 40
+            }
+          ]
+        },
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 130,
+              "y": 140
+            },
+            {
+              "x": 130,
+              "y": 70
+            },
+            {
+              "x": 160,
+              "y": 40
+            },
+            {
+              "x": 160,
+              "y": 110
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 82,
+            "y": 156
+          },
+          "text": "{{l}}"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 22,
+            "y": 108
+          },
+          "text": "{{h}}"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 148,
+            "y": 128
+          },
+          "text": "{{w}}"
+        }
+      ]
+    }
   },
   {
     "id": "geometry-mixed-practice-044",
@@ -1186,7 +3097,99 @@
     "answer": 39,
     "answerFormula": "13*k",
     "solutionStandard": "Space diagonal \\(=\\sqrt{({{3*k}})^2+({{4*k}})^2+({{12*k}})^2}\\), which simplifies to \\(13k = {{13*k}}\\) (since \\(3^2+4^2+12^2=13^2\\)).",
-    "timeTargetSec": 100
+    "timeTargetSec": 100,
+    "figure": {
+      "viewBox": "0 0 200 170",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 40,
+              "y": 140
+            },
+            {
+              "x": 130,
+              "y": 140
+            },
+            {
+              "x": 130,
+              "y": 70
+            },
+            {
+              "x": 40,
+              "y": 70
+            }
+          ]
+        },
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 40,
+              "y": 70
+            },
+            {
+              "x": 130,
+              "y": 70
+            },
+            {
+              "x": 160,
+              "y": 40
+            },
+            {
+              "x": 70,
+              "y": 40
+            }
+          ]
+        },
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 130,
+              "y": 140
+            },
+            {
+              "x": 130,
+              "y": 70
+            },
+            {
+              "x": 160,
+              "y": 40
+            },
+            {
+              "x": 160,
+              "y": 110
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 82,
+            "y": 156
+          },
+          "text": "{{3*k}}"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 22,
+            "y": 108
+          },
+          "text": "{{12*k}}"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 148,
+            "y": 128
+          },
+          "text": "{{4*k}}"
+        }
+      ]
+    }
   },
   {
     "id": "geometry-mixed-practice-046",
@@ -1221,7 +3224,263 @@
     ],
     "answer": "D",
     "solutionStandard": "Surface area \\(=2\\pi r^2+2\\pi rh = 2\\pi(9)+2\\pi(3)(10)=18\\pi+60\\pi=78\\pi\\).",
-    "timeTargetSec": 90
+    "timeTargetSec": 90,
+    "figure": {
+      "viewBox": "0 0 200 170",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 160,
+              "y": 45
+            },
+            {
+              "x": 158,
+              "y": 50
+            },
+            {
+              "x": 152,
+              "y": 54
+            },
+            {
+              "x": 142,
+              "y": 58
+            },
+            {
+              "x": 130,
+              "y": 61
+            },
+            {
+              "x": 116,
+              "y": 62
+            },
+            {
+              "x": 100,
+              "y": 63
+            },
+            {
+              "x": 84,
+              "y": 62
+            },
+            {
+              "x": 70,
+              "y": 61
+            },
+            {
+              "x": 58,
+              "y": 58
+            },
+            {
+              "x": 48,
+              "y": 54
+            },
+            {
+              "x": 42,
+              "y": 50
+            },
+            {
+              "x": 40,
+              "y": 45
+            },
+            {
+              "x": 42,
+              "y": 40
+            },
+            {
+              "x": 48,
+              "y": 36
+            },
+            {
+              "x": 58,
+              "y": 32
+            },
+            {
+              "x": 70,
+              "y": 29
+            },
+            {
+              "x": 84,
+              "y": 28
+            },
+            {
+              "x": 100,
+              "y": 27
+            },
+            {
+              "x": 116,
+              "y": 28
+            },
+            {
+              "x": 130,
+              "y": 29
+            },
+            {
+              "x": 142,
+              "y": 32
+            },
+            {
+              "x": 152,
+              "y": 36
+            },
+            {
+              "x": 158,
+              "y": 40
+            }
+          ]
+        },
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 160,
+              "y": 140
+            },
+            {
+              "x": 158,
+              "y": 145
+            },
+            {
+              "x": 152,
+              "y": 149
+            },
+            {
+              "x": 142,
+              "y": 153
+            },
+            {
+              "x": 130,
+              "y": 156
+            },
+            {
+              "x": 116,
+              "y": 157
+            },
+            {
+              "x": 100,
+              "y": 158
+            },
+            {
+              "x": 84,
+              "y": 157
+            },
+            {
+              "x": 70,
+              "y": 156
+            },
+            {
+              "x": 58,
+              "y": 153
+            },
+            {
+              "x": 48,
+              "y": 149
+            },
+            {
+              "x": 42,
+              "y": 145
+            },
+            {
+              "x": 40,
+              "y": 140
+            },
+            {
+              "x": 42,
+              "y": 135
+            },
+            {
+              "x": 48,
+              "y": 131
+            },
+            {
+              "x": 58,
+              "y": 127
+            },
+            {
+              "x": 70,
+              "y": 124
+            },
+            {
+              "x": 84,
+              "y": 123
+            },
+            {
+              "x": 100,
+              "y": 122
+            },
+            {
+              "x": 116,
+              "y": 123
+            },
+            {
+              "x": 130,
+              "y": 124
+            },
+            {
+              "x": 142,
+              "y": 127
+            },
+            {
+              "x": 152,
+              "y": 131
+            },
+            {
+              "x": 158,
+              "y": 135
+            }
+          ]
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 40,
+            "y": 45
+          },
+          "to": {
+            "x": 40,
+            "y": 140
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 160,
+            "y": 45
+          },
+          "to": {
+            "x": 160,
+            "y": 140
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 100,
+            "y": 45
+          },
+          "to": {
+            "x": 160,
+            "y": 45
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 122,
+            "y": 38
+          },
+          "text": "3"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 22,
+            "y": 95
+          },
+          "text": "10"
+        }
+      ]
+    }
   },
   {
     "id": "geometry-mixed-practice-047",
@@ -1290,7 +3549,66 @@
     ],
     "answer": "A",
     "solutionStandard": "Midpoint \\(=\\left(\\dfrac{-4+8}{2}, \\dfrac{6-2}{2}\\right)=(2,2)\\).",
-    "timeTargetSec": 65
+    "timeTargetSec": 65,
+    "figure": {
+      "viewBox": "0 0 200 170",
+      "elements": [
+        {
+          "kind": "line",
+          "from": {
+            "x": 0,
+            "y": 100
+          },
+          "to": {
+            "x": 200,
+            "y": 100
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 90,
+            "y": 0
+          },
+          "to": {
+            "x": 90,
+            "y": 170
+          }
+        },
+        {
+          "kind": "circle",
+          "center": {
+            "x": 58,
+            "y": 52
+          },
+          "radius": 2.5
+        },
+        {
+          "kind": "circle",
+          "center": {
+            "x": 154,
+            "y": 116
+          },
+          "radius": 2.5
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 64,
+            "y": 44
+          },
+          "text": "(-4, 6)"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 160,
+            "y": 108
+          },
+          "text": "(8, -2)"
+        }
+      ]
+    }
   },
   {
     "id": "geometry-mixed-practice-049",
