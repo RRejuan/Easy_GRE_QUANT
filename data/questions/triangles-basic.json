@@ -8,7 +8,53 @@
     "stem": "A triangle has angles of \\(50^\\circ\\) and \\(70^\\circ\\). What is the measure, in degrees, of the third angle?",
     "answer": 60,
     "solutionStandard": "Interior angles sum to \\(180^\\circ\\): \\(180 - 50 - 70 = 60\\).",
-    "timeTargetSec": 30
+    "timeTargetSec": 30,
+    "figure": {
+      "viewBox": "0 0 200 160",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 140
+            },
+            {
+              "x": 180,
+              "y": 140
+            },
+            {
+              "x": 100,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 32,
+            "y": 130
+          },
+          "text": "{{a}}°"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 155,
+            "y": 130
+          },
+          "text": "{{b}}°"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 95,
+            "y": 45
+          },
+          "text": "x"
+        }
+      ]
+    }
   },
   {
     "id": "triangles-basic-002",
@@ -41,7 +87,53 @@
     ],
     "answer": "B",
     "solutionStandard": "Two sides (5 and 5) are equal and the third (8) is different, so the triangle is isosceles.",
-    "timeTargetSec": 30
+    "timeTargetSec": 30,
+    "figure": {
+      "viewBox": "0 0 200 160",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 140
+            },
+            {
+              "x": 180,
+              "y": 140
+            },
+            {
+              "x": 100,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 40,
+            "y": 90
+          },
+          "text": "5"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 95,
+            "y": 155
+          },
+          "text": "8"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 145,
+            "y": 90
+          },
+          "text": "5"
+        }
+      ]
+    }
   },
   {
     "id": "triangles-basic-003",
@@ -52,7 +144,53 @@
     "stem": "In an isosceles triangle, the two base angles are each \\(70^\\circ\\). What is the measure, in degrees, of the vertex angle?",
     "answer": 40,
     "solutionStandard": "\\(180 - 70 - 70 = 40\\).",
-    "timeTargetSec": 40
+    "timeTargetSec": 40,
+    "figure": {
+      "viewBox": "0 0 200 160",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 140
+            },
+            {
+              "x": 180,
+              "y": 140
+            },
+            {
+              "x": 100,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 32,
+            "y": 130
+          },
+          "text": "70°"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 155,
+            "y": 130
+          },
+          "text": "70°"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 95,
+            "y": 45
+          },
+          "text": "?"
+        }
+      ]
+    }
   },
   {
     "id": "triangles-basic-004",
@@ -85,7 +223,64 @@
     ],
     "answer": "C",
     "solutionStandard": "\\(A = \\frac{1}{2}(12)(7) = 42\\).",
-    "timeTargetSec": 35
+    "timeTargetSec": 35,
+    "figure": {
+      "viewBox": "0 0 200 160",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 140
+            },
+            {
+              "x": 160,
+              "y": 140
+            },
+            {
+              "x": 60,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 60,
+            "y": 30
+          },
+          "to": {
+            "x": 60,
+            "y": 140
+          },
+          "dashed": true
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 60,
+            "y": 140
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 85,
+            "y": 155
+          },
+          "text": "12"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 35,
+            "y": 85
+          },
+          "text": "7"
+        }
+      ]
+    }
   },
   {
     "id": "triangles-basic-005",
@@ -98,7 +293,53 @@
     "quantityB": "Angle \\(B\\)",
     "answer": "A",
     "solutionStandard": "Angle \\(C = 180 - 50 - 60 = 70^\\circ\\). Since \\(70 > 60\\), Quantity A is greater.",
-    "timeTargetSec": 50
+    "timeTargetSec": 50,
+    "figure": {
+      "viewBox": "0 0 200 160",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 140
+            },
+            {
+              "x": 180,
+              "y": 140
+            },
+            {
+              "x": 100,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 32,
+            "y": 130
+          },
+          "text": "50°"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 155,
+            "y": 130
+          },
+          "text": "60°"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 95,
+            "y": 45
+          },
+          "text": "?"
+        }
+      ]
+    }
   },
   {
     "id": "triangles-basic-006",
@@ -109,7 +350,64 @@
     "stem": "An exterior angle of a triangle measures \\(110^\\circ\\). The two remote (non-adjacent) interior angles are equal. What is the measure, in degrees, of each remote interior angle?",
     "answer": 55,
     "solutionStandard": "By the exterior angle theorem, the exterior angle equals the sum of the two remote interior angles: \\(110 = 2x\\), so \\(x = 55\\).",
-    "timeTargetSec": 55
+    "timeTargetSec": 55,
+    "figure": {
+      "viewBox": "0 0 240 160",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 140
+            },
+            {
+              "x": 180,
+              "y": 140
+            },
+            {
+              "x": 100,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 180,
+            "y": 140
+          },
+          "to": {
+            "x": 230,
+            "y": 140
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 32,
+            "y": 130
+          },
+          "text": "x"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 95,
+            "y": 45
+          },
+          "text": "x"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 190,
+            "y": 125
+          },
+          "text": "110°"
+        }
+      ]
+    }
   },
   {
     "id": "triangles-basic-007",
@@ -207,7 +505,64 @@
     ],
     "answer": "E",
     "solutionStandard": "The exterior angle at \\(A\\) equals the sum of the remote interior angles \\(B\\) and \\(C\\): \\(B + C = 130\\). Since \\(B = C + 20\\), we get \\((C+20) + C = 130\\), so \\(2C + 20 = 130\\), giving \\(2C = 110\\) and \\(C = 55\\).",
-    "timeTargetSec": 80
+    "timeTargetSec": 80,
+    "figure": {
+      "viewBox": "0 0 240 160",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 140
+            },
+            {
+              "x": 180,
+              "y": 140
+            },
+            {
+              "x": 100,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 180,
+            "y": 140
+          },
+          "to": {
+            "x": 230,
+            "y": 140
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 32,
+            "y": 130
+          },
+          "text": "B"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 95,
+            "y": 45
+          },
+          "text": "C"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 190,
+            "y": 125
+          },
+          "text": "130°"
+        }
+      ]
+    }
   },
   {
     "id": "triangles-basic-010",
@@ -220,7 +575,53 @@
     "quantityB": "The length of side \\(BC\\) (opposite angle \\(A\\))",
     "answer": "A",
     "solutionStandard": "Angle \\(C = 180 - 40 - 40 = 100^\\circ\\), the largest angle, so the side opposite it (\\(AB\\)) is the longest side. Since angle \\(C > \\) angle \\(A\\), side \\(AB >\\) side \\(BC\\) (larger angles are opposite longer sides).",
-    "timeTargetSec": 75
+    "timeTargetSec": 75,
+    "figure": {
+      "viewBox": "0 0 200 160",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 140
+            },
+            {
+              "x": 180,
+              "y": 140
+            },
+            {
+              "x": 100,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 32,
+            "y": 130
+          },
+          "text": "40°"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 155,
+            "y": 130
+          },
+          "text": "40°"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 95,
+            "y": 45
+          },
+          "text": "?"
+        }
+      ]
+    }
   },
   {
     "id": "triangles-basic-011",
@@ -325,7 +726,53 @@
     ],
     "answer": "A",
     "solutionStandard": "All three sides are equal, so the triangle is equilateral (which is also a special case of isosceles).",
-    "timeTargetSec": 30
+    "timeTargetSec": 30,
+    "figure": {
+      "viewBox": "0 0 200 160",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 140
+            },
+            {
+              "x": 180,
+              "y": 140
+            },
+            {
+              "x": 100,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 40,
+            "y": 90
+          },
+          "text": "6"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 95,
+            "y": 155
+          },
+          "text": "6"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 145,
+            "y": 90
+          },
+          "text": "6"
+        }
+      ]
+    }
   },
   {
     "id": "triangles-basic-013",
@@ -345,7 +792,53 @@
     "answer": 60,
     "answerFormula": "180 - 2*b",
     "solutionStandard": "\\(180 - {{b}} - {{b}} = {{180-2*b}}\\).",
-    "timeTargetSec": 40
+    "timeTargetSec": 40,
+    "figure": {
+      "viewBox": "0 0 200 160",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 140
+            },
+            {
+              "x": 180,
+              "y": 140
+            },
+            {
+              "x": 100,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 32,
+            "y": 130
+          },
+          "text": "{{b}}°"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 155,
+            "y": 130
+          },
+          "text": "{{b}}°"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 95,
+            "y": 45
+          },
+          "text": "?"
+        }
+      ]
+    }
   },
   {
     "id": "triangles-basic-014",
@@ -507,7 +1000,64 @@
     "answer": 65,
     "answerFormula": "e / 2",
     "solutionStandard": "By the exterior angle theorem, \\({{e}} = 2x\\), so \\(x = {{e/2}}\\).",
-    "timeTargetSec": 55
+    "timeTargetSec": 55,
+    "figure": {
+      "viewBox": "0 0 240 160",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 140
+            },
+            {
+              "x": 180,
+              "y": 140
+            },
+            {
+              "x": 100,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 180,
+            "y": 140
+          },
+          "to": {
+            "x": 230,
+            "y": 140
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 32,
+            "y": 130
+          },
+          "text": "x"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 95,
+            "y": 45
+          },
+          "text": "x"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 190,
+            "y": 125
+          },
+          "text": "{{e}}°"
+        }
+      ]
+    }
   },
   {
     "id": "triangles-basic-018",
@@ -540,7 +1090,64 @@
     ],
     "answer": "C",
     "solutionStandard": "The exterior angle equals the sum of the remote interior angles: \\(B+C=140\\). Since \\(B=C+30\\), \\((C+30)+C=140\\), so \\(2C=110\\) and \\(C=55\\).",
-    "timeTargetSec": 80
+    "timeTargetSec": 80,
+    "figure": {
+      "viewBox": "0 0 240 160",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 140
+            },
+            {
+              "x": 180,
+              "y": 140
+            },
+            {
+              "x": 100,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 180,
+            "y": 140
+          },
+          "to": {
+            "x": 230,
+            "y": 140
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 32,
+            "y": 130
+          },
+          "text": "B"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 95,
+            "y": 45
+          },
+          "text": "C"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 190,
+            "y": 125
+          },
+          "text": "140°"
+        }
+      ]
+    }
   },
   {
     "id": "triangles-basic-019",
@@ -586,6 +1193,52 @@
     "quantityB": "The length of side \\(AC\\) (opposite angle \\(B\\))",
     "answer": "B",
     "solutionStandard": "Angle \\(C = 180-55-65=60^\\circ\\). Comparing angle \\(B\\) (\\(65^\\circ\\), opposite \\(AC\\)) to angle \\(C\\) (\\(60^\\circ\\), opposite \\(AB\\)): since \\(65>60\\), side \\(AC\\) is longer than side \\(AB\\) (larger angles are opposite longer sides). Quantity B is greater.",
-    "timeTargetSec": 85
+    "timeTargetSec": 85,
+    "figure": {
+      "viewBox": "0 0 200 160",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 140
+            },
+            {
+              "x": 180,
+              "y": 140
+            },
+            {
+              "x": 100,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 32,
+            "y": 130
+          },
+          "text": "55°"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 155,
+            "y": 130
+          },
+          "text": "65°"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 95,
+            "y": 45
+          },
+          "text": "?"
+        }
+      ]
+    }
   }
 ]
