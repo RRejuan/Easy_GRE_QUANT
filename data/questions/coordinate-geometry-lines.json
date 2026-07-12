@@ -8,7 +8,77 @@
     "stem": "What is the slope of the line through \\((1, 2)\\) and \\((4, 11)\\)?",
     "answer": 3,
     "solutionStandard": "\\(m = \\dfrac{11-2}{4-1} = \\dfrac{9}{3}=3\\).",
-    "timeTargetSec": 40
+    "timeTargetSec": 40,
+    "figure": {
+      "viewBox": "0 0 200 180",
+      "elements": [
+        {
+          "kind": "line",
+          "from": {
+            "x": 0,
+            "y": 150
+          },
+          "to": {
+            "x": 200,
+            "y": 150
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 30,
+            "y": 0
+          },
+          "to": {
+            "x": 30,
+            "y": 180
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 40,
+            "y": 130
+          },
+          "to": {
+            "x": 70,
+            "y": 40
+          }
+        },
+        {
+          "kind": "circle",
+          "center": {
+            "x": 40,
+            "y": 130
+          },
+          "radius": 2.5
+        },
+        {
+          "kind": "circle",
+          "center": {
+            "x": 70,
+            "y": 40
+          },
+          "radius": 2.5
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 46,
+            "y": 122
+          },
+          "text": "(1, 2)"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 76,
+            "y": 32
+          },
+          "text": "(4, 11)"
+        }
+      ]
+    }
   },
   {
     "id": "coordinate-geometry-lines-002",
@@ -41,7 +111,77 @@
     ],
     "answer": "D",
     "solutionStandard": "In \\(y=mx+b\\) form, \\(b=-7\\) is the \\(y\\)-intercept.",
-    "timeTargetSec": 35
+    "timeTargetSec": 35,
+    "figure": {
+      "viewBox": "0 0 200 180",
+      "elements": [
+        {
+          "kind": "line",
+          "from": {
+            "x": 0,
+            "y": 100
+          },
+          "to": {
+            "x": 200,
+            "y": 100
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 60,
+            "y": 0
+          },
+          "to": {
+            "x": 60,
+            "y": 180
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 60,
+            "y": 156
+          },
+          "to": {
+            "x": 84,
+            "y": 84
+          }
+        },
+        {
+          "kind": "circle",
+          "center": {
+            "x": 60,
+            "y": 156
+          },
+          "radius": 2.5
+        },
+        {
+          "kind": "circle",
+          "center": {
+            "x": 84,
+            "y": 84
+          },
+          "radius": 2.5
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 66,
+            "y": 148
+          },
+          "text": "(0, -7)"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 90,
+            "y": 76
+          },
+          "text": "(3, 2)"
+        }
+      ]
+    }
   },
   {
     "id": "coordinate-geometry-lines-003",
@@ -74,7 +214,77 @@
     ],
     "answer": "A",
     "solutionStandard": "\\(5 = 2(3) + b\\), so \\(5=6+b\\), giving \\(b=-1\\). Equation: \\(y=2x-1\\).",
-    "timeTargetSec": 55
+    "timeTargetSec": 55,
+    "figure": {
+      "viewBox": "0 0 200 180",
+      "elements": [
+        {
+          "kind": "line",
+          "from": {
+            "x": 0,
+            "y": 150
+          },
+          "to": {
+            "x": 200,
+            "y": 150
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 30,
+            "y": 0
+          },
+          "to": {
+            "x": 30,
+            "y": 180
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 75,
+            "y": 75
+          },
+          "to": {
+            "x": 90,
+            "y": 45
+          }
+        },
+        {
+          "kind": "circle",
+          "center": {
+            "x": 75,
+            "y": 75
+          },
+          "radius": 2.5
+        },
+        {
+          "kind": "circle",
+          "center": {
+            "x": 90,
+            "y": 45
+          },
+          "radius": 2.5
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 81,
+            "y": 67
+          },
+          "text": "(3, 5)"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 96,
+            "y": 37
+          },
+          "text": "(4, 7)"
+        }
+      ]
+    }
   },
   {
     "id": "coordinate-geometry-lines-004",
@@ -131,7 +341,72 @@
     "stem": "At what \\(x\\)-value do the lines \\(y = 2x + 1\\) and \\(y = -x + 10\\) intersect?",
     "answer": 3,
     "solutionStandard": "\\(2x+1=-x+10\\), so \\(3x=9\\), giving \\(x=3\\).",
-    "timeTargetSec": 55
+    "timeTargetSec": 55,
+    "figure": {
+      "viewBox": "0 0 200 180",
+      "elements": [
+        {
+          "kind": "line",
+          "from": {
+            "x": 0,
+            "y": 160
+          },
+          "to": {
+            "x": 200,
+            "y": 160
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 30,
+            "y": 0
+          },
+          "to": {
+            "x": 30,
+            "y": 180
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 30,
+            "y": 150
+          },
+          "to": {
+            "x": 90,
+            "y": 30
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 30,
+            "y": 60
+          },
+          "to": {
+            "x": 90,
+            "y": 120
+          }
+        },
+        {
+          "kind": "circle",
+          "center": {
+            "x": 60,
+            "y": 90
+          },
+          "radius": 2.5
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 66,
+            "y": 82
+          },
+          "text": "(3, 7)"
+        }
+      ]
+    }
   },
   {
     "id": "coordinate-geometry-lines-007",
@@ -208,7 +483,77 @@
     "stem": "A line has \\(x\\)-intercept 4 and \\(y\\)-intercept 8. What is the slope of the line?",
     "answer": -2,
     "solutionStandard": "The line passes through \\((4,0)\\) and \\((0,8)\\): \\(m=\\dfrac{8-0}{0-4}=\\dfrac{8}{-4}=-2\\).",
-    "timeTargetSec": 60
+    "timeTargetSec": 60,
+    "figure": {
+      "viewBox": "0 0 200 180",
+      "elements": [
+        {
+          "kind": "line",
+          "from": {
+            "x": 0,
+            "y": 150
+          },
+          "to": {
+            "x": 200,
+            "y": 150
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 30,
+            "y": 0
+          },
+          "to": {
+            "x": 30,
+            "y": 180
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 90,
+            "y": 150
+          },
+          "to": {
+            "x": 30,
+            "y": 30
+          }
+        },
+        {
+          "kind": "circle",
+          "center": {
+            "x": 90,
+            "y": 150
+          },
+          "radius": 2.5
+        },
+        {
+          "kind": "circle",
+          "center": {
+            "x": 30,
+            "y": 30
+          },
+          "radius": 2.5
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 96,
+            "y": 142
+          },
+          "text": "(4, 0)"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 36,
+            "y": 22
+          },
+          "text": "(0, 8)"
+        }
+      ]
+    }
   },
   {
     "id": "coordinate-geometry-lines-010",
@@ -221,7 +566,77 @@
     "quantityB": "\\(0\\)",
     "answer": "C",
     "solutionStandard": "\\(m=\\dfrac{4-4}{5-1}=\\dfrac{0}{4}=0\\). The quantities are equal.",
-    "timeTargetSec": 55
+    "timeTargetSec": 55,
+    "figure": {
+      "viewBox": "0 0 200 180",
+      "elements": [
+        {
+          "kind": "line",
+          "from": {
+            "x": 0,
+            "y": 110
+          },
+          "to": {
+            "x": 200,
+            "y": 110
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 30,
+            "y": 0
+          },
+          "to": {
+            "x": 30,
+            "y": 180
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 45,
+            "y": 50
+          },
+          "to": {
+            "x": 105,
+            "y": 50
+          }
+        },
+        {
+          "kind": "circle",
+          "center": {
+            "x": 45,
+            "y": 50
+          },
+          "radius": 2.5
+        },
+        {
+          "kind": "circle",
+          "center": {
+            "x": 105,
+            "y": 50
+          },
+          "radius": 2.5
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 51,
+            "y": 42
+          },
+          "text": "(1, 4)"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 111,
+            "y": 42
+          },
+          "text": "(5, 4)"
+        }
+      ]
+    }
   },
   {
     "id": "coordinate-geometry-lines-011",
@@ -280,7 +695,77 @@
     ],
     "answer": "D",
     "solutionStandard": "In \\(y=mx+b\\) form, \\(b=-9\\).",
-    "timeTargetSec": 35
+    "timeTargetSec": 35,
+    "figure": {
+      "viewBox": "0 0 200 180",
+      "elements": [
+        {
+          "kind": "line",
+          "from": {
+            "x": 0,
+            "y": 60
+          },
+          "to": {
+            "x": 200,
+            "y": 60
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 60,
+            "y": 0
+          },
+          "to": {
+            "x": 60,
+            "y": 180
+          }
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 60,
+            "y": 150
+          },
+          "to": {
+            "x": 80,
+            "y": 50
+          }
+        },
+        {
+          "kind": "circle",
+          "center": {
+            "x": 60,
+            "y": 150
+          },
+          "radius": 2.5
+        },
+        {
+          "kind": "circle",
+          "center": {
+            "x": 80,
+            "y": 50
+          },
+          "radius": 2.5
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 66,
+            "y": 142
+          },
+          "text": "(0, -9)"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 86,
+            "y": 42
+          },
+          "text": "(2, 1)"
+        }
+      ]
+    }
   },
   {
     "id": "coordinate-geometry-lines-013",
