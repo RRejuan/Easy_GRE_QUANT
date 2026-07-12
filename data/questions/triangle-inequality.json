@@ -62,7 +62,53 @@
     ],
     "answer": "E",
     "solutionStandard": "The third side must satisfy \\(10-7 < c < 10+7\\), i.e. \\(3 < c < 17\\). Since 17 is not strictly less than 17, it's excluded.",
-    "timeTargetSec": 55
+    "timeTargetSec": 55,
+    "figure": {
+      "viewBox": "0 0 200 160",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 140
+            },
+            {
+              "x": 180,
+              "y": 140
+            },
+            {
+              "x": 100,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 40,
+            "y": 90
+          },
+          "text": "7"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 95,
+            "y": 155
+          },
+          "text": "x"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 145,
+            "y": 90
+          },
+          "text": "10"
+        }
+      ]
+    }
   },
   {
     "id": "triangle-inequality-003",
@@ -73,7 +119,53 @@
     "stem": "A triangle has sides of length 6 and 9. What is the greatest possible integer value of the third side?",
     "answer": 14,
     "solutionStandard": "The third side \\(c\\) satisfies \\(3 < c < 15\\). The greatest integer less than 15 is 14.",
-    "timeTargetSec": 55
+    "timeTargetSec": 55,
+    "figure": {
+      "viewBox": "0 0 200 160",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 140
+            },
+            {
+              "x": 180,
+              "y": 140
+            },
+            {
+              "x": 100,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 40,
+            "y": 90
+          },
+          "text": "6"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 95,
+            "y": 155
+          },
+          "text": "x"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 145,
+            "y": 90
+          },
+          "text": "9"
+        }
+      ]
+    }
   },
   {
     "id": "triangle-inequality-004",
@@ -86,7 +178,53 @@
     "quantityB": "\\(16\\)",
     "answer": "C",
     "solutionStandard": "\\(x\\) satisfies \\(7 < x < 17\\). The greatest integer strictly less than 17 is 16, so Quantity A equals 16 — the same as Quantity B.",
-    "timeTargetSec": 70
+    "timeTargetSec": 70,
+    "figure": {
+      "viewBox": "0 0 200 160",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 140
+            },
+            {
+              "x": 180,
+              "y": 140
+            },
+            {
+              "x": 100,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 40,
+            "y": 90
+          },
+          "text": "5"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 95,
+            "y": 155
+          },
+          "text": "x"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 145,
+            "y": 90
+          },
+          "text": "12"
+        }
+      ]
+    }
   },
   {
     "id": "triangle-inequality-005",
@@ -130,7 +268,53 @@
     ],
     "answer": "C",
     "solutionStandard": "The third side \\(c\\) satisfies \\(6 < c < 14\\), so integers 7 through 13 — that's 7 values.",
-    "timeTargetSec": 65
+    "timeTargetSec": 65,
+    "figure": {
+      "viewBox": "0 0 200 160",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 140
+            },
+            {
+              "x": 180,
+              "y": 140
+            },
+            {
+              "x": 100,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 40,
+            "y": 90
+          },
+          "text": "4"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 95,
+            "y": 155
+          },
+          "text": "x"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 145,
+            "y": 90
+          },
+          "text": "10"
+        }
+      ]
+    }
   },
   {
     "id": "triangle-inequality-007",
@@ -206,7 +390,53 @@
     "stem": "An isosceles triangle has two sides of length 5 and one side of length \\(x\\), where \\(x\\) is an integer and \\(x \\neq 5\\). What is the greatest possible value of \\(x\\)?",
     "answer": 9,
     "solutionStandard": "With two sides equal to 5, the third side \\(x\\) satisfies \\(0 < x < 10\\). The greatest integer less than 10 (and not equal to 5) is 9.",
-    "timeTargetSec": 75
+    "timeTargetSec": 75,
+    "figure": {
+      "viewBox": "0 0 200 160",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 140
+            },
+            {
+              "x": 180,
+              "y": 140
+            },
+            {
+              "x": 100,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 40,
+            "y": 90
+          },
+          "text": "5"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 95,
+            "y": 155
+          },
+          "text": "x"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 145,
+            "y": 90
+          },
+          "text": "5"
+        }
+      ]
+    }
   },
   {
     "id": "triangle-inequality-010",
@@ -219,7 +449,53 @@
     "quantityB": "\\(7\\)",
     "answer": "A",
     "solutionStandard": "\\(c\\) must satisfy \\(7 < c < 13\\). Since \\(c\\) is always strictly greater than 7, Quantity A is always greater.",
-    "timeTargetSec": 85
+    "timeTargetSec": 85,
+    "figure": {
+      "viewBox": "0 0 200 160",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 140
+            },
+            {
+              "x": 180,
+              "y": 140
+            },
+            {
+              "x": 100,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 40,
+            "y": 90
+          },
+          "text": "10"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 95,
+            "y": 155
+          },
+          "text": "c"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 145,
+            "y": 90
+          },
+          "text": "3"
+        }
+      ]
+    }
   },
   {
     "id": "triangle-inequality-011",
@@ -245,7 +521,53 @@
     "answer": 24,
     "answerFormula": "a + b - 1",
     "solutionStandard": "The third side must be less than \\({{a}}+{{b}}={{a+b}}\\). The greatest integer below that is \\({{a+b-1}}\\).",
-    "timeTargetSec": 50
+    "timeTargetSec": 50,
+    "figure": {
+      "viewBox": "0 0 200 160",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 140
+            },
+            {
+              "x": 180,
+              "y": 140
+            },
+            {
+              "x": 100,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 40,
+            "y": 90
+          },
+          "text": "{{a}}"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 95,
+            "y": 155
+          },
+          "text": "x"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 145,
+            "y": 90
+          },
+          "text": "{{b}}"
+        }
+      ]
+    }
   },
   {
     "id": "triangle-inequality-012",
@@ -278,7 +600,53 @@
     ],
     "answer": "E",
     "solutionStandard": "The third side must satisfy \\(8-5 < c < 8+5\\), i.e. \\(3<c<13\\). Since 13 is not strictly less than 13, it's excluded.",
-    "timeTargetSec": 55
+    "timeTargetSec": 55,
+    "figure": {
+      "viewBox": "0 0 200 160",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 140
+            },
+            {
+              "x": 180,
+              "y": 140
+            },
+            {
+              "x": 100,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 40,
+            "y": 90
+          },
+          "text": "5"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 95,
+            "y": 155
+          },
+          "text": "x"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 145,
+            "y": 90
+          },
+          "text": "8"
+        }
+      ]
+    }
   },
   {
     "id": "triangle-inequality-013",
@@ -304,7 +672,53 @@
     "answer": 16,
     "answerFormula": "b - a + 1",
     "solutionStandard": "The third side must be greater than \\({{b}}-{{a}}={{b-a}}\\). The smallest integer above that is \\({{b-a+1}}\\).",
-    "timeTargetSec": 55
+    "timeTargetSec": 55,
+    "figure": {
+      "viewBox": "0 0 200 160",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 140
+            },
+            {
+              "x": 180,
+              "y": 140
+            },
+            {
+              "x": 100,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 40,
+            "y": 90
+          },
+          "text": "{{a}}"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 95,
+            "y": 155
+          },
+          "text": "x"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 145,
+            "y": 90
+          },
+          "text": "{{b}}"
+        }
+      ]
+    }
   },
   {
     "id": "triangle-inequality-014",
@@ -331,7 +745,53 @@
     "quantityB": "{{a + b - 1}}",
     "answer": "C",
     "solutionStandard": "\\(x\\) must be less than \\({{a}}+{{b}}={{a+b}}\\), so the greatest possible integer is \\({{a+b-1}}\\) — exactly equal to Quantity B.",
-    "timeTargetSec": 65
+    "timeTargetSec": 65,
+    "figure": {
+      "viewBox": "0 0 200 160",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 140
+            },
+            {
+              "x": 180,
+              "y": 140
+            },
+            {
+              "x": 100,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 40,
+            "y": 90
+          },
+          "text": "{{a}}"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 95,
+            "y": 155
+          },
+          "text": "x"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 145,
+            "y": 90
+          },
+          "text": "{{b}}"
+        }
+      ]
+    }
   },
   {
     "id": "triangle-inequality-015",
@@ -351,7 +811,53 @@
     "answer": 9,
     "answerFormula": "2*a - 1",
     "solutionStandard": "With two sides equal to \\({{a}}\\), the third side satisfies \\(0<x<{{2*a}}\\). The greatest integer below \\({{2*a}}\\) is \\({{2*a-1}}\\), which is never equal to \\({{a}}\\) here.",
-    "timeTargetSec": 70
+    "timeTargetSec": 70,
+    "figure": {
+      "viewBox": "0 0 200 160",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 140
+            },
+            {
+              "x": 180,
+              "y": 140
+            },
+            {
+              "x": 100,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 40,
+            "y": 90
+          },
+          "text": "{{a}}"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 95,
+            "y": 155
+          },
+          "text": "x"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 145,
+            "y": 90
+          },
+          "text": "{{a}}"
+        }
+      ]
+    }
   },
   {
     "id": "triangle-inequality-016",
@@ -384,7 +890,53 @@
     ],
     "answer": "C",
     "solutionStandard": "The third side satisfies \\(7<c<17\\), so integers 8 through 16 — that's 9 values.",
-    "timeTargetSec": 65
+    "timeTargetSec": 65,
+    "figure": {
+      "viewBox": "0 0 200 160",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 140
+            },
+            {
+              "x": 180,
+              "y": 140
+            },
+            {
+              "x": 100,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 40,
+            "y": 90
+          },
+          "text": "5"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 95,
+            "y": 155
+          },
+          "text": "x"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 145,
+            "y": 90
+          },
+          "text": "12"
+        }
+      ]
+    }
   },
   {
     "id": "triangle-inequality-017",
@@ -449,7 +1001,53 @@
       "C"
     ],
     "solutionStandard": "\\(x\\) must satisfy \\(2 < x < 16\\). Only 5 and 12 fall strictly in this range; 2 and 16 are excluded (boundary values).",
-    "timeTargetSec": 75
+    "timeTargetSec": 75,
+    "figure": {
+      "viewBox": "0 0 200 160",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 140
+            },
+            {
+              "x": 180,
+              "y": 140
+            },
+            {
+              "x": 100,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 40,
+            "y": 90
+          },
+          "text": "7"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 95,
+            "y": 155
+          },
+          "text": "x"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 145,
+            "y": 90
+          },
+          "text": "9"
+        }
+      ]
+    }
   },
   {
     "id": "triangle-inequality-019",
@@ -475,7 +1073,53 @@
     "answer": 5,
     "answerFormula": "2*a - 1",
     "solutionStandard": "\\(c\\) satisfies \\({{b}}-{{a}} < c < {{b}}+{{a}}\\), a range of integers from \\({{b-a+1}}\\) to \\({{a+b-1}}\\) — that's always \\(2({{a}})-1 = {{2*a-1}}\\) values, depending only on the smaller side \\({{a}}\\).",
-    "timeTargetSec": 90
+    "timeTargetSec": 90,
+    "figure": {
+      "viewBox": "0 0 200 160",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 140
+            },
+            {
+              "x": 180,
+              "y": 140
+            },
+            {
+              "x": 100,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 40,
+            "y": 90
+          },
+          "text": "{{a}}"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 95,
+            "y": 155
+          },
+          "text": "c"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 145,
+            "y": 90
+          },
+          "text": "{{b}}"
+        }
+      ]
+    }
   },
   {
     "id": "triangle-inequality-020",
