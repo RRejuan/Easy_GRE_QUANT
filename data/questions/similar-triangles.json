@@ -204,7 +204,104 @@
     ],
     "answer": "D",
     "solutionStandard": "Side ratio \\(AD:AB=3:8\\), so area ratio \\(\\text{Area}_{ADE}:\\text{Area}_{ABC} = 9:64\\). Since \\(\\text{Area}_{ADE}=9\\), we get \\(\\text{Area}_{ABC}=64\\).",
-    "timeTargetSec": 85
+    "timeTargetSec": 85,
+    "figure": {
+      "viewBox": "0 0 200 160",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 100,
+              "y": 20
+            },
+            {
+              "x": 20,
+              "y": 140
+            },
+            {
+              "x": 180,
+              "y": 140
+            }
+          ]
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 47,
+            "y": 100
+          },
+          "to": {
+            "x": 153,
+            "y": 100
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 96,
+            "y": 14
+          },
+          "text": "A"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 8,
+            "y": 148
+          },
+          "text": "B"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 184,
+            "y": 148
+          },
+          "text": "C"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 30,
+            "y": 95
+          },
+          "text": "D"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 158,
+            "y": 95
+          },
+          "text": "E"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 55,
+            "y": 55
+          },
+          "text": "AD=3"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 25,
+            "y": 122
+          },
+          "text": "AB=8"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 95,
+            "y": 92
+          },
+          "text": "?"
+        }
+      ]
+    }
   },
   {
     "id": "similar-triangles-007",
@@ -248,7 +345,112 @@
     "stem": "Triangle \\(ABC\\) has a right angle at \\(B\\). \\(D\\) is on \\(AC\\) such that \\(BD\\) is perpendicular to \\(AC\\). If \\(AD=4\\) and \\(DC=9\\), what is the length of \\(BD\\)?",
     "answer": 6,
     "solutionStandard": "The altitude to the hypotenuse creates two triangles similar to the original and to each other, giving \\(BD^2 = AD \\times DC = 4 \\times 9 = 36\\), so \\(BD=6\\).",
-    "timeTargetSec": 85
+    "timeTargetSec": 85,
+    "figure": {
+      "viewBox": "0 0 200 160",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 140
+            },
+            {
+              "x": 180,
+              "y": 140
+            },
+            {
+              "x": 90,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 90,
+            "y": 30
+          },
+          "to": {
+            "x": 90,
+            "y": 140
+          },
+          "dashed": true
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 90,
+            "y": 30
+          },
+          "rotation": 220
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 90,
+            "y": 140
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 96,
+            "y": 14
+          },
+          "text": "B"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 8,
+            "y": 148
+          },
+          "text": "A"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 184,
+            "y": 148
+          },
+          "text": "C"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 95,
+            "y": 145
+          },
+          "text": "D"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 50,
+            "y": 155
+          },
+          "text": "4"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 133,
+            "y": 155
+          },
+          "text": "9"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 96,
+            "y": 85
+          },
+          "text": "?"
+        }
+      ]
+    }
   },
   {
     "id": "similar-triangles-009",
@@ -532,7 +734,104 @@
     ],
     "answer": "D",
     "solutionStandard": "Side ratio \\(AD:AB=4:10=2:5\\), so area ratio \\(4:25\\). Since \\(\\text{Area}_{ADE}=8\\), \\(\\text{Area}_{ABC}=8\\times\\dfrac{25}{4}=50\\).",
-    "timeTargetSec": 85
+    "timeTargetSec": 85,
+    "figure": {
+      "viewBox": "0 0 200 160",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 100,
+              "y": 20
+            },
+            {
+              "x": 20,
+              "y": 140
+            },
+            {
+              "x": 180,
+              "y": 140
+            }
+          ]
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 47,
+            "y": 100
+          },
+          "to": {
+            "x": 153,
+            "y": 100
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 96,
+            "y": 14
+          },
+          "text": "A"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 8,
+            "y": 148
+          },
+          "text": "B"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 184,
+            "y": 148
+          },
+          "text": "C"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 30,
+            "y": 95
+          },
+          "text": "D"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 158,
+            "y": 95
+          },
+          "text": "E"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 55,
+            "y": 55
+          },
+          "text": "AD=4"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 25,
+            "y": 122
+          },
+          "text": "AB=10"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 95,
+            "y": 92
+          },
+          "text": "?"
+        }
+      ]
+    }
   },
   {
     "id": "similar-triangles-017",
@@ -591,7 +890,112 @@
     "answer": 6,
     "answerFormula": "m * n",
     "solutionStandard": "The altitude to the hypotenuse satisfies \\(BD^2 = AD \\times DC = {{m*m}} \\times {{n*n}} = {{(m*m)*(n*n)}}\\), so \\(BD = {{m*n}}\\).",
-    "timeTargetSec": 90
+    "timeTargetSec": 90,
+    "figure": {
+      "viewBox": "0 0 200 160",
+      "elements": [
+        {
+          "kind": "polygon",
+          "points": [
+            {
+              "x": 20,
+              "y": 140
+            },
+            {
+              "x": 180,
+              "y": 140
+            },
+            {
+              "x": 90,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "kind": "line",
+          "from": {
+            "x": 90,
+            "y": 30
+          },
+          "to": {
+            "x": 90,
+            "y": 140
+          },
+          "dashed": true
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 90,
+            "y": 30
+          },
+          "rotation": 220
+        },
+        {
+          "kind": "rightAngleMarker",
+          "at": {
+            "x": 90,
+            "y": 140
+          }
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 96,
+            "y": 14
+          },
+          "text": "B"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 8,
+            "y": 148
+          },
+          "text": "A"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 184,
+            "y": 148
+          },
+          "text": "C"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 95,
+            "y": 145
+          },
+          "text": "D"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 50,
+            "y": 155
+          },
+          "text": "{{m*m}}"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 133,
+            "y": 155
+          },
+          "text": "{{n*n}}"
+        },
+        {
+          "kind": "label",
+          "at": {
+            "x": 96,
+            "y": 85
+          },
+          "text": "?"
+        }
+      ]
+    }
   },
   {
     "id": "similar-triangles-019",
