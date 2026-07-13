@@ -1,0 +1,17 @@
+rules_version = '2';
+
+// Paste this into Firebase console -> Firestore Database -> Rules.
+//
+// Every signed-in user gets their own document tree under
+// /users/{their-uid}/... and can only ever read or write their own data.
+// No one (including other signed-in users) can read or write anyone
+// else's progress. Unauthenticated requests are rejected entirely --
+// guests who haven't signed in never touch Firestore, they stay on
+// local storage.
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /users/{userId}/{document=**} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+  }
+}

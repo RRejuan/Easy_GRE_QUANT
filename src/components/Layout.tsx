@@ -1,6 +1,7 @@
 import { Link, Outlet } from "react-router-dom";
 import { Logo } from "./Logo";
 import { ProfileSwitcher } from "./ProfileSwitcher";
+import { GoogleSignInButton } from "./GoogleSignInButton";
 
 export function Layout() {
   return (
@@ -18,6 +19,7 @@ export function Layout() {
           <Link to="/about-us">About Us</Link>
         </nav>
         <ProfileSwitcher />
+        <GoogleSignInButton />
         <a
           href="https://paypal.me/GREQL"
           target="_blank"
