@@ -14,7 +14,8 @@ export function Layout() {
           <Link to="/skills">Skills</Link>
           <Link to="/diagnostic">Diagnostic</Link>
           <Link to="/mock-test">Mock Test</Link>
-          <Link to="/about-gre">About the GRE</Link>
+          <Link to="/about-gre">All About GRE</Link>
+          <Link to="/about-us">About Us</Link>
         </nav>
         <ProfileSwitcher />
         <a
