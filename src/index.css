@@ -1,30 +1,59 @@
+@font-face {
+  font-family: 'Fraunces Display';
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src: url('./assets/fonts/fraunces-600.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Plex';
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url('./assets/fonts/plex-sans-400.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Plex';
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src: url('./assets/fonts/plex-sans-600.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Plex Mono';
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url('./assets/fonts/plex-mono-500.woff2') format('woff2');
+}
+
 :root {
-  --bg: #faf3e8;
-  --bg-page: #f5ecdd;
-  --bg-card: #fffcf6;
-  --text: #4a3f35;
-  --text-h: #2a2018;
-  --text-muted: #8a7c6a;
-  --border: #e5d8c3;
-  --primary: #c1440e;
-  --primary-hover: #a6380b;
-  --primary-contrast: #ffffff;
+  --bg: #eef1ee;
+  --bg-page: #e8ece8;
+  --bg-card: #ffffff;
+  --text: #29343d;
+  --text-h: #14202c;
+  --text-muted: #52616b;
+  --border: #d3d9d4;
+  --primary: #a6782c;
+  --primary-hover: #8f6423;
+  --primary-contrast: #14202c;
   --secondary: #2f6f6b;
-  --success: #1a7f37;
-  --danger: #cf222e;
+  --success: #2f7a4f;
+  --danger: #a83232;
   --variable: #178a3d;
-  --chart-bar: #c1440e;
-  --chart-baseline: #c3b8a4;
-  --chart-label: #8a7c6a;
-  --chart-slice-4: #b8860b;
+  --chart-bar: #a6782c;
+  --chart-baseline: #c5ccc6;
+  --chart-label: #52616b;
+  --chart-slice-4: #6b5b8e;
   --chart-slice-5: #4a6fa5;
   --chart-slice-6: #a5486b;
   --shadow:
-    rgba(74, 63, 53, 0.12) 0 10px 15px -3px, rgba(74, 63, 53, 0.08) 0 4px 6px -2px;
+    rgba(20, 32, 44, 0.1) 0 10px 15px -3px, rgba(20, 32, 44, 0.07) 0 4px 6px -2px;
 
-  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --mono: ui-monospace, Consolas, monospace;
+  --sans: 'Plex', system-ui, 'Segoe UI', Roboto, sans-serif;
+  --heading: 'Fraunces Display', Georgia, 'Times New Roman', serif;
+  --mono: 'Plex Mono', ui-monospace, Consolas, monospace;
 
   font: 18px/145% var(--sans);
   letter-spacing: 0.18px;
@@ -43,24 +72,24 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #2b2420;
-    --bg-page: #241e1a;
-    --bg-card: #362d26;
-    --text: #e8dfd0;
-    --text-h: #fbf3e7;
-    --text-muted: #b0a290;
-    --border: #4a3f35;
-    --primary: #e0793f;
-    --primary-hover: #ec8f5b;
-    --primary-contrast: #241e1a;
+    --bg: #0f171d;
+    --bg-page: #0c1318;
+    --bg-card: #16212a;
+    --text: #c5ced2;
+    --text-h: #eef1ee;
+    --text-muted: #93a3ac;
+    --border: #2a3640;
+    --primary: #d7a24c;
+    --primary-hover: #e3b164;
+    --primary-contrast: #14202c;
     --secondary: #5fafa9;
-    --success: #4bb964;
-    --danger: #ff6b6b;
+    --success: #4fae74;
+    --danger: #e0665f;
     --variable: #4bd07a;
-    --chart-bar: #e0793f;
-    --chart-baseline: #5a4d40;
-    --chart-label: #b0a290;
-    --chart-slice-4: #d4a72c;
+    --chart-bar: #d7a24c;
+    --chart-baseline: #3a4650;
+    --chart-label: #93a3ac;
+    --chart-slice-4: #8a7ab8;
     --chart-slice-5: #7b9fd4;
     --chart-slice-6: #d4708f;
     --shadow:
