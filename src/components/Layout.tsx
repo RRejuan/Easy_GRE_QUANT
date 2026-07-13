@@ -30,6 +30,16 @@ export function Layout() {
       <main className="app-main">
         <Outlet />
       </main>
+      <footer className="app-footer">
+        <span>
+          &copy; {new Date().getFullYear()} RRejuan. All rights reserved.
+        </span>
+        <span>
+          Content and source may not be copied or redistributed without
+          permission --{" "}
+          <Link to="/about-us">About Us</Link>
+        </span>
+      </footer>
     </div>
   );
 }
