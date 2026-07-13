@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export function AboutGrePage() {
   return (
     <div className="skill-page about-gre-page">
-      <h1>About the GRE</h1>
+      <h1>All About GRE</h1>
       <p>
         A plain-language guide to the GRE General Test as of 2026: what it
         is, how to register, what to expect on test day, and how scoring
