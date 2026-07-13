@@ -17,6 +17,14 @@ export function Layout() {
           <Link to="/about-gre">About the GRE</Link>
         </nav>
         <ProfileSwitcher />
+        <a
+          href="https://paypal.me/GREQL"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="donate-link"
+        >
+          Support this project
+        </a>
       </header>
       <main className="app-main">
         <Outlet />
