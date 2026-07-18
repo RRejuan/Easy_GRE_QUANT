@@ -4,30 +4,36 @@ import type {
   SkillMasteryState,
   StorageAdapter,
 } from "./StorageAdapter";
-import { getActiveProfileId } from "./profiles";
+import { getStorageNamespace } from "./namespace";
 
-const MAX_MOCK_HISTORY = 50;
+export const MAX_MOCK_HISTORY = 50;
 
-function storageKey(): string {
-  return `gre-quant:mastery:${getActiveProfileId()}`;
+/** When signed in, cloud sync registers a listener here so every local write
+ * is mirrored to Firestore. Null (guest mode) means writes stay local-only. */
+export interface CloudWriteListener {
+  onMasteryChanged(all: Record<string, SkillMasteryState>): void;
+  onMockTestRecorded(result: MockTestResult): void;
+  onProgressReset(): void;
 }
 
-function mockHistoryKey(): string {
-  return `gre-quant:mock-history:${getActiveProfileId()}`;
+let cloudListener: CloudWriteListener | null = null;
+
+export function setCloudWriteListener(listener: CloudWriteListener | null): void {
+  cloudListener = listener;
 }
 
-function loadMockHistory(): MockTestResult[] {
-  const raw = localStorage.getItem(mockHistoryKey());
-  if (!raw) return [];
-  try {
-    return JSON.parse(raw) as MockTestResult[];
-  } catch {
-    return [];
-  }
+function storageKey(namespace: string): string {
+  return `gre-quant:mastery:${namespace}`;
 }
 
-function loadAll(): Record<string, SkillMasteryState> {
-  const raw = localStorage.getItem(storageKey());
+function mockHistoryKey(namespace: string): string {
+  return `gre-quant:mock-history:${namespace}`;
+}
+
+export function loadMasteryForNamespace(
+  namespace: string,
+): Record<string, SkillMasteryState> {
+  const raw = localStorage.getItem(storageKey(namespace));
   if (!raw) return {};
   try {
     return JSON.parse(raw) as Record<string, SkillMasteryState>;
@@ -36,8 +42,33 @@ function loadAll(): Record<string, SkillMasteryState> {
   }
 }
 
-function saveAll(state: Record<string, SkillMasteryState>): void {
-  localStorage.setItem(storageKey(), JSON.stringify(state));
+export function loadMockHistoryForNamespace(namespace: string): MockTestResult[] {
+  const raw = localStorage.getItem(mockHistoryKey(namespace));
+  if (!raw) return [];
+  try {
+    return JSON.parse(raw) as MockTestResult[];
+  } catch {
+    return [];
+  }
+}
+
+function loadMockHistory(): MockTestResult[] {
+  return loadMockHistoryForNamespace(getStorageNamespace());
+}
+
+function loadAll(): Record<string, SkillMasteryState> {
+  return loadMasteryForNamespace(getStorageNamespace());
+}
+
+export function saveAllMastery(state: Record<string, SkillMasteryState>): void {
+  localStorage.setItem(storageKey(getStorageNamespace()), JSON.stringify(state));
+}
+
+export function saveMockHistory(history: MockTestResult[]): void {
+  localStorage.setItem(
+    mockHistoryKey(getStorageNamespace()),
+    JSON.stringify(history),
+  );
 }
 
 export class LocalStorageAdapter implements StorageAdapter {
@@ -76,7 +107,8 @@ export class LocalStorageAdapter implements StorageAdapter {
     };
 
     all[attempt.skillId] = updated;
-    saveAll(all);
+    saveAllMastery(all);
+    cloudListener?.onMasteryChanged(all);
     return updated;
   }
 
@@ -84,7 +116,8 @@ export class LocalStorageAdapter implements StorageAdapter {
     const history = loadMockHistory();
     history.push(result);
     while (history.length > MAX_MOCK_HISTORY) history.shift();
-    localStorage.setItem(mockHistoryKey(), JSON.stringify(history));
+    saveMockHistory(history);
+    cloudListener?.onMockTestRecorded(result);
   }
 
   getMockTestHistory(): MockTestResult[] {
@@ -93,16 +126,18 @@ export class LocalStorageAdapter implements StorageAdapter {
 }
 
 export function exportProgressJSON(): string {
-  return localStorage.getItem(storageKey()) ?? "{}";
+  return localStorage.getItem(storageKey(getStorageNamespace())) ?? "{}";
 }
 
 export function importProgressJSON(json: string): void {
   JSON.parse(json); // throws if invalid, before we touch storage
-  localStorage.setItem(storageKey(), json);
+  localStorage.setItem(storageKey(getStorageNamespace()), json);
 }
 
-/** Clears all mastery/attempt data and mock test history for the active profile only. */
+/** Clears all mastery/attempt data and mock test history for the active
+ * profile (or the signed-in account, including its cloud copy). */
 export function resetProgress(): void {
-  localStorage.removeItem(storageKey());
-  localStorage.removeItem(mockHistoryKey());
+  localStorage.removeItem(storageKey(getStorageNamespace()));
+  localStorage.removeItem(mockHistoryKey(getStorageNamespace()));
+  cloudListener?.onProgressReset();
 }

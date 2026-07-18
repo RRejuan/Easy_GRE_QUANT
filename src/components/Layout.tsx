@@ -2,8 +2,10 @@ import { Link, Outlet } from "react-router-dom";
 import { Logo } from "./Logo";
 import { ProfileSwitcher } from "./ProfileSwitcher";
 import { GoogleSignInButton } from "./GoogleSignInButton";
+import { useAuth } from "../contexts/AuthContext";
 
 export function Layout() {
+  const { user } = useAuth();
   return (
     <div className="app-shell">
       <header className="app-header">
@@ -18,7 +20,9 @@ export function Layout() {
           <Link to="/about-gre">All About GRE</Link>
           <Link to="/about-us">About Us</Link>
         </nav>
-        <ProfileSwitcher />
+        {/* Signed-in users' progress lives on their account and syncs to the
+            cloud, so guest profiles and manual export/import don't apply. */}
+        {!user && <ProfileSwitcher />}
         <GoogleSignInButton />
         <a
           href="https://paypal.me/GREQL"

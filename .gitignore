@@ -30,3 +30,6 @@ dist-ssr
 
 # Reference materials (copyrighted ETS/prep PDFs) — kept locally, never pushed
 *.pdf
+
+# Local Claude Code dev-server config
+.claude/launch.json
