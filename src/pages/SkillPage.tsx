@@ -18,6 +18,9 @@ export function SkillPage() {
   const [index, setIndex] = useState(0);
   const [answered, setAnswered] = useState(false);
   const [sessionCorrect, setSessionCorrect] = useState(0);
+  const [sessionAttempts, setSessionAttempts] = useState(0);
+  // Bumped after each answer so the picker re-reads statuses from storage.
+  const [, setStatusVersion] = useState(0);
 
   if (!skill) {
     return (
@@ -28,7 +31,21 @@ export function SkillPage() {
     );
   }
 
+  const statuses = storageAdapter.getQuestionStatuses(skill.id);
   const question = questions[index];
+
+  function handleStart() {
+    // Resume where they left off: first question they've never attempted.
+    const firstNew = questions.findIndex((q) => !(q.id in statuses));
+    setIndex(firstNew === -1 ? 0 : firstNew);
+    setStarted(true);
+  }
+
+  function handleJump(toIndex: number) {
+    if (toIndex === index) return;
+    setIndex(toIndex);
+    setAnswered(false);
+  }
 
   function handleAnswered(result: AnswerResult) {
     storageAdapter.recordAttempt({
@@ -40,7 +57,9 @@ export function SkillPage() {
       difficulty: question.difficulty,
     });
     if (result.correct) setSessionCorrect((c) => c + 1);
+    setSessionAttempts((n) => n + 1);
     setAnswered(true);
+    setStatusVersion((v) => v + 1);
   }
 
   const mastery = storageAdapter.getSkillMastery(skill.id);
@@ -58,7 +77,7 @@ export function SkillPage() {
         <>
           {lesson && <LessonDefinition lesson={lesson} />}
           {questions.length > 0 && (
-            <button type="button" onClick={() => setStarted(true)}>
+            <button type="button" onClick={handleStart}>
               Let's try problems
             </button>
           )}
@@ -70,9 +89,37 @@ export function SkillPage() {
           <h2>Practice</h2>
           {question ? (
             <>
+              <div className="question-picker" aria-label="Jump to a question">
+                {questions.map((q, i) => {
+                  const status =
+                    q.id in statuses
+                      ? statuses[q.id]
+                        ? "correct"
+                        : "wrong"
+                      : "new";
+                  return (
+                    <button
+                      key={q.id}
+                      type="button"
+                      className={`question-picker-btn question-picker-${status}${
+                        i === index ? " question-picker-current" : ""
+                      }`}
+                      onClick={() => handleJump(i)}
+                      title={
+                        status === "new"
+                          ? `Question ${i + 1} (not tried yet)`
+                          : `Question ${i + 1} (last attempt ${status})`
+                      }
+                    >
+                      {i + 1}
+                    </button>
+                  );
+                })}
+              </div>
               <p>
-                Question {index + 1} of {questions.length} — session score:{" "}
-                {sessionCorrect}/{index + (answered ? 1 : 0)}
+                Question {index + 1} of {questions.length}
+                {sessionAttempts > 0 &&
+                  ` — session score: ${sessionCorrect}/${sessionAttempts}`}
               </p>
               <QuestionView
                 key={question.id}
@@ -102,10 +149,7 @@ export function SkillPage() {
                 </button>
               )}
               {answered && index + 1 === questions.length && (
-                <p>
-                  Drill complete: {sessionCorrect}/{questions.length} correct
-                  this session.
-                </p>
+                <p>You've reached the last question in this skill's pool.</p>
               )}
             </>
           ) : (

@@ -69,6 +69,8 @@ export function deleteProfile(id: string): void {
     remaining.length > 0 ? remaining : [{ id: crypto.randomUUID(), name: "Guest" }];
   saveProfiles(finalProfiles);
   localStorage.removeItem(`gre-quant:mastery:${id}`);
+  localStorage.removeItem(`gre-quant:mock-history:${id}`);
+  localStorage.removeItem(`gre-quant:question-status:${id}`);
   if (localStorage.getItem(ACTIVE_PROFILE_KEY) === id) {
     setActiveProfileId(finalProfiles[0].id);
   }
