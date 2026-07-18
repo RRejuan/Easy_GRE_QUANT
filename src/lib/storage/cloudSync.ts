@@ -7,13 +7,19 @@ import {
   setDoc,
 } from "firebase/firestore";
 import { db } from "../firebase";
-import type { MockTestResult, SkillMasteryState } from "./StorageAdapter";
+import type {
+  MockTestResult,
+  QuestionStatusMap,
+  SkillMasteryState,
+} from "./StorageAdapter";
 import {
   MAX_MOCK_HISTORY,
   loadMasteryForNamespace,
   loadMockHistoryForNamespace,
+  loadQuestionStatusesForNamespace,
   saveAllMastery,
   saveMockHistory,
+  saveQuestionStatuses,
   setCloudWriteListener,
 } from "./LocalStorageAdapter";
 import { getStorageNamespace, setCloudNamespace } from "./namespace";
@@ -34,8 +40,9 @@ function warnSyncFailure(err: unknown): void {
 async function pushMastery(
   uid: string,
   all: Record<string, SkillMasteryState>,
+  statuses: QuestionStatusMap,
 ): Promise<void> {
-  await setDoc(masteryDoc(uid), { skills: all });
+  await setDoc(masteryDoc(uid), { skills: all, questionStatus: statuses });
 }
 
 async function pushMockResult(uid: string, result: MockTestResult): Promise<void> {
@@ -68,9 +75,13 @@ export async function beginCloudSession(uid: string): Promise<void> {
   const cloudMastery: Record<string, SkillMasteryState> = masterySnap.exists()
     ? ((masterySnap.data().skills ?? {}) as Record<string, SkillMasteryState>)
     : {};
+  const cloudStatuses: QuestionStatusMap = masterySnap.exists()
+    ? ((masterySnap.data().questionStatus ?? {}) as QuestionStatusMap)
+    : {};
   const cloudMocks = mockSnap.docs.map((d) => d.data() as MockTestResult);
 
   let localMastery = loadMasteryForNamespace(getStorageNamespace());
+  let localStatuses = loadQuestionStatusesForNamespace(getStorageNamespace());
   let localMocks = loadMockHistoryForNamespace(getStorageNamespace());
 
   const cloudEmpty = !masterySnap.exists() && cloudMocks.length === 0;
@@ -79,6 +90,7 @@ export async function beginCloudSession(uid: string): Promise<void> {
   if (cloudEmpty && accountLocalEmpty) {
     const guestId = getActiveProfileId();
     localMastery = loadMasteryForNamespace(guestId);
+    localStatuses = loadQuestionStatusesForNamespace(guestId);
     localMocks = loadMockHistoryForNamespace(guestId);
   }
 
@@ -86,6 +98,14 @@ export async function beginCloudSession(uid: string): Promise<void> {
   for (const [skillId, local] of Object.entries(localMastery)) {
     const cloud = mergedMastery[skillId];
     if (!cloud || local.attempts > cloud.attempts) mergedMastery[skillId] = local;
+  }
+
+  // Question statuses union per skill; on conflict the local outcome wins
+  // (it's the most recent on this device, and either value is a defensible
+  // "latest result" -- this just needs to be deterministic).
+  const mergedStatuses: QuestionStatusMap = { ...cloudStatuses };
+  for (const [skillId, local] of Object.entries(localStatuses)) {
+    mergedStatuses[skillId] = { ...mergedStatuses[skillId], ...local };
   }
 
   const cloudMockIds = new Set(cloudMocks.map((m) => m.id));
@@ -96,12 +116,14 @@ export async function beginCloudSession(uid: string): Promise<void> {
   while (mergedMocks.length > MAX_MOCK_HISTORY) mergedMocks.shift();
 
   saveAllMastery(mergedMastery);
+  saveQuestionStatuses(mergedStatuses);
   saveMockHistory(mergedMocks);
 
-  const cloudMissingMastery =
-    JSON.stringify(mergedMastery) !== JSON.stringify(cloudMastery);
-  if (cloudMissingMastery && Object.keys(mergedMastery).length > 0) {
-    await pushMastery(uid, mergedMastery).catch(warnSyncFailure);
+  const cloudMissingData =
+    JSON.stringify(mergedMastery) !== JSON.stringify(cloudMastery) ||
+    JSON.stringify(mergedStatuses) !== JSON.stringify(cloudStatuses);
+  if (cloudMissingData && Object.keys(mergedMastery).length > 0) {
+    await pushMastery(uid, mergedMastery, mergedStatuses).catch(warnSyncFailure);
   }
   const cloudMissingMocks = mergedMocks.filter((m) => !cloudMockIds.has(m.id));
   await Promise.all(
@@ -109,7 +131,8 @@ export async function beginCloudSession(uid: string): Promise<void> {
   );
 
   setCloudWriteListener({
-    onMasteryChanged: (all) => void pushMastery(uid, all).catch(warnSyncFailure),
+    onMasteryChanged: (all, statuses) =>
+      void pushMastery(uid, all, statuses).catch(warnSyncFailure),
     onMockTestRecorded: (result) =>
       void pushMockResult(uid, result).catch(warnSyncFailure),
     onProgressReset: () => void clearCloud(uid).catch(warnSyncFailure),

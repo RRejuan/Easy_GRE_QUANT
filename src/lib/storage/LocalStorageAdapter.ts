@@ -1,6 +1,7 @@
 import type {
   AttemptRecord,
   MockTestResult,
+  QuestionStatusMap,
   SkillMasteryState,
   StorageAdapter,
 } from "./StorageAdapter";
@@ -11,7 +12,10 @@ export const MAX_MOCK_HISTORY = 50;
 /** When signed in, cloud sync registers a listener here so every local write
  * is mirrored to Firestore. Null (guest mode) means writes stay local-only. */
 export interface CloudWriteListener {
-  onMasteryChanged(all: Record<string, SkillMasteryState>): void;
+  onMasteryChanged(
+    all: Record<string, SkillMasteryState>,
+    statuses: QuestionStatusMap,
+  ): void;
   onMockTestRecorded(result: MockTestResult): void;
   onProgressReset(): void;
 }
@@ -28,6 +32,29 @@ function storageKey(namespace: string): string {
 
 function mockHistoryKey(namespace: string): string {
   return `gre-quant:mock-history:${namespace}`;
+}
+
+function questionStatusKey(namespace: string): string {
+  return `gre-quant:question-status:${namespace}`;
+}
+
+export function loadQuestionStatusesForNamespace(
+  namespace: string,
+): QuestionStatusMap {
+  const raw = localStorage.getItem(questionStatusKey(namespace));
+  if (!raw) return {};
+  try {
+    return JSON.parse(raw) as QuestionStatusMap;
+  } catch {
+    return {};
+  }
+}
+
+export function saveQuestionStatuses(statuses: QuestionStatusMap): void {
+  localStorage.setItem(
+    questionStatusKey(getStorageNamespace()),
+    JSON.stringify(statuses),
+  );
 }
 
 export function loadMasteryForNamespace(
@@ -80,6 +107,10 @@ export class LocalStorageAdapter implements StorageAdapter {
     return Object.values(loadAll());
   }
 
+  getQuestionStatuses(skillId: string): Record<string, boolean> {
+    return loadQuestionStatusesForNamespace(getStorageNamespace())[skillId] ?? {};
+  }
+
   recordAttempt(attempt: AttemptRecord): SkillMasteryState {
     const all = loadAll();
     const existing = all[attempt.skillId] ?? {
@@ -108,7 +139,15 @@ export class LocalStorageAdapter implements StorageAdapter {
 
     all[attempt.skillId] = updated;
     saveAllMastery(all);
-    cloudListener?.onMasteryChanged(all);
+
+    const statuses = loadQuestionStatusesForNamespace(getStorageNamespace());
+    statuses[attempt.skillId] = {
+      ...statuses[attempt.skillId],
+      [attempt.questionId]: attempt.correct,
+    };
+    saveQuestionStatuses(statuses);
+
+    cloudListener?.onMasteryChanged(all, statuses);
     return updated;
   }
 
@@ -139,5 +178,6 @@ export function importProgressJSON(json: string): void {
 export function resetProgress(): void {
   localStorage.removeItem(storageKey(getStorageNamespace()));
   localStorage.removeItem(mockHistoryKey(getStorageNamespace()));
+  localStorage.removeItem(questionStatusKey(getStorageNamespace()));
   cloudListener?.onProgressReset();
 }

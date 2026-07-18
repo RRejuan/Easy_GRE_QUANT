@@ -38,9 +38,14 @@ export interface MockTestResult {
   estimatedScore: number;
 }
 
+/** Latest outcome per question, per skill: questionId -> true (correct) /
+ * false (wrong). Questions never attempted are simply absent. */
+export type QuestionStatusMap = Record<string, Record<string, boolean>>;
+
 export interface StorageAdapter {
   getSkillMastery(skillId: string): SkillMasteryState | undefined;
   getAllMastery(): SkillMasteryState[];
+  getQuestionStatuses(skillId: string): Record<string, boolean>;
   recordAttempt(attempt: AttemptRecord): SkillMasteryState;
   recordMockTestResult(result: MockTestResult): void;
   getMockTestHistory(): MockTestResult[];
