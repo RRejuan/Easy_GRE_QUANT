@@ -63,6 +63,53 @@
   padding: 4px 6px;
 }
 
+.google-signin-button {
+  font: inherit;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.google-signin-button:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.google-account {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+}
+.google-account-photo {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+.google-account-name {
+  font-weight: 600;
+  color: var(--text-h);
+  white-space: nowrap;
+}
+.google-account-signout {
+  font: inherit;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  background: none;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0;
+}
+.google-account-signout:hover {
+  color: var(--primary);
+}
+
 .donate-link {
   font-size: 0.85rem;
   font-weight: 600;
