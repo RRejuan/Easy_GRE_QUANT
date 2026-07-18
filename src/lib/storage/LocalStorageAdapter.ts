@@ -164,15 +164,6 @@ export class LocalStorageAdapter implements StorageAdapter {
   }
 }
 
-export function exportProgressJSON(): string {
-  return localStorage.getItem(storageKey(getStorageNamespace())) ?? "{}";
-}
-
-export function importProgressJSON(json: string): void {
-  JSON.parse(json); // throws if invalid, before we touch storage
-  localStorage.setItem(storageKey(getStorageNamespace()), json);
-}
-
 /** Clears all mastery/attempt data and mock test history for the active
  * profile (or the signed-in account, including its cloud copy). */
 export function resetProgress(): void {

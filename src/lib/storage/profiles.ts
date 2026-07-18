@@ -6,6 +6,10 @@ export interface Profile {
 const PROFILES_KEY = "gre-quant:profiles";
 const ACTIVE_PROFILE_KEY = "gre-quant:active-profile";
 
+/** The multi-profile switcher UI is gone, but progress keys are still scoped
+ * by a profile id: every guest browser gets one auto-created local profile,
+ * and data written under it survives app updates (and gets adopted into a
+ * Firebase account on first sign-in). */
 function loadProfiles(): Profile[] {
   const raw = localStorage.getItem(PROFILES_KEY);
   if (!raw) return [];
@@ -16,23 +20,15 @@ function loadProfiles(): Profile[] {
   }
 }
 
-function saveProfiles(profiles: Profile[]): void {
-  localStorage.setItem(PROFILES_KEY, JSON.stringify(profiles));
-}
-
 function ensureDefaultProfile(): Profile[] {
   let profiles = loadProfiles();
   if (profiles.length === 0) {
     const guest: Profile = { id: crypto.randomUUID(), name: "Guest" };
     profiles = [guest];
-    saveProfiles(profiles);
+    localStorage.setItem(PROFILES_KEY, JSON.stringify(profiles));
     localStorage.setItem(ACTIVE_PROFILE_KEY, guest.id);
   }
   return profiles;
-}
-
-export function listProfiles(): Profile[] {
-  return ensureDefaultProfile();
 }
 
 export function getActiveProfileId(): string {
@@ -42,36 +38,4 @@ export function getActiveProfileId(): string {
   const fallback = profiles[0].id;
   localStorage.setItem(ACTIVE_PROFILE_KEY, fallback);
   return fallback;
-}
-
-export function setActiveProfileId(id: string): void {
-  localStorage.setItem(ACTIVE_PROFILE_KEY, id);
-}
-
-export function createProfile(name: string): Profile {
-  const profiles = ensureDefaultProfile();
-  const profile: Profile = { id: crypto.randomUUID(), name };
-  saveProfiles([...profiles, profile]);
-  setActiveProfileId(profile.id);
-  return profile;
-}
-
-export function renameProfile(id: string, name: string): void {
-  const profiles = ensureDefaultProfile().map((p) =>
-    p.id === id ? { ...p, name } : p,
-  );
-  saveProfiles(profiles);
-}
-
-export function deleteProfile(id: string): void {
-  const remaining = ensureDefaultProfile().filter((p) => p.id !== id);
-  const finalProfiles =
-    remaining.length > 0 ? remaining : [{ id: crypto.randomUUID(), name: "Guest" }];
-  saveProfiles(finalProfiles);
-  localStorage.removeItem(`gre-quant:mastery:${id}`);
-  localStorage.removeItem(`gre-quant:mock-history:${id}`);
-  localStorage.removeItem(`gre-quant:question-status:${id}`);
-  if (localStorage.getItem(ACTIVE_PROFILE_KEY) === id) {
-    setActiveProfileId(finalProfiles[0].id);
-  }
 }

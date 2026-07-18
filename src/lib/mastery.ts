@@ -2,6 +2,11 @@ import type { SkillMasteryState } from "./storage/StorageAdapter";
 
 const MAX_DIFFICULTY = 5;
 
+/** Attempts needed before the score is fully trusted. Below this, mastery is
+ * scaled down proportionally: one lucky correct answer is weak evidence and
+ * shouldn't read as near-mastery of a skill. */
+const FULL_CONFIDENCE_ATTEMPTS = 10;
+
 function clamp(value: number, min: number, max: number): number {
   return Math.min(max, Math.max(min, value));
 }
@@ -20,5 +25,8 @@ export function computeMastery(state: SkillMasteryState): number {
 
   const difficultyScore = (state.highestDifficultyCleared / MAX_DIFFICULTY) * 100;
 
-  return Math.round(accuracyScore * 0.5 + speedScore * 0.3 + difficultyScore * 0.2);
+  const composite =
+    accuracyScore * 0.5 + speedScore * 0.3 + difficultyScore * 0.2;
+  const confidence = Math.min(1, state.attempts / FULL_CONFIDENCE_ATTEMPTS);
+  return Math.round(composite * confidence);
 }

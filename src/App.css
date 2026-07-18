@@ -37,6 +37,9 @@
   display: flex;
   gap: 16px;
   flex-wrap: wrap;
+  /* Pushes everything after the nav (sign-in, donate) to the header's right
+     edge, whether or not the sign-in button is rendered. */
+  margin-right: auto;
 }
 
 .app-nav a {
@@ -45,22 +48,6 @@
 }
 .app-nav a:hover {
   color: var(--primary);
-}
-
-.profile-switcher {
-  margin-left: auto;
-  display: flex;
-  gap: 6px;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.profile-switcher select {
-  font: inherit;
-  border-radius: 6px;
-  border: 1px solid var(--border);
-  background: var(--bg-card);
-  color: var(--text);
-  padding: 4px 6px;
 }
 
 .google-signin-button {
