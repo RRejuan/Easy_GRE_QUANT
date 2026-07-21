@@ -646,3 +646,59 @@ fieldset label {
   outline-offset: 1px;
   font-weight: 700;
 }
+
+/* --- Question report / feedback ------------------------------------- */
+
+.report-question-toggle {
+  font: inherit;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  background: none;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0;
+  margin-top: 14px;
+}
+.report-question-toggle:hover {
+  color: var(--primary);
+}
+
+.report-question-form {
+  margin-top: 14px;
+  padding: 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg-card);
+  font-size: 0.9rem;
+}
+.report-question-form legend {
+  font-weight: 600;
+}
+.report-question-form textarea {
+  font: inherit;
+  font-size: 0.9rem;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--text);
+  padding: 8px;
+  resize: vertical;
+}
+.report-question-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+.report-question-thanks {
+  font-size: 0.85rem;
+  color: var(--success);
+  margin-top: 14px;
+}
+.report-question-error {
+  font-size: 0.85rem;
+  color: var(--danger);
+  margin-top: 8px;
+}

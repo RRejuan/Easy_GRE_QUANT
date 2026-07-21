@@ -7,6 +7,7 @@ import { QCInput } from "./QCInput";
 import { MCInput } from "./MCInput";
 import { MultiMCInput } from "./MultiMCInput";
 import { NumericInput } from "./NumericInput";
+import { ReportQuestionButton } from "./ReportQuestionButton";
 import { evalFormula, fillTemplate, resolveVariables } from "../../lib/variables";
 
 export interface AnswerResult {
@@ -225,6 +226,12 @@ export function QuestionView({
             )}
           </div>
         </div>
+      )}
+
+      {/* In mock-test mode the report control only appears after answering,
+          so it can't leak a hint that something about the question is off. */}
+      {(answered || !deferFeedback) && (
+        <ReportQuestionButton question={question} values={values} />
       )}
     </div>
   );
