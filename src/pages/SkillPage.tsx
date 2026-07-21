@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { getLessonForSkill, getQuestionsForSkill, getSkill } from "../lib/content";
 import { storageAdapter } from "../lib/storage";
-import { computeMastery } from "../lib/mastery";
+import { skillMasteryPercent } from "../lib/mastery";
 import { LessonDefinition, LessonExplanation } from "../components/LessonView";
 import { QuestionView, type AnswerResult } from "../components/question/QuestionView";
 import { MasteryBar } from "../components/MasteryBar";
@@ -62,15 +62,13 @@ export function SkillPage() {
     setStatusVersion((v) => v + 1);
   }
 
-  const mastery = storageAdapter.getSkillMastery(skill.id);
-
   return (
     <div className="skill-page">
       <Link to="/skills">&larr; Back to skill list</Link>
       <h1>{skill.name}</h1>
       <p className="skill-description">{skill.description}</p>
       <p>
-        Mastery: <MasteryBar percent={mastery ? computeMastery(mastery) : 0} />
+        Mastery: <MasteryBar percent={skillMasteryPercent(skill.id)} />
       </p>
 
       {!started && (

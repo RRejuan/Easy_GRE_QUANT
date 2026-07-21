@@ -1,32 +1,30 @@
-import type { SkillMasteryState } from "./storage/StorageAdapter";
+import { getQuestionsForSkill } from "./content";
+import { storageAdapter } from "./storage";
 
-const MAX_DIFFICULTY = 5;
-
-/** Attempts needed before the score is fully trusted. Below this, mastery is
- * scaled down proportionally: one lucky correct answer is weak evidence and
- * shouldn't read as near-mastery of a skill. */
-const FULL_CONFIDENCE_ATTEMPTS = 10;
-
-function clamp(value: number, min: number, max: number): number {
-  return Math.min(max, Math.max(min, value));
+/**
+ * Mastery is simply the share of a skill's question pool answered correctly on
+ * the most recent attempt. Every distinct question is worth an equal
+ * 1/(pool size): one correct answer in a 20-question skill is 5%, and turning
+ * the whole pool green (the same green as the practice question picker) is
+ * 100%. A question later answered wrong drops back out of the count.
+ */
+export function computeMastery(
+  correctQuestions: number,
+  totalQuestions: number,
+): number {
+  if (totalQuestions <= 0) return 0;
+  const ratio = correctQuestions / totalQuestions;
+  return Math.round(Math.min(1, ratio) * 100);
 }
 
-/** Combines accuracy, speed relative to target time, and highest difficulty cleared into a single 0-100 mastery score. */
-export function computeMastery(state: SkillMasteryState): number {
-  if (state.attempts === 0) return 0;
-
-  const accuracyScore = (state.correctCount / state.attempts) * 100;
-
-  // totalTimeTargetSec only accumulates on correct attempts (see
-  // recordAttempt), so it's 0 whenever nothing has been solved correctly
-  // yet -- guard the division rather than let a 0/0 NaN leak into the score.
-  const timeRatio = state.totalTimeTargetSec > 0 ? state.totalTimeSec / state.totalTimeTargetSec : 1;
-  const speedScore = state.totalTimeTargetSec > 0 ? clamp((2 - timeRatio) * 100, 0, 100) : 0;
-
-  const difficultyScore = (state.highestDifficultyCleared / MAX_DIFFICULTY) * 100;
-
-  const composite =
-    accuracyScore * 0.5 + speedScore * 0.3 + difficultyScore * 0.2;
-  const confidence = Math.min(1, state.attempts / FULL_CONFIDENCE_ATTEMPTS);
-  return Math.round(composite * confidence);
+/** Mastery percent for a skill: the number of its questions whose latest
+ * attempt was correct, over the size of its current pool. */
+export function skillMasteryPercent(skillId: string): number {
+  const statuses = storageAdapter.getQuestionStatuses(skillId);
+  const questions = getQuestionsForSkill(skillId);
+  const correct = questions.reduce(
+    (count, q) => count + (statuses[q.id] === true ? 1 : 0),
+    0,
+  );
+  return computeMastery(correct, questions.length);
 }
