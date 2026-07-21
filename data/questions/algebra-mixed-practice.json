@@ -1469,5 +1469,1409 @@
     "answer": "C",
     "solutionStandard": "For a fixed sum, the product \\(xy\\) is maximized when \\(x=y=5\\), giving \\(xy=25\\). This maximum value is exactly 25, so the quantities are equal.",
     "timeTargetSec": 95
+  },
+  {
+    "id": "algebra-mixed-practice-051",
+    "type": "Numeric",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "quadratic-equations"
+    ],
+    "difficulty": 5,
+    "variables": [
+      {
+        "name": "s",
+        "min": 6,
+        "max": 9
+      },
+      {
+        "name": "p",
+        "min": 4,
+        "max": 8
+      }
+    ],
+    "stem": "The roots of the equation \\(x^2 - {{s}}x + {{p}} = 0\\) are \\(r\\) and \\(t\\). What is the value of \\(r^2 + t^2\\)?",
+    "answer": 28,
+    "answerFormula": "s*s-2*p",
+    "solutionStandard": "By Vieta's formulas, \\(r + t = {{s}}\\) and \\(rt = {{p}}\\). Then \\(r^2 + t^2 = (r+t)^2 - 2rt = {{s}}^2 - 2\\cdot{{p}} = {{s*s}} - {{2*p}} = {{s*s-2*p}}\\).",
+    "solutionShortcut": "Never solve for the roots. Sum and product are sitting in the coefficients (\\(r+t = {{s}}\\), \\(rt = {{p}}\\)), and every symmetric expression in the roots — \\(r^2+t^2\\), \\(\\tfrac1r+\\tfrac1t\\), \\((r-t)^2\\) — is built from those two numbers.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 100
+  },
+  {
+    "id": "algebra-mixed-practice-052",
+    "type": "QC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "quadratic-equations"
+    ],
+    "difficulty": 4,
+    "stem": "\\(x^2 = 5x\\)",
+    "quantityA": "\\(x\\)",
+    "quantityB": "5",
+    "answer": "D",
+    "solutionStandard": "\\(x^2 - 5x = 0\\) gives \\(x(x-5) = 0\\), so \\(x = 0\\) or \\(x = 5\\). If \\(x = 5\\) the quantities are equal; if \\(x = 0\\), Quantity B is greater. The relationship cannot be determined.",
+    "solutionShortcut": "Dividing both sides by \\(x\\) silently throws away the solution \\(x=0\\) — the classic trap that makes (C) tempting. Always factor instead of dividing by a variable.",
+    "shortcutTags": [
+      "eliminate"
+    ],
+    "timeTargetSec": 70
+  },
+  {
+    "id": "algebra-mixed-practice-053",
+    "type": "MC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "absolute-value-equations",
+      "linear-inequalities"
+    ],
+    "difficulty": 4,
+    "stem": "How many integers \\(x\\) satisfy \\(|2x - 3| < 7\\)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "4"
+      },
+      {
+        "id": "B",
+        "text": "5"
+      },
+      {
+        "id": "C",
+        "text": "6"
+      },
+      {
+        "id": "D",
+        "text": "7"
+      },
+      {
+        "id": "E",
+        "text": "8"
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "\\(|2x-3| < 7\\) means \\(-7 < 2x - 3 < 7\\), so \\(-4 < 2x < 10\\), i.e. \\(-2 < x < 5\\). The integers are \\(-1, 0, 1, 2, 3, 4\\): six of them.",
+    "solutionShortcut": "Unpack the absolute value into a double inequality in one line, and count integers in an open interval carefully — endpoints \\(-2\\) and \\(5\\) are excluded, which is exactly where the off-by-one traps (B) and (D) live.",
+    "shortcutTags": [
+      "eliminate"
+    ],
+    "timeTargetSec": 85
+  },
+  {
+    "id": "algebra-mixed-practice-054",
+    "type": "Numeric",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "linear-equations-two-var",
+      "factoring-polynomials"
+    ],
+    "difficulty": 4,
+    "variables": [
+      {
+        "name": "a",
+        "min": 5,
+        "max": 9
+      },
+      {
+        "name": "b",
+        "min": 1,
+        "max": 4
+      }
+    ],
+    "stem": "If \\(x + y = {{2*a}}\\) and \\(x - y = {{2*b}}\\), what is the value of \\(xy\\)?",
+    "answer": 24,
+    "answerFormula": "(a+b)*(a-b)",
+    "solutionStandard": "Adding and subtracting: \\(x = {{a+b}}\\) and \\(y = {{a-b}}\\). So \\(xy = {{a+b}} \\times {{a-b}} = {{(a+b)*(a-b)}}\\).",
+    "solutionShortcut": "You can skip solving: \\(xy = \\tfrac{(x+y)^2 - (x-y)^2}{4} = \\tfrac{ {{4*a*a}} - {{4*b*b}} }{4} = {{a*a-b*b}}\\). The difference-of-squares identity turns sum/difference givens straight into a product.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 90
+  },
+  {
+    "id": "algebra-mixed-practice-055",
+    "type": "QC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "algebraic-expressions-simplify"
+    ],
+    "difficulty": 4,
+    "stem": "\\(xy > 0\\)",
+    "quantityA": "\\((x + y)^2\\)",
+    "quantityB": "\\(x^2 + y^2\\)",
+    "answer": "A",
+    "solutionStandard": "\\((x+y)^2 = x^2 + 2xy + y^2\\). Since \\(xy > 0\\), the extra term \\(2xy\\) is positive, so \\((x+y)^2 > x^2 + y^2\\). Quantity A is greater.",
+    "solutionShortcut": "Expand and compare the leftover term — QC questions love hiding everything in the cross-term \\(2xy\\). Its sign (given directly here) is the entire answer.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 65
+  },
+  {
+    "id": "algebra-mixed-practice-056",
+    "type": "MC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "functions-basics"
+    ],
+    "difficulty": 4,
+    "stem": "If \\(f(x) = 2x + 1\\) and \\(g(x) = x^2 - 1\\), what is \\(f(g(3))\\)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "14"
+      },
+      {
+        "id": "B",
+        "text": "17"
+      },
+      {
+        "id": "C",
+        "text": "26"
+      },
+      {
+        "id": "D",
+        "text": "48"
+      },
+      {
+        "id": "E",
+        "text": "50"
+      }
+    ],
+    "answer": "B",
+    "solutionStandard": "Work inside-out: \\(g(3) = 9 - 1 = 8\\), then \\(f(8) = 16 + 1 = 17\\).",
+    "solutionShortcut": "Composition reads right-to-left: evaluate the inner function first. The trap answer 48 is \\(g(f(3))\\) — the reversed order. Fix the order before touching numbers and this question is 15 seconds.",
+    "shortcutTags": [
+      "eliminate"
+    ],
+    "timeTargetSec": 60
+  },
+  {
+    "id": "algebra-mixed-practice-057",
+    "type": "Numeric",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "exponents-basic"
+    ],
+    "difficulty": 4,
+    "stem": "If \\(2^{x+3} = 8^{x-1}\\), what is the value of \\(x\\)?",
+    "answer": 3,
+    "solutionStandard": "Write both sides with base 2: \\(8^{x-1} = 2^{3x-3}\\). Equal bases force equal exponents: \\(x + 3 = 3x - 3\\), so \\(2x = 6\\) and \\(x = 3\\).",
+    "solutionShortcut": "Exponential equations on the GRE are always solvable by matching bases (2, 3, or 5 powers). Convert first, equate exponents, and it becomes a linear equation.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 75
+  },
+  {
+    "id": "algebra-mixed-practice-058",
+    "type": "MultiMC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "absolute-value-equations",
+      "inequalities-compound"
+    ],
+    "difficulty": 4,
+    "stem": "\\(|x - 2| \\ge 3\\). Which of the following could be the value of \\(x\\)? Select all that apply.",
+    "options": [
+      {
+        "id": "A",
+        "text": "\\(-4\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(-1\\)"
+      },
+      {
+        "id": "C",
+        "text": "0"
+      },
+      {
+        "id": "D",
+        "text": "2"
+      },
+      {
+        "id": "E",
+        "text": "5"
+      },
+      {
+        "id": "F",
+        "text": "6"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "E",
+      "F"
+    ],
+    "solutionStandard": "\\(|x-2| \\ge 3\\) means \\(x - 2 \\ge 3\\) or \\(x - 2 \\le -3\\): \\(x \\ge 5\\) or \\(x \\le -1\\). Checking: \\(-4\\) ✓, \\(-1\\) ✓ (equality allowed), \\(0\\) ✗, \\(2\\) ✗, \\(5\\) ✓, \\(6\\) ✓.",
+    "solutionShortcut": "Read \\(|x-2| \\ge 3\\) as distance: \\(x\\) is at least 3 away from 2 on the number line, so everything outside the open interval \\((-1, 5)\\) qualifies — endpoints included. Distance language beats case-splitting for speed.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 90
+  },
+  {
+    "id": "algebra-mixed-practice-059",
+    "type": "QC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "quadratic-equations",
+      "functions-basics"
+    ],
+    "difficulty": 4,
+    "stem": "\\(f(x) = x^2 - 6x + 11\\)",
+    "quantityA": "The minimum value of \\(f(x)\\)",
+    "quantityB": "2",
+    "answer": "C",
+    "solutionStandard": "Complete the square: \\(f(x) = (x-3)^2 + 2\\). The square is at least 0 (equal at \\(x=3\\)), so the minimum value is exactly 2. The quantities are equal.",
+    "solutionShortcut": "The vertex of \\(x^2 + bx + c\\) sits at \\(x = -b/2\\) — here \\(x = 3\\) — and one evaluation \\(f(3) = 9 - 18 + 11 = 2\\) finishes it. No calculus, no completing the square if you know the vertex rule.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 80
+  },
+  {
+    "id": "algebra-mixed-practice-060",
+    "type": "Numeric",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "word-problems-algebraic-translation",
+      "linear-equations-two-var"
+    ],
+    "difficulty": 4,
+    "stem": "The sum of Amir's and Ben's ages is 56. Eight years ago, Amir was three times as old as Ben. How old is Amir now?",
+    "answer": 38,
+    "solutionStandard": "Let their ages be \\(a + b = 56\\). Eight years ago: \\(a - 8 = 3(b - 8)\\), so \\(a = 3b - 16\\). Substituting: \\(3b - 16 + b = 56\\), \\(4b = 72\\), \\(b = 18\\), so \\(a = 38\\).",
+    "solutionShortcut": "Work in the past first: 8 years ago the ages summed to \\(56 - 16 = 40\\) and stood in ratio 3:1, so they were 30 and 10. Add the 8 years back: Amir is 38. Shifting the timeline before dividing avoids the substitution entirely.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 100
+  },
+  {
+    "id": "algebra-mixed-practice-061",
+    "type": "Numeric",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "ratios-proportions",
+      "functions-basics"
+    ],
+    "difficulty": 4,
+    "stem": "\\(y\\) varies directly as the square of \\(x\\). When \\(x = 3\\), \\(y = 18\\). What is \\(y\\) when \\(x = 5\\)?",
+    "answer": 50,
+    "solutionStandard": "\\(y = kx^2\\) with \\(18 = 9k\\), so \\(k = 2\\) and \\(y = 2x^2\\). At \\(x = 5\\): \\(y = 2 \\cdot 25 = 50\\).",
+    "solutionShortcut": "Skip \\(k\\): with square variation, \\(y\\) scales by the square of the \\(x\\)-ratio. \\(x\\) grows by \\(\\tfrac53\\), so \\(y\\) grows by \\(\\tfrac{25}{9}\\): \\(18 \\cdot \\tfrac{25}{9} = 50\\).",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 85
+  },
+  {
+    "id": "algebra-mixed-practice-062",
+    "type": "QC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "linear-inequalities",
+      "fractions-operations"
+    ],
+    "difficulty": 4,
+    "stem": "\\(a < b < 0\\)",
+    "quantityA": "\\(\\dfrac{1}{a}\\)",
+    "quantityB": "\\(\\dfrac{1}{b}\\)",
+    "answer": "A",
+    "solutionStandard": "Both reciprocals are negative. Try \\(a = -4\\), \\(b = -2\\): \\(\\tfrac1a = -0.25\\) and \\(\\tfrac1b = -0.5\\), so \\(\\tfrac1a > \\tfrac1b\\). In general, taking reciprocals of two numbers with the same sign reverses their order — Quantity A is greater.",
+    "solutionShortcut": "Reciprocals reverse order within a sign class. Since \\(a < b\\) and both are negative, \\(\\tfrac1a > \\tfrac1b\\), no computation needed — but a two-second plug-in (\\(-4, -2\\)) confirms it if you're unsure of the rule.",
+    "shortcutTags": [
+      "plug-in"
+    ],
+    "timeTargetSec": 70
+  },
+  {
+    "id": "algebra-mixed-practice-063",
+    "type": "Numeric",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "sequences-algebraic"
+    ],
+    "difficulty": 4,
+    "stem": "A sequence is defined by \\(a_1 = 2\\) and \\(a_n = 3a_{n-1} - 2\\) for \\(n \\ge 2\\). What is \\(a_5\\)?",
+    "answer": 82,
+    "solutionStandard": "Iterate: \\(a_2 = 3(2)-2 = 4\\); \\(a_3 = 3(4)-2 = 10\\); \\(a_4 = 3(10)-2 = 28\\); \\(a_5 = 3(28)-2 = 82\\).",
+    "solutionShortcut": "For a five-term recursive sequence, brute-force iteration IS the shortcut — four quick multiplications beat hunting for a closed form. (If you like patterns: \\(a_n - 1\\) triples each step: 1, 3, 9, 27, 81, so \\(a_5 = 81 + 1\\).)",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 90
+  },
+  {
+    "id": "algebra-mixed-practice-064",
+    "type": "MC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "factoring-polynomials"
+    ],
+    "difficulty": 4,
+    "stem": "Which of the following is NOT a factor of \\(x^4 - 16\\)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "\\(x - 2\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(x + 2\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(x^2 + 2\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(x^2 + 4\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(x^2 - 4\\)"
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "\\(x^4 - 16 = (x^2-4)(x^2+4) = (x-2)(x+2)(x^2+4)\\). The factors present are \\(x\\pm2\\), \\(x^2-4\\), and \\(x^2+4\\); \\(x^2 + 2\\) is not among them.",
+    "solutionShortcut": "Difference of squares, twice. Or test a root: \\(x^2+2 = 0\\) has no real root shared with \\(x^4=16\\); quicker still, plug \\(x=2\\) into each candidate — a true factor's cofactor keeps \\(x^4-16 = 0\\), and only \\(x^2+2\\) can't be arranged so.",
+    "shortcutTags": [
+      "plug-in",
+      "eliminate"
+    ],
+    "timeTargetSec": 85
+  },
+  {
+    "id": "algebra-mixed-practice-065",
+    "type": "Numeric",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "word-problems-algebraic-translation",
+      "linear-equations-two-var"
+    ],
+    "difficulty": 5,
+    "variables": [
+      {
+        "name": "m",
+        "min": 10,
+        "max": 30
+      },
+      {
+        "name": "n",
+        "min": 10,
+        "max": 30
+      },
+      {
+        "name": "a",
+        "min": 8,
+        "max": 15
+      },
+      {
+        "name": "c",
+        "min": 3,
+        "max": 7
+      }
+    ],
+    "stem": "A theater sold {{m+n}} tickets for a total of \\(\\${{a*m+c*n}}\\). Adult tickets cost \\(\\${{a}}\\) each and child tickets \\(\\${{c}}\\) each. How many adult tickets were sold?",
+    "answer": 20,
+    "answerFormula": "m",
+    "solutionStandard": "Let \\(A\\) adults and \\(C\\) children: \\(A + C = {{m+n}}\\) and \\({{a}}A + {{c}}C = {{a*m+c*n}}\\). From the first, \\(C = {{m+n}} - A\\); substituting: \\({{a}}A + {{c}}({{m+n}} - A) = {{a*m+c*n}}\\), so \\(({{a}}-{{c}})A = {{a*m+c*n}} - {{c*(m+n)}} = {{(a-c)*m}}\\), giving \\(A = {{m}}\\).",
+    "solutionShortcut": "Use the all-children baseline: if every ticket were a child ticket, revenue would be \\({{c}} \\times {{m+n}} = {{c*(m+n)}}\\). The actual total is \\({{a*m+c*n - c*(m+n)}}\\) more, and each adult ticket adds \\({{a-c}}\\): \\({{(a-c)*m}} \\div {{a-c}} = {{m}}\\) adults. This 'assume-all-cheap' move solves every two-price problem in one line.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 130
+  },
+  {
+    "id": "algebra-mixed-practice-066",
+    "type": "QC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "absolute-value",
+      "number-line-ordering"
+    ],
+    "difficulty": 5,
+    "stem": "\\(xy < 0\\)",
+    "quantityA": "\\(|x| + |y|\\)",
+    "quantityB": "\\(|x + y|\\)",
+    "answer": "A",
+    "solutionStandard": "Since \\(xy < 0\\), the numbers have opposite signs, so adding them involves cancellation: \\(|x+y|\\) equals the positive difference of \\(|x|\\) and \\(|y|\\), which is strictly less than their sum (neither is 0). Quantity A is greater.",
+    "solutionShortcut": "Triangle inequality with teeth: \\(|x|+|y| \\ge |x+y|\\) always, with equality only when the signs agree. The given \\(xy<0\\) forbids equality, so (A) without testing numbers — though \\(x=1, y=-1\\) makes it vivid: \\(2 > 0\\).",
+    "shortcutTags": [
+      "plug-in"
+    ],
+    "timeTargetSec": 85
+  },
+  {
+    "id": "algebra-mixed-practice-067",
+    "type": "MC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "quadratic-equations"
+    ],
+    "difficulty": 4,
+    "stem": "For which value(s) of \\(k\\) does \\(x^2 + kx + 9 = 0\\) have exactly one real solution?",
+    "options": [
+      {
+        "id": "A",
+        "text": "6 only"
+      },
+      {
+        "id": "B",
+        "text": "\\(-6\\) only"
+      },
+      {
+        "id": "C",
+        "text": "6 and \\(-6\\)"
+      },
+      {
+        "id": "D",
+        "text": "3 and \\(-3\\)"
+      },
+      {
+        "id": "E",
+        "text": "9 only"
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "One real solution means zero discriminant: \\(k^2 - 4 \\cdot 9 = 0\\), so \\(k^2 = 36\\) and \\(k = \\pm 6\\).",
+    "solutionShortcut": "One solution means perfect square: \\((x \\pm 3)^2 = x^2 \\pm 6x + 9\\). Reading the middle term straight off the square skips the discriminant formula — and reminds you both signs work.",
+    "shortcutTags": [
+      "estimate",
+      "eliminate"
+    ],
+    "timeTargetSec": 80
+  },
+  {
+    "id": "algebra-mixed-practice-068",
+    "type": "Numeric",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "linear-inequalities"
+    ],
+    "difficulty": 4,
+    "stem": "What is the greatest integer value of \\(x\\) satisfying \\(-2(x - 3) \\ge 4 - x\\)?",
+    "answer": 2,
+    "solutionStandard": "\\(-2x + 6 \\ge 4 - x\\). Adding \\(2x\\) to both sides: \\(6 \\ge 4 + x\\), so \\(x \\le 2\\). The greatest integer is 2.",
+    "solutionShortcut": "Move the variable to whichever side keeps its coefficient positive — you never multiply by a negative, so the inequality sign never flips and the #1 error in this question type disappears.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 70
+  },
+  {
+    "id": "algebra-mixed-practice-069",
+    "type": "QC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "linear-inequalities"
+    ],
+    "difficulty": 4,
+    "variables": [
+      {
+        "name": "a",
+        "min": 2,
+        "max": 30
+      }
+    ],
+    "stem": "\\(3x + {{a}} < {{a}} + 12\\)",
+    "quantityA": "\\(x\\)",
+    "quantityB": "4",
+    "answer": "B",
+    "solutionStandard": "Subtract {{a}} from both sides: \\(3x < 12\\), so \\(x < 4\\) — strictly. Quantity B is greater.",
+    "solutionShortcut": "The \\({{a}}\\)'s cancel on sight; they're decoration. When the same term appears on both sides of an inequality, strike it immediately and see what's really being asked. Note \\(x<4\\) is strict, so (C) is impossible.",
+    "shortcutTags": [
+      "eliminate"
+    ],
+    "timeTargetSec": 60
+  },
+  {
+    "id": "algebra-mixed-practice-070",
+    "type": "MultiMC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "linear-inequalities",
+      "number-line-ordering"
+    ],
+    "difficulty": 5,
+    "stem": "\\(x < y < 0\\). Which of the following must be true? Select all that apply.",
+    "options": [
+      {
+        "id": "A",
+        "text": "\\(xy > 0\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(x^2 < y^2\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(\\dfrac{x}{y} > 1\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(x + y < 0\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(y - x < 0\\)"
+      }
+    ],
+    "answer": [
+      "A",
+      "C",
+      "D"
+    ],
+    "solutionStandard": "Both negative: product positive ✓ (A). \\(x\\) is farther from zero, so \\(x^2 > y^2\\) — (B) is false. \\(x/y\\): negative over negative is positive, and \\(|x| > |y|\\) makes the quotient exceed 1 ✓ (C). Sum of negatives is negative ✓ (D). \\(y - x = y + (-x) > 0\\) since \\(y > x\\) — (E) is false.",
+    "solutionShortcut": "Plug in \\(x = -3, y = -1\\): \\(xy=3\\) ✓, \\(9 < 1\\) ✗, \\(3 > 1\\) ✓, \\(-4 < 0\\) ✓, \\(2 < 0\\) ✗. One well-chosen pair settles all five in seconds — for \"must be true\" with two ordered negatives, \\(-3, -1\\) is the canonical test pair.",
+    "shortcutTags": [
+      "plug-in"
+    ],
+    "timeTargetSec": 110
+  },
+  {
+    "id": "algebra-mixed-practice-071",
+    "type": "Numeric",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "word-problems-algebraic-translation",
+      "percent-basics"
+    ],
+    "difficulty": 5,
+    "stem": "How many liters of a 30% acid solution must be added to 10 liters of a 60% acid solution to obtain a 40% acid solution?",
+    "answer": 20,
+    "solutionStandard": "Let \\(x\\) liters of 30% solution. Acid: \\(0.3x + 0.6(10) = 0.4(10 + x)\\), so \\(0.3x + 6 = 4 + 0.4x\\), giving \\(2 = 0.1x\\) and \\(x = 20\\).",
+    "solutionShortcut": "Alligation: distances from the target are \\(40-30 = 10\\) and \\(60-40 = 20\\), so the solutions mix in ratio \\(20 : 10 = 2 : 1\\) (weaker gets the bigger share). With 10 L of the strong one, you need 20 L of the weak. The see-saw diagram does every mixture problem in ten seconds.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 120
+  },
+  {
+    "id": "algebra-mixed-practice-072",
+    "type": "MC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "exponents-basic"
+    ],
+    "difficulty": 4,
+    "stem": "If \\(9^x = 3^{x+4}\\), what is the value of \\(x\\)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "3"
+      },
+      {
+        "id": "D",
+        "text": "4"
+      },
+      {
+        "id": "E",
+        "text": "8"
+      }
+    ],
+    "answer": "D",
+    "solutionStandard": "\\(9^x = 3^{2x}\\), so \\(2x = x + 4\\) and \\(x = 4\\).",
+    "solutionShortcut": "Same-base conversion again — or backsolve from (C): \\(9^3 = 729\\) vs \\(3^7 = 2187\\), too small a left side, so go up; \\(x=4\\): \\(9^4 = 6561 = 3^8\\) ✓.",
+    "shortcutTags": [
+      "backsolve"
+    ],
+    "timeTargetSec": 65
+  },
+  {
+    "id": "algebra-mixed-practice-073",
+    "type": "QC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "quadratic-equations"
+    ],
+    "difficulty": 4,
+    "stem": "\\(r\\) and \\(s\\) are the roots of \\(x^2 + 5x + 6 = 0\\).",
+    "quantityA": "\\(rs\\)",
+    "quantityB": "\\(r + s\\)",
+    "answer": "A",
+    "solutionStandard": "By Vieta's formulas, \\(rs = 6\\) and \\(r + s = -5\\). Quantity A is greater. (The roots are \\(-2\\) and \\(-3\\), confirming both values.)",
+    "solutionShortcut": "Product \\(= c = 6\\), sum \\(= -b = -5\\), straight from the coefficients — comparing them requires zero solving. Vieta first, factoring only if you must.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 60
+  },
+  {
+    "id": "algebra-mixed-practice-074",
+    "type": "Numeric",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "algebraic-expressions-simplify",
+      "exponents-basic"
+    ],
+    "difficulty": 5,
+    "variables": [
+      {
+        "name": "a",
+        "min": 3,
+        "max": 9
+      }
+    ],
+    "stem": "If \\(x + \\dfrac{1}{x} = {{a}}\\), what is the value of \\(x^2 + \\dfrac{1}{x^2}\\)?",
+    "answer": 47,
+    "answerFormula": "a*a-2",
+    "solutionStandard": "Square the given equation: \\(\\left(x + \\tfrac1x\\right)^2 = x^2 + 2 + \\tfrac{1}{x^2} = {{a*a}}\\). Subtract 2: \\(x^2 + \\tfrac{1}{x^2} = {{a*a-2}}\\).",
+    "solutionShortcut": "Never solve for \\(x\\) (it's irrational). The \\(x + \\tfrac1x\\) family works by squaring: each squaring adds a \\(+2\\) cross-term to strip off. (Cubes: \\(x^3 + \\tfrac1{x^3} = a^3 - 3a\\), same philosophy.)",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 90
+  },
+  {
+    "id": "algebra-mixed-practice-075",
+    "type": "MC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "inequalities-compound",
+      "quadratic-equations"
+    ],
+    "difficulty": 5,
+    "stem": "If \\(-3 < x < 2\\), which of the following describes all possible values of \\(x^2\\)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "\\(4 < x^2 < 9\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(0 < x^2 < 4\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(0 \\le x^2 < 4\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(0 \\le x^2 < 9\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(0 < x^2 < 9\\)"
+      }
+    ],
+    "answer": "D",
+    "solutionStandard": "On \\(-3 < x < 2\\), \\(x^2\\) is smallest at \\(x = 0\\) (value 0, attained) and approaches but never reaches 9 as \\(x \\to -3\\). So \\(0 \\le x^2 < 9\\).",
+    "solutionShortcut": "Squaring an interval that straddles 0: the minimum is always 0 (attained — that kills options with strict \\(0 <\\)), and the max comes from the endpoint with the larger absolute value, here \\(|-3| = 3\\). Check attainment at both ends and two of the five options survive; only one includes 0.",
+    "shortcutTags": [
+      "eliminate"
+    ],
+    "timeTargetSec": 95
+  },
+  {
+    "id": "algebra-mixed-practice-076",
+    "type": "Numeric",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "sequences-algebraic"
+    ],
+    "difficulty": 4,
+    "stem": "In an arithmetic sequence, the 3rd term is 11 and the 8th term is 31. What is the sum of the first 20 terms?",
+    "answer": 820,
+    "solutionStandard": "Common difference: \\(d = \\tfrac{31 - 11}{8 - 3} = 4\\). First term: \\(a_1 = 11 - 2d = 3\\). Sum: \\(S_{20} = \\tfrac{20}{2}\\left(2a_1 + 19d\\right) = 10(6 + 76) = 820\\).",
+    "solutionShortcut": "\\(d\\) = (term gap) ÷ (index gap) — treat it like a slope. Then \\(S_{20} = 20 \\times \\text{average of } a_1 \\text{ and } a_{20} = 20 \\cdot \\tfrac{3 + 79}{2} = 820\\); the average-of-endpoints form is faster than the formula with \\(2a_1 + (n-1)d\\).",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 120
+  },
+  {
+    "id": "algebra-mixed-practice-077",
+    "type": "QC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "linear-equations-two-var"
+    ],
+    "difficulty": 4,
+    "stem": "\\(5x - 3y = 0\\) and \\(x > 0\\)",
+    "quantityA": "\\(x\\)",
+    "quantityB": "\\(y\\)",
+    "answer": "B",
+    "solutionStandard": "From the equation, \\(y = \\tfrac53 x\\). Since \\(x > 0\\), \\(y\\) is \\(\\tfrac53\\) of a positive number, so \\(y > x\\). Quantity B is greater.",
+    "solutionShortcut": "Solve for the ratio, not the values: \\(\\tfrac{y}{x} = \\tfrac53 > 1\\) with \\(x\\) positive settles it. (If the sign of \\(x\\) weren't given, the answer would be (D) — the positivity condition is doing real work here.)",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 70
+  },
+  {
+    "id": "algebra-mixed-practice-078",
+    "type": "MC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "word-problems-algebraic-translation"
+    ],
+    "difficulty": 4,
+    "stem": "Twice \\(x\\) exceeds half of \\(y\\) by 7. Which of the following expresses \\(y\\) in terms of \\(x\\)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "\\(y = 4x - 14\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(y = 4x + 14\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(y = 2x - 7\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(y = x - \\tfrac{7}{2}\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(y = 14 - 4x\\)"
+      }
+    ],
+    "answer": "A",
+    "solutionStandard": "\"Twice \\(x\\) exceeds half of \\(y\\) by 7\" translates to \\(2x = \\tfrac{y}{2} + 7\\). Solving: \\(\\tfrac{y}{2} = 2x - 7\\), so \\(y = 4x - 14\\).",
+    "solutionShortcut": "\"A exceeds B by c\" always means \\(A = B + c\\) — translate word-by-word, then clear fractions. To verify without algebra, plug \\(x = 4\\): twice \\(x\\) is 8, so half of \\(y\\) is 1, \\(y = 2\\); only option (A) gives 2 at \\(x=4\\).",
+    "shortcutTags": [
+      "plug-in"
+    ],
+    "timeTargetSec": 80
+  },
+  {
+    "id": "algebra-mixed-practice-079",
+    "type": "Numeric",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "functions-basics",
+      "coordinate-geometry-lines"
+    ],
+    "difficulty": 4,
+    "stem": "\\(f\\) is a linear function with \\(f(2) = 7\\) and \\(f(5) = 16\\). What is \\(f(10)\\)?",
+    "answer": 31,
+    "solutionStandard": "Slope: \\(\\tfrac{16-7}{5-2} = 3\\). So \\(f(x) = 3x + 1\\) (checking: \\(f(2) = 7\\) ✓), and \\(f(10) = 31\\).",
+    "solutionShortcut": "Linear means constant rate: from \\(x=5\\) to \\(x=10\\) is 5 steps at slope 3, so \\(f(10) = 16 + 15 = 31\\). Extend from the nearest known point — no need to find the intercept.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 80
+  },
+  {
+    "id": "algebra-mixed-practice-080",
+    "type": "MultiMC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "absolute-value",
+      "quadratic-equations"
+    ],
+    "difficulty": 4,
+    "stem": "\\(x\\) is an integer with \\(|x| \\le 5\\) and \\(x^2 > 20\\). Which of the following could be \\(x\\)? Select all that apply.",
+    "options": [
+      {
+        "id": "A",
+        "text": "\\(-5\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(-4\\)"
+      },
+      {
+        "id": "C",
+        "text": "0"
+      },
+      {
+        "id": "D",
+        "text": "4"
+      },
+      {
+        "id": "E",
+        "text": "5"
+      }
+    ],
+    "answer": [
+      "A",
+      "E"
+    ],
+    "solutionStandard": "\\(x^2 > 20\\) requires \\(|x| > \\sqrt{20} \\approx 4.47\\), so \\(|x| \\ge 5\\); combined with \\(|x| \\le 5\\), only \\(x = \\pm 5\\) work.",
+    "solutionShortcut": "Convert both conditions to \\(|x|\\) bounds: \\(4.47 < |x| \\le 5\\). The intersection contains exactly one integer magnitude — squeeze plays like this usually leave only the boundary values.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 85
+  },
+  {
+    "id": "algebra-mixed-practice-081",
+    "type": "Numeric",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "rates-and-work",
+      "word-problems-algebraic-translation"
+    ],
+    "difficulty": 4,
+    "variables": [
+      {
+        "name": "u",
+        "min": 30,
+        "max": 60,
+        "step": 10
+      },
+      {
+        "name": "v",
+        "min": 35,
+        "max": 65,
+        "step": 10
+      },
+      {
+        "name": "t0",
+        "min": 2,
+        "max": 5
+      }
+    ],
+    "stem": "Two trains start {{(u+v)*t0}} miles apart and travel toward each other on parallel tracks, one at {{u}} mph and the other at {{v}} mph. After how many hours do they meet?",
+    "answer": 4,
+    "answerFormula": "t0",
+    "solutionStandard": "They close the gap at a combined \\({{u}} + {{v}} = {{u+v}}\\) mph. Time \\(= \\dfrac{ {{(u+v)*t0}} }{ {{u+v}} } = {{t0}}\\) hours.",
+    "solutionShortcut": "Head-on motion: add the speeds and treat it as one object covering the whole distance. Never track the trains separately — the combined-speed frame makes every meeting problem a single division.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 85
+  },
+  {
+    "id": "algebra-mixed-practice-082",
+    "type": "QC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "absolute-value",
+      "functions-basics"
+    ],
+    "difficulty": 4,
+    "stem": "\\(f(x) = |x - 2| + 3\\)",
+    "quantityA": "The minimum value of \\(f(x)\\)",
+    "quantityB": "3",
+    "answer": "C",
+    "solutionStandard": "\\(|x-2| \\ge 0\\), with equality at \\(x = 2\\). So the minimum of \\(f\\) is \\(0 + 3 = 3\\), attained — the quantities are equal.",
+    "solutionShortcut": "Translated absolute value \\(|x - h| + k\\) has vertex value exactly \\(k\\), just like a parabola's vertex form. Read the minimum straight off the formula.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 60
+  },
+  {
+    "id": "algebra-mixed-practice-083",
+    "type": "MC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "quadratic-equations",
+      "functions-basics"
+    ],
+    "difficulty": 4,
+    "stem": "A ball's height in feet after \\(t\\) seconds is \\(h(t) = -16t^2 + 64t\\). What is the maximum height the ball reaches?",
+    "options": [
+      {
+        "id": "A",
+        "text": "48 feet"
+      },
+      {
+        "id": "B",
+        "text": "56 feet"
+      },
+      {
+        "id": "C",
+        "text": "64 feet"
+      },
+      {
+        "id": "D",
+        "text": "72 feet"
+      },
+      {
+        "id": "E",
+        "text": "96 feet"
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "The vertex is at \\(t = \\tfrac{-64}{2(-16)} = 2\\) seconds; \\(h(2) = -64 + 128 = 64\\) feet.",
+    "solutionShortcut": "Factor to find the roots first: \\(h = -16t(t-4)\\) vanishes at \\(t = 0, 4\\), so the peak is midway at \\(t = 2\\) by symmetry. Roots-then-midpoint is often faster than the vertex formula.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 85
+  },
+  {
+    "id": "algebra-mixed-practice-084",
+    "type": "Numeric",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "roots-radicals",
+      "quadratic-equations"
+    ],
+    "difficulty": 5,
+    "stem": "If \\(\\sqrt{x + 11} = x - 1\\), what is the value of \\(x\\)?",
+    "answer": 5,
+    "solutionStandard": "Square both sides: \\(x + 11 = x^2 - 2x + 1\\), so \\(x^2 - 3x - 10 = 0 = (x-5)(x+2)\\), giving \\(x = 5\\) or \\(x = -2\\). Check both: \\(x = 5\\): \\(\\sqrt{16} = 4 = 5 - 1\\) ✓. \\(x = -2\\): the right side is \\(-3 < 0\\), but a square root is never negative ✗. So \\(x = 5\\).",
+    "solutionShortcut": "Squaring creates phantom solutions — checking is not optional. Faster still: the right side must be \\(\\ge 0\\), so \\(x \\ge 1\\) from the start, discarding \\(-2\\) before you ever test it.",
+    "shortcutTags": [
+      "eliminate"
+    ],
+    "timeTargetSec": 110
+  },
+  {
+    "id": "algebra-mixed-practice-085",
+    "type": "QC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "algebraic-expressions-simplify"
+    ],
+    "difficulty": 4,
+    "stem": "For all numbers \\(a\\) and \\(b\\), define \\(a \\diamond b = ab - a - b\\).",
+    "quantityA": "\\(5 \\diamond 3\\)",
+    "quantityB": "\\(3 \\diamond 5\\)",
+    "answer": "C",
+    "solutionStandard": "\\(5 \\diamond 3 = 15 - 5 - 3 = 7\\) and \\(3 \\diamond 5 = 15 - 3 - 5 = 7\\). Equal.",
+    "solutionShortcut": "Check symmetry structurally before computing: \\(ab\\) and \\(a + b\\) are both symmetric in \\(a, b\\), so \\(a \\diamond b = b \\diamond a\\) automatically — (C) with zero arithmetic. Symmetric-looking custom operators usually are; asymmetric ones (with subtraction of one side or division) usually aren't.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 60
+  },
+  {
+    "id": "algebra-mixed-practice-086",
+    "type": "Numeric",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "linear-equations-one-var",
+      "ratios-proportions"
+    ],
+    "difficulty": 4,
+    "stem": "At a constant price per notebook, 8 notebooks cost \\$18. How much do 20 notebooks cost, in dollars?",
+    "answer": 45,
+    "solutionStandard": "Price per notebook: \\(18/8 = 2.25\\). For 20: \\(20 \\times 2.25 = 45\\).",
+    "solutionShortcut": "Scale the batch, not the unit: \\(20 = 8 \\times 2.5\\), so the cost is \\(18 \\times 2.5 = 45\\). Ratio scaling avoids the decimal unit price entirely.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 65
+  },
+  {
+    "id": "algebra-mixed-practice-087",
+    "type": "QC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "algebraic-expressions-simplify",
+      "quadratic-equations"
+    ],
+    "difficulty": 5,
+    "stem": "\\(x^2 + y^2 = 25\\) and \\(x + y = 7\\)",
+    "quantityA": "\\(xy\\)",
+    "quantityB": "12",
+    "answer": "C",
+    "solutionStandard": "\\((x+y)^2 = x^2 + 2xy + y^2\\), so \\(49 = 25 + 2xy\\), giving \\(xy = 12\\). The quantities are equal. (Indeed \\(\\{x,y\\} = \\{3,4\\}\\).)",
+    "solutionShortcut": "The identity \\((x+y)^2 - (x^2+y^2) = 2xy\\) extracts the product from exactly these two givens — this pairing appears constantly. Recognize the trio (sum, sum of squares, product): any two determine the third.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 85
+  },
+  {
+    "id": "algebra-mixed-practice-088",
+    "type": "MC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "sequences-algebraic",
+      "exponents-basic"
+    ],
+    "difficulty": 5,
+    "stem": "In a geometric sequence of positive numbers, the 2nd term is 6 and the 5th term is 162. What is the 7th term?",
+    "options": [
+      {
+        "id": "A",
+        "text": "486"
+      },
+      {
+        "id": "B",
+        "text": "729"
+      },
+      {
+        "id": "C",
+        "text": "972"
+      },
+      {
+        "id": "D",
+        "text": "1458"
+      },
+      {
+        "id": "E",
+        "text": "2916"
+      }
+    ],
+    "answer": "D",
+    "solutionStandard": "From term 2 to term 5 is three ratio steps: \\(r^3 = 162/6 = 27\\), so \\(r = 3\\). Term 7 is two steps past term 5: \\(162 \\times 9 = 1458\\).",
+    "solutionShortcut": "Count steps between known terms — never find \\(a_1\\). \\(r^{(5-2)} = \\tfrac{a_5}{a_2}\\), then jump forward from the closest known term. Working from \\(a_1\\) doubles the arithmetic for nothing.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 100
+  },
+  {
+    "id": "algebra-mixed-practice-089",
+    "type": "Numeric",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "percent-basics",
+      "linear-equations-one-var"
+    ],
+    "difficulty": 4,
+    "variables": [
+      {
+        "name": "p",
+        "min": 6,
+        "max": 24
+      },
+      {
+        "name": "q",
+        "min": 5,
+        "max": 30
+      },
+      {
+        "name": "k",
+        "min": 2,
+        "max": 9
+      }
+    ],
+    "stem": "{{p}}% of a certain number equals {{p*k}}. What is {{q}}% of the same number?",
+    "answer": 60,
+    "answerFormula": "q*k",
+    "solutionStandard": "If \\(N\\) is the number, \\(\\tfrac{ {{p}} }{100}N = {{p*k}}\\) gives \\(N = {{100*k}}\\). Then \\({{q}}\\%\\) of \\({{100*k}}\\) is \\({{q}} \\times {{k}} = {{q*k}}\\).",
+    "solutionShortcut": "Spot the proportionality: {{p}}% ↦ {{p*k}} means every 1% is worth {{k}}. So {{q}}% is just \\({{q}} \\times {{k}} = {{q*k}}\\) — no need to recover the number itself.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 80
+  },
+  {
+    "id": "algebra-mixed-practice-090",
+    "type": "QC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "quadratic-equations",
+      "coordinate-geometry-basics"
+    ],
+    "difficulty": 4,
+    "stem": "\\(y = x^2 + 2x + 5\\)",
+    "quantityA": "The number of points where the graph crosses the \\(x\\)-axis",
+    "quantityB": "1",
+    "answer": "B",
+    "solutionStandard": "Discriminant: \\(2^2 - 4(1)(5) = -16 < 0\\), so there are no real roots — the graph never touches the \\(x\\)-axis. Quantity A is 0, so Quantity B is greater.",
+    "solutionShortcut": "Complete the square mentally: \\(y = (x+1)^2 + 4 \\ge 4 > 0\\) — the whole parabola floats above the axis. Either the discriminant's sign or a quick vertex check answers every \"how many roots\" question.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 75
+  },
+  {
+    "id": "algebra-mixed-practice-091",
+    "type": "MC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "factoring-polynomials"
+    ],
+    "difficulty": 5,
+    "stem": "The polynomial \\(x^3 - 4x^2 + kx + 6\\) is divisible by \\(x - 3\\). What is the value of \\(k\\)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "\\(-3\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(-1\\)"
+      },
+      {
+        "id": "C",
+        "text": "1"
+      },
+      {
+        "id": "D",
+        "text": "3"
+      },
+      {
+        "id": "E",
+        "text": "9"
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "By the factor theorem, \\(x = 3\\) must be a root: \\(27 - 36 + 3k + 6 = 0\\), so \\(3k - 3 = 0\\) and \\(k = 1\\).",
+    "solutionShortcut": "\"Divisible by \\(x - a\\)\" always means \"plug in \\(x = a\\), set equal to 0.\" One substitution — polynomial long division here is a five-minute detour for a 30-second question.",
+    "shortcutTags": [
+      "plug-in"
+    ],
+    "timeTargetSec": 90
+  },
+  {
+    "id": "algebra-mixed-practice-092",
+    "type": "MultiMC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "functions-basics"
+    ],
+    "difficulty": 4,
+    "stem": "\\(f(x) = 3x - 5\\). Which of the following statements are true? Select all that apply.",
+    "options": [
+      {
+        "id": "A",
+        "text": "\\(f(0) = -5\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(f\\) is increasing"
+      },
+      {
+        "id": "C",
+        "text": "\\(f(a + b) = f(a) + f(b)\\) for all \\(a, b\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(f(2) = 1\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(f(-1) > 0\\)"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "solutionStandard": "\\(f(0) = -5\\) ✓. Slope 3 > 0, so increasing ✓. \\(f(a+b) = 3a + 3b - 5\\) but \\(f(a) + f(b) = 3a + 3b - 10\\) — false (the \\(-5\\) is counted twice). \\(f(2) = 1\\) ✓. \\(f(-1) = -8\\), not positive ✗.",
+    "solutionShortcut": "For (C), test one pair: \\(f(0+0) = -5\\) vs \\(f(0)+f(0) = -10\\). Additivity only holds for lines through the origin — any nonzero intercept breaks it, always.",
+    "shortcutTags": [
+      "plug-in"
+    ],
+    "timeTargetSec": 95
+  },
+  {
+    "id": "algebra-mixed-practice-093",
+    "type": "Numeric",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "linear-equations-two-var"
+    ],
+    "difficulty": 4,
+    "stem": "If \\(x + y = 10\\), \\(y + z = 14\\), and \\(x + z = 12\\), what is the value of \\(z\\)?",
+    "answer": 8,
+    "solutionStandard": "Add all three equations: \\(2(x + y + z) = 36\\), so \\(x + y + z = 18\\). Subtract \\(x + y = 10\\): \\(z = 8\\).",
+    "solutionShortcut": "Symmetric pair-sum systems always yield to add-everything-then-subtract. To isolate a variable, subtract the equation that omits it. Two lines, no substitution.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 80
+  },
+  {
+    "id": "algebra-mixed-practice-094",
+    "type": "QC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "exponents-basic"
+    ],
+    "difficulty": 4,
+    "variables": [
+      {
+        "name": "b",
+        "min": 5,
+        "max": 9
+      }
+    ],
+    "stem": "Compare the two quantities.",
+    "quantityA": "\\(2^{ {{b}} }\\)",
+    "quantityB": "\\({{b}}^2\\)",
+    "answer": "A",
+    "solutionStandard": "At \\(b = {{b}}\\): \\(2^{ {{b}} } = {{Math.pow(2,b)}}\\) and \\({{b}}^2 = {{b*b}}\\). Exponential growth overtakes squares at \\(b = 5\\) (\\(32 > 25\\)) and the gap only widens, so Quantity A is greater.",
+    "solutionShortcut": "\\(2^b\\) vs \\(b^2\\) cross for the last time at \\(b = 4\\) (both 16); from \\(b = 5\\) onward the exponential wins forever. Worth memorizing the crossing point — it recurs in QC problems.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 70
+  },
+  {
+    "id": "algebra-mixed-practice-095",
+    "type": "Numeric",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "absolute-value-equations",
+      "inequalities-compound"
+    ],
+    "difficulty": 5,
+    "stem": "How many integers \\(x\\) satisfy \\(|3x - 4| \\le 11\\)?",
+    "answer": 8,
+    "solutionStandard": "\\(-11 \\le 3x - 4 \\le 11\\) gives \\(-7 \\le 3x \\le 15\\), so \\(-\\tfrac73 \\le x \\le 5\\). Integers: \\(-2, -1, 0, 1, 2, 3, 4, 5\\) — eight of them.",
+    "solutionShortcut": "After unpacking, the bounds are \\(-2.33\\) and 5: round the fractional bound inward (toward the interval) and count with \\(\\text{high} - \\text{low} + 1 = 5 - (-2) + 1 = 8\\). Fractional endpoints are a gift — no edge-case doubt.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 95
+  },
+  {
+    "id": "algebra-mixed-practice-096",
+    "type": "MC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "functions-basics",
+      "algebraic-expressions-simplify"
+    ],
+    "difficulty": 4,
+    "stem": "For any number \\(x\\), define \\(x\\star = x(x + 1)\\). What is \\((3\\star)\\star\\)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "132"
+      },
+      {
+        "id": "B",
+        "text": "144"
+      },
+      {
+        "id": "C",
+        "text": "156"
+      },
+      {
+        "id": "D",
+        "text": "168"
+      },
+      {
+        "id": "E",
+        "text": "182"
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "\\(3\\star = 3 \\cdot 4 = 12\\); then \\(12\\star = 12 \\cdot 13 = 156\\).",
+    "solutionShortcut": "Custom-symbol questions are pure instruction-following: resolve the inner application completely before starting the outer one, exactly like function composition. The only trap is rushing the order.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 60
+  },
+  {
+    "id": "algebra-mixed-practice-097",
+    "type": "QC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "functions-basics",
+      "exponents-basic"
+    ],
+    "difficulty": 4,
+    "stem": "\\(f(x) = 5x + 2\\) and \\(g(x) = 2^x\\)",
+    "quantityA": "\\(f(6)\\)",
+    "quantityB": "\\(g(6)\\)",
+    "answer": "B",
+    "solutionStandard": "\\(f(6) = 32\\) and \\(g(6) = 64\\). Quantity B is greater.",
+    "solutionShortcut": "Doubling beats adding 5 once the values pass the crossover (here by \\(x = 5\\): \\(f = 27\\) vs \\(g = 32\\)). When a QC pits linear against exponential at a specific point, locate the crossover — beyond it, the exponential always wins.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 65
+  },
+  {
+    "id": "algebra-mixed-practice-098",
+    "type": "Numeric",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "sequences-algebraic"
+    ],
+    "difficulty": 4,
+    "variables": [
+      {
+        "name": "n",
+        "min": 4,
+        "max": 9
+      },
+      {
+        "name": "s",
+        "min": 3,
+        "max": 20
+      }
+    ],
+    "stem": "What is the sum of the {{n}} consecutive integers beginning with {{s}}?",
+    "answer": 30,
+    "answerFormula": "n*s + n*(n-1)/2",
+    "solutionStandard": "The integers run from {{s}} to \\({{s}} + {{n-1}} = {{s+n-1}}\\). Sum \\(= {{n}} \\times \\dfrac{ {{s}} + {{s+n-1}} }{2} = {{n*s + n*(n-1)/2}}\\).",
+    "solutionShortcut": "Count × average of endpoints, always, for evenly spaced numbers. Equivalently: \\({{n}}\\) copies of {{s}} plus \\(0+1+\\cdots+{{n-1}} = {{n*(n-1)/2}}\\).",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 85
+  },
+  {
+    "id": "algebra-mixed-practice-099",
+    "type": "MC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "word-problems-algebraic-translation"
+    ],
+    "difficulty": 4,
+    "stem": "A father is now four times as old as his son. In 5 years, he will be three times as old as his son. How old is the father now?",
+    "options": [
+      {
+        "id": "A",
+        "text": "32"
+      },
+      {
+        "id": "B",
+        "text": "36"
+      },
+      {
+        "id": "C",
+        "text": "40"
+      },
+      {
+        "id": "D",
+        "text": "44"
+      },
+      {
+        "id": "E",
+        "text": "48"
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "Let the son be \\(s\\); the father is \\(4s\\). In 5 years: \\(4s + 5 = 3(s + 5)\\), so \\(4s + 5 = 3s + 15\\) and \\(s = 10\\). The father is 40.",
+    "solutionShortcut": "Backsolve with the divisibility filter: the father's age must be divisible by 4 — that alone keeps only 32, 36, 40, 44, 48… then test the middle survivor first: 40 → son 10 → in 5 years 45 vs 15, exactly 3× ✓.",
+    "shortcutTags": [
+      "backsolve"
+    ],
+    "timeTargetSec": 90
+  },
+  {
+    "id": "algebra-mixed-practice-100",
+    "type": "QC",
+    "primarySkill": "algebra-mixed-practice",
+    "secondarySkills": [
+      "quadratic-equations",
+      "linear-inequalities"
+    ],
+    "difficulty": 5,
+    "stem": "\\(x^2 - 8x + 15 < 0\\)",
+    "quantityA": "\\(x\\)",
+    "quantityB": "3",
+    "answer": "A",
+    "solutionStandard": "Factor: \\((x-3)(x-5) < 0\\), which holds exactly when \\(3 < x < 5\\). Every allowed \\(x\\) exceeds 3, so Quantity A is greater.",
+    "solutionShortcut": "A quadratic is negative strictly between its roots. Roots 3 and 5 → the solution set is the open interval \\((3,5)\\), and being open at 3 rules out (C). Sign-of-quadratic-between-roots is instant once the factoring is done.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 90
   }
 ]

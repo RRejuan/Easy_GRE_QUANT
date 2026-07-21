@@ -1484,5 +1484,1421 @@
     "answer": "B",
     "solutionStandard": "\\(n^2\\) is always exactly divisible by \\(n\\), so Quantity A is always 0. \\(n+1 = 1\\times n + 1\\), so Quantity B is always 1 (valid since \\(n>1\\)). Quantity B is always greater.",
     "timeTargetSec": 85
+  },
+  {
+    "id": "arithmetic-mixed-practice-051",
+    "type": "Numeric",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "integer-properties"
+    ],
+    "difficulty": 4,
+    "variables": [
+      {
+        "name": "r",
+        "min": 1,
+        "max": 6
+      },
+      {
+        "name": "a",
+        "min": 2,
+        "max": 6
+      },
+      {
+        "name": "b",
+        "min": 1,
+        "max": 6
+      }
+    ],
+    "stem": "When the positive integer \\(n\\) is divided by 7, the remainder is {{r}}. What is the remainder when \\({{a}}n + {{b}}\\) is divided by 7?",
+    "answer": 4,
+    "answerFormula": "(a*r+b)%7",
+    "solutionStandard": "Write \\(n = 7q + {{r}}\\). Then \\({{a}}n + {{b}} = 7({{a}}q) + {{a}}\\cdot{{r}} + {{b}} = 7({{a}}q) + {{a*r+b}}\\). The remainder of \\({{a*r+b}}\\) divided by 7 is \\({{(a*r+b)%7}}\\).",
+    "solutionShortcut": "Don't manipulate the general form — just pick the smallest valid \\(n\\), namely \\(n = {{r}}\\) itself. Then \\({{a}}n+{{b}} = {{a*r+b}}\\), and \\({{a*r+b}} \\div 7\\) leaves remainder \\({{(a*r+b)%7}}\\).",
+    "shortcutTags": [
+      "plug-in"
+    ],
+    "timeTargetSec": 90
+  },
+  {
+    "id": "arithmetic-mixed-practice-052",
+    "type": "Numeric",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "exponents-basic",
+      "integer-properties"
+    ],
+    "difficulty": 5,
+    "variables": [
+      {
+        "name": "n",
+        "min": 21,
+        "max": 79
+      }
+    ],
+    "stem": "What is the units digit of \\(7^{ {{n}} }\\)?",
+    "answer": 3,
+    "answerFormula": "[1,7,9,3][n%4]",
+    "solutionStandard": "Units digits of powers of 7 cycle with period 4: \\(7^1=7,\\ 7^2=49,\\ 7^3=343,\\ 7^4=2401\\), giving the cycle \\(7, 9, 3, 1\\). Since \\({{n}} = 4\\cdot{{Math.floor(n/4)}} + {{n%4}}\\), the units digit of \\(7^{ {{n}} }\\) matches position {{n%4}} in the cycle (where position 0 means the cycle's end, digit 1): it is \\({{[1,7,9,3][n%4]}}\\).",
+    "solutionShortcut": "Every units-digit question is a cycle question. For 7 the cycle is \\(7,9,3,1\\) (length 4), so only \\({{n}} \\bmod 4 = {{n%4}}\\) matters — never compute the power.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 75
+  },
+  {
+    "id": "arithmetic-mixed-practice-053",
+    "type": "QC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "percent-change"
+    ],
+    "difficulty": 4,
+    "stem": "A positive quantity \\(x\\) is increased by 20%, and the result is increased by 30%.",
+    "quantityA": "The final quantity",
+    "quantityB": "\\(x\\) increased by 50%",
+    "answer": "A",
+    "solutionStandard": "Successive increases multiply: \\(x(1.20)(1.30) = 1.56x\\), while a single 50% increase gives \\(1.50x\\). Since \\(x > 0\\), \\(1.56x > 1.50x\\): Quantity A is greater.",
+    "solutionShortcut": "Successive percent changes never simply add. Two increases always beat their sum (the second increase acts on an already-larger base), so A must exceed the 50% figure with no computation.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 70
+  },
+  {
+    "id": "arithmetic-mixed-practice-054",
+    "type": "Numeric",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "rates-and-work"
+    ],
+    "difficulty": 5,
+    "stem": "Working together, machines A and B complete a job in 12 hours; machines B and C in 15 hours; machines A and C in 20 hours. How many hours do all three machines working together need for the job?",
+    "answer": 10,
+    "solutionStandard": "Pair rates: \\(\\tfrac1{12}+\\tfrac1{15}+\\tfrac1{20} = \\tfrac{5}{60}+\\tfrac{4}{60}+\\tfrac{3}{60} = \\tfrac{12}{60} = \\tfrac15\\) job/hour. But this counts each machine exactly twice, so \\(A+B+C\\) works at \\(\\tfrac12 \\cdot \\tfrac15 = \\tfrac1{10}\\) job/hour — 10 hours.",
+    "solutionShortcut": "Adding all three pairwise rates double-counts every machine. Halve the sum — this one step turns a three-unknown system into a single line of arithmetic.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 120
+  },
+  {
+    "id": "arithmetic-mixed-practice-055",
+    "type": "QC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "integer-properties"
+    ],
+    "difficulty": 4,
+    "stem": "\\(m\\) and \\(n\\) are positive integers with \\(\\gcd(m, n) = 12\\).",
+    "quantityA": "\\(\\gcd\\!\\left(\\dfrac{m}{12}, \\dfrac{n}{12}\\right)\\)",
+    "quantityB": "1",
+    "answer": "C",
+    "solutionStandard": "Dividing both numbers by their greatest common divisor leaves numbers with no common factor: if \\(m/12\\) and \\(n/12\\) shared a factor \\(d>1\\), then \\(12d\\) would divide both \\(m\\) and \\(n\\), contradicting \\(\\gcd(m,n)=12\\). So Quantity A equals 1.",
+    "timeTargetSec": 80
+  },
+  {
+    "id": "arithmetic-mixed-practice-056",
+    "type": "MC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "integer-properties",
+      "venn-diagrams-sets"
+    ],
+    "difficulty": 5,
+    "stem": "How many integers from 1 to 1000 inclusive are divisible by 3 or by 5, but not by 15?",
+    "options": [
+      {
+        "id": "A",
+        "text": "367"
+      },
+      {
+        "id": "B",
+        "text": "400"
+      },
+      {
+        "id": "C",
+        "text": "401"
+      },
+      {
+        "id": "D",
+        "text": "467"
+      },
+      {
+        "id": "E",
+        "text": "533"
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "Multiples of 3: \\(\\lfloor 1000/3 \\rfloor = 333\\). Multiples of 5: \\(200\\). Multiples of 15: \\(66\\). Divisible by 3 or 5: \\(333 + 200 - 66 = 467\\). Excluding the 66 multiples of 15: \\(467 - 66 = 401\\).",
+    "solutionShortcut": "\"3 or 5 but not 15\" = (multiples of 3 only) + (multiples of 5 only) = \\((333-66)+(200-66) = 267+134 = 401\\). Setting it up as two disjoint piles avoids the double inclusion-exclusion step.",
+    "shortcutTags": [
+      "eliminate"
+    ],
+    "timeTargetSec": 120
+  },
+  {
+    "id": "arithmetic-mixed-practice-057",
+    "type": "Numeric",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "percent-change"
+    ],
+    "difficulty": 4,
+    "variables": [
+      {
+        "name": "p",
+        "min": 100,
+        "max": 900,
+        "step": 100
+      },
+      {
+        "name": "n",
+        "min": 10,
+        "max": 30,
+        "step": 10
+      }
+    ],
+    "stem": "A stock is worth \\(\\${{p}}\\). Its value rises {{n}}% and then falls {{n}}%. What is its final value, in dollars?",
+    "answer": 192,
+    "answerFormula": "p*(1-n*n/10000)",
+    "solutionStandard": "Final value \\(= {{p}}(1 + \\tfrac{ {{n}} }{100})(1 - \\tfrac{ {{n}} }{100}) = {{p}}\\left(1 - \\tfrac{ {{n*n}} }{10000}\\right) = {{p*(1-n*n/10000)}}\\).",
+    "solutionShortcut": "Up \\(n\\%\\) then down \\(n\\%\\) is always a net loss of \\(\\tfrac{n^2}{100}\\%\\) — here \\({{n*n/100}}\\%\\) of \\({{p}}\\), i.e. a loss of \\({{p*n*n/10000}}\\), leaving \\({{p*(1-n*n/10000)}}\\). Memorize the \\(n^2/100\\) rule; it kills this whole question family.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 90
+  },
+  {
+    "id": "arithmetic-mixed-practice-058",
+    "type": "MC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "fractions-operations",
+      "number-line-ordering"
+    ],
+    "difficulty": 4,
+    "stem": "Which of the following fractions is greatest?",
+    "options": [
+      {
+        "id": "A",
+        "text": "\\(\\dfrac{7}{9}\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(\\dfrac{13}{17}\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(\\dfrac{31}{40}\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(\\dfrac{19}{24}\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(\\dfrac{41}{53}\\)"
+      }
+    ],
+    "answer": "D",
+    "solutionStandard": "As decimals: \\(7/9 \\approx 0.778\\), \\(13/17 \\approx 0.765\\), \\(31/40 = 0.775\\), \\(19/24 \\approx 0.792\\), \\(41/53 \\approx 0.774\\). The greatest is \\(19/24\\).",
+    "solutionShortcut": "Compare each to \\(\\tfrac34\\) by cross-multiplying, then compare survivors pairwise. \\(19/24\\) exceeds \\(3/4 = 18/24\\) by \\(\\tfrac1{24}\\) — the biggest surplus over \\(3/4\\) among the options (e.g. \\(7/9\\) exceeds \\(27/36\\) by \\(\\tfrac1{36}\\), a smaller surplus over a similar base).",
+    "shortcutTags": [
+      "estimate",
+      "eliminate"
+    ],
+    "timeTargetSec": 105
+  },
+  {
+    "id": "arithmetic-mixed-practice-059",
+    "type": "Numeric",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "sequences-algebraic"
+    ],
+    "difficulty": 4,
+    "stem": "What is the sum of all multiples of 7 that are greater than 100 and less than 300?",
+    "answer": 5586,
+    "solutionStandard": "The multiples run from 105 to 294: count \\(= \\tfrac{294-105}{7}+1 = 28\\). Sum \\(= 28 \\cdot \\tfrac{105+294}{2} = 28 \\cdot 199.5 = 5586\\).",
+    "solutionShortcut": "For any evenly spaced list: sum = (count) × (average of first and last). Find the endpoints, count via \\(\\tfrac{\\text{last}-\\text{first}}{\\text{step}}+1\\), and you're done in three small steps.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 100
+  },
+  {
+    "id": "arithmetic-mixed-practice-060",
+    "type": "QC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "exponents-basic",
+      "number-line-ordering"
+    ],
+    "difficulty": 4,
+    "stem": "\\(x\\) is a nonzero number.",
+    "quantityA": "\\(x^2\\)",
+    "quantityB": "\\(x^4\\)",
+    "answer": "D",
+    "solutionStandard": "If \\(|x| > 1\\) (say \\(x=2\\)): \\(x^2 = 4 < 16 = x^4\\). If \\(0 < |x| < 1\\) (say \\(x = \\tfrac12\\)): \\(x^2 = \\tfrac14 > \\tfrac1{16} = x^4\\). If \\(|x| = 1\\), they are equal. The relationship cannot be determined.",
+    "solutionShortcut": "Whenever a QC involves even powers of an unrestricted variable, test the three regimes \\(|x|>1\\), \\(|x|=1\\), \\(0<|x|<1\\) — fractions between 0 and 1 shrink when raised to higher powers, so mixed results mean (D).",
+    "shortcutTags": [
+      "plug-in"
+    ],
+    "timeTargetSec": 70
+  },
+  {
+    "id": "arithmetic-mixed-practice-061",
+    "type": "MultiMC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "integer-properties"
+    ],
+    "difficulty": 5,
+    "stem": "\\(n\\) is a positive integer such that \\(n^2\\) is divisible by 24. Which of the following must divide \\(n\\)? Select all that apply.",
+    "options": [
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "3"
+      },
+      {
+        "id": "C",
+        "text": "4"
+      },
+      {
+        "id": "D",
+        "text": "6"
+      },
+      {
+        "id": "E",
+        "text": "8"
+      },
+      {
+        "id": "F",
+        "text": "12"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "F"
+    ],
+    "solutionStandard": "\\(24 = 2^3 \\cdot 3\\). In \\(n^2\\) every prime appears to an even power, so \\(2^3 \\mid n^2\\) forces \\(2^4 \\mid n^2\\), i.e. \\(2^2 \\mid n\\); and \\(3 \\mid n^2\\) forces \\(3 \\mid n\\). Hence \\(12 \\mid n\\) — and so do 2, 3, 4, 6. But 8 need not divide \\(n\\): \\(n = 12\\) has \\(n^2 = 144 = 24 \\cdot 6\\), yet \\(8 \\nmid 12\\).",
+    "solutionShortcut": "Find the smallest valid \\(n\\) (here 12, since \\(12^2=144\\) is the least square divisible by 24) and test every option against it — anything that fails the minimal case is out, and divisors of the minimal case must always work.",
+    "shortcutTags": [
+      "plug-in",
+      "eliminate"
+    ],
+    "timeTargetSec": 135
+  },
+  {
+    "id": "arithmetic-mixed-practice-062",
+    "type": "Numeric",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "decimals-operations",
+      "exponents-basic"
+    ],
+    "difficulty": 4,
+    "stem": "When written as a decimal, \\(\\dfrac{1}{2^6 \\cdot 5^3}\\) has how many digits to the right of the decimal point?",
+    "answer": 6,
+    "solutionStandard": "Multiply top and bottom by \\(5^3\\): \\(\\dfrac{5^3}{2^6 5^6} = \\dfrac{125}{10^6} = 0.000125\\), which has 6 digits after the decimal point.",
+    "solutionShortcut": "For \\(\\tfrac{1}{2^a 5^b}\\), the decimal terminates after exactly \\(\\max(a,b)\\) digits. Here \\(\\max(6,3)=6\\) — no long division needed.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 80
+  },
+  {
+    "id": "arithmetic-mixed-practice-063",
+    "type": "Numeric",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "ratios-proportions"
+    ],
+    "difficulty": 4,
+    "variables": [
+      {
+        "name": "a",
+        "min": 5,
+        "max": 9
+      },
+      {
+        "name": "b",
+        "min": 1,
+        "max": 9
+      }
+    ],
+    "stem": "A \\({{a+b}}\\)-liter mixture contains {{a}} liters of milk and {{b}} liters of water. How many liters of water must be added so that the ratio of milk to water becomes \\(1 : 2\\)?",
+    "answer": 5,
+    "answerFormula": "2*a-b",
+    "solutionStandard": "Milk stays at {{a}} liters. For milk : water \\(= 1:2\\), water must reach \\(2 \\cdot {{a}} = {{2*a}}\\) liters. Currently there are {{b}} liters, so add \\({{2*a}} - {{b}} = {{2*a-b}}\\) liters.",
+    "solutionShortcut": "Anchor on the ingredient that doesn't change (milk). Target water = 2 × milk; subtract what's already there. One subtraction, no equations.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 90
+  },
+  {
+    "id": "arithmetic-mixed-practice-064",
+    "type": "QC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "exponents-basic"
+    ],
+    "difficulty": 4,
+    "stem": "Compare the two quantities.",
+    "quantityA": "\\(\\left(\\dfrac{1}{2}\\right)^{30}\\)",
+    "quantityB": "\\(\\left(\\dfrac{1}{4}\\right)^{14}\\)",
+    "answer": "B",
+    "solutionStandard": "Rewrite with base \\(\\tfrac12\\): \\((\\tfrac14)^{14} = (\\tfrac12)^{28}\\). For a base between 0 and 1, higher exponents give smaller values, so \\((\\tfrac12)^{30} < (\\tfrac12)^{28}\\). Quantity B is greater.",
+    "solutionShortcut": "Always convert to a common base before comparing powers. And remember the inversion: for bases in \\((0,1)\\), the bigger exponent loses.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 75
+  },
+  {
+    "id": "arithmetic-mixed-practice-065",
+    "type": "Numeric",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "number-line-ordering"
+    ],
+    "difficulty": 4,
+    "stem": "What is the sum of all integers from \\(-29\\) to \\(31\\), inclusive?",
+    "answer": 61,
+    "solutionStandard": "The integers from \\(-29\\) to \\(29\\) cancel in pairs \\((-k) + k = 0\\), leaving \\(30 + 31 = 61\\).",
+    "solutionShortcut": "Symmetric ranges vanish. Whenever a sum spans negatives and positives, cancel the symmetric part first and only add the leftover tail.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 60
+  },
+  {
+    "id": "arithmetic-mixed-practice-066",
+    "type": "MC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "integer-properties"
+    ],
+    "difficulty": 5,
+    "stem": "If \\(p\\) and \\(q\\) are distinct prime numbers greater than 3, which of the following must be a divisor of \\(p^2 - q^2\\)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "5"
+      },
+      {
+        "id": "B",
+        "text": "9"
+      },
+      {
+        "id": "C",
+        "text": "12"
+      },
+      {
+        "id": "D",
+        "text": "24"
+      },
+      {
+        "id": "E",
+        "text": "48"
+      }
+    ],
+    "answer": "D",
+    "solutionStandard": "Every prime \\(> 3\\) is odd and not divisible by 3, and any such number satisfies \\(p^2 \\equiv 1 \\pmod{24}\\) (odd squares are \\(1 \\bmod 8\\); squares of non-multiples of 3 are \\(1 \\bmod 3\\)). So \\(p^2 - q^2 \\equiv 0 \\pmod{24}\\). 48 fails: \\(7^2 - 5^2 = 24\\).",
+    "solutionShortcut": "Plug in the two smallest allowed primes, 5 and 7: \\(49 - 25 = 24\\). That single case eliminates (E) and everything not dividing 24; among the remaining candidates only 24 itself (and its divisor 12) survive, and a second case \\(11^2-7^2 = 72\\) keeps both — the largest guaranteed divisor consistent with \\(24\\) is 24.",
+    "shortcutTags": [
+      "plug-in",
+      "eliminate"
+    ],
+    "timeTargetSec": 135
+  },
+  {
+    "id": "arithmetic-mixed-practice-067",
+    "type": "Numeric",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "mean-median-mode"
+    ],
+    "difficulty": 4,
+    "stem": "The average (arithmetic mean) of 7 numbers is 12. When one of the numbers is removed, the average of the remaining 6 numbers is 9. What number was removed?",
+    "answer": 30,
+    "solutionStandard": "Total before: \\(7 \\times 12 = 84\\). Total after: \\(6 \\times 9 = 54\\). The removed number is \\(84 - 54 = 30\\).",
+    "solutionShortcut": "Averages are just totals in disguise — convert to totals immediately and subtract. Never reason about averages directly.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 75
+  },
+  {
+    "id": "arithmetic-mixed-practice-068",
+    "type": "QC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "roots-radicals"
+    ],
+    "difficulty": 5,
+    "stem": "Compare the two quantities.",
+    "quantityA": "\\(\\sqrt{5} + \\sqrt{7}\\)",
+    "quantityB": "\\(\\sqrt{26}\\)",
+    "answer": "B",
+    "solutionStandard": "Both quantities are positive, so compare their squares: \\((\\sqrt5+\\sqrt7)^2 = 12 + 2\\sqrt{35}\\) versus 26. That reduces to comparing \\(2\\sqrt{35}\\) with 14, i.e. \\(\\sqrt{35}\\) with 7, i.e. 35 with 49. Since \\(35 < 49\\), Quantity B is greater.",
+    "solutionShortcut": "Square both sides whenever both quantities are positive sums of roots — every radical comparison on the GRE yields to one or two squarings. Estimation also works: \\(\\sqrt5 \\approx 2.24\\), \\(\\sqrt7 \\approx 2.65\\), sum \\(\\approx 4.89\\), while \\(\\sqrt{26} \\approx 5.1\\).",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 100
+  },
+  {
+    "id": "arithmetic-mixed-practice-069",
+    "type": "MC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "integer-properties"
+    ],
+    "difficulty": 4,
+    "stem": "How many positive integers less than 100 have exactly three positive divisors?",
+    "options": [
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "3"
+      },
+      {
+        "id": "C",
+        "text": "4"
+      },
+      {
+        "id": "D",
+        "text": "5"
+      },
+      {
+        "id": "E",
+        "text": "6"
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "A number has exactly three divisors only when it is the square of a prime \\(p\\) (divisors: \\(1, p, p^2\\)). Squares of primes below 100: \\(4, 9, 25, 49\\) — four numbers.",
+    "solutionShortcut": "\"Exactly 3 divisors\" is a fingerprint: it always means \\(p^2\\). Learn the divisor-count fingerprints (3 divisors \\(\\Rightarrow p^2\\); exactly 4 \\(\\Rightarrow p^3\\) or \\(pq\\)) and questions like this become lookups.",
+    "shortcutTags": [
+      "eliminate"
+    ],
+    "timeTargetSec": 90
+  },
+  {
+    "id": "arithmetic-mixed-practice-070",
+    "type": "MC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "rates-and-work"
+    ],
+    "difficulty": 4,
+    "stem": "A cyclist rides from town P to town Q at 40 km/h and returns along the same road at 60 km/h. What is the cyclist's average speed for the round trip, in km/h?",
+    "options": [
+      {
+        "id": "A",
+        "text": "46"
+      },
+      {
+        "id": "B",
+        "text": "48"
+      },
+      {
+        "id": "C",
+        "text": "50"
+      },
+      {
+        "id": "D",
+        "text": "52"
+      },
+      {
+        "id": "E",
+        "text": "It depends on the distance between P and Q"
+      }
+    ],
+    "answer": "B",
+    "solutionStandard": "Let each leg be \\(d\\) km. Total time \\(= \\tfrac{d}{40} + \\tfrac{d}{60} = \\tfrac{5d}{120} = \\tfrac{d}{24}\\). Average speed \\(= \\tfrac{2d}{d/24} = 48\\) km/h — independent of \\(d\\).",
+    "solutionShortcut": "Equal distances at speeds \\(a\\) and \\(b\\) always average to the harmonic mean \\(\\tfrac{2ab}{a+b} = \\tfrac{2\\cdot40\\cdot60}{100} = 48\\). It's always below the midpoint 50 — instantly eliminating (C), (D), and the trap (E).",
+    "shortcutTags": [
+      "estimate",
+      "eliminate"
+    ],
+    "timeTargetSec": 90
+  },
+  {
+    "id": "arithmetic-mixed-practice-071",
+    "type": "MultiMC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "fractions-operations",
+      "estimation-rounding"
+    ],
+    "difficulty": 4,
+    "stem": "Which of the following fractions are greater than \\(\\dfrac{3}{4}\\)? Select all that apply.",
+    "options": [
+      {
+        "id": "A",
+        "text": "\\(\\dfrac{7}{9}\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(\\dfrac{11}{15}\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(\\dfrac{13}{17}\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(\\dfrac{17}{23}\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(\\dfrac{22}{29}\\)"
+      }
+    ],
+    "answer": [
+      "A",
+      "C",
+      "E"
+    ],
+    "solutionStandard": "Cross-multiply each against \\(\\tfrac34\\): \\(7\\cdot4=28 > 27=9\\cdot3\\) ✓; \\(11\\cdot4=44 < 45\\) ✗; \\(13\\cdot4=52 > 51\\) ✓; \\(17\\cdot4=68 < 69\\) ✗; \\(22\\cdot4=88 > 87\\) ✓. So A, C, E.",
+    "solutionShortcut": "Cross-multiplication against the benchmark is mechanical: \\(\\tfrac{n}{d} > \\tfrac34 \\iff 4n > 3d\\). Each option takes ~3 seconds; never convert to decimals.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 105
+  },
+  {
+    "id": "arithmetic-mixed-practice-072",
+    "type": "Numeric",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "integer-properties"
+    ],
+    "difficulty": 5,
+    "stem": "How many zeros does \\(30!\\) (30 factorial) end in?",
+    "answer": 7,
+    "solutionStandard": "Trailing zeros come from factors of 10 = 2·5, and 5s are scarcer than 2s. Count factors of 5 in \\(30!\\): \\(\\lfloor 30/5 \\rfloor + \\lfloor 30/25 \\rfloor = 6 + 1 = 7\\).",
+    "solutionShortcut": "Trailing zeros of \\(n!\\): add \\(\\lfloor n/5 \\rfloor + \\lfloor n/25 \\rfloor + \\lfloor n/125 \\rfloor + \\cdots\\). Only 5s matter — 2s are always plentiful.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 90
+  },
+  {
+    "id": "arithmetic-mixed-practice-073",
+    "type": "QC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "exponents-basic",
+      "number-line-ordering"
+    ],
+    "difficulty": 4,
+    "variables": [
+      {
+        "name": "a",
+        "min": 2,
+        "max": 4
+      },
+      {
+        "name": "b",
+        "min": 5,
+        "max": 9
+      }
+    ],
+    "stem": "\\(0 < x < 1\\)",
+    "quantityA": "\\(x^{ {{a}} }\\)",
+    "quantityB": "\\(x^{ {{b}} }\\)",
+    "answer": "A",
+    "solutionStandard": "For \\(0 < x < 1\\), multiplying by \\(x\\) shrinks a number, so higher powers are smaller: since \\({{a}} < {{b}}\\), \\(x^{ {{a}} } > x^{ {{b}} }\\). Quantity A is greater.",
+    "solutionShortcut": "Between 0 and 1, powers flip: the smaller exponent wins. Test \\(x = \\tfrac12\\) if unsure: \\((\\tfrac12)^{ {{a}} } = \\tfrac{1}{ {{Math.pow(2,a)}} }\\) vs \\((\\tfrac12)^{ {{b}} } = \\tfrac{1}{ {{Math.pow(2,b)}} }\\).",
+    "shortcutTags": [
+      "plug-in"
+    ],
+    "timeTargetSec": 65
+  },
+  {
+    "id": "arithmetic-mixed-practice-074",
+    "type": "MC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "percent-change"
+    ],
+    "difficulty": 4,
+    "stem": "A store applies a 25% discount to an item, then applies an additional 20% discount to the reduced price. The combined effect equals a single discount of what percent?",
+    "options": [
+      {
+        "id": "A",
+        "text": "35%"
+      },
+      {
+        "id": "B",
+        "text": "40%"
+      },
+      {
+        "id": "C",
+        "text": "42.5%"
+      },
+      {
+        "id": "D",
+        "text": "45%"
+      },
+      {
+        "id": "E",
+        "text": "50%"
+      }
+    ],
+    "answer": "B",
+    "solutionStandard": "Remaining fractions multiply: \\(0.75 \\times 0.80 = 0.60\\) of the original price remains, so the single equivalent discount is \\(1 - 0.60 = 40\\%\\).",
+    "solutionShortcut": "Track what's LEFT, not what's taken off: \\(\\tfrac34 \\cdot \\tfrac45 = \\tfrac35\\) remains → 40% off. The \"45%\" answer is the add-the-percents trap; successive discounts always total less than their sum.",
+    "shortcutTags": [
+      "estimate",
+      "eliminate"
+    ],
+    "timeTargetSec": 75
+  },
+  {
+    "id": "arithmetic-mixed-practice-075",
+    "type": "Numeric",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "integer-properties"
+    ],
+    "difficulty": 4,
+    "stem": "Three bells toll every 8 seconds, 12 seconds, and 15 seconds, respectively. They toll together at noon. How many more times will they toll together in the next 20 minutes?",
+    "answer": 10,
+    "solutionStandard": "They coincide every \\(\\operatorname{lcm}(8,12,15)\\) seconds. \\(8 = 2^3\\), \\(12 = 2^2\\cdot3\\), \\(15 = 3\\cdot5\\), so \\(\\operatorname{lcm} = 2^3\\cdot3\\cdot5 = 120\\) s = 2 minutes. In 20 minutes they coincide \\(20/2 = 10\\) more times.",
+    "solutionShortcut": "Build the LCM from prime factorizations (take each prime's highest power) rather than listing multiples — with three numbers, listing is where the time goes.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 100
+  },
+  {
+    "id": "arithmetic-mixed-practice-076",
+    "type": "QC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "exponents-basic"
+    ],
+    "difficulty": 5,
+    "stem": "Compare the two quantities.",
+    "quantityA": "\\(2^{40}\\)",
+    "quantityB": "\\(3^{25}\\)",
+    "answer": "A",
+    "solutionStandard": "Write both as fifth powers: \\(2^{40} = (2^8)^5 = 256^5\\) and \\(3^{25} = (3^5)^5 = 243^5\\). Since \\(256 > 243\\), \\(2^{40} > 3^{25}\\).",
+    "solutionShortcut": "When exponents share a common factor, compare the reduced powers instead: \\(\\gcd(40,25)=5\\), so compare \\(2^8=256\\) with \\(3^5=243\\). Turning huge exponents into small ones is the standard move.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 110
+  },
+  {
+    "id": "arithmetic-mixed-practice-077",
+    "type": "Numeric",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "integer-properties"
+    ],
+    "difficulty": 4,
+    "variables": [
+      {
+        "name": "a",
+        "min": 4,
+        "max": 6
+      },
+      {
+        "name": "r",
+        "min": 1,
+        "max": 3
+      }
+    ],
+    "stem": "What is the smallest integer greater than 10 that leaves a remainder of {{r}} when divided by {{a}} and also when divided by 7?",
+    "answer": 29,
+    "answerFormula": "a*7+r",
+    "solutionStandard": "An integer leaving remainder {{r}} on division by both {{a}} and 7 must be \\({{r}}\\) more than a common multiple of {{a}} and 7. Since {{a}} and 7 share no factors, \\(\\operatorname{lcm}({{a}},7) = {{a*7}}\\), so such integers are \\({{r}},\\ {{a*7}}+{{r}},\\ {{2*a*7}}+{{r}}, \\ldots\\) The smallest one greater than 10 is \\({{a*7}} + {{r}} = {{a*7+r}}\\).",
+    "solutionShortcut": "\"Same remainder \\(r\\) for several divisors\" always means \\(\\text{lcm}\\cdot k + r\\). Compute the lcm of the divisors, add the remainder, and pick the first value past the required threshold.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 95
+  },
+  {
+    "id": "arithmetic-mixed-practice-078",
+    "type": "MC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "exponents-basic",
+      "estimation-rounding"
+    ],
+    "difficulty": 4,
+    "stem": "How many digits does the number \\(2^{10} \\times 5^{7}\\) have?",
+    "options": [
+      {
+        "id": "A",
+        "text": "7"
+      },
+      {
+        "id": "B",
+        "text": "8"
+      },
+      {
+        "id": "C",
+        "text": "9"
+      },
+      {
+        "id": "D",
+        "text": "10"
+      },
+      {
+        "id": "E",
+        "text": "17"
+      }
+    ],
+    "answer": "B",
+    "solutionStandard": "Pair the 2s with the 5s: \\(2^{10} \\cdot 5^7 = 2^3 \\cdot (2 \\cdot 5)^7 = 8 \\times 10^7 = 80{,}000{,}000\\), which has 8 digits.",
+    "solutionShortcut": "Whenever 2s and 5s appear together, pair them into 10s first — the leftover factor tells you the leading digits and the power of ten tells you the length.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 75
+  },
+  {
+    "id": "arithmetic-mixed-practice-079",
+    "type": "QC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "percent-basics"
+    ],
+    "difficulty": 4,
+    "stem": "\\(x > 0\\)",
+    "quantityA": "20% of 30% of \\(x\\)",
+    "quantityB": "30% of 20% of \\(x\\)",
+    "answer": "C",
+    "solutionStandard": "Percent-of chains are products: Quantity A \\(= 0.20 \\times 0.30 \\times x = 0.06x\\) and Quantity B \\(= 0.30 \\times 0.20 \\times x = 0.06x\\). They are equal.",
+    "solutionShortcut": "\"\\(a\\%\\) of \\(b\\%\\) of\" commutes — it's just multiplication, and order never matters. Answer (C) on sight; the setup only looks asymmetric.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 55
+  },
+  {
+    "id": "arithmetic-mixed-practice-080",
+    "type": "Numeric",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "sequences-algebraic"
+    ],
+    "difficulty": 4,
+    "stem": "The sum of five consecutive even integers is 260. What is the largest of the five integers?",
+    "answer": 56,
+    "solutionStandard": "The middle integer is the average: \\(260 / 5 = 52\\). The five integers are 48, 50, 52, 54, 56, so the largest is 56.",
+    "solutionShortcut": "For any odd count of evenly spaced numbers, sum ÷ count = the middle one. Largest = middle + 2·(spacing). No variables needed.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 70
+  },
+  {
+    "id": "arithmetic-mixed-practice-081",
+    "type": "Numeric",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "percent-basics"
+    ],
+    "difficulty": 4,
+    "variables": [
+      {
+        "name": "p",
+        "min": 12,
+        "max": 35
+      },
+      {
+        "name": "q",
+        "min": 8,
+        "max": 30
+      }
+    ],
+    "stem": "A city has 10,000 residents. {{p}}% of the residents are homeowners, and {{q}}% of the homeowners have solar panels. How many residents are homeowners with solar panels?",
+    "answer": 300,
+    "answerFormula": "p*q",
+    "solutionStandard": "Homeowners: \\(\\tfrac{ {{p}} }{100} \\times 10000 = {{p*100}}\\). Of these, \\(\\tfrac{ {{q}} }{100} \\times {{p*100}} = {{p*q}}\\) have solar panels.",
+    "solutionShortcut": "With a base of 10,000, \\(p\\%\\) of \\(q\\%\\) is just \\(p \\times q\\) — the two /100 factors exactly cancel the four zeros. Spotting friendly bases saves both steps.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 80
+  },
+  {
+    "id": "arithmetic-mixed-practice-082",
+    "type": "QC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "absolute-value"
+    ],
+    "difficulty": 4,
+    "stem": "\\(|x - 3| = 5\\)",
+    "quantityA": "\\(|x|\\)",
+    "quantityB": "3",
+    "answer": "D",
+    "solutionStandard": "\\(|x-3| = 5\\) gives \\(x = 8\\) or \\(x = -2\\). If \\(x = 8\\), \\(|x| = 8 > 3\\); if \\(x = -2\\), \\(|x| = 2 < 3\\). The relationship cannot be determined.",
+    "solutionShortcut": "An absolute-value equation almost always has two solutions — find both immediately (center 3, radius 5 → 8 and −2) and test each. If they disagree, the answer is (D).",
+    "shortcutTags": [
+      "plug-in"
+    ],
+    "timeTargetSec": 75
+  },
+  {
+    "id": "arithmetic-mixed-practice-083",
+    "type": "MC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "decimals-operations",
+      "exponents-basic"
+    ],
+    "difficulty": 4,
+    "stem": "If \\(0.0023 \\times 10^{k}\\) is between 100 and 1000, what is the value of the integer \\(k\\)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "4"
+      },
+      {
+        "id": "B",
+        "text": "5"
+      },
+      {
+        "id": "C",
+        "text": "6"
+      },
+      {
+        "id": "D",
+        "text": "7"
+      },
+      {
+        "id": "E",
+        "text": "There is no such integer"
+      }
+    ],
+    "answer": "B",
+    "solutionStandard": "\\(0.0023 \\times 10^5 = 230\\), which lies between 100 and 1000. (\\(k=4\\) gives 23, too small; \\(k=6\\) gives 2300, too large.)",
+    "solutionShortcut": "Count decimal shifts: 0.0023 needs 5 right-shifts to land in the hundreds (2 → past the leading zeros, 3 more → three digits). Backsolving from the middle option is equally fast.",
+    "shortcutTags": [
+      "backsolve"
+    ],
+    "timeTargetSec": 70
+  },
+  {
+    "id": "arithmetic-mixed-practice-084",
+    "type": "Numeric",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "integer-properties"
+    ],
+    "difficulty": 4,
+    "stem": "The greatest common divisor of two positive integers is 6, and their least common multiple is 180. If one of the integers is 36, what is the other?",
+    "answer": 30,
+    "solutionStandard": "For any two positive integers, \\(\\gcd \\times \\operatorname{lcm} = \\text{product}\\). So the other integer is \\(\\dfrac{6 \\times 180}{36} = 30\\). (Check: \\(\\gcd(36,30)=6\\), \\(\\operatorname{lcm}=180\\).) ",
+    "solutionShortcut": "\\(\\gcd \\cdot \\text{lcm} = a \\cdot b\\) is one of the highest-value identities on the GRE — it converts this whole question into one division.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 75
+  },
+  {
+    "id": "arithmetic-mixed-practice-085",
+    "type": "MultiMC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "integer-properties",
+      "number-line-ordering"
+    ],
+    "difficulty": 4,
+    "stem": "\\(x\\) is an integer with \\(60 < x^2 < 200\\). Which of the following could be the value of \\(x\\)? Select all that apply.",
+    "options": [
+      {
+        "id": "A",
+        "text": "\\(-14\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(-9\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(-7\\)"
+      },
+      {
+        "id": "D",
+        "text": "8"
+      },
+      {
+        "id": "E",
+        "text": "12"
+      },
+      {
+        "id": "F",
+        "text": "15"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "D",
+      "E"
+    ],
+    "solutionStandard": "\\(x^2\\) must be strictly between 60 and 200, so \\(|x|\\) is between \\(\\sqrt{60} \\approx 7.75\\) and \\(\\sqrt{200} \\approx 14.14\\), i.e. \\(|x| \\in \\{8, \\ldots, 14\\}\\). Checking: \\((-14)^2=196\\) ✓, \\((-9)^2=81\\) ✓, \\((-7)^2=49\\) ✗, \\(8^2=64\\) ✓, \\(12^2=144\\) ✓, \\(15^2=225\\) ✗.",
+    "solutionShortcut": "Convert the condition on \\(x^2\\) to a condition on \\(|x|\\) once (\\(8 \\le |x| \\le 14\\)) and scan the options by absolute value — don't square each option separately.",
+    "shortcutTags": [
+      "estimate",
+      "eliminate"
+    ],
+    "timeTargetSec": 100
+  },
+  {
+    "id": "arithmetic-mixed-practice-086",
+    "type": "Numeric",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "percent-change"
+    ],
+    "difficulty": 4,
+    "stem": "After two successive price increases, first of 20% and then of 25%, an item costs \\$360. What was its original price, in dollars?",
+    "answer": 240,
+    "solutionStandard": "The multipliers compound: original \\(\\times 1.20 \\times 1.25 = \\) original \\(\\times 1.5 = 360\\), so the original price was \\(360 / 1.5 = 240\\).",
+    "solutionShortcut": "\\(1.2 \\times 1.25 = 1.5\\) exactly (spot the friendly pair: \\(\\tfrac65 \\cdot \\tfrac54 = \\tfrac64\\)). Reverse questions are one division once you've multiplied the factors — never reverse the steps one at a time.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 85
+  },
+  {
+    "id": "arithmetic-mixed-practice-087",
+    "type": "QC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "fractions-operations",
+      "estimation-rounding"
+    ],
+    "difficulty": 5,
+    "stem": "\\(S = \\dfrac{1}{11} + \\dfrac{1}{12} + \\dfrac{1}{13} + \\cdots + \\dfrac{1}{20}\\) (ten terms)",
+    "quantityA": "\\(S\\)",
+    "quantityB": "1",
+    "answer": "B",
+    "solutionStandard": "Each of the ten terms is at most \\(\\tfrac1{11}\\), so \\(S \\le \\tfrac{10}{11} < 1\\). Quantity B is greater. (A matching lower bound: each term is at least \\(\\tfrac1{20}\\), so \\(S \\ge \\tfrac{10}{20} = \\tfrac12\\).)",
+    "solutionShortcut": "Never add ten fractions — bound them. Ten terms, each below \\(\\tfrac1{10}\\)'s neighborhood: multiply the largest term by the count and compare. Bounding sums by (count × extreme term) settles most series comparisons instantly.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 90
+  },
+  {
+    "id": "arithmetic-mixed-practice-088",
+    "type": "MC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "ratios-proportions"
+    ],
+    "difficulty": 4,
+    "stem": "In a certain recipe, the ratio of flour to sugar is \\(2:3\\) and the ratio of sugar to butter is \\(4:5\\). What is the ratio of flour to butter?",
+    "options": [
+      {
+        "id": "A",
+        "text": "\\(2:5\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(8:15\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(3:4\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(8:12\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(10:12\\)"
+      }
+    ],
+    "answer": "B",
+    "solutionStandard": "Scale both ratios so sugar matches: \\(\\text{lcm}(3,4)=12\\). Flour:sugar \\(= 8:12\\) and sugar:butter \\(= 12:15\\), so flour:sugar:butter \\(= 8:12:15\\) and flour:butter \\(= 8:15\\).",
+    "solutionShortcut": "Chain ratios by multiplying through the middleman: \\(\\tfrac{F}{B} = \\tfrac{F}{S}\\cdot\\tfrac{S}{B} = \\tfrac23 \\cdot \\tfrac45 = \\tfrac{8}{15}\\). Treat ratios as fractions and the middle term cancels itself.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 80
+  },
+  {
+    "id": "arithmetic-mixed-practice-089",
+    "type": "Numeric",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "percent-basics"
+    ],
+    "difficulty": 4,
+    "variables": [
+      {
+        "name": "P",
+        "min": 200,
+        "max": 1000,
+        "step": 100
+      },
+      {
+        "name": "r",
+        "min": 3,
+        "max": 8
+      },
+      {
+        "name": "t",
+        "min": 2,
+        "max": 5
+      }
+    ],
+    "stem": "\\(\\${{P}}\\) is deposited in an account earning {{r}}% simple interest per year. What is the total amount in the account after {{t}} years, in dollars?",
+    "answer": 300,
+    "answerFormula": "P + P*r*t/100",
+    "solutionStandard": "Simple interest: \\(I = \\dfrac{ {{P}} \\times {{r}} \\times {{t}} }{100} = {{P*r*t/100}}\\). Total \\(= {{P}} + {{P*r*t/100}} = {{P + P*r*t/100}}\\).",
+    "solutionShortcut": "Simple interest scales linearly: {{r}}% per year for {{t}} years is just \\({{r*t}}\\%\\) of the principal, once. \\({{r*t}}\\%\\) of {{P}} is \\({{P*r*t/100}}\\); add the principal.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 85
+  },
+  {
+    "id": "arithmetic-mixed-practice-090",
+    "type": "QC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "percent-basics"
+    ],
+    "difficulty": 4,
+    "variables": [
+      {
+        "name": "a",
+        "min": 3,
+        "max": 49
+      },
+      {
+        "name": "b",
+        "min": 51,
+        "max": 97
+      }
+    ],
+    "stem": "Compare the two quantities.",
+    "quantityA": "{{a}}% of {{b}}",
+    "quantityB": "{{b}}% of {{a}}",
+    "answer": "C",
+    "solutionStandard": "\\({{a}}\\%\\) of \\({{b}} = \\tfrac{ {{a}} }{100} \\cdot {{b}} = \\tfrac{ {{a*b}} }{100}\\), and \\({{b}}\\%\\) of \\({{a}} = \\tfrac{ {{b}} }{100} \\cdot {{a}} = \\tfrac{ {{a*b}} }{100}\\). They are always equal.",
+    "solutionShortcut": "\\(a\\%\\) of \\(b\\) = \\(b\\%\\) of \\(a\\), always — both are \\(\\tfrac{ab}{100}\\). This also speeds up mental math: 16% of 25 is easier as 25% of 16 = 4.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 60
+  },
+  {
+    "id": "arithmetic-mixed-practice-091",
+    "type": "MC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "integer-properties"
+    ],
+    "difficulty": 4,
+    "stem": "How many positive divisors does 720 have?",
+    "options": [
+      {
+        "id": "A",
+        "text": "20"
+      },
+      {
+        "id": "B",
+        "text": "24"
+      },
+      {
+        "id": "C",
+        "text": "28"
+      },
+      {
+        "id": "D",
+        "text": "30"
+      },
+      {
+        "id": "E",
+        "text": "36"
+      }
+    ],
+    "answer": "D",
+    "solutionStandard": "\\(720 = 2^4 \\cdot 3^2 \\cdot 5\\). The divisor count is the product of (exponent + 1) over each prime: \\((4+1)(2+1)(1+1) = 5 \\cdot 3 \\cdot 2 = 30\\).",
+    "solutionShortcut": "Factor, add 1 to each exponent, multiply. Listing divisors of a number this size is a guaranteed time sink — the formula is the only sane route.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 90
+  },
+  {
+    "id": "arithmetic-mixed-practice-092",
+    "type": "Numeric",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "fractions-operations"
+    ],
+    "difficulty": 5,
+    "stem": "Compute the product \\(\\left(1 - \\dfrac{1}{2}\\right)\\left(1 - \\dfrac{1}{3}\\right)\\left(1 - \\dfrac{1}{4}\\right)\\cdots\\left(1 - \\dfrac{1}{20}\\right)\\). Give your answer as a decimal.",
+    "answer": 0.05,
+    "solutionStandard": "The product is \\(\\tfrac12 \\cdot \\tfrac23 \\cdot \\tfrac34 \\cdots \\tfrac{19}{20}\\). Every numerator cancels the previous denominator, leaving \\(\\tfrac{1}{20} = 0.05\\).",
+    "solutionShortcut": "Write out the first three factors and the telescoping pattern is unmistakable — everything cancels except the first numerator and last denominator. Any long product of this shape collapses the same way.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 90
+  },
+  {
+    "id": "arithmetic-mixed-practice-093",
+    "type": "QC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "integer-properties"
+    ],
+    "difficulty": 5,
+    "stem": "Compare the two quantities.",
+    "quantityA": "The number of primes between 1 and 30",
+    "quantityB": "The number of primes between 31 and 70",
+    "answer": "A",
+    "solutionStandard": "Primes up to 30: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29 — ten of them. Primes from 31 to 70: 31, 37, 41, 43, 47, 53, 59, 61, 67 — nine. Quantity A is greater.",
+    "solutionShortcut": "Primes thin out as numbers grow (roughly 1 in \\(\\ln n\\)); for equal-length-ish ranges, the earlier range almost always wins. Verify quickly by counting, but let the density intuition set your expectation.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 110
+  },
+  {
+    "id": "arithmetic-mixed-practice-094",
+    "type": "MC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "integer-properties"
+    ],
+    "difficulty": 4,
+    "stem": "When the positive integer \\(n\\) is divided by 12, the remainder is 5. What is the remainder when \\(n\\) is divided by 6?",
+    "options": [
+      {
+        "id": "A",
+        "text": "0"
+      },
+      {
+        "id": "B",
+        "text": "1"
+      },
+      {
+        "id": "C",
+        "text": "2"
+      },
+      {
+        "id": "D",
+        "text": "5"
+      },
+      {
+        "id": "E",
+        "text": "It cannot be determined"
+      }
+    ],
+    "answer": "D",
+    "solutionStandard": "\\(n = 12q + 5 = 6(2q) + 5\\), and since \\(5 < 6\\) the remainder on division by 6 is exactly 5, for every such \\(n\\).",
+    "solutionShortcut": "When the new divisor divides the old one (6 | 12), the new remainder is just (old remainder) mod (new divisor): \\(5 \\bmod 6 = 5\\). Test with \\(n = 17\\) if in doubt.",
+    "shortcutTags": [
+      "plug-in"
+    ],
+    "timeTargetSec": 75
+  },
+  {
+    "id": "arithmetic-mixed-practice-095",
+    "type": "Numeric",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "fractions-operations",
+      "rates-and-work"
+    ],
+    "difficulty": 4,
+    "stem": "If \\(\\dfrac{1}{x} = \\dfrac{1}{4} + \\dfrac{1}{6}\\), what is the value of \\(x\\)? Give your answer as a decimal.",
+    "answer": 2.4,
+    "solutionStandard": "\\(\\tfrac14 + \\tfrac16 = \\tfrac{3}{12} + \\tfrac{2}{12} = \\tfrac{5}{12}\\), so \\(x = \\tfrac{12}{5} = 2.4\\).",
+    "solutionShortcut": "This is the work-rate shape: two workers taking 4 and 6 hours finish together in \\(\\tfrac{4 \\cdot 6}{4+6} = \\tfrac{24}{10} = 2.4\\). The product-over-sum formula for two rates is worth memorizing.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 70
+  },
+  {
+    "id": "arithmetic-mixed-practice-096",
+    "type": "QC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "exponents-basic",
+      "decimals-operations"
+    ],
+    "difficulty": 4,
+    "stem": "Compare the two quantities.",
+    "quantityA": "\\((4 \\times 10^{8})(3 \\times 10^{-3})\\)",
+    "quantityB": "\\(2 \\times 10^{6}\\)",
+    "answer": "B",
+    "solutionStandard": "Quantity A \\(= 12 \\times 10^{5} = 1.2 \\times 10^{6}\\), which is less than \\(2 \\times 10^{6}\\). Quantity B is greater.",
+    "solutionShortcut": "Multiply the mantissas (4·3 = 12) and add the exponents (8 − 3 = 5), then normalize before comparing — the un-normalized \\(12 \\times 10^5\\) tricks people into seeing a bigger exponent-6 number than it is.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 70
+  },
+  {
+    "id": "arithmetic-mixed-practice-097",
+    "type": "MultiMC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "integer-properties"
+    ],
+    "difficulty": 4,
+    "stem": "\\(n\\) is an odd integer. Which of the following must be even? Select all that apply.",
+    "options": [
+      {
+        "id": "A",
+        "text": "\\(n + 1\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(2n\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(n^2\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(3n\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(n^2 + n\\)"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "E"
+    ],
+    "solutionStandard": "odd + 1 = even ✓; \\(2n\\) is always even ✓; odd² = odd ✗; \\(3 \\cdot\\) odd = odd ✗; \\(n^2 + n = n(n+1)\\) is a product of consecutive integers, always even ✓.",
+    "solutionShortcut": "Plug in \\(n = 1\\): the five values become 2, 2, 1, 3, 2 — instantly marking A, B, E. For \"must be\" parity questions, one odd test value settles everything (parity is periodic).",
+    "shortcutTags": [
+      "plug-in"
+    ],
+    "timeTargetSec": 80
+  },
+  {
+    "id": "arithmetic-mixed-practice-098",
+    "type": "Numeric",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "ratios-proportions"
+    ],
+    "difficulty": 4,
+    "variables": [
+      {
+        "name": "a",
+        "min": 5,
+        "max": 9
+      },
+      {
+        "name": "b",
+        "min": 2,
+        "max": 4
+      },
+      {
+        "name": "k",
+        "min": 3,
+        "max": 12
+      }
+    ],
+    "stem": "Two partners split a profit in the ratio \\({{a}} : {{b}}\\). The smaller share is \\(\\${{b*k}}\\). What was the total profit, in dollars?",
+    "answer": 100,
+    "answerFormula": "(a+b)*k",
+    "solutionStandard": "The shares are \\({{a}}x\\) and \\({{b}}x\\) for some multiplier \\(x\\). The smaller share gives \\({{b}}x = {{b*k}}\\), so \\(x = {{k}}\\), and the total is \\(({{a}}+{{b}})x = {{(a+b)*k}}\\).",
+    "solutionShortcut": "Find the value of one ratio unit first: \\(\\${{b*k}} \\div {{b}} = {{k}}\\) per unit, and the total is \\({{a+b}}\\) units \\(= {{(a+b)*k}}\\). Thinking in ratio units beats setting up algebra.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 85
+  },
+  {
+    "id": "arithmetic-mixed-practice-099",
+    "type": "QC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "decimals-operations",
+      "fractions-operations"
+    ],
+    "difficulty": 5,
+    "stem": "Compare the two quantities.",
+    "quantityA": "\\(\\dfrac{1}{3}\\)",
+    "quantityB": "\\(0.33334\\)",
+    "answer": "B",
+    "solutionStandard": "\\(\\tfrac13 = 0.333333\\ldots\\), which is less than \\(0.333340\\). Comparing digit by digit: they agree through 0.3333, then \\(\\tfrac13\\) continues with 3 while Quantity B has 4. Quantity B is greater.",
+    "solutionShortcut": "Line the decimals up to the same length before judging: \\(0.33334 = 0.333340\\) vs \\(0.333333\\). The extra digit '4' beats the repeating '3' — don't let the familiar-looking 0.3333… pattern fool you into (C).",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 70
+  },
+  {
+    "id": "arithmetic-mixed-practice-100",
+    "type": "MC",
+    "primarySkill": "arithmetic-mixed-practice",
+    "secondarySkills": [
+      "integer-properties",
+      "word-problems-algebraic-translation"
+    ],
+    "difficulty": 4,
+    "stem": "The digits of a two-digit number add up to 11. When the digits are reversed, the number increases by 27. What is the original number?",
+    "options": [
+      {
+        "id": "A",
+        "text": "38"
+      },
+      {
+        "id": "B",
+        "text": "47"
+      },
+      {
+        "id": "C",
+        "text": "56"
+      },
+      {
+        "id": "D",
+        "text": "65"
+      },
+      {
+        "id": "E",
+        "text": "74"
+      }
+    ],
+    "answer": "B",
+    "solutionStandard": "Let the number be \\(10t + u\\) with \\(t + u = 11\\). Reversing gives \\(10u + t\\), and \\((10u + t) - (10t + u) = 9(u - t) = 27\\), so \\(u - t = 3\\). Solving: \\(u = 7\\), \\(t = 4\\) — the number is 47.",
+    "solutionShortcut": "Backsolve: all options have digit sum 11, so only the +27 condition matters. Reversal changes a number by 9 × (units − tens); you need +27, so units − tens = 3. Scan: only 47 works (74 − 47 = 27).",
+    "shortcutTags": [
+      "backsolve",
+      "eliminate"
+    ],
+    "timeTargetSec": 95
   }
 ]
