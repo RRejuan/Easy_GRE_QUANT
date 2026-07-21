@@ -1,18 +1,15 @@
 import { Link } from "react-router-dom";
 import { groupSkillsByAreaAndTopic, skillsWithContent } from "../lib/content";
-import { storageAdapter, resetProgress } from "../lib/storage";
-import { computeMastery } from "../lib/mastery";
+import { resetProgress } from "../lib/storage";
+import { skillMasteryPercent } from "../lib/mastery";
 import { recommendNextSkill } from "../lib/recommend";
 import { AreaMasteryChart } from "../components/AreaMasteryChart";
-import { MasteryBar } from "../components/MasteryBar";
+import { SkillAreaList } from "../components/SkillAreaList";
 
 export function DashboardPage() {
   const skills = skillsWithContent();
   const masteryBySkill = new Map(
-    skills.map((skill) => {
-      const state = storageAdapter.getSkillMastery(skill.id);
-      return [skill.id, state ? computeMastery(state) : 0];
-    }),
+    skills.map((skill) => [skill.id, skillMasteryPercent(skill.id)]),
   );
 
   const attempted = [...masteryBySkill.values()].filter((m) => m > 0);
@@ -42,7 +39,7 @@ export function DashboardPage() {
 
   function handleResetProgress() {
     const confirmed = window.confirm(
-      "Reset all progress for this profile? This clears every skill's mastery and attempt history and cannot be undone. Consider using Export first if you want a backup.",
+      "Reset all your progress? This clears every skill's mastery and attempt history and cannot be undone.",
     );
     if (!confirmed) return;
     resetProgress();
@@ -83,32 +80,18 @@ export function DashboardPage() {
         </p>
       )}
 
-      {groups.map((group) => (
-        <section key={group.area}>
-          <h2>{group.area}</h2>
-          {group.topics.map((topicGroup) => (
-            <div key={topicGroup.topic}>
-              <h3>{topicGroup.topic}</h3>
-              <ul>
-                {topicGroup.skills.map((skill) => (
-                  <li key={skill.id}>
-                    <Link to={`/skill/${skill.id}`}>{skill.name}</Link>{" "}
-                    <MasteryBar percent={masteryBySkill.get(skill.id) ?? 0} />
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
-        </section>
-      ))}
+      <SkillAreaList
+        groups={groups}
+        masteryForSkill={(id) => masteryBySkill.get(id) ?? 0}
+      />
 
       <div className="danger-zone">
         <button type="button" className="reset-progress-button" onClick={handleResetProgress}>
           Reset progress
         </button>
         <p className="danger-zone-hint">
-          Clears this profile's mastery and attempt history. Export first if
-          you want a backup.
+          Clears your mastery and attempt history. For signed-in accounts this
+          also clears your synced cloud progress.
         </p>
       </div>
     </div>

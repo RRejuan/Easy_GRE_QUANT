@@ -702,3 +702,81 @@ fieldset label {
   color: var(--danger);
   margin-top: 8px;
 }
+
+/* --- Collapsible skill areas --------------------------------------- */
+
+.skill-list-hint {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-top: 4px;
+}
+
+.skill-area-list {
+  margin: 16px 0;
+}
+
+.skill-area {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--bg-card);
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.skill-area-summary {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 18px;
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+}
+/* Hide the default disclosure triangle across browsers. */
+.skill-area-summary::-webkit-details-marker {
+  display: none;
+}
+
+.skill-area-chevron {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  transition: transform 0.15s ease;
+}
+.skill-area[open] > .skill-area-summary .skill-area-chevron {
+  transform: rotate(90deg);
+}
+
+.skill-area-name {
+  font-family: var(--heading);
+  font-size: 1.2rem;
+  color: var(--text-h);
+}
+
+.skill-area-count {
+  margin-left: auto;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.skill-area-summary:hover .skill-area-name {
+  color: var(--primary);
+}
+
+.skill-area-body {
+  padding: 0 18px 8px;
+  border-top: 1px solid var(--border);
+}
+
+.skill-topic h3 {
+  margin: 14px 0 6px;
+}
+
+.skill-area-list ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 6px 0;
+}
+.skill-area-list li {
+  padding: 4px 0;
+}

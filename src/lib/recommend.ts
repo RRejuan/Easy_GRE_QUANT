@@ -1,13 +1,11 @@
 import type { Skill } from "../types";
 import { getQuestionsForSkill, skillsWithContent } from "./content";
-import { storageAdapter } from "./storage";
-import { computeMastery } from "./mastery";
+import { skillMasteryPercent } from "./mastery";
 
 const MASTERY_THRESHOLD = 60;
 
 function masteryFor(skillId: string): number {
-  const state = storageAdapter.getSkillMastery(skillId);
-  return state ? computeMastery(state) : 0;
+  return skillMasteryPercent(skillId);
 }
 
 /** A prerequisite only gates progress if it has question content; skills whose prerequisites aren't built yet are never permanently locked out. */
