@@ -3639,5 +3639,1397 @@
     "answer": "B",
     "solutionStandard": "Since \\(3^3=27\\), the edge length is 3, so surface area \\(=6(3)^2=54\\), which is less than 60. Quantity B is greater.",
     "timeTargetSec": 85
+  },
+  {
+    "id": "geometry-mixed-practice-051",
+    "type": "Numeric",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": [
+      "right-triangles-pythagorean"
+    ],
+    "difficulty": 4,
+    "stem": "A right triangle has area 30 and one leg of length 5. What is the perimeter of the triangle?",
+    "answer": 30,
+    "solutionStandard": "Area \\(= \\tfrac12 \\cdot 5 \\cdot b = 30\\) gives the other leg \\(b = 12\\). Hypotenuse: \\(\\sqrt{25 + 144} = 13\\). Perimeter \\(= 5 + 12 + 13 = 30\\).",
+    "solutionShortcut": "Leg 5 and area 30 scream 5-12-13 — recognizing the Pythagorean triples (3-4-5, 5-12-13, 8-15-17, 7-24-25) converts most right-triangle questions into recall.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 90
+  },
+  {
+    "id": "geometry-mixed-practice-052",
+    "type": "QC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": [
+      "triangle-inequality"
+    ],
+    "difficulty": 4,
+    "stem": "A triangle has sides of length 5, 9, and \\(t\\).",
+    "quantityA": "\\(t\\)",
+    "quantityB": "14",
+    "answer": "B",
+    "solutionStandard": "The triangle inequality requires \\(t < 5 + 9 = 14\\) (and \\(t > 4\\)). Since \\(t\\) is strictly less than 14, Quantity B is greater.",
+    "solutionShortcut": "Third-side range is always (difference, sum) — open interval, never inclusive. The strictness is the whole question: \\(t = 14\\) would make a degenerate flat 'triangle', so (C) is impossible.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 65
+  },
+  {
+    "id": "geometry-mixed-practice-053",
+    "type": "MC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": [
+      "polygons-general"
+    ],
+    "difficulty": 4,
+    "stem": "Each interior angle of a regular polygon measures 150°. How many sides does the polygon have?",
+    "options": [
+      {
+        "id": "A",
+        "text": "9"
+      },
+      {
+        "id": "B",
+        "text": "10"
+      },
+      {
+        "id": "C",
+        "text": "12"
+      },
+      {
+        "id": "D",
+        "text": "15"
+      },
+      {
+        "id": "E",
+        "text": "18"
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "Interior 150° means exterior \\(180° - 150° = 30°\\). Exterior angles of any polygon sum to 360°, so \\(n = 360/30 = 12\\).",
+    "solutionShortcut": "Always work with exterior angles: \\(n = 360 / \\text{exterior}\\). The interior-angle formula \\(\\tfrac{(n-2)180}{n}\\) forces you to solve an equation; the exterior route is one division.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 75
+  },
+  {
+    "id": "geometry-mixed-practice-054",
+    "type": "MC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": [
+      "special-right-triangles",
+      "triangles-basic"
+    ],
+    "difficulty": 4,
+    "stem": "What is the area of an equilateral triangle with side length 6?",
+    "options": [
+      {
+        "id": "A",
+        "text": "\\(6\\sqrt{3}\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(9\\sqrt{2}\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(9\\sqrt{3}\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(18\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(18\\sqrt{3}\\)"
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "The height splits the triangle into two 30-60-90 triangles: height \\(= 6 \\cdot \\tfrac{\\sqrt3}{2} = 3\\sqrt3\\). Area \\(= \\tfrac12 \\cdot 6 \\cdot 3\\sqrt3 = 9\\sqrt3\\).",
+    "solutionShortcut": "Memorize \\(\\text{Area} = \\tfrac{s^2\\sqrt3}{4}\\) for equilateral triangles: \\(\\tfrac{36\\sqrt3}{4} = 9\\sqrt3\\), ten seconds flat. It appears on nearly every GRE.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 80
+  },
+  {
+    "id": "geometry-mixed-practice-055",
+    "type": "QC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": [
+      "circles-basic"
+    ],
+    "difficulty": 5,
+    "variables": [
+      {
+        "name": "r",
+        "min": 3,
+        "max": 9
+      }
+    ],
+    "stem": "A circle has radius {{r}}.",
+    "quantityA": "\\(\\dfrac{\\text{circumference}}{\\text{area}}\\)",
+    "quantityB": "1",
+    "answer": "B",
+    "solutionStandard": "\\(\\dfrac{2\\pi r}{\\pi r^2} = \\dfrac{2}{r} = \\dfrac{2}{ {{r}} }\\), which is less than 1 whenever \\(r > 2\\). With \\(r = {{r}}\\), Quantity B is greater.",
+    "solutionShortcut": "The \\(\\pi\\)'s cancel instantly — the comparison is just \\(2/r\\) vs 1, i.e. \\(r\\) vs 2. Strip shared constants before evaluating anything.",
+    "shortcutTags": [
+      "eliminate"
+    ],
+    "timeTargetSec": 75
+  },
+  {
+    "id": "geometry-mixed-practice-056",
+    "type": "Numeric",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": [
+      "coordinate-geometry-basics",
+      "right-triangles-pythagorean"
+    ],
+    "difficulty": 4,
+    "stem": "What is the distance between the points \\((-3, 4)\\) and \\((5, -2)\\) in the coordinate plane?",
+    "answer": 10,
+    "solutionStandard": "Distance \\(= \\sqrt{(5-(-3))^2 + (-2-4)^2} = \\sqrt{8^2 + 6^2} = \\sqrt{100} = 10\\).",
+    "solutionShortcut": "The legs are 8 and 6 — twice the 3-4-5 triple, so the hypotenuse is 10 without squaring anything out.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 70
+  },
+  {
+    "id": "geometry-mixed-practice-057",
+    "type": "MC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": [
+      "coordinate-geometry-lines"
+    ],
+    "difficulty": 4,
+    "stem": "Line \\(\\ell\\) has equation \\(3x - 4y = 12\\). What is the slope of a line perpendicular to \\(\\ell\\)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "\\(\\dfrac{3}{4}\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(\\dfrac{4}{3}\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(-\\dfrac{3}{4}\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(-\\dfrac{4}{3}\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(-\\dfrac{1}{3}\\)"
+      }
+    ],
+    "answer": "D",
+    "solutionStandard": "Rewrite: \\(y = \\tfrac34 x - 3\\), so \\(\\ell\\) has slope \\(\\tfrac34\\). A perpendicular line has the negative reciprocal slope: \\(-\\tfrac43\\).",
+    "solutionShortcut": "From \\(ax + by = c\\), the slope is \\(-a/b\\) directly (here \\(3/4\\)) — no need to isolate \\(y\\). Then flip and negate for the perpendicular.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 70
+  },
+  {
+    "id": "geometry-mixed-practice-058",
+    "type": "Numeric",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": [
+      "quadrilaterals"
+    ],
+    "difficulty": 4,
+    "variables": [
+      {
+        "name": "l",
+        "min": 8,
+        "max": 15
+      },
+      {
+        "name": "w",
+        "min": 3,
+        "max": 7
+      }
+    ],
+    "stem": "A rectangle has perimeter {{2*(l+w)}} and length {{l}}. What is its area?",
+    "answer": 60,
+    "answerFormula": "l*w",
+    "solutionStandard": "Half the perimeter is length + width: \\({{l+w}}\\). So the width is \\({{l+w}} - {{l}} = {{w}}\\), and the area is \\({{l}} \\times {{w}} = {{l*w}}\\).",
+    "solutionShortcut": "Semi-perimeter first, always: length + width = perimeter ÷ 2. It converts perimeter problems into simple sums.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 75
+  },
+  {
+    "id": "geometry-mixed-practice-059",
+    "type": "QC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": [
+      "circles-basic",
+      "quadrilaterals"
+    ],
+    "difficulty": 5,
+    "stem": "A square and a circle have equal perimeters.",
+    "quantityA": "The area of the circle",
+    "quantityB": "The area of the square",
+    "answer": "A",
+    "solutionStandard": "Let the common perimeter be \\(P\\). Square: side \\(P/4\\), area \\(P^2/16\\). Circle: radius \\(P/(2\\pi)\\), area \\(P^2/(4\\pi)\\). Since \\(4\\pi \\approx 12.57 < 16\\), the circle's area is larger.",
+    "solutionShortcut": "For a fixed perimeter, the circle encloses the most area of any shape (and among polygons, more sides = more area). This isoperimetric fact answers the question with no algebra — worth knowing cold.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 90
+  },
+  {
+    "id": "geometry-mixed-practice-060",
+    "type": "MC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": [
+      "three-d-solids"
+    ],
+    "difficulty": 4,
+    "stem": "A right circular cylinder has radius 3 and height 8. What is its volume?",
+    "options": [
+      {
+        "id": "A",
+        "text": "\\(24\\pi\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(48\\pi\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(72\\pi\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(96\\pi\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(144\\pi\\)"
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "\\(V = \\pi r^2 h = \\pi \\cdot 9 \\cdot 8 = 72\\pi\\).",
+    "solutionShortcut": "The classic error is using \\(2\\pi r h\\) (lateral surface, option B) or forgetting to square \\(r\\) (option A). Volume = base area × height; say it aloud and the traps vanish.",
+    "shortcutTags": [
+      "eliminate"
+    ],
+    "timeTargetSec": 60
+  },
+  {
+    "id": "geometry-mixed-practice-061",
+    "type": "Numeric",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": [
+      "three-d-solids"
+    ],
+    "difficulty": 4,
+    "stem": "A cube has volume 64. What is its total surface area?",
+    "answer": 96,
+    "solutionStandard": "Side \\(= \\sqrt[3]{64} = 4\\). Surface area \\(= 6 \\times 4^2 = 96\\).",
+    "solutionShortcut": "Cube questions pivot on the side length — extract it first from whatever is given (volume → cube root, surface → ÷6 then square root), then convert to what's asked.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 70
+  },
+  {
+    "id": "geometry-mixed-practice-062",
+    "type": "QC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": [
+      "similar-triangles"
+    ],
+    "difficulty": 5,
+    "stem": "Two similar triangles have corresponding sides in ratio \\(2 : 3\\). The smaller triangle has area 20.",
+    "quantityA": "The area of the larger triangle",
+    "quantityB": "45",
+    "answer": "C",
+    "solutionStandard": "Areas of similar figures scale by the square of the side ratio: \\(\\left(\\tfrac32\\right)^2 = \\tfrac94\\). Larger area \\(= 20 \\cdot \\tfrac94 = 45\\). Equal.",
+    "solutionShortcut": "Lengths scale by \\(k\\), areas by \\(k^2\\), volumes by \\(k^3\\) — the single most-tested scaling fact. The trap is using \\(\\tfrac32\\) (giving 30); square the ratio first, every time.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 80
+  },
+  {
+    "id": "geometry-mixed-practice-063",
+    "type": "MC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": [
+      "circles-arcs-sectors"
+    ],
+    "difficulty": 4,
+    "stem": "In a circle of radius 6, what is the length of an arc subtended by a central angle of 60°?",
+    "options": [
+      {
+        "id": "A",
+        "text": "\\(\\pi\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(2\\pi\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(3\\pi\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(6\\pi\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(12\\pi\\)"
+      }
+    ],
+    "answer": "B",
+    "solutionStandard": "Arc \\(= \\dfrac{60}{360} \\times 2\\pi \\cdot 6 = \\dfrac{1}{6} \\times 12\\pi = 2\\pi\\).",
+    "solutionShortcut": "Think in fractions of the whole: 60° is \\(\\tfrac16\\) of the circle, so take \\(\\tfrac16\\) of the circumference. The fraction-of-circle frame handles arcs, sectors, and clock problems identically.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 70
+  },
+  {
+    "id": "geometry-mixed-practice-064",
+    "type": "Numeric",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": [
+      "triangles-basic",
+      "lines-angles"
+    ],
+    "difficulty": 4,
+    "variables": [
+      {
+        "name": "d",
+        "min": 5,
+        "max": 25
+      }
+    ],
+    "stem": "The measures of the three angles of a triangle are \\(x\\)°, \\((x + {{d}})\\)°, and \\((x + {{2*d}})\\)°. What is the measure, in degrees, of the largest angle?",
+    "answer": 75,
+    "answerFormula": "60+d",
+    "solutionStandard": "Sum: \\(3x + {{3*d}} = 180\\), so \\(x = {{60-d}}\\). The largest angle is \\(x + {{2*d}} = {{60-d}} + {{2*d}} = {{60+d}}\\)°.",
+    "solutionShortcut": "Three angles in arithmetic progression: the middle one is always \\(180/3 = 60\\)°, so the largest is \\(60 + {{d}}\\) immediately. Evenly spaced values average to the middle — the same trick as consecutive-integer sums.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 85
+  },
+  {
+    "id": "geometry-mixed-practice-065",
+    "type": "QC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": [
+      "quadrilaterals",
+      "right-triangles-pythagorean"
+    ],
+    "difficulty": 5,
+    "stem": "A rhombus has side length 5 and one diagonal of length 6.",
+    "quantityA": "The length of the other diagonal",
+    "quantityB": "8",
+    "answer": "C",
+    "solutionStandard": "A rhombus's diagonals bisect each other at right angles, forming four right triangles with legs 3 and \\(d/2\\) and hypotenuse 5 (the side). So \\(d/2 = \\sqrt{25 - 9} = 4\\), and \\(d = 8\\). Equal.",
+    "solutionShortcut": "Half-diagonals + side form a right triangle — and 3-4-5 appears yet again. In any rhombus problem, draw the diagonal cross and hunt for the triple.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 90
+  },
+  {
+    "id": "geometry-mixed-practice-066",
+    "type": "MC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": [
+      "circles-arcs-sectors"
+    ],
+    "difficulty": 4,
+    "stem": "What is the area of a sector with central angle 40° in a circle of radius 9?",
+    "options": [
+      {
+        "id": "A",
+        "text": "\\(4.5\\pi\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(8\\pi\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(9\\pi\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(18\\pi\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(2\\pi\\)"
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "Sector \\(= \\dfrac{40}{360} \\pi r^2 = \\dfrac19 \\cdot 81\\pi = 9\\pi\\).",
+    "solutionShortcut": "40° is \\(\\tfrac19\\) of the circle and \\(r^2 = 81\\) — the 9s cancel beautifully. Reduce the angle fraction before multiplying and the arithmetic usually collapses.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 70
+  },
+  {
+    "id": "geometry-mixed-practice-067",
+    "type": "Numeric",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": [
+      "special-right-triangles"
+    ],
+    "difficulty": 4,
+    "stem": "An isosceles right triangle has hypotenuse 10. What is its area?",
+    "answer": 25,
+    "solutionStandard": "Each leg is \\(10/\\sqrt2 = 5\\sqrt2\\). Area \\(= \\tfrac12 (5\\sqrt2)^2 = \\tfrac12 \\cdot 50 = 25\\).",
+    "solutionShortcut": "For a 45-45-90 triangle, area \\(= h^2/4\\) where \\(h\\) is the hypotenuse: \\(100/4 = 25\\). (It's half of a square with diagonal \\(h\\), and that square has area \\(h^2/2\\).)",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 85
+  },
+  {
+    "id": "geometry-mixed-practice-068",
+    "type": "QC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": [
+      "quadrilaterals"
+    ],
+    "difficulty": 5,
+    "stem": "A rectangle has area 36.",
+    "quantityA": "The perimeter of the rectangle",
+    "quantityB": "23",
+    "answer": "A",
+    "solutionStandard": "For fixed area, the perimeter is minimized by the square: sides 6 and 6 give perimeter 24. Any other 36-area rectangle has a longer perimeter (e.g. 9 × 4 → 26; 12 × 3 → 30). Since the minimum possible perimeter is 24 > 23, Quantity A is always greater.",
+    "solutionShortcut": "Fixed area → square minimizes perimeter (fixed perimeter → square maximizes area). Compute the square case as the extreme and compare the bound to Quantity B; here even the minimum beats 23.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 95
+  },
+  {
+    "id": "geometry-mixed-practice-069",
+    "type": "MC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": [
+      "coordinate-geometry-basics"
+    ],
+    "difficulty": 4,
+    "stem": "\\(M\\) is the midpoint of the segment with endpoints \\((2, 3)\\) and \\((8, 11)\\). What is the distance from \\(M\\) to the origin?",
+    "options": [
+      {
+        "id": "A",
+        "text": "\\(\\sqrt{58}\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(\\sqrt{74}\\)"
+      },
+      {
+        "id": "C",
+        "text": "12"
+      },
+      {
+        "id": "D",
+        "text": "\\(2\\sqrt{18}\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(\\sqrt{85}\\)"
+      }
+    ],
+    "answer": "B",
+    "solutionStandard": "Midpoint: \\(\\left(\\tfrac{2+8}{2}, \\tfrac{3+11}{2}\\right) = (5, 7)\\). Distance to origin: \\(\\sqrt{25 + 49} = \\sqrt{74}\\).",
+    "solutionShortcut": "Midpoint = average the coordinates; distance-to-origin = \\(\\sqrt{x^2+y^2}\\). Estimate to eliminate: \\(\\sqrt{74} \\approx 8.6\\), and options 12 and \\(\\sqrt{85} \\approx 9.2\\) are visibly off once you sketch \\((5,7)\\).",
+    "shortcutTags": [
+      "estimate",
+      "eliminate"
+    ],
+    "timeTargetSec": 80
+  },
+  {
+    "id": "geometry-mixed-practice-070",
+    "type": "Numeric",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": [
+      "quadrilaterals",
+      "polygons-general"
+    ],
+    "difficulty": 4,
+    "stem": "An L-shaped floor is formed by removing a 4 by 3 rectangle from one corner of a 10 by 6 rectangle. What is the area of the L-shaped floor?",
+    "answer": 48,
+    "solutionStandard": "Full rectangle: \\(10 \\times 6 = 60\\). Removed corner: \\(4 \\times 3 = 12\\). Remaining area: \\(60 - 12 = 48\\).",
+    "solutionShortcut": "Composite shapes: subtract, don't dissect. Whole minus hole is nearly always faster than slicing the L into pieces and adding.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 60
+  },
+  {
+    "id": "geometry-mixed-practice-071",
+    "type": "QC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": [
+      "circles-basic",
+      "triangles-basic"
+    ],
+    "difficulty": 4,
+    "stem": "\\(AB\\) is a diameter of a circle, and \\(C\\) is a point on the circle distinct from \\(A\\) and \\(B\\).",
+    "quantityA": "The measure of angle \\(ACB\\)",
+    "quantityB": "90°",
+    "answer": "C",
+    "solutionStandard": "An angle inscribed in a semicircle is always a right angle (Thales' theorem): the inscribed angle is half the 180° central angle of the diameter. The quantities are equal for every position of \\(C\\).",
+    "solutionShortcut": "Diameter + point on circle = right angle, unconditionally. This is one of the few QC setups where a moving point still gives (C) — the theorem removes the freedom that usually forces (D).",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 70
+  },
+  {
+    "id": "geometry-mixed-practice-072",
+    "type": "MC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": [
+      "three-d-solids",
+      "right-triangles-pythagorean"
+    ],
+    "difficulty": 5,
+    "stem": "A rectangular box has dimensions 3, 4, and 12. What is the length of the longest segment that fits inside the box?",
+    "options": [
+      {
+        "id": "A",
+        "text": "12"
+      },
+      {
+        "id": "B",
+        "text": "12.5"
+      },
+      {
+        "id": "C",
+        "text": "13"
+      },
+      {
+        "id": "D",
+        "text": "\\(\\sqrt{194}\\)"
+      },
+      {
+        "id": "E",
+        "text": "19"
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "The space diagonal is \\(\\sqrt{3^2 + 4^2 + 12^2} = \\sqrt{9 + 16 + 144} = \\sqrt{169} = 13\\).",
+    "solutionShortcut": "Nest the triples: 3-4 gives 5 across the base, then 5-12 gives 13 through space. The 3-4-12-13 'super-triple' shows up regularly; spotting it beats summing three squares.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 90
+  },
+  {
+    "id": "geometry-mixed-practice-073",
+    "type": "Numeric",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": [
+      "circles-basic",
+      "rates-and-work"
+    ],
+    "difficulty": 4,
+    "stem": "A wheel of radius 0.5 meters rolls without slipping. How many complete revolutions does it make in traveling \\(100\\pi\\) meters?",
+    "answer": 100,
+    "solutionStandard": "One revolution covers the circumference: \\(2\\pi (0.5) = \\pi\\) meters. Revolutions \\(= \\dfrac{100\\pi}{\\pi} = 100\\).",
+    "solutionShortcut": "Rolling = unrolling the circumference onto the road. Distance ÷ circumference, and the \\(\\pi\\)'s cancel by design — a sanity check that you set it up right.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 75
+  },
+  {
+    "id": "geometry-mixed-practice-074",
+    "type": "QC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": [
+      "triangles-basic",
+      "right-triangles-pythagorean"
+    ],
+    "difficulty": 5,
+    "stem": "A triangle has sides 7, 8, and 9.",
+    "quantityA": "The measure of the largest angle of the triangle",
+    "quantityB": "90°",
+    "answer": "B",
+    "solutionStandard": "Compare the square of the longest side to the sum of squares of the others: \\(9^2 = 81\\) versus \\(7^2 + 8^2 = 113\\). Since \\(81 < 113\\), the largest angle is acute — less than 90°. Quantity B is greater.",
+    "solutionShortcut": "The Pythagorean comparison works as an angle detector: \\(c^2 <,=,> a^2+b^2\\) ⟺ largest angle acute, right, obtuse. No trigonometry — one comparison of squares.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 85
+  },
+  {
+    "id": "geometry-mixed-practice-075",
+    "type": "MC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": [
+      "coordinate-geometry-basics"
+    ],
+    "difficulty": 4,
+    "stem": "The point \\((3, -5)\\) is reflected across the \\(x\\)-axis, and the image is then reflected across the \\(y\\)-axis. What are the coordinates of the final point?",
+    "options": [
+      {
+        "id": "A",
+        "text": "\\((3, 5)\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\((-3, -5)\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\((-3, 5)\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\((5, -3)\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\((-5, 3)\\)"
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "Across the \\(x\\)-axis: \\((3, -5) \\to (3, 5)\\). Across the \\(y\\)-axis: \\((3, 5) \\to (-3, 5)\\).",
+    "solutionShortcut": "Reflecting across both axes (in either order) is a 180° rotation about the origin: negate both coordinates in one step. \\((3,-5) \\to (-3, 5)\\).",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 65
+  },
+  {
+    "id": "geometry-mixed-practice-076",
+    "type": "Numeric",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": [
+      "polygons-general"
+    ],
+    "difficulty": 4,
+    "stem": "How many diagonals does a polygon with 10 sides have?",
+    "answer": 35,
+    "solutionStandard": "Each of the 10 vertices connects to \\(10 - 3 = 7\\) non-adjacent vertices, and each diagonal is counted twice: \\(\\dfrac{10 \\times 7}{2} = 35\\).",
+    "solutionShortcut": "\\(\\binom{n}{2} - n\\): choose any 2 vertices (45 pairs), subtract the \\(n = 10\\) sides. Both routes give \\(n(n-3)/2\\) — keep whichever derivation you can rebuild under pressure.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 80
+  },
+  {
+    "id": "geometry-mixed-practice-077",
+    "type": "QC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": [
+      "special-right-triangles"
+    ],
+    "difficulty": 5,
+    "stem": "Triangle A is an isosceles right triangle with hypotenuse \\(h\\). Triangle B is a 30-60-90 triangle with hypotenuse \\(h\\). (\\(h > 0\\))",
+    "quantityA": "The area of triangle A",
+    "quantityB": "The area of triangle B",
+    "answer": "A",
+    "solutionStandard": "Triangle A: legs \\(h/\\sqrt2\\), area \\(= \\tfrac12 \\cdot \\tfrac{h^2}{2} = \\tfrac{h^2}{4} = 0.25h^2\\). Triangle B: legs \\(h/2\\) and \\(h\\sqrt3/2\\), area \\(= \\tfrac12 \\cdot \\tfrac{h}{2} \\cdot \\tfrac{h\\sqrt3}{2} = \\tfrac{\\sqrt3}{8}h^2 \\approx 0.217h^2\\). Quantity A is greater for every \\(h\\).",
+    "solutionShortcut": "Fix the hypotenuse and the right triangle's area is maximized when the legs are equal (the inscribed-in-semicircle picture: the apex sits highest at the middle). So the 45-45-90 beats any other right triangle with the same hypotenuse — no computation.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 110
+  },
+  {
+    "id": "geometry-mixed-practice-078",
+    "type": "MC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": [
+      "coordinate-geometry-basics",
+      "circles-basic"
+    ],
+    "difficulty": 4,
+    "stem": "Which equation represents the circle with center \\((2, -3)\\) and radius 5?",
+    "options": [
+      {
+        "id": "A",
+        "text": "\\((x-2)^2 + (y+3)^2 = 25\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\((x+2)^2 + (y-3)^2 = 25\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\((x-2)^2 + (y-3)^2 = 25\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\((x-2)^2 + (y+3)^2 = 5\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\((x+2)^2 + (y+3)^2 = 5\\)"
+      }
+    ],
+    "answer": "A",
+    "solutionStandard": "Center \\((h,k)\\) gives \\((x-h)^2 + (y-k)^2 = r^2\\): here \\((x-2)^2 + (y-(-3))^2 = (x-2)^2 + (y+3)^2 = 25\\).",
+    "solutionShortcut": "Two traps, both visible without algebra: the signs flip relative to the center (so \\(-3\\) becomes \\(+3\\)), and the right side is \\(r^2\\), not \\(r\\). Check those two things and only (A) survives.",
+    "shortcutTags": [
+      "eliminate"
+    ],
+    "timeTargetSec": 70
+  },
+  {
+    "id": "geometry-mixed-practice-079",
+    "type": "Numeric",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": [
+      "lines-angles"
+    ],
+    "difficulty": 4,
+    "variables": [
+      {
+        "name": "a",
+        "min": 20,
+        "max": 70
+      }
+    ],
+    "stem": "By how many degrees does the supplement of a {{a}}° angle exceed its complement?",
+    "answer": 90,
+    "answerFormula": "90",
+    "solutionStandard": "Supplement: \\(180 - {{a}} = {{180-a}}\\)°. Complement: \\(90 - {{a}} = {{90-a}}\\)°. Difference: \\({{180-a}} - {{90-a}} = 90\\)°.",
+    "solutionShortcut": "\\((180 - a) - (90 - a) = 90\\): the \\(a\\)'s cancel, so the answer is 90° for every angle. When a question seems to depend on an unknown, check whether it cancels — 'surprisingly constant' is a favorite GRE design.",
+    "shortcutTags": [
+      "eliminate"
+    ],
+    "timeTargetSec": 70
+  },
+  {
+    "id": "geometry-mixed-practice-080",
+    "type": "MC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": [
+      "three-d-solids",
+      "percent-change"
+    ],
+    "difficulty": 5,
+    "stem": "The side length of a cube is increased by 50%. By what percent does the volume increase?",
+    "options": [
+      {
+        "id": "A",
+        "text": "50%"
+      },
+      {
+        "id": "B",
+        "text": "125%"
+      },
+      {
+        "id": "C",
+        "text": "150%"
+      },
+      {
+        "id": "D",
+        "text": "237.5%"
+      },
+      {
+        "id": "E",
+        "text": "337.5%"
+      }
+    ],
+    "answer": "D",
+    "solutionStandard": "New volume \\(= (1.5)^3 = 3.375\\) times the old, an increase of \\(3.375 - 1 = 2.375\\), i.e. 237.5%.",
+    "solutionShortcut": "Scale factor cubed, then subtract 1 — the 'minus the original' step is where the trap lives (337.5% is the new volume, not the increase). \\(1.5^3 = \\tfrac{27}{8}\\) is cleaner as a fraction.",
+    "shortcutTags": [
+      "estimate",
+      "eliminate"
+    ],
+    "timeTargetSec": 90
+  },
+  {
+    "id": "geometry-mixed-practice-081",
+    "type": "Numeric",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": [
+      "circles-basic",
+      "right-triangles-pythagorean"
+    ],
+    "difficulty": 4,
+    "stem": "In a circle of radius 5, a chord is at distance 3 from the center. What is the length of the chord?",
+    "answer": 8,
+    "solutionStandard": "The perpendicular from the center bisects the chord, forming a right triangle: half-chord \\(= \\sqrt{5^2 - 3^2} = 4\\). The chord is \\(2 \\times 4 = 8\\).",
+    "solutionShortcut": "Radius-to-chord problems are always the same right triangle: radius as hypotenuse, distance and half-chord as legs. Here it's 3-4-5 — again.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 85
+  },
+  {
+    "id": "geometry-mixed-practice-082",
+    "type": "MC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": [
+      "polygons-general",
+      "lines-angles"
+    ],
+    "difficulty": 4,
+    "stem": "What is the sum of the exterior angles (one at each vertex) of a 17-sided polygon?",
+    "options": [
+      {
+        "id": "A",
+        "text": "360°"
+      },
+      {
+        "id": "B",
+        "text": "2700°"
+      },
+      {
+        "id": "C",
+        "text": "3060°"
+      },
+      {
+        "id": "D",
+        "text": "540°"
+      },
+      {
+        "id": "E",
+        "text": "It depends on whether the polygon is regular"
+      }
+    ],
+    "answer": "A",
+    "solutionStandard": "The exterior angles of any convex polygon sum to 360°, regardless of the number of sides — walking the boundary turns you through one full revolution.",
+    "solutionShortcut": "The 17 is bait. Exterior angle sums don't grow with \\(n\\); only interior sums do (\\((n-2) \\cdot 180°\\), which is option C's 2700°). Knowing which formula scales kills this instantly.",
+    "shortcutTags": [
+      "eliminate"
+    ],
+    "timeTargetSec": 60
+  },
+  {
+    "id": "geometry-mixed-practice-083",
+    "type": "Numeric",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": [
+      "quadrilaterals",
+      "right-triangles-pythagorean"
+    ],
+    "difficulty": 4,
+    "variables": [
+      {
+        "name": "k",
+        "min": 2,
+        "max": 8
+      }
+    ],
+    "stem": "A rectangle has sides of length {{3*k}} and {{4*k}}. What is the length of its diagonal?",
+    "answer": 25,
+    "answerFormula": "5*k",
+    "solutionStandard": "Diagonal \\(= \\sqrt{ {{3*k}}^2 + {{4*k}}^2 } = \\sqrt{ {{9*k*k}} + {{16*k*k}} } = \\sqrt{ {{25*k*k}} } = {{5*k}}\\).",
+    "solutionShortcut": "\\({{3*k}} : {{4*k}}\\) is 3 : 4 scaled by {{k}} — so the diagonal is \\(5 \\times {{k}} = {{5*k}}\\) by the 3-4-5 triple. Factor out the scale before touching the Pythagorean theorem.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 70
+  },
+  {
+    "id": "geometry-mixed-practice-084",
+    "type": "QC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": [
+      "coordinate-geometry-basics",
+      "circles-basic"
+    ],
+    "difficulty": 4,
+    "stem": "Point \\(P = (6, 8)\\); \\(C\\) is the circle \\(x^2 + y^2 = 90\\).",
+    "quantityA": "The distance from \\(P\\) to the origin",
+    "quantityB": "The radius of circle \\(C\\)",
+    "answer": "A",
+    "solutionStandard": "Distance from \\(P\\) to the origin: \\(\\sqrt{36 + 64} = 10\\). Radius of \\(C\\): \\(\\sqrt{90} \\approx 9.49\\). Quantity A is greater (so \\(P\\) lies outside \\(C\\)).",
+    "solutionShortcut": "Compare squares — never take the roots: \\(6^2 + 8^2 = 100\\) versus \\(r^2 = 90\\). Since \\(100 > 90\\), done. (6-8-10 is the doubled 3-4-5.)",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 75
+  },
+  {
+    "id": "geometry-mixed-practice-085",
+    "type": "MC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": [
+      "similar-triangles"
+    ],
+    "difficulty": 4,
+    "stem": "A 6-foot pole casts a 4-foot shadow. At the same time, a nearby tree casts an 18-foot shadow. How tall is the tree, in feet?",
+    "options": [
+      {
+        "id": "A",
+        "text": "12"
+      },
+      {
+        "id": "B",
+        "text": "24"
+      },
+      {
+        "id": "C",
+        "text": "27"
+      },
+      {
+        "id": "D",
+        "text": "30"
+      },
+      {
+        "id": "E",
+        "text": "36"
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "Same sun angle → similar triangles: \\(\\dfrac{\\text{height}}{\\text{shadow}} = \\dfrac{6}{4} = \\dfrac{3}{2}\\). Tree height \\(= 18 \\times \\tfrac32 = 27\\).",
+    "solutionShortcut": "Set the height-to-shadow ratio once (3:2) and apply it — or scale directly: the shadow grew by ×4.5, so the height is \\(6 \\times 4.5 = 27\\). Both beat setting up a proportion equation formally.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 75
+  },
+  {
+    "id": "geometry-mixed-practice-086",
+    "type": "Numeric",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": [
+      "lines-angles"
+    ],
+    "difficulty": 4,
+    "stem": "Lines \\(\\ell\\) and \\(m\\) are parallel. A transversal makes an angle of \\((3x + 10)\\)° with \\(\\ell\\) and the alternate interior angle with \\(m\\) measures \\((2x + 40)\\)°. What is the value of the angle, in degrees?",
+    "answer": 100,
+    "solutionStandard": "Alternate interior angles are equal: \\(3x + 10 = 2x + 40\\), so \\(x = 30\\) and the angle is \\(3(30) + 10 = 100\\)°.",
+    "solutionShortcut": "With parallel lines, every pair of marked angles is either equal or supplementary — decide which before writing the equation. Sanity check at the end: 100° should look obtuse in your sketch.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 85
+  },
+  {
+    "id": "geometry-mixed-practice-087",
+    "type": "MultiMC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": [
+      "triangle-inequality"
+    ],
+    "difficulty": 4,
+    "stem": "A triangle has sides of length 5 and 9. Which of the following could be the length of the third side? Select all that apply.",
+    "options": [
+      {
+        "id": "A",
+        "text": "4"
+      },
+      {
+        "id": "B",
+        "text": "5"
+      },
+      {
+        "id": "C",
+        "text": "9"
+      },
+      {
+        "id": "D",
+        "text": "13"
+      },
+      {
+        "id": "E",
+        "text": "14"
+      },
+      {
+        "id": "F",
+        "text": "17"
+      }
+    ],
+    "answer": [
+      "B",
+      "C",
+      "D"
+    ],
+    "solutionStandard": "The third side must satisfy \\(9 - 5 < t < 9 + 5\\), i.e. \\(4 < t < 14\\), strictly. 4 ✗ (degenerate), 5 ✓, 9 ✓, 13 ✓, 14 ✗, 17 ✗.",
+    "solutionShortcut": "Write the open interval (difference, sum) = (4, 14) once, then scan. The endpoints are always the traps — they make a flat segment, not a triangle.",
+    "shortcutTags": [
+      "eliminate"
+    ],
+    "timeTargetSec": 80
+  },
+  {
+    "id": "geometry-mixed-practice-088",
+    "type": "MC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": [
+      "circles-basic",
+      "quadrilaterals",
+      "special-right-triangles"
+    ],
+    "difficulty": 5,
+    "stem": "A square is inscribed in a circle of radius 5. What is the area of the square?",
+    "options": [
+      {
+        "id": "A",
+        "text": "25"
+      },
+      {
+        "id": "B",
+        "text": "\\(25\\sqrt{2}\\)"
+      },
+      {
+        "id": "C",
+        "text": "50"
+      },
+      {
+        "id": "D",
+        "text": "\\(50\\sqrt{2}\\)"
+      },
+      {
+        "id": "E",
+        "text": "100"
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "The square's diagonal is the circle's diameter, 10. For a square, area \\(= \\tfrac{d^2}{2} = \\tfrac{100}{2} = 50\\).",
+    "solutionShortcut": "Skip the side length entirely: a square is two 45-45-90 triangles, so area \\(= d^2/2\\). Diagonal 10 → area 50, one step. (Going through \\(s = 10/\\sqrt2\\) invites radical errors.)",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 90
+  },
+  {
+    "id": "geometry-mixed-practice-089",
+    "type": "QC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": [
+      "coordinate-geometry-lines"
+    ],
+    "difficulty": 4,
+    "stem": "Line \\(p\\) passes through \\((1, 2)\\) and \\((3, 10)\\). Line \\(q\\) has equation \\(4x - y = 7\\).",
+    "quantityA": "The slope of line \\(p\\)",
+    "quantityB": "The slope of line \\(q\\)",
+    "answer": "C",
+    "solutionStandard": "Slope of \\(p\\): \\(\\tfrac{10-2}{3-1} = 4\\). Slope of \\(q\\): from \\(y = 4x - 7\\), also 4. Equal — the lines are parallel (they're distinct since \\((1,2)\\) gives \\(4(1) - 2 = 2 \\ne 7\\)).",
+    "solutionShortcut": "Standard form \\(ax + by = c\\) has slope \\(-a/b = 4\\) on sight. Rise-over-run for \\(p\\) is mental math. QC slope questions rarely need more than these two reads.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 70
+  },
+  {
+    "id": "geometry-mixed-practice-090",
+    "type": "Numeric",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": [
+      "quadrilaterals",
+      "polygons-general"
+    ],
+    "difficulty": 4,
+    "variables": [
+      {
+        "name": "k",
+        "min": 2,
+        "max": 6
+      }
+    ],
+    "stem": "An equilateral triangle with side length {{4*k}} and a square have equal perimeters. What is the area of the square?",
+    "answer": 36,
+    "answerFormula": "9*k*k",
+    "solutionStandard": "Triangle perimeter: \\(3 \\times {{4*k}} = {{12*k}}\\). Square side: \\({{12*k}} \\div 4 = {{3*k}}\\). Area: \\({{3*k}}^2 = {{9*k*k}}\\).",
+    "solutionShortcut": "Perimeter-sharing problems: convert to the other shape's side in one division, then square. Watch that the final step squares the side — not the perimeter.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 80
+  },
+  {
+    "id": "geometry-mixed-practice-091",
+    "type": "MC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": [
+      "three-d-solids",
+      "ratios-proportions"
+    ],
+    "difficulty": 4,
+    "stem": "The radius of a cylinder is doubled while its height is unchanged. The new volume is how many times the original volume?",
+    "options": [
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "3"
+      },
+      {
+        "id": "C",
+        "text": "4"
+      },
+      {
+        "id": "D",
+        "text": "6"
+      },
+      {
+        "id": "E",
+        "text": "8"
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "\\(V = \\pi r^2 h\\): doubling \\(r\\) multiplies \\(r^2\\) by 4, so the volume becomes 4 times as large.",
+    "solutionShortcut": "Read the exponent: volume depends on \\(r^2 h\\), so scaling \\(r\\) by \\(k\\) scales \\(V\\) by \\(k^2\\) (height by \\(k\\) scales it by \\(k\\)). The '8' option is the cube trap — that's for scaling all three dimensions.",
+    "shortcutTags": [
+      "estimate",
+      "eliminate"
+    ],
+    "timeTargetSec": 70
+  },
+  {
+    "id": "geometry-mixed-practice-092",
+    "type": "Numeric",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": [
+      "quadrilaterals",
+      "special-right-triangles"
+    ],
+    "difficulty": 5,
+    "stem": "A square has side length 8. A second square is formed by joining the midpoints of the sides of the first square. What is the area of the second square?",
+    "answer": 32,
+    "solutionStandard": "The midpoint square's vertices cut each corner into a right triangle with legs 4 and 4; its side is \\(\\sqrt{16+16} = 4\\sqrt2\\), so its area is \\(32\\). ",
+    "solutionShortcut": "The midpoint square is always exactly half the original's area — the four cut-off corner triangles fold inward to tile it. \\(64 \\div 2 = 32\\), no Pythagorean work.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 90
+  },
+  {
+    "id": "geometry-mixed-practice-093",
+    "type": "QC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": [
+      "circles-arcs-sectors"
+    ],
+    "difficulty": 5,
+    "stem": "In a circle, points \\(A\\) and \\(B\\) lie on the circle and the central angle \\(AOB\\) measures 60°.",
+    "quantityA": "The length of arc \\(AB\\) (minor arc)",
+    "quantityB": "The length of chord \\(AB\\)",
+    "answer": "A",
+    "solutionStandard": "With radius \\(r\\): the chord subtending 60° forms an equilateral triangle with two radii, so chord \\(= r\\). The arc is \\(\\tfrac{60}{360} \\cdot 2\\pi r = \\tfrac{\\pi r}{3} \\approx 1.047r\\). The arc is longer.",
+    "solutionShortcut": "An arc is always longer than its chord (shortest path between two points is the straight line) — (A) holds for any angle, and the 60° detail only matters if you want the exact ratio \\(\\pi/3\\).",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 85
+  },
+  {
+    "id": "geometry-mixed-practice-094",
+    "type": "MC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": [
+      "coordinate-geometry-lines"
+    ],
+    "difficulty": 5,
+    "stem": "A line passes through the points \\((2, 5)\\) and \\((4, 9)\\). What is its \\(x\\)-intercept?",
+    "options": [
+      {
+        "id": "A",
+        "text": "\\(-\\dfrac{1}{2}\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(-1\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(\\dfrac{1}{2}\\)"
+      },
+      {
+        "id": "D",
+        "text": "1"
+      },
+      {
+        "id": "E",
+        "text": "\\(-2\\)"
+      }
+    ],
+    "answer": "A",
+    "solutionStandard": "Slope \\(= \\tfrac{9-5}{4-2} = 2\\), so \\(y = 2x + 1\\) (using \\((2,5)\\): \\(5 = 4 + b\\), \\(b = 1\\)). Setting \\(y = 0\\): \\(x = -\\tfrac12\\).",
+    "solutionShortcut": "Walk the slope backwards: from \\((2,5)\\), dropping \\(y\\) by 5 at slope 2 moves \\(x\\) left by \\(2.5\\), landing at \\(x = -0.5\\). Stepping along the slope beats finding the full equation.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 90
+  },
+  {
+    "id": "geometry-mixed-practice-095",
+    "type": "Numeric",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": [
+      "three-d-solids"
+    ],
+    "difficulty": 4,
+    "stem": "A rectangular tank has a base measuring 20 cm by 30 cm. Water is poured in until the volume of water is 3000 cubic centimeters. What is the depth of the water, in centimeters?",
+    "answer": 5,
+    "solutionStandard": "Depth \\(= \\dfrac{\\text{volume}}{\\text{base area}} = \\dfrac{3000}{20 \\times 30} = \\dfrac{3000}{600} = 5\\) cm.",
+    "solutionShortcut": "Liquid-in-tank questions are always volume ÷ base area. The shape of the tank above the waterline is irrelevant — don't overthink it.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 65
+  },
+  {
+    "id": "geometry-mixed-practice-096",
+    "type": "QC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": [
+      "polygons-general",
+      "special-right-triangles"
+    ],
+    "difficulty": 5,
+    "stem": "A regular hexagon has side length \\(s\\). (\\(s > 0\\))",
+    "quantityA": "The length of the longest diagonal of the hexagon",
+    "quantityB": "\\(2s\\)",
+    "answer": "C",
+    "solutionStandard": "A regular hexagon is six equilateral triangles around the center, so the distance from center to vertex equals \\(s\\). The longest diagonal joins opposite vertices through the center: \\(2s\\) exactly. Equal.",
+    "solutionShortcut": "Hexagon = 6 equilateral triangles is the master picture: it gives the long diagonal \\(2s\\), the short diagonal \\(s\\sqrt3\\), and the area \\(6 \\cdot \\tfrac{s^2\\sqrt3}{4}\\) all at once. Draw it whenever a hexagon appears.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 80
+  },
+  {
+    "id": "geometry-mixed-practice-097",
+    "type": "MC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": [
+      "quadrilaterals",
+      "right-triangles-pythagorean"
+    ],
+    "difficulty": 4,
+    "stem": "A rhombus has diagonals of length 10 and 24. What is its perimeter?",
+    "options": [
+      {
+        "id": "A",
+        "text": "44"
+      },
+      {
+        "id": "B",
+        "text": "48"
+      },
+      {
+        "id": "C",
+        "text": "52"
+      },
+      {
+        "id": "D",
+        "text": "60"
+      },
+      {
+        "id": "E",
+        "text": "68"
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "The diagonals bisect at right angles: each side is the hypotenuse of a 5-12 right triangle, so side \\(= 13\\) and perimeter \\(= 4 \\times 13 = 52\\).",
+    "solutionShortcut": "Halve the diagonals and look for the triple: 5-12-13. Rhombus-diagonal questions are Pythagorean-triple questions in disguise, essentially always.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 80
+  },
+  {
+    "id": "geometry-mixed-practice-098",
+    "type": "MC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": [
+      "circles-basic",
+      "quadrilaterals"
+    ],
+    "difficulty": 4,
+    "variables": [
+      {
+        "name": "r",
+        "min": 2,
+        "max": 6
+      }
+    ],
+    "stem": "A circle of radius {{r}} is inscribed in a square (touching all four sides). What is the area of the region inside the square but outside the circle?",
+    "options": [
+      {
+        "id": "A",
+        "text": "\\({{4*r*r}} - {{r*r}}\\pi\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\({{4*r*r}} - {{2*r}}\\pi\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\({{2*r*r}} - {{r*r}}\\pi\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\({{16*r*r}} - {{r*r}}\\pi\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\({{r*r}}\\pi - {{4*r*r}}\\)"
+      }
+    ],
+    "answer": "A",
+    "solutionStandard": "The square's side equals the circle's diameter, \\({{2*r}}\\), so its area is \\({{2*r}}^2 = {{4*r*r}}\\). Subtract the circle's area \\({{r*r}}\\pi\\): the corner region is \\({{4*r*r}} - {{r*r}}\\pi\\).",
+    "solutionShortcut": "Sanity-check numerically: \\(\\pi \\approx 3.14\\), so the answer should be a smallish positive number (about 21% of the square). Options with \\(2r\\pi\\) (a length, not an area) or with the subtraction reversed fail dimensional or sign sense immediately.",
+    "shortcutTags": [
+      "estimate",
+      "eliminate"
+    ],
+    "timeTargetSec": 90
+  },
+  {
+    "id": "geometry-mixed-practice-099",
+    "type": "Numeric",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": [
+      "coordinate-geometry-basics"
+    ],
+    "difficulty": 5,
+    "stem": "The point \\((x, 7)\\) is at distance 13 from the point \\((5, 2)\\). If \\(x > 0\\), what is the value of \\(x\\)?",
+    "answer": 17,
+    "solutionStandard": "\\((x-5)^2 + (7-2)^2 = 169\\), so \\((x-5)^2 = 169 - 25 = 144\\) and \\(x - 5 = \\pm 12\\): \\(x = 17\\) or \\(x = -7\\). The positive value is 17.",
+    "solutionShortcut": "Vertical gap 5, distance 13 → horizontal gap 12 (5-12-13). Then \\(x = 5 + 12 = 17\\) (the \\(5 - 12\\) branch is negative, excluded). Triple-spotting turns the distance formula into addition.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 95
+  },
+  {
+    "id": "geometry-mixed-practice-100",
+    "type": "QC",
+    "primarySkill": "geometry-mixed-practice",
+    "secondarySkills": [
+      "triangles-basic",
+      "similar-triangles"
+    ],
+    "difficulty": 5,
+    "stem": "In triangle \\(ABC\\), \\(D\\) and \\(E\\) are the midpoints of sides \\(AB\\) and \\(AC\\), respectively.",
+    "quantityA": "The area of triangle \\(ADE\\)",
+    "quantityB": "One third of the area of triangle \\(ABC\\)",
+    "answer": "B",
+    "solutionStandard": "\\(DE\\) is a midsegment, so triangle \\(ADE\\) is similar to \\(ABC\\) with ratio \\(\\tfrac12\\), making its area \\(\\left(\\tfrac12\\right)^2 = \\tfrac14\\) of \\(ABC\\)'s. Since \\(\\tfrac14 < \\tfrac13\\), Quantity B is greater.",
+    "solutionShortcut": "Midpoints → similarity ratio \\(\\tfrac12\\) → area ratio \\(\\tfrac14\\), automatically. The comparison \\(\\tfrac14\\) vs \\(\\tfrac13\\) is the entire question once you square the ratio (the trap is stopping at \\(\\tfrac12\\)).",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 95
   }
 ]

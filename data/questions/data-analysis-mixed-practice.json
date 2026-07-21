@@ -551,10 +551,22 @@
       "kind": "pie",
       "title": "Students by Grade",
       "data": [
-        { "label": "Freshmen", "value": 25 },
-        { "label": "Sophomores", "value": 30 },
-        { "label": "Juniors", "value": 25 },
-        { "label": "Seniors", "value": 20 }
+        {
+          "label": "Freshmen",
+          "value": 25
+        },
+        {
+          "label": "Sophomores",
+          "value": 30
+        },
+        {
+          "label": "Juniors",
+          "value": 25
+        },
+        {
+          "label": "Seniors",
+          "value": 20
+        }
       ]
     },
     "options": [
@@ -1152,9 +1164,18 @@
       "kind": "pie",
       "title": "Company Budget",
       "data": [
-        { "label": "R&D", "value": "pctA" },
-        { "label": "Marketing", "value": "pctB" },
-        { "label": "Operations & Admin", "value": "100-pctA-pctB" }
+        {
+          "label": "R&D",
+          "value": "pctA"
+        },
+        {
+          "label": "Marketing",
+          "value": "pctB"
+        },
+        {
+          "label": "Operations & Admin",
+          "value": "100-pctA-pctB"
+        }
       ]
     },
     "quantityA": "The amount spent on Operations",
@@ -1469,5 +1490,1299 @@
     "answerFormula": "Math.round((pA/10)*(pB/10)*(pC/10)*1000)/1000",
     "solutionStandard": "For independent events, multiply: \\({{pA/10}}\\times{{pB/10}}\\times{{pC/10}}={{Math.round((pA/10)*(pB/10)*(pC/10)*1000)/1000}}\\).",
     "timeTargetSec": 90
+  },
+  {
+    "id": "data-analysis-mixed-practice-051",
+    "type": "Numeric",
+    "primarySkill": "data-analysis-mixed-practice",
+    "secondarySkills": [
+      "counting-combinations"
+    ],
+    "difficulty": 5,
+    "stem": "A committee of 3 people is to be chosen from 5 men and 4 women. How many committees include at least one woman?",
+    "answer": 74,
+    "solutionStandard": "All committees: \\(\\binom93 = 84\\). All-men committees: \\(\\binom53 = 10\\). At least one woman: \\(84 - 10 = 74\\).",
+    "solutionShortcut": "\"At least one\" almost always means complement counting: total minus none. Enumerating the 1-, 2-, and 3-woman cases separately triples the work and the error surface.",
+    "shortcutTags": [
+      "eliminate"
+    ],
+    "timeTargetSec": 110
+  },
+  {
+    "id": "data-analysis-mixed-practice-052",
+    "type": "QC",
+    "primarySkill": "data-analysis-mixed-practice",
+    "secondarySkills": [
+      "mean-median-mode"
+    ],
+    "difficulty": 4,
+    "stem": "The data set is \\(\\{1, 2, 3, 4, 100\\}\\).",
+    "quantityA": "The mean of the data set",
+    "quantityB": "The median of the data set",
+    "answer": "A",
+    "solutionStandard": "Median: middle value = 3. Mean: \\(110/5 = 22\\). The outlier 100 pulls the mean far above the median. Quantity A is greater.",
+    "solutionShortcut": "One extreme value drags the mean toward it but leaves the median untouched — in any right-skewed set, mean > median. Spot the outlier and answer without computing the exact mean.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 65
+  },
+  {
+    "id": "data-analysis-mixed-practice-053",
+    "type": "MC",
+    "primarySkill": "data-analysis-mixed-practice",
+    "secondarySkills": [
+      "probability-compound"
+    ],
+    "difficulty": 5,
+    "stem": "A bag contains 4 red and 6 blue marbles. Two marbles are drawn at random without replacement. What is the probability that both are red?",
+    "options": [
+      {
+        "id": "A",
+        "text": "\\(\\dfrac{2}{15}\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(\\dfrac{4}{25}\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(\\dfrac{1}{5}\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(\\dfrac{2}{5}\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(\\dfrac{6}{45}\\)"
+      }
+    ],
+    "answer": "A",
+    "solutionStandard": "Sequential probabilities: \\(\\tfrac{4}{10} \\times \\tfrac{3}{9} = \\tfrac{12}{90} = \\tfrac{2}{15}\\).",
+    "solutionShortcut": "Multiply along the draw, updating both numerator and denominator (\"one fewer red, one fewer total\"). Option (B) \\(= (4/10)^2\\) is the with-replacement trap — the denominator must shrink.",
+    "shortcutTags": [
+      "eliminate"
+    ],
+    "timeTargetSec": 90
+  },
+  {
+    "id": "data-analysis-mixed-practice-054",
+    "type": "Numeric",
+    "primarySkill": "data-analysis-mixed-practice",
+    "secondarySkills": [
+      "counting-permutations"
+    ],
+    "difficulty": 5,
+    "stem": "How many distinct arrangements are there of the letters in the word LEVEL?",
+    "answer": 30,
+    "solutionStandard": "Five letters with L twice and E twice: \\(\\dfrac{5!}{2! \\, 2!} = \\dfrac{120}{4} = 30\\).",
+    "solutionShortcut": "Repeated-letter arrangements: full factorial divided by a factorial per repeated letter. Count the repeats first — writing L, E, V, E, L and tallying (2 L's, 2 E's) prevents the \\(5! = 120\\) trap.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 90
+  },
+  {
+    "id": "data-analysis-mixed-practice-055",
+    "type": "QC",
+    "primarySkill": "data-analysis-mixed-practice",
+    "secondarySkills": [
+      "range-standard-deviation"
+    ],
+    "difficulty": 4,
+    "stem": "Set A = \\(\\{10, 20, 30\\}\\); Set B = \\(\\{19, 20, 21\\}\\)",
+    "quantityA": "The standard deviation of Set A",
+    "quantityB": "The standard deviation of Set B",
+    "answer": "A",
+    "solutionStandard": "Both sets have mean 20, but A's values sit 10 away from the mean while B's sit only 1 away. A is far more spread out, so its standard deviation is larger.",
+    "solutionShortcut": "You never need to compute a standard deviation on the GRE — compare typical distances from the mean by eye. Same center, wildly different spread: done.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 60
+  },
+  {
+    "id": "data-analysis-mixed-practice-056",
+    "type": "Numeric",
+    "primarySkill": "data-analysis-mixed-practice",
+    "secondarySkills": [
+      "weighted-averages"
+    ],
+    "difficulty": 4,
+    "stem": "A class of 20 students averaged 70 on a test; another class of 30 students averaged 80. What is the combined average of all 50 students?",
+    "answer": 76,
+    "solutionStandard": "Total points: \\(20 \\cdot 70 + 30 \\cdot 80 = 1400 + 2400 = 3800\\). Combined average: \\(3800 / 50 = 76\\).",
+    "solutionShortcut": "The weights are 2:3, so the average sits \\(\\tfrac35\\) of the way from 70 to 80: \\(70 + 6 = 76\\). The see-saw beats totaling when numbers are big — the answer always leans toward the bigger group.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 80
+  },
+  {
+    "id": "data-analysis-mixed-practice-057",
+    "type": "MC",
+    "primarySkill": "data-analysis-mixed-practice",
+    "secondarySkills": [
+      "normal-distribution-basics"
+    ],
+    "difficulty": 5,
+    "stem": "Scores on a test are approximately normally distributed with mean 100 and standard deviation 15. Approximately what percent of scores are between 85 and 130?",
+    "options": [
+      {
+        "id": "A",
+        "text": "68%"
+      },
+      {
+        "id": "B",
+        "text": "81.5%"
+      },
+      {
+        "id": "C",
+        "text": "84%"
+      },
+      {
+        "id": "D",
+        "text": "95%"
+      },
+      {
+        "id": "E",
+        "text": "97.5%"
+      }
+    ],
+    "answer": "B",
+    "solutionStandard": "85 is one standard deviation below the mean; 130 is two above. Using 68-95-99.7: from \\(-1\\sigma\\) to the mean is 34%, and from the mean to \\(+2\\sigma\\) is 47.5%. Total \\(\\approx 34 + 47.5 = 81.5\\%\\).",
+    "solutionShortcut": "Convert the endpoints to \\(\\sigma\\)-units first (\\(-1\\) and \\(+2\\)), then add half-slices of the 68-95-99.7 rule: 34 + 34 + 13.5. Memorize the half-slices (34, 13.5, 2.35) — GRE normal questions are always assembled from them.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 110
+  },
+  {
+    "id": "data-analysis-mixed-practice-058",
+    "type": "Numeric",
+    "primarySkill": "data-analysis-mixed-practice",
+    "secondarySkills": [
+      "venn-diagrams-sets"
+    ],
+    "difficulty": 4,
+    "stem": "Of 100 students, 60 take math, 45 take physics, and 25 take both. How many students take neither subject?",
+    "answer": 20,
+    "solutionStandard": "At least one subject: \\(60 + 45 - 25 = 80\\). Neither: \\(100 - 80 = 20\\).",
+    "solutionShortcut": "Inclusion-exclusion, then complement. The only error mode is forgetting to subtract the overlap once — draw the two-circle Venn and fill from the middle outward: 25, then 35, then 20.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 75
+  },
+  {
+    "id": "data-analysis-mixed-practice-059",
+    "type": "QC",
+    "primarySkill": "data-analysis-mixed-practice",
+    "secondarySkills": [
+      "range-standard-deviation",
+      "mean-median-mode"
+    ],
+    "difficulty": 4,
+    "stem": "The data set is \\(\\{3, 7, 7, 12, 20\\}\\).",
+    "quantityA": "The range of the data set",
+    "quantityB": "Twice the median of the data set",
+    "answer": "A",
+    "solutionStandard": "Range: \\(20 - 3 = 17\\). Median: 7, so twice the median is 14. Quantity A is greater.",
+    "solutionShortcut": "Both statistics are single lookups on a sorted list — range needs only the two ends, median only the middle. Resist computing anything else (mean, mode) that the question didn't ask for.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 60
+  },
+  {
+    "id": "data-analysis-mixed-practice-060",
+    "type": "MC",
+    "primarySkill": "data-analysis-mixed-practice",
+    "secondarySkills": [
+      "counting-permutations"
+    ],
+    "difficulty": 5,
+    "stem": "How many four-digit numbers have four distinct digits?",
+    "options": [
+      {
+        "id": "A",
+        "text": "3024"
+      },
+      {
+        "id": "B",
+        "text": "4536"
+      },
+      {
+        "id": "C",
+        "text": "5040"
+      },
+      {
+        "id": "D",
+        "text": "9000"
+      },
+      {
+        "id": "E",
+        "text": "10000"
+      }
+    ],
+    "answer": "B",
+    "solutionStandard": "First digit: 9 choices (1–9). Second: 9 (anything except the first, 0 now allowed). Third: 8. Fourth: 7. Total \\(9 \\cdot 9 \\cdot 8 \\cdot 7 = 4536\\).",
+    "solutionShortcut": "Handle the restricted slot (no leading zero) first, then count down. The trap 3024 \\(= 9\\cdot8\\cdot7\\cdot6\\) forgets that 0 re-enters the pool after the first digit.",
+    "shortcutTags": [
+      "eliminate"
+    ],
+    "timeTargetSec": 100
+  },
+  {
+    "id": "data-analysis-mixed-practice-061",
+    "type": "Numeric",
+    "primarySkill": "data-analysis-mixed-practice",
+    "secondarySkills": [
+      "probability-compound"
+    ],
+    "difficulty": 4,
+    "stem": "A fair coin is flipped 4 times. What is the probability of getting at least one head? Give your answer as a decimal.",
+    "answer": 0.9375,
+    "solutionStandard": "P(no heads) \\(= (1/2)^4 = 1/16\\). P(at least one head) \\(= 1 - 1/16 = 15/16 = 0.9375\\).",
+    "solutionShortcut": "\"At least one\" → complement, reflexively. Computing the 1-, 2-, 3-, and 4-head cases separately is a two-minute detour for a ten-second question.",
+    "shortcutTags": [
+      "eliminate"
+    ],
+    "timeTargetSec": 70
+  },
+  {
+    "id": "data-analysis-mixed-practice-062",
+    "type": "QC",
+    "primarySkill": "data-analysis-mixed-practice",
+    "secondarySkills": [
+      "mean-median-mode"
+    ],
+    "difficulty": 4,
+    "stem": "A data set of 9 numbers has mean 50. The value 50 is added to the set.",
+    "quantityA": "The mean of the new 10-number set",
+    "quantityB": "50",
+    "answer": "C",
+    "solutionStandard": "New total: \\(9 \\cdot 50 + 50 = 500\\); new mean: \\(500/10 = 50\\). Adding a value equal to the mean never moves the mean. Equal.",
+    "solutionShortcut": "The mean is the balance point — adding weight exactly at the balance point leaves it in place. No arithmetic needed; also true for removing a mean-valued element.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 60
+  },
+  {
+    "id": "data-analysis-mixed-practice-063",
+    "type": "Numeric",
+    "primarySkill": "data-analysis-mixed-practice",
+    "secondarySkills": [
+      "mean-median-mode",
+      "sequences-algebraic"
+    ],
+    "difficulty": 4,
+    "variables": [
+      {
+        "name": "n",
+        "min": 5,
+        "max": 9,
+        "step": 2
+      },
+      {
+        "name": "s",
+        "min": 4,
+        "max": 30
+      }
+    ],
+    "stem": "What is the median of the {{n}} consecutive integers beginning with {{s}}?",
+    "answer": 16,
+    "answerFormula": "s+(n-1)/2",
+    "solutionStandard": "The integers run from {{s}} to {{s+n-1}}. With an odd count ({{n}}), the median is the middle term: the \\({{(n+1)/2}}\\)th value, which is \\({{s}} + {{(n-1)/2}} = {{s+(n-1)/2}}\\).",
+    "solutionShortcut": "For consecutive (or any evenly spaced) integers, median = mean = average of the endpoints: \\(\\tfrac{ {{s}} + {{s+n-1}} }{2} = {{s+(n-1)/2}}\\). Symmetric data means the two measures always coincide.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 70
+  },
+  {
+    "id": "data-analysis-mixed-practice-064",
+    "type": "Numeric",
+    "primarySkill": "data-analysis-mixed-practice",
+    "secondarySkills": [
+      "counting-combinations"
+    ],
+    "difficulty": 4,
+    "stem": "In a league of 10 teams, each team plays every other team exactly twice. How many games are played in total?",
+    "answer": 90,
+    "solutionStandard": "Pairs of teams: \\(\\binom{10}{2} = 45\\). Each pair plays twice: \\(45 \\times 2 = 90\\).",
+    "solutionShortcut": "Count pairs first (\\(\\tfrac{10 \\cdot 9}{2}\\)), scale last. Alternatively, each of 10 teams plays 18 games and each game involves 2 teams: \\(\\tfrac{10 \\cdot 18}{2} = 90\\) — the double-count check confirms the answer.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 75
+  },
+  {
+    "id": "data-analysis-mixed-practice-065",
+    "type": "QC",
+    "primarySkill": "data-analysis-mixed-practice",
+    "secondarySkills": [
+      "probability-compound"
+    ],
+    "difficulty": 4,
+    "stem": "\\(A\\) and \\(B\\) are independent events with \\(P(A) = 0.6\\) and \\(P(B) = 0.5\\).",
+    "quantityA": "\\(P(A \\text{ and } B)\\)",
+    "quantityB": "0.3",
+    "answer": "C",
+    "solutionStandard": "Independence means probabilities multiply: \\(P(A \\text{ and } B) = 0.6 \\times 0.5 = 0.3\\). Equal.",
+    "solutionShortcut": "\"Independent\" is the license to multiply — without that word, \\(P(A \\cap B)\\) could be anything from 0.1 to 0.5 and the answer would be (D). Notice which given makes the computation legal; its absence is a common QC twist.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 65
+  },
+  {
+    "id": "data-analysis-mixed-practice-066",
+    "type": "Numeric",
+    "primarySkill": "data-analysis-mixed-practice",
+    "secondarySkills": [
+      "mean-median-mode"
+    ],
+    "difficulty": 4,
+    "stem": "The average of 5 numbers is 20. After two more numbers are added, the average of all 7 numbers is 22. What is the sum of the two added numbers?",
+    "answer": 54,
+    "solutionStandard": "Totals: before \\(5 \\times 20 = 100\\); after \\(7 \\times 22 = 154\\). The two numbers sum to \\(154 - 100 = 54\\).",
+    "solutionShortcut": "Averages → totals, always. Subtracting totals answers 'what was added' in one line; reasoning about how each new number shifts the average is slower and error-prone.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 75
+  },
+  {
+    "id": "data-analysis-mixed-practice-067",
+    "type": "QC",
+    "primarySkill": "data-analysis-mixed-practice",
+    "secondarySkills": [
+      "range-standard-deviation"
+    ],
+    "difficulty": 4,
+    "stem": "A data set has standard deviation \\(s\\). Each value in the set is increased by 5.",
+    "quantityA": "The standard deviation of the new set",
+    "quantityB": "\\(s\\)",
+    "answer": "C",
+    "solutionStandard": "Adding a constant shifts every value equally, so all distances from the (also shifted) mean are unchanged — the standard deviation stays \\(s\\). Equal.",
+    "solutionShortcut": "Shift rules: adding a constant changes mean/median but never spread (range, SD); multiplying by \\(k\\) scales the spread by \\(|k|\\). These two rules answer a whole family of QC questions.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 60
+  },
+  {
+    "id": "data-analysis-mixed-practice-068",
+    "type": "MC",
+    "primarySkill": "data-analysis-mixed-practice",
+    "secondarySkills": [
+      "normal-distribution-basics"
+    ],
+    "difficulty": 5,
+    "stem": "Heights in a population are approximately normally distributed. A person whose height is exactly 2 standard deviations above the mean is taller than approximately what percent of the population?",
+    "options": [
+      {
+        "id": "A",
+        "text": "84%"
+      },
+      {
+        "id": "B",
+        "text": "90%"
+      },
+      {
+        "id": "C",
+        "text": "95%"
+      },
+      {
+        "id": "D",
+        "text": "98%"
+      },
+      {
+        "id": "E",
+        "text": "99.7%"
+      }
+    ],
+    "answer": "D",
+    "solutionStandard": "Below \\(+2\\sigma\\) lies \\(50\\% + 34\\% + 13.5\\% = 97.5\\% \\approx 98\\%\\) of the population.",
+    "solutionShortcut": "Build from half-slices: 50 (below mean) + 34 (\\(\\mu\\) to \\(+1\\sigma\\)) + 13.5 (\\(+1\\) to \\(+2\\)). The trap 95% is the two-sided \\(\\pm2\\sigma\\) figure — 'taller than' is a one-tail question.",
+    "shortcutTags": [
+      "estimate",
+      "eliminate"
+    ],
+    "timeTargetSec": 95
+  },
+  {
+    "id": "data-analysis-mixed-practice-069",
+    "type": "Numeric",
+    "primarySkill": "data-analysis-mixed-practice",
+    "secondarySkills": [
+      "venn-diagrams-sets"
+    ],
+    "difficulty": 4,
+    "stem": "In a group of 50 people, 30 drink coffee, 25 drink tea, and 10 drink both. How many people drink exactly one of the two beverages?",
+    "answer": 35,
+    "solutionStandard": "Coffee only: \\(30 - 10 = 20\\). Tea only: \\(25 - 10 = 15\\). Exactly one: \\(20 + 15 = 35\\).",
+    "solutionShortcut": "\"Exactly one\" = (sum of both groups) − 2×(overlap): \\(30 + 25 - 20 = 35\\). The overlap gets subtracted twice because it doesn't belong in either 'only' region — a different formula than the union's single subtraction.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 80
+  },
+  {
+    "id": "data-analysis-mixed-practice-070",
+    "type": "MC",
+    "primarySkill": "data-analysis-mixed-practice",
+    "secondarySkills": [
+      "probability-basic"
+    ],
+    "difficulty": 4,
+    "stem": "Two fair six-sided dice are rolled. What is the probability that the sum is 7 or 11?",
+    "options": [
+      {
+        "id": "A",
+        "text": "\\(\\dfrac{1}{6}\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(\\dfrac{2}{9}\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(\\dfrac{1}{4}\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(\\dfrac{5}{36}\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(\\dfrac{1}{12}\\)"
+      }
+    ],
+    "answer": "B",
+    "solutionStandard": "Sum 7: six outcomes. Sum 11: two outcomes (5-6, 6-5). Total \\(8/36 = 2/9\\).",
+    "solutionShortcut": "Memorize the dice-sum counts: they rise 1,2,3,4,5,6 up to sum 7, then fall symmetrically. Sum \\(s \\le 7\\) has \\(s-1\\) outcomes; sum \\(s > 7\\) has \\(13-s\\). Then any 'or' question is addition over 36.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 85
+  },
+  {
+    "id": "data-analysis-mixed-practice-071",
+    "type": "Numeric",
+    "primarySkill": "data-analysis-mixed-practice",
+    "secondarySkills": [
+      "counting-permutations"
+    ],
+    "difficulty": 4,
+    "variables": [
+      {
+        "name": "n",
+        "min": 6,
+        "max": 12
+      }
+    ],
+    "stem": "What is the value of \\(\\dfrac{ {{n}}! }{ ({{n}} - 2)! }\\)?",
+    "answer": 56,
+    "answerFormula": "n*(n-1)",
+    "solutionStandard": "\\(\\dfrac{ {{n}}! }{ {{n-2}}! } = {{n}} \\times {{n-1}} = {{n*(n-1)}}\\) — all factors up to \\({{n-2}}\\) cancel.",
+    "solutionShortcut": "Never expand factorials: a ratio \\(\\tfrac{n!}{(n-k)!}\\) is just the top \\(k\\) factors, \\(n(n-1)\\cdots\\) — here two factors. This is also why it counts arrangements of 2 items from {{n}}.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 65
+  },
+  {
+    "id": "data-analysis-mixed-practice-072",
+    "type": "QC",
+    "primarySkill": "data-analysis-mixed-practice",
+    "secondarySkills": [
+      "counting-combinations"
+    ],
+    "difficulty": 4,
+    "stem": "Compare the two quantities.",
+    "quantityA": "The number of ways to choose 3 items from 20 distinct items",
+    "quantityB": "The number of ways to choose 17 items from 20 distinct items",
+    "answer": "C",
+    "solutionStandard": "Choosing 17 to keep is the same as choosing 3 to leave out: \\(\\binom{20}{17} = \\binom{20}{3}\\). Equal.",
+    "solutionShortcut": "\\(\\binom{n}{k} = \\binom{n}{n-k}\\) — pick the small side before computing anything. Any time a combination looks huge, flip it.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 55
+  },
+  {
+    "id": "data-analysis-mixed-practice-073",
+    "type": "MC",
+    "primarySkill": "data-analysis-mixed-practice",
+    "secondarySkills": [
+      "mean-median-mode"
+    ],
+    "difficulty": 5,
+    "stem": "The data set \\(\\{2, 3, 3, 5, 7, 10\\}\\) has one more value \\(x\\) added to it. What is the smallest value of \\(x\\) for which the median of the seven values is 5?",
+    "options": [
+      {
+        "id": "A",
+        "text": "3"
+      },
+      {
+        "id": "B",
+        "text": "4"
+      },
+      {
+        "id": "C",
+        "text": "5"
+      },
+      {
+        "id": "D",
+        "text": "6"
+      },
+      {
+        "id": "E",
+        "text": "7"
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "With seven values the median is the 4th smallest. The six existing values sorted are 2, 3, 3, 5, 7, 10; for the 4th value to be 5, \\(x\\) must land at position 4 or later without displacing 5 — i.e. \\(x \\ge 5\\). The smallest such \\(x\\) is 5.",
+    "solutionShortcut": "Test the boundary options directly: insert 4 → sorted 4th value is 4 (median 4, fails); insert 5 → 4th value is 5 ✓. With a 5-option median puzzle, placing one or two candidates beats reasoning abstractly.",
+    "shortcutTags": [
+      "backsolve"
+    ],
+    "timeTargetSec": 100
+  },
+  {
+    "id": "data-analysis-mixed-practice-074",
+    "type": "Numeric",
+    "primarySkill": "data-analysis-mixed-practice",
+    "secondarySkills": [
+      "probability-basic"
+    ],
+    "difficulty": 5,
+    "stem": "In a game, you win \\$6 with probability \\(\\tfrac13\\) and lose \\$3 with probability \\(\\tfrac23\\). What is the expected value of the game, in dollars?",
+    "answer": 0,
+    "solutionStandard": "\\(E = 6 \\cdot \\tfrac13 + (-3) \\cdot \\tfrac23 = 2 - 2 = 0\\). The game is exactly fair.",
+    "solutionShortcut": "Expected value = sum of (outcome × probability), with losses negative. A fast fairness check: win amount × win chances vs loss amount × loss chances — \\(6 \\cdot 1\\) vs \\(3 \\cdot 2\\) per three plays, balanced.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 85
+  },
+  {
+    "id": "data-analysis-mixed-practice-075",
+    "type": "QC",
+    "primarySkill": "data-analysis-mixed-practice",
+    "secondarySkills": [
+      "probability-basic",
+      "venn-diagrams-sets"
+    ],
+    "difficulty": 5,
+    "stem": "\\(P(A) = 0.5\\) and \\(P(B) = 0.4\\). Nothing else is known about events \\(A\\) and \\(B\\).",
+    "quantityA": "The greatest possible value of \\(P(A \\text{ or } B)\\)",
+    "quantityB": "0.9",
+    "answer": "C",
+    "solutionStandard": "\\(P(A \\cup B) = P(A) + P(B) - P(A \\cap B)\\), maximized when the overlap is smallest. The overlap can be 0 (disjoint events, possible since \\(0.5 + 0.4 \\le 1\\)), giving \\(P(A \\cup B) = 0.9\\). Equal.",
+    "solutionShortcut": "Union bounds: max is \\(\\min(P(A)+P(B),\\, 1)\\), min is \\(\\max(P(A), P(B))\\). Check whether the sum crosses 1 before assuming the max — here it doesn't, so 0.9 is attainable exactly.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 100
+  },
+  {
+    "id": "data-analysis-mixed-practice-076",
+    "type": "MC",
+    "primarySkill": "data-analysis-mixed-practice",
+    "secondarySkills": [
+      "mean-median-mode",
+      "range-standard-deviation"
+    ],
+    "difficulty": 4,
+    "stem": "A data set's largest value is increased by 10, with all other values unchanged. Which statistics must change?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The mean only"
+      },
+      {
+        "id": "B",
+        "text": "The median only"
+      },
+      {
+        "id": "C",
+        "text": "The mean and the range"
+      },
+      {
+        "id": "D",
+        "text": "The median and the range"
+      },
+      {
+        "id": "E",
+        "text": "The mean, median, and range"
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "The total rises, so the mean rises. The largest value moves further right, so the range grows. The middle of the sorted list is untouched (the largest value remains the largest), so the median is unchanged.",
+    "solutionShortcut": "Ask of each statistic: does it 'see' the tail? Mean sees every value; range sees the extremes; median sees only position. Perturb-an-extreme questions are answered by that one classification.",
+    "shortcutTags": [
+      "eliminate"
+    ],
+    "timeTargetSec": 85
+  },
+  {
+    "id": "data-analysis-mixed-practice-077",
+    "type": "Numeric",
+    "primarySkill": "data-analysis-mixed-practice",
+    "secondarySkills": [
+      "counting-permutations"
+    ],
+    "difficulty": 5,
+    "stem": "Five different books are arranged on a shelf. Two particular books must stay next to each other. How many arrangements are possible?",
+    "answer": 48,
+    "solutionStandard": "Glue the pair into one block: 4 units arrange in \\(4! = 24\\) ways, and the pair orders internally in 2 ways: \\(24 \\times 2 = 48\\).",
+    "solutionShortcut": "The glue trick: treat must-be-adjacent items as one unit, then multiply by the internal orderings. (For must-be-separated, count all minus glued: \\(120 - 48 = 72\\).) ",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 90
+  },
+  {
+    "id": "data-analysis-mixed-practice-078",
+    "type": "QC",
+    "primarySkill": "data-analysis-mixed-practice",
+    "secondarySkills": [
+      "probability-compound"
+    ],
+    "difficulty": 4,
+    "stem": "A fair coin is flipped 3 times.",
+    "quantityA": "The probability of getting no heads",
+    "quantityB": "\\(\\dfrac{1}{6}\\)",
+    "answer": "B",
+    "solutionStandard": "P(no heads) \\(= (1/2)^3 = 1/8\\). Since \\(1/8 < 1/6\\), Quantity B is greater.",
+    "solutionShortcut": "Compare \\(\\tfrac18\\) vs \\(\\tfrac16\\) by the denominators (same numerator → bigger denominator is smaller). Half of QC probability questions end in a fraction comparison — don't convert to decimals.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 60
+  },
+  {
+    "id": "data-analysis-mixed-practice-079",
+    "type": "Numeric",
+    "primarySkill": "data-analysis-mixed-practice",
+    "secondarySkills": [
+      "mean-median-mode",
+      "sequences-algebraic"
+    ],
+    "difficulty": 5,
+    "stem": "The average of 11 consecutive integers is 25. What is the average of the last 5 of these integers?",
+    "answer": 28,
+    "solutionStandard": "Eleven consecutive integers with mean 25 run from 20 to 30. The last five are 26 through 30, whose average is the middle one: 28.",
+    "solutionShortcut": "Mean of consecutive integers = middle value, so 25 is the 6th term. The last five center on the 9th term, three steps later: \\(25 + 3 = 28\\). Everything is offsets from the center — no listing.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 90
+  },
+  {
+    "id": "data-analysis-mixed-practice-080",
+    "type": "MC",
+    "primarySkill": "data-analysis-mixed-practice",
+    "secondarySkills": [
+      "probability-compound",
+      "counting-combinations"
+    ],
+    "difficulty": 5,
+    "stem": "A drawer contains 4 black socks and 4 white socks. Two socks are drawn at random. What is the probability they match?",
+    "options": [
+      {
+        "id": "A",
+        "text": "\\(\\dfrac{1}{4}\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(\\dfrac{3}{8}\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(\\dfrac{3}{7}\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(\\dfrac{1}{2}\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(\\dfrac{4}{7}\\)"
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "Matching pairs: \\(\\binom42 + \\binom42 = 6 + 6 = 12\\). All pairs: \\(\\binom82 = 28\\). Probability \\(= 12/28 = 3/7\\).",
+    "solutionShortcut": "Condition on the first sock: whatever it is, 3 of the remaining 7 socks match it — \\(\\tfrac37\\), one step. Conditioning on the first draw often collapses matching problems entirely.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 95
+  },
+  {
+    "id": "data-analysis-mixed-practice-081",
+    "type": "Numeric",
+    "primarySkill": "data-analysis-mixed-practice",
+    "secondarySkills": [
+      "mean-median-mode"
+    ],
+    "difficulty": 4,
+    "stem": "In a survey, 3 people gave a rating of 1, five people gave a rating of 2, four people gave a rating of 3, and two people gave a rating of 4. What is the median rating?",
+    "answer": 2,
+    "solutionStandard": "There are 14 ratings; the median is the average of the 7th and 8th smallest. Cumulative counts: three 1s (positions 1–3), five 2s (4–8) — both the 7th and 8th values are 2, so the median is 2.",
+    "solutionShortcut": "Frequency-table medians: run the cumulative count until it passes half the total (7 of 14). You never write out the list — just add frequencies: 3, then 8 ≥ 7, stop at rating 2.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 85
+  },
+  {
+    "id": "data-analysis-mixed-practice-082",
+    "type": "QC",
+    "primarySkill": "data-analysis-mixed-practice",
+    "secondarySkills": [
+      "counting-permutations"
+    ],
+    "difficulty": 4,
+    "stem": "Codes of two letters are formed from the letters A, B, C, D, E.",
+    "quantityA": "The number of codes if letters may not repeat",
+    "quantityB": "The number of codes if letters may repeat",
+    "answer": "B",
+    "solutionStandard": "No repeats: \\(5 \\times 4 = 20\\). Repeats allowed: \\(5 \\times 5 = 25\\). Quantity B is greater.",
+    "solutionShortcut": "Allowing repetition can only add possibilities (all no-repeat codes plus the doubles) — B > A without computing either count. Compare structurally before numerically.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 60
+  },
+  {
+    "id": "data-analysis-mixed-practice-083",
+    "type": "MC",
+    "primarySkill": "data-analysis-mixed-practice",
+    "secondarySkills": [
+      "venn-diagrams-sets"
+    ],
+    "difficulty": 5,
+    "stem": "In a school of 100 students: 50 study French, 40 study Spanish, 30 study German; 15 study French and Spanish, 10 study French and German, 10 study Spanish and German; and 5 study all three. How many students study none of the three languages?",
+    "options": [
+      {
+        "id": "A",
+        "text": "0"
+      },
+      {
+        "id": "B",
+        "text": "5"
+      },
+      {
+        "id": "C",
+        "text": "10"
+      },
+      {
+        "id": "D",
+        "text": "15"
+      },
+      {
+        "id": "E",
+        "text": "20"
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "Union \\(= 50 + 40 + 30 - 15 - 10 - 10 + 5 = 90\\). None \\(= 100 - 90 = 10\\).",
+    "solutionShortcut": "Three-set inclusion-exclusion has a fixed rhythm: add the three singles, subtract the three pairs, add back the triple. Chant 'plus, minus, plus' and slot the numbers — the only real risk is missing one of the six terms.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 120
+  },
+  {
+    "id": "data-analysis-mixed-practice-084",
+    "type": "Numeric",
+    "primarySkill": "data-analysis-mixed-practice",
+    "secondarySkills": [
+      "probability-compound"
+    ],
+    "difficulty": 4,
+    "stem": "The probability of rain on any given day is 0.3, independently of other days. What is the probability that it does NOT rain on either of the next two days? Give your answer as a decimal.",
+    "answer": 0.49,
+    "solutionStandard": "P(no rain in one day) \\(= 0.7\\). Independence: \\(0.7 \\times 0.7 = 0.49\\).",
+    "solutionShortcut": "Flip to the complement per-day first (0.7), then multiply. Notice the answer is just \\(0.7^2\\) — 'neither/none' events with independence are always a single power.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 60
+  },
+  {
+    "id": "data-analysis-mixed-practice-085",
+    "type": "QC",
+    "primarySkill": "data-analysis-mixed-practice",
+    "secondarySkills": [
+      "weighted-averages"
+    ],
+    "difficulty": 4,
+    "stem": "In a class, 30 boys averaged 80 on a test and 20 girls averaged 90.",
+    "quantityA": "The class average",
+    "quantityB": "85",
+    "answer": "B",
+    "solutionStandard": "Class average \\(= \\dfrac{30 \\cdot 80 + 20 \\cdot 90}{50} = \\dfrac{2400 + 1800}{50} = 84\\). Quantity B is greater.",
+    "solutionShortcut": "85 is the unweighted midpoint — the actual average must lean toward the larger group (boys, 80), so it's below 85. The lean direction alone answers the QC; 84 is only needed if you doubt it.",
+    "shortcutTags": [
+      "estimate",
+      "eliminate"
+    ],
+    "timeTargetSec": 70
+  },
+  {
+    "id": "data-analysis-mixed-practice-086",
+    "type": "MC",
+    "primarySkill": "data-analysis-mixed-practice",
+    "secondarySkills": [
+      "counting-combinations"
+    ],
+    "difficulty": 4,
+    "stem": "A restaurant offers 3 appetizers, 4 main courses, and 2 desserts. A dinner consists of one appetizer, one main course, and either one dessert or no dessert. How many different dinners are possible?",
+    "options": [
+      {
+        "id": "A",
+        "text": "9"
+      },
+      {
+        "id": "B",
+        "text": "24"
+      },
+      {
+        "id": "C",
+        "text": "30"
+      },
+      {
+        "id": "D",
+        "text": "36"
+      },
+      {
+        "id": "E",
+        "text": "48"
+      }
+    ],
+    "answer": "D",
+    "solutionStandard": "Dessert has 3 outcomes (two desserts or none): \\(3 \\times 4 \\times 3 = 36\\).",
+    "solutionShortcut": "'Or none' adds one option to that slot — the standard oversight is multiplying by 2 instead of 3 (giving the trap 24). Count each slot's choices including the skip before multiplying.",
+    "shortcutTags": [
+      "eliminate"
+    ],
+    "timeTargetSec": 75
+  },
+  {
+    "id": "data-analysis-mixed-practice-087",
+    "type": "Numeric",
+    "primarySkill": "data-analysis-mixed-practice",
+    "secondarySkills": [
+      "mean-median-mode"
+    ],
+    "difficulty": 4,
+    "stem": "The average of 10 test scores was computed as 75. It is then discovered that one score was recorded as 55 instead of the correct 85. What is the correct average?",
+    "answer": 78,
+    "solutionStandard": "The correction adds \\(85 - 55 = 30\\) to the total, so the average rises by \\(30/10 = 3\\): the correct average is 78.",
+    "solutionShortcut": "Only the error's size matters: change in average = (correction) ÷ (count). Recomputing the whole total from scratch is wasted motion.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 70
+  },
+  {
+    "id": "data-analysis-mixed-practice-088",
+    "type": "MultiMC",
+    "primarySkill": "data-analysis-mixed-practice",
+    "secondarySkills": [
+      "range-standard-deviation"
+    ],
+    "difficulty": 5,
+    "stem": "Which of the following statements about the standard deviation of a data set are true? Select all that apply.",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is never negative."
+      },
+      {
+        "id": "B",
+        "text": "It equals 0 only when all values in the set are equal."
+      },
+      {
+        "id": "C",
+        "text": "Adding the same constant to every value changes it."
+      },
+      {
+        "id": "D",
+        "text": "Multiplying every value by 2 doubles it."
+      },
+      {
+        "id": "E",
+        "text": "It is always less than the range."
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "solutionStandard": "(A) True — it's built from squared distances. (B) True — zero spread means identical values. (C) False — shifting moves the mean along with the data. (D) True — scaling by \\(k\\) scales SD by \\(|k|\\). (E) False in general — for a set with all values equal, both are 0 (not 'less than'); SD < range holds only when the range is positive.",
+    "solutionShortcut": "Test edge cases: the constant set \\(\\{5,5,5\\}\\) (SD 0, range 0) kills (E) at the equality edge, and \\(\\{0,10\\}\\) shifted to \\(\\{100,110\\}\\) kills (C). Extreme/degenerate sets are the fastest lie detectors for 'always/only' claims.",
+    "shortcutTags": [
+      "plug-in",
+      "eliminate"
+    ],
+    "timeTargetSec": 120
+  },
+  {
+    "id": "data-analysis-mixed-practice-089",
+    "type": "MC",
+    "primarySkill": "data-analysis-mixed-practice",
+    "secondarySkills": [
+      "probability-compound"
+    ],
+    "difficulty": 4,
+    "stem": "A fair coin is flipped 3 times. What is the probability of getting at least 2 heads?",
+    "options": [
+      {
+        "id": "A",
+        "text": "\\(\\dfrac{1}{4}\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(\\dfrac{3}{8}\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(\\dfrac{1}{2}\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(\\dfrac{5}{8}\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(\\dfrac{3}{4}\\)"
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "Exactly 2 heads: \\(\\binom32 = 3\\) outcomes; exactly 3: 1 outcome. Total \\(4/8 = 1/2\\).",
+    "solutionShortcut": "By symmetry, 'at least 2 heads' and 'at least 2 tails' partition all 8 outcomes equally — so the answer is \\(\\tfrac12\\) with no counting. Odd numbers of flips make majority-heads a coin flip itself.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 80
+  },
+  {
+    "id": "data-analysis-mixed-practice-090",
+    "type": "Numeric",
+    "primarySkill": "data-analysis-mixed-practice",
+    "secondarySkills": [
+      "counting-combinations"
+    ],
+    "difficulty": 5,
+    "stem": "From 6 men and 5 women, a committee of exactly 2 men and 2 women is chosen. How many different committees are possible?",
+    "answer": 150,
+    "solutionStandard": "\\(\\binom62 \\times \\binom52 = 15 \\times 10 = 150\\).",
+    "solutionShortcut": "Independent selections multiply. Choose the men, choose the women, multiply — never treat it as one \\(\\binom{11}{4}\\) pool (330), which ignores the composition requirement.",
+    "shortcutTags": [
+      "estimate",
+      "eliminate"
+    ],
+    "timeTargetSec": 90
+  },
+  {
+    "id": "data-analysis-mixed-practice-091",
+    "type": "QC",
+    "primarySkill": "data-analysis-mixed-practice",
+    "secondarySkills": [
+      "counting-combinations"
+    ],
+    "difficulty": 4,
+    "variables": [
+      {
+        "name": "n",
+        "min": 5,
+        "max": 12
+      }
+    ],
+    "stem": "Compare the two quantities.",
+    "quantityA": "The number of ways to choose 2 items from {{n}} distinct items",
+    "quantityB": "\\(\\dfrac{ {{n}} \\times {{n-1}} }{2}\\)",
+    "answer": "C",
+    "solutionStandard": "\\(\\binom{ {{n}} }{2} = \\dfrac{ {{n}}! }{ 2!\\,{{n-2}}! } = \\dfrac{ {{n}} \\times {{n-1}} }{2} = {{n*(n-1)/2}}\\). The quantities are equal by definition.",
+    "solutionShortcut": "\\(\\binom n2 = \\tfrac{n(n-1)}{2}\\) is worth having as a reflex (handshakes, game pairings, line segments between points). Ordered pairs \\(n(n-1)\\), halved for order not mattering.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 65
+  },
+  {
+    "id": "data-analysis-mixed-practice-092",
+    "type": "MC",
+    "primarySkill": "data-analysis-mixed-practice",
+    "secondarySkills": [
+      "mean-median-mode"
+    ],
+    "difficulty": 5,
+    "stem": "Five positive integers have mean 10 and median 10. What is the greatest possible value of the largest integer?",
+    "options": [
+      {
+        "id": "A",
+        "text": "26"
+      },
+      {
+        "id": "B",
+        "text": "28"
+      },
+      {
+        "id": "C",
+        "text": "30"
+      },
+      {
+        "id": "D",
+        "text": "38"
+      },
+      {
+        "id": "E",
+        "text": "40"
+      }
+    ],
+    "answer": "B",
+    "solutionStandard": "Sum is 50; sorted values \\(a \\le b \\le 10 \\le d \\le e\\) with the middle equal to 10. To maximize \\(e\\), minimize the others: \\(a = b = 1\\), \\(d = 10\\). Then \\(e = 50 - 1 - 1 - 10 - 10 = 28\\).",
+    "solutionShortcut": "Max-one-value questions: pin the constraints (median forces the 3rd value to 10 and the 4th to at least 10), then floor everything else at its minimum. The trap 38 forgets \\(d \\ge 10\\).",
+    "shortcutTags": [
+      "eliminate"
+    ],
+    "timeTargetSec": 110
+  },
+  {
+    "id": "data-analysis-mixed-practice-093",
+    "type": "Numeric",
+    "primarySkill": "data-analysis-mixed-practice",
+    "secondarySkills": [
+      "probability-basic",
+      "counting-combinations"
+    ],
+    "difficulty": 5,
+    "stem": "Five cards are numbered 1 through 5. Two cards are drawn at random without replacement. What is the probability that the sum of the two numbers is even? Give your answer as a decimal.",
+    "answer": 0.4,
+    "solutionStandard": "Even sum needs both odd or both even. Odd cards \\(\\{1,3,5\\}\\): \\(\\binom32 = 3\\) pairs. Even cards \\(\\{2,4\\}\\): \\(\\binom22 = 1\\) pair. Total favorable \\(4\\) of \\(\\binom52 = 10\\): probability \\(0.4\\).",
+    "solutionShortcut": "Parity first: sums are even only for odd+odd or even+even. Count pairs within each parity class — with tiny sets, this beats listing the 10 pairs, and it scales to bigger decks where listing is impossible.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 100
+  },
+  {
+    "id": "data-analysis-mixed-practice-094",
+    "type": "Numeric",
+    "primarySkill": "data-analysis-mixed-practice",
+    "secondarySkills": [
+      "counting-permutations"
+    ],
+    "difficulty": 4,
+    "stem": "Eight runners compete in a race. In how many different ways can the gold, silver, and bronze medals be awarded?",
+    "answer": 336,
+    "solutionStandard": "Ordered selection: \\(8 \\times 7 \\times 6 = 336\\).",
+    "solutionShortcut": "Medals are distinguishable → order matters → count down one factor per slot. (If the question said '3 qualifiers', order wouldn't matter and you'd divide by \\(3! = 6\\) to get 56 — check which one is being asked.)",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 70
+  },
+  {
+    "id": "data-analysis-mixed-practice-095",
+    "type": "MC",
+    "primarySkill": "data-analysis-mixed-practice",
+    "secondarySkills": [
+      "range-standard-deviation"
+    ],
+    "difficulty": 4,
+    "stem": "Which of the following data sets has the same standard deviation as \\(\\{2, 4, 6\\}\\)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "\\(\\{102, 104, 106\\}\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(\\{4, 8, 12\\}\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(\\{1, 2, 3\\}\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(\\{2, 4, 8\\}\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(\\{20, 40, 60\\}\\)"
+      }
+    ],
+    "answer": "A",
+    "solutionStandard": "Adding 100 to every value shifts the set without changing distances from the mean, so \\(\\{102, 104, 106\\}\\) has the identical standard deviation. Scaling (options B, C, E) multiplies the SD, and option D changes the spacing pattern itself.",
+    "solutionShortcut": "Check the gaps: \\(\\{102,104,106\\}\\) has the same gap pattern (2, 2) as the original — a pure shift. Everything else stretches or reshapes the gaps. Gap-pattern matching is instant SD comparison.",
+    "shortcutTags": [
+      "eliminate"
+    ],
+    "timeTargetSec": 75
+  },
+  {
+    "id": "data-analysis-mixed-practice-096",
+    "type": "QC",
+    "primarySkill": "data-analysis-mixed-practice",
+    "secondarySkills": [
+      "probability-compound"
+    ],
+    "difficulty": 4,
+    "stem": "A fair coin is flipped twice.",
+    "quantityA": "The probability of exactly one head",
+    "quantityB": "The probability of at least one head",
+    "answer": "B",
+    "solutionStandard": "Exactly one head: HT, TH → \\(\\tfrac24 = \\tfrac12\\). At least one head: all but TT → \\(\\tfrac34\\). Quantity B is greater.",
+    "solutionShortcut": "'At least one' includes 'exactly one' plus more (HH), so B > A structurally — no computation needed unless the extra event had probability 0. Event containment is the fastest QC probability argument.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 60
+  },
+  {
+    "id": "data-analysis-mixed-practice-097",
+    "type": "MC",
+    "primarySkill": "data-analysis-mixed-practice",
+    "secondarySkills": [
+      "percent-change"
+    ],
+    "difficulty": 5,
+    "stem": "A company's revenue increased by 25% in year one and by 30% in year two. Over the two years, revenue increased by what total percent?",
+    "options": [
+      {
+        "id": "A",
+        "text": "55%"
+      },
+      {
+        "id": "B",
+        "text": "57.5%"
+      },
+      {
+        "id": "C",
+        "text": "62.5%"
+      },
+      {
+        "id": "D",
+        "text": "65%"
+      },
+      {
+        "id": "E",
+        "text": "75%"
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "Multipliers: \\(1.25 \\times 1.30 = 1.625\\), a total increase of 62.5%.",
+    "solutionShortcut": "Beyond 'add then add the cross-term': \\(25 + 30 + \\tfrac{25 \\times 30}{100} = 55 + 7.5 = 62.5\\). The cross-term formula \\(a + b + \\tfrac{ab}{100}\\) handles all successive-percent questions, including discounts (negative values).",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 85
+  },
+  {
+    "id": "data-analysis-mixed-practice-098",
+    "type": "Numeric",
+    "primarySkill": "data-analysis-mixed-practice",
+    "secondarySkills": [
+      "venn-diagrams-sets"
+    ],
+    "difficulty": 4,
+    "variables": [
+      {
+        "name": "m",
+        "min": 20,
+        "max": 40
+      },
+      {
+        "name": "s",
+        "min": 15,
+        "max": 35
+      },
+      {
+        "name": "b",
+        "min": 5,
+        "max": 14
+      }
+    ],
+    "stem": "At a school, {{m}} students are in the math club, {{s}} are in the science club, and {{b}} are in both. How many students are in at least one of the two clubs?",
+    "answer": 46,
+    "answerFormula": "m+s-b",
+    "solutionStandard": "\\(|M \\cup S| = |M| + |S| - |M \\cap S| = {{m}} + {{s}} - {{b}} = {{m+s-b}}\\).",
+    "solutionShortcut": "Add, subtract the overlap once — the double-counted students are exactly the {{b}} in both clubs. If asked for 'exactly one' instead, you'd subtract the overlap twice: \\({{m+s-2*b}}\\).",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 70
+  },
+  {
+    "id": "data-analysis-mixed-practice-099",
+    "type": "QC",
+    "primarySkill": "data-analysis-mixed-practice",
+    "secondarySkills": [
+      "mean-median-mode",
+      "normal-distribution-basics"
+    ],
+    "difficulty": 4,
+    "stem": "A large data set is symmetric about its mean.",
+    "quantityA": "The mean of the data set",
+    "quantityB": "The median of the data set",
+    "answer": "C",
+    "solutionStandard": "Symmetry about the mean forces half the data's weight on each side, which is precisely the defining property of the median. For any symmetric distribution, mean = median. Equal.",
+    "solutionShortcut": "Symmetric → mean = median (and if unimodal, = mode too). Skew is what separates them: right skew pulls the mean above the median, left skew below. This three-word rule ('symmetric means equal') resolves many QC statistics items.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 60
+  },
+  {
+    "id": "data-analysis-mixed-practice-100",
+    "type": "MC",
+    "primarySkill": "data-analysis-mixed-practice",
+    "secondarySkills": [
+      "probability-compound",
+      "counting-permutations"
+    ],
+    "difficulty": 5,
+    "stem": "Three people are each assigned a random day of the week (all 7 days equally likely, independently). What is the probability that all three are assigned different days?",
+    "options": [
+      {
+        "id": "A",
+        "text": "\\(\\dfrac{3}{7}\\)"
+      },
+      {
+        "id": "B",
+        "text": "\\(\\dfrac{6}{49}\\)"
+      },
+      {
+        "id": "C",
+        "text": "\\(\\dfrac{30}{49}\\)"
+      },
+      {
+        "id": "D",
+        "text": "\\(\\dfrac{5}{7}\\)"
+      },
+      {
+        "id": "E",
+        "text": "\\(\\dfrac{36}{49}\\)"
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "Sequential: the first person takes any day; the second differs with probability \\(\\tfrac67\\); the third differs from both with probability \\(\\tfrac57\\). Product: \\(\\tfrac{6}{7} \\times \\tfrac57 = \\tfrac{30}{49}\\).",
+    "solutionShortcut": "This is the birthday problem in miniature: multiply the shrinking 'still different' fractions \\(\\tfrac77 \\cdot \\tfrac67 \\cdot \\tfrac57\\). Counting arrangements (\\(7\\cdot6\\cdot5\\) over \\(7^3\\)) gives the same thing — use whichever frame you find harder to misapply.",
+    "shortcutTags": [
+      "estimate"
+    ],
+    "timeTargetSec": 100
   }
 ]
