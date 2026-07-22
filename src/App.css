@@ -1111,10 +1111,30 @@ fieldset label {
   color: var(--text-h);
   margin: 4px 0 16px;
 }
+.vocab-quiz-word {
+  font-family: var(--heading);
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--text-h);
+  margin: 4px 0 16px;
+}
 .vocab-quiz-options {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
+}
+/* Definition options are long — stack them full width, left-aligned. */
+.vocab-quiz-options-text {
+  grid-template-columns: 1fr;
+}
+.vocab-quiz-options-text .vocab-opt {
+  text-align: left;
+}
+.vocab-quiz-answer {
+  margin: 8px 0 2px;
+}
+.vocab-quiz-answer em {
+  color: var(--text-muted);
 }
 .vocab-opt {
   font: inherit;
