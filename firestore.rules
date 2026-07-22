@@ -16,15 +16,25 @@ service cloud.firestore {
 
     // Question reports ("this question is wrong" / "explain this better").
     // Anyone may file one -- guests included, since errors should be
-    // reportable without an account -- but nobody can read, edit, or
-    // delete them from the client. The owner reviews them in the
-    // Firebase console (console access bypasses these rules).
+    // reportable without an account. A signed-in reporter stamps their own
+    // uid (userId) and can read their own reports back for their inbox; a
+    // guest's report carries userId == null and is never readable from the
+    // client. Nobody can edit or delete from the client -- the owner reviews
+    // and replies (adds an `adminReply` field) in the Firebase console, whose
+    // access bypasses these rules.
     match /feedback/{reportId} {
       allow create: if request.resource.data.questionId is string
         && request.resource.data.questionId.size() <= 100
         && request.resource.data.message is string
-        && request.resource.data.message.size() <= 2000;
-      allow read, update, delete: if false;
+        && request.resource.data.message.size() <= 2000
+        && (
+          request.resource.data.userId == null
+          || (request.auth != null
+              && request.resource.data.userId == request.auth.uid)
+        );
+      allow read: if request.auth != null
+        && resource.data.userId == request.auth.uid;
+      allow update, delete: if false;
     }
   }
 }

@@ -1,6 +1,7 @@
 import { Link, Outlet } from "react-router-dom";
 import { Logo } from "./Logo";
 import { GoogleSignInButton } from "./GoogleSignInButton";
+import { InboxLink } from "./InboxLink";
 
 export function Layout() {
   return (
@@ -17,6 +18,7 @@ export function Layout() {
           <Link to="/about-gre">All About GRE</Link>
           <Link to="/about-us">About Us</Link>
         </nav>
+        <InboxLink />
         <GoogleSignInButton />
         <a
           href="https://paypal.me/GREQL"

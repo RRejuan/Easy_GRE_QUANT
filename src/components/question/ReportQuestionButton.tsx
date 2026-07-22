@@ -1,21 +1,18 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import type { Question } from "../../types";
 import { useAuth } from "../../contexts/AuthContext";
 import {
   canSubmitFeedback,
+  FEEDBACK_CATEGORY_LABELS,
   submitQuestionFeedback,
   type FeedbackCategory,
 } from "../../lib/feedback";
 
-const CATEGORY_LABELS: Record<FeedbackCategory, string> = {
-  "wrong-question": "The question or answer is wrong",
-  "explanation-request": "I'd like a better explanation",
-  other: "Something else",
-};
-
 /** Small always-available control under each question for reporting an error
  * or asking for a better explanation. Reports go to the Firestore `feedback`
- * collection for the owner to review. */
+ * collection for the owner to review; signed-in reporters can read replies
+ * back in their inbox. */
 export function ReportQuestionButton({
   question,
   values,
@@ -43,6 +40,7 @@ export function ReportQuestionButton({
         message: message.trim(),
         values,
         userEmail: user?.email ?? null,
+        userId: user?.uid ?? null,
       });
       setState("sent");
     } catch {
@@ -53,7 +51,14 @@ export function ReportQuestionButton({
   if (state === "sent") {
     return (
       <p className="report-question-thanks">
-        Thanks — your report was sent and will be reviewed.
+        Thanks — your report was sent.{" "}
+        {user ? (
+          <>
+            Track it and any reply in your <Link to="/inbox">Inbox</Link>.
+          </>
+        ) : (
+          "It will be reviewed."
+        )}
       </p>
     );
   }
@@ -74,17 +79,19 @@ export function ReportQuestionButton({
     <div className="report-question-form">
       <fieldset>
         <legend>What's the issue?</legend>
-        {(Object.keys(CATEGORY_LABELS) as FeedbackCategory[]).map((key) => (
-          <label key={key}>
-            <input
-              type="radio"
-              name={`report-category-${question.id}`}
-              checked={category === key}
-              onChange={() => setCategory(key)}
-            />{" "}
-            {CATEGORY_LABELS[key]}
-          </label>
-        ))}
+        {(Object.keys(FEEDBACK_CATEGORY_LABELS) as FeedbackCategory[]).map(
+          (key) => (
+            <label key={key}>
+              <input
+                type="radio"
+                name={`report-category-${question.id}`}
+                checked={category === key}
+                onChange={() => setCategory(key)}
+              />{" "}
+              {FEEDBACK_CATEGORY_LABELS[key]}
+            </label>
+          ),
+        )}
       </fieldset>
       <textarea
         value={message}
@@ -105,6 +112,11 @@ export function ReportQuestionButton({
           Cancel
         </button>
       </div>
+      {!user && (
+        <p className="report-question-note">
+          Sign in with Google before reporting to get replies in your inbox.
+        </p>
+      )}
       {state === "error" && (
         <p className="report-question-error">
           Couldn't send the report — check your connection and try again.

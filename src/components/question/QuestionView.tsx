@@ -7,6 +7,7 @@ import { QCInput } from "./QCInput";
 import { MCInput } from "./MCInput";
 import { MultiMCInput } from "./MultiMCInput";
 import { NumericInput } from "./NumericInput";
+import { AnsweredOptions } from "./AnsweredOptions";
 import { ReportQuestionButton } from "./ReportQuestionButton";
 import { evalFormula, fillTemplate, resolveVariables } from "../../lib/variables";
 
@@ -196,6 +197,17 @@ export function QuestionView({
       )}
       {!locked && displayQuestion.type === "Numeric" && (
         <NumericInput onSubmit={handleSubmit} initialAnswer={submittedAnswer as number | undefined} />
+      )}
+
+      {/* After submitting in skill practice, keep the options visible with the
+          chosen and correct answers marked, above the verdict and solution. */}
+      {locked && (
+        <AnsweredOptions
+          question={displayQuestion}
+          resolvedAnswer={resolvedAnswer}
+          userAnswer={submittedAnswer}
+          correct={correct}
+        />
       )}
 
       {deferFeedback && answered && (

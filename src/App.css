@@ -780,3 +780,106 @@ fieldset label {
 .skill-area-list li {
   padding: 4px 0;
 }
+
+/* --- Report inbox --------------------------------------------------- */
+
+.inbox-link {
+  position: relative;
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.inbox-link:hover {
+  color: var(--primary);
+}
+.inbox-badge {
+  display: inline-block;
+  min-width: 18px;
+  padding: 0 5px;
+  margin-left: 5px;
+  border-radius: 9px;
+  background: var(--primary);
+  color: var(--primary-contrast);
+  font-size: 0.72rem;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.report-question-note {
+  margin-top: 8px;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.inbox-list {
+  list-style: none;
+  padding: 0;
+  margin: 16px 0;
+}
+.inbox-item {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--bg-card);
+  padding: 14px 16px;
+  margin-bottom: 12px;
+}
+.inbox-item-replied {
+  border-left: 3px solid var(--primary);
+}
+.inbox-item-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+}
+.inbox-item-category {
+  font-weight: 700;
+  color: var(--text-h);
+}
+.inbox-item-date {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+.inbox-item-meta {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin: 4px 0;
+}
+.inbox-item-meta code {
+  font-family: var(--mono);
+  font-size: 0.8rem;
+}
+.inbox-item-message {
+  margin: 8px 0;
+  font-style: italic;
+}
+.inbox-item-pending {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin: 8px 0 0;
+}
+.inbox-reply {
+  margin-top: 10px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+}
+.inbox-reply-label {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--primary);
+  margin-bottom: 4px;
+}
+.inbox-reply p {
+  margin: 0;
+  white-space: pre-wrap;
+}
