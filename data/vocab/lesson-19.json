@@ -1,0 +1,115 @@
+{
+  "id": "lesson-19",
+  "title": "Lesson 19 — The Feud",
+  "words": [
+    {
+      "id": "boorish",
+      "word": "boorish",
+      "partOfSpeech": "adjective",
+      "definition": "rough and bad-mannered; coarse",
+      "example": "His boorish behavior at dinner embarrassed everyone.",
+      "tier": "medium",
+      "synonyms": ["rude", "uncouth", "loutish"]
+    },
+    {
+      "id": "churlish",
+      "word": "churlish",
+      "partOfSpeech": "adjective",
+      "definition": "rude and mean-spirited; surly",
+      "example": "It seemed churlish to refuse such a generous gift.",
+      "tier": "hard",
+      "synonyms": ["surly", "boorish", "ungracious"]
+    },
+    {
+      "id": "surly",
+      "word": "surly",
+      "partOfSpeech": "adjective",
+      "definition": "bad-tempered and unfriendly",
+      "example": "A surly doorman who never once smiled.",
+      "tier": "medium",
+      "synonyms": ["sullen", "gruff", "morose"]
+    },
+    {
+      "id": "cantankerous",
+      "word": "cantankerous",
+      "partOfSpeech": "adjective",
+      "definition": "bad-tempered, argumentative, and difficult to deal with",
+      "example": "A cantankerous old neighbor who sued everyone in sight.",
+      "tier": "hard",
+      "synonyms": ["irritable", "quarrelsome", "crotchety"]
+    },
+    {
+      "id": "irascible",
+      "word": "irascible",
+      "partOfSpeech": "adjective",
+      "definition": "having or showing a tendency to be easily angered",
+      "example": "An irascible chef who threw pans when a dish came back.",
+      "tier": "hard",
+      "synonyms": ["irritable", "hot-tempered", "testy"]
+    },
+    {
+      "id": "truculent",
+      "word": "truculent",
+      "partOfSpeech": "adjective",
+      "definition": "eager or quick to argue or fight; aggressively defiant",
+      "example": "A truculent reply that practically invited a brawl.",
+      "tier": "hard",
+      "synonyms": ["belligerent", "combative", "defiant"]
+    },
+    {
+      "id": "belligerent",
+      "word": "belligerent",
+      "partOfSpeech": "adjective",
+      "definition": "hostile and aggressive",
+      "example": "A belligerent drunk looking for someone to fight.",
+      "tier": "medium",
+      "synonyms": ["hostile", "aggressive", "combative"]
+    },
+    {
+      "id": "pugnacious",
+      "word": "pugnacious",
+      "partOfSpeech": "adjective",
+      "definition": "eager or quick to argue, quarrel, or fight",
+      "example": "A pugnacious debater who attacked every single point.",
+      "tier": "medium",
+      "synonyms": ["combative", "aggressive", "quarrelsome"]
+    },
+    {
+      "id": "contentious",
+      "word": "contentious",
+      "partOfSpeech": "adjective",
+      "definition": "causing or likely to cause an argument; controversial",
+      "example": "A contentious topic that split the room in two.",
+      "tier": "medium",
+      "synonyms": ["controversial", "divisive", "disputed"]
+    },
+    {
+      "id": "acrimonious",
+      "word": "acrimonious",
+      "partOfSpeech": "adjective",
+      "definition": "angry and bitter, especially of speech or a dispute",
+      "example": "An acrimonious divorce dragged through the courts for years.",
+      "tier": "hard",
+      "synonyms": ["bitter", "rancorous", "hostile"]
+    },
+    {
+      "id": "rancor",
+      "word": "rancor",
+      "partOfSpeech": "noun",
+      "definition": "bitterness or resentfulness, especially long-standing",
+      "example": "Years of rancor slowly poisoned the whole family.",
+      "tier": "medium",
+      "synonyms": ["bitterness", "resentment", "animosity"]
+    },
+    {
+      "id": "vitriolic",
+      "word": "vitriolic",
+      "partOfSpeech": "adjective",
+      "definition": "filled with bitter criticism or malice",
+      "example": "A vitriolic review that felt weirdly personal.",
+      "tier": "hard",
+      "synonyms": ["scathing", "caustic", "venomous"]
+    }
+  ],
+  "story": "The feud between the two households kept the whole street on edge. Old Harker was [[boorish|boorish]] and [[churlish|churlish]], perpetually [[surly|surly]], while his rival across the fence was [[cantankerous|cantankerous]] and [[irascible|irascible]], flaring up at nothing. Their sons were worse — [[truculent|truculent]], [[belligerent|belligerent]], and openly [[pugnacious|pugnacious]]. Every fence line became a [[contentious|contentious]] border and every greeting an [[acrimonious|acrimonious]] exchange. Decades of [[rancor|rancor]] hardened into habit, and the notes the two families left each other grew steadily more [[vitriolic|vitriolic]]."
+}
