@@ -1,0 +1,115 @@
+{
+  "id": "lesson-23",
+  "title": "Lesson 23 — The Scholars",
+  "words": [
+    {
+      "id": "erudite",
+      "word": "erudite",
+      "partOfSpeech": "adjective",
+      "definition": "having or showing great knowledge; learned",
+      "example": "An erudite lecture packed with apt references.",
+      "tier": "hard",
+      "synonyms": ["learned", "scholarly", "knowledgeable"]
+    },
+    {
+      "id": "sagacious",
+      "word": "sagacious",
+      "partOfSpeech": "adjective",
+      "definition": "having keen mental discernment and good judgment; wise",
+      "example": "A sagacious advisor whose counsel was always sound.",
+      "tier": "hard",
+      "synonyms": ["wise", "shrewd", "astute"]
+    },
+    {
+      "id": "astute",
+      "word": "astute",
+      "partOfSpeech": "adjective",
+      "definition": "having sharp, accurate judgment; shrewd",
+      "example": "An astute investor who spotted the trend early.",
+      "tier": "medium",
+      "synonyms": ["shrewd", "perceptive", "canny"]
+    },
+    {
+      "id": "discerning",
+      "word": "discerning",
+      "partOfSpeech": "adjective",
+      "definition": "having or showing good judgment; perceptive",
+      "example": "A discerning critic with famously good taste.",
+      "tier": "medium",
+      "synonyms": ["perceptive", "discriminating", "astute"]
+    },
+    {
+      "id": "perspicacious",
+      "word": "perspicacious",
+      "partOfSpeech": "adjective",
+      "definition": "having keen insight or understanding",
+      "example": "A perspicacious reader who caught the hidden clue.",
+      "tier": "hard",
+      "synonyms": ["insightful", "shrewd", "perceptive"]
+    },
+    {
+      "id": "pedant",
+      "word": "pedant",
+      "partOfSpeech": "noun",
+      "definition": "a person overly concerned with minor details, rules, or displaying learning",
+      "example": "A pedant who corrected everyone's grammar at dinner.",
+      "tier": "medium",
+      "synonyms": ["nitpicker", "purist", "hairsplitter"]
+    },
+    {
+      "id": "didactic",
+      "word": "didactic",
+      "partOfSpeech": "adjective",
+      "definition": "intended to teach, often in a heavy-handed or moralizing way",
+      "example": "A didactic novel that lectured its readers on every page.",
+      "tier": "hard",
+      "synonyms": ["instructive", "moralizing", "preachy"]
+    },
+    {
+      "id": "savant",
+      "word": "savant",
+      "partOfSpeech": "noun",
+      "definition": "a person of great learning or exceptional ability",
+      "example": "A math savant who solved the puzzle in seconds.",
+      "tier": "medium",
+      "synonyms": ["genius", "expert", "prodigy"]
+    },
+    {
+      "id": "acumen",
+      "word": "acumen",
+      "partOfSpeech": "noun",
+      "definition": "the ability to make good judgments and quick decisions",
+      "example": "Her business acumen quietly saved the firm.",
+      "tier": "medium",
+      "synonyms": ["shrewdness", "insight", "judgment"]
+    },
+    {
+      "id": "sage",
+      "word": "sage",
+      "partOfSpeech": "noun",
+      "definition": "a profoundly wise person",
+      "example": "The old sage offered only a few quiet words of advice.",
+      "tier": "medium",
+      "synonyms": ["wise man", "guru", "philosopher"]
+    },
+    {
+      "id": "cerebral",
+      "word": "cerebral",
+      "partOfSpeech": "adjective",
+      "definition": "intellectual rather than emotional or physical",
+      "example": "A cerebral film that rewards close attention.",
+      "tier": "medium",
+      "synonyms": ["intellectual", "analytical", "brainy"]
+    },
+    {
+      "id": "scholarly",
+      "word": "scholarly",
+      "partOfSpeech": "adjective",
+      "definition": "involving or relating to serious academic study",
+      "example": "A scholarly edition with hundreds of footnotes.",
+      "tier": "easy",
+      "synonyms": ["academic", "learned", "erudite"]
+    }
+  ],
+  "story": "The seminar drew the department's sharpest minds. Professor Vance was [[erudite|erudite]] and [[sagacious|sagacious]], his questions [[astute|astute]] and [[discerning|discerning]]; the visiting fellow was even more [[perspicacious|perspicacious]]. One [[pedant|pedant]] in the corner kept interrupting to correct citations, and a [[didactic|didactic]] guest lectured the room as if to freshmen. But it was the quiet [[savant|savant]] by the window — all [[acumen|acumen]] and no show — whom the others treated as a [[sage|sage]]. Her comments were [[cerebral|cerebral]] yet clear, more illuminating than any [[scholarly|scholarly]] footnote."
+}
