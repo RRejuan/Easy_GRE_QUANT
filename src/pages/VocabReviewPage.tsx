@@ -35,7 +35,7 @@ export function VocabReviewPage() {
           </Link>
         </>
       ) : (
-        <VocabQuiz wordIds={dueIds} onDone={() => setDone(true)} />
+        <VocabQuiz wordIds={dueIds} mode="review" onDone={() => setDone(true)} />
       )}
     </div>
   );

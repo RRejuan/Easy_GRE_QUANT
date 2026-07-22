@@ -1,13 +1,9 @@
 import { useMemo, useState } from "react";
 import { allVocabWords, getVocabWord } from "../../lib/vocab";
 import { getWordSrs, setWordSrs } from "../../lib/storage/vocab";
-import { reviewWord } from "../../lib/srs";
+import { isGraduated, reviewWord } from "../../lib/srs";
 
-interface QuizItem {
-  wordId: string;
-  /** Option word ids (the target plus distractors), shuffled. */
-  options: string[];
-}
+const OPTION_COUNT = 5; // matches GRE verbal single-answer questions
 
 function shuffle<T>(items: T[]): T[] {
   const copy = [...items];
@@ -18,67 +14,96 @@ function shuffle<T>(items: T[]): T[] {
   return copy;
 }
 
-function buildQuiz(wordIds: string[]): QuizItem[] {
-  const pool = allVocabWords();
-  return wordIds.map((wordId) => {
-    const distractors = shuffle(pool.filter((w) => w.id !== wordId))
-      .slice(0, 3)
-      .map((w) => w.id);
-    return { wordId, options: shuffle([wordId, ...distractors]) };
-  });
+function buildOptions(targetId: string): string[] {
+  const distractors = shuffle(allVocabWords().filter((w) => w.id !== targetId))
+    .slice(0, OPTION_COUNT - 1)
+    .map((w) => w.id);
+  return shuffle([targetId, ...distractors]);
 }
 
-/** A definition -> word multiple-choice drill over the given words. Each answer
- * updates that word's spaced-repetition schedule immediately. */
+/**
+ * A definition -> word drill.
+ *
+ * - "learn" mode: keeps a word in rotation until it has been answered correctly
+ *   enough times to graduate (turn green); missed words come back later in the
+ *   session. With ~15 words that yields 30+ questions.
+ * - "review" mode: asks each due word once and reschedules it.
+ *
+ * The word order is shuffled, and each answer updates the spaced-repetition
+ * schedule immediately.
+ */
 export function VocabQuiz({
   wordIds,
+  mode,
   onDone,
 }: {
   wordIds: string[];
+  mode: "learn" | "review";
   onDone: () => void;
 }) {
-  const quiz = useMemo(() => buildQuiz(wordIds), [wordIds]);
-  const [index, setIndex] = useState(0);
+  const [queue, setQueue] = useState<string[]>(() => shuffle(wordIds));
+  const [round, setRound] = useState(0);
   const [picked, setPicked] = useState<string | null>(null);
-  const [correctCount, setCorrectCount] = useState(0);
+  const [asked, setAsked] = useState(0);
 
-  const item = quiz[index];
-  const target = getVocabWord(item.wordId);
+  const currentId = queue[0];
+  const options = useMemo(
+    () => (currentId ? buildOptions(currentId) : []),
+    // Rebuild (fresh distractors) whenever we advance to a new prompt.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [currentId, round],
+  );
+
+  if (!currentId) return null;
+  const target = getVocabWord(currentId);
   if (!target) return null;
 
   const answered = picked !== null;
-  const isRight = picked === item.wordId;
+  const isRight = picked === currentId;
+  const learnedCount =
+    mode === "learn"
+      ? wordIds.filter((id) => isGraduated(getWordSrs(id))).length
+      : asked;
 
   function choose(optionId: string) {
     if (answered) return;
     setPicked(optionId);
-    const correct = optionId === item.wordId;
-    if (correct) setCorrectCount((c) => c + 1);
-    setWordSrs(item.wordId, reviewWord(getWordSrs(item.wordId), correct, Date.now()));
+    setWordSrs(
+      currentId,
+      reviewWord(getWordSrs(currentId), optionId === currentId, Date.now()),
+    );
   }
 
   function next() {
-    if (index + 1 < quiz.length) {
-      setIndex(index + 1);
-      setPicked(null);
-    } else {
+    setAsked((n) => n + 1);
+    const rest = queue.slice(1);
+    // In learn mode, requeue a word until it has graduated (turned green).
+    const done = mode === "review" || isGraduated(getWordSrs(currentId));
+    const nextQueue = done ? rest : [...rest, currentId];
+    setPicked(null);
+    setRound((r) => r + 1);
+    if (nextQueue.length === 0) {
       onDone();
+    } else {
+      setQueue(nextQueue);
     }
   }
 
   return (
     <div className="vocab-quiz">
       <p className="vocab-quiz-progress">
-        Word {index + 1} of {quiz.length} · score {correctCount}
+        {mode === "learn"
+          ? `Learned ${learnedCount} of ${wordIds.length} · question ${asked + 1}`
+          : `Word ${asked + 1} of ${wordIds.length}`}
       </p>
       <p className="vocab-quiz-prompt">Which word means:</p>
       <p className="vocab-quiz-definition">“{target.definition}”</p>
       <div className="vocab-quiz-options">
-        {item.options.map((optionId) => {
+        {options.map((optionId) => {
           const option = getVocabWord(optionId);
           const cls = !answered
             ? ""
-            : optionId === item.wordId
+            : optionId === currentId
               ? " vocab-opt-correct"
               : optionId === picked
                 ? " vocab-opt-wrong"
@@ -103,7 +128,7 @@ export function VocabQuiz({
           </p>
           <p className="vocab-quiz-example">{target.example}</p>
           <button type="button" onClick={next}>
-            {index + 1 < quiz.length ? "Next word" : "Finish"}
+            Next word
           </button>
         </div>
       )}

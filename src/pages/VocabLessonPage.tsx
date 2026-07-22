@@ -25,6 +25,9 @@ export function VocabLessonPage() {
 
   const srs = loadVocabSrs();
   const now = Date.now();
+  const toLearn = lesson.words
+    .filter((w) => deriveState(srs[w.id], now) !== "known")
+    .map((w) => w.id);
 
   return (
     <div className="skill-page vocab-lesson-page">
@@ -33,7 +36,8 @@ export function VocabLessonPage() {
 
       {mode === "quiz" ? (
         <VocabQuiz
-          wordIds={lesson.words.map((w) => w.id)}
+          wordIds={toLearn}
+          mode="learn"
           onDone={() => {
             setMode("study");
             setVersion((v) => v + 1);
@@ -42,17 +46,18 @@ export function VocabLessonPage() {
       ) : (
         <>
           <p className="vocab-lesson-hint">
-            Study the {lesson.words.length} words and the story, then quiz
-            yourself. Correct answers schedule each word for spaced review.
+            Read the story first and try to work out each highlighted word from
+            context. Then check the meanings below to fill in the gaps — and
+            quiz yourself when you're ready.
           </p>
-          <button
-            type="button"
-            className="cta-button"
-            onClick={() => setMode("quiz")}
-          >
-            Quiz these {lesson.words.length} words
-          </button>
 
+          <h2>Story</h2>
+          <p className="vocab-story-hint">
+            Tap a highlighted word to reveal its meaning.
+          </p>
+          <VocabStory story={lesson.story} words={lesson.words} />
+
+          <h2>Meanings</h2>
           <ul className="vocab-word-list">
             {lesson.words.map((word) => (
               <WordCard
@@ -63,12 +68,20 @@ export function VocabLessonPage() {
             ))}
           </ul>
 
-          <h2>Story</h2>
-          <p className="vocab-story-hint">
-            Every word from this lesson appears below. Tap a highlighted word to
-            see its meaning.
-          </p>
-          <VocabStory story={lesson.story} words={lesson.words} />
+          {toLearn.length > 0 ? (
+            <button
+              type="button"
+              className="cta-button"
+              onClick={() => setMode("quiz")}
+            >
+              Quiz {toLearn.length} word{toLearn.length === 1 ? "" : "s"} to learn
+            </button>
+          ) : (
+            <p className="vocab-due-none">
+              You've learned every word in this lesson. They'll return for review
+              when they're due.
+            </p>
+          )}
         </>
       )}
     </div>
