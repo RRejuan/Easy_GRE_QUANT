@@ -1,0 +1,142 @@
+{
+  "id": "lesson-02",
+  "title": "Lesson 2 — The Restaurant Opening",
+  "words": [
+    {
+      "id": "cacophony",
+      "word": "cacophony",
+      "partOfSpeech": "noun",
+      "definition": "a harsh, discordant mixture of sounds",
+      "example": "The cacophony of car horns and jackhammers made the phone call impossible.",
+      "tier": "medium",
+      "synonyms": ["din", "discord", "racket"]
+    },
+    {
+      "id": "belie",
+      "word": "belie",
+      "partOfSpeech": "verb",
+      "definition": "to give a false impression of; to contradict",
+      "example": "Her calm voice belied the panic she felt inside.",
+      "tier": "hard",
+      "synonyms": ["contradict", "misrepresent", "disguise"]
+    },
+    {
+      "id": "diffident",
+      "word": "diffident",
+      "partOfSpeech": "adjective",
+      "definition": "modest or shy because of a lack of self-confidence",
+      "example": "The diffident intern rarely spoke up, even when she knew the answer.",
+      "tier": "hard",
+      "synonyms": ["timid", "bashful", "self-effacing"]
+    },
+    {
+      "id": "eloquent",
+      "word": "eloquent",
+      "partOfSpeech": "adjective",
+      "definition": "fluent, persuasive, and expressive in speech or writing",
+      "example": "His eloquent toast left half the room in tears.",
+      "tier": "easy",
+      "synonyms": ["articulate", "expressive", "silver-tongued"]
+    },
+    {
+      "id": "fastidious",
+      "word": "fastidious",
+      "partOfSpeech": "adjective",
+      "definition": "very attentive to detail and accuracy; hard to please",
+      "example": "A fastidious editor, she flagged every misplaced comma.",
+      "tier": "medium",
+      "synonyms": ["meticulous", "finicky", "punctilious"]
+    },
+    {
+      "id": "obdurate",
+      "word": "obdurate",
+      "partOfSpeech": "adjective",
+      "definition": "stubbornly refusing to change one's opinion or course of action",
+      "example": "The landlord remained obdurate, refusing to lower the rent by a cent.",
+      "tier": "hard",
+      "synonyms": ["obstinate", "intransigent", "unyielding"]
+    },
+    {
+      "id": "placate",
+      "word": "placate",
+      "partOfSpeech": "verb",
+      "definition": "to make someone less angry or hostile; to soothe",
+      "example": "He offered a refund to placate the furious customer.",
+      "tier": "medium",
+      "synonyms": ["appease", "mollify", "pacify"]
+    },
+    {
+      "id": "quixotic",
+      "word": "quixotic",
+      "partOfSpeech": "adjective",
+      "definition": "exceedingly idealistic and impractical",
+      "example": "His quixotic plan to end all traffic by banning cars amused the council.",
+      "tier": "hard",
+      "synonyms": ["idealistic", "impractical", "starry-eyed"]
+    },
+    {
+      "id": "rancorous",
+      "word": "rancorous",
+      "partOfSpeech": "adjective",
+      "definition": "characterized by bitterness or resentment",
+      "example": "The divorce turned rancorous, with each side blaming the other.",
+      "tier": "medium",
+      "synonyms": ["bitter", "spiteful", "acrimonious"]
+    },
+    {
+      "id": "sycophant",
+      "word": "sycophant",
+      "partOfSpeech": "noun",
+      "definition": "a person who flatters powerful people to gain advantage",
+      "example": "The manager was surrounded by sycophants who praised his every word.",
+      "tier": "medium",
+      "synonyms": ["toady", "flatterer", "bootlicker"]
+    },
+    {
+      "id": "taciturn",
+      "word": "taciturn",
+      "partOfSpeech": "adjective",
+      "definition": "reserved or uncommunicative in speech; saying little",
+      "example": "The taciturn guard answered our questions with a single nod.",
+      "tier": "medium",
+      "synonyms": ["reticent", "reserved", "tight-lipped"]
+    },
+    {
+      "id": "urbane",
+      "word": "urbane",
+      "partOfSpeech": "adjective",
+      "definition": "suave, courteous, and refined in manner",
+      "example": "The urbane host moved through the party with easy, polished charm.",
+      "tier": "medium",
+      "synonyms": ["suave", "polished", "sophisticated"]
+    },
+    {
+      "id": "vindicate",
+      "word": "vindicate",
+      "partOfSpeech": "verb",
+      "definition": "to clear of blame or suspicion; to show to be justified",
+      "example": "The new evidence vindicated the man imprisoned years earlier.",
+      "tier": "medium",
+      "synonyms": ["exonerate", "justify", "absolve"]
+    },
+    {
+      "id": "wary",
+      "word": "wary",
+      "partOfSpeech": "adjective",
+      "definition": "cautious and watchful about possible danger or problems",
+      "example": "Investors grew wary after the third quarter of losses.",
+      "tier": "easy",
+      "synonyms": ["cautious", "guarded", "circumspect"]
+    },
+    {
+      "id": "zealous",
+      "word": "zealous",
+      "partOfSpeech": "adjective",
+      "definition": "filled with energetic and often uncritical enthusiasm",
+      "example": "The zealous volunteers knocked on every door in the district.",
+      "tier": "easy",
+      "synonyms": ["fervent", "ardent", "passionate"]
+    }
+  ],
+  "story": "The grand opening was a [[cacophony|cacophony]] of clattering pans and shouted orders, a chaos that [[belie|belied]] the calm the owner tried to project. Chef Dupont, usually [[diffident|diffident]] and reluctant to speak, turned strangely [[eloquent|eloquent]] whenever he described his sauces. He was famously [[fastidious|fastidious]], sending back any plate a shade off-color, and utterly [[obdurate|obdurate]] when critics suggested he simplify the menu. His business partner scrambled to [[placate|placate]] the impatient investors, several of whom thought the whole venture [[quixotic|quixotic]] — a beautiful but doomed dream. Relations turned [[rancorous|rancorous]] the night a [[sycophant|sycophant]] on staff, forever fawning over the loudest backer, began spreading rumors. The head waiter, [[taciturn|taciturn]] but sharp-eyed, said nothing and missed nothing. Only the [[urbane|urbane]] sommelier, polished and unflappable, kept the room civil. When a glowing review finally arrived, it seemed to [[vindicate|vindicate]] every stubborn choice Dupont had made. The investors, once so [[wary|wary]] of him, grew [[zealous|zealous]] overnight, toasting the very chef they had nearly abandoned."
+}

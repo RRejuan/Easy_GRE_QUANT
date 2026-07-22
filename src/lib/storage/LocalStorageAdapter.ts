@@ -6,6 +6,7 @@ import type {
   StorageAdapter,
 } from "./StorageAdapter";
 import { getStorageNamespace } from "./namespace";
+import { clearVocabSrs } from "./vocab";
 
 export const MAX_MOCK_HISTORY = 50;
 
@@ -164,11 +165,13 @@ export class LocalStorageAdapter implements StorageAdapter {
   }
 }
 
-/** Clears all mastery/attempt data and mock test history for the active
- * profile (or the signed-in account, including its cloud copy). */
+/** Clears all mastery/attempt data, mock test history, and vocabulary review
+ * state for the active profile (or the signed-in account, including its cloud
+ * copy). */
 export function resetProgress(): void {
   localStorage.removeItem(storageKey(getStorageNamespace()));
   localStorage.removeItem(mockHistoryKey(getStorageNamespace()));
   localStorage.removeItem(questionStatusKey(getStorageNamespace()));
+  clearVocabSrs();
   cloudListener?.onProgressReset();
 }

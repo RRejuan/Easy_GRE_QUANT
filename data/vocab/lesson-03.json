@@ -1,0 +1,142 @@
+{
+  "id": "lesson-03",
+  "title": "Lesson 3 — The Wellness Guru",
+  "words": [
+    {
+      "id": "abscond",
+      "word": "abscond",
+      "partOfSpeech": "verb",
+      "definition": "to leave hurriedly and secretly, typically to avoid detection or capture",
+      "example": "The treasurer absconded with the funds before the audit began.",
+      "tier": "medium",
+      "synonyms": ["flee", "decamp", "bolt"]
+    },
+    {
+      "id": "bombastic",
+      "word": "bombastic",
+      "partOfSpeech": "adjective",
+      "definition": "high-sounding but with little real meaning; pompous",
+      "example": "His bombastic speech promised the moon and delivered nothing.",
+      "tier": "medium",
+      "synonyms": ["pompous", "grandiloquent", "overblown"]
+    },
+    {
+      "id": "cajole",
+      "word": "cajole",
+      "partOfSpeech": "verb",
+      "definition": "to persuade someone by sustained flattery or gentle coaxing",
+      "example": "She cajoled her brother into covering her shift with promises of pizza.",
+      "tier": "medium",
+      "synonyms": ["coax", "wheedle", "sweet-talk"]
+    },
+    {
+      "id": "deride",
+      "word": "deride",
+      "partOfSpeech": "verb",
+      "definition": "to express contempt for; to ridicule or mock",
+      "example": "Critics derided the film as a shallow imitation of better ones.",
+      "tier": "medium",
+      "synonyms": ["mock", "ridicule", "scorn"]
+    },
+    {
+      "id": "enervate",
+      "word": "enervate",
+      "partOfSpeech": "verb",
+      "definition": "to drain of energy or vitality; to weaken",
+      "example": "The relentless heat enervated the hikers within an hour.",
+      "tier": "hard",
+      "synonyms": ["weaken", "sap", "exhaust"]
+    },
+    {
+      "id": "florid",
+      "word": "florid",
+      "partOfSpeech": "adjective",
+      "definition": "excessively ornate or elaborate; flowery",
+      "example": "The florid prose buried a simple idea under mountains of adjectives.",
+      "tier": "medium",
+      "synonyms": ["ornate", "flowery", "overwrought"]
+    },
+    {
+      "id": "hackneyed",
+      "word": "hackneyed",
+      "partOfSpeech": "adjective",
+      "definition": "overused and therefore unoriginal and dull; clichéd",
+      "example": "\"Only time will tell\" is a hackneyed way to end an essay.",
+      "tier": "medium",
+      "synonyms": ["trite", "clichéd", "stale"]
+    },
+    {
+      "id": "impassive",
+      "word": "impassive",
+      "partOfSpeech": "adjective",
+      "definition": "not feeling or showing emotion; expressionless",
+      "example": "The judge stayed impassive as the verdict was read.",
+      "tier": "medium",
+      "synonyms": ["expressionless", "stolid", "inscrutable"]
+    },
+    {
+      "id": "loquacious",
+      "word": "loquacious",
+      "partOfSpeech": "adjective",
+      "definition": "tending to talk a great deal; very talkative",
+      "example": "Our loquacious guide kept up a cheerful commentary for three straight hours.",
+      "tier": "medium",
+      "synonyms": ["garrulous", "voluble", "chatty"]
+    },
+    {
+      "id": "mendacious",
+      "word": "mendacious",
+      "partOfSpeech": "adjective",
+      "definition": "not telling the truth; lying",
+      "example": "The mendacious salesman claimed the car had never been in an accident.",
+      "tier": "hard",
+      "synonyms": ["dishonest", "deceitful", "untruthful"]
+    },
+    {
+      "id": "nascent",
+      "word": "nascent",
+      "partOfSpeech": "adjective",
+      "definition": "just coming into existence and beginning to develop",
+      "example": "The nascent startup had three employees and one customer.",
+      "tier": "medium",
+      "synonyms": ["emerging", "budding", "fledgling"]
+    },
+    {
+      "id": "opulent",
+      "word": "opulent",
+      "partOfSpeech": "adjective",
+      "definition": "ostentatiously rich and luxurious; lavish",
+      "example": "The opulent ballroom glittered with gold leaf and crystal.",
+      "tier": "easy",
+      "synonyms": ["lavish", "sumptuous", "luxurious"]
+    },
+    {
+      "id": "pernicious",
+      "word": "pernicious",
+      "partOfSpeech": "adjective",
+      "definition": "having a harmful effect, especially in a gradual or subtle way",
+      "example": "The pernicious rumor spread quietly until it had ruined her reputation.",
+      "tier": "hard",
+      "synonyms": ["harmful", "insidious", "destructive"]
+    },
+    {
+      "id": "reticent",
+      "word": "reticent",
+      "partOfSpeech": "adjective",
+      "definition": "not revealing one's thoughts readily; reserved",
+      "example": "He was reticent about his past, changing the subject whenever it came up.",
+      "tier": "medium",
+      "synonyms": ["reserved", "taciturn", "guarded"]
+    },
+    {
+      "id": "spurious",
+      "word": "spurious",
+      "partOfSpeech": "adjective",
+      "definition": "not genuine, authentic, or true; false",
+      "example": "The article was pulled after its spurious statistics were exposed.",
+      "tier": "hard",
+      "synonyms": ["bogus", "counterfeit", "false"]
+    }
+  ],
+  "story": "The self-styled guru threw an [[opulent|opulent]] gala to launch his [[nascent|nascent]] wellness empire, all chandeliers and gold leaf. His speeches were [[bombastic|bombastic]], booming with grand words that meant almost nothing, and [[florid|florid]] with ornamental praise for his own genius. He would [[cajole|cajole]] wealthy guests with honeyed compliments, then quietly [[deride|deride]] them the moment they left the room. Skeptics who dared question his miracle tonics he dismissed as [[reticent|reticent]] cowards, though they were merely careful people. His pitch leaned on [[hackneyed|hackneyed]] slogans — the tired clichés you find on cheap posters — and on [[mendacious|mendacious]] claims no honest doctor would endorse. A young reporter sat [[impassive|impassive]], her face betraying nothing, while a [[loquacious|loquacious]] investor beside her chattered on and on. By midnight she had her proof: the \"clinical studies\" were entirely [[spurious|spurious]], forged from beginning to end. The scandal would [[enervate|enervate]] the whole enterprise, draining its momentum within a week, and lay bare how [[pernicious|pernicious]] a charming lie can be. Before the story broke, of course, the guru had already [[abscond|absconded]] with the investors' cash."
+}

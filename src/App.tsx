@@ -8,6 +8,9 @@ import { MockTestPage } from "./pages/MockTestPage";
 import { AboutGrePage } from "./pages/AboutGrePage";
 import { AboutUsPage } from "./pages/AboutUsPage";
 import { InboxPage } from "./pages/InboxPage";
+import { VocabPage } from "./pages/VocabPage";
+import { VocabLessonPage } from "./pages/VocabLessonPage";
+import { VocabReviewPage } from "./pages/VocabReviewPage";
 import "./App.css";
 
 function App() {
@@ -17,6 +20,9 @@ function App() {
         <Route path="/" element={<DashboardPage />} />
         <Route path="/skills" element={<SkillListPage />} />
         <Route path="/skill/:skillId" element={<SkillPage />} />
+        <Route path="/vocab" element={<VocabPage />} />
+        <Route path="/vocab/review" element={<VocabReviewPage />} />
+        <Route path="/vocab/:lessonId" element={<VocabLessonPage />} />
         <Route path="/diagnostic" element={<DiagnosticPage />} />
         <Route path="/mock-test" element={<MockTestPage />} />
         <Route path="/about-gre" element={<AboutGrePage />} />
