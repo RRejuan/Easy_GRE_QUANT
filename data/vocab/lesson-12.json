@@ -1,0 +1,115 @@
+{
+  "id": "lesson-12",
+  "title": "Lesson 12 — Moods",
+  "words": [
+    {
+      "id": "morose",
+      "word": "morose",
+      "partOfSpeech": "adjective",
+      "definition": "sullen and ill-tempered; gloomy",
+      "example": "He sat morose in the corner, saying nothing all night.",
+      "tier": "medium",
+      "synonyms": ["sullen", "gloomy", "glum"]
+    },
+    {
+      "id": "melancholy",
+      "word": "melancholy",
+      "partOfSpeech": "noun",
+      "definition": "a feeling of pensive, lingering sadness",
+      "example": "A melancholy tune drifted from the old piano.",
+      "tier": "easy",
+      "synonyms": ["sorrow", "gloom", "wistfulness"]
+    },
+    {
+      "id": "sullen",
+      "word": "sullen",
+      "partOfSpeech": "adjective",
+      "definition": "bad-tempered and sulky; gloomily silent",
+      "example": "A sullen teenager slammed the door and said nothing.",
+      "tier": "medium",
+      "synonyms": ["sulky", "morose", "surly"]
+    },
+    {
+      "id": "doleful",
+      "word": "doleful",
+      "partOfSpeech": "adjective",
+      "definition": "expressing sorrow; mournful",
+      "example": "The dog gave a doleful whine at the closed door.",
+      "tier": "medium",
+      "synonyms": ["mournful", "woeful", "sorrowful"]
+    },
+    {
+      "id": "ebullient",
+      "word": "ebullient",
+      "partOfSpeech": "adjective",
+      "definition": "cheerful and full of energy",
+      "example": "Ebullient fans spilled into the streets after the win.",
+      "tier": "hard",
+      "synonyms": ["exuberant", "buoyant", "elated"]
+    },
+    {
+      "id": "effervescent",
+      "word": "effervescent",
+      "partOfSpeech": "adjective",
+      "definition": "vivacious and enthusiastic; bubbly",
+      "example": "An effervescent host who lit up the whole room.",
+      "tier": "medium",
+      "synonyms": ["bubbly", "lively", "vivacious"]
+    },
+    {
+      "id": "sanguine",
+      "word": "sanguine",
+      "partOfSpeech": "adjective",
+      "definition": "optimistic or positive, especially in a difficult situation",
+      "example": "She stayed sanguine despite the string of setbacks.",
+      "tier": "hard",
+      "synonyms": ["optimistic", "hopeful", "confident"]
+    },
+    {
+      "id": "equanimity",
+      "word": "equanimity",
+      "partOfSpeech": "noun",
+      "definition": "calmness and composure, especially under strain",
+      "example": "He accepted the harsh verdict with surprising equanimity.",
+      "tier": "hard",
+      "synonyms": ["composure", "poise", "serenity"]
+    },
+    {
+      "id": "phlegmatic",
+      "word": "phlegmatic",
+      "partOfSpeech": "adjective",
+      "definition": "having a calm, unemotional temperament",
+      "example": "A phlegmatic goalkeeper, unrattled by the roaring crowd.",
+      "tier": "hard",
+      "synonyms": ["stolid", "unflappable", "impassive"]
+    },
+    {
+      "id": "petulant",
+      "word": "petulant",
+      "partOfSpeech": "adjective",
+      "definition": "childishly sulky or bad-tempered",
+      "example": "A petulant complaint about the seating arrangement.",
+      "tier": "medium",
+      "synonyms": ["peevish", "sulky", "fretful"]
+    },
+    {
+      "id": "querulous",
+      "word": "querulous",
+      "partOfSpeech": "adjective",
+      "definition": "complaining in a petulant or whining manner",
+      "example": "A querulous guest who found fault with every dish.",
+      "tier": "hard",
+      "synonyms": ["whining", "peevish", "grumbling"]
+    },
+    {
+      "id": "sardonic",
+      "word": "sardonic",
+      "partOfSpeech": "adjective",
+      "definition": "grimly mocking, cynical, or scornful",
+      "example": "A sardonic smile was his only reply to the bad news.",
+      "tier": "medium",
+      "synonyms": ["mocking", "cynical", "wry"]
+    }
+  ],
+  "story": "Backstage, the cast's moods clashed. The lead was [[morose|morose]] and full of [[melancholy|melancholy]]; the understudy plain [[sullen|sullen]]; and the stagehand wore a [[doleful|doleful]] look all evening. Against them stood the [[ebullient|ebullient]], [[effervescent|effervescent]] director, [[sanguine|sanguine]] that the night would go well. The producer met every crisis with unshakable [[equanimity|equanimity]], as [[phlegmatic|phlegmatic]] as a stone. Only the diva spoiled the calm, [[petulant|petulant]] about her dressing room and [[querulous|querulous]] over the lights, until the [[sardonic|sardonic]] old prompter muttered that the real drama was always offstage."
+}
