@@ -1,0 +1,115 @@
+{
+  "id": "lesson-20",
+  "title": "Lesson 20 — The Charmer",
+  "words": [
+    {
+      "id": "affable",
+      "word": "affable",
+      "partOfSpeech": "adjective",
+      "definition": "friendly, good-natured, and easy to talk to",
+      "example": "An affable host who made every guest feel at home.",
+      "tier": "medium",
+      "synonyms": ["genial", "amiable", "cordial"]
+    },
+    {
+      "id": "amiable",
+      "word": "amiable",
+      "partOfSpeech": "adjective",
+      "definition": "having a friendly and pleasant manner",
+      "example": "An amiable colleague, always ready to lend a hand.",
+      "tier": "easy",
+      "synonyms": ["friendly", "genial", "agreeable"]
+    },
+    {
+      "id": "congenial",
+      "word": "congenial",
+      "partOfSpeech": "adjective",
+      "definition": "pleasant because of shared interests or a similar disposition",
+      "example": "A congenial group of like-minded travelers.",
+      "tier": "medium",
+      "synonyms": ["agreeable", "compatible", "companionable"]
+    },
+    {
+      "id": "cordial",
+      "word": "cordial",
+      "partOfSpeech": "adjective",
+      "definition": "warm and friendly",
+      "example": "A cordial welcome greeted them at the door.",
+      "tier": "easy",
+      "synonyms": ["warm", "friendly", "genial"]
+    },
+    {
+      "id": "genial",
+      "word": "genial",
+      "partOfSpeech": "adjective",
+      "definition": "friendly and cheerful",
+      "example": "The genial innkeeper knew every guest by name.",
+      "tier": "medium",
+      "synonyms": ["affable", "amiable", "good-natured"]
+    },
+    {
+      "id": "urbane",
+      "word": "urbane",
+      "partOfSpeech": "adjective",
+      "definition": "suave, courteous, and refined in manner",
+      "example": "An urbane diplomat at ease in any room.",
+      "tier": "medium",
+      "synonyms": ["suave", "polished", "sophisticated"]
+    },
+    {
+      "id": "suave",
+      "word": "suave",
+      "partOfSpeech": "adjective",
+      "definition": "charming, confident, and elegant, especially in manner",
+      "example": "A suave negotiator who never lost his composure.",
+      "tier": "medium",
+      "synonyms": ["smooth", "urbane", "polished"]
+    },
+    {
+      "id": "debonair",
+      "word": "debonair",
+      "partOfSpeech": "adjective",
+      "definition": "confident, stylish, and charming",
+      "example": "A debonair guest arrived in a crisp white dinner jacket.",
+      "tier": "hard",
+      "synonyms": ["dashing", "suave", "elegant"]
+    },
+    {
+      "id": "gracious",
+      "word": "gracious",
+      "partOfSpeech": "adjective",
+      "definition": "courteous, kind, and pleasant",
+      "example": "A gracious loser, she was first to congratulate the winner.",
+      "tier": "easy",
+      "synonyms": ["courteous", "kind", "genial"]
+    },
+    {
+      "id": "magnanimous",
+      "word": "magnanimous",
+      "partOfSpeech": "adjective",
+      "definition": "generous or forgiving, especially toward a rival or someone less powerful",
+      "example": "Magnanimous in victory, she praised her defeated opponent.",
+      "tier": "medium",
+      "synonyms": ["generous", "big-hearted", "forgiving"]
+    },
+    {
+      "id": "cosmopolitan",
+      "word": "cosmopolitan",
+      "partOfSpeech": "adjective",
+      "definition": "familiar with and at ease in many different countries and cultures",
+      "example": "A cosmopolitan city where a hundred languages mingle.",
+      "tier": "medium",
+      "synonyms": ["worldly", "sophisticated", "urbane"]
+    },
+    {
+      "id": "sociable",
+      "word": "sociable",
+      "partOfSpeech": "adjective",
+      "definition": "willing to talk and engage with others; friendly",
+      "example": "A sociable newcomer who joined every club in a week.",
+      "tier": "easy",
+      "synonyms": ["gregarious", "outgoing", "convivial"]
+    }
+  ],
+  "story": "Everyone angled for an invitation to Devlin's parties, because Devlin himself was so [[affable|affable]] and [[amiable|amiable]]. He gathered a [[congenial|congenial]] crowd, offered a [[cordial|cordial]] welcome at the door, and drifted among them, [[genial|genial]] and unhurried. He was [[urbane|urbane]], [[suave|suave]], and frankly [[debonair|debonair]], yet never cold — always [[gracious|gracious]] to the shyest guest and [[magnanimous|magnanimous]] toward rivals he might easily have snubbed. Well-traveled and [[cosmopolitan|cosmopolitan]], he could draw out even the least [[sociable|sociable]] visitor before the night was through."
+}

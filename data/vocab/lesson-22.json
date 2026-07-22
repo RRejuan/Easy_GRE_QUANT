@@ -1,0 +1,115 @@
+{
+  "id": "lesson-22",
+  "title": "Lesson 22 — Growth and Decay",
+  "words": [
+    {
+      "id": "burgeon",
+      "word": "burgeon",
+      "partOfSpeech": "verb",
+      "definition": "to begin to grow or increase rapidly; to flourish",
+      "example": "The city's suburbs burgeoned almost overnight.",
+      "tier": "hard",
+      "synonyms": ["flourish", "expand", "mushroom"]
+    },
+    {
+      "id": "proliferate",
+      "word": "proliferate",
+      "partOfSpeech": "verb",
+      "definition": "to increase rapidly in number; to multiply",
+      "example": "Rumors proliferated online within hours.",
+      "tier": "medium",
+      "synonyms": ["multiply", "mushroom", "spread"]
+    },
+    {
+      "id": "flourish",
+      "word": "flourish",
+      "partOfSpeech": "verb",
+      "definition": "to grow or develop in a healthy, vigorous way; to thrive",
+      "example": "The little business flourished after the move downtown.",
+      "tier": "easy",
+      "synonyms": ["thrive", "prosper", "bloom"]
+    },
+    {
+      "id": "thrive",
+      "word": "thrive",
+      "partOfSpeech": "verb",
+      "definition": "to grow, develop, or prosper well",
+      "example": "Ferns thrive in cool, damp shade.",
+      "tier": "easy",
+      "synonyms": ["flourish", "prosper", "boom"]
+    },
+    {
+      "id": "incipient",
+      "word": "incipient",
+      "partOfSpeech": "adjective",
+      "definition": "in an initial stage; beginning to appear or develop",
+      "example": "An incipient crisis, still small enough to stop.",
+      "tier": "hard",
+      "synonyms": ["nascent", "budding", "emerging"]
+    },
+    {
+      "id": "embryonic",
+      "word": "embryonic",
+      "partOfSpeech": "adjective",
+      "definition": "in a very early stage of development",
+      "example": "The idea was still embryonic, barely a rough sketch.",
+      "tier": "medium",
+      "synonyms": ["rudimentary", "undeveloped", "nascent"]
+    },
+    {
+      "id": "fledgling",
+      "word": "fledgling",
+      "partOfSpeech": "adjective",
+      "definition": "new, young, and inexperienced",
+      "example": "A fledgling airline that owned just two planes.",
+      "tier": "medium",
+      "synonyms": ["budding", "emerging", "nascent"]
+    },
+    {
+      "id": "wax",
+      "word": "wax",
+      "partOfSpeech": "verb",
+      "definition": "to increase in size, strength, or intensity",
+      "example": "Enthusiasm waxed and waned over the long campaign.",
+      "tier": "medium",
+      "synonyms": ["increase", "grow", "swell"]
+    },
+    {
+      "id": "wane",
+      "word": "wane",
+      "partOfSpeech": "verb",
+      "definition": "to decrease in size, strength, or intensity",
+      "example": "Public interest waned as the months dragged on.",
+      "tier": "medium",
+      "synonyms": ["decline", "diminish", "ebb"]
+    },
+    {
+      "id": "dwindle",
+      "word": "dwindle",
+      "partOfSpeech": "verb",
+      "definition": "to diminish gradually in size, amount, or strength",
+      "example": "Their savings dwindled to almost nothing.",
+      "tier": "easy",
+      "synonyms": ["shrink", "decrease", "diminish"]
+    },
+    {
+      "id": "atrophy",
+      "word": "atrophy",
+      "partOfSpeech": "verb",
+      "definition": "to waste away, especially from disuse or neglect",
+      "example": "Unused muscles quickly atrophy.",
+      "tier": "hard",
+      "synonyms": ["waste away", "wither", "degenerate"]
+    },
+    {
+      "id": "wither",
+      "word": "wither",
+      "partOfSpeech": "verb",
+      "definition": "to shrivel, fade, or decay",
+      "example": "The flowers withered in the relentless heat.",
+      "tier": "easy",
+      "synonyms": ["shrivel", "wilt", "fade"]
+    }
+  ],
+  "story": "In its first spring the little venture seemed to [[burgeon|burgeon]]. Orders [[proliferate|proliferated]], the team [[flourish|flourished]], and morale [[thrive|thrived]]. What had been an [[incipient|incipient]], almost [[embryonic|embryonic]] idea grew into a real, if [[fledgling|fledgling]], company. But fortunes [[wax|wax]] and [[wane|wane]]. When a far bigger rival arrived, interest began to [[dwindle|dwindle]]; the once-busy floor fell quiet, ambition seemed to [[atrophy|atrophy]], and the bright plans of March slowly [[wither|withered]] by the fall."
+}
