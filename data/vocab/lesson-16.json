@@ -1,0 +1,115 @@
+{
+  "id": "lesson-16",
+  "title": "Lesson 16 — Feast or Famine",
+  "words": [
+    {
+      "id": "ubiquitous",
+      "word": "ubiquitous",
+      "partOfSpeech": "adjective",
+      "definition": "present, appearing, or found everywhere",
+      "example": "Smartphones have become ubiquitous in daily life.",
+      "tier": "medium",
+      "synonyms": ["omnipresent", "universal", "everywhere"]
+    },
+    {
+      "id": "pervasive",
+      "word": "pervasive",
+      "partOfSpeech": "adjective",
+      "definition": "spreading widely throughout an area or a group",
+      "example": "A pervasive smell of smoke clung to everything.",
+      "tier": "medium",
+      "synonyms": ["prevalent", "widespread", "rife"]
+    },
+    {
+      "id": "prevalent",
+      "word": "prevalent",
+      "partOfSpeech": "adjective",
+      "definition": "widespread; existing commonly at a particular time or place",
+      "example": "The belief was prevalent throughout the region.",
+      "tier": "easy",
+      "synonyms": ["widespread", "common", "rife"]
+    },
+    {
+      "id": "myriad",
+      "word": "myriad",
+      "partOfSpeech": "adjective",
+      "definition": "countless or extremely numerous",
+      "example": "Myriad stars filled the clear desert sky.",
+      "tier": "medium",
+      "synonyms": ["countless", "innumerable", "manifold"]
+    },
+    {
+      "id": "copious",
+      "word": "copious",
+      "partOfSpeech": "adjective",
+      "definition": "abundant in supply or quantity",
+      "example": "Copious notes filled three thick notebooks.",
+      "tier": "medium",
+      "synonyms": ["abundant", "ample", "plentiful"]
+    },
+    {
+      "id": "profuse",
+      "word": "profuse",
+      "partOfSpeech": "adjective",
+      "definition": "plentiful; produced or given in large amounts",
+      "example": "Profuse apologies followed the embarrassing mistake.",
+      "tier": "medium",
+      "synonyms": ["abundant", "lavish", "effusive"]
+    },
+    {
+      "id": "plethora",
+      "word": "plethora",
+      "partOfSpeech": "noun",
+      "definition": "an excess or overabundance of something",
+      "example": "A plethora of options left the buyer paralyzed.",
+      "tier": "medium",
+      "synonyms": ["excess", "surplus", "glut"]
+    },
+    {
+      "id": "dearth",
+      "word": "dearth",
+      "partOfSpeech": "noun",
+      "definition": "a scarcity or lack of something",
+      "example": "A dearth of rain ruined the summer harvest.",
+      "tier": "hard",
+      "synonyms": ["scarcity", "shortage", "lack"]
+    },
+    {
+      "id": "paucity",
+      "word": "paucity",
+      "partOfSpeech": "noun",
+      "definition": "the presence of something in only small or insufficient quantities",
+      "example": "A paucity of hard evidence weakened the case.",
+      "tier": "hard",
+      "synonyms": ["scarcity", "dearth", "shortage"]
+    },
+    {
+      "id": "sparse",
+      "word": "sparse",
+      "partOfSpeech": "adjective",
+      "definition": "thinly dispersed or scattered; scanty",
+      "example": "Sparse applause greeted the closing speech.",
+      "tier": "easy",
+      "synonyms": ["scanty", "meager", "scattered"]
+    },
+    {
+      "id": "rarefied",
+      "word": "rarefied",
+      "partOfSpeech": "adjective",
+      "definition": "distant from and superior to ordinary life; select; (of air) thin",
+      "example": "The rarefied world of elite art auctions.",
+      "tier": "hard",
+      "synonyms": ["exclusive", "elite", "select"]
+    },
+    {
+      "id": "scant",
+      "word": "scant",
+      "partOfSpeech": "adjective",
+      "definition": "barely sufficient; very little",
+      "example": "They paid scant attention to the storm warning.",
+      "tier": "medium",
+      "synonyms": ["meager", "scarce", "minimal"]
+    }
+  ],
+  "story": "On the coast, wealth was [[ubiquitous|ubiquitous]] and optimism [[pervasive|pervasive]]; the boom grew so [[prevalent|prevalent]] that [[myriad|myriad]] newcomers arrived weekly, greeted by [[copious|copious]] jobs and [[profuse|profuse]] promises — a genuine [[plethora|plethora]] of opportunity. Inland told the opposite story. A [[dearth|dearth]] of rain and a [[paucity|paucity]] of work left [[sparse|sparse]] crowds in the once-busy square. Only a [[rarefied|rarefied]] few still prospered, while the rest scraped by on [[scant|scant]] wages and even thinner hope."
+}
