@@ -12,7 +12,6 @@ export function Layout() {
         </Link>
         <nav className="app-nav">
           <Link to="/">Dashboard</Link>
-          <Link to="/skills">Skills</Link>
           <Link to="/diagnostic">Diagnostic</Link>
           <Link to="/mock-test">Mock Test</Link>
           <Link to="/about-gre">All About GRE</Link>

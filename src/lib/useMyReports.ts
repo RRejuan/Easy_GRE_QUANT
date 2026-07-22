@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
 import { useAuth } from "../contexts/AuthContext";
-import { getMyReports, type FeedbackReport } from "./feedback";
+import { subscribeMyReports, type FeedbackReport } from "./feedback";
 import { db } from "./firebase";
 
-/** Loads the signed-in user's question reports once per sign-in. Returns an
- * empty list for guests or when Firebase isn't configured. */
+/** Live view of the signed-in user's question reports. Updates in real time,
+ * so a reply added in the Firebase console lights up the inbox badge without a
+ * refresh. Empty for guests or when Firebase isn't configured. */
 export function useMyReports(): {
   reports: FeedbackReport[];
   loading: boolean;
@@ -18,24 +19,23 @@ export function useMyReports(): {
   useEffect(() => {
     if (!user || !db) {
       setReports([]);
+      setLoading(false);
       return;
     }
-    let cancelled = false;
     setLoading(true);
     setError(false);
-    getMyReports(user.uid)
-      .then((r) => {
-        if (!cancelled) setReports(r);
-      })
-      .catch(() => {
-        if (!cancelled) setError(true);
-      })
-      .finally(() => {
-        if (!cancelled) setLoading(false);
-      });
-    return () => {
-      cancelled = true;
-    };
+    const unsubscribe = subscribeMyReports(
+      user.uid,
+      (r) => {
+        setReports(r);
+        setLoading(false);
+      },
+      () => {
+        setError(true);
+        setLoading(false);
+      },
+    );
+    return unsubscribe;
   }, [user]);
 
   return { reports, loading, error };
