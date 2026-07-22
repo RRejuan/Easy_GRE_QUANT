@@ -1,0 +1,115 @@
+{
+  "id": "lesson-05",
+  "title": "Lesson 5 — Money and Means",
+  "words": [
+    {
+      "id": "austere",
+      "word": "austere",
+      "partOfSpeech": "adjective",
+      "definition": "severe or plain; without comfort, luxury, or adornment",
+      "example": "The cabin was austere: one chair, one lamp, and bare walls.",
+      "tier": "medium",
+      "synonyms": ["spartan", "stern", "unadorned"]
+    },
+    {
+      "id": "ascetic",
+      "word": "ascetic",
+      "partOfSpeech": "adjective",
+      "definition": "practicing severe self-discipline and abstaining from pleasure",
+      "example": "The monk led an ascetic life of fasting and silence.",
+      "tier": "hard",
+      "synonyms": ["abstinent", "self-denying", "austere"]
+    },
+    {
+      "id": "frugal",
+      "word": "frugal",
+      "partOfSpeech": "adjective",
+      "definition": "sparing and economical with money or food",
+      "example": "Frugal to the core, she darned socks rather than buy new ones.",
+      "tier": "easy",
+      "synonyms": ["thrifty", "economical", "sparing"]
+    },
+    {
+      "id": "parsimonious",
+      "word": "parsimonious",
+      "partOfSpeech": "adjective",
+      "definition": "unwilling to spend money or resources; excessively stingy",
+      "example": "His parsimonious boss refused to replace the broken chairs.",
+      "tier": "hard",
+      "synonyms": ["stingy", "miserly", "penny-pinching"]
+    },
+    {
+      "id": "munificent",
+      "word": "munificent",
+      "partOfSpeech": "adjective",
+      "definition": "extremely generous",
+      "example": "A munificent donor funded the entire new wing.",
+      "tier": "hard",
+      "synonyms": ["generous", "bountiful", "openhanded"]
+    },
+    {
+      "id": "prodigal",
+      "word": "prodigal",
+      "partOfSpeech": "adjective",
+      "definition": "spending money or resources recklessly and wastefully",
+      "example": "His prodigal spending drained the inheritance in a year.",
+      "tier": "medium",
+      "synonyms": ["wasteful", "extravagant", "spendthrift"]
+    },
+    {
+      "id": "profligate",
+      "word": "profligate",
+      "partOfSpeech": "adjective",
+      "definition": "recklessly extravagant or wasteful with money",
+      "example": "The profligate heir gambled away the family estate.",
+      "tier": "hard",
+      "synonyms": ["wasteful", "extravagant", "dissolute"]
+    },
+    {
+      "id": "squander",
+      "word": "squander",
+      "partOfSpeech": "verb",
+      "definition": "to waste money, time, or an opportunity carelessly",
+      "example": "They squandered a two-goal lead in ten minutes.",
+      "tier": "medium",
+      "synonyms": ["waste", "fritter away", "misspend"]
+    },
+    {
+      "id": "lavish",
+      "word": "lavish",
+      "partOfSpeech": "adjective",
+      "definition": "sumptuous and extravagant; given or spent in great amounts",
+      "example": "A lavish banquet with a dozen courses awaited them.",
+      "tier": "easy",
+      "synonyms": ["sumptuous", "opulent", "extravagant"]
+    },
+    {
+      "id": "meager",
+      "word": "meager",
+      "partOfSpeech": "adjective",
+      "definition": "lacking in quantity or quality; scanty",
+      "example": "A meager salary that barely covered the rent.",
+      "tier": "easy",
+      "synonyms": ["scanty", "paltry", "sparse"]
+    },
+    {
+      "id": "penury",
+      "word": "penury",
+      "partOfSpeech": "noun",
+      "definition": "extreme poverty; destitution",
+      "example": "A long illness reduced the family to penury.",
+      "tier": "hard",
+      "synonyms": ["destitution", "poverty", "want"]
+    },
+    {
+      "id": "largess",
+      "word": "largess",
+      "partOfSpeech": "noun",
+      "definition": "generosity in giving; money or gifts given generously",
+      "example": "The whole town depended on the tycoon's largess.",
+      "tier": "hard",
+      "synonyms": ["generosity", "bounty", "munificence"]
+    }
+  ],
+  "story": "Old Mr. Ashford lived an [[austere|austere]], almost [[ascetic|ascetic]] life, so [[frugal|frugal]] that his neighbors called him [[parsimonious|parsimonious]]. Yet his will proved surprisingly [[munificent|munificent]]. His two nephews could not have differed more. The elder was [[prodigal|prodigal]] and [[profligate|profligate]], quick to [[squander|squander]] any windfall on [[lavish|lavish]] parties; the younger, raised in near-[[penury|penury]] after his own father's ruin, had learned to stretch a [[meager|meager]] wage across a month. The family lawyer waited to see which man the old miser's sudden [[largess|largess]] would rescue — and which would simply waste it."
+}

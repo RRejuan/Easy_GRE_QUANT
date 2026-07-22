@@ -1,0 +1,115 @@
+{
+  "id": "lesson-07",
+  "title": "Lesson 7 — Praise and Blame",
+  "words": [
+    {
+      "id": "laud",
+      "word": "laud",
+      "partOfSpeech": "verb",
+      "definition": "to praise highly, especially in public",
+      "example": "Critics lauded the film as an instant masterpiece.",
+      "tier": "medium",
+      "synonyms": ["praise", "acclaim", "extol"]
+    },
+    {
+      "id": "extol",
+      "word": "extol",
+      "partOfSpeech": "verb",
+      "definition": "to praise enthusiastically",
+      "example": "She extolled the virtues of rising before dawn.",
+      "tier": "medium",
+      "synonyms": ["glorify", "exalt", "laud"]
+    },
+    {
+      "id": "eulogy",
+      "word": "eulogy",
+      "partOfSpeech": "noun",
+      "definition": "a speech or piece of writing that praises someone highly, typically one who has died",
+      "example": "His eulogy for his mentor moved the whole room to tears.",
+      "tier": "medium",
+      "synonyms": ["tribute", "panegyric", "encomium"]
+    },
+    {
+      "id": "accolade",
+      "word": "accolade",
+      "partOfSpeech": "noun",
+      "definition": "an award or expression of praise",
+      "example": "The novel earned every accolade it received.",
+      "tier": "medium",
+      "synonyms": ["award", "honor", "commendation"]
+    },
+    {
+      "id": "approbation",
+      "word": "approbation",
+      "partOfSpeech": "noun",
+      "definition": "approval or praise",
+      "example": "The plan finally met with the committee's approbation.",
+      "tier": "hard",
+      "synonyms": ["approval", "commendation", "sanction"]
+    },
+    {
+      "id": "censure",
+      "word": "censure",
+      "partOfSpeech": "noun",
+      "definition": "strong, formal expression of disapproval",
+      "example": "The senator faced censure for the leaked remarks.",
+      "tier": "medium",
+      "synonyms": ["condemnation", "reproof", "rebuke"]
+    },
+    {
+      "id": "castigate",
+      "word": "castigate",
+      "partOfSpeech": "verb",
+      "definition": "to reprimand or criticize severely",
+      "example": "The coach castigated the team for its sloppy play.",
+      "tier": "hard",
+      "synonyms": ["reprimand", "chastise", "rebuke"]
+    },
+    {
+      "id": "denigrate",
+      "word": "denigrate",
+      "partOfSpeech": "verb",
+      "definition": "to criticize unfairly; to belittle or blacken the reputation of",
+      "example": "He denigrated rivals instead of defending his own record.",
+      "tier": "medium",
+      "synonyms": ["belittle", "malign", "disparage"]
+    },
+    {
+      "id": "disparage",
+      "word": "disparage",
+      "partOfSpeech": "verb",
+      "definition": "to regard or represent as being of little worth; to belittle",
+      "example": "She never disparaged a beginner's honest question.",
+      "tier": "medium",
+      "synonyms": ["belittle", "demean", "deprecate"]
+    },
+    {
+      "id": "vilify",
+      "word": "vilify",
+      "partOfSpeech": "verb",
+      "definition": "to speak or write about in an abusively disparaging way",
+      "example": "The tabloids vilified him before any facts came out.",
+      "tier": "medium",
+      "synonyms": ["defame", "malign", "slander"]
+    },
+    {
+      "id": "rebuke",
+      "word": "rebuke",
+      "partOfSpeech": "noun",
+      "definition": "a sharp expression of disapproval or criticism",
+      "example": "A stern rebuke from the judge silenced the lawyer.",
+      "tier": "easy",
+      "synonyms": ["reprimand", "reproof", "scolding"]
+    },
+    {
+      "id": "reproach",
+      "word": "reproach",
+      "partOfSpeech": "noun",
+      "definition": "an expression of disapproval or disappointment",
+      "example": "Her only reproach was a single disappointed look.",
+      "tier": "medium",
+      "synonyms": ["criticism", "reproof", "admonition"]
+    }
+  ],
+  "story": "At the ceremony the host [[laud|lauded]] the young director and [[extol|extolled]] her debut, in a speech that sounded almost like a [[eulogy|eulogy]] for the old way of making films. The [[accolade|accolades]] poured in, and even the stingiest critics offered rare [[approbation|approbation]]. A year later the mood flipped. A leaked memo brought public [[censure|censure]]; reviewers who had cheered began to [[castigate|castigate]] her, and gossip columns rushed to [[denigrate|denigrate]] and [[disparage|disparage]] the very work they once praised. A few tried to [[vilify|vilify]] her outright. Her old mentor offered only a quiet [[rebuke|rebuke]], a gentle [[reproach|reproach]] that stung more than every headline combined."
+}

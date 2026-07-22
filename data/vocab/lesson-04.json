@@ -1,0 +1,115 @@
+{
+  "id": "lesson-04",
+  "title": "Lesson 4 — More or Less",
+  "words": [
+    {
+      "id": "abate",
+      "word": "abate",
+      "partOfSpeech": "verb",
+      "definition": "to become less intense or widespread; to reduce in amount or degree",
+      "example": "The storm finally abated just before dawn.",
+      "tier": "medium",
+      "synonyms": ["subside", "diminish", "lessen"]
+    },
+    {
+      "id": "alleviate",
+      "word": "alleviate",
+      "partOfSpeech": "verb",
+      "definition": "to make suffering or a problem less severe",
+      "example": "A cool compress alleviated the pain almost immediately.",
+      "tier": "easy",
+      "synonyms": ["ease", "relieve", "soothe"]
+    },
+    {
+      "id": "mitigate",
+      "word": "mitigate",
+      "partOfSpeech": "verb",
+      "definition": "to make something bad less severe, serious, or painful",
+      "example": "Sandbags helped mitigate the flooding downtown.",
+      "tier": "medium",
+      "synonyms": ["lessen", "temper", "diminish"]
+    },
+    {
+      "id": "assuage",
+      "word": "assuage",
+      "partOfSpeech": "verb",
+      "definition": "to make an unpleasant feeling less intense; to soothe",
+      "example": "He assuaged her fears with a calm, careful explanation.",
+      "tier": "hard",
+      "synonyms": ["soothe", "allay", "pacify"]
+    },
+    {
+      "id": "ameliorate",
+      "word": "ameliorate",
+      "partOfSpeech": "verb",
+      "definition": "to make a bad or unsatisfactory situation better",
+      "example": "New funding ameliorated conditions at the crowded shelter.",
+      "tier": "hard",
+      "synonyms": ["improve", "better", "amend"]
+    },
+    {
+      "id": "exacerbate",
+      "word": "exacerbate",
+      "partOfSpeech": "verb",
+      "definition": "to make a problem or bad situation worse",
+      "example": "Shouting only exacerbated the panic in the crowd.",
+      "tier": "medium",
+      "synonyms": ["worsen", "aggravate", "inflame"]
+    },
+    {
+      "id": "aggravate",
+      "word": "aggravate",
+      "partOfSpeech": "verb",
+      "definition": "to make worse; also, to annoy or irritate",
+      "example": "Scratching the bite only aggravated the swelling.",
+      "tier": "easy",
+      "synonyms": ["worsen", "intensify", "irritate"]
+    },
+    {
+      "id": "augment",
+      "word": "augment",
+      "partOfSpeech": "verb",
+      "definition": "to make something larger by adding to it; to increase",
+      "example": "She augmented her income with weekend tutoring.",
+      "tier": "medium",
+      "synonyms": ["increase", "supplement", "boost"]
+    },
+    {
+      "id": "bolster",
+      "word": "bolster",
+      "partOfSpeech": "verb",
+      "definition": "to support, strengthen, or reinforce",
+      "example": "Fresh data bolstered their argument for the new policy.",
+      "tier": "medium",
+      "synonyms": ["strengthen", "reinforce", "buttress"]
+    },
+    {
+      "id": "undermine",
+      "word": "undermine",
+      "partOfSpeech": "verb",
+      "definition": "to weaken or damage something gradually or secretly",
+      "example": "Constant criticism undermined his confidence.",
+      "tier": "easy",
+      "synonyms": ["weaken", "sabotage", "erode"]
+    },
+    {
+      "id": "curtail",
+      "word": "curtail",
+      "partOfSpeech": "verb",
+      "definition": "to reduce, restrict, or cut short",
+      "example": "The city curtailed water use during the drought.",
+      "tier": "medium",
+      "synonyms": ["reduce", "restrict", "trim"]
+    },
+    {
+      "id": "protract",
+      "word": "protract",
+      "partOfSpeech": "verb",
+      "definition": "to prolong or draw out, especially needlessly",
+      "example": "Endless objections protracted the meeting for hours.",
+      "tier": "hard",
+      "synonyms": ["prolong", "extend", "drag out"]
+    }
+  ],
+  "story": "When the river rose, city manager Dalia worked to [[mitigate|mitigate]] the damage before it could [[exacerbate|exacerbate]] an already tense night. Sandbag crews helped [[abate|abate]] the worst of the flooding, while volunteers tried to [[assuage|assuage]] the fears of stranded families and [[alleviate|alleviate]] their discomfort with blankets and hot food. Emergency grants [[augment|augmented]] the town's thin budget, and a steady radio broadcast [[bolster|bolstered]] public confidence. Dalia knew rumors could [[undermine|undermine]] the whole effort, so she [[curtail|curtailed]] wild speculation with honest hourly updates. Bickering officials threatened to [[protract|protract]] every small decision, and one careless order nearly [[aggravate|aggravated]] the crisis — but calm coordination [[ameliorate|ameliorated]] conditions by morning, and the exhausted crews finally rested."
+}
