@@ -1,10 +1,12 @@
 import {
   addDoc,
   collection,
-  getDocs,
+  onSnapshot,
   query,
   serverTimestamp,
   where,
+  type DocumentData,
+  type QueryDocumentSnapshot,
   type Timestamp,
 } from "firebase/firestore";
 import { db, isFirebaseConfigured } from "./firebase";
@@ -63,29 +65,47 @@ export async function submitQuestionFeedback(
   });
 }
 
-/** All reports filed by the given user, newest first. Sorted client-side to
- * avoid needing a composite Firestore index. */
-export async function getMyReports(uid: string): Promise<FeedbackReport[]> {
-  if (!db) return [];
-  const snapshot = await getDocs(
-    query(collection(db, "feedback"), where("userId", "==", uid)),
+function toReport(doc: QueryDocumentSnapshot<DocumentData>): FeedbackReport {
+  const data = doc.data();
+  const ts = data.createdAt as Timestamp | null | undefined;
+  return {
+    id: doc.id,
+    questionId: data.questionId as string,
+    skillId: data.skillId as string,
+    category: data.category as FeedbackCategory,
+    message: data.message as string,
+    status: (data.status as string) ?? "open",
+    adminReply: (data.adminReply as string | undefined) || undefined,
+    createdAt: ts && typeof ts.toMillis === "function" ? ts.toMillis() : null,
+  };
+}
+
+/** Subscribes to the user's reports in real time, newest first, so a reply the
+ * owner adds in the console shows up (and the inbox badge lights up) without a
+ * page refresh. Sorted client-side to avoid needing a composite index. Returns
+ * an unsubscribe function. */
+export function subscribeMyReports(
+  uid: string,
+  onData: (reports: FeedbackReport[]) => void,
+  onError?: (err: unknown) => void,
+): () => void {
+  if (!db) {
+    onData([]);
+    return () => {};
+  }
+  const reportsQuery = query(
+    collection(db, "feedback"),
+    where("userId", "==", uid),
   );
-  const reports = snapshot.docs.map((doc) => {
-    const data = doc.data();
-    const ts = data.createdAt as Timestamp | null | undefined;
-    return {
-      id: doc.id,
-      questionId: data.questionId as string,
-      skillId: data.skillId as string,
-      category: data.category as FeedbackCategory,
-      message: data.message as string,
-      status: (data.status as string) ?? "open",
-      adminReply: (data.adminReply as string | undefined) || undefined,
-      createdAt: ts && typeof ts.toMillis === "function" ? ts.toMillis() : null,
-    } satisfies FeedbackReport;
-  });
-  reports.sort((a, b) => (b.createdAt ?? 0) - (a.createdAt ?? 0));
-  return reports;
+  return onSnapshot(
+    reportsQuery,
+    (snapshot) => {
+      const reports = snapshot.docs.map(toReport);
+      reports.sort((a, b) => (b.createdAt ?? 0) - (a.createdAt ?? 0));
+      onData(reports);
+    },
+    (err) => onError?.(err),
+  );
 }
 
 // --- Unread-reply tracking (local per account) ----------------------------

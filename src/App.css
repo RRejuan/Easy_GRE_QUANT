@@ -795,18 +795,32 @@ fieldset label {
   color: var(--primary);
 }
 .inbox-badge {
-  display: inline-block;
-  min-width: 18px;
-  padding: 0 5px;
-  margin-left: 5px;
+  position: absolute;
+  top: -8px;
+  right: -12px;
+  min-width: 17px;
+  height: 17px;
+  padding: 0 4px;
+  box-sizing: border-box;
   border-radius: 9px;
   background: var(--primary);
   color: var(--primary-contrast);
-  font-size: 0.72rem;
+  font-size: 0.66rem;
   font-weight: 700;
-  line-height: 18px;
+  line-height: 17px;
   text-align: center;
-  vertical-align: middle;
+  /* Ring in the header colour so it reads as a floating notification dot. */
+  box-shadow: 0 0 0 2px var(--bg-card);
+  animation: inbox-badge-pop 0.18s ease-out;
+}
+
+@keyframes inbox-badge-pop {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
 }
 
 .report-question-note {
