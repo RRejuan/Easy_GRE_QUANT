@@ -3,7 +3,6 @@ import { groupSkillsByAreaAndTopic, skillsWithContent } from "../lib/content";
 import { resetProgress } from "../lib/storage";
 import { skillMasteryPercent } from "../lib/mastery";
 import { recommendNextSkill } from "../lib/recommend";
-import { AreaMasteryChart } from "../components/AreaMasteryChart";
 import { SkillAreaList } from "../components/SkillAreaList";
 
 export function DashboardPage() {
@@ -20,19 +19,6 @@ export function DashboardPage() {
           [...masteryBySkill.values()].reduce((a, b) => a + b, 0) /
             skills.length,
         );
-
-  const areaOrder = ["Arithmetic", "Algebra", "Geometry", "Data Analysis"];
-  const areaMastery = areaOrder.map((area) => {
-    const areaSkills = skills.filter((s) => s.area === area);
-    const mastery =
-      areaSkills.length === 0
-        ? 0
-        : Math.round(
-            areaSkills.reduce((sum, s) => sum + (masteryBySkill.get(s.id) ?? 0), 0) /
-              areaSkills.length,
-          );
-    return { area, mastery };
-  });
 
   const recommended = recommendNextSkill();
   const groups = groupSkillsByAreaAndTopic(skills);
@@ -66,8 +52,6 @@ export function DashboardPage() {
           </Link>
         </div>
       </div>
-
-      <AreaMasteryChart data={areaMastery} />
 
       <p>
         Overall mastery: {overallMastery}% across {skills.length} skills (

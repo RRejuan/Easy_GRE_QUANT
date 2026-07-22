@@ -7,6 +7,7 @@ import { DiagnosticPage } from "./pages/DiagnosticPage";
 import { MockTestPage } from "./pages/MockTestPage";
 import { AboutGrePage } from "./pages/AboutGrePage";
 import { AboutUsPage } from "./pages/AboutUsPage";
+import { InboxPage } from "./pages/InboxPage";
 import "./App.css";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path="/mock-test" element={<MockTestPage />} />
         <Route path="/about-gre" element={<AboutGrePage />} />
         <Route path="/about-us" element={<AboutUsPage />} />
+        <Route path="/inbox" element={<InboxPage />} />
       </Route>
     </Routes>
   );
