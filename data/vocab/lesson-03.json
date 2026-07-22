@@ -48,15 +48,6 @@
       "synonyms": ["weaken", "sap", "exhaust"]
     },
     {
-      "id": "florid",
-      "word": "florid",
-      "partOfSpeech": "adjective",
-      "definition": "excessively ornate or elaborate; flowery",
-      "example": "The florid prose buried a simple idea under mountains of adjectives.",
-      "tier": "medium",
-      "synonyms": ["ornate", "flowery", "overwrought"]
-    },
-    {
       "id": "hackneyed",
       "word": "hackneyed",
       "partOfSpeech": "adjective",
@@ -73,15 +64,6 @@
       "example": "The judge stayed impassive as the verdict was read.",
       "tier": "medium",
       "synonyms": ["expressionless", "stolid", "inscrutable"]
-    },
-    {
-      "id": "loquacious",
-      "word": "loquacious",
-      "partOfSpeech": "adjective",
-      "definition": "tending to talk a great deal; very talkative",
-      "example": "Our loquacious guide kept up a cheerful commentary for three straight hours.",
-      "tier": "medium",
-      "synonyms": ["garrulous", "voluble", "chatty"]
     },
     {
       "id": "mendacious",
@@ -127,16 +109,7 @@
       "example": "He was reticent about his past, changing the subject whenever it came up.",
       "tier": "medium",
       "synonyms": ["reserved", "taciturn", "guarded"]
-    },
-    {
-      "id": "spurious",
-      "word": "spurious",
-      "partOfSpeech": "adjective",
-      "definition": "not genuine, authentic, or true; false",
-      "example": "The article was pulled after its spurious statistics were exposed.",
-      "tier": "hard",
-      "synonyms": ["bogus", "counterfeit", "false"]
     }
   ],
-  "story": "The self-styled guru threw an [[opulent|opulent]] gala to launch his [[nascent|nascent]] wellness empire, all chandeliers and gold leaf. His speeches were [[bombastic|bombastic]], booming with grand words that meant almost nothing, and [[florid|florid]] with ornamental praise for his own genius. He would [[cajole|cajole]] wealthy guests with honeyed compliments, then quietly [[deride|deride]] them the moment they left the room. Skeptics who dared question his miracle tonics he dismissed as [[reticent|reticent]] cowards, though they were merely careful people. His pitch leaned on [[hackneyed|hackneyed]] slogans — the tired clichés you find on cheap posters — and on [[mendacious|mendacious]] claims no honest doctor would endorse. A young reporter sat [[impassive|impassive]], her face betraying nothing, while a [[loquacious|loquacious]] investor beside her chattered on and on. By midnight she had her proof: the \"clinical studies\" were entirely [[spurious|spurious]], forged from beginning to end. The scandal would [[enervate|enervate]] the whole enterprise, draining its momentum within a week, and lay bare how [[pernicious|pernicious]] a charming lie can be. Before the story broke, of course, the guru had already [[abscond|absconded]] with the investors' cash."
+  "story": "The self-styled guru threw an [[opulent|opulent]] gala to launch his [[nascent|nascent]] wellness empire, all chandeliers and gold leaf. His speeches were [[bombastic|bombastic]], booming with grand words that meant almost nothing. He would [[cajole|cajole]] wealthy guests with honeyed compliments, then quietly [[deride|deride]] them the moment they left the room. Skeptics who dared question his miracle tonics he dismissed as [[reticent|reticent]] cowards, though they were merely careful people. His pitch leaned on [[hackneyed|hackneyed]] slogans — the tired clichés you find on cheap posters — and on [[mendacious|mendacious]] claims no honest doctor would endorse. A young reporter sat [[impassive|impassive]], her face betraying nothing, as she quietly gathered her proof. The scandal would [[enervate|enervate]] the whole enterprise, draining its momentum within a week, and lay bare how [[pernicious|pernicious]] a charming lie can be. Before the story broke, of course, the guru had already [[abscond|absconded]] with the investors' cash."
 }

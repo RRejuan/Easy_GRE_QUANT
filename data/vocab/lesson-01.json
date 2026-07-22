@@ -57,15 +57,6 @@
       "synonyms": ["fickle", "mercurial", "whimsical"]
     },
     {
-      "id": "austere",
-      "word": "austere",
-      "partOfSpeech": "adjective",
-      "definition": "severe or plain in manner or appearance; without comfort or adornment",
-      "example": "The monastery's austere rooms held nothing but a cot and a candle.",
-      "tier": "medium",
-      "synonyms": ["stern", "spartan", "unadorned"]
-    },
-    {
       "id": "gregarious",
       "word": "gregarious",
       "partOfSpeech": "adjective",
@@ -73,15 +64,6 @@
       "example": "So gregarious was she that she knew every neighbor within a week of moving in.",
       "tier": "medium",
       "synonyms": ["sociable", "convivial", "outgoing"]
-    },
-    {
-      "id": "inchoate",
-      "word": "inchoate",
-      "partOfSpeech": "adjective",
-      "definition": "just begun and so not fully formed or developed; rudimentary",
-      "example": "The plan was still inchoate, more a hunch than a strategy.",
-      "tier": "hard",
-      "synonyms": ["nascent", "rudimentary", "embryonic"]
     },
     {
       "id": "perfidious",
@@ -127,16 +109,7 @@
       "example": "He felt ambivalent about the promotion, proud yet dreading the longer hours.",
       "tier": "medium",
       "synonyms": ["conflicted", "torn", "uncertain"]
-    },
-    {
-      "id": "tenuous",
-      "word": "tenuous",
-      "partOfSpeech": "adjective",
-      "definition": "very weak, slight, or insubstantial",
-      "example": "The evidence linking the two events was tenuous at best.",
-      "tier": "medium",
-      "synonyms": ["flimsy", "insubstantial", "shaky"]
     }
   ],
-  "story": "When Mara joined the debate club, its new advisor greeted her with disarming [[candor|candor]]: \"Most of you will quit by October.\" Such [[aberrant|aberrant]] bluntness startled the [[garrulous|garrulous]] seniors, who could talk for hours about nothing, but Mara — always [[laconic|laconic]] — simply nodded. The advisor was a [[prudent|prudent]] planner, yet oddly [[capricious|capricious]] in taste: one week he demanded [[austere|austere]], stripped-down speeches, the next he wanted theatrical flourish. Though [[gregarious|gregarious]] and quick to gather a crowd, he distrusted any argument that was still [[inchoate|inchoate]], only half-formed in a student's mind. He warned the club about a [[perfidious|perfidious]] rival coach who had once leaked their notes, and reminded them that applause is [[ephemeral|ephemeral]], gone by morning. His advice stayed relentlessly [[pragmatic|pragmatic]]: win the judge, not the room. In time the younger members came to [[venerate|venerate]] him, even while they felt [[ambivalent|ambivalent]] about his blunt methods. By spring, Mara's once-[[tenuous|tenuous]] grip on her nerves had hardened into real confidence, and she realized his grim prophecy had, for her at least, been gloriously wrong."
+  "story": "When Mara joined the debate club, its new advisor greeted her with disarming [[candor|candor]]: \"Most of you will quit by October.\" Such [[aberrant|aberrant]] bluntness startled the [[garrulous|garrulous]] seniors, who could talk for hours about nothing, but Mara — always [[laconic|laconic]] — simply nodded. The advisor was a [[prudent|prudent]] planner, yet oddly [[capricious|capricious]] in taste: one week he wanted stripped-down speeches, the next theatrical flourish. Though [[gregarious|gregarious]] and quick to gather a crowd, he warned the club about a [[perfidious|perfidious]] rival coach who had once leaked their notes, and reminded them that applause is [[ephemeral|ephemeral]], gone by morning. His advice stayed relentlessly [[pragmatic|pragmatic]]: win the judge, not the room. In time the younger members came to [[venerate|venerate]] him, even while they felt [[ambivalent|ambivalent]] about his blunt methods. By spring, Mara's once-shaky nerves had hardened into real confidence, and she realized his grim prophecy had, for her at least, been gloriously wrong."
 }
