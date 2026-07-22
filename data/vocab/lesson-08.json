@@ -1,0 +1,115 @@
+{
+  "id": "lesson-08",
+  "title": "Lesson 8 — The Negotiation",
+  "words": [
+    {
+      "id": "obstinate",
+      "word": "obstinate",
+      "partOfSpeech": "adjective",
+      "definition": "stubbornly refusing to change one's opinion or course of action",
+      "example": "The obstinate mule would not move another inch.",
+      "tier": "medium",
+      "synonyms": ["stubborn", "headstrong", "willful"]
+    },
+    {
+      "id": "obdurate",
+      "word": "obdurate",
+      "partOfSpeech": "adjective",
+      "definition": "stubbornly hardened against persuasion or pity",
+      "example": "The landlord stayed obdurate about the rent increase.",
+      "tier": "hard",
+      "synonyms": ["unyielding", "inflexible", "intransigent"]
+    },
+    {
+      "id": "intransigent",
+      "word": "intransigent",
+      "partOfSpeech": "adjective",
+      "definition": "unwilling to change one's views or to compromise",
+      "example": "Both sides stayed intransigent, and the talks collapsed.",
+      "tier": "hard",
+      "synonyms": ["uncompromising", "inflexible", "hardline"]
+    },
+    {
+      "id": "recalcitrant",
+      "word": "recalcitrant",
+      "partOfSpeech": "adjective",
+      "definition": "stubbornly resistant to authority or control; unruly",
+      "example": "A recalcitrant student who ignored every rule.",
+      "tier": "hard",
+      "synonyms": ["defiant", "unruly", "insubordinate"]
+    },
+    {
+      "id": "intractable",
+      "word": "intractable",
+      "partOfSpeech": "adjective",
+      "definition": "hard to control, manage, or solve",
+      "example": "An intractable dispute that dragged on for years.",
+      "tier": "medium",
+      "synonyms": ["unmanageable", "stubborn", "thorny"]
+    },
+    {
+      "id": "implacable",
+      "word": "implacable",
+      "partOfSpeech": "adjective",
+      "definition": "unable to be appeased or calmed; relentless",
+      "example": "An implacable rival who never forgave a slight.",
+      "tier": "hard",
+      "synonyms": ["relentless", "unappeasable", "merciless"]
+    },
+    {
+      "id": "adamant",
+      "word": "adamant",
+      "partOfSpeech": "adjective",
+      "definition": "refusing to be persuaded; unshakably firm",
+      "example": "She was adamant that the meeting start on time.",
+      "tier": "easy",
+      "synonyms": ["firm", "resolute", "insistent"]
+    },
+    {
+      "id": "tractable",
+      "word": "tractable",
+      "partOfSpeech": "adjective",
+      "definition": "easy to control, manage, or persuade; docile",
+      "example": "Well trained and tractable, the horse followed every command.",
+      "tier": "medium",
+      "synonyms": ["docile", "manageable", "compliant"]
+    },
+    {
+      "id": "malleable",
+      "word": "malleable",
+      "partOfSpeech": "adjective",
+      "definition": "easily influenced or shaped; pliable",
+      "example": "New recruits are malleable, eager to learn the rules.",
+      "tier": "medium",
+      "synonyms": ["pliable", "impressionable", "adaptable"]
+    },
+    {
+      "id": "amenable",
+      "word": "amenable",
+      "partOfSpeech": "adjective",
+      "definition": "open and responsive to suggestion; willing to agree",
+      "example": "He was amenable to pushing the deadline back a week.",
+      "tier": "medium",
+      "synonyms": ["agreeable", "receptive", "cooperative"]
+    },
+    {
+      "id": "compliant",
+      "word": "compliant",
+      "partOfSpeech": "adjective",
+      "definition": "inclined to agree with others or obey rules; submissive",
+      "example": "A compliant staff that never questioned an order.",
+      "tier": "easy",
+      "synonyms": ["obedient", "acquiescent", "submissive"]
+    },
+    {
+      "id": "capitulate",
+      "word": "capitulate",
+      "partOfSpeech": "verb",
+      "definition": "to give in or surrender, especially after resistance",
+      "example": "Exhausted, the union finally capitulated on the last point.",
+      "tier": "medium",
+      "synonyms": ["surrender", "yield", "concede"]
+    }
+  ],
+  "story": "For weeks the two sides sat across the table, equally [[obstinate|obstinate]]. Management was [[obdurate|obdurate]], the union [[intransigent|intransigent]], and a handful of [[recalcitrant|recalcitrant]] shop stewards made the dispute nearly [[intractable|intractable]]. The company's lawyer was [[implacable|implacable]]; the union chief just as [[adamant|adamant]]. A young mediator wondered whether either party could ever be [[tractable|tractable]]. Slowly she found the [[malleable|malleable]] ones in the room — a few members [[amenable|amenable]] to compromise and one manager quietly [[compliant|compliant]] with head office — until, near 3 a.m., the weaker side agreed to [[capitulate|capitulate]] on a single clause, and the deadlock cracked."
+}
