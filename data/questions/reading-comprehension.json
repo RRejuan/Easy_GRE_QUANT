@@ -435,5 +435,209 @@
     "answer": "B",
     "solutionStandard": "The final sentence gives the reason directly: the explanations are hard to separate \"since both predict the same generous behavior\" — choice (B). If two accounts predict identical behavior, observing that behavior can't tell them apart. The other options are not stated.",
     "timeTargetSec": 95
+  },
+  {
+    "id": "reading-comprehension-014",
+    "type": "MC",
+    "primarySkill": "reading-comprehension",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "passage": "The conventional account credits the Industrial Revolution to a handful of ingenious inventors — Watt, Arkwright, Stephenson — whose machines transformed the world. Recent economic history tells a less heroic story. The crucial inventions, these historians argue, were rarely the work of a single mind; they emerged from dense networks of tinkerers who shared, copied, and incrementally improved one another's designs. Watt's engine, for example, depended on precision cylinders that only an existing community of instrument-makers could supply. The lone genius, on this view, is less an explanation than a convenient fiction — a way of assigning to one person credit that in truth belonged to many.",
+    "stem": "The passage is primarily concerned with",
+    "options": [
+      {
+        "id": "A",
+        "text": "proving that Watt did not build his own steam engine"
+      },
+      {
+        "id": "B",
+        "text": "defending the traditional view that a few inventors caused the Industrial Revolution"
+      },
+      {
+        "id": "C",
+        "text": "revising the \"lone genius\" account by emphasizing collaborative networks of tinkerers"
+      },
+      {
+        "id": "D",
+        "text": "explaining in detail how the steam engine works"
+      },
+      {
+        "id": "E",
+        "text": "ranking the most important inventions of the industrial era"
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "The passage contrasts the \"conventional account\" of heroic inventors with recent history that credits collaborative networks, calling the lone genius a \"convenient fiction.\" That is a revision of the account — choice (C). (B) is the view being challenged; (A) overstates; (D) and (E) are not the focus.",
+    "timeTargetSec": 100
+  },
+  {
+    "id": "reading-comprehension-015",
+    "type": "MC",
+    "primarySkill": "reading-comprehension",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "passage": "The conventional account credits the Industrial Revolution to a handful of ingenious inventors — Watt, Arkwright, Stephenson — whose machines transformed the world. Recent economic history tells a less heroic story. The crucial inventions, these historians argue, were rarely the work of a single mind; they emerged from dense networks of tinkerers who shared, copied, and incrementally improved one another's designs. Watt's engine, for example, depended on precision cylinders that only an existing community of instrument-makers could supply. The lone genius, on this view, is less an explanation than a convenient fiction — a way of assigning to one person credit that in truth belonged to many.",
+    "stem": "The author mentions the precision cylinders that Watt's engine required chiefly in order to",
+    "options": [
+      {
+        "id": "A",
+        "text": "show that Watt worked entirely on his own"
+      },
+      {
+        "id": "B",
+        "text": "illustrate how even a celebrated invention depended on a wider community of makers"
+      },
+      {
+        "id": "C",
+        "text": "argue that precision cylinders were the era's single most important invention"
+      },
+      {
+        "id": "D",
+        "text": "suggest that instrument-makers deserve no credit for the engine"
+      },
+      {
+        "id": "E",
+        "text": "prove that early steam engines were impractical"
+      }
+    ],
+    "answer": "B",
+    "solutionStandard": "The cylinders example supports the claim that inventions \"emerged from dense networks\": even Watt's famous engine relied on other makers — choice (B). (A) and (D) are the opposite of the point; (C) and (E) are not claimed.",
+    "timeTargetSec": 90
+  },
+  {
+    "id": "reading-comprehension-016",
+    "type": "MC",
+    "primarySkill": "reading-comprehension",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "passage": "The conventional account credits the Industrial Revolution to a handful of ingenious inventors — Watt, Arkwright, Stephenson — whose machines transformed the world. Recent economic history tells a less heroic story. The crucial inventions, these historians argue, were rarely the work of a single mind; they emerged from dense networks of tinkerers who shared, copied, and incrementally improved one another's designs. Watt's engine, for example, depended on precision cylinders that only an existing community of instrument-makers could supply. The lone genius, on this view, is less an explanation than a convenient fiction — a way of assigning to one person credit that in truth belonged to many.",
+    "stem": "The phrase \"convenient fiction\" suggests that the author regards the lone-genius story as",
+    "options": [
+      {
+        "id": "A",
+        "text": "an accurate if incomplete account of events"
+      },
+      {
+        "id": "B",
+        "text": "a deliberate lie told by the inventors themselves"
+      },
+      {
+        "id": "C",
+        "text": "a harmless myth with no real consequences"
+      },
+      {
+        "id": "D",
+        "text": "a misleading simplification that credits one person for the work of many"
+      },
+      {
+        "id": "E",
+        "text": "the best explanation currently available"
+      }
+    ],
+    "answer": "D",
+    "solutionStandard": "\"Convenient fiction\" and \"assigning to one person credit that belonged to many\" mark the story as a tidy but false simplification — choice (D). (A) and (E) treat it as basically correct; (B) overstates it as an intentional lie; (C) ignores that the author thinks it misassigns credit.",
+    "timeTargetSec": 95
+  },
+  {
+    "id": "reading-comprehension-017",
+    "type": "MC",
+    "primarySkill": "reading-comprehension",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "passage": "Biologists once assumed that birdsong served a single purpose: males advertising for mates. Field studies have complicated this tidy picture. In many species females sing too, sometimes in duets that appear to coordinate defense of a shared territory rather than to attract partners. Song, it turns out, can carry different messages in different contexts — a claim to territory, a warning, a bond between mates. The old single-function model was not so much wrong as incomplete, mistaking one use of a versatile tool for its only use.",
+    "stem": "The passage mainly argues that birdsong",
+    "options": [
+      {
+        "id": "A",
+        "text": "is produced only by female birds"
+      },
+      {
+        "id": "B",
+        "text": "serves several different functions rather than one"
+      },
+      {
+        "id": "C",
+        "text": "serves only to attract mates"
+      },
+      {
+        "id": "D",
+        "text": "was entirely misunderstood by earlier biologists"
+      },
+      {
+        "id": "E",
+        "text": "consists mainly of coordinated duets"
+      }
+    ],
+    "answer": "B",
+    "solutionStandard": "The passage shows song can be \"a claim to territory, a warning, a bond between mates\" — multiple functions, choice (B). (C) is the old view being complicated; (A) and (E) overstate the female-duet detail; (D) is too strong (the model was \"incomplete,\" not entirely wrong).",
+    "timeTargetSec": 90
+  },
+  {
+    "id": "reading-comprehension-018",
+    "type": "MC",
+    "primarySkill": "reading-comprehension",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "passage": "Biologists once assumed that birdsong served a single purpose: males advertising for mates. Field studies have complicated this tidy picture. In many species females sing too, sometimes in duets that appear to coordinate defense of a shared territory rather than to attract partners. Song, it turns out, can carry different messages in different contexts — a claim to territory, a warning, a bond between mates. The old single-function model was not so much wrong as incomplete, mistaking one use of a versatile tool for its only use.",
+    "stem": "The female duets are cited as evidence that song can",
+    "options": [
+      {
+        "id": "A",
+        "text": "attract mates more effectively than male song"
+      },
+      {
+        "id": "B",
+        "text": "coordinate the defense of a territory"
+      },
+      {
+        "id": "C",
+        "text": "warn other species of predators"
+      },
+      {
+        "id": "D",
+        "text": "replace male song entirely"
+      },
+      {
+        "id": "E",
+        "text": "confirm the single-function model"
+      }
+    ],
+    "answer": "B",
+    "solutionStandard": "The passage says the duets \"appear to coordinate defense of a shared territory rather than to attract partners\" — choice (B). (A) and (D) overstate; (C) is a different function not tied to the duets; (E) is the opposite of the point.",
+    "timeTargetSec": 90
+  },
+  {
+    "id": "reading-comprehension-019",
+    "type": "MC",
+    "primarySkill": "reading-comprehension",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "passage": "Biologists once assumed that birdsong served a single purpose: males advertising for mates. Field studies have complicated this tidy picture. In many species females sing too, sometimes in duets that appear to coordinate defense of a shared territory rather than to attract partners. Song, it turns out, can carry different messages in different contexts — a claim to territory, a warning, a bond between mates. The old single-function model was not so much wrong as incomplete, mistaking one use of a versatile tool for its only use.",
+    "stem": "The author regards the old single-function model as",
+    "options": [
+      {
+        "id": "A",
+        "text": "completely false"
+      },
+      {
+        "id": "B",
+        "text": "deliberately deceptive"
+      },
+      {
+        "id": "C",
+        "text": "the most accurate model still available"
+      },
+      {
+        "id": "D",
+        "text": "incomplete but not wholly wrong"
+      },
+      {
+        "id": "E",
+        "text": "irrelevant to modern biology"
+      }
+    ],
+    "answer": "D",
+    "solutionStandard": "The final sentence says the model was \"not so much wrong as incomplete\" — it captured one real function but missed the others, choice (D). (A) and (B) overstate; (C) and (E) misread the author, who treats it as superseded but partly right.",
+    "timeTargetSec": 90
   }
 ]

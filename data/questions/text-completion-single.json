@@ -592,5 +592,236 @@
     "answer": "D",
     "solutionStandard": "\"Far from ___ ... only fanned it\" needs the opposite of fanning a rumor. \"Dispelling\" (putting it to rest) fits. \"Spreading,\" \"igniting,\" and \"exploiting\" are near-synonyms for fanning; \"confirming\" would also intensify the rumor.",
     "timeTargetSec": 65
+  },
+  {
+    "id": "text-completion-single-019",
+    "type": "MC",
+    "primarySkill": "text-completion-single",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "The senator's speech was surprisingly ______; rather than the fiery rhetoric everyone had anticipated, she offered a calm, measured appeal.",
+    "options": [
+      {
+        "id": "A",
+        "text": "inflammatory"
+      },
+      {
+        "id": "B",
+        "text": "temperate"
+      },
+      {
+        "id": "C",
+        "text": "bombastic"
+      },
+      {
+        "id": "D",
+        "text": "impassioned"
+      },
+      {
+        "id": "E",
+        "text": "strident"
+      }
+    ],
+    "answer": "B",
+    "solutionStandard": "\"Rather than the fiery rhetoric ... a calm, measured appeal\" contrasts the blank with fieriness. \"Temperate\" (restrained) fits. \"Inflammatory,\" \"bombastic,\" \"impassioned,\" and \"strident\" all describe the fiery style she avoided.",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "text-completion-single-020",
+    "type": "MC",
+    "primarySkill": "text-completion-single",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "Because its funding had been sharply ______, the lab could pursue only its most essential experiments, shelving every ambitious project.",
+    "options": [
+      {
+        "id": "A",
+        "text": "augmented"
+      },
+      {
+        "id": "B",
+        "text": "squandered"
+      },
+      {
+        "id": "C",
+        "text": "diversified"
+      },
+      {
+        "id": "D",
+        "text": "curtailed"
+      },
+      {
+        "id": "E",
+        "text": "restored"
+      }
+    ],
+    "answer": "D",
+    "solutionStandard": "Pursuing \"only its most essential experiments\" means resources shrank. \"Curtailed\" (cut back) fits. \"Augmented\" and \"restored\" mean increased (opposite); \"squandered\" blames the lab rather than describing the cut; \"diversified\" is irrelevant to amount.",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "text-completion-single-021",
+    "type": "MC",
+    "primarySkill": "text-completion-single",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "The diplomat's ______ allowed her to move easily among rival factions, charming each without alienating the others.",
+    "options": [
+      {
+        "id": "A",
+        "text": "obstinacy"
+      },
+      {
+        "id": "B",
+        "text": "tactlessness"
+      },
+      {
+        "id": "C",
+        "text": "adroitness"
+      },
+      {
+        "id": "D",
+        "text": "candor"
+      },
+      {
+        "id": "E",
+        "text": "diffidence"
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "Charming rivals \"without alienating the others\" requires skillful social maneuvering. \"Adroitness\" (dexterity, finesse) fits. \"Obstinacy\" and \"tactlessness\" would alienate people; \"candor\" (bluntness) risks offense; \"diffidence\" (shyness) wouldn't win a room.",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "text-completion-single-022",
+    "type": "MC",
+    "primarySkill": "text-completion-single",
+    "secondarySkills": [],
+    "difficulty": 5,
+    "stem": "Though his early work was admired for its restraint, the sculptor's later pieces struck many as ______, overloaded with detail to the point of clutter.",
+    "options": [
+      {
+        "id": "A",
+        "text": "austere"
+      },
+      {
+        "id": "B",
+        "text": "minimalist"
+      },
+      {
+        "id": "C",
+        "text": "understated"
+      },
+      {
+        "id": "D",
+        "text": "elegant"
+      },
+      {
+        "id": "E",
+        "text": "overwrought"
+      }
+    ],
+    "answer": "E",
+    "solutionStandard": "\"Overloaded with detail to the point of clutter\" contrasts with the earlier \"restraint.\" \"Overwrought\" (excessively elaborate) fits. \"Austere,\" \"minimalist,\" and \"understated\" all mean restrained (the opposite); \"elegant\" is positive and doesn't imply clutter.",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "text-completion-single-023",
+    "type": "MC",
+    "primarySkill": "text-completion-single",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "Far from settling the question, the study only ______ it, raising more puzzles than it resolved.",
+    "options": [
+      {
+        "id": "A",
+        "text": "muddied"
+      },
+      {
+        "id": "B",
+        "text": "clarified"
+      },
+      {
+        "id": "C",
+        "text": "resolved"
+      },
+      {
+        "id": "D",
+        "text": "illuminated"
+      },
+      {
+        "id": "E",
+        "text": "simplified"
+      }
+    ],
+    "answer": "A",
+    "solutionStandard": "\"Far from settling ... raising more puzzles than it resolved\" means the study made things less clear. \"Muddied\" fits. \"Clarified,\" \"resolved,\" \"illuminated,\" and \"simplified\" all describe settling the question — the opposite.",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "text-completion-single-024",
+    "type": "MC",
+    "primarySkill": "text-completion-single",
+    "secondarySkills": [],
+    "difficulty": 5,
+    "stem": "Critics dismissed the memoir as ______, its author quietly airbrushing every failure into a triumph.",
+    "options": [
+      {
+        "id": "A",
+        "text": "scathing"
+      },
+      {
+        "id": "B",
+        "text": "exhaustive"
+      },
+      {
+        "id": "C",
+        "text": "impartial"
+      },
+      {
+        "id": "D",
+        "text": "self-serving"
+      },
+      {
+        "id": "E",
+        "text": "morose"
+      }
+    ],
+    "answer": "D",
+    "solutionStandard": "\"Airbrushing every failure into a triumph\" describes a flattering, self-promoting account. \"Self-serving\" fits. \"Impartial\" is the opposite; \"scathing\" and \"morose\" are the wrong tone; \"exhaustive\" describes thoroughness, not bias.",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "text-completion-single-025",
+    "type": "MC",
+    "primarySkill": "text-completion-single",
+    "secondarySkills": [],
+    "difficulty": 5,
+    "stem": "The committee's report was a model of ______: it named names, assigned blame, and spared no one, least of all its own members.",
+    "options": [
+      {
+        "id": "A",
+        "text": "evasion"
+      },
+      {
+        "id": "B",
+        "text": "diplomacy"
+      },
+      {
+        "id": "C",
+        "text": "candor"
+      },
+      {
+        "id": "D",
+        "text": "obfuscation"
+      },
+      {
+        "id": "E",
+        "text": "flattery"
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "\"Named names ... spared no one, least of all its own members\" describes unflinching honesty. \"Candor\" fits. \"Evasion\" and \"obfuscation\" mean dodging or muddying; \"diplomacy\" and \"flattery\" imply softening — the opposite of sparing no one.",
+    "timeTargetSec": 60
   }
 ]
