@@ -1,0 +1,115 @@
+{
+  "id": "lesson-40",
+  "title": "Lesson 40 — Beginnings and Endings",
+  "words": [
+    {
+      "id": "inception",
+      "word": "inception",
+      "partOfSpeech": "noun",
+      "definition": "the establishment or beginning of something",
+      "example": "The company has grown steadily since its inception.",
+      "tier": "medium",
+      "synonyms": ["start", "origin", "onset"]
+    },
+    {
+      "id": "genesis",
+      "word": "genesis",
+      "partOfSpeech": "noun",
+      "definition": "the origin or formation of something",
+      "example": "The idea had its genesis in a late-night conversation.",
+      "tier": "medium",
+      "synonyms": ["origin", "beginning", "birth"]
+    },
+    {
+      "id": "culmination",
+      "word": "culmination",
+      "partOfSpeech": "noun",
+      "definition": "the highest or final point, reached after a long process",
+      "example": "The award was the culmination of decades of research.",
+      "tier": "medium",
+      "synonyms": ["climax", "peak", "conclusion"]
+    },
+    {
+      "id": "denouement",
+      "word": "denouement",
+      "partOfSpeech": "noun",
+      "definition": "the final resolution of a story's plot; the outcome of a situation",
+      "example": "The novel's denouement resolved every loose thread.",
+      "tier": "hard",
+      "synonyms": ["resolution", "outcome", "ending"]
+    },
+    {
+      "id": "precursor",
+      "word": "precursor",
+      "partOfSpeech": "noun",
+      "definition": "a person or thing that comes before another of the same kind; a forerunner",
+      "example": "The telegraph was a precursor to modern telecommunications.",
+      "tier": "medium",
+      "synonyms": ["forerunner", "predecessor", "harbinger"]
+    },
+    {
+      "id": "harbinger",
+      "word": "harbinger",
+      "partOfSpeech": "noun",
+      "definition": "a person or thing that signals the approach of something",
+      "example": "The robin is often called a harbinger of spring.",
+      "tier": "hard",
+      "synonyms": ["herald", "omen", "sign"]
+    },
+    {
+      "id": "portent",
+      "word": "portent",
+      "partOfSpeech": "noun",
+      "definition": "a sign or warning that something significant is about to happen",
+      "example": "Sailors read the strange sky as a portent of storms.",
+      "tier": "hard",
+      "synonyms": ["omen", "sign", "augury"]
+    },
+    {
+      "id": "omen",
+      "word": "omen",
+      "partOfSpeech": "noun",
+      "definition": "an event regarded as a sign of future good or evil",
+      "example": "A black cat crossing the path was taken as a bad omen.",
+      "tier": "easy",
+      "synonyms": ["portent", "sign", "harbinger"]
+    },
+    {
+      "id": "foreshadow",
+      "word": "foreshadow",
+      "partOfSpeech": "verb",
+      "definition": "to be a warning or indication of a future event",
+      "example": "The opening scene foreshadows the tragedy to come.",
+      "tier": "medium",
+      "synonyms": ["presage", "portend", "hint at"]
+    },
+    {
+      "id": "prelude",
+      "word": "prelude",
+      "partOfSpeech": "noun",
+      "definition": "an event or action that precedes and prepares for a more important one",
+      "example": "The small protest was a prelude to a much larger movement.",
+      "tier": "medium",
+      "synonyms": ["preamble", "precursor", "introduction"]
+    },
+    {
+      "id": "epilogue",
+      "word": "epilogue",
+      "partOfSpeech": "noun",
+      "definition": "a short final section at the end of a book or play",
+      "example": "The epilogue revealed what became of each character.",
+      "tier": "easy",
+      "synonyms": ["afterword", "postscript", "coda"]
+    },
+    {
+      "id": "aftermath",
+      "word": "aftermath",
+      "partOfSpeech": "noun",
+      "definition": "the consequences or after-effects of a significant event",
+      "example": "In the aftermath of the flood, volunteers rebuilt the school.",
+      "tier": "easy",
+      "synonyms": ["consequences", "wake", "fallout"]
+    }
+  ],
+  "story": "Historians still argue about the empire's exact [[inception|inception]], though most trace its [[genesis|genesis]] to a single treaty. Its [[culmination|culmination]] came two centuries later, and its slow collapse forms the [[denouement|denouement]] of every textbook chapter on the era. Scholars call the earlier city-states a [[precursor|precursor]] to the empire, and one border skirmish is often read as a [[harbinger|harbinger]] of what followed — a [[portent|portent]], almost an [[omen|omen]], that seemed to [[foreshadow|foreshadow]] the wars to come. That skirmish was merely a [[prelude|prelude]] to centuries of conflict, and even the empire's [[epilogue|epilogue]] — its final quiet decades — could not undo the [[aftermath|aftermath]] of its fall."
+}
