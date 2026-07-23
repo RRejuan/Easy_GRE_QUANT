@@ -1,0 +1,115 @@
+{
+  "id": "lesson-30",
+  "title": "Lesson 30 — The Recluse",
+  "words": [
+    {
+      "id": "recluse",
+      "word": "recluse",
+      "partOfSpeech": "noun",
+      "definition": "a person who lives in seclusion and avoids others",
+      "example": "The famous author became a recluse in his final years.",
+      "tier": "medium",
+      "synonyms": ["hermit", "loner", "solitary"]
+    },
+    {
+      "id": "hermit",
+      "word": "hermit",
+      "partOfSpeech": "noun",
+      "definition": "a person who lives alone, apart from society",
+      "example": "The old hermit had not left his mountain in decades.",
+      "tier": "easy",
+      "synonyms": ["recluse", "loner", "anchorite"]
+    },
+    {
+      "id": "solitude",
+      "word": "solitude",
+      "partOfSpeech": "noun",
+      "definition": "the state of being alone, often by choice",
+      "example": "She craved the solitude of an empty studio.",
+      "tier": "easy",
+      "synonyms": ["seclusion", "isolation", "privacy"]
+    },
+    {
+      "id": "seclusion",
+      "word": "seclusion",
+      "partOfSpeech": "noun",
+      "definition": "the state of being private and away from other people",
+      "example": "They retreated to the seclusion of a remote cabin.",
+      "tier": "medium",
+      "synonyms": ["isolation", "solitude", "privacy"]
+    },
+    {
+      "id": "aloof",
+      "word": "aloof",
+      "partOfSpeech": "adjective",
+      "definition": "distant or reserved; unwilling to become involved",
+      "example": "He kept aloof from the office gossip.",
+      "tier": "medium",
+      "synonyms": ["detached", "remote", "standoffish"]
+    },
+    {
+      "id": "withdrawn",
+      "word": "withdrawn",
+      "partOfSpeech": "adjective",
+      "definition": "not wanting to communicate with others; introverted",
+      "example": "After the loss he grew quiet and withdrawn.",
+      "tier": "easy",
+      "synonyms": ["introverted", "reserved", "reticent"]
+    },
+    {
+      "id": "insular",
+      "word": "insular",
+      "partOfSpeech": "adjective",
+      "definition": "narrow-minded and cut off from outside influence",
+      "example": "The insular village distrusted every stranger.",
+      "tier": "hard",
+      "synonyms": ["narrow", "parochial", "isolated"]
+    },
+    {
+      "id": "cloister",
+      "word": "cloister",
+      "partOfSpeech": "verb",
+      "definition": "to seclude or shut away from the world",
+      "example": "He cloistered himself with his books for the summer.",
+      "tier": "medium",
+      "synonyms": ["seclude", "sequester", "shut away"]
+    },
+    {
+      "id": "sequester",
+      "word": "sequester",
+      "partOfSpeech": "verb",
+      "definition": "to isolate or set apart",
+      "example": "The jury was sequestered until it reached a verdict.",
+      "tier": "hard",
+      "synonyms": ["isolate", "seclude", "segregate"]
+    },
+    {
+      "id": "misanthrope",
+      "word": "misanthrope",
+      "partOfSpeech": "noun",
+      "definition": "a person who dislikes and avoids other people",
+      "example": "The old misanthrope chased children off his lawn.",
+      "tier": "hard",
+      "synonyms": ["cynic", "loner", "curmudgeon"]
+    },
+    {
+      "id": "introspective",
+      "word": "introspective",
+      "partOfSpeech": "adjective",
+      "definition": "given to examining one's own thoughts and feelings",
+      "example": "Long walks left her quiet and introspective.",
+      "tier": "medium",
+      "synonyms": ["reflective", "contemplative", "inward-looking"]
+    },
+    {
+      "id": "forlorn",
+      "word": "forlorn",
+      "partOfSpeech": "adjective",
+      "definition": "pitifully sad and lonely; abandoned",
+      "example": "A forlorn dog waited by the shuttered house.",
+      "tier": "easy",
+      "synonyms": ["desolate", "wretched", "lonely"]
+    }
+  ],
+  "story": "The novelist had become a [[recluse|recluse]], living like a [[hermit|hermit]] at the edge of the moor. He prized his [[solitude|solitude]] and guarded the [[seclusion|seclusion]] of his cottage, [[aloof|aloof]] from the village and increasingly [[withdrawn|withdrawn]]. Some called him [[insular|insular]]; he preferred to [[cloister|cloister]] himself with his manuscripts and would [[sequester|sequester]] himself for weeks. The children thought him a [[misanthrope|misanthrope]], but he was really only [[introspective|introspective]] — and, on the longest winter nights, a little [[forlorn|forlorn]]."
+}
