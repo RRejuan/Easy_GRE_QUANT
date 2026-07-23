@@ -1,0 +1,115 @@
+{
+  "id": "lesson-49",
+  "title": "Lesson 49 — Sound and Silence",
+  "words": [
+    {
+      "id": "strident",
+      "word": "strident",
+      "partOfSpeech": "adjective",
+      "definition": "loud and harsh; also, presenting a point of view in an excessively forceful way",
+      "example": "A strident voice cut through the noisy hall.",
+      "tier": "medium",
+      "synonyms": ["harsh", "grating", "shrill"]
+    },
+    {
+      "id": "shrill",
+      "word": "shrill",
+      "partOfSpeech": "adjective",
+      "definition": "high-pitched and piercing in sound",
+      "example": "A shrill whistle signaled the start of practice.",
+      "tier": "easy",
+      "synonyms": ["piercing", "high-pitched", "strident"]
+    },
+    {
+      "id": "resonant",
+      "word": "resonant",
+      "partOfSpeech": "adjective",
+      "definition": "deep, clear, and continuing to sound or reverberate",
+      "example": "His resonant baritone filled the small chapel.",
+      "tier": "medium",
+      "synonyms": ["sonorous", "reverberant", "rich"]
+    },
+    {
+      "id": "sonorous",
+      "word": "sonorous",
+      "partOfSpeech": "adjective",
+      "definition": "having a full, deep, or rich sound",
+      "example": "The organ's sonorous notes rolled through the cathedral.",
+      "tier": "hard",
+      "synonyms": ["resonant", "rich", "deep"]
+    },
+    {
+      "id": "muffled",
+      "word": "muffled",
+      "partOfSpeech": "adjective",
+      "definition": "made quieter or less clear, as if by a covering",
+      "example": "A muffled voice came from behind the thick door.",
+      "tier": "easy",
+      "synonyms": ["dampened", "stifled", "smothered"]
+    },
+    {
+      "id": "hushed",
+      "word": "hushed",
+      "partOfSpeech": "adjective",
+      "definition": "quiet and still; subdued in sound",
+      "example": "A hushed silence fell as the verdict was read.",
+      "tier": "easy",
+      "synonyms": ["quiet", "silent", "subdued"]
+    },
+    {
+      "id": "reverberate",
+      "word": "reverberate",
+      "partOfSpeech": "verb",
+      "definition": "to echo or resound repeatedly",
+      "example": "The gunshot reverberated across the canyon.",
+      "tier": "medium",
+      "synonyms": ["echo", "resound", "resonate"]
+    },
+    {
+      "id": "mute",
+      "word": "mute",
+      "partOfSpeech": "adjective",
+      "definition": "refraining from speech or temporarily speechless; silent",
+      "example": "He stood mute, unable to answer the accusation.",
+      "tier": "easy",
+      "synonyms": ["silent", "speechless", "wordless"]
+    },
+    {
+      "id": "inaudible",
+      "word": "inaudible",
+      "partOfSpeech": "adjective",
+      "definition": "unable to be heard",
+      "example": "Her reply was nearly inaudible over the engine noise.",
+      "tier": "medium",
+      "synonyms": ["unhearable", "faint", "indistinct"]
+    },
+    {
+      "id": "clamor",
+      "word": "clamor",
+      "partOfSpeech": "noun",
+      "definition": "a loud and confused noise, especially of shouting",
+      "example": "A clamor rose from the crowd as the gates opened.",
+      "tier": "medium",
+      "synonyms": ["uproar", "din", "outcry"]
+    },
+    {
+      "id": "din",
+      "word": "din",
+      "partOfSpeech": "noun",
+      "definition": "a loud, unpleasant, and prolonged noise",
+      "example": "You could barely talk over the din of the factory floor.",
+      "tier": "medium",
+      "synonyms": ["racket", "clamor", "uproar"]
+    },
+    {
+      "id": "vociferous",
+      "word": "vociferous",
+      "partOfSpeech": "adjective",
+      "definition": "vehement or loud in expressing one's opinions",
+      "example": "A vociferous minority dominated the public comment period.",
+      "tier": "hard",
+      "synonyms": ["loud", "outspoken", "clamorous"]
+    }
+  ],
+  "story": "The concert hall was famous for its acoustics, though not everyone in the audience noticed. A [[strident|strident]] cough, [[shrill|shrill]] and sudden, briefly broke the mood before the soprano's [[resonant|resonant]], [[sonorous|sonorous]] aria began. Even the [[muffled|muffled]] sound of latecomers settling into seats gave way to a [[hushed|hushed]] stillness as her final note began to [[reverberate|reverberate]] through the balcony. For one long moment the whole room went nearly [[mute|mute]], the shuffle of programs [[inaudible|inaudible]]. Then came the [[clamor|clamor]] — a joyful [[din|din]] of applause, and one [[vociferous|vociferous]] fan shouting for an encore before the lights had even come up."
+}

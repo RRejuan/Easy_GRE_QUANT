@@ -1,0 +1,115 @@
+{
+  "id": "lesson-50",
+  "title": "Lesson 50 — The Model Example",
+  "words": [
+    {
+      "id": "exemplify",
+      "word": "exemplify",
+      "partOfSpeech": "verb",
+      "definition": "to be a typical example of; to illustrate by example",
+      "example": "The old bridge exemplifies the engineering of its era.",
+      "tier": "medium",
+      "synonyms": ["illustrate", "typify", "represent"]
+    },
+    {
+      "id": "epitomize",
+      "word": "epitomize",
+      "partOfSpeech": "verb",
+      "definition": "to be a perfect example of a quality or type",
+      "example": "The gesture epitomized her generosity.",
+      "tier": "medium",
+      "synonyms": ["embody", "typify", "represent"]
+    },
+    {
+      "id": "embody",
+      "word": "embody",
+      "partOfSpeech": "verb",
+      "definition": "to represent or express an idea or quality in tangible form",
+      "example": "The statue embodies the city's spirit of resilience.",
+      "tier": "medium",
+      "synonyms": ["represent", "personify", "exemplify"]
+    },
+    {
+      "id": "personify",
+      "word": "personify",
+      "partOfSpeech": "verb",
+      "definition": "to represent an abstract quality as a person; to be a perfect example of",
+      "example": "The coach personified quiet determination.",
+      "tier": "medium",
+      "synonyms": ["embody", "epitomize", "typify"]
+    },
+    {
+      "id": "typify",
+      "word": "typify",
+      "partOfSpeech": "verb",
+      "definition": "to be a representative or characteristic example of",
+      "example": "The dish typifies the region's simple, hearty cooking.",
+      "tier": "medium",
+      "synonyms": ["exemplify", "epitomize", "represent"]
+    },
+    {
+      "id": "hallmark",
+      "word": "hallmark",
+      "partOfSpeech": "noun",
+      "definition": "a distinctive feature or quality serving as a mark of excellence or identity",
+      "example": "Careful plotting is the hallmark of her novels.",
+      "tier": "medium",
+      "synonyms": ["trademark", "signature", "characteristic"]
+    },
+    {
+      "id": "emblematic",
+      "word": "emblematic",
+      "partOfSpeech": "adjective",
+      "definition": "serving as a symbol or representative example of something",
+      "example": "The closed factory became emblematic of the town's decline.",
+      "tier": "hard",
+      "synonyms": ["symbolic", "representative", "typical"]
+    },
+    {
+      "id": "paragon",
+      "word": "paragon",
+      "partOfSpeech": "noun",
+      "definition": "a person or thing regarded as a perfect example of a quality",
+      "example": "She was held up as a paragon of patience.",
+      "tier": "medium",
+      "synonyms": ["model", "exemplar", "ideal"]
+    },
+    {
+      "id": "exemplar",
+      "word": "exemplar",
+      "partOfSpeech": "noun",
+      "definition": "a person or thing serving as a typical or worthy example; a model",
+      "example": "The building is an exemplar of postwar design.",
+      "tier": "medium",
+      "synonyms": ["model", "paragon", "archetype"]
+    },
+    {
+      "id": "apex",
+      "word": "apex",
+      "partOfSpeech": "noun",
+      "definition": "the top or highest point of something; the culmination",
+      "example": "The award marked the apex of her career.",
+      "tier": "medium",
+      "synonyms": ["peak", "summit", "pinnacle"]
+    },
+    {
+      "id": "zenith",
+      "word": "zenith",
+      "partOfSpeech": "noun",
+      "definition": "the time at which something is most powerful or successful",
+      "example": "The empire reached its zenith in the third century.",
+      "tier": "medium",
+      "synonyms": ["peak", "apex", "high point"]
+    },
+    {
+      "id": "nadir",
+      "word": "nadir",
+      "partOfSpeech": "noun",
+      "definition": "the lowest or most unsuccessful point of a situation",
+      "example": "That defeat was the nadir of an otherwise strong season.",
+      "tier": "hard",
+      "synonyms": ["low point", "bottom", "rock bottom"]
+    }
+  ],
+  "story": "Every coach uses one player to [[exemplify|exemplify]] the whole program's values, and for a decade that player was Marisol. She seemed to [[epitomize|epitomize]] everything the team wanted to be, to [[embody|embody]] its discipline, to [[personify|personify]] its patience under pressure. Sportswriters said her game-day routine came to [[typify|typify]] the entire league, and her calm free throws became a [[hallmark|hallmark]] of the franchise, almost [[emblematic|emblematic]] of the city itself. Younger athletes treated her as a [[paragon|paragon]], the clear [[exemplar|exemplar]] of what hard work could build. Her career had one true [[apex|apex]], a [[zenith|zenith]] season no one has matched since — and one bruising rookie year, still remembered as its [[nadir|nadir]], that she says taught her everything."
+}

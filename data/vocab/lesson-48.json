@@ -1,0 +1,115 @@
+{
+  "id": "lesson-48",
+  "title": "Lesson 48 — The Traveler",
+  "words": [
+    {
+      "id": "itinerant",
+      "word": "itinerant",
+      "partOfSpeech": "adjective",
+      "definition": "traveling from place to place, especially for work",
+      "example": "An itinerant preacher moved from town to town each season.",
+      "tier": "hard",
+      "synonyms": ["wandering", "nomadic", "roving"]
+    },
+    {
+      "id": "peripatetic",
+      "word": "peripatetic",
+      "partOfSpeech": "adjective",
+      "definition": "traveling from place to place, especially working or based in various places",
+      "example": "A peripatetic musician who lived out of a single suitcase.",
+      "tier": "hard",
+      "synonyms": ["itinerant", "nomadic", "roving"]
+    },
+    {
+      "id": "sojourn",
+      "word": "sojourn",
+      "partOfSpeech": "noun",
+      "definition": "a temporary stay in a place",
+      "example": "After a brief sojourn in Rome, they continued south.",
+      "tier": "medium",
+      "synonyms": ["stay", "visit", "stopover"]
+    },
+    {
+      "id": "vagabond",
+      "word": "vagabond",
+      "partOfSpeech": "noun",
+      "definition": "a person who wanders from place to place without a home",
+      "example": "He lived like a vagabond, sleeping wherever the road ended.",
+      "tier": "medium",
+      "synonyms": ["wanderer", "drifter", "nomad"]
+    },
+    {
+      "id": "nomadic",
+      "word": "nomadic",
+      "partOfSpeech": "adjective",
+      "definition": "living the life of a group with no permanent home, moving from place to place",
+      "example": "Their nomadic ancestors followed the herds each spring.",
+      "tier": "medium",
+      "synonyms": ["wandering", "itinerant", "roving"]
+    },
+    {
+      "id": "wanderlust",
+      "word": "wanderlust",
+      "partOfSpeech": "noun",
+      "definition": "a strong desire to travel and explore the world",
+      "example": "College left her with a permanent case of wanderlust.",
+      "tier": "medium",
+      "synonyms": ["restlessness", "itch to travel", "vagabondage"]
+    },
+    {
+      "id": "odyssey",
+      "word": "odyssey",
+      "partOfSpeech": "noun",
+      "definition": "a long, eventful journey",
+      "example": "Their cross-continent odyssey took the better part of a year.",
+      "tier": "medium",
+      "synonyms": ["journey", "voyage", "expedition"]
+    },
+    {
+      "id": "pilgrimage",
+      "word": "pilgrimage",
+      "partOfSpeech": "noun",
+      "definition": "a journey to a sacred place, or one made for a meaningful personal reason",
+      "example": "Fans make an annual pilgrimage to the stadium where it began.",
+      "tier": "medium",
+      "synonyms": ["journey", "quest", "trek"]
+    },
+    {
+      "id": "expedition",
+      "word": "expedition",
+      "partOfSpeech": "noun",
+      "definition": "a journey undertaken by a group with a particular purpose",
+      "example": "The expedition set out to map the unexplored coastline.",
+      "tier": "easy",
+      "synonyms": ["voyage", "trek", "journey"]
+    },
+    {
+      "id": "foray",
+      "word": "foray",
+      "partOfSpeech": "noun",
+      "definition": "a brief excursion or initial attempt into a new activity or area",
+      "example": "Her first foray into painting produced a surprising canvas.",
+      "tier": "medium",
+      "synonyms": ["venture", "attempt", "incursion"]
+    },
+    {
+      "id": "excursion",
+      "word": "excursion",
+      "partOfSpeech": "noun",
+      "definition": "a short journey or trip, especially for pleasure",
+      "example": "They planned a day excursion to the nearby caves.",
+      "tier": "easy",
+      "synonyms": ["outing", "trip", "jaunt"]
+    },
+    {
+      "id": "meander",
+      "word": "meander",
+      "partOfSpeech": "verb",
+      "definition": "to wander at random without a fixed course or purpose",
+      "example": "The trail meanders along the river for miles.",
+      "tier": "medium",
+      "synonyms": ["wander", "ramble", "drift"]
+    }
+  ],
+  "story": "Old Teodor had spent his whole life [[itinerant|itinerant]], a truly [[peripatetic|peripatetic]] fiddler who never stayed anywhere long. A month here, a [[sojourn|sojourn]] there — some called him a [[vagabond|vagabond]], others simply a man of [[nomadic|nomadic]] habit, driven by pure [[wanderlust|wanderlust]]. His life had become one long [[odyssey|odyssey]], part [[pilgrimage|pilgrimage]] and part accident. What began as a single [[expedition|expedition]] north turned into decades of small [[foray|forays]] into every province, each one really just a longer [[excursion|excursion]] than the last, his route always ready to [[meander|meander]] toward whatever town had music that week."
+}
