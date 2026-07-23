@@ -575,5 +575,14 @@
     "name": "Reading Comprehension",
     "prerequisites": [],
     "description": "Read short passages and answer questions on main idea, detail, inference, purpose, and tone."
+  },
+  {
+    "id": "critical-reasoning",
+    "area": "Reading Comprehension",
+    "section": "Verbal",
+    "topic": "Critical Reasoning",
+    "name": "Critical Reasoning",
+    "prerequisites": [],
+    "description": "Analyze short arguments: strengthen, weaken, find the assumption, resolve a paradox, or draw a valid conclusion."
   }
 ]

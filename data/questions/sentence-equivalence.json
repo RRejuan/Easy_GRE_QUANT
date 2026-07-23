@@ -7,14 +7,35 @@
     "difficulty": 3,
     "stem": "The critic's review was so ______ that the author, who had expected praise, was stunned by its harshness. (Pick the two words alike in meaning.)",
     "options": [
-      { "id": "A", "text": "scathing" },
-      { "id": "B", "text": "laudatory" },
-      { "id": "C", "text": "withering" },
-      { "id": "D", "text": "measured" },
-      { "id": "E", "text": "tepid" },
-      { "id": "F", "text": "cursory" }
+      {
+        "id": "A",
+        "text": "scathing"
+      },
+      {
+        "id": "B",
+        "text": "laudatory"
+      },
+      {
+        "id": "C",
+        "text": "withering"
+      },
+      {
+        "id": "D",
+        "text": "measured"
+      },
+      {
+        "id": "E",
+        "text": "tepid"
+      },
+      {
+        "id": "F",
+        "text": "cursory"
+      }
     ],
-    "answer": ["A", "C"],
+    "answer": [
+      "A",
+      "C"
+    ],
     "solutionStandard": "\"Stunned by its harshness\" calls for words meaning severely critical. \"Scathing\" and \"withering\" are near-synonyms and both fit. \"Laudatory\" (praising) is the opposite; \"measured\" and \"tepid\" are too mild; \"cursory\" (hasty) describes effort, not harshness, and has no synonym partner here.",
     "timeTargetSec": 60
   },
@@ -26,14 +47,35 @@
     "difficulty": 4,
     "stem": "Far from being ______, the new director encouraged even junior staff to challenge her decisions openly. (Pick the two words alike in meaning.)",
     "options": [
-      { "id": "A", "text": "autocratic" },
-      { "id": "B", "text": "affable" },
-      { "id": "C", "text": "imperious" },
-      { "id": "D", "text": "candid" },
-      { "id": "E", "text": "gregarious" },
-      { "id": "F", "text": "diffident" }
+      {
+        "id": "A",
+        "text": "autocratic"
+      },
+      {
+        "id": "B",
+        "text": "affable"
+      },
+      {
+        "id": "C",
+        "text": "imperious"
+      },
+      {
+        "id": "D",
+        "text": "candid"
+      },
+      {
+        "id": "E",
+        "text": "gregarious"
+      },
+      {
+        "id": "F",
+        "text": "diffident"
+      }
     ],
-    "answer": ["A", "C"],
+    "answer": [
+      "A",
+      "C"
+    ],
     "solutionStandard": "\"Far from being\" contrasts the blank with a leader who invites challenge, so the blank means domineering. \"Autocratic\" and \"imperious\" are synonyms and both fit. \"Affable\" and \"gregarious\" (friendly) and \"diffident\" (shy) don't mean domineering; \"candid\" (honest) is unrelated.",
     "timeTargetSec": 65
   },
@@ -45,14 +87,35 @@
     "difficulty": 5,
     "stem": "Though celebrated at the time, the treaty's terms now seem hopelessly ______, addressing yesterday's quarrels while ignoring the crisis to come. (Pick the two words alike in meaning.)",
     "options": [
-      { "id": "A", "text": "prescient" },
-      { "id": "B", "text": "myopic" },
-      { "id": "C", "text": "equitable" },
-      { "id": "D", "text": "shortsighted" },
-      { "id": "E", "text": "draconian" },
-      { "id": "F", "text": "provisional" }
+      {
+        "id": "A",
+        "text": "prescient"
+      },
+      {
+        "id": "B",
+        "text": "myopic"
+      },
+      {
+        "id": "C",
+        "text": "equitable"
+      },
+      {
+        "id": "D",
+        "text": "shortsighted"
+      },
+      {
+        "id": "E",
+        "text": "draconian"
+      },
+      {
+        "id": "F",
+        "text": "provisional"
+      }
     ],
-    "answer": ["B", "D"],
+    "answer": [
+      "B",
+      "D"
+    ],
     "solutionStandard": "\"Addressing yesterday's quarrels while ignoring the crisis to come\" describes a failure of foresight. \"Myopic\" and \"shortsighted\" are synonyms and both fit. \"Prescient\" (foresighted) is the opposite; \"equitable\" (fair), \"draconian\" (harsh), and \"provisional\" (temporary) miss the point.",
     "timeTargetSec": 70
   },
@@ -64,14 +127,35 @@
     "difficulty": 3,
     "stem": "Her explanation was admirably ______: not a word was wasted, and every listener grasped the point at once. (Pick the two words alike in meaning.)",
     "options": [
-      { "id": "A", "text": "succinct" },
-      { "id": "B", "text": "verbose" },
-      { "id": "C", "text": "pithy" },
-      { "id": "D", "text": "convoluted" },
-      { "id": "E", "text": "ambiguous" },
-      { "id": "F", "text": "ponderous" }
+      {
+        "id": "A",
+        "text": "succinct"
+      },
+      {
+        "id": "B",
+        "text": "verbose"
+      },
+      {
+        "id": "C",
+        "text": "pithy"
+      },
+      {
+        "id": "D",
+        "text": "convoluted"
+      },
+      {
+        "id": "E",
+        "text": "ambiguous"
+      },
+      {
+        "id": "F",
+        "text": "ponderous"
+      }
     ],
-    "answer": ["A", "C"],
+    "answer": [
+      "A",
+      "C"
+    ],
     "solutionStandard": "\"Not a word was wasted\" means concise. \"Succinct\" and \"pithy\" are synonyms and both fit. \"Verbose\" and \"ponderous\" mean wordy (opposite); \"convoluted\" and \"ambiguous\" mean unclear.",
     "timeTargetSec": 55
   },
@@ -83,14 +167,35 @@
     "difficulty": 4,
     "stem": "The dictator's rule grew ever more ______, punishing even the mildest dissent with imprisonment. (Pick the two words alike in meaning.)",
     "options": [
-      { "id": "A", "text": "repressive" },
-      { "id": "B", "text": "benevolent" },
-      { "id": "C", "text": "lenient" },
-      { "id": "D", "text": "capricious" },
-      { "id": "E", "text": "transparent" },
-      { "id": "F", "text": "draconian" }
+      {
+        "id": "A",
+        "text": "repressive"
+      },
+      {
+        "id": "B",
+        "text": "benevolent"
+      },
+      {
+        "id": "C",
+        "text": "lenient"
+      },
+      {
+        "id": "D",
+        "text": "capricious"
+      },
+      {
+        "id": "E",
+        "text": "transparent"
+      },
+      {
+        "id": "F",
+        "text": "draconian"
+      }
     ],
-    "answer": ["A", "F"],
+    "answer": [
+      "A",
+      "F"
+    ],
     "solutionStandard": "\"Punishing the mildest dissent with imprisonment\" points to harsh, oppressive rule. \"Repressive\" and \"draconian\" are near-synonyms and both fit. \"Benevolent\" and \"lenient\" are opposites; \"capricious\" (unpredictable) and \"transparent\" (open) don't capture severity.",
     "timeTargetSec": 60
   },
@@ -102,14 +207,35 @@
     "difficulty": 4,
     "stem": "Reviewers found the sequel disappointingly ______, a tired rehash of ideas the first film had already used. (Pick the two words alike in meaning.)",
     "options": [
-      { "id": "A", "text": "inventive" },
-      { "id": "B", "text": "derivative" },
-      { "id": "C", "text": "nuanced" },
-      { "id": "D", "text": "hackneyed" },
-      { "id": "E", "text": "audacious" },
-      { "id": "F", "text": "seminal" }
+      {
+        "id": "A",
+        "text": "inventive"
+      },
+      {
+        "id": "B",
+        "text": "derivative"
+      },
+      {
+        "id": "C",
+        "text": "nuanced"
+      },
+      {
+        "id": "D",
+        "text": "hackneyed"
+      },
+      {
+        "id": "E",
+        "text": "audacious"
+      },
+      {
+        "id": "F",
+        "text": "seminal"
+      }
     ],
-    "answer": ["B", "D"],
+    "answer": [
+      "B",
+      "D"
+    ],
     "solutionStandard": "\"A tired rehash of ideas already used\" means unoriginal. \"Derivative\" and \"hackneyed\" both convey this and are alike in meaning. \"Inventive,\" \"audacious,\" and \"seminal\" all mean original (opposite); \"nuanced\" means subtle.",
     "timeTargetSec": 60
   },
@@ -121,14 +247,35 @@
     "difficulty": 5,
     "stem": "Although he feigned indifference, his ______ glances at the clock betrayed how eager he was to leave. (Pick the two words alike in meaning.)",
     "options": [
-      { "id": "A", "text": "overt" },
-      { "id": "B", "text": "furtive" },
-      { "id": "C", "text": "languid" },
-      { "id": "D", "text": "surreptitious" },
-      { "id": "E", "text": "defiant" },
-      { "id": "F", "text": "casual" }
+      {
+        "id": "A",
+        "text": "overt"
+      },
+      {
+        "id": "B",
+        "text": "furtive"
+      },
+      {
+        "id": "C",
+        "text": "languid"
+      },
+      {
+        "id": "D",
+        "text": "surreptitious"
+      },
+      {
+        "id": "E",
+        "text": "defiant"
+      },
+      {
+        "id": "F",
+        "text": "casual"
+      }
     ],
-    "answer": ["B", "D"],
+    "answer": [
+      "B",
+      "D"
+    ],
     "solutionStandard": "Because he was trying to hide his eagerness, the glances were secretive. \"Furtive\" and \"surreptitious\" are synonyms and both fit. \"Overt\" (open) is the opposite; \"languid,\" \"defiant,\" and \"casual\" don't mean stealthy and lack a matching partner.",
     "timeTargetSec": 65
   },
@@ -140,14 +287,35 @@
     "difficulty": 3,
     "stem": "The committee praised the report for its ______ research, which left no relevant source unexamined. (Pick the two words alike in meaning.)",
     "options": [
-      { "id": "A", "text": "exhaustive" },
-      { "id": "B", "text": "cursory" },
-      { "id": "C", "text": "perfunctory" },
-      { "id": "D", "text": "biased" },
-      { "id": "E", "text": "thorough" },
-      { "id": "F", "text": "concise" }
+      {
+        "id": "A",
+        "text": "exhaustive"
+      },
+      {
+        "id": "B",
+        "text": "cursory"
+      },
+      {
+        "id": "C",
+        "text": "perfunctory"
+      },
+      {
+        "id": "D",
+        "text": "biased"
+      },
+      {
+        "id": "E",
+        "text": "thorough"
+      },
+      {
+        "id": "F",
+        "text": "concise"
+      }
     ],
-    "answer": ["A", "E"],
+    "answer": [
+      "A",
+      "E"
+    ],
     "solutionStandard": "\"Left no relevant source unexamined\" means complete. \"Exhaustive\" and \"thorough\" are synonyms and both fit. \"Cursory\" and \"perfunctory\" mean superficial (opposite); \"biased\" and \"concise\" describe other qualities.",
     "timeTargetSec": 55
   },
@@ -159,14 +327,35 @@
     "difficulty": 4,
     "stem": "Once ______ about the merger, the board now embraced it wholeheartedly, its earlier doubts forgotten. (Pick the two words alike in meaning.)",
     "options": [
-      { "id": "A", "text": "enthusiastic" },
-      { "id": "B", "text": "skeptical" },
-      { "id": "C", "text": "adamant" },
-      { "id": "D", "text": "dubious" },
-      { "id": "E", "text": "indifferent" },
-      { "id": "F", "text": "unanimous" }
+      {
+        "id": "A",
+        "text": "enthusiastic"
+      },
+      {
+        "id": "B",
+        "text": "skeptical"
+      },
+      {
+        "id": "C",
+        "text": "adamant"
+      },
+      {
+        "id": "D",
+        "text": "dubious"
+      },
+      {
+        "id": "E",
+        "text": "indifferent"
+      },
+      {
+        "id": "F",
+        "text": "unanimous"
+      }
     ],
-    "answer": ["B", "D"],
+    "answer": [
+      "B",
+      "D"
+    ],
     "solutionStandard": "\"Now embraced it wholeheartedly, its earlier doubts forgotten\" tells us the board once had doubts. \"Skeptical\" and \"dubious\" are synonyms and both fit. \"Enthusiastic\" is the opposite; \"adamant\" (firm), \"indifferent\" (unconcerned), and \"unanimous\" (in agreement) don't mean doubtful.",
     "timeTargetSec": 60
   },
@@ -178,15 +367,276 @@
     "difficulty": 3,
     "stem": "The old bridge, ______ after decades of neglect, was closed at last before it could collapse. (Pick the two words alike in meaning.)",
     "options": [
-      { "id": "A", "text": "dilapidated" },
-      { "id": "B", "text": "pristine" },
-      { "id": "C", "text": "robust" },
-      { "id": "D", "text": "ornate" },
-      { "id": "E", "text": "decrepit" },
-      { "id": "F", "text": "modern" }
+      {
+        "id": "A",
+        "text": "dilapidated"
+      },
+      {
+        "id": "B",
+        "text": "pristine"
+      },
+      {
+        "id": "C",
+        "text": "robust"
+      },
+      {
+        "id": "D",
+        "text": "ornate"
+      },
+      {
+        "id": "E",
+        "text": "decrepit"
+      },
+      {
+        "id": "F",
+        "text": "modern"
+      }
     ],
-    "answer": ["A", "E"],
+    "answer": [
+      "A",
+      "E"
+    ],
     "solutionStandard": "\"Decades of neglect\" and near-collapse point to a decayed structure. \"Dilapidated\" and \"decrepit\" are synonyms and both fit. \"Pristine,\" \"robust,\" and \"modern\" are opposites; \"ornate\" (decorative) is unrelated to decay.",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "sentence-equivalence-011",
+    "type": "MultiMC",
+    "primarySkill": "sentence-equivalence",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "The senator's ______ replies frustrated reporters, who could never pin her down to a firm position. (Pick the two words alike in meaning.)",
+    "options": [
+      {
+        "id": "A",
+        "text": "candid"
+      },
+      {
+        "id": "B",
+        "text": "evasive"
+      },
+      {
+        "id": "C",
+        "text": "blunt"
+      },
+      {
+        "id": "D",
+        "text": "equivocal"
+      },
+      {
+        "id": "E",
+        "text": "emphatic"
+      },
+      {
+        "id": "F",
+        "text": "succinct"
+      }
+    ],
+    "answer": [
+      "B",
+      "D"
+    ],
+    "solutionStandard": "\"Could never pin her down to a firm position\" means her answers dodged commitment. \"Evasive\" and \"equivocal\" are synonyms and both fit. \"Candid,\" \"blunt,\" and \"emphatic\" are the opposite; \"succinct\" (brief) is unrelated.",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "sentence-equivalence-012",
+    "type": "MultiMC",
+    "primarySkill": "sentence-equivalence",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "Once a ______ backwater, the town now draws tourists from around the world. (Pick the two words alike in meaning.)",
+    "options": [
+      {
+        "id": "A",
+        "text": "bustling"
+      },
+      {
+        "id": "B",
+        "text": "cosmopolitan"
+      },
+      {
+        "id": "C",
+        "text": "sleepy"
+      },
+      {
+        "id": "D",
+        "text": "prosperous"
+      },
+      {
+        "id": "E",
+        "text": "fashionable"
+      },
+      {
+        "id": "F",
+        "text": "obscure"
+      }
+    ],
+    "answer": [
+      "C",
+      "F"
+    ],
+    "solutionStandard": "\"Backwater\" and the contrast with drawing tourists \"now\" imply the town was once quiet and unknown. \"Sleepy\" and \"obscure\" both fit and are alike in meaning. \"Bustling,\" \"cosmopolitan,\" \"prosperous,\" and \"fashionable\" all describe the opposite.",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "sentence-equivalence-013",
+    "type": "MultiMC",
+    "primarySkill": "sentence-equivalence",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "His ______ generosity was legendary; he gave away most of his fortune before he died. (Pick the two words alike in meaning.)",
+    "options": [
+      {
+        "id": "A",
+        "text": "grudging"
+      },
+      {
+        "id": "B",
+        "text": "munificent"
+      },
+      {
+        "id": "C",
+        "text": "modest"
+      },
+      {
+        "id": "D",
+        "text": "lavish"
+      },
+      {
+        "id": "E",
+        "text": "calculated"
+      },
+      {
+        "id": "F",
+        "text": "reluctant"
+      }
+    ],
+    "answer": [
+      "B",
+      "D"
+    ],
+    "solutionStandard": "Giving away most of a fortune is extravagant generosity. \"Munificent\" and \"lavish\" are synonyms and both fit. \"Grudging\" and \"reluctant\" are opposites; \"modest\" understates it; \"calculated\" implies self-interest, not generosity.",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "sentence-equivalence-014",
+    "type": "MultiMC",
+    "primarySkill": "sentence-equivalence",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "The evidence was too ______ for the detective to name a suspect, so she waited for more to surface. (Pick the two words alike in meaning.)",
+    "options": [
+      {
+        "id": "A",
+        "text": "meager"
+      },
+      {
+        "id": "B",
+        "text": "damning"
+      },
+      {
+        "id": "C",
+        "text": "scanty"
+      },
+      {
+        "id": "D",
+        "text": "conclusive"
+      },
+      {
+        "id": "E",
+        "text": "abundant"
+      },
+      {
+        "id": "F",
+        "text": "irrefutable"
+      }
+    ],
+    "answer": [
+      "A",
+      "C"
+    ],
+    "solutionStandard": "Because she couldn't yet name a suspect and awaited more, the evidence was insufficient. \"Meager\" and \"scanty\" are synonyms and both fit. \"Damning,\" \"conclusive,\" and \"irrefutable\" would let her act; \"abundant\" is the opposite of insufficient.",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "sentence-equivalence-015",
+    "type": "MultiMC",
+    "primarySkill": "sentence-equivalence",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "Her lecture was so ______ that students left more confused than when they had arrived. (Pick the two words alike in meaning.)",
+    "options": [
+      {
+        "id": "A",
+        "text": "lucid"
+      },
+      {
+        "id": "B",
+        "text": "convoluted"
+      },
+      {
+        "id": "C",
+        "text": "engaging"
+      },
+      {
+        "id": "D",
+        "text": "muddled"
+      },
+      {
+        "id": "E",
+        "text": "succinct"
+      },
+      {
+        "id": "F",
+        "text": "illuminating"
+      }
+    ],
+    "answer": [
+      "B",
+      "D"
+    ],
+    "solutionStandard": "Leaving students \"more confused\" means the lecture was unclear and tangled. \"Convoluted\" and \"muddled\" are synonyms and both fit. \"Lucid,\" \"engaging,\" \"succinct,\" and \"illuminating\" all describe a clear, helpful lecture.",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "sentence-equivalence-016",
+    "type": "MultiMC",
+    "primarySkill": "sentence-equivalence",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "Reviewers ______ the film, calling it the finest work of the decade. (Pick the two words alike in meaning.)",
+    "options": [
+      {
+        "id": "A",
+        "text": "panned"
+      },
+      {
+        "id": "B",
+        "text": "lauded"
+      },
+      {
+        "id": "C",
+        "text": "dismissed"
+      },
+      {
+        "id": "D",
+        "text": "extolled"
+      },
+      {
+        "id": "E",
+        "text": "ignored"
+      },
+      {
+        "id": "F",
+        "text": "tolerated"
+      }
+    ],
+    "answer": [
+      "B",
+      "D"
+    ],
+    "solutionStandard": "Calling a film \"the finest of the decade\" is high praise. \"Lauded\" and \"extolled\" are synonyms and both fit. \"Panned\" and \"dismissed\" are the opposite; \"ignored\" and \"tolerated\" fall far short of praise.",
     "timeTargetSec": 55
   }
 ]

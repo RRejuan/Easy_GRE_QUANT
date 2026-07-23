@@ -8,11 +8,26 @@
     "passage": "For decades, economists treated the Great Migration — the movement of some six million African Americans from the rural South to northern cities between 1916 and 1970 — primarily as a story of individual ambition. Recent scholarship complicates that picture. Historians now emphasize the dense networks of kinship and church that channeled migrants toward particular neighborhoods and industries, so that a family from a single Mississippi county might reconstitute itself, block by block, in Chicago. On this account, the migration was less a scattering of isolated strivers than a collective transplantation of communities. Yet the older view retains a kernel of truth: the decision to leave, whatever the networks that shaped it, still demanded an act of nerve that many of the migrants' own neighbors were unwilling to make.",
     "stem": "The passage is primarily concerned with",
     "options": [
-      { "id": "A", "text": "refuting the claim that individual ambition played any role in the Great Migration" },
-      { "id": "B", "text": "tracing how recent scholarship has revised the understanding of the Great Migration" },
-      { "id": "C", "text": "arguing that kinship networks were the sole cause of the Great Migration" },
-      { "id": "D", "text": "comparing the Great Migration with other mass migrations of the period" },
-      { "id": "E", "text": "cataloguing the industries that northern migrants most often entered" }
+      {
+        "id": "A",
+        "text": "refuting the claim that individual ambition played any role in the Great Migration"
+      },
+      {
+        "id": "B",
+        "text": "tracing how recent scholarship has revised the understanding of the Great Migration"
+      },
+      {
+        "id": "C",
+        "text": "arguing that kinship networks were the sole cause of the Great Migration"
+      },
+      {
+        "id": "D",
+        "text": "comparing the Great Migration with other mass migrations of the period"
+      },
+      {
+        "id": "E",
+        "text": "cataloguing the industries that northern migrants most often entered"
+      }
     ],
     "answer": "B",
     "solutionStandard": "The passage lays out an older view (individual ambition), the newer view (community networks), and then qualifies the new view by granting the old one a \"kernel of truth.\" That arc is a revision of understanding — choice (B). (A) and (C) are too absolute (the passage preserves a role for individual nerve and never calls networks the \"sole\" cause); (D) offers no comparison; (E) names a detail, not the main concern.",
@@ -27,11 +42,26 @@
     "passage": "For decades, economists treated the Great Migration — the movement of some six million African Americans from the rural South to northern cities between 1916 and 1970 — primarily as a story of individual ambition. Recent scholarship complicates that picture. Historians now emphasize the dense networks of kinship and church that channeled migrants toward particular neighborhoods and industries, so that a family from a single Mississippi county might reconstitute itself, block by block, in Chicago. On this account, the migration was less a scattering of isolated strivers than a collective transplantation of communities. Yet the older view retains a kernel of truth: the decision to leave, whatever the networks that shaped it, still demanded an act of nerve that many of the migrants' own neighbors were unwilling to make.",
     "stem": "The \"kernel of truth\" that the author grants the older view is that",
     "options": [
-      { "id": "A", "text": "migrants acted without any support from their communities" },
-      { "id": "B", "text": "the decision to leave still demanded individual courage" },
-      { "id": "C", "text": "economists had entirely ignored kinship networks" },
-      { "id": "D", "text": "most of the migrants' Southern neighbors also chose to migrate" },
-      { "id": "E", "text": "the migration was driven mainly by economic forces" }
+      {
+        "id": "A",
+        "text": "migrants acted without any support from their communities"
+      },
+      {
+        "id": "B",
+        "text": "the decision to leave still demanded individual courage"
+      },
+      {
+        "id": "C",
+        "text": "economists had entirely ignored kinship networks"
+      },
+      {
+        "id": "D",
+        "text": "most of the migrants' Southern neighbors also chose to migrate"
+      },
+      {
+        "id": "E",
+        "text": "the migration was driven mainly by economic forces"
+      }
     ],
     "answer": "B",
     "solutionStandard": "The final sentence spells out the kernel of truth: leaving \"demanded an act of nerve\" — individual courage — choice (B). (A) contradicts the passage's emphasis on networks; (D) contradicts \"neighbors were unwilling to make\"; (C) describes the new scholarship, not the kernel; (E) is never singled out as the older view's valid core.",
@@ -46,11 +76,26 @@
     "passage": "For decades, economists treated the Great Migration — the movement of some six million African Americans from the rural South to northern cities between 1916 and 1970 — primarily as a story of individual ambition. Recent scholarship complicates that picture. Historians now emphasize the dense networks of kinship and church that channeled migrants toward particular neighborhoods and industries, so that a family from a single Mississippi county might reconstitute itself, block by block, in Chicago. On this account, the migration was less a scattering of isolated strivers than a collective transplantation of communities. Yet the older view retains a kernel of truth: the decision to leave, whatever the networks that shaped it, still demanded an act of nerve that many of the migrants' own neighbors were unwilling to make.",
     "stem": "The example of a family that reconstitutes itself \"block by block\" in Chicago is offered chiefly to illustrate",
     "options": [
-      { "id": "A", "text": "the individual-ambition thesis favored by earlier economists" },
-      { "id": "B", "text": "how kinship and church networks shaped where migrants settled" },
-      { "id": "C", "text": "the economic pull exerted by northern industry" },
-      { "id": "D", "text": "the reluctance of Southern neighbors to leave" },
-      { "id": "E", "text": "the sheer scale of the migration" }
+      {
+        "id": "A",
+        "text": "the individual-ambition thesis favored by earlier economists"
+      },
+      {
+        "id": "B",
+        "text": "how kinship and church networks shaped where migrants settled"
+      },
+      {
+        "id": "C",
+        "text": "the economic pull exerted by northern industry"
+      },
+      {
+        "id": "D",
+        "text": "the reluctance of Southern neighbors to leave"
+      },
+      {
+        "id": "E",
+        "text": "the sheer scale of the migration"
+      }
     ],
     "answer": "B",
     "solutionStandard": "The example directly supports the sentence about \"dense networks of kinship and church that channeled migrants toward particular neighborhoods\" — choice (B). The other options name ideas the passage raises elsewhere but not what this specific example is illustrating.",
@@ -65,11 +110,26 @@
     "passage": "The popular image of the forest as a battleground — each tree straining upward to steal light from its neighbors — has lately been softened by studies of mycorrhizal networks, the underground webs of fungi that link the roots of different trees. Through these fungal threads, older trees can apparently transfer sugars to shaded seedlings, even seedlings of other species. Some writers have leapt from such findings to a vision of the forest as a harmonious community. Ecologists urge caution. The fungi, after all, are not altruists: they take a substantial cut of the sugar they ferry, and a tree that feeds a rival's seedling may simply be paying an unavoidable toll to a fungal middleman. Cooperation and competition, in this view, may be less opposites than two faces of a single transaction.",
     "stem": "The primary purpose of the passage is to",
     "options": [
-      { "id": "A", "text": "prove that trees do not in fact compete for light" },
-      { "id": "B", "text": "defend the view that forests are harmonious communities" },
-      { "id": "C", "text": "qualify a cooperative interpretation of forest ecology by noting the fungi's self-interest" },
-      { "id": "D", "text": "explain in technical detail how mycorrhizal fungi transfer sugar" },
-      { "id": "E", "text": "reject the recent findings about fungal networks as unreliable" }
+      {
+        "id": "A",
+        "text": "prove that trees do not in fact compete for light"
+      },
+      {
+        "id": "B",
+        "text": "defend the view that forests are harmonious communities"
+      },
+      {
+        "id": "C",
+        "text": "qualify a cooperative interpretation of forest ecology by noting the fungi's self-interest"
+      },
+      {
+        "id": "D",
+        "text": "explain in technical detail how mycorrhizal fungi transfer sugar"
+      },
+      {
+        "id": "E",
+        "text": "reject the recent findings about fungal networks as unreliable"
+      }
     ],
     "answer": "C",
     "solutionStandard": "The passage reports the cooperative findings, notes that \"some writers\" over-read them, and then, siding with cautious ecologists, complicates the harmony story by pointing to the fungi's cut. That is a qualification — choice (C). (B) is the view being tempered; (A) overstates; (D) is a detail; (E) is wrong because the author accepts the findings, only their rosy interpretation is challenged.",
@@ -84,11 +144,26 @@
     "passage": "The popular image of the forest as a battleground — each tree straining upward to steal light from its neighbors — has lately been softened by studies of mycorrhizal networks, the underground webs of fungi that link the roots of different trees. Through these fungal threads, older trees can apparently transfer sugars to shaded seedlings, even seedlings of other species. Some writers have leapt from such findings to a vision of the forest as a harmonious community. Ecologists urge caution. The fungi, after all, are not altruists: they take a substantial cut of the sugar they ferry, and a tree that feeds a rival's seedling may simply be paying an unavoidable toll to a fungal middleman. Cooperation and competition, in this view, may be less opposites than two faces of a single transaction.",
     "stem": "The statement that the fungi \"take a substantial cut of the sugar they ferry\" functions to",
     "options": [
-      { "id": "A", "text": "prove that the fungi harm the trees they connect" },
-      { "id": "B", "text": "show that the sugar transfer also benefits the fungi, not only the trees" },
-      { "id": "C", "text": "establish that seedlings cannot survive without fungal help" },
-      { "id": "D", "text": "demonstrate that trees prefer to feed only their own species" },
-      { "id": "E", "text": "suggest that ecologists reject the network studies" }
+      {
+        "id": "A",
+        "text": "prove that the fungi harm the trees they connect"
+      },
+      {
+        "id": "B",
+        "text": "show that the sugar transfer also benefits the fungi, not only the trees"
+      },
+      {
+        "id": "C",
+        "text": "establish that seedlings cannot survive without fungal help"
+      },
+      {
+        "id": "D",
+        "text": "demonstrate that trees prefer to feed only their own species"
+      },
+      {
+        "id": "E",
+        "text": "suggest that ecologists reject the network studies"
+      }
     ],
     "answer": "B",
     "solutionStandard": "The \"cut\" shows the fungi profit from the exchange, undercutting the picture of pure altruism — choice (B). (A) overstates \"harm\"; (C) and (D) are not supported; (E) misreads the ecologists, who accept the studies but resist the harmonious reading.",
@@ -103,11 +178,26 @@
     "passage": "The popular image of the forest as a battleground — each tree straining upward to steal light from its neighbors — has lately been softened by studies of mycorrhizal networks, the underground webs of fungi that link the roots of different trees. Through these fungal threads, older trees can apparently transfer sugars to shaded seedlings, even seedlings of other species. Some writers have leapt from such findings to a vision of the forest as a harmonious community. Ecologists urge caution. The fungi, after all, are not altruists: they take a substantial cut of the sugar they ferry, and a tree that feeds a rival's seedling may simply be paying an unavoidable toll to a fungal middleman. Cooperation and competition, in this view, may be less opposites than two faces of a single transaction.",
     "stem": "The author's attitude toward the writers who envision a \"harmonious community\" is best described as",
     "options": [
-      { "id": "A", "text": "wholehearted agreement" },
-      { "id": "B", "text": "complete indifference" },
-      { "id": "C", "text": "measured skepticism" },
-      { "id": "D", "text": "bitter hostility" },
-      { "id": "E", "text": "reverent admiration" }
+      {
+        "id": "A",
+        "text": "wholehearted agreement"
+      },
+      {
+        "id": "B",
+        "text": "complete indifference"
+      },
+      {
+        "id": "C",
+        "text": "measured skepticism"
+      },
+      {
+        "id": "D",
+        "text": "bitter hostility"
+      },
+      {
+        "id": "E",
+        "text": "reverent admiration"
+      }
     ],
     "answer": "C",
     "solutionStandard": "The author reports these writers \"leapt\" to their vision and then sides with ecologists who \"urge caution\" — doubt, but not contempt. \"Measured skepticism\" (C) captures it. (A) and (E) misread the pushback; (B) ignores that the author bothers to correct them; (D) is too strong for the even tone.",
@@ -122,11 +212,26 @@
     "passage": "The letters reveal a composer very different from the serene genius of legend. In his correspondence, Haydn haggles over fees, complains about drafty lodgings, and frets that a rival will be paid more. Far from diminishing him, these grumblings humanize a figure long frozen into marble. They remind us that the symphonies we revere were produced not in Olympian calm but amid the ordinary anxieties of a working musician who needed his commissions in order to eat.",
     "stem": "The author discusses Haydn's complaints about fees and lodgings mainly in order to",
     "options": [
-      { "id": "A", "text": "suggest that Haydn was, after all, a mediocre composer" },
-      { "id": "B", "text": "argue that Haydn's anxieties damaged the quality of his music" },
-      { "id": "C", "text": "revise an idealized image of the composer by stressing his everyday concerns" },
-      { "id": "D", "text": "prove that Haydn was consistently underpaid for his work" },
-      { "id": "E", "text": "correct errors of dating in the standard accounts of his life" }
+      {
+        "id": "A",
+        "text": "suggest that Haydn was, after all, a mediocre composer"
+      },
+      {
+        "id": "B",
+        "text": "argue that Haydn's anxieties damaged the quality of his music"
+      },
+      {
+        "id": "C",
+        "text": "revise an idealized image of the composer by stressing his everyday concerns"
+      },
+      {
+        "id": "D",
+        "text": "prove that Haydn was consistently underpaid for his work"
+      },
+      {
+        "id": "E",
+        "text": "correct errors of dating in the standard accounts of his life"
+      }
     ],
     "answer": "C",
     "solutionStandard": "The letters show \"a composer very different from the serene genius of legend,\" and the grumblings \"humanize a figure long frozen into marble\" — the point is to replace an idealized image with a more human one, choice (C). (A) and (B) are contradicted by \"far from diminishing him\" and by the reverence for the symphonies; (D) and (E) fixate on details the passage does not argue.",
@@ -141,11 +246,26 @@
     "passage": "The letters reveal a composer very different from the serene genius of legend. In his correspondence, Haydn haggles over fees, complains about drafty lodgings, and frets that a rival will be paid more. Far from diminishing him, these grumblings humanize a figure long frozen into marble. They remind us that the symphonies we revere were produced not in Olympian calm but amid the ordinary anxieties of a working musician who needed his commissions in order to eat.",
     "stem": "As used in the passage, the phrase \"frozen into marble\" most nearly refers to",
     "options": [
-      { "id": "A", "text": "an actual memorial statue of the composer" },
-      { "id": "B", "text": "the cold critical reception of Haydn's music" },
-      { "id": "C", "text": "the rigid, idealized reputation that obscured Haydn's humanity" },
-      { "id": "D", "text": "the financial hardship Haydn endured" },
-      { "id": "E", "text": "the technical difficulty of his late symphonies" }
+      {
+        "id": "A",
+        "text": "an actual memorial statue of the composer"
+      },
+      {
+        "id": "B",
+        "text": "the cold critical reception of Haydn's music"
+      },
+      {
+        "id": "C",
+        "text": "the rigid, idealized reputation that obscured Haydn's humanity"
+      },
+      {
+        "id": "D",
+        "text": "the financial hardship Haydn endured"
+      },
+      {
+        "id": "E",
+        "text": "the technical difficulty of his late symphonies"
+      }
     ],
     "answer": "C",
     "solutionStandard": "\"Frozen into marble\" is a metaphor for the stiff, monument-like legend of the \"serene genius\" that the letters humanize — choice (C). (A) reads the metaphor literally; (B), (D), and (E) import ideas the phrase does not carry.",
@@ -160,11 +280,23 @@
     "passage": "Proponents of universal preschool often cite the Perry Preschool study, whose participants, decades later, earned more and were arrested less than a control group. Critics raise two objections. First, the sample was tiny — barely a hundred children — so its striking results may not generalize. Second, the program was unusually intensive and expensive, staffed by highly trained teachers; a nationwide program run on a fraction of the budget might deliver only a fraction of the benefit. Neither objection shows that preschool fails to work, but together they caution against treating one small, gold-plated experiment as a blueprint for national policy.",
     "stem": "According to the passage, critics of relying on the Perry study raise which of the following objections? Select all that apply.",
     "options": [
-      { "id": "A", "text": "The study's sample was too small for its results to generalize confidently." },
-      { "id": "B", "text": "The program was more intensive and costly than a nationwide program would be." },
-      { "id": "C", "text": "The study found no lasting benefit from preschool attendance." }
+      {
+        "id": "A",
+        "text": "The study's sample was too small for its results to generalize confidently."
+      },
+      {
+        "id": "B",
+        "text": "The program was more intensive and costly than a nationwide program would be."
+      },
+      {
+        "id": "C",
+        "text": "The study found no lasting benefit from preschool attendance."
+      }
     ],
-    "answer": ["A", "B"],
+    "answer": [
+      "A",
+      "B"
+    ],
     "solutionStandard": "The passage names exactly two objections: the \"tiny\" sample (A) and the program's unusual intensity and expense (B). (C) is false — the study found participants \"earned more and were arrested less,\" and even the critics concede the objections don't show \"preschool fails to work.\"",
     "timeTargetSec": 105
   },
@@ -177,14 +309,131 @@
     "passage": "Proponents of universal preschool often cite the Perry Preschool study, whose participants, decades later, earned more and were arrested less than a control group. Critics raise two objections. First, the sample was tiny — barely a hundred children — so its striking results may not generalize. Second, the program was unusually intensive and expensive, staffed by highly trained teachers; a nationwide program run on a fraction of the budget might deliver only a fraction of the benefit. Neither objection shows that preschool fails to work, but together they caution against treating one small, gold-plated experiment as a blueprint for national policy.",
     "stem": "The author's own position on the Perry study is best described as",
     "options": [
-      { "id": "A", "text": "enthusiastic endorsement of it as a model for national policy" },
-      { "id": "B", "text": "dismissal of it as worthless evidence" },
-      { "id": "C", "text": "cautious respect that stops short of treating it as a blueprint" },
-      { "id": "D", "text": "hostility toward the proponents of universal preschool" },
-      { "id": "E", "text": "indifference to what the study found" }
+      {
+        "id": "A",
+        "text": "enthusiastic endorsement of it as a model for national policy"
+      },
+      {
+        "id": "B",
+        "text": "dismissal of it as worthless evidence"
+      },
+      {
+        "id": "C",
+        "text": "cautious respect that stops short of treating it as a blueprint"
+      },
+      {
+        "id": "D",
+        "text": "hostility toward the proponents of universal preschool"
+      },
+      {
+        "id": "E",
+        "text": "indifference to what the study found"
+      }
     ],
     "answer": "C",
     "solutionStandard": "The author grants that \"neither objection shows that preschool fails to work\" yet warns against \"treating one small, gold-plated experiment as a blueprint\" — respect tempered by caution, choice (C). (A) is the very move the author resists; (B) and (E) ignore the acknowledged benefits; (D) mischaracterizes the balanced tone.",
     "timeTargetSec": 100
+  },
+  {
+    "id": "reading-comprehension-011",
+    "type": "MC",
+    "primarySkill": "reading-comprehension",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "passage": "Economists have long puzzled over why people tip in restaurants they will never visit again. Standard theory predicts that a rational diner, facing no threat of worse service in the future, would leave nothing. Yet tipping persists even among tourists in distant cities. One explanation appeals to internalized social norms: the discomfort of violating a rule one has absorbed since childhood outweighs the few dollars saved. A competing account is simpler — most diners never perform the cold calculation the theory imagines, and instead just do what those around them do. The two explanations are difficult to separate, since both predict the same generous behavior.",
+    "stem": "The passage is primarily concerned with",
+    "options": [
+      {
+        "id": "A",
+        "text": "proving that the practice of tipping is fundamentally irrational"
+      },
+      {
+        "id": "B",
+        "text": "arguing that internalized social norms fully explain why people tip"
+      },
+      {
+        "id": "C",
+        "text": "considering why people tip even when self-interest predicts they would not"
+      },
+      {
+        "id": "D",
+        "text": "recommending that diners stop tipping in restaurants they will not revisit"
+      },
+      {
+        "id": "E",
+        "text": "comparing tipping customs in different countries"
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "The passage sets up a puzzle — tipping persists where standard theory says it shouldn't — and weighs two explanations for it. That is choice (C). (B) picks one explanation the passage treats as merely one of two; (A), (D), and (E) describe things the passage never does.",
+    "timeTargetSec": 100
+  },
+  {
+    "id": "reading-comprehension-012",
+    "type": "MC",
+    "primarySkill": "reading-comprehension",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "passage": "Economists have long puzzled over why people tip in restaurants they will never visit again. Standard theory predicts that a rational diner, facing no threat of worse service in the future, would leave nothing. Yet tipping persists even among tourists in distant cities. One explanation appeals to internalized social norms: the discomfort of violating a rule one has absorbed since childhood outweighs the few dollars saved. A competing account is simpler — most diners never perform the cold calculation the theory imagines, and instead just do what those around them do. The two explanations are difficult to separate, since both predict the same generous behavior.",
+    "stem": "According to the passage, \"standard theory\" predicts that a diner at a restaurant never to be revisited would",
+    "options": [
+      {
+        "id": "A",
+        "text": "tip generously out of ingrained habit"
+      },
+      {
+        "id": "B",
+        "text": "leave no tip at all"
+      },
+      {
+        "id": "C",
+        "text": "tip strictly in proportion to the quality of service"
+      },
+      {
+        "id": "D",
+        "text": "imitate the behavior of nearby diners"
+      },
+      {
+        "id": "E",
+        "text": "leave only a very small tip"
+      }
+    ],
+    "answer": "B",
+    "solutionStandard": "The passage states that standard theory predicts \"a rational diner ... would leave nothing\" — choice (B). The other options describe the actual behavior the theory fails to predict, or the rival explanations, not the theory's own prediction.",
+    "timeTargetSec": 90
+  },
+  {
+    "id": "reading-comprehension-013",
+    "type": "MC",
+    "primarySkill": "reading-comprehension",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "passage": "Economists have long puzzled over why people tip in restaurants they will never visit again. Standard theory predicts that a rational diner, facing no threat of worse service in the future, would leave nothing. Yet tipping persists even among tourists in distant cities. One explanation appeals to internalized social norms: the discomfort of violating a rule one has absorbed since childhood outweighs the few dollars saved. A competing account is simpler — most diners never perform the cold calculation the theory imagines, and instead just do what those around them do. The two explanations are difficult to separate, since both predict the same generous behavior.",
+    "stem": "The author states that the two explanations are \"difficult to separate\" mainly because",
+    "options": [
+      {
+        "id": "A",
+        "text": "both explanations have been shown to be false"
+      },
+      {
+        "id": "B",
+        "text": "they lead to the same prediction about how diners behave"
+      },
+      {
+        "id": "C",
+        "text": "neither explanation has any supporting evidence"
+      },
+      {
+        "id": "D",
+        "text": "economists have refused to test either one"
+      },
+      {
+        "id": "E",
+        "text": "tipping varies too much from person to person"
+      }
+    ],
+    "answer": "B",
+    "solutionStandard": "The final sentence gives the reason directly: the explanations are hard to separate \"since both predict the same generous behavior\" — choice (B). If two accounts predict identical behavior, observing that behavior can't tell them apart. The other options are not stated.",
+    "timeTargetSec": 95
   }
 ]

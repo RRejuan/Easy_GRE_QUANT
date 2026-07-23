@@ -7,11 +7,26 @@
     "difficulty": 3,
     "stem": "Although critics had predicted that the merger would be contentious, the negotiations proved remarkably ______, concluding within a single week.",
     "options": [
-      { "id": "A", "text": "acrimonious" },
-      { "id": "B", "text": "protracted" },
-      { "id": "C", "text": "amicable" },
-      { "id": "D", "text": "clandestine" },
-      { "id": "E", "text": "lucrative" }
+      {
+        "id": "A",
+        "text": "acrimonious"
+      },
+      {
+        "id": "B",
+        "text": "protracted"
+      },
+      {
+        "id": "C",
+        "text": "amicable"
+      },
+      {
+        "id": "D",
+        "text": "clandestine"
+      },
+      {
+        "id": "E",
+        "text": "lucrative"
+      }
     ],
     "answer": "C",
     "solutionStandard": "\"Although\" signals a contrast with \"contentious,\" and \"concluding within a single week\" confirms the talks went smoothly. \"Amicable\" (friendly, cooperative) fits. \"Acrimonious\" is a synonym for contentious (wrong direction); \"protracted\" contradicts the quick conclusion; \"clandestine\" and \"lucrative\" are irrelevant to how the negotiations felt.",
@@ -25,11 +40,26 @@
     "difficulty": 3,
     "stem": "The senator was known for her ______; she never disguised her opinions, even when such frankness cost her allies.",
     "options": [
-      { "id": "A", "text": "candor" },
-      { "id": "B", "text": "reticence" },
-      { "id": "C", "text": "duplicity" },
-      { "id": "D", "text": "timidity" },
-      { "id": "E", "text": "charisma" }
+      {
+        "id": "A",
+        "text": "candor"
+      },
+      {
+        "id": "B",
+        "text": "reticence"
+      },
+      {
+        "id": "C",
+        "text": "duplicity"
+      },
+      {
+        "id": "D",
+        "text": "timidity"
+      },
+      {
+        "id": "E",
+        "text": "charisma"
+      }
     ],
     "answer": "A",
     "solutionStandard": "The semicolon restates the blank: \"never disguised her opinions\" and \"such frankness\" both point to openness. \"Candor\" matches. \"Reticence\" and \"timidity\" are opposites; \"duplicity\" means deceit (opposite of frankness); \"charisma\" is unrelated to hiding or revealing opinions.",
@@ -43,11 +73,26 @@
     "difficulty": 4,
     "stem": "Because the evidence was entirely ______, resting on rumor rather than fact, the jury dismissed it after only a brief deliberation.",
     "options": [
-      { "id": "A", "text": "irrefutable" },
-      { "id": "B", "text": "meticulous" },
-      { "id": "C", "text": "copious" },
-      { "id": "D", "text": "tenuous" },
-      { "id": "E", "text": "pertinent" }
+      {
+        "id": "A",
+        "text": "irrefutable"
+      },
+      {
+        "id": "B",
+        "text": "meticulous"
+      },
+      {
+        "id": "C",
+        "text": "copious"
+      },
+      {
+        "id": "D",
+        "text": "tenuous"
+      },
+      {
+        "id": "E",
+        "text": "pertinent"
+      }
     ],
     "answer": "D",
     "solutionStandard": "\"Resting on rumor rather than fact\" and \"dismissed\" tell us the evidence was weak. \"Tenuous\" (flimsy, insubstantial) fits. \"Irrefutable\" and \"pertinent\" would give the jury reason to keep it; \"meticulous\" describes care, not strength; \"copious\" describes quantity, but a large amount of rumor is still weak.",
@@ -61,11 +106,26 @@
     "difficulty": 4,
     "stem": "Far from being the ______ recluse the tabloids had described, the actress proved warm and voluble in person.",
     "options": [
-      { "id": "A", "text": "gregarious" },
-      { "id": "B", "text": "affable" },
-      { "id": "C", "text": "eloquent" },
-      { "id": "D", "text": "candid" },
-      { "id": "E", "text": "taciturn" }
+      {
+        "id": "A",
+        "text": "gregarious"
+      },
+      {
+        "id": "B",
+        "text": "affable"
+      },
+      {
+        "id": "C",
+        "text": "eloquent"
+      },
+      {
+        "id": "D",
+        "text": "candid"
+      },
+      {
+        "id": "E",
+        "text": "taciturn"
+      }
     ],
     "answer": "E",
     "solutionStandard": "\"Far from being\" sets up a contrast with \"warm and voluble,\" so the blank must describe the withdrawn recluse the tabloids imagined. \"Taciturn\" (reserved, saying little) fits and pairs naturally with \"recluse.\" \"Gregarious,\" \"affable,\" and \"eloquent\" all describe a warm, talkative person — the opposite of the intended contrast; \"candid\" is about honesty, not sociability.",
@@ -79,11 +139,26 @@
     "difficulty": 3,
     "stem": "A good mediator remains ______, refusing to favor either side so that both parties can trust the process.",
     "options": [
-      { "id": "A", "text": "partisan" },
-      { "id": "B", "text": "impartial" },
-      { "id": "C", "text": "obsequious" },
-      { "id": "D", "text": "belligerent" },
-      { "id": "E", "text": "capricious" }
+      {
+        "id": "A",
+        "text": "partisan"
+      },
+      {
+        "id": "B",
+        "text": "impartial"
+      },
+      {
+        "id": "C",
+        "text": "obsequious"
+      },
+      {
+        "id": "D",
+        "text": "belligerent"
+      },
+      {
+        "id": "E",
+        "text": "capricious"
+      }
     ],
     "answer": "B",
     "solutionStandard": "\"Refusing to favor either side\" defines the blank: \"impartial\" (unbiased) is exact. \"Partisan\" is its opposite; \"obsequious\" (fawning), \"belligerent\" (hostile), and \"capricious\" (unpredictable) do not describe neutrality.",
@@ -97,11 +172,26 @@
     "difficulty": 4,
     "stem": "The professor's lectures, though undeniably ______, were delivered in so flat a monotone that even devoted students struggled to stay awake.",
     "options": [
-      { "id": "A", "text": "soporific" },
-      { "id": "B", "text": "tedious" },
-      { "id": "C", "text": "erudite" },
-      { "id": "D", "text": "vapid" },
-      { "id": "E", "text": "incoherent" }
+      {
+        "id": "A",
+        "text": "soporific"
+      },
+      {
+        "id": "B",
+        "text": "tedious"
+      },
+      {
+        "id": "C",
+        "text": "erudite"
+      },
+      {
+        "id": "D",
+        "text": "vapid"
+      },
+      {
+        "id": "E",
+        "text": "incoherent"
+      }
     ],
     "answer": "C",
     "solutionStandard": "\"Though\" concedes a virtue that survives despite the dull delivery, so the blank must be positive. \"Erudite\" (learned) is the redeeming quality. \"Soporific\" (sleep-inducing) merely agrees with the monotone rather than contrasting with it; \"tedious,\" \"vapid,\" and \"incoherent\" are all negatives and leave nothing for \"though\" to concede.",
@@ -115,11 +205,26 @@
     "difficulty": 4,
     "stem": "Years of drought had so ______ the once-fertile valley that not even hardy weeds could take root in its cracked soil.",
     "options": [
-      { "id": "A", "text": "enriched" },
-      { "id": "B", "text": "inundated" },
-      { "id": "C", "text": "invigorated" },
-      { "id": "D", "text": "desiccated" },
-      { "id": "E", "text": "cultivated" }
+      {
+        "id": "A",
+        "text": "enriched"
+      },
+      {
+        "id": "B",
+        "text": "inundated"
+      },
+      {
+        "id": "C",
+        "text": "invigorated"
+      },
+      {
+        "id": "D",
+        "text": "desiccated"
+      },
+      {
+        "id": "E",
+        "text": "cultivated"
+      }
     ],
     "answer": "D",
     "solutionStandard": "Drought and \"cracked soil\" in which nothing grows point to extreme dryness. \"Desiccated\" (dried out) fits. \"Enriched,\" \"invigorated,\" and \"cultivated\" suggest improvement (opposite); \"inundated\" means flooded, the reverse of drought.",
@@ -133,11 +238,26 @@
     "difficulty": 4,
     "stem": "The novel's plot is so ______ that many readers keep a diagram just to track its dozens of interwoven subplots.",
     "options": [
-      { "id": "A", "text": "convoluted" },
-      { "id": "B", "text": "pedestrian" },
-      { "id": "C", "text": "succinct" },
-      { "id": "D", "text": "derivative" },
-      { "id": "E", "text": "transparent" }
+      {
+        "id": "A",
+        "text": "convoluted"
+      },
+      {
+        "id": "B",
+        "text": "pedestrian"
+      },
+      {
+        "id": "C",
+        "text": "succinct"
+      },
+      {
+        "id": "D",
+        "text": "derivative"
+      },
+      {
+        "id": "E",
+        "text": "transparent"
+      }
     ],
     "answer": "A",
     "solutionStandard": "Needing a diagram for \"dozens of interwoven subplots\" signals extreme complexity. \"Convoluted\" (intricate, twisting) fits. \"Succinct\" and \"transparent\" mean clear and simple (opposite); \"pedestrian\" (dull) and \"derivative\" (unoriginal) describe quality, not complexity.",
@@ -151,11 +271,26 @@
     "difficulty": 3,
     "stem": "Whereas her early paintings were praised for their restraint, her later work grew increasingly ______, crowded with vivid color and heavy ornament.",
     "options": [
-      { "id": "A", "text": "austere" },
-      { "id": "B", "text": "muted" },
-      { "id": "C", "text": "somber" },
-      { "id": "D", "text": "minimalist" },
-      { "id": "E", "text": "florid" }
+      {
+        "id": "A",
+        "text": "austere"
+      },
+      {
+        "id": "B",
+        "text": "muted"
+      },
+      {
+        "id": "C",
+        "text": "somber"
+      },
+      {
+        "id": "D",
+        "text": "minimalist"
+      },
+      {
+        "id": "E",
+        "text": "florid"
+      }
     ],
     "answer": "E",
     "solutionStandard": "\"Whereas ... restraint\" contrasts with \"crowded with vivid color and heavy ornament,\" so the blank means ornate and excessive. \"Florid\" fits. \"Austere,\" \"muted,\" \"somber,\" and \"minimalist\" are all near-synonyms for restraint — the wrong direction.",
@@ -169,11 +304,26 @@
     "difficulty": 5,
     "stem": "Rather than ______ his critics, the director engaged them, folding their sharpest objections into his revised film.",
     "options": [
-      { "id": "A", "text": "placate" },
-      { "id": "B", "text": "rebuff" },
-      { "id": "C", "text": "heed" },
-      { "id": "D", "text": "emulate" },
-      { "id": "E", "text": "court" }
+      {
+        "id": "A",
+        "text": "placate"
+      },
+      {
+        "id": "B",
+        "text": "rebuff"
+      },
+      {
+        "id": "C",
+        "text": "heed"
+      },
+      {
+        "id": "D",
+        "text": "emulate"
+      },
+      {
+        "id": "E",
+        "text": "court"
+      }
     ],
     "answer": "B",
     "solutionStandard": "\"Rather than ___ ... he engaged them\" needs the opposite of engaging. \"Rebuff\" (to reject or snub) fits. \"Heed\" means to listen to — a form of engaging; \"placate\" and \"court\" both mean to win over; \"emulate\" (imitate) makes no sense with critics.",
@@ -187,11 +337,26 @@
     "difficulty": 3,
     "stem": "The scientist was careful to present her findings as ______, stressing that further experiments might well overturn them.",
     "options": [
-      { "id": "A", "text": "definitive" },
-      { "id": "B", "text": "irrefutable" },
-      { "id": "C", "text": "provisional" },
-      { "id": "D", "text": "exhaustive" },
-      { "id": "E", "text": "seminal" }
+      {
+        "id": "A",
+        "text": "definitive"
+      },
+      {
+        "id": "B",
+        "text": "irrefutable"
+      },
+      {
+        "id": "C",
+        "text": "provisional"
+      },
+      {
+        "id": "D",
+        "text": "exhaustive"
+      },
+      {
+        "id": "E",
+        "text": "seminal"
+      }
     ],
     "answer": "C",
     "solutionStandard": "\"Further experiments might overturn them\" means the findings are not final. \"Provisional\" (tentative, subject to revision) fits. \"Definitive\" and \"irrefutable\" claim certainty (opposite); \"exhaustive\" means thorough; \"seminal\" means influential — neither addresses tentativeness.",
@@ -205,14 +370,227 @@
     "difficulty": 5,
     "stem": "Once a byword for ______, the district has reinvented itself: its derelict factories are now galleries, and its vacant lots are now parks.",
     "options": [
-      { "id": "A", "text": "opulence" },
-      { "id": "B", "text": "innovation" },
-      { "id": "C", "text": "serenity" },
-      { "id": "D", "text": "blight" },
-      { "id": "E", "text": "commerce" }
+      {
+        "id": "A",
+        "text": "opulence"
+      },
+      {
+        "id": "B",
+        "text": "innovation"
+      },
+      {
+        "id": "C",
+        "text": "serenity"
+      },
+      {
+        "id": "D",
+        "text": "blight"
+      },
+      {
+        "id": "E",
+        "text": "commerce"
+      }
     ],
     "answer": "D",
     "solutionStandard": "\"Derelict factories\" and \"vacant lots\" describe the run-down past the district has since escaped, so the blank names urban decay. \"Blight\" fits. \"Opulence\" and \"innovation\" are positive (wrong); \"serenity\" and \"commerce\" don't match derelict, abandoned surroundings.",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "text-completion-single-013",
+    "type": "MC",
+    "primarySkill": "text-completion-single",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "The report was praised for its ______: complex findings were laid out so plainly that even a layperson could follow every step.",
+    "options": [
+      {
+        "id": "A",
+        "text": "obscurity"
+      },
+      {
+        "id": "B",
+        "text": "lucidity"
+      },
+      {
+        "id": "C",
+        "text": "brevity"
+      },
+      {
+        "id": "D",
+        "text": "rigor"
+      },
+      {
+        "id": "E",
+        "text": "subtlety"
+      }
+    ],
+    "answer": "B",
+    "solutionStandard": "\"Laid out so plainly that even a layperson could follow\" defines the virtue as clarity. \"Lucidity\" fits. \"Obscurity\" is the opposite; \"brevity,\" \"rigor,\" and \"subtlety\" describe other qualities, not plainness.",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "text-completion-single-014",
+    "type": "MC",
+    "primarySkill": "text-completion-single",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "Having been ______ by a long string of easy victories, the team badly underestimated its next opponent and lost.",
+    "options": [
+      {
+        "id": "A",
+        "text": "chastened"
+      },
+      {
+        "id": "B",
+        "text": "unnerved"
+      },
+      {
+        "id": "C",
+        "text": "vindicated"
+      },
+      {
+        "id": "D",
+        "text": "lulled"
+      },
+      {
+        "id": "E",
+        "text": "exhausted"
+      }
+    ],
+    "answer": "D",
+    "solutionStandard": "Easy wins that lead a team to underestimate an opponent produced false comfort. \"Lulled\" (into complacency) fits. \"Chastened\" and \"unnerved\" would make the team more careful, not less; \"vindicated\" and \"exhausted\" don't explain the overconfidence.",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "text-completion-single-015",
+    "type": "MC",
+    "primarySkill": "text-completion-single",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "The philosopher's prose is famously ______; his sentences wind through so many qualifications that readers lose the thread.",
+    "options": [
+      {
+        "id": "A",
+        "text": "labyrinthine"
+      },
+      {
+        "id": "B",
+        "text": "lucid"
+      },
+      {
+        "id": "C",
+        "text": "terse"
+      },
+      {
+        "id": "D",
+        "text": "elegant"
+      },
+      {
+        "id": "E",
+        "text": "succinct"
+      }
+    ],
+    "answer": "A",
+    "solutionStandard": "Sentences that \"wind through so many qualifications that readers lose the thread\" are tangled and hard to follow. \"Labyrinthine\" fits. \"Lucid,\" \"terse,\" \"elegant,\" and \"succinct\" all suggest clarity or brevity — the opposite.",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "text-completion-single-016",
+    "type": "MC",
+    "primarySkill": "text-completion-single",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "Although the museum's collection is vast, its most famous painting is surprisingly ______, no larger than a sheet of paper.",
+    "options": [
+      {
+        "id": "A",
+        "text": "imposing"
+      },
+      {
+        "id": "B",
+        "text": "ornate"
+      },
+      {
+        "id": "C",
+        "text": "valuable"
+      },
+      {
+        "id": "D",
+        "text": "fragile"
+      },
+      {
+        "id": "E",
+        "text": "diminutive"
+      }
+    ],
+    "answer": "E",
+    "solutionStandard": "\"No larger than a sheet of paper\" points to small size. \"Diminutive\" fits. \"Imposing\" is the opposite; \"ornate,\" \"valuable,\" and \"fragile\" describe other traits, not smallness.",
+    "timeTargetSec": 50
+  },
+  {
+    "id": "text-completion-single-017",
+    "type": "MC",
+    "primarySkill": "text-completion-single",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "Critics initially dismissed the composer as derivative, but posterity has proved more ______, hailing him as an innovator ahead of his time.",
+    "options": [
+      {
+        "id": "A",
+        "text": "dismissive"
+      },
+      {
+        "id": "B",
+        "text": "appreciative"
+      },
+      {
+        "id": "C",
+        "text": "indifferent"
+      },
+      {
+        "id": "D",
+        "text": "severe"
+      },
+      {
+        "id": "E",
+        "text": "ambivalent"
+      }
+    ],
+    "answer": "B",
+    "solutionStandard": "\"But\" contrasts the early dismissal with later praise (\"hailing him as an innovator\"), so posterity's view is favorable. \"Appreciative\" fits. \"Dismissive\" and \"severe\" repeat the early hostility; \"indifferent\" and \"ambivalent\" fall short of \"hailing.\"",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "text-completion-single-018",
+    "type": "MC",
+    "primarySkill": "text-completion-single",
+    "secondarySkills": [],
+    "difficulty": 5,
+    "stem": "Far from ______ the rumor, the official's evasive non-answer only fanned it, leaving reporters more suspicious than before.",
+    "options": [
+      {
+        "id": "A",
+        "text": "spreading"
+      },
+      {
+        "id": "B",
+        "text": "igniting"
+      },
+      {
+        "id": "C",
+        "text": "exploiting"
+      },
+      {
+        "id": "D",
+        "text": "dispelling"
+      },
+      {
+        "id": "E",
+        "text": "confirming"
+      }
+    ],
+    "answer": "D",
+    "solutionStandard": "\"Far from ___ ... only fanned it\" needs the opposite of fanning a rumor. \"Dispelling\" (putting it to rest) fits. \"Spreading,\" \"igniting,\" and \"exploiting\" are near-synonyms for fanning; \"confirming\" would also intensify the rumor.",
     "timeTargetSec": 65
   }
 ]

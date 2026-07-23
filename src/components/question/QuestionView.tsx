@@ -188,6 +188,7 @@ export function QuestionView({
           question={displayQuestion}
           onSubmit={handleSubmit}
           initialAnswer={submittedAnswer as "A" | "B" | "C" | "D" | undefined}
+          autoRecord={deferFeedback}
         />
       )}
       {!locked && displayQuestion.type === "MC" && (
@@ -195,6 +196,7 @@ export function QuestionView({
           question={displayQuestion}
           onSubmit={handleSubmit}
           initialAnswer={submittedAnswer as string | undefined}
+          autoRecord={deferFeedback}
         />
       )}
       {!locked && displayQuestion.type === "MultiMC" && (
@@ -202,10 +204,15 @@ export function QuestionView({
           question={displayQuestion}
           onSubmit={handleSubmit}
           initialAnswer={submittedAnswer as string[] | undefined}
+          autoRecord={deferFeedback}
         />
       )}
       {!locked && displayQuestion.type === "Numeric" && (
-        <NumericInput onSubmit={handleSubmit} initialAnswer={submittedAnswer as number | undefined} />
+        <NumericInput
+          onSubmit={handleSubmit}
+          initialAnswer={submittedAnswer as number | undefined}
+          autoRecord={deferFeedback}
+        />
       )}
 
       {/* After submitting in skill practice, keep the options visible with the

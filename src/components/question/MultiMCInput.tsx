@@ -6,20 +6,23 @@ export function MultiMCInput({
   question,
   onSubmit,
   initialAnswer,
+  autoRecord = false,
 }: {
   question: MultiMCQuestion;
   onSubmit: (answer: string[]) => void;
   initialAnswer?: string[];
+  autoRecord?: boolean;
 }) {
   const [selected, setSelected] = useState<Set<string>>(new Set(initialAnswer ?? []));
 
   function toggle(optionId: string) {
-    setSelected((prev) => {
-      const next = new Set(prev);
-      if (next.has(optionId)) next.delete(optionId);
-      else next.add(optionId);
-      return next;
-    });
+    const next = new Set(selected);
+    if (next.has(optionId)) next.delete(optionId);
+    else next.add(optionId);
+    setSelected(next);
+    // Record outside the state updater to avoid calling the parent's setState
+    // during render.
+    if (autoRecord) onSubmit([...next]);
   }
 
   return (
@@ -36,13 +39,15 @@ export function MultiMCInput({
           </label>
         ))}
       </fieldset>
-      <button
-        type="button"
-        disabled={selected.size === 0}
-        onClick={() => onSubmit([...selected])}
-      >
-        Submit
-      </button>
+      {!autoRecord && (
+        <button
+          type="button"
+          disabled={selected.size === 0}
+          onClick={() => onSubmit([...selected])}
+        >
+          Submit
+        </button>
+      )}
     </div>
   );
 }
