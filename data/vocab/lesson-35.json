@@ -1,0 +1,115 @@
+{
+  "id": "lesson-35",
+  "title": "Lesson 35 — Calm and Storm",
+  "words": [
+    {
+      "id": "tranquil",
+      "word": "tranquil",
+      "partOfSpeech": "adjective",
+      "definition": "free from disturbance; calm",
+      "example": "The lake was tranquil at dawn, without a ripple.",
+      "tier": "easy",
+      "synonyms": ["calm", "peaceful", "serene"]
+    },
+    {
+      "id": "placid",
+      "word": "placid",
+      "partOfSpeech": "adjective",
+      "definition": "not easily upset or excited; calm and peaceful",
+      "example": "A placid temperament made her ideal for the crisis line.",
+      "tier": "medium",
+      "synonyms": ["calm", "serene", "unruffled"]
+    },
+    {
+      "id": "serene",
+      "word": "serene",
+      "partOfSpeech": "adjective",
+      "definition": "calm, peaceful, and untroubled",
+      "example": "A serene smile suggested nothing was wrong.",
+      "tier": "easy",
+      "synonyms": ["calm", "tranquil", "placid"]
+    },
+    {
+      "id": "halcyon",
+      "word": "halcyon",
+      "partOfSpeech": "adjective",
+      "definition": "denoting a past period regarded as idyllically calm and happy",
+      "example": "He often spoke of the halcyon days before the war.",
+      "tier": "hard",
+      "synonyms": ["idyllic", "blissful", "golden"]
+    },
+    {
+      "id": "turbulent",
+      "word": "turbulent",
+      "partOfSpeech": "adjective",
+      "definition": "marked by conflict, disorder, or violent change",
+      "example": "The country emerged from a turbulent decade of unrest.",
+      "tier": "medium",
+      "synonyms": ["chaotic", "stormy", "volatile"]
+    },
+    {
+      "id": "tempestuous",
+      "word": "tempestuous",
+      "partOfSpeech": "adjective",
+      "definition": "characterized by strong and turbulent or conflicting emotion",
+      "example": "Their tempestuous relationship never lasted a calm week.",
+      "tier": "hard",
+      "synonyms": ["stormy", "turbulent", "volatile"]
+    },
+    {
+      "id": "boisterous",
+      "word": "boisterous",
+      "partOfSpeech": "adjective",
+      "definition": "noisy, energetic, and cheerfully rowdy",
+      "example": "A boisterous celebration spilled out onto the street.",
+      "tier": "medium",
+      "synonyms": ["rowdy", "raucous", "unruly"]
+    },
+    {
+      "id": "unruffled",
+      "word": "unruffled",
+      "partOfSpeech": "adjective",
+      "definition": "not agitated or disturbed; calm",
+      "example": "Even under attack, the CEO stayed unruffled at the podium.",
+      "tier": "medium",
+      "synonyms": ["calm", "composed", "collected"]
+    },
+    {
+      "id": "composed",
+      "word": "composed",
+      "partOfSpeech": "adjective",
+      "definition": "having one's feelings and expression under control; calm",
+      "example": "She remained composed through the entire cross-examination.",
+      "tier": "easy",
+      "synonyms": ["calm", "collected", "self-possessed"]
+    },
+    {
+      "id": "agitated",
+      "word": "agitated",
+      "partOfSpeech": "adjective",
+      "definition": "feeling or appearing troubled or nervous",
+      "example": "An agitated crowd pressed toward the locked doors.",
+      "tier": "easy",
+      "synonyms": ["anxious", "flustered", "unsettled"]
+    },
+    {
+      "id": "frenzied",
+      "word": "frenzied",
+      "partOfSpeech": "adjective",
+      "definition": "wildly excited or uncontrolled",
+      "example": "A frenzied scramble for the exits followed the alarm.",
+      "tier": "medium",
+      "synonyms": ["frantic", "wild", "hysterical"]
+    },
+    {
+      "id": "hectic",
+      "word": "hectic",
+      "partOfSpeech": "adjective",
+      "definition": "full of frantic activity",
+      "example": "A hectic morning left no time for breakfast.",
+      "tier": "easy",
+      "synonyms": ["frantic", "chaotic", "frenetic"]
+    }
+  ],
+  "story": "The island's weather matched its history. Some years brought [[tranquil|tranquil]], [[placid|placid]] seasons — the old-timers called them [[serene|serene]], almost [[halcyon|halcyon]] stretches when nothing much happened. Other years turned [[turbulent|turbulent]] and [[tempestuous|tempestuous]], with [[boisterous|boisterous]] storms rattling the harbor for weeks. The lighthouse keeper prided himself on staying [[unruffled|unruffled]] and [[composed|composed]] through either kind, while newer sailors grew visibly [[agitated|agitated]], sometimes [[frenzied|frenzied]], during even a [[hectic|hectic]] afternoon squall."
+}
