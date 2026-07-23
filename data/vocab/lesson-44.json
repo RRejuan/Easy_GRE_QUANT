@@ -1,0 +1,115 @@
+{
+  "id": "lesson-44",
+  "title": "Lesson 44 — Passion and Apathy",
+  "words": [
+    {
+      "id": "vehement",
+      "word": "vehement",
+      "partOfSpeech": "adjective",
+      "definition": "showing strong, forceful, or passionate feeling",
+      "example": "She issued a vehement denial within the hour.",
+      "tier": "medium",
+      "synonyms": ["forceful", "fervent", "intense"]
+    },
+    {
+      "id": "apathetic",
+      "word": "apathetic",
+      "partOfSpeech": "adjective",
+      "definition": "showing little interest, enthusiasm, or concern",
+      "example": "Turnout was low among apathetic young voters.",
+      "tier": "medium",
+      "synonyms": ["indifferent", "unmoved", "listless"]
+    },
+    {
+      "id": "indifferent",
+      "word": "indifferent",
+      "partOfSpeech": "adjective",
+      "definition": "having no particular interest or concern; neutral",
+      "example": "He seemed indifferent to which restaurant they chose.",
+      "tier": "easy",
+      "synonyms": ["apathetic", "unconcerned", "detached"]
+    },
+    {
+      "id": "nonchalant",
+      "word": "nonchalant",
+      "partOfSpeech": "adjective",
+      "definition": "feeling or appearing casually calm and unconcerned",
+      "example": "He gave a nonchalant shrug and changed the subject.",
+      "tier": "medium",
+      "synonyms": ["casual", "unconcerned", "cool"]
+    },
+    {
+      "id": "blase",
+      "word": "blasé",
+      "partOfSpeech": "adjective",
+      "definition": "unimpressed or indifferent, especially through overfamiliarity",
+      "example": "Frequent flyers grow blasé about even the best views.",
+      "tier": "hard",
+      "synonyms": ["unimpressed", "jaded", "nonchalant"]
+    },
+    {
+      "id": "insouciant",
+      "word": "insouciant",
+      "partOfSpeech": "adjective",
+      "definition": "showing a casual lack of concern; carefree",
+      "example": "Her insouciant attitude toward deadlines worried her boss.",
+      "tier": "hard",
+      "synonyms": ["carefree", "nonchalant", "unconcerned"]
+    },
+    {
+      "id": "stoic",
+      "word": "stoic",
+      "partOfSpeech": "adjective",
+      "definition": "enduring pain or hardship without showing feelings or complaint",
+      "example": "He remained stoic through the entire painful procedure.",
+      "tier": "medium",
+      "synonyms": ["impassive", "unemotional", "resigned"]
+    },
+    {
+      "id": "ardent",
+      "word": "ardent",
+      "partOfSpeech": "adjective",
+      "definition": "enthusiastic or passionate",
+      "example": "An ardent supporter who never missed a rally.",
+      "tier": "medium",
+      "synonyms": ["passionate", "fervent", "zealous"]
+    },
+    {
+      "id": "avid",
+      "word": "avid",
+      "partOfSpeech": "adjective",
+      "definition": "having or showing great enthusiasm for an activity or interest",
+      "example": "An avid reader who finished a book a week.",
+      "tier": "easy",
+      "synonyms": ["enthusiastic", "keen", "eager"]
+    },
+    {
+      "id": "zealot",
+      "word": "zealot",
+      "partOfSpeech": "noun",
+      "definition": "a person who is fanatical and uncompromising in pursuit of their beliefs",
+      "example": "A zealot on the committee blocked every compromise.",
+      "tier": "medium",
+      "synonyms": ["fanatic", "extremist", "militant"]
+    },
+    {
+      "id": "fervent",
+      "word": "fervent",
+      "partOfSpeech": "adjective",
+      "definition": "having or displaying passionate intensity",
+      "example": "A fervent plea for calm went unheeded.",
+      "tier": "medium",
+      "synonyms": ["passionate", "ardent", "impassioned"]
+    },
+    {
+      "id": "impervious",
+      "word": "impervious",
+      "partOfSpeech": "adjective",
+      "definition": "unable to be affected or influenced by something",
+      "example": "He seemed impervious to criticism of any kind.",
+      "tier": "medium",
+      "synonyms": ["unaffected", "immune", "unmoved"]
+    }
+  ],
+  "story": "The two roommates watched the news very differently. Marco reacted with [[vehement|vehement]] outrage to every headline; Priya stayed almost [[apathetic|apathetic]], genuinely [[indifferent|indifferent]] to most of it, offering only a [[nonchalant|nonchalant]] shrug. Some called her [[blase|blasé]], even [[insouciant|insouciant]], but she preferred to think of herself as [[stoic|stoic]]. Marco was the opposite: [[ardent|ardent]] about every cause, an [[avid|avid]] petition-signer some friends jokingly called a [[zealot|zealot]]. His [[fervent|fervent]] arguments never once moved her — she remained [[impervious|impervious]] to his passion, just as he stayed baffled by her calm."
+}
