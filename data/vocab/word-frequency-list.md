@@ -1,13 +1,16 @@
-# GRE High-Frequency Vocabulary — 300-word program
+# GRE High-Frequency Vocabulary — 600-word program
 
-300 high-frequency GRE words, grouped into 25 lessons of 12. Ordering is an
-**approximate frequency ranking** synthesized from standard high-frequency GRE
-word lists (Magoosh / Manhattan / Barron), not a precise corpus count — the aim
-is "learn the words most likely to appear first."
+600 high-frequency-to-solid-second-tier GRE words, grouped into 50 lessons of
+12. Ordering is an **approximate frequency ranking** synthesized from standard
+GRE word lists (Magoosh / Manhattan / Barron), not a precise corpus count —
+the aim is "learn the words most likely to appear first." Lessons 1–25 (the
+original 300) are the core high-frequency set; lessons 26–50 extend into the
+next tier of commonly tested words.
 
-Lessons 1–3 are the original themed intro lessons. Lessons 4–25 are grouped into
-loose semantic themes so each can carry a short story, while still moving roughly
-from more-common to less-common words. Every word appears in exactly one lesson.
+Lessons 1–3 are the original themed intro lessons. Lessons 4–50 are grouped
+into loose semantic themes so each can carry a short story, while still moving
+roughly from more-common to less-common words. Every word appears in exactly
+one lesson (600 unique words, schema- and script-validated).
 
 Tiers: E = easy, M = medium, H = hard.
 
@@ -85,3 +88,78 @@ surfeit (H), satiate (M), glut (M), cloy (H), gorge (E), temperate (M), abstemio
 
 ## Lesson 25 — Sands of Time
 transient (M), fleeting (E), evanescent (H), transitory (H), perennial (M), enduring (E), quotidian (H), anachronism (H), archaic (M), obsolete (M), antiquated (M), ceaseless (E)
+
+## Lesson 26 — The Flatterer
+adulation (M), homage (M), plaudits (M), toady (M), wheedle (M), blandishment (H), unctuous (H), fulsome (H), ingratiate (M), grovel (E), flatter (E), obeisance (H)
+
+## Lesson 27 — The Skeptic
+incredulous (H), credulous (H), gullible (M), naive (E), cynical (M), jaded (M), disillusioned (M), scoff (M), discredit (M), skeptic (E), hoax (E), charlatan (M)
+
+## Lesson 28 — Peril and Rescue
+precarious (M), perilous (M), imperil (M), jeopardize (M), hazardous (E), plight (M), predicament (M), quandary (H), extricate (H), salvage (E), reprieve (M), dire (E)
+
+## Lesson 29 — The Orator
+articulate (E), oratory (M), trenchant (H), incisive (M), galvanize (M), rouse (E), sway (E), exhort (H), impassioned (M), fervor (M), compelling (E), demagogue (H)
+
+## Lesson 30 — The Recluse
+recluse (M), hermit (E), solitude (E), seclusion (M), aloof (M), withdrawn (E), insular (H), cloister (M), sequester (H), misanthrope (H), introspective (M), forlorn (E)
+
+## Lesson 31 — The Rivalry
+contend (M), vie (M), adversary (M), antagonist (M), nemesis (M), thwart (M), foil (M), usurp (H), supplant (H), prevail (M), vanquish (H), formidable (M)
+
+## Lesson 32 — Hidden Meanings
+equivocate (H), obfuscate (H), euphemism (M), connote (M), denote (E), allude (M), insinuate (M), intimate (M), implicit (M), explicit (E), veiled (M), oblique (H)
+
+## Lesson 33 — Order and Chaos
+anarchy (M), chaos (E), turmoil (M), tumult (H), upheaval (M), disarray (M), pandemonium (H), methodical (M), systematic (E), meticulous (M), haphazard (M), arbitrary (M)
+
+## Lesson 34 — The Critic
+vituperative (H), opprobrium (H), invective (H), calumny (H), aspersion (H), defamatory (H), scathing (M), tepid (M), laudable (M), commendable (E), exemplary (M), meritorious (H)
+
+## Lesson 35 — Calm and Storm
+tranquil (E), placid (M), serene (E), halcyon (H), turbulent (M), tempestuous (H), boisterous (M), unruffled (M), composed (E), agitated (E), frenzied (M), hectic (E)
+
+## Lesson 36 — The Judge
+impartial (E), unbiased (E), equitable (M), objective (E), partisan (M), prejudiced (E), bias (E), discriminate (M), dispassionate (H), arbitrate (M), adjudicate (H), mediate (M)
+
+## Lesson 37 — Taking It Back
+recant (H), retract (M), renounce (M), abjure (H), repudiate (H), disavow (H), forswear (H), rescind (M), revoke (E), abrogate (H), nullify (M), retraction (M)
+
+## Lesson 38 — The Inventor
+ingenious (E), innovative (E), novel (E), unprecedented (M), unorthodox (M), avant-garde (H), derivative (M), banal (M), conventional (E), orthodox (M), prototype (E), trailblazer (M)
+
+## Lesson 39 — Scale
+colossal (E), gargantuan (H), prodigious (H), immense (E), diminutive (M), minuscule (M), negligible (M), infinitesimal (H), exorbitant (M), extravagant (M), inordinate (H), excessive (E)
+
+## Lesson 40 — Beginnings and Endings
+inception (M), genesis (M), culmination (M), denouement (H), precursor (M), harbinger (H), portent (H), omen (E), foreshadow (M), prelude (M), epilogue (E), aftermath (E)
+
+## Lesson 41 — The Detective
+circumstantial (M), incontrovertible (H), irrefutable (H), conclusive (E), inconclusive (M), corroborating (M), exculpatory (H), incriminating (M), testimony (E), deduction (M), culprit (E), acquit (M)
+
+## Lesson 42 — Wild and Cultivated
+verdant (M), lush (E), fecund (H), fertile (E), arid (M), barren (E), desiccated (H), pristine (M), unspoiled (E), pastoral (M), idyllic (M), bucolic (H)
+
+## Lesson 43 — Tangled Up
+intricate (M), byzantine (H), convoluted (M), labyrinthine (H), complex (E), simplistic (M), elementary (E), rudimentary (M), straightforward (E), uncomplicated (E), entangle (M), unravel (M)
+
+## Lesson 44 — Passion and Apathy
+vehement (M), apathetic (M), indifferent (E), nonchalant (M), blasé (H), insouciant (H), stoic (M), ardent (M), avid (E), zealot (M), fervent (M), impervious (M)
+
+## Lesson 45 — Appearances
+feign (M), pretense (M), sham (M), facade (M), veneer (M), masquerade (M), guileless (H), ingenuous (H), artless (M), ostensible (M), purported (M), alleged (E)
+
+## Lesson 46 — The Reformer
+iconoclast (H), radical (E), reactionary (H), orthodoxy (H), heresy (M), dogma (M), doctrine (M), ideology (M), subversive (M), dissident (M), insurgent (M), apostate (H)
+
+## Lesson 47 — Paradox and Pattern
+paradigm (M), anomaly (M), paradox (E), dichotomy (H), juxtapose (H), synthesis (M), antithesis (H), corollary (H), paradoxical (M), archetype (M), quintessential (H), epitome (M)
+
+## Lesson 48 — The Traveler
+itinerant (H), peripatetic (H), sojourn (M), vagabond (M), nomadic (M), wanderlust (M), odyssey (M), pilgrimage (M), expedition (E), foray (M), excursion (E), meander (M)
+
+## Lesson 49 — Sound and Silence
+strident (M), shrill (E), resonant (M), sonorous (H), muffled (E), hushed (E), reverberate (M), mute (E), inaudible (M), clamor (M), din (M), vociferous (H)
+
+## Lesson 50 — The Model Example
+exemplify (M), epitomize (M), embody (M), personify (M), typify (M), hallmark (M), emblematic (H), paragon (M), exemplar (M), apex (M), zenith (M), nadir (H)
