@@ -1,0 +1,115 @@
+{
+  "id": "lesson-21",
+  "title": "Lesson 21 — The Spy",
+  "words": [
+    {
+      "id": "clandestine",
+      "word": "clandestine",
+      "partOfSpeech": "adjective",
+      "definition": "kept secret or done secretively, especially because illicit",
+      "example": "A clandestine meeting in an empty parking garage.",
+      "tier": "medium",
+      "synonyms": ["secret", "covert", "furtive"]
+    },
+    {
+      "id": "covert",
+      "word": "covert",
+      "partOfSpeech": "adjective",
+      "definition": "not openly acknowledged or displayed; secret",
+      "example": "Covert operations funded entirely off the books.",
+      "tier": "medium",
+      "synonyms": ["secret", "concealed", "clandestine"]
+    },
+    {
+      "id": "furtive",
+      "word": "furtive",
+      "partOfSpeech": "adjective",
+      "definition": "attempting to avoid notice or attention; secretive",
+      "example": "She cast a furtive glance over her shoulder.",
+      "tier": "medium",
+      "synonyms": ["stealthy", "sly", "surreptitious"]
+    },
+    {
+      "id": "surreptitious",
+      "word": "surreptitious",
+      "partOfSpeech": "adjective",
+      "definition": "done secretly to avoid being noticed",
+      "example": "He took a surreptitious photo of the document.",
+      "tier": "hard",
+      "synonyms": ["stealthy", "covert", "furtive"]
+    },
+    {
+      "id": "stealthy",
+      "word": "stealthy",
+      "partOfSpeech": "adjective",
+      "definition": "behaving quietly and secretly to avoid detection",
+      "example": "Stealthy footsteps crept along the darkened hall.",
+      "tier": "easy",
+      "synonyms": ["furtive", "sneaky", "covert"]
+    },
+    {
+      "id": "cloak",
+      "word": "cloak",
+      "partOfSpeech": "verb",
+      "definition": "to hide, disguise, or conceal",
+      "example": "They cloaked the real plan in dull, ordinary paperwork.",
+      "tier": "easy",
+      "synonyms": ["conceal", "mask", "veil"]
+    },
+    {
+      "id": "overt",
+      "word": "overt",
+      "partOfSpeech": "adjective",
+      "definition": "done or shown openly; not secret",
+      "example": "Overt hostility finally replaced the quiet grudge.",
+      "tier": "medium",
+      "synonyms": ["open", "obvious", "undisguised"]
+    },
+    {
+      "id": "manifest",
+      "word": "manifest",
+      "partOfSpeech": "adjective",
+      "definition": "clear or obvious to the eye or mind",
+      "example": "His anger was manifest to everyone in the room.",
+      "tier": "medium",
+      "synonyms": ["obvious", "evident", "apparent"]
+    },
+    {
+      "id": "blatant",
+      "word": "blatant",
+      "partOfSpeech": "adjective",
+      "definition": "done openly and unashamedly, especially of something bad",
+      "example": "A blatant lie that no one in the room believed.",
+      "tier": "medium",
+      "synonyms": ["flagrant", "brazen", "glaring"]
+    },
+    {
+      "id": "flagrant",
+      "word": "flagrant",
+      "partOfSpeech": "adjective",
+      "definition": "conspicuously and outrageously bad or offensive",
+      "example": "A flagrant violation of the rules, in plain sight.",
+      "tier": "hard",
+      "synonyms": ["blatant", "glaring", "egregious"]
+    },
+    {
+      "id": "conspicuous",
+      "word": "conspicuous",
+      "partOfSpeech": "adjective",
+      "definition": "clearly visible; attracting notice or attention",
+      "example": "He was conspicuous by his absence from the meeting.",
+      "tier": "medium",
+      "synonyms": ["noticeable", "prominent", "obvious"]
+    },
+    {
+      "id": "ostentatious",
+      "word": "ostentatious",
+      "partOfSpeech": "adjective",
+      "definition": "designed to impress or attract notice; showy",
+      "example": "An ostentatious display of wealth at the gala.",
+      "tier": "hard",
+      "synonyms": ["showy", "flashy", "flamboyant"]
+    }
+  ],
+  "story": "For months the operation stayed [[clandestine|clandestine]] and [[covert|covert]]. The agent's movements were [[furtive|furtive]], her methods [[surreptitious|surreptitious]] and [[stealthy|stealthy]]; she learned to [[cloak|cloak]] every message inside ordinary paperwork. Her rival, though, preferred the [[overt|overt]] approach, making his threats [[manifest|manifest]] and his contempt [[blatant|blatant]]. His [[flagrant|flagrant]] disregard for cover made him [[conspicuous|conspicuous]] — an [[ostentatious|ostentatious]] show of power that, in the end, gave the entire ring away."
+}

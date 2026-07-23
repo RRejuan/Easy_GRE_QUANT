@@ -1,0 +1,115 @@
+{
+  "id": "lesson-11",
+  "title": "Lesson 11 — The Workplace",
+  "words": [
+    {
+      "id": "indolent",
+      "word": "indolent",
+      "partOfSpeech": "adjective",
+      "definition": "wanting to avoid activity or exertion; lazy",
+      "example": "An indolent afternoon spent dozing in the shade.",
+      "tier": "medium",
+      "synonyms": ["lazy", "idle", "slothful"]
+    },
+    {
+      "id": "lethargic",
+      "word": "lethargic",
+      "partOfSpeech": "adjective",
+      "definition": "sluggish and apathetic; lacking energy",
+      "example": "The afternoon heat left everyone lethargic.",
+      "tier": "easy",
+      "synonyms": ["sluggish", "listless", "torpid"]
+    },
+    {
+      "id": "languid",
+      "word": "languid",
+      "partOfSpeech": "adjective",
+      "definition": "showing a disinclination for exertion; slow and relaxed",
+      "example": "She gave a languid wave from the hammock.",
+      "tier": "medium",
+      "synonyms": ["languorous", "unhurried", "listless"]
+    },
+    {
+      "id": "listless",
+      "word": "listless",
+      "partOfSpeech": "adjective",
+      "definition": "lacking energy or enthusiasm",
+      "example": "Bored and listless, he stared out the window all day.",
+      "tier": "medium",
+      "synonyms": ["lethargic", "apathetic", "languid"]
+    },
+    {
+      "id": "torpor",
+      "word": "torpor",
+      "partOfSpeech": "noun",
+      "definition": "a state of physical or mental inactivity; sluggishness",
+      "example": "A heavy torpor settled over the office after lunch.",
+      "tier": "hard",
+      "synonyms": ["lethargy", "sluggishness", "inertia"]
+    },
+    {
+      "id": "sluggish",
+      "word": "sluggish",
+      "partOfSpeech": "adjective",
+      "definition": "slow-moving or slow to respond; inactive",
+      "example": "Sales were sluggish all through the winter.",
+      "tier": "easy",
+      "synonyms": ["slow", "inactive", "torpid"]
+    },
+    {
+      "id": "slothful",
+      "word": "slothful",
+      "partOfSpeech": "adjective",
+      "definition": "reluctant to work or make an effort; lazy",
+      "example": "A slothful clerk who let the files pile up for weeks.",
+      "tier": "medium",
+      "synonyms": ["lazy", "idle", "indolent"]
+    },
+    {
+      "id": "industrious",
+      "word": "industrious",
+      "partOfSpeech": "adjective",
+      "definition": "diligent and hardworking",
+      "example": "An industrious student who never missed a deadline.",
+      "tier": "easy",
+      "synonyms": ["hardworking", "diligent", "assiduous"]
+    },
+    {
+      "id": "diligent",
+      "word": "diligent",
+      "partOfSpeech": "adjective",
+      "definition": "showing careful and persistent effort in work",
+      "example": "Diligent note-taking paid off at exam time.",
+      "tier": "easy",
+      "synonyms": ["careful", "assiduous", "conscientious"]
+    },
+    {
+      "id": "sedulous",
+      "word": "sedulous",
+      "partOfSpeech": "adjective",
+      "definition": "showing dedication, diligence, and steady effort",
+      "example": "Sedulous practice made her fluent within a year.",
+      "tier": "hard",
+      "synonyms": ["diligent", "assiduous", "painstaking"]
+    },
+    {
+      "id": "assiduous",
+      "word": "assiduous",
+      "partOfSpeech": "adjective",
+      "definition": "showing great care, attention, and perseverance",
+      "example": "Assiduous editing removed every last error.",
+      "tier": "hard",
+      "synonyms": ["diligent", "meticulous", "sedulous"]
+    },
+    {
+      "id": "indefatigable",
+      "word": "indefatigable",
+      "partOfSpeech": "adjective",
+      "definition": "persisting tirelessly; incapable of being worn out",
+      "example": "An indefatigable volunteer who worked every weekend for a year.",
+      "tier": "hard",
+      "synonyms": ["tireless", "untiring", "unflagging"]
+    }
+  ],
+  "story": "The summer heat made the whole office [[lethargic|lethargic]]. Cal was frankly [[indolent|indolent]], [[languid|languid]] at his desk and [[listless|listless]] by noon; a heavy [[torpor|torpor]] settled over him after lunch, and he grew more [[sluggish|sluggish]] and [[slothful|slothful]] by the hour. His deskmate Priya was the opposite: [[industrious|industrious]], [[diligent|diligent]], and [[sedulous|sedulous]] about every detail. Her [[assiduous|assiduous]], almost [[indefatigable|indefatigable]] effort cleared a backlog that had defeated three people before her — and quietly shamed Cal into finally picking up a pen."
+}

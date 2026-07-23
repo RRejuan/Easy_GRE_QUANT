@@ -1,0 +1,115 @@
+{
+  "id": "lesson-18",
+  "title": "Lesson 18 — The Argument",
+  "words": [
+    {
+      "id": "corroborate",
+      "word": "corroborate",
+      "partOfSpeech": "verb",
+      "definition": "to confirm or give support to a statement or theory",
+      "example": "A second witness corroborated her account of the night.",
+      "tier": "hard",
+      "synonyms": ["confirm", "verify", "support"]
+    },
+    {
+      "id": "substantiate",
+      "word": "substantiate",
+      "partOfSpeech": "verb",
+      "definition": "to provide evidence to support or prove the truth of",
+      "example": "He could not substantiate his extraordinary claim.",
+      "tier": "medium",
+      "synonyms": ["prove", "verify", "validate"]
+    },
+    {
+      "id": "refute",
+      "word": "refute",
+      "partOfSpeech": "verb",
+      "definition": "to prove a statement or theory to be wrong",
+      "example": "New data refuted the long-standing hypothesis.",
+      "tier": "medium",
+      "synonyms": ["disprove", "rebut", "discredit"]
+    },
+    {
+      "id": "rebut",
+      "word": "rebut",
+      "partOfSpeech": "verb",
+      "definition": "to argue or prove that a claim or accusation is false",
+      "example": "She rose to rebut the charge point by point.",
+      "tier": "medium",
+      "synonyms": ["refute", "counter", "contradict"]
+    },
+    {
+      "id": "debunk",
+      "word": "debunk",
+      "partOfSpeech": "verb",
+      "definition": "to expose the falseness of a myth, idea, or belief",
+      "example": "The article debunked several popular health myths.",
+      "tier": "medium",
+      "synonyms": ["disprove", "discredit", "expose"]
+    },
+    {
+      "id": "empirical",
+      "word": "empirical",
+      "partOfSpeech": "adjective",
+      "definition": "based on observation or experiment rather than theory",
+      "example": "Empirical evidence, not opinion, backed the conclusion.",
+      "tier": "hard",
+      "synonyms": ["observed", "experimental", "factual"]
+    },
+    {
+      "id": "tenable",
+      "word": "tenable",
+      "partOfSpeech": "adjective",
+      "definition": "able to be defended against attack or objection",
+      "example": "After the new findings, that position was no longer tenable.",
+      "tier": "hard",
+      "synonyms": ["defensible", "justifiable", "sound"]
+    },
+    {
+      "id": "plausible",
+      "word": "plausible",
+      "partOfSpeech": "adjective",
+      "definition": "seeming reasonable or probable",
+      "example": "A plausible excuse, though not the true one.",
+      "tier": "medium",
+      "synonyms": ["believable", "credible", "reasonable"]
+    },
+    {
+      "id": "dubious",
+      "word": "dubious",
+      "partOfSpeech": "adjective",
+      "definition": "hesitating or doubting; not to be relied upon; suspect",
+      "example": "A dubious claim propped up by shaky numbers.",
+      "tier": "medium",
+      "synonyms": ["doubtful", "questionable", "suspect"]
+    },
+    {
+      "id": "conjecture",
+      "word": "conjecture",
+      "partOfSpeech": "noun",
+      "definition": "an opinion or conclusion formed on incomplete information; guesswork",
+      "example": "Without data it was pure conjecture.",
+      "tier": "medium",
+      "synonyms": ["speculation", "guesswork", "supposition"]
+    },
+    {
+      "id": "premise",
+      "word": "premise",
+      "partOfSpeech": "noun",
+      "definition": "a statement taken to be true and used as the basis for an argument",
+      "example": "The whole argument rests on a false premise.",
+      "tier": "easy",
+      "synonyms": ["assumption", "proposition", "basis"]
+    },
+    {
+      "id": "infer",
+      "word": "infer",
+      "partOfSpeech": "verb",
+      "definition": "to deduce or conclude from evidence and reasoning",
+      "example": "We can infer the cause from the pattern in the data.",
+      "tier": "easy",
+      "synonyms": ["deduce", "conclude", "surmise"]
+    }
+  ],
+  "story": "The panel's job was to weigh the evidence. One expert worked to [[corroborate|corroborate]] the theory and [[substantiate|substantiate]] every figure; a rival rose to [[refute|refute]] it, eager to [[rebut|rebut]] each point and [[debunk|debunk]] the shakier claims. The chair demanded [[empirical|empirical]] proof: was the position still [[tenable|tenable]], or merely [[plausible|plausible]]? A [[dubious|dubious]] chart drew groans and was dismissed as pure [[conjecture|conjecture]]. In the end the whole dispute turned on a single shared [[premise|premise]], and from it the judges had to [[infer|infer]] which side was right."
+}

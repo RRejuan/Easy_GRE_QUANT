@@ -1,0 +1,115 @@
+{
+  "id": "lesson-09",
+  "title": "Lesson 9 — The Con Artist",
+  "words": [
+    {
+      "id": "duplicity",
+      "word": "duplicity",
+      "partOfSpeech": "noun",
+      "definition": "deceitfulness; double-dealing",
+      "example": "His duplicity became clear when both promises unraveled.",
+      "tier": "medium",
+      "synonyms": ["deceit", "double-dealing", "treachery"]
+    },
+    {
+      "id": "guile",
+      "word": "guile",
+      "partOfSpeech": "noun",
+      "definition": "sly or cunning intelligence used to deceive",
+      "example": "She won the game through guile rather than force.",
+      "tier": "medium",
+      "synonyms": ["cunning", "craftiness", "wiliness"]
+    },
+    {
+      "id": "chicanery",
+      "word": "chicanery",
+      "partOfSpeech": "noun",
+      "definition": "the use of trickery or clever talk to deceive",
+      "example": "Legal chicanery delayed the trial for years.",
+      "tier": "hard",
+      "synonyms": ["trickery", "deception", "subterfuge"]
+    },
+    {
+      "id": "dissemble",
+      "word": "dissemble",
+      "partOfSpeech": "verb",
+      "definition": "to conceal one's true motives, feelings, or beliefs",
+      "example": "He dissembled easily, smiling while he plotted.",
+      "tier": "hard",
+      "synonyms": ["feign", "dissimulate", "mask"]
+    },
+    {
+      "id": "prevaricate",
+      "word": "prevaricate",
+      "partOfSpeech": "verb",
+      "definition": "to speak or act evasively to avoid telling the truth",
+      "example": "Asked directly where he had been, the witness prevaricated.",
+      "tier": "hard",
+      "synonyms": ["equivocate", "hedge", "evade"]
+    },
+    {
+      "id": "disingenuous",
+      "word": "disingenuous",
+      "partOfSpeech": "adjective",
+      "definition": "not candid or sincere; pretending to know less than one does",
+      "example": "It was disingenuous of her to claim she hadn't known.",
+      "tier": "medium",
+      "synonyms": ["insincere", "deceitful", "two-faced"]
+    },
+    {
+      "id": "probity",
+      "word": "probity",
+      "partOfSpeech": "noun",
+      "definition": "complete and unwavering honesty and integrity",
+      "example": "A judge known throughout the state for her probity.",
+      "tier": "hard",
+      "synonyms": ["integrity", "rectitude", "uprightness"]
+    },
+    {
+      "id": "veracity",
+      "word": "veracity",
+      "partOfSpeech": "noun",
+      "definition": "conformity to truth; truthfulness",
+      "example": "Detectives quietly questioned the veracity of his alibi.",
+      "tier": "medium",
+      "synonyms": ["truthfulness", "accuracy", "honesty"]
+    },
+    {
+      "id": "specious",
+      "word": "specious",
+      "partOfSpeech": "adjective",
+      "definition": "superficially plausible but actually wrong",
+      "example": "A specious argument that fell apart on closer inspection.",
+      "tier": "hard",
+      "synonyms": ["misleading", "fallacious", "deceptive"]
+    },
+    {
+      "id": "forthright",
+      "word": "forthright",
+      "partOfSpeech": "adjective",
+      "definition": "direct and outspoken; straightforward",
+      "example": "For once he gave a forthright answer, with no hedging.",
+      "tier": "easy",
+      "synonyms": ["frank", "candid", "direct"]
+    },
+    {
+      "id": "artifice",
+      "word": "artifice",
+      "partOfSpeech": "noun",
+      "definition": "clever or cunning devices used to trick or deceive",
+      "example": "The room's calm was pure artifice, staged for the cameras.",
+      "tier": "medium",
+      "synonyms": ["trickery", "ruse", "contrivance"]
+    },
+    {
+      "id": "subterfuge",
+      "word": "subterfuge",
+      "partOfSpeech": "noun",
+      "definition": "deceit or a deceptive trick used to achieve a goal",
+      "example": "They entered by subterfuge, posing as safety inspectors.",
+      "tier": "hard",
+      "synonyms": ["deception", "ruse", "stratagem"]
+    }
+  ],
+  "story": "Marlowe had built a career on [[duplicity|duplicity]], winning trust with charm and [[guile|guile]]. His schemes ran on [[chicanery|chicanery]]: he could [[dissemble|dissemble]] flawlessly and [[prevaricate|prevaricate]] under any question, always [[disingenuous|disingenuous]] beneath the warmth. The investigator on his case was his opposite — a woman of unbending [[probity|probity]] whose reports were prized for their [[veracity|veracity]]. She saw through his [[specious|specious]] excuses at once. In the end it was a single [[forthright|forthright]] witness, immune to his [[artifice|artifice]], who exposed the last [[subterfuge|subterfuge]] and brought the whole act crashing down."
+}

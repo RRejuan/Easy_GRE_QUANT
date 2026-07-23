@@ -21,6 +21,7 @@ const validateSkill = ajv.compile(loadSchema("skill.schema.json"));
 const validateQuestion = ajv.compile(loadSchema("question.schema.json"));
 const validateDISet = ajv.compile(loadSchema("di-set.schema.json"));
 const validateLesson = ajv.compile(loadSchema("lesson.schema.json"));
+const validateVocabLesson = ajv.compile(loadSchema("vocab-lesson.schema.json"));
 
 const errors: string[] = [];
 
@@ -174,6 +175,53 @@ for (const fileName of readdirSync(questionsDir)) {
   }
 }
 
+// --- Vocab lessons ---
+const vocabDir = path.join(dataDir, "vocab");
+const vocabWordIds = new Set<string>();
+let vocabLessonCount = 0;
+try {
+  for (const fileName of readdirSync(vocabDir)) {
+    if (!fileName.endsWith(".json")) continue;
+    const lesson = readJson(path.join(vocabDir, fileName)) as Record<string, unknown>;
+
+    if (!validateVocabLesson(lesson)) {
+      errors.push(`vocab/${fileName}: ${ajv.errorsText(validateVocabLesson.errors)}`);
+      continue;
+    }
+    vocabLessonCount++;
+
+    const idsInLesson = new Set<string>();
+    for (const word of lesson.words as Array<Record<string, unknown>>) {
+      const wordId = word.id as string;
+      idsInLesson.add(wordId);
+      if (vocabWordIds.has(wordId)) {
+        errors.push(`vocab/${fileName}: duplicate word id "${wordId}"`);
+      }
+      vocabWordIds.add(wordId);
+    }
+
+    // Every [[wordId|...]] token in the story must reference a word in this
+    // lesson, and every word should be used in the story.
+    const referenced = new Set<string>();
+    const tokenRe = /\[\[([^\]|]+)(?:\|[^\]]+)?\]\]/g;
+    let match: RegExpExecArray | null;
+    while ((match = tokenRe.exec(lesson.story as string)) !== null) {
+      const ref = match[1].trim();
+      referenced.add(ref);
+      if (!idsInLesson.has(ref)) {
+        errors.push(`vocab/${fileName}: story references unknown word id "${ref}"`);
+      }
+    }
+    for (const wordId of idsInLesson) {
+      if (!referenced.has(wordId)) {
+        errors.push(`vocab/${fileName}: word "${wordId}" is never used in the story`);
+      }
+    }
+  }
+} catch (err) {
+  if ((err as NodeJS.ErrnoException).code !== "ENOENT") throw err;
+}
+
 if (errors.length > 0) {
   console.error(`Content validation failed with ${errors.length} error(s):\n`);
   for (const error of errors) console.error(`  - ${error}`);
@@ -181,5 +229,5 @@ if (errors.length > 0) {
 }
 
 console.log(
-  `Content validation passed: ${skillIds.size} skill(s), ${lessonSkillIds.size} lesson(s), ${questionIds.size} question(s), ${diSetIds.size} DI set(s).`,
+  `Content validation passed: ${skillIds.size} skill(s), ${lessonSkillIds.size} lesson(s), ${questionIds.size} question(s), ${diSetIds.size} DI set(s), ${vocabLessonCount} vocab lesson(s) (${vocabWordIds.size} words).`,
 );

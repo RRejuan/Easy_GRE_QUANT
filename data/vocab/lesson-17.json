@@ -1,0 +1,115 @@
+{
+  "id": "lesson-17",
+  "title": "Lesson 17 — Weathervane",
+  "words": [
+    {
+      "id": "mutable",
+      "word": "mutable",
+      "partOfSpeech": "adjective",
+      "definition": "liable or able to change",
+      "example": "Fashion is mutable, shifting with every season.",
+      "tier": "medium",
+      "synonyms": ["changeable", "variable", "inconstant"]
+    },
+    {
+      "id": "immutable",
+      "word": "immutable",
+      "partOfSpeech": "adjective",
+      "definition": "unchanging over time; unable to be changed",
+      "example": "The immutable laws of physics govern every experiment.",
+      "tier": "hard",
+      "synonyms": ["unchangeable", "fixed", "permanent"]
+    },
+    {
+      "id": "mercurial",
+      "word": "mercurial",
+      "partOfSpeech": "adjective",
+      "definition": "subject to sudden or unpredictable changes of mood",
+      "example": "A mercurial boss, cheerful one minute and furious the next.",
+      "tier": "hard",
+      "synonyms": ["volatile", "capricious", "temperamental"]
+    },
+    {
+      "id": "volatile",
+      "word": "volatile",
+      "partOfSpeech": "adjective",
+      "definition": "liable to change rapidly and unpredictably, often for the worse",
+      "example": "A volatile market that swung wildly all week.",
+      "tier": "medium",
+      "synonyms": ["unstable", "erratic", "changeable"]
+    },
+    {
+      "id": "protean",
+      "word": "protean",
+      "partOfSpeech": "adjective",
+      "definition": "able to change frequently or easily; versatile",
+      "example": "A protean actor who vanished into every role.",
+      "tier": "hard",
+      "synonyms": ["versatile", "adaptable", "variable"]
+    },
+    {
+      "id": "fickle",
+      "word": "fickle",
+      "partOfSpeech": "adjective",
+      "definition": "changing frequently, especially in loyalty or affection",
+      "example": "Fickle fans abandoned the team after a single loss.",
+      "tier": "medium",
+      "synonyms": ["capricious", "inconstant", "flighty"]
+    },
+    {
+      "id": "steadfast",
+      "word": "steadfast",
+      "partOfSpeech": "adjective",
+      "definition": "resolutely firm and unwavering",
+      "example": "A steadfast friend who stayed through every hardship.",
+      "tier": "medium",
+      "synonyms": ["unwavering", "resolute", "constant"]
+    },
+    {
+      "id": "staid",
+      "word": "staid",
+      "partOfSpeech": "adjective",
+      "definition": "sedate, respectable, and unadventurous",
+      "example": "A staid old firm that never took a risk.",
+      "tier": "hard",
+      "synonyms": ["sedate", "sober", "conventional"]
+    },
+    {
+      "id": "stagnant",
+      "word": "stagnant",
+      "partOfSpeech": "adjective",
+      "definition": "not flowing or changing; showing no activity or growth",
+      "example": "A stagnant economy that created no new jobs.",
+      "tier": "medium",
+      "synonyms": ["inactive", "static", "stale"]
+    },
+    {
+      "id": "vacillate",
+      "word": "vacillate",
+      "partOfSpeech": "verb",
+      "definition": "to waver between different opinions or courses of action",
+      "example": "He vacillated for weeks before finally deciding.",
+      "tier": "medium",
+      "synonyms": ["waver", "dither", "hesitate"]
+    },
+    {
+      "id": "waver",
+      "word": "waver",
+      "partOfSpeech": "verb",
+      "definition": "to become unsteady or irresolute; to falter",
+      "example": "Her resolve never wavered, even under pressure.",
+      "tier": "easy",
+      "synonyms": ["falter", "hesitate", "vacillate"]
+    },
+    {
+      "id": "oscillate",
+      "word": "oscillate",
+      "partOfSpeech": "verb",
+      "definition": "to swing back and forth; to vary between extremes",
+      "example": "His mood oscillated between hope and despair.",
+      "tier": "medium",
+      "synonyms": ["swing", "fluctuate", "alternate"]
+    }
+  ],
+  "story": "The market was [[mutable|mutable]] where the founder wished it were [[immutable|immutable]]. Investors proved [[mercurial|mercurial]], the tech press [[volatile|volatile]], and public taste as [[protean|protean]] as it was [[fickle|fickle]]. Through it all his cofounder stayed [[steadfast|steadfast]] — reassuringly [[staid|staid]], some said dull — even as the product itself seemed to grow [[stagnant|stagnant]]. The founder began to [[vacillate|vacillate]]: some mornings his confidence would [[waver|waver]], and his plans would [[oscillate|oscillate]] between bold expansion and quiet retreat."
+}

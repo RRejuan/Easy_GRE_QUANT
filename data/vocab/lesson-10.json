@@ -1,0 +1,115 @@
+{
+  "id": "lesson-10",
+  "title": "Lesson 10 — Nerve",
+  "words": [
+    {
+      "id": "audacious",
+      "word": "audacious",
+      "partOfSpeech": "adjective",
+      "definition": "showing a willingness to take bold or surprising risks",
+      "example": "An audacious plan to cross the desert on foot.",
+      "tier": "medium",
+      "synonyms": ["bold", "daring", "intrepid"]
+    },
+    {
+      "id": "intrepid",
+      "word": "intrepid",
+      "partOfSpeech": "adjective",
+      "definition": "fearless and adventurous",
+      "example": "Intrepid explorers mapped the frozen coast.",
+      "tier": "medium",
+      "synonyms": ["fearless", "dauntless", "valiant"]
+    },
+    {
+      "id": "dauntless",
+      "word": "dauntless",
+      "partOfSpeech": "adjective",
+      "definition": "showing fearlessness and determination",
+      "example": "Dauntless in the storm, she held the wheel all night.",
+      "tier": "medium",
+      "synonyms": ["fearless", "undaunted", "resolute"]
+    },
+    {
+      "id": "temerity",
+      "word": "temerity",
+      "partOfSpeech": "noun",
+      "definition": "excessive boldness or nerve; reckless audacity",
+      "example": "He had the temerity to correct the professor mid-lecture.",
+      "tier": "hard",
+      "synonyms": ["audacity", "nerve", "effrontery"]
+    },
+    {
+      "id": "timorous",
+      "word": "timorous",
+      "partOfSpeech": "adjective",
+      "definition": "showing or suffering from nervousness and fear",
+      "example": "A timorous knock, barely audible, came at the door.",
+      "tier": "hard",
+      "synonyms": ["timid", "fearful", "apprehensive"]
+    },
+    {
+      "id": "craven",
+      "word": "craven",
+      "partOfSpeech": "adjective",
+      "definition": "contemptibly lacking in courage; cowardly",
+      "example": "A craven retreat left the others dangerously exposed.",
+      "tier": "hard",
+      "synonyms": ["cowardly", "spineless", "faint-hearted"]
+    },
+    {
+      "id": "pusillanimous",
+      "word": "pusillanimous",
+      "partOfSpeech": "adjective",
+      "definition": "showing a lack of courage or determination; timid",
+      "example": "His pusillanimous silence let the lie go unchallenged.",
+      "tier": "hard",
+      "synonyms": ["cowardly", "timid", "gutless"]
+    },
+    {
+      "id": "trepidation",
+      "word": "trepidation",
+      "partOfSpeech": "noun",
+      "definition": "a feeling of fear or nervous anxiety about what may happen",
+      "example": "She opened the exam results with real trepidation.",
+      "tier": "medium",
+      "synonyms": ["apprehension", "dread", "unease"]
+    },
+    {
+      "id": "brazen",
+      "word": "brazen",
+      "partOfSpeech": "adjective",
+      "definition": "bold and shameless",
+      "example": "A brazen theft carried out in broad daylight.",
+      "tier": "medium",
+      "synonyms": ["shameless", "impudent", "unabashed"]
+    },
+    {
+      "id": "foolhardy",
+      "word": "foolhardy",
+      "partOfSpeech": "adjective",
+      "definition": "recklessly bold; rash",
+      "example": "Swimming out that far in the current was foolhardy.",
+      "tier": "medium",
+      "synonyms": ["reckless", "rash", "imprudent"]
+    },
+    {
+      "id": "valor",
+      "word": "valor",
+      "partOfSpeech": "noun",
+      "definition": "great courage in the face of danger",
+      "example": "He received a medal for valor under fire.",
+      "tier": "easy",
+      "synonyms": ["bravery", "courage", "heroism"]
+    },
+    {
+      "id": "cower",
+      "word": "cower",
+      "partOfSpeech": "verb",
+      "definition": "to crouch or shrink back in fear",
+      "example": "The dog cowered under the table at the thunder.",
+      "tier": "easy",
+      "synonyms": ["cringe", "recoil", "shrink"]
+    }
+  ],
+  "story": "The captain's [[audacious|audacious]] plan called for a night crossing, and only the most [[intrepid|intrepid]] of the crew volunteered. Reyes was [[dauntless|dauntless]]; young Oporto had the [[temerity|temerity]] to argue the route with her to her face. The [[timorous|timorous]] cook stayed below, and one [[craven|craven]] deckhand simply hid. \"Better [[pusillanimous|pusillanimous]] than drowned,\" he muttered. The rest set out with quiet [[trepidation|trepidation]]. A [[brazen|brazen]], almost [[foolhardy|foolhardy]] dash across the reef nearly capsized them — until an act of pure [[valor|valor]] at the tiller saved the boat, while the coward continued to [[cower|cower]] in the hold."
+}

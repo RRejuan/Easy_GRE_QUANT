@@ -1,0 +1,115 @@
+{
+  "id": "lesson-01",
+  "title": "Lesson 1 — The Debate Club",
+  "words": [
+    {
+      "id": "candor",
+      "word": "candor",
+      "partOfSpeech": "noun",
+      "definition": "the quality of being open, honest, and frank in expression",
+      "example": "She answered the interviewer's toughest questions with surprising candor.",
+      "tier": "easy",
+      "synonyms": ["frankness", "openness", "directness"]
+    },
+    {
+      "id": "aberrant",
+      "word": "aberrant",
+      "partOfSpeech": "adjective",
+      "definition": "departing from what is normal, usual, or expected; atypical",
+      "example": "A single aberrant reading made the scientists recheck the whole experiment.",
+      "tier": "medium",
+      "synonyms": ["anomalous", "deviant", "atypical"]
+    },
+    {
+      "id": "garrulous",
+      "word": "garrulous",
+      "partOfSpeech": "adjective",
+      "definition": "excessively or pointlessly talkative, especially about trivial matters",
+      "example": "The garrulous passenger narrated his entire life story before we left the runway.",
+      "tier": "medium",
+      "synonyms": ["loquacious", "voluble", "long-winded"]
+    },
+    {
+      "id": "laconic",
+      "word": "laconic",
+      "partOfSpeech": "adjective",
+      "definition": "using very few words; terse to the point of seeming rude or mysterious",
+      "example": "His laconic reply, \"Fine,\" told us nothing about the meeting.",
+      "tier": "hard",
+      "synonyms": ["terse", "concise", "curt"]
+    },
+    {
+      "id": "prudent",
+      "word": "prudent",
+      "partOfSpeech": "adjective",
+      "definition": "acting with or showing care and sensible forethought",
+      "example": "It was prudent to save part of every paycheck before the layoffs began.",
+      "tier": "easy",
+      "synonyms": ["judicious", "sensible", "circumspect"]
+    },
+    {
+      "id": "capricious",
+      "word": "capricious",
+      "partOfSpeech": "adjective",
+      "definition": "given to sudden, unpredictable changes of mood or behavior",
+      "example": "The capricious weather swung from sun to sleet within an hour.",
+      "tier": "medium",
+      "synonyms": ["fickle", "mercurial", "whimsical"]
+    },
+    {
+      "id": "gregarious",
+      "word": "gregarious",
+      "partOfSpeech": "adjective",
+      "definition": "fond of the company of others; sociable",
+      "example": "So gregarious was she that she knew every neighbor within a week of moving in.",
+      "tier": "medium",
+      "synonyms": ["sociable", "convivial", "outgoing"]
+    },
+    {
+      "id": "perfidious",
+      "word": "perfidious",
+      "partOfSpeech": "adjective",
+      "definition": "deceitful and untrustworthy; betraying trust",
+      "example": "The perfidious ally secretly sold the battle plans to the enemy.",
+      "tier": "hard",
+      "synonyms": ["treacherous", "disloyal", "faithless"]
+    },
+    {
+      "id": "ephemeral",
+      "word": "ephemeral",
+      "partOfSpeech": "adjective",
+      "definition": "lasting for a very short time; fleeting",
+      "example": "Fame on social media can be ephemeral, forgotten within a day.",
+      "tier": "medium",
+      "synonyms": ["fleeting", "transient", "momentary"]
+    },
+    {
+      "id": "pragmatic",
+      "word": "pragmatic",
+      "partOfSpeech": "adjective",
+      "definition": "dealing with things sensibly and realistically rather than idealistically",
+      "example": "Her pragmatic solution ignored the theory and simply fixed the leak.",
+      "tier": "easy",
+      "synonyms": ["practical", "realistic", "level-headed"]
+    },
+    {
+      "id": "venerate",
+      "word": "venerate",
+      "partOfSpeech": "verb",
+      "definition": "to regard with great respect or reverence",
+      "example": "Students came from across the country to venerate the aging scholar.",
+      "tier": "medium",
+      "synonyms": ["revere", "esteem", "honor"]
+    },
+    {
+      "id": "ambivalent",
+      "word": "ambivalent",
+      "partOfSpeech": "adjective",
+      "definition": "having mixed, contradictory feelings about something",
+      "example": "He felt ambivalent about the promotion, proud yet dreading the longer hours.",
+      "tier": "medium",
+      "synonyms": ["conflicted", "torn", "uncertain"]
+    }
+  ],
+  "story": "When Mara joined the debate club, its new advisor greeted her with disarming [[candor|candor]]: \"Most of you will quit by October.\" Such [[aberrant|aberrant]] bluntness startled the [[garrulous|garrulous]] seniors, who could talk for hours about nothing, but Mara — always [[laconic|laconic]] — simply nodded. The advisor was a [[prudent|prudent]] planner, yet oddly [[capricious|capricious]] in taste: one week he wanted stripped-down speeches, the next theatrical flourish. Though [[gregarious|gregarious]] and quick to gather a crowd, he warned the club about a [[perfidious|perfidious]] rival coach who had once leaked their notes, and reminded them that applause is [[ephemeral|ephemeral]], gone by morning. His advice stayed relentlessly [[pragmatic|pragmatic]]: win the judge, not the room. In time the younger members came to [[venerate|venerate]] him, even while they felt [[ambivalent|ambivalent]] about his blunt methods. By spring, Mara's once-shaky nerves had hardened into real confidence, and she realized his grim prophecy had, for her at least, been gloriously wrong."
+}

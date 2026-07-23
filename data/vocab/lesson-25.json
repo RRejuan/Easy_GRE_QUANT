@@ -1,0 +1,115 @@
+{
+  "id": "lesson-25",
+  "title": "Lesson 25 — Sands of Time",
+  "words": [
+    {
+      "id": "transient",
+      "word": "transient",
+      "partOfSpeech": "adjective",
+      "definition": "lasting only a short time; impermanent",
+      "example": "A transient fame that faded within a single season.",
+      "tier": "medium",
+      "synonyms": ["fleeting", "temporary", "short-lived"]
+    },
+    {
+      "id": "fleeting",
+      "word": "fleeting",
+      "partOfSpeech": "adjective",
+      "definition": "lasting for a very short time",
+      "example": "A fleeting glimpse of the comet, then it was gone.",
+      "tier": "easy",
+      "synonyms": ["brief", "momentary", "transient"]
+    },
+    {
+      "id": "evanescent",
+      "word": "evanescent",
+      "partOfSpeech": "adjective",
+      "definition": "quickly fading from sight, memory, or existence",
+      "example": "The evanescent glow of fireflies over the lawn.",
+      "tier": "hard",
+      "synonyms": ["fleeting", "transient", "ephemeral"]
+    },
+    {
+      "id": "transitory",
+      "word": "transitory",
+      "partOfSpeech": "adjective",
+      "definition": "not permanent; brief",
+      "example": "A transitory phase the child soon outgrew.",
+      "tier": "hard",
+      "synonyms": ["temporary", "passing", "fleeting"]
+    },
+    {
+      "id": "perennial",
+      "word": "perennial",
+      "partOfSpeech": "adjective",
+      "definition": "lasting or recurring through many years; enduring",
+      "example": "A perennial favorite that never goes out of style.",
+      "tier": "medium",
+      "synonyms": ["enduring", "recurring", "perpetual"]
+    },
+    {
+      "id": "enduring",
+      "word": "enduring",
+      "partOfSpeech": "adjective",
+      "definition": "lasting over a long period; durable",
+      "example": "An enduring friendship that spanned forty years.",
+      "tier": "easy",
+      "synonyms": ["lasting", "durable", "abiding"]
+    },
+    {
+      "id": "quotidian",
+      "word": "quotidian",
+      "partOfSpeech": "adjective",
+      "definition": "occurring every day; ordinary or commonplace",
+      "example": "The quotidian chores of an ordinary working week.",
+      "tier": "hard",
+      "synonyms": ["daily", "everyday", "mundane"]
+    },
+    {
+      "id": "anachronism",
+      "word": "anachronism",
+      "partOfSpeech": "noun",
+      "definition": "a thing belonging or appropriate to a period other than the one in which it exists",
+      "example": "A rotary phone is a charming anachronism today.",
+      "tier": "hard",
+      "synonyms": ["throwback", "relic", "misplacement"]
+    },
+    {
+      "id": "archaic",
+      "word": "archaic",
+      "partOfSpeech": "adjective",
+      "definition": "very old or old-fashioned; belonging to an earlier period",
+      "example": "Archaic spellings dot the crumbling manuscript.",
+      "tier": "medium",
+      "synonyms": ["antiquated", "ancient", "outdated"]
+    },
+    {
+      "id": "obsolete",
+      "word": "obsolete",
+      "partOfSpeech": "adjective",
+      "definition": "no longer produced or used; out of date",
+      "example": "Floppy disks are now completely obsolete.",
+      "tier": "medium",
+      "synonyms": ["outdated", "defunct", "antiquated"]
+    },
+    {
+      "id": "antiquated",
+      "word": "antiquated",
+      "partOfSpeech": "adjective",
+      "definition": "old-fashioned or outdated",
+      "example": "Antiquated rules that no one actually follows anymore.",
+      "tier": "medium",
+      "synonyms": ["outdated", "archaic", "obsolete"]
+    },
+    {
+      "id": "ceaseless",
+      "word": "ceaseless",
+      "partOfSpeech": "adjective",
+      "definition": "constant and unending",
+      "example": "The ceaseless roar of the waterfall filled the valley.",
+      "tier": "easy",
+      "synonyms": ["unending", "incessant", "perpetual"]
+    }
+  ],
+  "story": "The night watchman loved the museum's contrasts. Some exhibits felt [[transient|transient]] — [[fleeting|fleeting]], [[evanescent|evanescent]], [[transitory|transitory]] fashions that lasted a decade and died. Others were [[perennial|perennial]] and [[enduring|enduring]], as familiar as the [[quotidian|quotidian]] hum of the city outside. A wall clock that no longer ticked was a charming [[anachronism|anachronism]], its [[archaic|archaic]] face marking hours no one kept. Around it sat [[obsolete|obsolete]] machines and [[antiquated|antiquated]] tools — and beneath them all, the [[ceaseless|ceaseless]] drip of a leaking pipe, the one clock that never stopped."
+}

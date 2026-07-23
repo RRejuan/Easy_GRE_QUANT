@@ -1,0 +1,115 @@
+{
+  "id": "lesson-24",
+  "title": "Lesson 24 — The Banquet",
+  "words": [
+    {
+      "id": "surfeit",
+      "word": "surfeit",
+      "partOfSpeech": "noun",
+      "definition": "an excessive amount of something",
+      "example": "A surfeit of choices left no one able to decide.",
+      "tier": "hard",
+      "synonyms": ["excess", "glut", "overabundance"]
+    },
+    {
+      "id": "satiate",
+      "word": "satiate",
+      "partOfSpeech": "verb",
+      "definition": "to satisfy fully, or to excess",
+      "example": "The enormous meal satiated even the hungriest guest.",
+      "tier": "medium",
+      "synonyms": ["satisfy", "sate", "gorge"]
+    },
+    {
+      "id": "glut",
+      "word": "glut",
+      "partOfSpeech": "noun",
+      "definition": "an excessively abundant supply of something",
+      "example": "A glut of apples that autumn sent prices crashing.",
+      "tier": "medium",
+      "synonyms": ["surplus", "excess", "surfeit"]
+    },
+    {
+      "id": "cloy",
+      "word": "cloy",
+      "partOfSpeech": "verb",
+      "definition": "to become sickening or distasteful through excess, especially of something sweet",
+      "example": "The dessert's heavy sweetness soon began to cloy.",
+      "tier": "hard",
+      "synonyms": ["sicken", "satiate", "pall"]
+    },
+    {
+      "id": "gorge",
+      "word": "gorge",
+      "partOfSpeech": "verb",
+      "definition": "to eat greedily until completely full",
+      "example": "They gorged on the buffet for the better part of an hour.",
+      "tier": "easy",
+      "synonyms": ["stuff", "devour", "guzzle"]
+    },
+    {
+      "id": "temperate",
+      "word": "temperate",
+      "partOfSpeech": "adjective",
+      "definition": "showing moderation and self-restraint",
+      "example": "A temperate eater, she never once overindulged.",
+      "tier": "medium",
+      "synonyms": ["moderate", "restrained", "self-controlled"]
+    },
+    {
+      "id": "abstemious",
+      "word": "abstemious",
+      "partOfSpeech": "adjective",
+      "definition": "sparing or moderate, especially in eating and drinking",
+      "example": "An abstemious host who barely touched the wine.",
+      "tier": "hard",
+      "synonyms": ["temperate", "sparing", "austere"]
+    },
+    {
+      "id": "moderate",
+      "word": "moderate",
+      "partOfSpeech": "adjective",
+      "definition": "average in amount or degree; not extreme",
+      "example": "A moderate appetite and famously modest tastes.",
+      "tier": "easy",
+      "synonyms": ["reasonable", "restrained", "temperate"]
+    },
+    {
+      "id": "indulgent",
+      "word": "indulgent",
+      "partOfSpeech": "adjective",
+      "definition": "inclined to allow excessive pleasure, comfort, or leniency",
+      "example": "An indulgent grandparent who spoiled the children rotten.",
+      "tier": "medium",
+      "synonyms": ["permissive", "lenient", "lavish"]
+    },
+    {
+      "id": "hedonist",
+      "word": "hedonist",
+      "partOfSpeech": "noun",
+      "definition": "a person devoted to pleasure and self-gratification",
+      "example": "A cheerful hedonist forever chasing the next comfort.",
+      "tier": "medium",
+      "synonyms": ["pleasure-seeker", "sensualist", "epicure"]
+    },
+    {
+      "id": "epicure",
+      "word": "epicure",
+      "partOfSpeech": "noun",
+      "definition": "a person who takes particular pleasure in fine food and drink",
+      "example": "An epicure who could name the vineyard from a single sip.",
+      "tier": "hard",
+      "synonyms": ["gourmet", "connoisseur", "gastronome"]
+    },
+    {
+      "id": "voracious",
+      "word": "voracious",
+      "partOfSpeech": "adjective",
+      "definition": "wanting or devouring great quantities; insatiable",
+      "example": "A voracious reader and an even more voracious eater.",
+      "tier": "medium",
+      "synonyms": ["insatiable", "ravenous", "greedy"]
+    }
+  ],
+  "story": "The banquet offered a [[surfeit|surfeit]] of everything, enough to [[satiate|satiate]] a small army. There was a [[glut|glut]] of rich dishes — so many that the sweetness began to [[cloy|cloy]] by the third course. Some guests [[gorge|gorged]] shamelessly; others stayed [[temperate|temperate]] and [[abstemious|abstemious]], taking only a [[moderate|moderate]] plate. The host, an [[indulgent|indulgent]] [[hedonist|hedonist]] and famous [[epicure|epicure]], watched his most [[voracious|voracious]] friend return for a fifth helping and beamed with pride."
+}

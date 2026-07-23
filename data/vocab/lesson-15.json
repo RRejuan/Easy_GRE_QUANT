@@ -1,0 +1,115 @@
+{
+  "id": "lesson-15",
+  "title": "Lesson 15 — Poison and Cure",
+  "words": [
+    {
+      "id": "deleterious",
+      "word": "deleterious",
+      "partOfSpeech": "adjective",
+      "definition": "causing harm or damage",
+      "example": "The deleterious effects of too little sleep add up fast.",
+      "tier": "hard",
+      "synonyms": ["harmful", "damaging", "injurious"]
+    },
+    {
+      "id": "noxious",
+      "word": "noxious",
+      "partOfSpeech": "adjective",
+      "definition": "harmful, poisonous, or very unpleasant",
+      "example": "Noxious fumes forced an evacuation of the building.",
+      "tier": "medium",
+      "synonyms": ["poisonous", "toxic", "harmful"]
+    },
+    {
+      "id": "virulent",
+      "word": "virulent",
+      "partOfSpeech": "adjective",
+      "definition": "extremely severe or harmful; (of disease) spreading quickly",
+      "example": "A virulent strain of the flu swept through the dorms.",
+      "tier": "hard",
+      "synonyms": ["toxic", "malignant", "venomous"]
+    },
+    {
+      "id": "insidious",
+      "word": "insidious",
+      "partOfSpeech": "adjective",
+      "definition": "proceeding in a gradual, subtle way but with harmful effects",
+      "example": "The insidious spread of the rot went unnoticed for months.",
+      "tier": "medium",
+      "synonyms": ["stealthy", "subtle", "creeping"]
+    },
+    {
+      "id": "baneful",
+      "word": "baneful",
+      "partOfSpeech": "adjective",
+      "definition": "harmful or destructive",
+      "example": "The baneful influence of the gang hung over the block.",
+      "tier": "hard",
+      "synonyms": ["destructive", "pernicious", "ruinous"]
+    },
+    {
+      "id": "detrimental",
+      "word": "detrimental",
+      "partOfSpeech": "adjective",
+      "definition": "tending to cause harm",
+      "example": "Skipping meals is detrimental to concentration.",
+      "tier": "medium",
+      "synonyms": ["harmful", "damaging", "adverse"]
+    },
+    {
+      "id": "salubrious",
+      "word": "salubrious",
+      "partOfSpeech": "adjective",
+      "definition": "health-giving; healthy",
+      "example": "The salubrious mountain air did the patients good.",
+      "tier": "hard",
+      "synonyms": ["healthful", "wholesome", "bracing"]
+    },
+    {
+      "id": "benign",
+      "word": "benign",
+      "partOfSpeech": "adjective",
+      "definition": "gentle and harmless; (of a tumor) not malignant",
+      "example": "The growth was benign, the doctor reassured her.",
+      "tier": "medium",
+      "synonyms": ["harmless", "mild", "innocuous"]
+    },
+    {
+      "id": "innocuous",
+      "word": "innocuous",
+      "partOfSpeech": "adjective",
+      "definition": "not harmful or offensive",
+      "example": "An innocuous remark that somehow started a feud.",
+      "tier": "medium",
+      "synonyms": ["harmless", "inoffensive", "benign"]
+    },
+    {
+      "id": "benevolent",
+      "word": "benevolent",
+      "partOfSpeech": "adjective",
+      "definition": "well meaning and kindly",
+      "example": "A benevolent employer who quietly paid for tuition.",
+      "tier": "medium",
+      "synonyms": ["kind", "charitable", "generous"]
+    },
+    {
+      "id": "benefactor",
+      "word": "benefactor",
+      "partOfSpeech": "noun",
+      "definition": "a person who gives money or other help to a cause or person",
+      "example": "An anonymous benefactor funded the whole library.",
+      "tier": "easy",
+      "synonyms": ["patron", "donor", "sponsor"]
+    },
+    {
+      "id": "panacea",
+      "word": "panacea",
+      "partOfSpeech": "noun",
+      "definition": "a supposed remedy or solution for all problems",
+      "example": "New technology is no panacea for bad management.",
+      "tier": "hard",
+      "synonyms": ["cure-all", "remedy", "elixir"]
+    }
+  ],
+  "story": "The old chemical plant had a [[deleterious|deleterious]] effect on the valley: [[noxious|noxious]] smoke, a [[virulent|virulent]] outbreak of coughs, and an [[insidious|insidious]] contamination that seeped into the wells for years. Locals called its [[baneful|baneful]] presence the most [[detrimental|detrimental]] thing ever to happen to the town. Then things turned. Cleaner air proved [[salubrious|salubrious]]; the once-feared river ran [[benign|benign]] and [[innocuous|innocuous]] again. A [[benevolent|benevolent]] [[benefactor|benefactor]] funded the cleanup, though even she warned that money alone was no [[panacea|panacea]] for decades of neglect."
+}

@@ -1,0 +1,115 @@
+{
+  "id": "lesson-13",
+  "title": "Lesson 13 — Status and Pride",
+  "words": [
+    {
+      "id": "revere",
+      "word": "revere",
+      "partOfSpeech": "verb",
+      "definition": "to feel deep respect or admiration for",
+      "example": "Students revered the old professor for decades.",
+      "tier": "easy",
+      "synonyms": ["venerate", "honor", "esteem"]
+    },
+    {
+      "id": "esteem",
+      "word": "esteem",
+      "partOfSpeech": "noun",
+      "definition": "respect and admiration",
+      "example": "A colleague held in the highest esteem by everyone.",
+      "tier": "easy",
+      "synonyms": ["respect", "regard", "admiration"]
+    },
+    {
+      "id": "deference",
+      "word": "deference",
+      "partOfSpeech": "noun",
+      "definition": "polite submission and respect toward others",
+      "example": "He treated his elders with unfailing deference.",
+      "tier": "medium",
+      "synonyms": ["respect", "regard", "reverence"]
+    },
+    {
+      "id": "obsequious",
+      "word": "obsequious",
+      "partOfSpeech": "adjective",
+      "definition": "obedient or attentive to an excessive, servile degree",
+      "example": "An obsequious waiter hovered, angling for a bigger tip.",
+      "tier": "hard",
+      "synonyms": ["servile", "fawning", "sycophantic"]
+    },
+    {
+      "id": "servile",
+      "word": "servile",
+      "partOfSpeech": "adjective",
+      "definition": "excessively willing to serve or please others; submissive",
+      "example": "A servile assistant who agreed with every word.",
+      "tier": "medium",
+      "synonyms": ["subservient", "obsequious", "groveling"]
+    },
+    {
+      "id": "fawn",
+      "word": "fawn",
+      "partOfSpeech": "verb",
+      "definition": "to give exaggerated flattery or affection to gain favor",
+      "example": "Reporters fawned over the celebrity's every remark.",
+      "tier": "medium",
+      "synonyms": ["grovel", "flatter", "toady"]
+    },
+    {
+      "id": "disdain",
+      "word": "disdain",
+      "partOfSpeech": "noun",
+      "definition": "the feeling that someone or something is unworthy of respect",
+      "example": "She eyed the cheap imitation with open disdain.",
+      "tier": "medium",
+      "synonyms": ["contempt", "scorn", "derision"]
+    },
+    {
+      "id": "contempt",
+      "word": "contempt",
+      "partOfSpeech": "noun",
+      "definition": "the feeling that a person or thing is beneath consideration or worthless",
+      "example": "He spoke of the rules with undisguised contempt.",
+      "tier": "easy",
+      "synonyms": ["scorn", "disdain", "derision"]
+    },
+    {
+      "id": "haughty",
+      "word": "haughty",
+      "partOfSpeech": "adjective",
+      "definition": "arrogantly superior and disdainful",
+      "example": "A haughty nod was all the duchess offered the crowd.",
+      "tier": "medium",
+      "synonyms": ["arrogant", "proud", "disdainful"]
+    },
+    {
+      "id": "arrogant",
+      "word": "arrogant",
+      "partOfSpeech": "adjective",
+      "definition": "having an exaggerated sense of one's own importance",
+      "example": "Too arrogant to ask for directions, he drove in circles.",
+      "tier": "easy",
+      "synonyms": ["conceited", "haughty", "overbearing"]
+    },
+    {
+      "id": "condescend",
+      "word": "condescend",
+      "partOfSpeech": "verb",
+      "definition": "to behave as if superior; to patronize",
+      "example": "He condescended to explain, slowly, as if to a child.",
+      "tier": "medium",
+      "synonyms": ["patronize", "talk down", "deign"]
+    },
+    {
+      "id": "supercilious",
+      "word": "supercilious",
+      "partOfSpeech": "adjective",
+      "definition": "behaving as though superior to others; haughtily contemptuous",
+      "example": "A supercilious sneer greeted the newcomers.",
+      "tier": "hard",
+      "synonyms": ["haughty", "disdainful", "condescending"]
+    }
+  ],
+  "story": "The old family expected the whole town to [[revere|revere]] them and hold their name in [[esteem|esteem]]. Servants showed exaggerated [[deference|deference]]; the butler was [[obsequious|obsequious]] and the footmen frankly [[servile|servile]], quick to [[fawn|fawn]] over any guest with a title. The heiress met tradespeople with cold [[disdain|disdain]] and undisguised [[contempt|contempt]]. She was [[haughty|haughty]], [[arrogant|arrogant]], and forever ready to [[condescend|condescend]] to those she thought beneath her, wearing a [[supercilious|supercilious]] smile that made even her admirers wince."
+}

@@ -1,0 +1,115 @@
+{
+  "id": "lesson-06",
+  "title": "Lesson 6 — The Windbag",
+  "words": [
+    {
+      "id": "verbose",
+      "word": "verbose",
+      "partOfSpeech": "adjective",
+      "definition": "using or containing more words than are needed; wordy",
+      "example": "The verbose report buried its point on page nine.",
+      "tier": "medium",
+      "synonyms": ["wordy", "long-winded", "prolix"]
+    },
+    {
+      "id": "loquacious",
+      "word": "loquacious",
+      "partOfSpeech": "adjective",
+      "definition": "tending to talk a great deal; very talkative",
+      "example": "Our loquacious guide talked for three hours without pausing.",
+      "tier": "medium",
+      "synonyms": ["talkative", "garrulous", "voluble"]
+    },
+    {
+      "id": "terse",
+      "word": "terse",
+      "partOfSpeech": "adjective",
+      "definition": "sparing in words; brief and often abrupt",
+      "example": "A terse \"No\" ended the discussion.",
+      "tier": "medium",
+      "synonyms": ["curt", "concise", "brusque"]
+    },
+    {
+      "id": "succinct",
+      "word": "succinct",
+      "partOfSpeech": "adjective",
+      "definition": "expressed clearly in few words; concise",
+      "example": "Her succinct summary fit on a single line.",
+      "tier": "medium",
+      "synonyms": ["concise", "compact", "pithy"]
+    },
+    {
+      "id": "glib",
+      "word": "glib",
+      "partOfSpeech": "adjective",
+      "definition": "fluent and confident but insincere or shallow",
+      "example": "A glib salesman with an easy answer for everything.",
+      "tier": "hard",
+      "synonyms": ["slick", "facile", "smooth-talking"]
+    },
+    {
+      "id": "grandiloquent",
+      "word": "grandiloquent",
+      "partOfSpeech": "adjective",
+      "definition": "pompous or extravagant in language, style, or manner",
+      "example": "His grandiloquent toast used ten words where one would do.",
+      "tier": "hard",
+      "synonyms": ["pompous", "bombastic", "high-flown"]
+    },
+    {
+      "id": "pithy",
+      "word": "pithy",
+      "partOfSpeech": "adjective",
+      "definition": "concise and forcefully expressive",
+      "example": "A pithy proverb captured the whole lesson in six words.",
+      "tier": "hard",
+      "synonyms": ["succinct", "trenchant", "epigrammatic"]
+    },
+    {
+      "id": "brusque",
+      "word": "brusque",
+      "partOfSpeech": "adjective",
+      "definition": "abrupt or curt in manner or speech, to the point of rudeness",
+      "example": "The brusque clerk waved us away without looking up.",
+      "tier": "medium",
+      "synonyms": ["curt", "blunt", "gruff"]
+    },
+    {
+      "id": "harangue",
+      "word": "harangue",
+      "partOfSpeech": "noun",
+      "definition": "a lengthy and aggressive speech; a scolding lecture",
+      "example": "He launched into a harangue about \"kids these days.\"",
+      "tier": "medium",
+      "synonyms": ["diatribe", "tirade", "rant"]
+    },
+    {
+      "id": "tirade",
+      "word": "tirade",
+      "partOfSpeech": "noun",
+      "definition": "a long, angry speech of criticism or accusation",
+      "example": "Her tirade against the referee got her ejected.",
+      "tier": "medium",
+      "synonyms": ["rant", "diatribe", "outburst"]
+    },
+    {
+      "id": "digress",
+      "word": "digress",
+      "partOfSpeech": "verb",
+      "definition": "to depart from the main subject in speech or writing",
+      "example": "The professor digressed into a long story about his cat.",
+      "tier": "medium",
+      "synonyms": ["stray", "wander", "deviate"]
+    },
+    {
+      "id": "rhetoric",
+      "word": "rhetoric",
+      "partOfSpeech": "noun",
+      "definition": "the art of persuasive speaking or writing; language that is impressive but often empty",
+      "example": "Campaign rhetoric rarely survives contact with a real budget.",
+      "tier": "easy",
+      "synonyms": ["oratory", "eloquence", "bombast"]
+    }
+  ],
+  "story": "Councilman Pratt was famously [[verbose|verbose]], so [[loquacious|loquacious]] that residents brought snacks to his meetings. Asked a plain question, he never gave a [[terse|terse]] or [[succinct|succinct]] reply; instead he offered [[glib|glib]] promises wrapped in [[grandiloquent|grandiloquent]] phrases. His rival answered in [[pithy|pithy]], almost [[brusque|brusque]] sentences that voters actually remembered. When one resident's [[harangue|harangue]] about potholes swelled into a furious [[tirade|tirade]], Pratt seized the opening to [[digress|digress]] for twenty minutes, mistaking his own [[rhetoric|rhetoric]] for leadership."
+}

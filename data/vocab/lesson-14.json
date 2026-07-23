@@ -1,0 +1,115 @@
+{
+  "id": "lesson-14",
+  "title": "Lesson 14 — The Difficult Text",
+  "words": [
+    {
+      "id": "lucid",
+      "word": "lucid",
+      "partOfSpeech": "adjective",
+      "definition": "expressed clearly; easy to understand",
+      "example": "A lucid explanation even a beginner could follow.",
+      "tier": "medium",
+      "synonyms": ["clear", "intelligible", "coherent"]
+    },
+    {
+      "id": "cogent",
+      "word": "cogent",
+      "partOfSpeech": "adjective",
+      "definition": "clear, logical, and convincing",
+      "example": "A cogent argument that changed my mind on the spot.",
+      "tier": "hard",
+      "synonyms": ["convincing", "compelling", "persuasive"]
+    },
+    {
+      "id": "coherent",
+      "word": "coherent",
+      "partOfSpeech": "adjective",
+      "definition": "logical, consistent, and easy to follow",
+      "example": "A coherent essay with one clear line of thought.",
+      "tier": "easy",
+      "synonyms": ["logical", "consistent", "orderly"]
+    },
+    {
+      "id": "perspicuous",
+      "word": "perspicuous",
+      "partOfSpeech": "adjective",
+      "definition": "clearly expressed and easy to understand",
+      "example": "Her perspicuous prose never needed a second reading.",
+      "tier": "hard",
+      "synonyms": ["clear", "lucid", "transparent"]
+    },
+    {
+      "id": "abstruse",
+      "word": "abstruse",
+      "partOfSpeech": "adjective",
+      "definition": "difficult to understand; obscure",
+      "example": "An abstruse theorem that few in the room could grasp.",
+      "tier": "hard",
+      "synonyms": ["obscure", "recondite", "esoteric"]
+    },
+    {
+      "id": "esoteric",
+      "word": "esoteric",
+      "partOfSpeech": "adjective",
+      "definition": "understood by only a small group with special knowledge",
+      "example": "Esoteric jargon baffled everyone new to the field.",
+      "tier": "hard",
+      "synonyms": ["obscure", "arcane", "specialized"]
+    },
+    {
+      "id": "arcane",
+      "word": "arcane",
+      "partOfSpeech": "adjective",
+      "definition": "understood by few; mysterious or secret",
+      "example": "The arcane rules of the ancient game confused newcomers.",
+      "tier": "medium",
+      "synonyms": ["mysterious", "cryptic", "esoteric"]
+    },
+    {
+      "id": "opaque",
+      "word": "opaque",
+      "partOfSpeech": "adjective",
+      "definition": "hard to understand; not clear or transparent in meaning",
+      "example": "The contract's opaque clauses hid all the extra fees.",
+      "tier": "medium",
+      "synonyms": ["unclear", "impenetrable", "obscure"]
+    },
+    {
+      "id": "ambiguous",
+      "word": "ambiguous",
+      "partOfSpeech": "adjective",
+      "definition": "open to more than one interpretation; unclear",
+      "example": "An ambiguous reply that could mean yes or no.",
+      "tier": "easy",
+      "synonyms": ["equivocal", "vague", "unclear"]
+    },
+    {
+      "id": "cryptic",
+      "word": "cryptic",
+      "partOfSpeech": "adjective",
+      "definition": "having a hidden or obscure meaning",
+      "example": "A cryptic note with no signature and no date.",
+      "tier": "medium",
+      "synonyms": ["mysterious", "enigmatic", "obscure"]
+    },
+    {
+      "id": "nebulous",
+      "word": "nebulous",
+      "partOfSpeech": "adjective",
+      "definition": "vague or ill-defined",
+      "example": "A nebulous plan with no real steps behind it.",
+      "tier": "medium",
+      "synonyms": ["vague", "hazy", "indistinct"]
+    },
+    {
+      "id": "obtuse",
+      "word": "obtuse",
+      "partOfSpeech": "adjective",
+      "definition": "annoyingly slow to understand; lacking sharpness of mind",
+      "example": "He was too obtuse to take the obvious hint.",
+      "tier": "medium",
+      "synonyms": ["dense", "slow-witted", "dull"]
+    }
+  ],
+  "story": "The visiting scholar's first lecture was a model of clarity — [[lucid|lucid]], [[cogent|cogent]], [[coherent|coherent]], and so [[perspicuous|perspicuous]] that even freshmen took clean notes. His new book was the opposite. It was [[abstruse|abstruse]] and [[esoteric|esoteric]], stuffed with [[arcane|arcane]] references and [[opaque|opaque]] proofs. Whole chapters read as [[ambiguous|ambiguous]], others openly [[cryptic|cryptic]], and the conclusion stayed maddeningly [[nebulous|nebulous]]. A reviewer — either very honest or slightly [[obtuse|obtuse]] — finally asked why a man who could speak so plainly chose to write so darkly."
+}
