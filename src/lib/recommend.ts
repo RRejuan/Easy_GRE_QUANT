@@ -1,5 +1,5 @@
 import type { Skill } from "../types";
-import { getQuestionsForSkill, skillsWithContent } from "./content";
+import { getQuestionsForSkill, skillsWithContentInSection } from "./content";
 import { skillMasteryPercent } from "./mastery";
 
 const MASTERY_THRESHOLD = 60;
@@ -18,8 +18,9 @@ function isUnlocked(skill: Skill): boolean {
 }
 
 export function recommendNextSkill(): Skill | undefined {
-  const candidates = skillsWithContent().filter(isUnlocked);
-  const pool = candidates.length > 0 ? candidates : skillsWithContent();
+  const quantSkills = skillsWithContentInSection("Quant");
+  const candidates = quantSkills.filter(isUnlocked);
+  const pool = candidates.length > 0 ? candidates : quantSkills;
 
   return [...pool].sort((a, b) => masteryFor(a.id) - masteryFor(b.id))[0];
 }

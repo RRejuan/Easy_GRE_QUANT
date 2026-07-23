@@ -26,6 +26,7 @@
     },
     "difficulty": { "type": "integer", "minimum": 1, "maximum": 5 },
     "stem": { "type": "string", "minLength": 1 },
+    "passage": { "type": "string", "minLength": 1 },
     "quantityA": { "type": "string" },
     "quantityB": { "type": "string" },
     "options": {

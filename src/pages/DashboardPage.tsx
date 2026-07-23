@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
-import { groupSkillsByAreaAndTopic, skillsWithContent } from "../lib/content";
+import { groupSkillsByAreaAndTopic, skillsWithContentInSection } from "../lib/content";
 import { resetProgress } from "../lib/storage";
 import { skillMasteryPercent } from "../lib/mastery";
 import { recommendNextSkill } from "../lib/recommend";
 import { SkillAreaList } from "../components/SkillAreaList";
 
 export function DashboardPage() {
-  const skills = skillsWithContent();
+  const skills = skillsWithContentInSection("Quant");
   const masteryBySkill = new Map(
     skills.map((skill) => [skill.id, skillMasteryPercent(skill.id)]),
   );

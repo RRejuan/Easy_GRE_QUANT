@@ -167,6 +167,15 @@ export function QuestionView({
           )}
         </div>
       )}
+      {question.passage && (
+        <div className="question-passage">
+          {question.passage.split(/\n\n+/).map((para, i) => (
+            <p key={i}>
+              <MathText text={para} />
+            </p>
+          ))}
+        </div>
+      )}
       <p className="question-stem">
         <MathText text={displayQuestion.stem} />
       </p>
