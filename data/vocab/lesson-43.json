@@ -1,0 +1,115 @@
+{
+  "id": "lesson-43",
+  "title": "Lesson 43 — Tangled Up",
+  "words": [
+    {
+      "id": "intricate",
+      "word": "intricate",
+      "partOfSpeech": "adjective",
+      "definition": "very complicated or detailed",
+      "example": "An intricate clockwork mechanism filled the case.",
+      "tier": "medium",
+      "synonyms": ["complex", "elaborate", "convoluted"]
+    },
+    {
+      "id": "byzantine",
+      "word": "byzantine",
+      "partOfSpeech": "adjective",
+      "definition": "excessively complicated, typically involving hidden or devious workings",
+      "example": "The tax code's byzantine rules defeat most accountants.",
+      "tier": "hard",
+      "synonyms": ["convoluted", "labyrinthine", "complex"]
+    },
+    {
+      "id": "convoluted",
+      "word": "convoluted",
+      "partOfSpeech": "adjective",
+      "definition": "extremely complex and difficult to follow",
+      "example": "His convoluted explanation only deepened the confusion.",
+      "tier": "medium",
+      "synonyms": ["complicated", "tangled", "byzantine"]
+    },
+    {
+      "id": "labyrinthine",
+      "word": "labyrinthine",
+      "partOfSpeech": "adjective",
+      "definition": "intricate and confusing, like a maze",
+      "example": "The old city's labyrinthine alleys defeated every map.",
+      "tier": "hard",
+      "synonyms": ["mazelike", "convoluted", "intricate"]
+    },
+    {
+      "id": "complex",
+      "word": "complex",
+      "partOfSpeech": "adjective",
+      "definition": "consisting of many interconnected parts; complicated",
+      "example": "A complex system with dozens of moving parts.",
+      "tier": "easy",
+      "synonyms": ["complicated", "intricate", "involved"]
+    },
+    {
+      "id": "simplistic",
+      "word": "simplistic",
+      "partOfSpeech": "adjective",
+      "definition": "treating complex issues as simpler than they really are",
+      "example": "The proposal offered a simplistic fix for a deep problem.",
+      "tier": "medium",
+      "synonyms": ["oversimplified", "reductive", "facile"]
+    },
+    {
+      "id": "elementary",
+      "word": "elementary",
+      "partOfSpeech": "adjective",
+      "definition": "relating to the basic elements of a subject; simple",
+      "example": "An elementary mistake that any beginner might make.",
+      "tier": "easy",
+      "synonyms": ["basic", "fundamental", "simple"]
+    },
+    {
+      "id": "rudimentary",
+      "word": "rudimentary",
+      "partOfSpeech": "adjective",
+      "definition": "involving only the most basic principles; undeveloped",
+      "example": "He had only a rudimentary grasp of the language.",
+      "tier": "medium",
+      "synonyms": ["basic", "elementary", "primitive"]
+    },
+    {
+      "id": "straightforward",
+      "word": "straightforward",
+      "partOfSpeech": "adjective",
+      "definition": "uncomplicated and easy to do or understand",
+      "example": "The assembly instructions were refreshingly straightforward.",
+      "tier": "easy",
+      "synonyms": ["simple", "direct", "clear"]
+    },
+    {
+      "id": "uncomplicated",
+      "word": "uncomplicated",
+      "partOfSpeech": "adjective",
+      "definition": "not difficult to understand or deal with; simple",
+      "example": "An uncomplicated recipe with only four ingredients.",
+      "tier": "easy",
+      "synonyms": ["simple", "straightforward", "easy"]
+    },
+    {
+      "id": "entangle",
+      "word": "entangle",
+      "partOfSpeech": "verb",
+      "definition": "to cause to become twisted together with something; to involve in complications",
+      "example": "The fishing line entangled itself around the propeller.",
+      "tier": "medium",
+      "synonyms": ["ensnare", "enmesh", "snarl"]
+    },
+    {
+      "id": "unravel",
+      "word": "unravel",
+      "partOfSpeech": "verb",
+      "definition": "to investigate and solve or explain something complex; to undo threads",
+      "example": "It took a year to unravel the fraud's full extent.",
+      "tier": "medium",
+      "synonyms": ["untangle", "solve", "disentangle"]
+    }
+  ],
+  "story": "The merger agreement was famously [[intricate|intricate]] — critics called it [[byzantine|byzantine]], so [[convoluted|convoluted]] that even the lawyers got lost in its [[labyrinthine|labyrinthine]] clauses. It was, everyone agreed, a genuinely [[complex|complex]] document, and any [[simplistic|simplistic]] summary would miss the danger buried inside. Compare that to the founders' original handshake deal: [[elementary|elementary]], almost [[rudimentary|rudimentary]], a [[straightforward|straightforward]] and [[uncomplicated|uncomplicated]] promise on a single page. Somewhere between the two, years of lawyers had managed to [[entangle|entangle]] a simple idea in red tape it would take a new team months to [[unravel|unravel]]."
+}

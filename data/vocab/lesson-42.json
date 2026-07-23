@@ -1,0 +1,115 @@
+{
+  "id": "lesson-42",
+  "title": "Lesson 42 — Wild and Cultivated",
+  "words": [
+    {
+      "id": "verdant",
+      "word": "verdant",
+      "partOfSpeech": "adjective",
+      "definition": "green with lush vegetation",
+      "example": "Verdant hills rolled away from the farmhouse.",
+      "tier": "medium",
+      "synonyms": ["lush", "green", "leafy"]
+    },
+    {
+      "id": "lush",
+      "word": "lush",
+      "partOfSpeech": "adjective",
+      "definition": "growing luxuriantly; rich and abundant",
+      "example": "The greenhouse was thick with lush ferns.",
+      "tier": "easy",
+      "synonyms": ["verdant", "abundant", "flourishing"]
+    },
+    {
+      "id": "fecund",
+      "word": "fecund",
+      "partOfSpeech": "adjective",
+      "definition": "producing or capable of producing abundant vegetation or offspring; fertile",
+      "example": "The delta's fecund soil yielded three harvests a year.",
+      "tier": "hard",
+      "synonyms": ["fertile", "prolific", "productive"]
+    },
+    {
+      "id": "fertile",
+      "word": "fertile",
+      "partOfSpeech": "adjective",
+      "definition": "capable of producing abundant crops or vegetation; productive",
+      "example": "The valley's fertile soil supported the whole region.",
+      "tier": "easy",
+      "synonyms": ["productive", "fecund", "rich"]
+    },
+    {
+      "id": "arid",
+      "word": "arid",
+      "partOfSpeech": "adjective",
+      "definition": "having little or no rain; too dry to support vegetation",
+      "example": "Little grows in the arid stretch beyond the mountains.",
+      "tier": "medium",
+      "synonyms": ["dry", "parched", "barren"]
+    },
+    {
+      "id": "barren",
+      "word": "barren",
+      "partOfSpeech": "adjective",
+      "definition": "too poor to produce much or any vegetation; unfruitful",
+      "example": "Only scrub survived on the barren plateau.",
+      "tier": "easy",
+      "synonyms": ["desolate", "infertile", "arid"]
+    },
+    {
+      "id": "desiccated",
+      "word": "desiccated",
+      "partOfSpeech": "adjective",
+      "definition": "thoroughly dried out; drained of moisture or vitality",
+      "example": "The desiccated riverbed had not seen water in years.",
+      "tier": "hard",
+      "synonyms": ["dehydrated", "parched", "dried out"]
+    },
+    {
+      "id": "pristine",
+      "word": "pristine",
+      "partOfSpeech": "adjective",
+      "definition": "in its original, unspoiled condition; clean and fresh",
+      "example": "The reef remained pristine, untouched by tourism.",
+      "tier": "medium",
+      "synonyms": ["unspoiled", "immaculate", "untouched"]
+    },
+    {
+      "id": "unspoiled",
+      "word": "unspoiled",
+      "partOfSpeech": "adjective",
+      "definition": "not damaged or ruined; retaining its natural state",
+      "example": "An unspoiled beach without a single building in sight.",
+      "tier": "easy",
+      "synonyms": ["pristine", "untouched", "natural"]
+    },
+    {
+      "id": "pastoral",
+      "word": "pastoral",
+      "partOfSpeech": "adjective",
+      "definition": "relating to the peaceful, simple beauty of the countryside",
+      "example": "The painting captured a pastoral scene of grazing sheep.",
+      "tier": "medium",
+      "synonyms": ["rural", "rustic", "idyllic"]
+    },
+    {
+      "id": "idyllic",
+      "word": "idyllic",
+      "partOfSpeech": "adjective",
+      "definition": "extremely happy, peaceful, or picturesque; like an idealized rural scene",
+      "example": "They spent an idyllic week at the lake house.",
+      "tier": "medium",
+      "synonyms": ["blissful", "pastoral", "picturesque"]
+    },
+    {
+      "id": "bucolic",
+      "word": "bucolic",
+      "partOfSpeech": "adjective",
+      "definition": "relating to pleasant rural life and scenery",
+      "example": "A bucolic village with a single church spire.",
+      "tier": "hard",
+      "synonyms": ["rural", "pastoral", "rustic"]
+    }
+  ],
+  "story": "Crossing the border into the delta, the land changed completely. Behind them lay [[arid|arid]], [[barren|barren]] plains and a [[desiccated|desiccated]] riverbed; ahead spread a [[verdant|verdant]], [[lush|lush]] valley whose [[fecund|fecund]] soil made it the most [[fertile|fertile]] region in the country. The lake at its center was still [[pristine|pristine]] and [[unspoiled|unspoiled]], ringed by [[pastoral|pastoral]] farms that looked almost [[idyllic|idyllic]] in the evening light — a thoroughly [[bucolic|bucolic]] scene after so many dusty miles."
+}

@@ -1,0 +1,115 @@
+{
+  "id": "lesson-41",
+  "title": "Lesson 41 — The Detective",
+  "words": [
+    {
+      "id": "circumstantial",
+      "word": "circumstantial",
+      "partOfSpeech": "adjective",
+      "definition": "based on inference rather than direct observation; incidental",
+      "example": "The case rested on circumstantial evidence alone.",
+      "tier": "medium",
+      "synonyms": ["indirect", "inferential", "presumptive"]
+    },
+    {
+      "id": "incontrovertible",
+      "word": "incontrovertible",
+      "partOfSpeech": "adjective",
+      "definition": "not able to be denied or disputed",
+      "example": "The fingerprints offered incontrovertible proof.",
+      "tier": "hard",
+      "synonyms": ["indisputable", "undeniable", "irrefutable"]
+    },
+    {
+      "id": "irrefutable",
+      "word": "irrefutable",
+      "partOfSpeech": "adjective",
+      "definition": "impossible to deny or disprove",
+      "example": "The DNA match was irrefutable.",
+      "tier": "hard",
+      "synonyms": ["indisputable", "incontrovertible", "conclusive"]
+    },
+    {
+      "id": "conclusive",
+      "word": "conclusive",
+      "partOfSpeech": "adjective",
+      "definition": "serving to settle an issue decisively; convincing",
+      "example": "The autopsy report was conclusive.",
+      "tier": "easy",
+      "synonyms": ["decisive", "definitive", "certain"]
+    },
+    {
+      "id": "inconclusive",
+      "word": "inconclusive",
+      "partOfSpeech": "adjective",
+      "definition": "not leading to a firm conclusion; not decisive",
+      "example": "The test results were frustratingly inconclusive.",
+      "tier": "medium",
+      "synonyms": ["uncertain", "indecisive", "unresolved"]
+    },
+    {
+      "id": "corroborating",
+      "word": "corroborating",
+      "partOfSpeech": "adjective",
+      "definition": "confirming or supporting a statement or finding",
+      "example": "Two corroborating witnesses backed her account.",
+      "tier": "medium",
+      "synonyms": ["confirming", "supporting", "substantiating"]
+    },
+    {
+      "id": "exculpatory",
+      "word": "exculpatory",
+      "partOfSpeech": "adjective",
+      "definition": "tending to clear someone of guilt or blame",
+      "example": "The lawyer withheld the exculpatory footage until trial.",
+      "tier": "hard",
+      "synonyms": ["exonerating", "vindicating", "clearing"]
+    },
+    {
+      "id": "incriminating",
+      "word": "incriminating",
+      "partOfSpeech": "adjective",
+      "definition": "making someone appear guilty of a crime or wrongdoing",
+      "example": "Investigators found incriminating messages on his phone.",
+      "tier": "medium",
+      "synonyms": ["damning", "condemning", "compromising"]
+    },
+    {
+      "id": "testimony",
+      "word": "testimony",
+      "partOfSpeech": "noun",
+      "definition": "a formal statement given as evidence, especially in court",
+      "example": "Her testimony contradicted the defendant's account.",
+      "tier": "easy",
+      "synonyms": ["evidence", "statement", "account"]
+    },
+    {
+      "id": "deduction",
+      "word": "deduction",
+      "partOfSpeech": "noun",
+      "definition": "the reaching of a conclusion by reasoning from known facts",
+      "example": "By careful deduction, he identified the culprit.",
+      "tier": "medium",
+      "synonyms": ["inference", "conclusion", "reasoning"]
+    },
+    {
+      "id": "culprit",
+      "word": "culprit",
+      "partOfSpeech": "noun",
+      "definition": "a person responsible for a crime or wrongdoing",
+      "example": "The culprit had left a single glove behind.",
+      "tier": "easy",
+      "synonyms": ["perpetrator", "offender", "wrongdoer"]
+    },
+    {
+      "id": "acquit",
+      "word": "acquit",
+      "partOfSpeech": "verb",
+      "definition": "to formally declare someone not guilty of a crime",
+      "example": "The jury voted to acquit after two hours.",
+      "tier": "medium",
+      "synonyms": ["exonerate", "clear", "absolve"]
+    }
+  ],
+  "story": "The first evidence against him was only [[circumstantial|circumstantial]] — nothing [[incontrovertible|incontrovertible]], nothing [[irrefutable|irrefutable]], nothing [[conclusive|conclusive]] enough to charge him. The lab tests came back [[inconclusive|inconclusive]] too. Then two [[corroborating|corroborating]] witnesses came forward, and a set of oddly [[exculpatory|exculpatory]] texts turned out, on a second reading, to be quietly [[incriminating|incriminating]]. Their [[testimony|testimony]], paired with careful [[deduction|deduction]], finally pointed to the real [[culprit|culprit]] — and let the original suspect be [[acquit|acquitted]] at last."
+}
