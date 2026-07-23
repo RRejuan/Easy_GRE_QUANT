@@ -1,0 +1,115 @@
+{
+  "id": "lesson-32",
+  "title": "Lesson 32 — Hidden Meanings",
+  "words": [
+    {
+      "id": "equivocate",
+      "word": "equivocate",
+      "partOfSpeech": "verb",
+      "definition": "to use ambiguous language to avoid committing to a clear position",
+      "example": "Pressed for a yes or no, the minister only equivocated.",
+      "tier": "hard",
+      "synonyms": ["hedge", "waffle", "prevaricate"]
+    },
+    {
+      "id": "obfuscate",
+      "word": "obfuscate",
+      "partOfSpeech": "verb",
+      "definition": "to deliberately make something unclear or hard to understand",
+      "example": "Dense legal jargon obfuscated the contract's real terms.",
+      "tier": "hard",
+      "synonyms": ["confuse", "muddle", "obscure"]
+    },
+    {
+      "id": "euphemism",
+      "word": "euphemism",
+      "partOfSpeech": "noun",
+      "definition": "a mild or indirect word substituted for one considered harsh or blunt",
+      "example": "\"Letting people go\" is a euphemism for firing them.",
+      "tier": "medium",
+      "synonyms": ["understatement", "softening", "indirection"]
+    },
+    {
+      "id": "connote",
+      "word": "connote",
+      "partOfSpeech": "verb",
+      "definition": "to suggest a meaning beyond the literal one",
+      "example": "\"Home\" connotes warmth in a way \"house\" does not.",
+      "tier": "medium",
+      "synonyms": ["imply", "suggest", "signify"]
+    },
+    {
+      "id": "denote",
+      "word": "denote",
+      "partOfSpeech": "verb",
+      "definition": "to be a sign of; to indicate the literal meaning of",
+      "example": "A red flag on the beach denotes dangerous surf.",
+      "tier": "easy",
+      "synonyms": ["signify", "indicate", "mean"]
+    },
+    {
+      "id": "allude",
+      "word": "allude",
+      "partOfSpeech": "verb",
+      "definition": "to suggest or refer to indirectly",
+      "example": "The speech alluded to troubles without naming them.",
+      "tier": "medium",
+      "synonyms": ["hint", "refer", "intimate"]
+    },
+    {
+      "id": "insinuate",
+      "word": "insinuate",
+      "partOfSpeech": "verb",
+      "definition": "to suggest something negative in an indirect and unpleasant way",
+      "example": "He insinuated that the results had been faked.",
+      "tier": "medium",
+      "synonyms": ["imply", "hint", "intimate"]
+    },
+    {
+      "id": "intimate",
+      "word": "intimate",
+      "partOfSpeech": "verb",
+      "definition": "to state or make known indirectly",
+      "example": "She intimated that changes were coming without saying what.",
+      "tier": "medium",
+      "synonyms": ["hint", "suggest", "imply"]
+    },
+    {
+      "id": "implicit",
+      "word": "implicit",
+      "partOfSpeech": "adjective",
+      "definition": "implied though not plainly expressed",
+      "example": "There was an implicit warning in his calm tone.",
+      "tier": "medium",
+      "synonyms": ["implied", "unspoken", "tacit"]
+    },
+    {
+      "id": "explicit",
+      "word": "explicit",
+      "partOfSpeech": "adjective",
+      "definition": "stated clearly and in detail, leaving no room for confusion",
+      "example": "The instructions were explicit about the deadline.",
+      "tier": "easy",
+      "synonyms": ["clear", "direct", "unambiguous"]
+    },
+    {
+      "id": "veiled",
+      "word": "veiled",
+      "partOfSpeech": "adjective",
+      "definition": "disguised or partly concealed",
+      "example": "A veiled threat lay beneath his polite words.",
+      "tier": "medium",
+      "synonyms": ["disguised", "concealed", "masked"]
+    },
+    {
+      "id": "oblique",
+      "word": "oblique",
+      "partOfSpeech": "adjective",
+      "definition": "not expressed or done in a direct way; indirect",
+      "example": "He made only an oblique reference to the layoffs.",
+      "tier": "hard",
+      "synonyms": ["indirect", "roundabout", "evasive"]
+    }
+  ],
+  "story": "The memo was a masterpiece of saying nothing. Wherever a plain answer was needed, the CEO seemed to [[equivocate|equivocate]], and whole paragraphs appeared designed to [[obfuscate|obfuscate]] rather than explain. \"Restructuring\" was the [[euphemism|euphemism]] of the month; the word did not [[denote|denote]] layoffs directly, though everyone knew what it [[connote|connoted]]. The memo would [[allude|allude]] to \"difficult choices\" and seemed to [[insinuate|insinuate]] that some departments were safer than others, without ever [[intimate|intimating]] which. Nothing was [[explicit|explicit]]; every warning stayed [[implicit|implicit]], every threat [[veiled|veiled]], every reference [[oblique|oblique]] enough to deny later."
+}
