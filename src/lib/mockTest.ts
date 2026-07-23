@@ -1,5 +1,5 @@
 import type { Question } from "../types";
-import { allQuestions } from "./content";
+import { quantQuestions } from "./content";
 
 export type Tier = "easy" | "medium" | "hard";
 
@@ -28,7 +28,7 @@ export function assembleSection1(): Question[] {
   // medium difficulty (that's the whole basis for routing section 2).
   // Draw from difficulty 3 first, and only reach into neighboring
   // difficulties if the medium pool somehow can't fill the section.
-  const pool = allQuestions();
+  const pool = quantQuestions();
   const medium = shuffle(pool.filter((q) => q.difficulty === 3));
   if (medium.length >= SECTION1_QUESTION_COUNT) {
     return medium.slice(0, SECTION1_QUESTION_COUNT);
@@ -55,7 +55,7 @@ const TIER_DIFFICULTY_RANGE: Record<Tier, [number, number]> = {
 
 export function assembleSection2(tier: Tier, excludeIds: Set<string>): Question[] {
   const [min, max] = TIER_DIFFICULTY_RANGE[tier];
-  const eligible = allQuestions().filter(
+  const eligible = quantQuestions().filter(
     (q) => q.difficulty >= min && q.difficulty <= max && !excludeIds.has(q.id),
   );
   return shuffle(eligible).slice(0, SECTION2_QUESTION_COUNT);

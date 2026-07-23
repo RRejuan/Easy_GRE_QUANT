@@ -62,9 +62,11 @@ export function SkillPage() {
     setStatusVersion((v) => v + 1);
   }
 
+  const backTo = skill.section === "Verbal" ? "/verbal" : "/skills";
+
   return (
     <div className="skill-page">
-      <Link to="/skills">&larr; Back to skill list</Link>
+      <Link to={backTo}>&larr; Back to skill list</Link>
       <h1>{skill.name}</h1>
       <p className="skill-description">{skill.description}</p>
       <p>

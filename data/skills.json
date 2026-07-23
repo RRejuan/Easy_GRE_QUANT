@@ -28,7 +28,9 @@
     "area": "Arithmetic",
     "topic": "Number Properties",
     "name": "Absolute Value",
-    "prerequisites": ["number-line-ordering"],
+    "prerequisites": [
+      "number-line-ordering"
+    ],
     "description": "Definition and evaluation of absolute value, distance interpretation on the number line."
   },
   {
@@ -44,7 +46,9 @@
     "area": "Arithmetic",
     "topic": "Fractions, Decimals & Percents",
     "name": "Fraction Operations",
-    "prerequisites": ["order-of-operations"],
+    "prerequisites": [
+      "order-of-operations"
+    ],
     "description": "Adding, subtracting, multiplying, dividing, and simplifying fractions."
   },
   {
@@ -52,7 +56,9 @@
     "area": "Arithmetic",
     "topic": "Fractions, Decimals & Percents",
     "name": "Decimal Operations",
-    "prerequisites": ["order-of-operations"],
+    "prerequisites": [
+      "order-of-operations"
+    ],
     "description": "Arithmetic with decimals, including place value and conversion to/from fractions."
   },
   {
@@ -60,7 +66,10 @@
     "area": "Arithmetic",
     "topic": "Fractions, Decimals & Percents",
     "name": "Percent Basics",
-    "prerequisites": ["fractions-operations", "decimals-operations"],
+    "prerequisites": [
+      "fractions-operations",
+      "decimals-operations"
+    ],
     "description": "Converting between percents, fractions, and decimals; computing a percent of a quantity."
   },
   {
@@ -68,7 +77,9 @@
     "area": "Arithmetic",
     "topic": "Fractions, Decimals & Percents",
     "name": "Percent Increase/Decrease",
-    "prerequisites": ["percent-basics"],
+    "prerequisites": [
+      "percent-basics"
+    ],
     "description": "Percent increase and decrease, successive percent changes, and reverse-percent problems."
   },
   {
@@ -76,7 +87,9 @@
     "area": "Arithmetic",
     "topic": "Ratios & Rates",
     "name": "Ratios & Proportions",
-    "prerequisites": ["fractions-operations"],
+    "prerequisites": [
+      "fractions-operations"
+    ],
     "description": "Setting up and solving ratio and proportion problems, including part-to-whole relationships."
   },
   {
@@ -84,7 +97,9 @@
     "area": "Arithmetic",
     "topic": "Ratios & Rates",
     "name": "Rates, Distance/Time & Work",
-    "prerequisites": ["ratios-proportions"],
+    "prerequisites": [
+      "ratios-proportions"
+    ],
     "description": "Rate problems including distance/rate/time and combined work-rate problems."
   },
   {
@@ -92,7 +107,9 @@
     "area": "Arithmetic",
     "topic": "Exponents & Roots",
     "name": "Laws of Exponents",
-    "prerequisites": ["order-of-operations"],
+    "prerequisites": [
+      "order-of-operations"
+    ],
     "description": "Rules for multiplying, dividing, and raising powers, including zero and negative exponents."
   },
   {
@@ -100,7 +117,9 @@
     "area": "Arithmetic",
     "topic": "Exponents & Roots",
     "name": "Roots & Radicals",
-    "prerequisites": ["exponents-basic"],
+    "prerequisites": [
+      "exponents-basic"
+    ],
     "description": "Simplifying square and cube roots and operations with radical expressions."
   },
   {
@@ -108,7 +127,10 @@
     "area": "Algebra",
     "topic": "Expressions & Equations",
     "name": "Simplifying Expressions",
-    "prerequisites": ["order-of-operations", "integer-properties"],
+    "prerequisites": [
+      "order-of-operations",
+      "integer-properties"
+    ],
     "description": "Combining like terms and simplifying algebraic expressions using the distributive property."
   },
   {
@@ -116,7 +138,9 @@
     "area": "Algebra",
     "topic": "Expressions & Equations",
     "name": "Linear Equations, One Variable",
-    "prerequisites": ["algebraic-expressions-simplify"],
+    "prerequisites": [
+      "algebraic-expressions-simplify"
+    ],
     "description": "Solving linear equations in a single variable."
   },
   {
@@ -124,7 +148,9 @@
     "area": "Algebra",
     "topic": "Expressions & Equations",
     "name": "Systems of Linear Equations",
-    "prerequisites": ["linear-equations-one-var"],
+    "prerequisites": [
+      "linear-equations-one-var"
+    ],
     "description": "Solving systems of two linear equations by substitution and elimination."
   },
   {
@@ -132,7 +158,9 @@
     "area": "Algebra",
     "topic": "Inequalities",
     "name": "Linear Inequalities",
-    "prerequisites": ["linear-equations-one-var"],
+    "prerequisites": [
+      "linear-equations-one-var"
+    ],
     "description": "Solving and graphing linear inequalities, including sign flips when multiplying/dividing by negatives."
   },
   {
@@ -140,7 +168,9 @@
     "area": "Algebra",
     "topic": "Inequalities",
     "name": "Compound Inequalities",
-    "prerequisites": ["linear-inequalities"],
+    "prerequisites": [
+      "linear-inequalities"
+    ],
     "description": "Solving compound (and/or) inequalities and expressing solution sets."
   },
   {
@@ -148,7 +178,10 @@
     "area": "Algebra",
     "topic": "Inequalities",
     "name": "Absolute Value Equations/Inequalities",
-    "prerequisites": ["linear-equations-one-var", "absolute-value"],
+    "prerequisites": [
+      "linear-equations-one-var",
+      "absolute-value"
+    ],
     "description": "Solving equations and inequalities that involve absolute value expressions."
   },
   {
@@ -156,7 +189,9 @@
     "area": "Algebra",
     "topic": "Quadratics & Functions",
     "name": "Factoring Polynomials",
-    "prerequisites": ["algebraic-expressions-simplify"],
+    "prerequisites": [
+      "algebraic-expressions-simplify"
+    ],
     "description": "Factoring common factor, difference of squares, and trinomial expressions."
   },
   {
@@ -164,7 +199,9 @@
     "area": "Algebra",
     "topic": "Quadratics & Functions",
     "name": "Quadratic Equations",
-    "prerequisites": ["factoring-polynomials"],
+    "prerequisites": [
+      "factoring-polynomials"
+    ],
     "description": "Solving quadratic equations by factoring, the quadratic formula, and interpreting roots."
   },
   {
@@ -172,7 +209,9 @@
     "area": "Algebra",
     "topic": "Quadratics & Functions",
     "name": "Functions & f(x) Notation",
-    "prerequisites": ["algebraic-expressions-simplify"],
+    "prerequisites": [
+      "algebraic-expressions-simplify"
+    ],
     "description": "Evaluating and interpreting functions given in f(x) notation, including piecewise/defined operations."
   },
   {
@@ -180,7 +219,9 @@
     "area": "Algebra",
     "topic": "Word Problems & Sequences",
     "name": "Translating Word Problems",
-    "prerequisites": ["linear-equations-one-var"],
+    "prerequisites": [
+      "linear-equations-one-var"
+    ],
     "description": "Translating verbal descriptions into algebraic equations and solving them."
   },
   {
@@ -188,7 +229,9 @@
     "area": "Algebra",
     "topic": "Word Problems & Sequences",
     "name": "Arithmetic & Geometric Sequences",
-    "prerequisites": ["linear-equations-one-var"],
+    "prerequisites": [
+      "linear-equations-one-var"
+    ],
     "description": "Finding terms and sums of arithmetic and geometric sequences."
   },
   {
@@ -204,7 +247,9 @@
     "area": "Geometry",
     "topic": "Lines, Angles & Triangles",
     "name": "Triangle Basics",
-    "prerequisites": ["lines-angles"],
+    "prerequisites": [
+      "lines-angles"
+    ],
     "description": "Angle sum, exterior angle theorem, and classification of triangles."
   },
   {
@@ -212,7 +257,9 @@
     "area": "Geometry",
     "topic": "Lines, Angles & Triangles",
     "name": "Triangle Inequality",
-    "prerequisites": ["triangles-basic"],
+    "prerequisites": [
+      "triangles-basic"
+    ],
     "description": "The triangle inequality theorem and its use in bounding unknown side lengths."
   },
   {
@@ -220,7 +267,9 @@
     "area": "Geometry",
     "topic": "Lines, Angles & Triangles",
     "name": "Right Triangles & Pythagorean Theorem",
-    "prerequisites": ["triangles-basic"],
+    "prerequisites": [
+      "triangles-basic"
+    ],
     "description": "The Pythagorean theorem, common integer triples, and their application to right triangles."
   },
   {
@@ -228,7 +277,9 @@
     "area": "Geometry",
     "topic": "Lines, Angles & Triangles",
     "name": "30-60-90 & 45-45-90 Triangles",
-    "prerequisites": ["right-triangles-pythagorean"],
+    "prerequisites": [
+      "right-triangles-pythagorean"
+    ],
     "description": "Side-length ratios in 30-60-90 and 45-45-90 right triangles."
   },
   {
@@ -236,7 +287,10 @@
     "area": "Geometry",
     "topic": "Lines, Angles & Triangles",
     "name": "Similar Triangles",
-    "prerequisites": ["triangles-basic", "ratios-proportions"],
+    "prerequisites": [
+      "triangles-basic",
+      "ratios-proportions"
+    ],
     "description": "Identifying similar triangles and using proportional side ratios to find unknowns."
   },
   {
@@ -244,7 +298,10 @@
     "area": "Geometry",
     "topic": "Quadrilaterals & Polygons",
     "name": "Quadrilaterals",
-    "prerequisites": ["lines-angles", "triangles-basic"],
+    "prerequisites": [
+      "lines-angles",
+      "triangles-basic"
+    ],
     "description": "Properties, perimeter, and area of parallelograms, rectangles, squares, and trapezoids."
   },
   {
@@ -252,7 +309,9 @@
     "area": "Geometry",
     "topic": "Quadrilaterals & Polygons",
     "name": "General Polygons",
-    "prerequisites": ["quadrilaterals"],
+    "prerequisites": [
+      "quadrilaterals"
+    ],
     "description": "Interior/exterior angle sums and properties of regular polygons."
   },
   {
@@ -260,7 +319,9 @@
     "area": "Geometry",
     "topic": "Circles",
     "name": "Circle Basics",
-    "prerequisites": ["lines-angles"],
+    "prerequisites": [
+      "lines-angles"
+    ],
     "description": "Radius, diameter, circumference, and area of circles."
   },
   {
@@ -268,7 +329,9 @@
     "area": "Geometry",
     "topic": "Circles",
     "name": "Arcs & Sectors",
-    "prerequisites": ["circles-basic"],
+    "prerequisites": [
+      "circles-basic"
+    ],
     "description": "Arc length, sector area, and central/inscribed angle relationships."
   },
   {
@@ -276,7 +339,10 @@
     "area": "Geometry",
     "topic": "Solids & Coordinate Geometry",
     "name": "3D Solids: Volume & Surface Area",
-    "prerequisites": ["quadrilaterals", "circles-basic"],
+    "prerequisites": [
+      "quadrilaterals",
+      "circles-basic"
+    ],
     "description": "Volume and surface area of rectangular solids, cylinders, and other common solids."
   },
   {
@@ -284,7 +350,10 @@
     "area": "Geometry",
     "topic": "Solids & Coordinate Geometry",
     "name": "Coordinate Plane, Distance & Midpoint",
-    "prerequisites": ["lines-angles", "right-triangles-pythagorean"],
+    "prerequisites": [
+      "lines-angles",
+      "right-triangles-pythagorean"
+    ],
     "description": "Plotting points and computing distance and midpoint in the coordinate plane."
   },
   {
@@ -292,7 +361,10 @@
     "area": "Geometry",
     "topic": "Solids & Coordinate Geometry",
     "name": "Slope & Equations of Lines",
-    "prerequisites": ["coordinate-geometry-basics", "linear-equations-two-var"],
+    "prerequisites": [
+      "coordinate-geometry-basics",
+      "linear-equations-two-var"
+    ],
     "description": "Computing slope and writing/interpreting equations of lines in the coordinate plane."
   },
   {
@@ -308,7 +380,9 @@
     "area": "Data Analysis",
     "topic": "Descriptive Statistics",
     "name": "Range & Standard Deviation",
-    "prerequisites": ["mean-median-mode"],
+    "prerequisites": [
+      "mean-median-mode"
+    ],
     "description": "Measures of spread: range and an intuitive/computational treatment of standard deviation."
   },
   {
@@ -316,7 +390,10 @@
     "area": "Data Analysis",
     "topic": "Descriptive Statistics",
     "name": "Weighted Averages",
-    "prerequisites": ["mean-median-mode", "ratios-proportions"],
+    "prerequisites": [
+      "mean-median-mode",
+      "ratios-proportions"
+    ],
     "description": "Computing averages where groups contribute unequally to the overall mean."
   },
   {
@@ -324,7 +401,9 @@
     "area": "Data Analysis",
     "topic": "Descriptive Statistics",
     "name": "Normal Distribution Basics",
-    "prerequisites": ["range-standard-deviation"],
+    "prerequisites": [
+      "range-standard-deviation"
+    ],
     "description": "Basic properties of the normal distribution and the 68-95-99.7 rule."
   },
   {
@@ -332,7 +411,9 @@
     "area": "Data Analysis",
     "topic": "Counting & Probability",
     "name": "Permutations",
-    "prerequisites": ["integer-properties"],
+    "prerequisites": [
+      "integer-properties"
+    ],
     "description": "Counting ordered arrangements using the fundamental counting principle and factorials."
   },
   {
@@ -340,7 +421,9 @@
     "area": "Data Analysis",
     "topic": "Counting & Probability",
     "name": "Combinations",
-    "prerequisites": ["counting-permutations"],
+    "prerequisites": [
+      "counting-permutations"
+    ],
     "description": "Counting unordered selections and distinguishing combinations from permutations."
   },
   {
@@ -348,7 +431,10 @@
     "area": "Data Analysis",
     "topic": "Counting & Probability",
     "name": "Basic Probability",
-    "prerequisites": ["fractions-operations", "counting-combinations"],
+    "prerequisites": [
+      "fractions-operations",
+      "counting-combinations"
+    ],
     "description": "Computing probability of simple and combined events using counting techniques."
   },
   {
@@ -356,7 +442,9 @@
     "area": "Data Analysis",
     "topic": "Counting & Probability",
     "name": "Compound & Conditional Probability",
-    "prerequisites": ["probability-basic"],
+    "prerequisites": [
+      "probability-basic"
+    ],
     "description": "Independent/dependent events, mutually exclusive events, and conditional probability."
   },
   {
@@ -364,7 +452,10 @@
     "area": "Data Analysis",
     "topic": "Data Representation & Sets",
     "name": "Reading Tables & Graphs",
-    "prerequisites": ["percent-basics", "mean-median-mode"],
+    "prerequisites": [
+      "percent-basics",
+      "mean-median-mode"
+    ],
     "description": "Extracting and computing values from tables, bar/line graphs, and pie charts."
   },
   {
@@ -380,7 +471,21 @@
     "area": "Arithmetic",
     "topic": "Mixed Practice",
     "name": "Mixed GRE-Style Practice: Arithmetic",
-    "prerequisites": ["integer-properties", "number-line-ordering", "order-of-operations", "absolute-value", "estimation-rounding", "fractions-operations", "decimals-operations", "percent-basics", "percent-change", "ratios-proportions", "rates-and-work", "exponents-basic", "roots-radicals"],
+    "prerequisites": [
+      "integer-properties",
+      "number-line-ordering",
+      "order-of-operations",
+      "absolute-value",
+      "estimation-rounding",
+      "fractions-operations",
+      "decimals-operations",
+      "percent-basics",
+      "percent-change",
+      "ratios-proportions",
+      "rates-and-work",
+      "exponents-basic",
+      "roots-radicals"
+    ],
     "description": "A standalone pool of full-length, GRE-mock-style Arithmetic problems mixing multiple sub-skills, with randomized numbers on every attempt."
   },
   {
@@ -388,7 +493,19 @@
     "area": "Algebra",
     "topic": "Mixed Practice",
     "name": "Mixed GRE-Style Practice: Algebra",
-    "prerequisites": ["algebraic-expressions-simplify", "linear-equations-one-var", "linear-equations-two-var", "linear-inequalities", "inequalities-compound", "absolute-value-equations", "factoring-polynomials", "quadratic-equations", "functions-basics", "word-problems-algebraic-translation", "sequences-algebraic"],
+    "prerequisites": [
+      "algebraic-expressions-simplify",
+      "linear-equations-one-var",
+      "linear-equations-two-var",
+      "linear-inequalities",
+      "inequalities-compound",
+      "absolute-value-equations",
+      "factoring-polynomials",
+      "quadratic-equations",
+      "functions-basics",
+      "word-problems-algebraic-translation",
+      "sequences-algebraic"
+    ],
     "description": "A standalone pool of full-length, GRE-mock-style Algebra problems mixing multiple sub-skills, with randomized numbers on every attempt."
   },
   {
@@ -396,7 +513,21 @@
     "area": "Geometry",
     "topic": "Mixed Practice",
     "name": "Mixed GRE-Style Practice: Geometry",
-    "prerequisites": ["lines-angles", "triangles-basic", "triangle-inequality", "right-triangles-pythagorean", "special-right-triangles", "similar-triangles", "quadrilaterals", "polygons-general", "circles-basic", "circles-arcs-sectors", "three-d-solids", "coordinate-geometry-basics", "coordinate-geometry-lines"],
+    "prerequisites": [
+      "lines-angles",
+      "triangles-basic",
+      "triangle-inequality",
+      "right-triangles-pythagorean",
+      "special-right-triangles",
+      "similar-triangles",
+      "quadrilaterals",
+      "polygons-general",
+      "circles-basic",
+      "circles-arcs-sectors",
+      "three-d-solids",
+      "coordinate-geometry-basics",
+      "coordinate-geometry-lines"
+    ],
     "description": "A standalone pool of full-length, GRE-mock-style Geometry problems mixing multiple sub-skills, with randomized numbers on every attempt."
   },
   {
@@ -404,7 +535,54 @@
     "area": "Data Analysis",
     "topic": "Mixed Practice",
     "name": "Mixed GRE-Style Practice: Data Analysis",
-    "prerequisites": ["mean-median-mode", "range-standard-deviation", "weighted-averages", "normal-distribution-basics", "counting-permutations", "counting-combinations", "probability-basic", "probability-compound", "data-interpretation-tables-graphs", "venn-diagrams-sets"],
+    "prerequisites": [
+      "mean-median-mode",
+      "range-standard-deviation",
+      "weighted-averages",
+      "normal-distribution-basics",
+      "counting-permutations",
+      "counting-combinations",
+      "probability-basic",
+      "probability-compound",
+      "data-interpretation-tables-graphs",
+      "venn-diagrams-sets"
+    ],
     "description": "A standalone pool of full-length, GRE-mock-style Data Analysis problems mixing multiple sub-skills, with randomized numbers on every attempt."
+  },
+  {
+    "id": "text-completion-single",
+    "area": "Text Completion",
+    "section": "Verbal",
+    "topic": "Text Completion",
+    "name": "Single-Blank Text Completion",
+    "prerequisites": [],
+    "description": "Fill a single blank so the completed sentence is logical, coherent, and consistent in tone."
+  },
+  {
+    "id": "sentence-equivalence",
+    "area": "Sentence Equivalence",
+    "section": "Verbal",
+    "topic": "Sentence Equivalence",
+    "name": "Sentence Equivalence",
+    "prerequisites": [],
+    "description": "Pick the two words that both fit the blank and produce sentences alike in meaning."
+  },
+  {
+    "id": "reading-comprehension",
+    "area": "Reading Comprehension",
+    "section": "Verbal",
+    "topic": "Reading Comprehension",
+    "name": "Reading Comprehension",
+    "prerequisites": [],
+    "description": "Read short passages and answer questions on main idea, detail, inference, purpose, and tone."
+  },
+  {
+    "id": "critical-reasoning",
+    "area": "Reading Comprehension",
+    "section": "Verbal",
+    "topic": "Critical Reasoning",
+    "name": "Critical Reasoning",
+    "prerequisites": [],
+    "description": "Analyze short arguments: strengthen, weaken, find the assumption, resolve a paradox, or draw a valid conclusion."
   }
 ]

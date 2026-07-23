@@ -1,27 +1,31 @@
 import { Link } from "react-router-dom";
-import { groupSkillsByAreaAndTopic, skillsWithContent } from "../lib/content";
+import {
+  groupSkillsByAreaAndTopic,
+  skillsWithContentInSection,
+} from "../lib/content";
 import { resetProgress } from "../lib/storage";
 import { skillMasteryPercent } from "../lib/mastery";
 import { recommendNextSkill } from "../lib/recommend";
 import { SkillAreaList } from "../components/SkillAreaList";
+import { MasteryBar } from "../components/MasteryBar";
+
+function averageMastery(skillIds: string[]): number {
+  if (skillIds.length === 0) return 0;
+  const total = skillIds.reduce((sum, id) => sum + skillMasteryPercent(id), 0);
+  return Math.round(total / skillIds.length);
+}
 
 export function DashboardPage() {
-  const skills = skillsWithContent();
-  const masteryBySkill = new Map(
-    skills.map((skill) => [skill.id, skillMasteryPercent(skill.id)]),
-  );
+  const quantSkills = skillsWithContentInSection("Quant");
+  const verbalSkills = skillsWithContentInSection("Verbal");
 
-  const attempted = [...masteryBySkill.values()].filter((m) => m > 0);
-  const overallMastery =
-    skills.length === 0
-      ? 0
-      : Math.round(
-          [...masteryBySkill.values()].reduce((a, b) => a + b, 0) /
-            skills.length,
-        );
+  const quantMastery = averageMastery(quantSkills.map((s) => s.id));
+  const verbalMastery = averageMastery(verbalSkills.map((s) => s.id));
+  const attempted = quantSkills.filter((s) => skillMasteryPercent(s.id) > 0).length;
 
   const recommended = recommendNextSkill();
-  const groups = groupSkillsByAreaAndTopic(skills);
+  const quantGroups = groupSkillsByAreaAndTopic(quantSkills);
+  const verbalGroups = groupSkillsByAreaAndTopic(verbalSkills);
 
   function handleResetProgress() {
     const confirmed = window.confirm(
@@ -35,39 +39,95 @@ export function DashboardPage() {
   return (
     <div className="skill-page dashboard-page">
       <h1>Dashboard</h1>
-
-      <div className="mock-test-cta">
-        <p>
-          New here, or want a fresh read on where you stand? Take a quick
-          diagnostic spanning all four areas to seed your mastery map, or
-          jump into a full, timed, section-adaptive mock test matching the
-          real GRE Quant format.
-        </p>
-        <div className="cta-button-row">
-          <Link to="/diagnostic" className="cta-button">
-            Start the diagnostic
-          </Link>
-          <Link to="/mock-test" className="cta-button">
-            Take a full mock test
-          </Link>
-        </div>
-      </div>
-
-      <p>
-        Overall mastery: {overallMastery}% across {skills.length} skills (
-        {attempted.length} attempted).
+      <p className="dash-intro">
+        The GRE has three measures. Track your progress in each below.
       </p>
 
-      {recommended && (
-        <p>
-          Recommended next: <Link to={`/skill/${recommended.id}`}>{recommended.name}</Link>
-        </p>
-      )}
+      <details className="dash-section" open>
+        <summary className="dash-section-summary">
+          <span className="dash-section-chevron" aria-hidden="true">▸</span>
+          <span className="dash-section-title">Quantitative Reasoning</span>
+          <MasteryBar percent={quantMastery} />
+        </summary>
+        <div className="dash-section-body">
+          <div className="mock-test-cta">
+            <p>
+              Take a quick diagnostic spanning all four areas to seed your
+              mastery map, or jump into a full, timed, section-adaptive mock
+              test matching the real GRE Quant format.
+            </p>
+            <div className="cta-button-row">
+              <Link to="/diagnostic" className="cta-button">
+                Start the diagnostic
+              </Link>
+              <Link to="/mock-test" className="cta-button">
+                Take a full mock test
+              </Link>
+            </div>
+          </div>
+          <p>
+            {quantMastery}% average across {quantSkills.length} skills (
+            {attempted} attempted).
+          </p>
+          {recommended && (
+            <p>
+              Recommended next:{" "}
+              <Link to={`/skill/${recommended.id}`}>{recommended.name}</Link>
+            </p>
+          )}
+          <SkillAreaList
+            groups={quantGroups}
+            masteryForSkill={skillMasteryPercent}
+          />
+        </div>
+      </details>
 
-      <SkillAreaList
-        groups={groups}
-        masteryForSkill={(id) => masteryBySkill.get(id) ?? 0}
-      />
+      <details className="dash-section">
+        <summary className="dash-section-summary">
+          <span className="dash-section-chevron" aria-hidden="true">▸</span>
+          <span className="dash-section-title">Verbal Reasoning</span>
+          <MasteryBar percent={verbalMastery} />
+        </summary>
+        <div className="dash-section-body">
+          <p>
+            Practice the three verbal question types, or build the vocabulary
+            that Text Completion and Sentence Equivalence lean on.
+          </p>
+          <div className="cta-button-row">
+            <Link to="/verbal" className="cta-button">
+              Verbal practice
+            </Link>
+            <Link to="/vocab" className="cta-button">
+              Vocabulary
+            </Link>
+          </div>
+          {verbalGroups.length > 0 && (
+            <SkillAreaList
+              groups={verbalGroups}
+              masteryForSkill={skillMasteryPercent}
+            />
+          )}
+        </div>
+      </details>
+
+      <details className="dash-section">
+        <summary className="dash-section-summary">
+          <span className="dash-section-chevron" aria-hidden="true">▸</span>
+          <span className="dash-section-title">Analytical Writing</span>
+        </summary>
+        <div className="dash-section-body">
+          <p>
+            The GRE's one essay task asks you to analyze an issue in 30 minutes.
+            Read the task, study the scoring, and practice with real-style
+            prompts.
+          </p>
+          <div className="cta-button-row">
+            <Link to="/writing" className="cta-button">
+              Analytical Writing
+            </Link>
+          </div>
+        </div>
+      </details>
 
       <div className="danger-zone">
         <button type="button" className="reset-progress-button" onClick={handleResetProgress}>

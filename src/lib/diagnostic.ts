@@ -1,5 +1,5 @@
 import type { Question, Skill } from "../types";
-import { getQuestionsForSkill, skillsWithContent } from "./content";
+import { getQuestionsForSkill, skillsWithContentInSection } from "./content";
 
 const AREA_ORDER = ["Arithmetic", "Algebra", "Geometry", "Data Analysis"];
 
@@ -31,7 +31,9 @@ function interleaveByArea(skills: Skill[]): Skill[] {
  */
 export function buildDiagnostic(targetCount = 40): Question[] {
   const skills = interleaveByArea(
-    skillsWithContent().filter((skill) => skill.topic !== "Mixed Practice"),
+    skillsWithContentInSection("Quant").filter(
+      (skill) => skill.topic !== "Mixed Practice",
+    ),
   );
   const queues = skills.map((skill) => [...getQuestionsForSkill(skill.id)]);
 

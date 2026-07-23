@@ -11,6 +11,8 @@ import { InboxPage } from "./pages/InboxPage";
 import { VocabPage } from "./pages/VocabPage";
 import { VocabLessonPage } from "./pages/VocabLessonPage";
 import { VocabReviewPage } from "./pages/VocabReviewPage";
+import { VerbalPage } from "./pages/VerbalPage";
+import { WritingPage } from "./pages/WritingPage";
 import "./App.css";
 
 function App() {
@@ -23,6 +25,8 @@ function App() {
         <Route path="/vocab" element={<VocabPage />} />
         <Route path="/vocab/review" element={<VocabReviewPage />} />
         <Route path="/vocab/:lessonId" element={<VocabLessonPage />} />
+        <Route path="/verbal" element={<VerbalPage />} />
+        <Route path="/writing" element={<WritingPage />} />
         <Route path="/diagnostic" element={<DiagnosticPage />} />
         <Route path="/mock-test" element={<MockTestPage />} />
         <Route path="/about-gre" element={<AboutGrePage />} />

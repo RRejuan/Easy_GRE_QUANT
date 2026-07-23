@@ -13,12 +13,19 @@ export function QCInput({
   question,
   onSubmit,
   initialAnswer,
+  autoRecord = false,
 }: {
   question: QCQuestion;
   onSubmit: (answer: "A" | "B" | "C" | "D") => void;
   initialAnswer?: "A" | "B" | "C" | "D";
+  autoRecord?: boolean;
 }) {
   const [selected, setSelected] = useState<"A" | "B" | "C" | "D" | undefined>(initialAnswer);
+
+  function choose(choiceId: "A" | "B" | "C" | "D") {
+    setSelected(choiceId);
+    if (autoRecord) onSubmit(choiceId);
+  }
 
   return (
     <div className="qc-input">
@@ -39,15 +46,17 @@ export function QCInput({
               type="radio"
               name={`qc-${question.id}`}
               checked={selected === choice.id}
-              onChange={() => setSelected(choice.id)}
+              onChange={() => choose(choice.id)}
             />
             {choice.label}
           </label>
         ))}
       </fieldset>
-      <button type="button" disabled={!selected} onClick={() => selected && onSubmit(selected)}>
-        Submit
-      </button>
+      {!autoRecord && (
+        <button type="button" disabled={!selected} onClick={() => selected && onSubmit(selected)}>
+          Submit
+        </button>
+      )}
     </div>
   );
 }

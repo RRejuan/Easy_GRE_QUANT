@@ -22,6 +22,9 @@ interface QuestionBase {
   secondarySkills: string[];
   difficulty: 1 | 2 | 3 | 4 | 5;
   stem: string;
+  /** An optional reading passage shown above the stem (Reading Comprehension).
+   * Blank-line-separated paragraphs render as separate paragraphs. */
+  passage?: string;
   solutionStandard: string;
   solutionShortcut?: string;
   shortcutTags?: ShortcutTag[];

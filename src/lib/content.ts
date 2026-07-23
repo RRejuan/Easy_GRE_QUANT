@@ -1,4 +1,4 @@
-import type { Skill, Question, Lesson } from "../types";
+import type { Skill, Question, Lesson, Section } from "../types";
 import skillsData from "../../data/skills.json";
 
 const questionModules = import.meta.glob<{ default: Question[] }>(
@@ -55,6 +55,25 @@ export function getLessonForSkill(skillId: string): Lesson | undefined {
 
 export function skillsWithContent(): Skill[] {
   return skills.filter((skill) => questionsBySkill.has(skill.id));
+}
+
+/** A skill's section, treating the absent field on legacy skills as "Quant". */
+export function sectionOfSkill(skillId: string): Section {
+  return getSkill(skillId)?.section ?? "Quant";
+}
+
+export function skillsWithContentInSection(section: Section): Skill[] {
+  return skillsWithContent().filter(
+    (skill) => (skill.section ?? "Quant") === section,
+  );
+}
+
+/** Questions belonging to Quant skills only — used by the (Quant) mock test and
+ * diagnostic so verbal questions never leak into them. */
+export function quantQuestions(): Question[] {
+  return allQuestions().filter(
+    (question) => sectionOfSkill(question.primarySkill) === "Quant",
+  );
 }
 
 export interface SkillGroup {
