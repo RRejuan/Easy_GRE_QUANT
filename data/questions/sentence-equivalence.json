@@ -638,5 +638,365 @@
     ],
     "solutionStandard": "Calling a film \"the finest of the decade\" is high praise. \"Lauded\" and \"extolled\" are synonyms and both fit. \"Panned\" and \"dismissed\" are the opposite; \"ignored\" and \"tolerated\" fall far short of praise.",
     "timeTargetSec": 55
+  },
+  {
+    "id": "sentence-equivalence-017",
+    "type": "MultiMC",
+    "primarySkill": "sentence-equivalence",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "The manuscript's margins were crammed with the scholar's ______ notes, so cramped and abbreviated that no one else could read them. (Pick the two words alike in meaning.)",
+    "options": [
+      {
+        "id": "A",
+        "text": "cryptic"
+      },
+      {
+        "id": "B",
+        "text": "legible"
+      },
+      {
+        "id": "C",
+        "text": "tidy"
+      },
+      {
+        "id": "D",
+        "text": "elegant"
+      },
+      {
+        "id": "E",
+        "text": "indecipherable"
+      },
+      {
+        "id": "F",
+        "text": "sparse"
+      }
+    ],
+    "answer": [
+      "A",
+      "E"
+    ],
+    "solutionStandard": "\"So cramped and abbreviated that no one else could read them\" means unreadable. \"Cryptic\" and \"indecipherable\" are alike in meaning and both fit. \"Legible,\" \"tidy,\" and \"elegant\" are opposites; \"sparse\" contradicts \"crammed.\"",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "sentence-equivalence-018",
+    "type": "MultiMC",
+    "primarySkill": "sentence-equivalence",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "After the scandal, the once-celebrated executive became a ______, shunned by the very people who had courted him. (Pick the two words alike in meaning.)",
+    "options": [
+      {
+        "id": "A",
+        "text": "luminary"
+      },
+      {
+        "id": "B",
+        "text": "pariah"
+      },
+      {
+        "id": "C",
+        "text": "benefactor"
+      },
+      {
+        "id": "D",
+        "text": "outcast"
+      },
+      {
+        "id": "E",
+        "text": "celebrity"
+      },
+      {
+        "id": "F",
+        "text": "mentor"
+      }
+    ],
+    "answer": [
+      "B",
+      "D"
+    ],
+    "solutionStandard": "\"Shunned by the very people who had courted him\" means he became a social reject. \"Pariah\" and \"outcast\" are synonyms and both fit. \"Luminary\" and \"celebrity\" describe the status he lost; \"benefactor\" and \"mentor\" are unrelated.",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "sentence-equivalence-019",
+    "type": "MultiMC",
+    "primarySkill": "sentence-equivalence",
+    "secondarySkills": [],
+    "difficulty": 5,
+    "stem": "Her prose has a ______ quality, evoking a wistful longing for a past that may never have existed. (Pick the two words alike in meaning.)",
+    "options": [
+      {
+        "id": "A",
+        "text": "caustic"
+      },
+      {
+        "id": "B",
+        "text": "nostalgic"
+      },
+      {
+        "id": "C",
+        "text": "clinical"
+      },
+      {
+        "id": "D",
+        "text": "elegiac"
+      },
+      {
+        "id": "E",
+        "text": "jubilant"
+      },
+      {
+        "id": "F",
+        "text": "prosaic"
+      }
+    ],
+    "answer": [
+      "B",
+      "D"
+    ],
+    "solutionStandard": "\"A wistful longing for a past\" points to mournful remembrance. \"Nostalgic\" and \"elegiac\" both convey longing for what is gone and are alike in meaning. \"Caustic,\" \"clinical,\" \"jubilant,\" and \"prosaic\" all set the wrong tone.",
+    "timeTargetSec": 65
+  },
+  {
+    "id": "sentence-equivalence-020",
+    "type": "MultiMC",
+    "primarySkill": "sentence-equivalence",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "Reviewers praised the actor's ______ range, marveling at how effortlessly he shifted from broad comedy to wrenching tragedy. (Pick the two words alike in meaning.)",
+    "options": [
+      {
+        "id": "A",
+        "text": "limited"
+      },
+      {
+        "id": "B",
+        "text": "versatile"
+      },
+      {
+        "id": "C",
+        "text": "narrow"
+      },
+      {
+        "id": "D",
+        "text": "protean"
+      },
+      {
+        "id": "E",
+        "text": "wooden"
+      },
+      {
+        "id": "F",
+        "text": "predictable"
+      }
+    ],
+    "answer": [
+      "B",
+      "D"
+    ],
+    "solutionStandard": "Shifting \"effortlessly from broad comedy to wrenching tragedy\" shows great adaptability. \"Versatile\" and \"protean\" are synonyms and both fit. \"Limited,\" \"narrow,\" \"wooden,\" and \"predictable\" all describe the opposite.",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "sentence-equivalence-021",
+    "type": "MultiMC",
+    "primarySkill": "sentence-equivalence",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "The new policy was ______ from the start, drawing fierce objections from nearly every quarter. (Pick the two words alike in meaning.)",
+    "options": [
+      {
+        "id": "A",
+        "text": "contentious"
+      },
+      {
+        "id": "B",
+        "text": "uncontroversial"
+      },
+      {
+        "id": "C",
+        "text": "popular"
+      },
+      {
+        "id": "D",
+        "text": "innocuous"
+      },
+      {
+        "id": "E",
+        "text": "divisive"
+      },
+      {
+        "id": "F",
+        "text": "welcome"
+      }
+    ],
+    "answer": [
+      "A",
+      "E"
+    ],
+    "solutionStandard": "\"Fierce objections from nearly every quarter\" means the policy provoked disagreement. \"Contentious\" and \"divisive\" are synonyms and both fit. \"Uncontroversial,\" \"popular,\" \"innocuous,\" and \"welcome\" all describe the opposite.",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "sentence-equivalence-022",
+    "type": "MultiMC",
+    "primarySkill": "sentence-equivalence",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "Whatever his private doubts, the coach projected an air of ______ confidence that steadied the whole team. (Pick the two words alike in meaning.)",
+    "options": [
+      {
+        "id": "A",
+        "text": "frantic"
+      },
+      {
+        "id": "B",
+        "text": "imperturbable"
+      },
+      {
+        "id": "C",
+        "text": "anxious"
+      },
+      {
+        "id": "D",
+        "text": "unflappable"
+      },
+      {
+        "id": "E",
+        "text": "tentative"
+      },
+      {
+        "id": "F",
+        "text": "volatile"
+      }
+    ],
+    "answer": [
+      "B",
+      "D"
+    ],
+    "solutionStandard": "Confidence that \"steadied the whole team\" is calm and unshakable. \"Imperturbable\" and \"unflappable\" are synonyms and both fit. \"Frantic,\" \"anxious,\" \"tentative,\" and \"volatile\" all describe agitation — the opposite.",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "sentence-equivalence-023",
+    "type": "MultiMC",
+    "primarySkill": "sentence-equivalence",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "The regime tolerated no dissent, and its ______ censorship reached even into private letters. (Pick the two words alike in meaning.)",
+    "options": [
+      {
+        "id": "A",
+        "text": "lax"
+      },
+      {
+        "id": "B",
+        "text": "pervasive"
+      },
+      {
+        "id": "C",
+        "text": "minimal"
+      },
+      {
+        "id": "D",
+        "text": "sweeping"
+      },
+      {
+        "id": "E",
+        "text": "selective"
+      },
+      {
+        "id": "F",
+        "text": "nominal"
+      }
+    ],
+    "answer": [
+      "B",
+      "D"
+    ],
+    "solutionStandard": "Censorship that \"reached even into private letters\" was total and far-reaching. \"Pervasive\" and \"sweeping\" are alike in meaning and both fit. \"Lax,\" \"minimal,\" \"selective,\" and \"nominal\" all describe limited censorship — the opposite.",
+    "timeTargetSec": 60
+  },
+  {
+    "id": "sentence-equivalence-024",
+    "type": "MultiMC",
+    "primarySkill": "sentence-equivalence",
+    "secondarySkills": [],
+    "difficulty": 3,
+    "stem": "The lecture was mercifully ______, sparing the audience the tedious digressions they had feared. (Pick the two words alike in meaning.)",
+    "options": [
+      {
+        "id": "A",
+        "text": "rambling"
+      },
+      {
+        "id": "B",
+        "text": "protracted"
+      },
+      {
+        "id": "C",
+        "text": "concise"
+      },
+      {
+        "id": "D",
+        "text": "meandering"
+      },
+      {
+        "id": "E",
+        "text": "exhaustive"
+      },
+      {
+        "id": "F",
+        "text": "brief"
+      }
+    ],
+    "answer": [
+      "C",
+      "F"
+    ],
+    "solutionStandard": "\"Sparing the audience the tedious digressions\" means the lecture was short and to the point. \"Concise\" and \"brief\" are synonyms and both fit. \"Rambling,\" \"protracted,\" \"meandering,\" and \"exhaustive\" all suggest the long-winded talk they feared.",
+    "timeTargetSec": 55
+  },
+  {
+    "id": "sentence-equivalence-025",
+    "type": "MultiMC",
+    "primarySkill": "sentence-equivalence",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "His ______ manner put nervous witnesses at ease, coaxing out details a harsher interrogator would have missed. (Pick the two words alike in meaning.)",
+    "options": [
+      {
+        "id": "A",
+        "text": "abrasive"
+      },
+      {
+        "id": "B",
+        "text": "affable"
+      },
+      {
+        "id": "C",
+        "text": "menacing"
+      },
+      {
+        "id": "D",
+        "text": "genial"
+      },
+      {
+        "id": "E",
+        "text": "curt"
+      },
+      {
+        "id": "F",
+        "text": "imperious"
+      }
+    ],
+    "answer": [
+      "B",
+      "D"
+    ],
+    "solutionStandard": "Putting \"nervous witnesses at ease\" requires a warm, friendly manner. \"Affable\" and \"genial\" are synonyms and both fit. \"Abrasive,\" \"menacing,\" \"curt,\" and \"imperious\" all describe the harsh interrogator he is contrasted with.",
+    "timeTargetSec": 60
   }
 ]

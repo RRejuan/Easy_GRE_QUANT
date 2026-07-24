@@ -1,0 +1,115 @@
+{
+  "id": "lesson-27",
+  "title": "Lesson 27 — The Skeptic",
+  "words": [
+    {
+      "id": "incredulous",
+      "word": "incredulous",
+      "partOfSpeech": "adjective",
+      "definition": "unwilling or unable to believe something",
+      "example": "She gave an incredulous laugh at the outlandish excuse.",
+      "tier": "hard",
+      "synonyms": ["disbelieving", "skeptical", "dubious"]
+    },
+    {
+      "id": "credulous",
+      "word": "credulous",
+      "partOfSpeech": "adjective",
+      "definition": "too ready to believe things; easily deceived",
+      "example": "The scam preyed on credulous investors.",
+      "tier": "hard",
+      "synonyms": ["gullible", "naive", "trusting"]
+    },
+    {
+      "id": "gullible",
+      "word": "gullible",
+      "partOfSpeech": "adjective",
+      "definition": "easily persuaded to believe something; easily fooled",
+      "example": "Only a gullible buyer would fall for that pitch.",
+      "tier": "medium",
+      "synonyms": ["credulous", "naive", "trusting"]
+    },
+    {
+      "id": "naive",
+      "word": "naive",
+      "partOfSpeech": "adjective",
+      "definition": "lacking experience, wisdom, or judgment; innocently trusting",
+      "example": "It was naive to expect the deal to have no catch.",
+      "tier": "easy",
+      "synonyms": ["innocent", "unworldly", "credulous"]
+    },
+    {
+      "id": "cynical",
+      "word": "cynical",
+      "partOfSpeech": "adjective",
+      "definition": "believing that people are motivated purely by self-interest; distrustful",
+      "example": "Years in politics had left him cynical about promises.",
+      "tier": "medium",
+      "synonyms": ["distrustful", "jaded", "skeptical"]
+    },
+    {
+      "id": "jaded",
+      "word": "jaded",
+      "partOfSpeech": "adjective",
+      "definition": "tired, bored, or unimpressed after too much of something",
+      "example": "Jaded critics had seen every trick the genre could offer.",
+      "tier": "medium",
+      "synonyms": ["weary", "cynical", "world-weary"]
+    },
+    {
+      "id": "disillusioned",
+      "word": "disillusioned",
+      "partOfSpeech": "adjective",
+      "definition": "disappointed by discovering that something is not as good as one believed",
+      "example": "Disillusioned volunteers drifted away from the campaign.",
+      "tier": "medium",
+      "synonyms": ["disenchanted", "let down", "jaded"]
+    },
+    {
+      "id": "scoff",
+      "word": "scoff",
+      "partOfSpeech": "verb",
+      "definition": "to speak about something in a scornfully mocking way",
+      "example": "Colleagues scoffed at the theory before the data proved it.",
+      "tier": "medium",
+      "synonyms": ["mock", "sneer", "jeer"]
+    },
+    {
+      "id": "discredit",
+      "word": "discredit",
+      "partOfSpeech": "verb",
+      "definition": "to harm the reputation or believability of",
+      "example": "The forged email was meant to discredit the witness.",
+      "tier": "medium",
+      "synonyms": ["disprove", "debunk", "undermine"]
+    },
+    {
+      "id": "skeptic",
+      "word": "skeptic",
+      "partOfSpeech": "noun",
+      "definition": "a person inclined to doubt accepted opinions or claims",
+      "example": "A lifelong skeptic, she demanded evidence for everything.",
+      "tier": "easy",
+      "synonyms": ["doubter", "cynic", "questioner"]
+    },
+    {
+      "id": "hoax",
+      "word": "hoax",
+      "partOfSpeech": "noun",
+      "definition": "a humorous or malicious deception; a trick presented as truth",
+      "example": "The photo of the sea monster turned out to be a hoax.",
+      "tier": "easy",
+      "synonyms": ["deception", "prank", "fraud"]
+    },
+    {
+      "id": "charlatan",
+      "word": "charlatan",
+      "partOfSpeech": "noun",
+      "definition": "a person who falsely claims special knowledge or skill; a fraud",
+      "example": "The so-called healer was exposed as a charlatan.",
+      "tier": "medium",
+      "synonyms": ["fraud", "quack", "impostor"]
+    }
+  ],
+  "story": "When the traveling \"psychic\" came to town, the crowd was [[credulous|credulous]], but one [[skeptic|skeptic]] in the back row was frankly [[incredulous|incredulous]]. She had watched too many [[gullible|gullible]] neighbors, [[naive|naive]] and hopeful, hand over their savings. [[cynical|Cynical]] and a little [[jaded|jaded]] after years of such acts, she was already [[disillusioned|disillusioned]] before he began. She did not [[scoff|scoff]] aloud; instead she quietly gathered the proof that would [[discredit|discredit]] him, revealing the whole performance as a [[hoax|hoax]] and its star as a common [[charlatan|charlatan]]."
+}

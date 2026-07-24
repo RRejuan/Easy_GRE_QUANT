@@ -1,0 +1,115 @@
+{
+  "id": "lesson-31",
+  "title": "Lesson 31 — The Rivalry",
+  "words": [
+    {
+      "id": "contend",
+      "word": "contend",
+      "partOfSpeech": "verb",
+      "definition": "to compete or struggle to achieve something; also, to assert",
+      "example": "Six teams contend for the single trophy each year.",
+      "tier": "medium",
+      "synonyms": ["compete", "vie", "struggle"]
+    },
+    {
+      "id": "vie",
+      "word": "vie",
+      "partOfSpeech": "verb",
+      "definition": "to compete eagerly with others for something",
+      "example": "The two firms vied for the same contract.",
+      "tier": "medium",
+      "synonyms": ["compete", "contend", "rival"]
+    },
+    {
+      "id": "adversary",
+      "word": "adversary",
+      "partOfSpeech": "noun",
+      "definition": "an opponent or enemy",
+      "example": "She studied her adversary's every past match.",
+      "tier": "medium",
+      "synonyms": ["opponent", "rival", "foe"]
+    },
+    {
+      "id": "antagonist",
+      "word": "antagonist",
+      "partOfSpeech": "noun",
+      "definition": "a person who actively opposes or is hostile to another",
+      "example": "The senator became the chief antagonist of the bill.",
+      "tier": "medium",
+      "synonyms": ["opponent", "adversary", "rival"]
+    },
+    {
+      "id": "nemesis",
+      "word": "nemesis",
+      "partOfSpeech": "noun",
+      "definition": "a long-standing rival or a source of inevitable downfall",
+      "example": "The detective finally cornered his old nemesis.",
+      "tier": "medium",
+      "synonyms": ["archenemy", "rival", "bane"]
+    },
+    {
+      "id": "thwart",
+      "word": "thwart",
+      "partOfSpeech": "verb",
+      "definition": "to prevent someone from accomplishing something; to frustrate",
+      "example": "Alert guards thwarted the escape.",
+      "tier": "medium",
+      "synonyms": ["foil", "frustrate", "block"]
+    },
+    {
+      "id": "foil",
+      "word": "foil",
+      "partOfSpeech": "verb",
+      "definition": "to prevent a plan or attempt from succeeding",
+      "example": "A tip-off foiled the robbery at the last minute.",
+      "tier": "medium",
+      "synonyms": ["thwart", "frustrate", "stop"]
+    },
+    {
+      "id": "usurp",
+      "word": "usurp",
+      "partOfSpeech": "verb",
+      "definition": "to seize power or a position wrongfully or by force",
+      "example": "The general tried to usurp the throne.",
+      "tier": "hard",
+      "synonyms": ["seize", "commandeer", "appropriate"]
+    },
+    {
+      "id": "supplant",
+      "word": "supplant",
+      "partOfSpeech": "verb",
+      "definition": "to take the place of, especially by force or scheming",
+      "example": "The upstart hoped to supplant the reigning champion.",
+      "tier": "hard",
+      "synonyms": ["replace", "displace", "oust"]
+    },
+    {
+      "id": "prevail",
+      "word": "prevail",
+      "partOfSpeech": "verb",
+      "definition": "to prove more powerful; to win out",
+      "example": "After a long fight, the underdog prevailed.",
+      "tier": "medium",
+      "synonyms": ["triumph", "win", "succeed"]
+    },
+    {
+      "id": "vanquish",
+      "word": "vanquish",
+      "partOfSpeech": "verb",
+      "definition": "to defeat thoroughly",
+      "example": "The army vanquished its rivals in a single afternoon.",
+      "tier": "hard",
+      "synonyms": ["defeat", "conquer", "crush"]
+    },
+    {
+      "id": "formidable",
+      "word": "formidable",
+      "partOfSpeech": "adjective",
+      "definition": "inspiring fear or respect through being impressively powerful",
+      "example": "She was a formidable opponent in any debate.",
+      "tier": "medium",
+      "synonyms": ["daunting", "powerful", "redoubtable"]
+    }
+  ],
+  "story": "For years the two champions would [[contend|contend]] for the same title, forced to [[vie|vie]] in every tournament. Each was the other's fiercest [[adversary|adversary]], a natural [[antagonist|antagonist]] and, in time, a genuine [[nemesis|nemesis]]. One would [[thwart|thwart]] the other's strategy, then [[foil|foil]] a comeback in the final round; each dreamed of the day he might [[usurp|usurp]] the other's crown and [[supplant|supplant]] him for good. Only one could [[prevail|prevail]] and [[vanquish|vanquish]] so [[formidable|formidable]] a rival — and no one could say in advance which it would be."
+}

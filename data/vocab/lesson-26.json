@@ -1,0 +1,115 @@
+{
+  "id": "lesson-26",
+  "title": "Lesson 26 — The Flatterer",
+  "words": [
+    {
+      "id": "adulation",
+      "word": "adulation",
+      "partOfSpeech": "noun",
+      "definition": "excessive admiration or praise",
+      "example": "The young star basked in the adulation of the crowd.",
+      "tier": "medium",
+      "synonyms": ["worship", "idolization", "fawning"]
+    },
+    {
+      "id": "homage",
+      "word": "homage",
+      "partOfSpeech": "noun",
+      "definition": "special honor or respect shown publicly",
+      "example": "The film pays homage to the directors who inspired it.",
+      "tier": "medium",
+      "synonyms": ["tribute", "reverence", "honor"]
+    },
+    {
+      "id": "plaudits",
+      "word": "plaudits",
+      "partOfSpeech": "noun",
+      "definition": "praise or enthusiastic approval",
+      "example": "The rescue crew earned the plaudits of the whole town.",
+      "tier": "medium",
+      "synonyms": ["acclaim", "applause", "praise"]
+    },
+    {
+      "id": "toady",
+      "word": "toady",
+      "partOfSpeech": "noun",
+      "definition": "a person who flatters others to gain favor",
+      "example": "The manager kept a toady on hand to agree with everything he said.",
+      "tier": "medium",
+      "synonyms": ["sycophant", "flatterer", "bootlicker"]
+    },
+    {
+      "id": "wheedle",
+      "word": "wheedle",
+      "partOfSpeech": "verb",
+      "definition": "to persuade someone by flattery or coaxing",
+      "example": "She wheedled an extension out of her lenient professor.",
+      "tier": "medium",
+      "synonyms": ["coax", "cajole", "sweet-talk"]
+    },
+    {
+      "id": "blandishment",
+      "word": "blandishment",
+      "partOfSpeech": "noun",
+      "definition": "flattering or pleasing speech used to persuade",
+      "example": "No blandishment could change the auditor's mind.",
+      "tier": "hard",
+      "synonyms": ["flattery", "cajolery", "coaxing"]
+    },
+    {
+      "id": "unctuous",
+      "word": "unctuous",
+      "partOfSpeech": "adjective",
+      "definition": "excessively flattering or ingratiating in an oily way",
+      "example": "The unctuous salesman made everyone's skin crawl.",
+      "tier": "hard",
+      "synonyms": ["oily", "smarmy", "obsequious"]
+    },
+    {
+      "id": "fulsome",
+      "word": "fulsome",
+      "partOfSpeech": "adjective",
+      "definition": "complimentary to an excessive, insincere degree",
+      "example": "His fulsome praise felt more like mockery than tribute.",
+      "tier": "hard",
+      "synonyms": ["excessive", "overdone", "cloying"]
+    },
+    {
+      "id": "ingratiate",
+      "word": "ingratiate",
+      "partOfSpeech": "verb",
+      "definition": "to bring oneself into favor with someone by deliberate effort",
+      "example": "He tried to ingratiate himself with the new boss.",
+      "tier": "medium",
+      "synonyms": ["curry favor", "flatter", "get in with"]
+    },
+    {
+      "id": "grovel",
+      "word": "grovel",
+      "partOfSpeech": "verb",
+      "definition": "to act in an abjectly submissive way to win favor or forgiveness",
+      "example": "He groveled for a second chance, promising anything.",
+      "tier": "easy",
+      "synonyms": ["crawl", "kowtow", "fawn"]
+    },
+    {
+      "id": "flatter",
+      "word": "flatter",
+      "partOfSpeech": "verb",
+      "definition": "to praise excessively, often insincerely, to please or gain advantage",
+      "example": "She flattered the critic hoping for a kind review.",
+      "tier": "easy",
+      "synonyms": ["compliment", "butter up", "cajole"]
+    },
+    {
+      "id": "obeisance",
+      "word": "obeisance",
+      "partOfSpeech": "noun",
+      "definition": "deferential respect, or a gesture such as a bow expressing it",
+      "example": "The courtiers made a deep obeisance as the queen passed.",
+      "tier": "hard",
+      "synonyms": ["deference", "homage", "submission"]
+    }
+  ],
+  "story": "The new courtier quickly mastered the art of flattery. Each morning he greeted the king with [[homage|homage]] so extravagant it bordered on [[adulation|adulation]], showering him with [[plaudits|plaudits]] for decisions no one else dared praise. A practiced [[toady|toady]], he would [[wheedle|wheedle]] favors with soft [[blandishment|blandishments]], his [[unctuous|unctuous]] compliments as [[fulsome|fulsome]] as they were false. To [[ingratiate|ingratiate]] himself further he would [[grovel|grovel]] before the throne and [[flatter|flatter]] any noble who seemed likely to rise, performing each bow with a deep [[obeisance|obeisance]] that made the older courtiers wince."
+}

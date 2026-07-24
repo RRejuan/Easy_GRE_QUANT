@@ -1,0 +1,115 @@
+{
+  "id": "lesson-29",
+  "title": "Lesson 29 — The Orator",
+  "words": [
+    {
+      "id": "articulate",
+      "word": "articulate",
+      "partOfSpeech": "adjective",
+      "definition": "fluent and clear in expressing oneself",
+      "example": "An articulate spokesperson calmed the anxious crowd.",
+      "tier": "easy",
+      "synonyms": ["eloquent", "fluent", "well-spoken"]
+    },
+    {
+      "id": "oratory",
+      "word": "oratory",
+      "partOfSpeech": "noun",
+      "definition": "the art of formal, persuasive public speaking",
+      "example": "Her stirring oratory won over even the doubters.",
+      "tier": "medium",
+      "synonyms": ["rhetoric", "eloquence", "public speaking"]
+    },
+    {
+      "id": "trenchant",
+      "word": "trenchant",
+      "partOfSpeech": "adjective",
+      "definition": "sharp, vigorous, and incisive in expression",
+      "example": "His trenchant analysis exposed the plan's flaws at once.",
+      "tier": "hard",
+      "synonyms": ["incisive", "cutting", "penetrating"]
+    },
+    {
+      "id": "incisive",
+      "word": "incisive",
+      "partOfSpeech": "adjective",
+      "definition": "impressively direct, clear, and sharp-witted",
+      "example": "One incisive question unraveled the whole alibi.",
+      "tier": "medium",
+      "synonyms": ["sharp", "penetrating", "keen"]
+    },
+    {
+      "id": "galvanize",
+      "word": "galvanize",
+      "partOfSpeech": "verb",
+      "definition": "to shock or stir someone into sudden action",
+      "example": "The speech galvanized volunteers across the country.",
+      "tier": "medium",
+      "synonyms": ["spur", "rouse", "electrify"]
+    },
+    {
+      "id": "rouse",
+      "word": "rouse",
+      "partOfSpeech": "verb",
+      "definition": "to stir up feeling or provoke to action",
+      "example": "Her words roused the weary crowd to its feet.",
+      "tier": "easy",
+      "synonyms": ["stir", "incite", "awaken"]
+    },
+    {
+      "id": "sway",
+      "word": "sway",
+      "partOfSpeech": "verb",
+      "definition": "to influence or persuade",
+      "example": "No argument could sway the stubborn jury.",
+      "tier": "easy",
+      "synonyms": ["influence", "persuade", "win over"]
+    },
+    {
+      "id": "exhort",
+      "word": "exhort",
+      "partOfSpeech": "verb",
+      "definition": "to strongly urge or encourage someone to do something",
+      "example": "The coach exhorted the team to fight to the final whistle.",
+      "tier": "hard",
+      "synonyms": ["urge", "implore", "press"]
+    },
+    {
+      "id": "impassioned",
+      "word": "impassioned",
+      "partOfSpeech": "adjective",
+      "definition": "filled with intense feeling",
+      "example": "She made an impassioned plea for the shelter's funding.",
+      "tier": "medium",
+      "synonyms": ["fervent", "ardent", "heartfelt"]
+    },
+    {
+      "id": "fervor",
+      "word": "fervor",
+      "partOfSpeech": "noun",
+      "definition": "intense and passionate feeling",
+      "example": "The reformers pursued their cause with religious fervor.",
+      "tier": "medium",
+      "synonyms": ["passion", "zeal", "ardor"]
+    },
+    {
+      "id": "compelling",
+      "word": "compelling",
+      "partOfSpeech": "adjective",
+      "definition": "powerfully convincing or captivating",
+      "example": "The lawyer laid out a compelling case for acquittal.",
+      "tier": "easy",
+      "synonyms": ["convincing", "persuasive", "gripping"]
+    },
+    {
+      "id": "demagogue",
+      "word": "demagogue",
+      "partOfSpeech": "noun",
+      "definition": "a leader who wins support by appealing to emotions and prejudice rather than reason",
+      "example": "The demagogue stoked fear instead of offering solutions.",
+      "tier": "hard",
+      "synonyms": ["rabble-rouser", "agitator", "firebrand"]
+    }
+  ],
+  "story": "The square filled to hear the challenger speak. [[articulate|Articulate]] and poised, she was a master of [[oratory|oratory]], and her [[trenchant|trenchant]], [[incisive|incisive]] attacks on the mayor seemed to [[galvanize|galvanize]] the crowd. She could [[rouse|rouse]] a tired audience and [[sway|sway]] the undecided, and she would [[exhort|exhort]] them, in an [[impassioned|impassioned]] voice trembling with [[fervor|fervor]], to demand better. Her case was [[compelling|compelling]] — yet the old reporter in the back wondered whether so gifted a speaker was a true reformer or merely a [[demagogue|demagogue]]."
+}

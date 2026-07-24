@@ -1,0 +1,115 @@
+{
+  "id": "lesson-38",
+  "title": "Lesson 38 — The Inventor",
+  "words": [
+    {
+      "id": "ingenious",
+      "word": "ingenious",
+      "partOfSpeech": "adjective",
+      "definition": "clever, original, and inventive",
+      "example": "An ingenious solution used parts no one else considered.",
+      "tier": "easy",
+      "synonyms": ["inventive", "resourceful", "clever"]
+    },
+    {
+      "id": "innovative",
+      "word": "innovative",
+      "partOfSpeech": "adjective",
+      "definition": "featuring new methods or ideas",
+      "example": "The startup's innovative design won several awards.",
+      "tier": "easy",
+      "synonyms": ["inventive", "original", "groundbreaking"]
+    },
+    {
+      "id": "novel",
+      "word": "novel",
+      "partOfSpeech": "adjective",
+      "definition": "new and original; not seen before",
+      "example": "She proposed a novel approach to an old problem.",
+      "tier": "easy",
+      "synonyms": ["original", "new", "unprecedented"]
+    },
+    {
+      "id": "unprecedented",
+      "word": "unprecedented",
+      "partOfSpeech": "adjective",
+      "definition": "never done or known before",
+      "example": "The merger created a company of unprecedented size.",
+      "tier": "medium",
+      "synonyms": ["unparalleled", "unheard-of", "novel"]
+    },
+    {
+      "id": "unorthodox",
+      "word": "unorthodox",
+      "partOfSpeech": "adjective",
+      "definition": "contrary to what is usual, traditional, or accepted",
+      "example": "His unorthodox training methods drew skeptical looks.",
+      "tier": "medium",
+      "synonyms": ["unconventional", "irregular", "nonstandard"]
+    },
+    {
+      "id": "avant-garde",
+      "word": "avant-garde",
+      "partOfSpeech": "adjective",
+      "definition": "new and experimental, especially in the arts",
+      "example": "The gallery specialized in avant-garde installations.",
+      "tier": "hard",
+      "synonyms": ["experimental", "cutting-edge", "innovative"]
+    },
+    {
+      "id": "derivative",
+      "word": "derivative",
+      "partOfSpeech": "adjective",
+      "definition": "imitative of another's work; not original",
+      "example": "Critics dismissed the sequel as derivative.",
+      "tier": "medium",
+      "synonyms": ["unoriginal", "imitative", "copied"]
+    },
+    {
+      "id": "banal",
+      "word": "banal",
+      "partOfSpeech": "adjective",
+      "definition": "so lacking in originality as to be obvious and boring",
+      "example": "The dialogue felt banal, full of tired lines.",
+      "tier": "medium",
+      "synonyms": ["trite", "hackneyed", "unoriginal"]
+    },
+    {
+      "id": "conventional",
+      "word": "conventional",
+      "partOfSpeech": "adjective",
+      "definition": "based on generally accepted standards; ordinary",
+      "example": "He took a conventional path through law school.",
+      "tier": "easy",
+      "synonyms": ["standard", "traditional", "customary"]
+    },
+    {
+      "id": "orthodox",
+      "word": "orthodox",
+      "partOfSpeech": "adjective",
+      "definition": "conforming to established, accepted rules or beliefs",
+      "example": "The paper stuck to orthodox economic theory.",
+      "tier": "medium",
+      "synonyms": ["conventional", "traditional", "mainstream"]
+    },
+    {
+      "id": "prototype",
+      "word": "prototype",
+      "partOfSpeech": "noun",
+      "definition": "a first, typical, or preliminary model of something",
+      "example": "The prototype worked, though the final version would look different.",
+      "tier": "easy",
+      "synonyms": ["model", "original", "template"]
+    },
+    {
+      "id": "trailblazer",
+      "word": "trailblazer",
+      "partOfSpeech": "noun",
+      "definition": "a person who is the first to do something; a pioneer",
+      "example": "The engineer was a trailblazer in solar technology.",
+      "tier": "medium",
+      "synonyms": ["pioneer", "innovator", "forerunner"]
+    }
+  ],
+  "story": "The design competition rewarded only one thing: an [[ingenious|ingenious]], truly [[innovative|innovative]] idea. Most entries offered a [[novel|novel]] twist on an old machine, but nothing felt [[unprecedented|unprecedented]]. One entrant went fully [[unorthodox|unorthodox]], almost [[avant-garde|avant-garde]], while several others submitted work so [[derivative|derivative]] and [[banal|banal]] the judges recognized it from last year. The safest, most [[conventional|conventional]] and [[orthodox|orthodox]] designs scored well but won no prizes. In the end the judges chose a rough [[prototype|prototype]] built by a first-time entrant, calling her a genuine [[trailblazer|trailblazer]]."
+}

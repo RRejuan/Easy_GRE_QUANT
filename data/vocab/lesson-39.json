@@ -1,0 +1,115 @@
+{
+  "id": "lesson-39",
+  "title": "Lesson 39 — Scale",
+  "words": [
+    {
+      "id": "colossal",
+      "word": "colossal",
+      "partOfSpeech": "adjective",
+      "definition": "extremely large; immense",
+      "example": "The dam was a colossal feat of engineering.",
+      "tier": "easy",
+      "synonyms": ["huge", "gigantic", "immense"]
+    },
+    {
+      "id": "gargantuan",
+      "word": "gargantuan",
+      "partOfSpeech": "adjective",
+      "definition": "enormous in size, quantity, or degree",
+      "example": "A gargantuan buffet stretched the length of the hall.",
+      "tier": "hard",
+      "synonyms": ["colossal", "immense", "massive"]
+    },
+    {
+      "id": "prodigious",
+      "word": "prodigious",
+      "partOfSpeech": "adjective",
+      "definition": "remarkably or impressively great in extent, size, or degree",
+      "example": "The young violinist showed prodigious talent.",
+      "tier": "hard",
+      "synonyms": ["extraordinary", "immense", "remarkable"]
+    },
+    {
+      "id": "immense",
+      "word": "immense",
+      "partOfSpeech": "adjective",
+      "definition": "extremely large or great, especially in scale",
+      "example": "An immense crowd gathered for the eclipse.",
+      "tier": "easy",
+      "synonyms": ["huge", "vast", "enormous"]
+    },
+    {
+      "id": "diminutive",
+      "word": "diminutive",
+      "partOfSpeech": "adjective",
+      "definition": "extremely small",
+      "example": "A diminutive robot slipped through the narrow pipe.",
+      "tier": "medium",
+      "synonyms": ["tiny", "minute", "small"]
+    },
+    {
+      "id": "minuscule",
+      "word": "minuscule",
+      "partOfSpeech": "adjective",
+      "definition": "extremely small",
+      "example": "Only a minuscule chance remained of finding survivors.",
+      "tier": "medium",
+      "synonyms": ["tiny", "minute", "negligible"]
+    },
+    {
+      "id": "negligible",
+      "word": "negligible",
+      "partOfSpeech": "adjective",
+      "definition": "so small or unimportant as to be not worth considering",
+      "example": "The price difference was negligible over a year.",
+      "tier": "medium",
+      "synonyms": ["insignificant", "trivial", "minimal"]
+    },
+    {
+      "id": "infinitesimal",
+      "word": "infinitesimal",
+      "partOfSpeech": "adjective",
+      "definition": "extremely small, approaching zero",
+      "example": "An infinitesimal error compounded over a million calculations.",
+      "tier": "hard",
+      "synonyms": ["minuscule", "microscopic", "negligible"]
+    },
+    {
+      "id": "exorbitant",
+      "word": "exorbitant",
+      "partOfSpeech": "adjective",
+      "definition": "unreasonably or excessively large, especially of a price",
+      "example": "Hotel prices near the stadium turned exorbitant that weekend.",
+      "tier": "medium",
+      "synonyms": ["excessive", "extravagant", "outrageous"]
+    },
+    {
+      "id": "extravagant",
+      "word": "extravagant",
+      "partOfSpeech": "adjective",
+      "definition": "exceeding what is reasonable or necessary; lavishly wasteful",
+      "example": "An extravagant wedding that emptied the family's savings.",
+      "tier": "medium",
+      "synonyms": ["lavish", "excessive", "profligate"]
+    },
+    {
+      "id": "inordinate",
+      "word": "inordinate",
+      "partOfSpeech": "adjective",
+      "definition": "unusually or disproportionately large; excessive",
+      "example": "He spent an inordinate amount of time on the footnotes.",
+      "tier": "hard",
+      "synonyms": ["excessive", "disproportionate", "undue"]
+    },
+    {
+      "id": "excessive",
+      "word": "excessive",
+      "partOfSpeech": "adjective",
+      "definition": "more than is necessary, normal, or desirable",
+      "example": "The fine seemed excessive for such a small offense.",
+      "tier": "easy",
+      "synonyms": ["exorbitant", "immoderate", "undue"]
+    }
+  ],
+  "story": "Building the observatory required a [[colossal|colossal]], almost [[gargantuan|gargantuan]] mirror, ground with [[prodigious|prodigious]] care and set inside an [[immense|immense]] dome. Beside it, the guidance chip looked absurdly [[diminutive|diminutive]] — a [[minuscule|minuscule]] wafer whose weight was practically [[negligible|negligible]], its margin of error [[infinitesimal|infinitesimal]]. The budget told a different story: the mirror's cost was [[exorbitant|exorbitant]], the opening gala [[extravagant|extravagant]], and one senator complained of an [[inordinate|inordinate]], frankly [[excessive|excessive]] amount spent on a single lens."
+}

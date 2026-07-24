@@ -1,0 +1,115 @@
+{
+  "id": "lesson-33",
+  "title": "Lesson 33 — Order and Chaos",
+  "words": [
+    {
+      "id": "anarchy",
+      "word": "anarchy",
+      "partOfSpeech": "noun",
+      "definition": "a state of disorder due to absence of authority",
+      "example": "When the power failed, the crowded stadium slid toward anarchy.",
+      "tier": "medium",
+      "synonyms": ["chaos", "lawlessness", "disorder"]
+    },
+    {
+      "id": "chaos",
+      "word": "chaos",
+      "partOfSpeech": "noun",
+      "definition": "complete disorder and confusion",
+      "example": "The kitchen dissolved into chaos during the dinner rush.",
+      "tier": "easy",
+      "synonyms": ["disorder", "mayhem", "turmoil"]
+    },
+    {
+      "id": "turmoil",
+      "word": "turmoil",
+      "partOfSpeech": "noun",
+      "definition": "a state of great disturbance, confusion, or uncertainty",
+      "example": "The company was in turmoil after the sudden resignation.",
+      "tier": "medium",
+      "synonyms": ["upheaval", "chaos", "unrest"]
+    },
+    {
+      "id": "tumult",
+      "word": "tumult",
+      "partOfSpeech": "noun",
+      "definition": "a loud, confused noise or disturbance; a state of confusion",
+      "example": "The tumult in the streets drowned out the announcement.",
+      "tier": "hard",
+      "synonyms": ["commotion", "uproar", "turmoil"]
+    },
+    {
+      "id": "upheaval",
+      "word": "upheaval",
+      "partOfSpeech": "noun",
+      "definition": "a violent or sudden change or disruption",
+      "example": "The merger caused years of organizational upheaval.",
+      "tier": "medium",
+      "synonyms": ["disruption", "turmoil", "convulsion"]
+    },
+    {
+      "id": "disarray",
+      "word": "disarray",
+      "partOfSpeech": "noun",
+      "definition": "a state of disorganization or untidiness",
+      "example": "Papers lay in disarray across the flooded office.",
+      "tier": "medium",
+      "synonyms": ["disorder", "confusion", "chaos"]
+    },
+    {
+      "id": "pandemonium",
+      "word": "pandemonium",
+      "partOfSpeech": "noun",
+      "definition": "wild and noisy disorder or confusion",
+      "example": "Pandemonium broke out when the fire alarm sounded.",
+      "tier": "hard",
+      "synonyms": ["chaos", "bedlam", "uproar"]
+    },
+    {
+      "id": "methodical",
+      "word": "methodical",
+      "partOfSpeech": "adjective",
+      "definition": "done according to a systematic or established plan",
+      "example": "Her methodical search covered every drawer in order.",
+      "tier": "medium",
+      "synonyms": ["systematic", "orderly", "organized"]
+    },
+    {
+      "id": "systematic",
+      "word": "systematic",
+      "partOfSpeech": "adjective",
+      "definition": "done according to a fixed plan or system; methodical",
+      "example": "A systematic review caught errors the first pass had missed.",
+      "tier": "easy",
+      "synonyms": ["methodical", "organized", "orderly"]
+    },
+    {
+      "id": "meticulous",
+      "word": "meticulous",
+      "partOfSpeech": "adjective",
+      "definition": "showing great attention to detail; very careful and precise",
+      "example": "A meticulous accountant who double-checked every entry.",
+      "tier": "medium",
+      "synonyms": ["careful", "precise", "scrupulous"]
+    },
+    {
+      "id": "haphazard",
+      "word": "haphazard",
+      "partOfSpeech": "adjective",
+      "definition": "lacking order or organization; done by chance",
+      "example": "The haphazard filing system made nothing easy to find.",
+      "tier": "medium",
+      "synonyms": ["random", "disorganized", "unsystematic"]
+    },
+    {
+      "id": "arbitrary",
+      "word": "arbitrary",
+      "partOfSpeech": "adjective",
+      "definition": "based on random choice rather than reason or system",
+      "example": "The cutoff date seemed entirely arbitrary.",
+      "tier": "medium",
+      "synonyms": ["random", "capricious", "unreasoned"]
+    }
+  ],
+  "story": "When the ferry lost power, the dock slid into near [[anarchy|anarchy]]. What had been an orderly line dissolved into [[chaos|chaos]]; the whole terminal fell into [[turmoil|turmoil]], voices rising into open [[tumult|tumult]]. Passengers described it later as a small [[upheaval|upheaval]], luggage in [[disarray|disarray]] and children crying amid the [[pandemonium|pandemonium]]. One crew member, though, stayed [[methodical|methodical]] and [[systematic|systematic]], working through a [[meticulous|meticulous]] checklist while everyone else moved in a [[haphazard|haphazard]] scramble, and refusing every [[arbitrary|arbitrary]] shortcut that might have made things worse."
+}

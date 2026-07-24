@@ -1,0 +1,115 @@
+{
+  "id": "lesson-45",
+  "title": "Lesson 45 — Appearances",
+  "words": [
+    {
+      "id": "feign",
+      "word": "feign",
+      "partOfSpeech": "verb",
+      "definition": "to pretend to feel or be affected by something",
+      "example": "He feigned surprise at news he already knew.",
+      "tier": "medium",
+      "synonyms": ["fake", "simulate", "pretend"]
+    },
+    {
+      "id": "pretense",
+      "word": "pretense",
+      "partOfSpeech": "noun",
+      "definition": "a false appearance or action intended to deceive",
+      "example": "Under the pretense of a routine visit, the inspector searched the whole floor.",
+      "tier": "medium",
+      "synonyms": ["pretext", "guise", "facade"]
+    },
+    {
+      "id": "sham",
+      "word": "sham",
+      "partOfSpeech": "noun",
+      "definition": "a thing that is not what it is claimed to be; a fraud",
+      "example": "The charity turned out to be a complete sham.",
+      "tier": "medium",
+      "synonyms": ["fraud", "hoax", "fake"]
+    },
+    {
+      "id": "facade",
+      "word": "facade",
+      "partOfSpeech": "noun",
+      "definition": "a false or superficial appearance or manner",
+      "example": "Behind the cheerful facade lay real exhaustion.",
+      "tier": "medium",
+      "synonyms": ["front", "veneer", "mask"]
+    },
+    {
+      "id": "veneer",
+      "word": "veneer",
+      "partOfSpeech": "noun",
+      "definition": "an attractive but superficial appearance concealing something else",
+      "example": "A thin veneer of politeness barely hid their rivalry.",
+      "tier": "medium",
+      "synonyms": ["facade", "gloss", "surface"]
+    },
+    {
+      "id": "masquerade",
+      "word": "masquerade",
+      "partOfSpeech": "verb",
+      "definition": "to pretend to be something one is not; to disguise oneself",
+      "example": "The scam masqueraded as a government refund program.",
+      "tier": "medium",
+      "synonyms": ["pose", "pass off", "disguise"]
+    },
+    {
+      "id": "guileless",
+      "word": "guileless",
+      "partOfSpeech": "adjective",
+      "definition": "without deceit or cunning; honest and innocent",
+      "example": "A guileless child who never thought to lie.",
+      "tier": "hard",
+      "synonyms": ["innocent", "artless", "ingenuous"]
+    },
+    {
+      "id": "ingenuous",
+      "word": "ingenuous",
+      "partOfSpeech": "adjective",
+      "definition": "innocent and unsuspecting; frank and open, sometimes naively so",
+      "example": "His ingenuous questions revealed how new he was to the job.",
+      "tier": "hard",
+      "synonyms": ["naive", "innocent", "guileless"]
+    },
+    {
+      "id": "artless",
+      "word": "artless",
+      "partOfSpeech": "adjective",
+      "definition": "without cunning or deceit; natural and simple",
+      "example": "Her artless honesty caught the panel off guard.",
+      "tier": "medium",
+      "synonyms": ["guileless", "naive", "unaffected"]
+    },
+    {
+      "id": "ostensible",
+      "word": "ostensible",
+      "partOfSpeech": "adjective",
+      "definition": "stated or appearing to be true, though not necessarily so",
+      "example": "The ostensible reason for the trip was research.",
+      "tier": "medium",
+      "synonyms": ["apparent", "purported", "seeming"]
+    },
+    {
+      "id": "purported",
+      "word": "purported",
+      "partOfSpeech": "adjective",
+      "definition": "claimed or alleged, often with the implication of doubt",
+      "example": "The purported cure had never been tested.",
+      "tier": "medium",
+      "synonyms": ["alleged", "claimed", "supposed"]
+    },
+    {
+      "id": "alleged",
+      "word": "alleged",
+      "partOfSpeech": "adjective",
+      "definition": "said to have happened or to be true, without proof",
+      "example": "The alleged theft was never actually confirmed.",
+      "tier": "easy",
+      "synonyms": ["purported", "supposed", "claimed"]
+    }
+  ],
+  "story": "The consultant's whole business was one long [[feign|feigned]] competence. He kept up the [[pretense|pretense]] of expertise for months, but the company was a [[sham|sham]] behind a glossy [[facade|facade]] — a thin [[veneer|veneer]] of success over nothing at all. He would [[masquerade|masquerade]] as a former banker to new clients, correctly guessing that most of them were too [[guileless|guileless]] and [[ingenuous|ingenuous]] to check. His questions to investors seemed [[artless|artless]] and harmless. The [[ostensible|ostensible]] purpose of his firm — the one on the brochure — bore no relation to its [[purported|purported]] returns, and the [[alleged|alleged]] fraud came to light only when a client finally asked to see the books."
+}

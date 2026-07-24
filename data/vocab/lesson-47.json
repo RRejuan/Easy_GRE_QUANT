@@ -1,0 +1,115 @@
+{
+  "id": "lesson-47",
+  "title": "Lesson 47 — Paradox and Pattern",
+  "words": [
+    {
+      "id": "paradigm",
+      "word": "paradigm",
+      "partOfSpeech": "noun",
+      "definition": "a typical example or pattern of something; a model",
+      "example": "The discovery forced a whole new scientific paradigm.",
+      "tier": "medium",
+      "synonyms": ["model", "framework", "pattern"]
+    },
+    {
+      "id": "anomaly",
+      "word": "anomaly",
+      "partOfSpeech": "noun",
+      "definition": "something that deviates from what is standard or expected",
+      "example": "The sensor flagged one anomaly in an otherwise clean dataset.",
+      "tier": "medium",
+      "synonyms": ["irregularity", "aberration", "oddity"]
+    },
+    {
+      "id": "paradox",
+      "word": "paradox",
+      "partOfSpeech": "noun",
+      "definition": "a statement or situation that seems contradictory but may be true",
+      "example": "It's a paradox that saving money can cost you time.",
+      "tier": "easy",
+      "synonyms": ["contradiction", "puzzle", "incongruity"]
+    },
+    {
+      "id": "dichotomy",
+      "word": "dichotomy",
+      "partOfSpeech": "noun",
+      "definition": "a division into two sharply contrasting parts or groups",
+      "example": "The film sets up a simple dichotomy between hero and villain.",
+      "tier": "hard",
+      "synonyms": ["division", "split", "contrast"]
+    },
+    {
+      "id": "juxtapose",
+      "word": "juxtapose",
+      "partOfSpeech": "verb",
+      "definition": "to place things side by side, especially for contrasting effect",
+      "example": "The exhibit juxtaposes ancient tools with modern ones.",
+      "tier": "hard",
+      "synonyms": ["contrast", "compare", "place together"]
+    },
+    {
+      "id": "synthesis",
+      "word": "synthesis",
+      "partOfSpeech": "noun",
+      "definition": "the combination of separate elements to form a coherent whole",
+      "example": "Her essay was a synthesis of three competing theories.",
+      "tier": "medium",
+      "synonyms": ["combination", "fusion", "amalgamation"]
+    },
+    {
+      "id": "antithesis",
+      "word": "antithesis",
+      "partOfSpeech": "noun",
+      "definition": "a person or thing that is the direct opposite of another",
+      "example": "Her calm approach was the antithesis of his chaos.",
+      "tier": "hard",
+      "synonyms": ["opposite", "converse", "reverse"]
+    },
+    {
+      "id": "corollary",
+      "word": "corollary",
+      "partOfSpeech": "noun",
+      "definition": "a natural or logical consequence of something else",
+      "example": "Lower prices are a corollary of increased competition.",
+      "tier": "hard",
+      "synonyms": ["consequence", "result", "outgrowth"]
+    },
+    {
+      "id": "paradoxical",
+      "word": "paradoxical",
+      "partOfSpeech": "adjective",
+      "definition": "seemingly contradictory, yet possibly true",
+      "example": "It seems paradoxical that less choice can bring more happiness.",
+      "tier": "medium",
+      "synonyms": ["contradictory", "puzzling", "incongruous"]
+    },
+    {
+      "id": "archetype",
+      "word": "archetype",
+      "partOfSpeech": "noun",
+      "definition": "a very typical example of a certain person or thing; an original model",
+      "example": "The character is the archetype of the reluctant hero.",
+      "tier": "medium",
+      "synonyms": ["prototype", "model", "template"]
+    },
+    {
+      "id": "quintessential",
+      "word": "quintessential",
+      "partOfSpeech": "adjective",
+      "definition": "representing the most perfect or typical example of a quality or class",
+      "example": "The seaside cottage was the quintessential summer home.",
+      "tier": "hard",
+      "synonyms": ["archetypal", "classic", "definitive"]
+    },
+    {
+      "id": "epitome",
+      "word": "epitome",
+      "partOfSpeech": "noun",
+      "definition": "a person or thing that is a perfect example of a quality or type",
+      "example": "The old inn was the epitome of quiet hospitality.",
+      "tier": "medium",
+      "synonyms": ["embodiment", "quintessence", "archetype"]
+    }
+  ],
+  "story": "The seminar was built around a single [[paradigm|paradigm]] shift: what if the field's strangest [[anomaly|anomaly]] wasn't an error but a clue? It was, the professor admitted, a genuine [[paradox|paradox]]. She began by drawing a sharp [[dichotomy|dichotomy]] between the old theory and the new, then chose to [[juxtapose|juxtapose]] their two predictions on the same slide. What emerged was not a winner but a [[synthesis|synthesis]] — the new idea wasn't the flat [[antithesis|antithesis]] of the old one after all. One student objected that this was merely a [[corollary|corollary]] of the original theory, [[paradoxical|paradoxical]] only in appearance. Still, the professor became something of an [[archetype|archetype]] for the department: the [[quintessential|quintessential]] outsider, the very [[epitome|epitome]] of a field willing to doubt itself."
+}

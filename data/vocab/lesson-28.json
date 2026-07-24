@@ -1,0 +1,115 @@
+{
+  "id": "lesson-28",
+  "title": "Lesson 28 — Peril and Rescue",
+  "words": [
+    {
+      "id": "precarious",
+      "word": "precarious",
+      "partOfSpeech": "adjective",
+      "definition": "dangerously unstable or uncertain",
+      "example": "The climbers found a precarious foothold on the ledge.",
+      "tier": "medium",
+      "synonyms": ["unstable", "shaky", "perilous"]
+    },
+    {
+      "id": "perilous",
+      "word": "perilous",
+      "partOfSpeech": "adjective",
+      "definition": "full of danger or risk",
+      "example": "They made a perilous crossing over the flooded river.",
+      "tier": "medium",
+      "synonyms": ["dangerous", "hazardous", "treacherous"]
+    },
+    {
+      "id": "imperil",
+      "word": "imperil",
+      "partOfSpeech": "verb",
+      "definition": "to put in danger",
+      "example": "One careless leak could imperil the whole mission.",
+      "tier": "medium",
+      "synonyms": ["endanger", "jeopardize", "threaten"]
+    },
+    {
+      "id": "jeopardize",
+      "word": "jeopardize",
+      "partOfSpeech": "verb",
+      "definition": "to put at risk of loss, harm, or failure",
+      "example": "A single scandal could jeopardize the merger.",
+      "tier": "medium",
+      "synonyms": ["endanger", "imperil", "threaten"]
+    },
+    {
+      "id": "hazardous",
+      "word": "hazardous",
+      "partOfSpeech": "adjective",
+      "definition": "risky; dangerous",
+      "example": "Icy roads make the mountain pass hazardous in winter.",
+      "tier": "easy",
+      "synonyms": ["dangerous", "risky", "unsafe"]
+    },
+    {
+      "id": "plight",
+      "word": "plight",
+      "partOfSpeech": "noun",
+      "definition": "a dangerous, difficult, or unfortunate situation",
+      "example": "The documentary drew attention to the refugees' plight.",
+      "tier": "medium",
+      "synonyms": ["predicament", "difficulty", "distress"]
+    },
+    {
+      "id": "predicament",
+      "word": "predicament",
+      "partOfSpeech": "noun",
+      "definition": "a difficult, unpleasant, or embarrassing situation",
+      "example": "Missing the last train left us in a real predicament.",
+      "tier": "medium",
+      "synonyms": ["quandary", "plight", "fix"]
+    },
+    {
+      "id": "quandary",
+      "word": "quandary",
+      "partOfSpeech": "noun",
+      "definition": "a state of uncertainty over what to do; a dilemma",
+      "example": "She was in a quandary over which offer to accept.",
+      "tier": "hard",
+      "synonyms": ["dilemma", "predicament", "impasse"]
+    },
+    {
+      "id": "extricate",
+      "word": "extricate",
+      "partOfSpeech": "verb",
+      "definition": "to free from a difficulty or entanglement",
+      "example": "It took months to extricate the company from the lawsuit.",
+      "tier": "hard",
+      "synonyms": ["free", "disentangle", "release"]
+    },
+    {
+      "id": "salvage",
+      "word": "salvage",
+      "partOfSpeech": "verb",
+      "definition": "to rescue or save from loss or destruction",
+      "example": "They managed to salvage a few files from the crash.",
+      "tier": "easy",
+      "synonyms": ["rescue", "recover", "reclaim"]
+    },
+    {
+      "id": "reprieve",
+      "word": "reprieve",
+      "partOfSpeech": "noun",
+      "definition": "a temporary relief from danger or trouble",
+      "example": "The rain gave the firefighters a brief reprieve.",
+      "tier": "medium",
+      "synonyms": ["respite", "relief", "letup"]
+    },
+    {
+      "id": "dire",
+      "word": "dire",
+      "partOfSpeech": "adjective",
+      "definition": "extremely serious, urgent, or dreadful",
+      "example": "Without aid, the situation would soon become dire.",
+      "tier": "easy",
+      "synonyms": ["grave", "desperate", "critical"]
+    }
+  ],
+  "story": "The expedition's situation had turned [[dire|dire]]. A [[precarious|precarious]] snow bridge offered the only route across, and the [[perilous|perilous]] weather threatened to [[imperil|imperil]] everyone on the rope. One wrong step would [[jeopardize|jeopardize]] the whole team; the descent below was equally [[hazardous|hazardous]]. Their guide understood the [[plight|plight]] at once, but the [[predicament|predicament]] left her in a genuine [[quandary|quandary]]: press on or turn back. She chose to [[extricate|extricate]] the group one climber at a time, hoping to [[salvage|salvage]] the attempt, and when the clouds briefly parted, that [[reprieve|reprieve]] was just enough to get them all down alive."
+}

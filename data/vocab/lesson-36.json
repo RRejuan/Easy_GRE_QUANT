@@ -1,0 +1,115 @@
+{
+  "id": "lesson-36",
+  "title": "Lesson 36 — The Judge",
+  "words": [
+    {
+      "id": "impartial",
+      "word": "impartial",
+      "partOfSpeech": "adjective",
+      "definition": "treating all sides equally; not biased",
+      "example": "An impartial referee is essential to a fair match.",
+      "tier": "easy",
+      "synonyms": ["unbiased", "neutral", "fair"]
+    },
+    {
+      "id": "unbiased",
+      "word": "unbiased",
+      "partOfSpeech": "adjective",
+      "definition": "showing no prejudice for or against something; fair",
+      "example": "The study used an unbiased sample of participants.",
+      "tier": "easy",
+      "synonyms": ["impartial", "neutral", "objective"]
+    },
+    {
+      "id": "equitable",
+      "word": "equitable",
+      "partOfSpeech": "adjective",
+      "definition": "fair and impartial, especially in the distribution of something",
+      "example": "The settlement aimed for an equitable split of assets.",
+      "tier": "medium",
+      "synonyms": ["fair", "just", "even-handed"]
+    },
+    {
+      "id": "objective",
+      "word": "objective",
+      "partOfSpeech": "adjective",
+      "definition": "not influenced by personal feelings; based on facts",
+      "example": "An objective account of the accident, free of blame.",
+      "tier": "easy",
+      "synonyms": ["impartial", "unbiased", "detached"]
+    },
+    {
+      "id": "partisan",
+      "word": "partisan",
+      "partOfSpeech": "adjective",
+      "definition": "strongly biased in favor of one side or party",
+      "example": "The vote split along strictly partisan lines.",
+      "tier": "medium",
+      "synonyms": ["biased", "one-sided", "factional"]
+    },
+    {
+      "id": "prejudiced",
+      "word": "prejudiced",
+      "partOfSpeech": "adjective",
+      "definition": "having a preconceived opinion not based on reason or experience",
+      "example": "A prejudiced juror should have been dismissed.",
+      "tier": "easy",
+      "synonyms": ["biased", "bigoted", "partial"]
+    },
+    {
+      "id": "bias",
+      "word": "bias",
+      "partOfSpeech": "noun",
+      "definition": "a tendency to favor one side; prejudice",
+      "example": "The editor tried to correct for his own bias.",
+      "tier": "easy",
+      "synonyms": ["prejudice", "partiality", "slant"]
+    },
+    {
+      "id": "discriminate",
+      "word": "discriminate",
+      "partOfSpeech": "verb",
+      "definition": "to treat differently, especially unfairly, on some basis; also, to distinguish carefully",
+      "example": "The law forbids employers to discriminate by age.",
+      "tier": "medium",
+      "synonyms": ["differentiate", "distinguish", "single out"]
+    },
+    {
+      "id": "dispassionate",
+      "word": "dispassionate",
+      "partOfSpeech": "adjective",
+      "definition": "not influenced by strong emotion; calm and rational",
+      "example": "A dispassionate analysis set aside all the outrage.",
+      "tier": "hard",
+      "synonyms": ["impartial", "detached", "objective"]
+    },
+    {
+      "id": "arbitrate",
+      "word": "arbitrate",
+      "partOfSpeech": "verb",
+      "definition": "to reach a decision as an impartial referee between disputing parties",
+      "example": "A retired judge was asked to arbitrate the dispute.",
+      "tier": "medium",
+      "synonyms": ["mediate", "adjudicate", "referee"]
+    },
+    {
+      "id": "adjudicate",
+      "word": "adjudicate",
+      "partOfSpeech": "verb",
+      "definition": "to make a formal judgment on a disputed matter",
+      "example": "The panel will adjudicate all appeals by Friday.",
+      "tier": "hard",
+      "synonyms": ["judge", "arbitrate", "rule"]
+    },
+    {
+      "id": "mediate",
+      "word": "mediate",
+      "partOfSpeech": "verb",
+      "definition": "to intervene between disputing parties to bring about an agreement",
+      "example": "A neutral counselor was brought in to mediate.",
+      "tier": "medium",
+      "synonyms": ["arbitrate", "negotiate", "intervene"]
+    }
+  ],
+  "story": "The two neighbors needed someone truly [[impartial|impartial]] to settle the fence dispute, someone [[unbiased|unbiased]] enough that both would trust the outcome and reach an [[equitable|equitable]] result. They chose old Mrs. Alcorn, known across the block for her strictly [[objective|objective]] view of every quarrel; unlike the [[partisan|partisan]] gossip that usually followed such fights, she was never [[prejudiced|prejudiced]] toward either side, and refused to let personal [[bias|bias]] [[discriminate|discriminate]] between the two families. Cool and [[dispassionate|dispassionate]], she agreed to [[arbitrate|arbitrate]] the matter, [[adjudicate|adjudicate]] the property line herself, and [[mediate|mediate]] whatever argument followed."
+}

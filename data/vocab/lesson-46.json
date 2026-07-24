@@ -1,0 +1,115 @@
+{
+  "id": "lesson-46",
+  "title": "Lesson 46 — The Reformer",
+  "words": [
+    {
+      "id": "iconoclast",
+      "word": "iconoclast",
+      "partOfSpeech": "noun",
+      "definition": "a person who attacks or criticizes cherished beliefs or institutions",
+      "example": "The architect was an iconoclast who rejected every convention.",
+      "tier": "hard",
+      "synonyms": ["rebel", "dissenter", "maverick"]
+    },
+    {
+      "id": "radical",
+      "word": "radical",
+      "partOfSpeech": "adjective",
+      "definition": "advocating thorough or extreme change",
+      "example": "Her radical proposal would rewrite the whole system.",
+      "tier": "easy",
+      "synonyms": ["extreme", "revolutionary", "drastic"]
+    },
+    {
+      "id": "reactionary",
+      "word": "reactionary",
+      "partOfSpeech": "adjective",
+      "definition": "opposing political or social progress or reform",
+      "example": "Reactionary critics wanted to undo every recent change.",
+      "tier": "hard",
+      "synonyms": ["conservative", "regressive", "traditionalist"]
+    },
+    {
+      "id": "orthodoxy",
+      "word": "orthodoxy",
+      "partOfSpeech": "noun",
+      "definition": "authorized or generally accepted theory, doctrine, or practice",
+      "example": "He challenged the economic orthodoxy of his time.",
+      "tier": "hard",
+      "synonyms": ["convention", "tradition", "established belief"]
+    },
+    {
+      "id": "heresy",
+      "word": "heresy",
+      "partOfSpeech": "noun",
+      "definition": "a belief that strongly conflicts with accepted opinion",
+      "example": "Questioning the founder's plan was treated as heresy.",
+      "tier": "medium",
+      "synonyms": ["blasphemy", "dissent", "apostasy"]
+    },
+    {
+      "id": "dogma",
+      "word": "dogma",
+      "partOfSpeech": "noun",
+      "definition": "a principle laid down by an authority as incontrovertibly true",
+      "example": "He refused to accept the dogma without evidence.",
+      "tier": "medium",
+      "synonyms": ["doctrine", "tenet", "creed"]
+    },
+    {
+      "id": "doctrine",
+      "word": "doctrine",
+      "partOfSpeech": "noun",
+      "definition": "a belief or set of beliefs held and taught by a group",
+      "example": "The party's economic doctrine went unchanged for decades.",
+      "tier": "medium",
+      "synonyms": ["dogma", "tenet", "creed"]
+    },
+    {
+      "id": "ideology",
+      "word": "ideology",
+      "partOfSpeech": "noun",
+      "definition": "a system of ideas and ideals forming the basis of a theory or policy",
+      "example": "The two parties disagreed on nearly every point of ideology.",
+      "tier": "medium",
+      "synonyms": ["philosophy", "creed", "doctrine"]
+    },
+    {
+      "id": "subversive",
+      "word": "subversive",
+      "partOfSpeech": "adjective",
+      "definition": "seeking to undermine an established system or institution",
+      "example": "Officials banned the pamphlet as subversive literature.",
+      "tier": "medium",
+      "synonyms": ["seditious", "rebellious", "insurgent"]
+    },
+    {
+      "id": "dissident",
+      "word": "dissident",
+      "partOfSpeech": "noun",
+      "definition": "a person who opposes official policy, especially of an authoritarian state",
+      "example": "The exiled dissident continued to write from abroad.",
+      "tier": "medium",
+      "synonyms": ["dissenter", "rebel", "protester"]
+    },
+    {
+      "id": "insurgent",
+      "word": "insurgent",
+      "partOfSpeech": "noun",
+      "definition": "a person fighting against an established government or authority",
+      "example": "Insurgents controlled the mountain passes for months.",
+      "tier": "medium",
+      "synonyms": ["rebel", "revolutionary", "guerrilla"]
+    },
+    {
+      "id": "apostate",
+      "word": "apostate",
+      "partOfSpeech": "noun",
+      "definition": "a person who renounces a former belief or allegiance",
+      "example": "His old party branded him an apostate for switching sides.",
+      "tier": "hard",
+      "synonyms": ["defector", "renegade", "turncoat"]
+    }
+  ],
+  "story": "The young professor was branded an [[iconoclast|iconoclast]] the moment she published her thesis. Her ideas were [[radical|radical]] enough to alarm the department's most [[reactionary|reactionary]] elders, who accused her of attacking their whole [[orthodoxy|orthodoxy]]. To question the founding theory, they said, was practically [[heresy|heresy]] — she had broken the field's oldest [[dogma|dogma]] and defied its official [[doctrine|doctrine]]. Younger colleagues, drawn to her [[ideology|ideology]], called her writing bracing rather than [[subversive|subversive]]; older ones called her a [[dissident|dissident]], even an [[insurgent|insurgent]] against the discipline, and a few muttered the word [[apostate|apostate]] behind her back."
+}

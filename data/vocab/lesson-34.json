@@ -1,0 +1,115 @@
+{
+  "id": "lesson-34",
+  "title": "Lesson 34 — The Critic",
+  "words": [
+    {
+      "id": "vituperative",
+      "word": "vituperative",
+      "partOfSpeech": "adjective",
+      "definition": "bitter and abusive in language or tone",
+      "example": "A vituperative review accused the author of outright fraud.",
+      "tier": "hard",
+      "synonyms": ["scathing", "abusive", "venomous"]
+    },
+    {
+      "id": "opprobrium",
+      "word": "opprobrium",
+      "partOfSpeech": "noun",
+      "definition": "harsh public criticism or disgrace",
+      "example": "The scandal brought public opprobrium down on the firm.",
+      "tier": "hard",
+      "synonyms": ["disgrace", "condemnation", "censure"]
+    },
+    {
+      "id": "invective",
+      "word": "invective",
+      "partOfSpeech": "noun",
+      "definition": "harshly critical or insulting language",
+      "example": "The debate collapsed into personal invective.",
+      "tier": "hard",
+      "synonyms": ["abuse", "vitriol", "denunciation"]
+    },
+    {
+      "id": "calumny",
+      "word": "calumny",
+      "partOfSpeech": "noun",
+      "definition": "a false and malicious statement damaging someone's reputation",
+      "example": "He sued the paper over what he called pure calumny.",
+      "tier": "hard",
+      "synonyms": ["slander", "defamation", "libel"]
+    },
+    {
+      "id": "aspersion",
+      "word": "aspersion",
+      "partOfSpeech": "noun",
+      "definition": "an attack on someone's reputation or integrity",
+      "example": "She refused to cast aspersions on a rival's character.",
+      "tier": "hard",
+      "synonyms": ["slur", "slander", "defamation"]
+    },
+    {
+      "id": "defamatory",
+      "word": "defamatory",
+      "partOfSpeech": "adjective",
+      "definition": "damaging the reputation of someone through false statements",
+      "example": "The magazine retracted the defamatory claim within a week.",
+      "tier": "hard",
+      "synonyms": ["slanderous", "libelous", "damaging"]
+    },
+    {
+      "id": "scathing",
+      "word": "scathing",
+      "partOfSpeech": "adjective",
+      "definition": "witheringly harsh in criticism",
+      "example": "The critic's scathing pan closed the show in a week.",
+      "tier": "medium",
+      "synonyms": ["harsh", "biting", "savage"]
+    },
+    {
+      "id": "tepid",
+      "word": "tepid",
+      "partOfSpeech": "adjective",
+      "definition": "showing little enthusiasm; lukewarm",
+      "example": "Reviews were tepid, neither praising nor condemning.",
+      "tier": "medium",
+      "synonyms": ["lukewarm", "unenthusiastic", "half-hearted"]
+    },
+    {
+      "id": "laudable",
+      "word": "laudable",
+      "partOfSpeech": "adjective",
+      "definition": "deserving praise and commendation",
+      "example": "A laudable effort, even if the results fell short.",
+      "tier": "medium",
+      "synonyms": ["commendable", "praiseworthy", "admirable"]
+    },
+    {
+      "id": "commendable",
+      "word": "commendable",
+      "partOfSpeech": "adjective",
+      "definition": "deserving praise",
+      "example": "Her commendable patience never once wavered.",
+      "tier": "easy",
+      "synonyms": ["praiseworthy", "laudable", "admirable"]
+    },
+    {
+      "id": "exemplary",
+      "word": "exemplary",
+      "partOfSpeech": "adjective",
+      "definition": "serving as a desirable model; outstandingly good",
+      "example": "The firefighters showed exemplary courage that night.",
+      "tier": "medium",
+      "synonyms": ["model", "outstanding", "ideal"]
+    },
+    {
+      "id": "meritorious",
+      "word": "meritorious",
+      "partOfSpeech": "adjective",
+      "definition": "deserving reward or praise",
+      "example": "He received a medal for meritorious service.",
+      "tier": "hard",
+      "synonyms": ["praiseworthy", "commendable", "creditable"]
+    }
+  ],
+  "story": "The critic had two settings and nothing in between. When she hated a book, her review turned [[vituperative|vituperative]], heaping [[opprobrium|opprobrium]] on the author in long paragraphs of [[invective|invective]] that bordered on [[calumny|calumny]]; colleagues sometimes accused her of casting [[aspersion|aspersions]] so wild they were nearly [[defamatory|defamatory]]. A merely disappointing book earned only a [[scathing|scathing]] paragraph; a forgettable one, a [[tepid|tepid]] shrug. But when a book impressed her, she praised its [[laudable|laudable]], [[commendable|commendable]] ambition, called the prose [[exemplary|exemplary]], and judged the whole effort thoroughly [[meritorious|meritorious]] — the rare review authors actually hoped to receive."
+}

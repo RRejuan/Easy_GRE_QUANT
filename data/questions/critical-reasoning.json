@@ -7,11 +7,26 @@
     "difficulty": 4,
     "stem": "A city installed cameras at its ten most dangerous intersections. In the following year, accidents at those intersections fell by 30 percent, and the mayor concluded that the cameras had caused the decline.\n\nWhich of the following, if true, most weakens the mayor's conclusion?",
     "options": [
-      { "id": "A", "text": "The cameras were more expensive to install than the city had expected." },
-      { "id": "B", "text": "Drivers surveyed said they disliked being recorded at intersections." },
-      { "id": "C", "text": "In the same year, the city also lowered the speed limit and retimed the traffic lights at those ten intersections." },
-      { "id": "D", "text": "Accidents rose slightly at a few intersections that had no cameras." },
-      { "id": "E", "text": "The cameras occasionally malfunctioned during heavy rain." }
+      {
+        "id": "A",
+        "text": "The cameras were more expensive to install than the city had expected."
+      },
+      {
+        "id": "B",
+        "text": "Drivers surveyed said they disliked being recorded at intersections."
+      },
+      {
+        "id": "C",
+        "text": "In the same year, the city also lowered the speed limit and retimed the traffic lights at those ten intersections."
+      },
+      {
+        "id": "D",
+        "text": "Accidents rose slightly at a few intersections that had no cameras."
+      },
+      {
+        "id": "E",
+        "text": "The cameras occasionally malfunctioned during heavy rain."
+      }
     ],
     "answer": "C",
     "solutionStandard": "To weaken a causal claim, supply an alternative cause. If the speed limit and light timing changed at the same intersections in the same year, either change could explain the drop, so the cameras may not have caused it — choice (C). The others don't bear on whether the cameras reduced accidents (cost, drivers' feelings, malfunctions, or other intersections).",
@@ -25,11 +40,26 @@
     "difficulty": 4,
     "stem": "Employees who telecommute report higher job satisfaction than those who work in the office. A manager concluded that telecommuting increases job satisfaction.\n\nWhich of the following, if true, most strengthens the manager's conclusion?",
     "options": [
-      { "id": "A", "text": "Telecommuters save money by not commuting to the office." },
-      { "id": "B", "text": "Before the policy began, the two groups reported equal satisfaction, and employees were assigned to telecommute or not at random." },
-      { "id": "C", "text": "Some telecommuters say they miss social interaction with colleagues." },
-      { "id": "D", "text": "Office workers tend to have shorter meetings than telecommuters." },
-      { "id": "E", "text": "The company as a whole has been profitable in recent years." }
+      {
+        "id": "A",
+        "text": "Telecommuters save money by not commuting to the office."
+      },
+      {
+        "id": "B",
+        "text": "Before the policy began, the two groups reported equal satisfaction, and employees were assigned to telecommute or not at random."
+      },
+      {
+        "id": "C",
+        "text": "Some telecommuters say they miss social interaction with colleagues."
+      },
+      {
+        "id": "D",
+        "text": "Office workers tend to have shorter meetings than telecommuters."
+      },
+      {
+        "id": "E",
+        "text": "The company as a whole has been profitable in recent years."
+      }
     ],
     "answer": "B",
     "solutionStandard": "The danger is that satisfied people chose to telecommute (reverse causation or self-selection). Random assignment plus equal satisfaction beforehand rules that out, so any later gap is attributable to telecommuting — choice (B) strengthens the causal claim. The others are irrelevant to whether telecommuting itself raises satisfaction.",
@@ -43,11 +73,26 @@
     "difficulty": 4,
     "stem": "The new textbook must be effective: ever since the school adopted it, the students' average test scores have risen each year.\n\nThe argument depends on which of the following assumptions?",
     "options": [
-      { "id": "A", "text": "The new textbook is less expensive than the old one." },
-      { "id": "B", "text": "Students find the new textbook more enjoyable to read." },
-      { "id": "C", "text": "Test scores are the only valid measure of student learning." },
-      { "id": "D", "text": "No other change capable of raising scores occurred over the same period." },
-      { "id": "E", "text": "The teachers preferred the old textbook to the new one." }
+      {
+        "id": "A",
+        "text": "The new textbook is less expensive than the old one."
+      },
+      {
+        "id": "B",
+        "text": "Students find the new textbook more enjoyable to read."
+      },
+      {
+        "id": "C",
+        "text": "Test scores are the only valid measure of student learning."
+      },
+      {
+        "id": "D",
+        "text": "No other change capable of raising scores occurred over the same period."
+      },
+      {
+        "id": "E",
+        "text": "The teachers preferred the old textbook to the new one."
+      }
     ],
     "answer": "D",
     "solutionStandard": "The argument credits the textbook for rising scores; that only follows if nothing else that could raise scores changed at the same time (better teachers, new tutoring, an easier test). That is the necessary assumption — choice (D). Negate it and the conclusion collapses. The others aren't required for the argument to hold.",
@@ -61,11 +106,26 @@
     "difficulty": 3,
     "stem": "A bakery raised the price of its bread by 20 percent, yet over the following month its total revenue from bread was exactly the same as before.\n\nWhich of the following, if true, best explains this result?",
     "options": [
-      { "id": "A", "text": "After the price increase, the bakery sold considerably fewer loaves than before." },
-      { "id": "B", "text": "The bakery's cost of flour also rose during the month." },
-      { "id": "C", "text": "The bakery introduced a new pastry the same week." },
-      { "id": "D", "text": "Several competing bakeries also raised their prices." },
-      { "id": "E", "text": "Customers said the bread tasted better than it had before." }
+      {
+        "id": "A",
+        "text": "After the price increase, the bakery sold considerably fewer loaves than before."
+      },
+      {
+        "id": "B",
+        "text": "The bakery's cost of flour also rose during the month."
+      },
+      {
+        "id": "C",
+        "text": "The bakery introduced a new pastry the same week."
+      },
+      {
+        "id": "D",
+        "text": "Several competing bakeries also raised their prices."
+      },
+      {
+        "id": "E",
+        "text": "Customers said the bread tasted better than it had before."
+      }
     ],
     "answer": "A",
     "solutionStandard": "Revenue is price times quantity. If price rose 20 percent but revenue held steady, the quantity sold must have fallen enough to offset the increase — choice (A). (B) concerns cost, not revenue; (C) would change revenue; (D) and (E) don't explain why bread revenue stayed flat.",
@@ -79,11 +139,26 @@
     "difficulty": 4,
     "stem": "In a ten-year study, adults who drank coffee daily were found to live longer, on average, than adults who never drank coffee. A researcher concluded that drinking coffee promotes longevity.\n\nWhich of the following, if true, most weakens this conclusion?",
     "options": [
-      { "id": "A", "text": "Coffee is one of the most widely consumed beverages in the world." },
-      { "id": "B", "text": "Some of the coffee drinkers added sugar and cream to their coffee." },
-      { "id": "C", "text": "In the study, the daily coffee drinkers were also far more likely to exercise regularly and to avoid smoking." },
-      { "id": "D", "text": "The study followed its participants for a full decade." },
-      { "id": "E", "text": "Many of the non-drinkers preferred to drink tea instead." }
+      {
+        "id": "A",
+        "text": "Coffee is one of the most widely consumed beverages in the world."
+      },
+      {
+        "id": "B",
+        "text": "Some of the coffee drinkers added sugar and cream to their coffee."
+      },
+      {
+        "id": "C",
+        "text": "In the study, the daily coffee drinkers were also far more likely to exercise regularly and to avoid smoking."
+      },
+      {
+        "id": "D",
+        "text": "The study followed its participants for a full decade."
+      },
+      {
+        "id": "E",
+        "text": "Many of the non-drinkers preferred to drink tea instead."
+      }
     ],
     "answer": "C",
     "solutionStandard": "A confounding variable weakens a causal claim: if the coffee drinkers also exercised more and smoked less, those habits — not coffee — could explain their longer lives, choice (C). The others don't undermine the causal link (popularity, additives, study length, or the non-drinkers' alternative).",
@@ -97,11 +172,26 @@
     "difficulty": 4,
     "stem": "Every painting in the museum's east wing is by a living artist. No painting by a living artist is insured for more than one million dollars.\n\nIf the statements above are true, which of the following must also be true?",
     "options": [
-      { "id": "A", "text": "Every painting in the east wing is worth exactly one million dollars." },
-      { "id": "B", "text": "Some paintings in the east wing are by artists who have died." },
-      { "id": "C", "text": "Paintings elsewhere in the museum are insured for more than those in the east wing." },
-      { "id": "D", "text": "No painting in the east wing is insured for more than one million dollars." },
-      { "id": "E", "text": "Every painting by a living artist hangs in the east wing." }
+      {
+        "id": "A",
+        "text": "Every painting in the east wing is worth exactly one million dollars."
+      },
+      {
+        "id": "B",
+        "text": "Some paintings in the east wing are by artists who have died."
+      },
+      {
+        "id": "C",
+        "text": "Paintings elsewhere in the museum are insured for more than those in the east wing."
+      },
+      {
+        "id": "D",
+        "text": "No painting in the east wing is insured for more than one million dollars."
+      },
+      {
+        "id": "E",
+        "text": "Every painting by a living artist hangs in the east wing."
+      }
     ],
     "answer": "D",
     "solutionStandard": "East-wing paintings are all by living artists, and no living-artist painting is insured above one million dollars; therefore no east-wing painting is insured above one million dollars — a valid chain, choice (D). (A) confuses insured value with worth; (B) contradicts the premise; (C) is unsupported; (E) reverses the first premise.",
@@ -115,11 +205,26 @@
     "difficulty": 5,
     "stem": "To reduce littering, a park replaced its small trash cans with much larger ones. Over the next month the amount of litter on the ground did not fall, and the park's manager concluded that can size has no effect on littering.\n\nThe answer to which of the following questions would be most useful in evaluating the manager's conclusion?",
     "options": [
-      { "id": "A", "text": "Did the number of visitors to the park change after the larger cans were installed?" },
-      { "id": "B", "text": "What color were the new trash cans?" },
-      { "id": "C", "text": "Do other parks in the region use large trash cans?" },
-      { "id": "D", "text": "How much did the new trash cans cost?" },
-      { "id": "E", "text": "Did the park's staff approve of the change?" }
+      {
+        "id": "A",
+        "text": "Did the number of visitors to the park change after the larger cans were installed?"
+      },
+      {
+        "id": "B",
+        "text": "What color were the new trash cans?"
+      },
+      {
+        "id": "C",
+        "text": "Do other parks in the region use large trash cans?"
+      },
+      {
+        "id": "D",
+        "text": "How much did the new trash cans cost?"
+      },
+      {
+        "id": "E",
+        "text": "Did the park's staff approve of the change?"
+      }
     ],
     "answer": "A",
     "solutionStandard": "If visitor numbers jumped after the change, litter per visitor might actually have fallen even though total litter stayed flat — which would undercut the manager's conclusion. So knowing whether attendance changed is essential to evaluating it, choice (A). The color, other parks, cost, and staff opinion don't bear on whether can size affects littering.",
@@ -133,14 +238,260 @@
     "difficulty": 5,
     "stem": "To cut costs, a hospital plans to replace many of its registered nurses with lower-paid aides for routine patient care.\n\nWhich of the following, if true, is the strongest reason to doubt that the plan will actually reduce the hospital's costs?",
     "options": [
-      { "id": "A", "text": "Aides are paid substantially less per hour than registered nurses." },
-      { "id": "B", "text": "The hospital is one of the largest employers in the region." },
-      { "id": "C", "text": "Registered nurses are currently in short supply nationwide." },
-      { "id": "D", "text": "Patients generally say they prefer to be cared for by nurses." },
-      { "id": "E", "text": "Because aides have less training, they are more likely to miss early signs of complications, which then require expensive emergency treatment." }
+      {
+        "id": "A",
+        "text": "Aides are paid substantially less per hour than registered nurses."
+      },
+      {
+        "id": "B",
+        "text": "The hospital is one of the largest employers in the region."
+      },
+      {
+        "id": "C",
+        "text": "Registered nurses are currently in short supply nationwide."
+      },
+      {
+        "id": "D",
+        "text": "Patients generally say they prefer to be cared for by nurses."
+      },
+      {
+        "id": "E",
+        "text": "Because aides have less training, they are more likely to miss early signs of complications, which then require expensive emergency treatment."
+      }
     ],
     "answer": "E",
     "solutionStandard": "The plan saves on wages but could raise costs elsewhere. If aides more often miss complications that later demand costly emergency care, total costs could rise despite the lower pay — the strongest reason to doubt savings, choice (E). (A) actually supports the plan; (B), (C), and (D) don't address the cost calculation.",
+    "timeTargetSec": 100
+  },
+  {
+    "id": "critical-reasoning-009",
+    "type": "MC",
+    "primarySkill": "critical-reasoning",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "A company found that employees who take regular short breaks are more productive than those who do not. To raise output, it now requires every employee to take a fifteen-minute break every two hours.\n\nThe plan depends on which of the following assumptions?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Employees enjoy taking breaks during the workday."
+      },
+      {
+        "id": "B",
+        "text": "The higher productivity of break-takers was caused by the breaks, not by some other trait of those employees."
+      },
+      {
+        "id": "C",
+        "text": "Fifteen minutes is the single ideal length for a break."
+      },
+      {
+        "id": "D",
+        "text": "Every employee currently takes at least one break each day."
+      },
+      {
+        "id": "E",
+        "text": "Productivity can be measured precisely."
+      }
+    ],
+    "answer": "B",
+    "solutionStandard": "The plan treats breaks as the cause of higher output. But perhaps the more productive people were already efficient and simply chose to take breaks. The plan assumes the breaks themselves caused the gain — choice (B). Negate it and mandating breaks would do nothing. The others aren't required.",
+    "timeTargetSec": 90
+  },
+  {
+    "id": "critical-reasoning-010",
+    "type": "MC",
+    "primarySkill": "critical-reasoning",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "Town A has far more coffee shops per capita than Town B, and its residents report greater happiness. A columnist concluded that coffee shops make people happier.\n\nWhich of the following, if true, most weakens the columnist's conclusion?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Town A also has a much higher average income and far more public parks than Town B."
+      },
+      {
+        "id": "B",
+        "text": "Coffee contains caffeine, which is mildly addictive."
+      },
+      {
+        "id": "C",
+        "text": "Town B has more tea shops than Town A."
+      },
+      {
+        "id": "D",
+        "text": "Both towns have fewer than fifty thousand residents."
+      },
+      {
+        "id": "E",
+        "text": "Happiness surveys are conducted in many towns each year."
+      }
+    ],
+    "answer": "A",
+    "solutionStandard": "If Town A also enjoys higher income and more parks, those factors — not coffee shops — could explain the greater happiness, weakening the causal claim: choice (A). The others don't offer an alternative cause for the happiness gap.",
+    "timeTargetSec": 90
+  },
+  {
+    "id": "critical-reasoning-011",
+    "type": "MC",
+    "primarySkill": "critical-reasoning",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "Researchers claim that a newly developed drug lowers blood pressure.\n\nWhich of the following, if true, most strengthens the claim that the drug itself, rather than chance, was responsible for the lower readings?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The drug can be manufactured inexpensively."
+      },
+      {
+        "id": "B",
+        "text": "In a large trial, patients given the drug had substantially lower blood pressure than a similar group given a placebo."
+      },
+      {
+        "id": "C",
+        "text": "Some patients disliked the taste of the drug."
+      },
+      {
+        "id": "D",
+        "text": "The drug is already widely prescribed in several countries."
+      },
+      {
+        "id": "E",
+        "text": "Blood pressure naturally fluctuates from day to day."
+      }
+    ],
+    "answer": "B",
+    "solutionStandard": "A controlled comparison — drug group versus a similar placebo group — rules out chance and other explanations, so a real difference points to the drug: choice (B). Cost (A), popularity (D), and taste (C) don't bear on effectiveness; (E) if anything raises doubt.",
+    "timeTargetSec": 90
+  },
+  {
+    "id": "critical-reasoning-012",
+    "type": "MC",
+    "primarySkill": "critical-reasoning",
+    "secondarySkills": [],
+    "difficulty": 5,
+    "stem": "A library extended its hours later into the evening, expecting the change to increase the number of visitors. Instead, total visits fell.\n\nWhich of the following, if true, best explains this unexpected result?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The library added several hundred new books during the same month."
+      },
+      {
+        "id": "B",
+        "text": "Library staff were paid overtime for the later hours."
+      },
+      {
+        "id": "C",
+        "text": "To fund the new evening hours, the library eliminated its popular early-morning hours, when many regulars had visited."
+      },
+      {
+        "id": "D",
+        "text": "The library's collection is one of the largest in the region."
+      },
+      {
+        "id": "E",
+        "text": "A nearby library closed permanently that year."
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "The result is a paradox — more hours, fewer visits. It resolves if the extension came at the cost of the busy early-morning hours, so the library lost more visitors than it gained: choice (C). (E) would raise visits (contradiction); (A), (B), and (D) don't explain the decline.",
+    "timeTargetSec": 100
+  },
+  {
+    "id": "critical-reasoning-013",
+    "type": "MC",
+    "primarySkill": "critical-reasoning",
+    "secondarySkills": [],
+    "difficulty": 4,
+    "stem": "If the old bridge is closed, then traffic downtown becomes noticeably worse. Traffic downtown has not become noticeably worse.\n\nIf the statements above are true, which of the following must also be true?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The old bridge is closed."
+      },
+      {
+        "id": "B",
+        "text": "Downtown traffic will become worse tomorrow."
+      },
+      {
+        "id": "C",
+        "text": "The bridge is the only possible cause of downtown traffic."
+      },
+      {
+        "id": "D",
+        "text": "The old bridge is not closed."
+      },
+      {
+        "id": "E",
+        "text": "Downtown traffic is always light."
+      }
+    ],
+    "answer": "D",
+    "solutionStandard": "\"If closed, then worse\" plus \"not worse\" forces \"not closed\" (denying the consequent) — choice (D). (A) contradicts that; (B), (C), and (E) go beyond what the two statements support.",
+    "timeTargetSec": 90
+  },
+  {
+    "id": "critical-reasoning-014",
+    "type": "MC",
+    "primarySkill": "critical-reasoning",
+    "secondarySkills": [],
+    "difficulty": 5,
+    "stem": "To improve its students' writing, a college will require every student to take one additional composition course.\n\nWhich of the following, if true, most strongly suggests that the requirement will fail to improve students' writing?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Composition courses are among the most popular electives at the college."
+      },
+      {
+        "id": "B",
+        "text": "Many students already write competently before they arrive at the college."
+      },
+      {
+        "id": "C",
+        "text": "Writing improves mainly through sustained practice across all of a student's courses, not from a single class taken in isolation."
+      },
+      {
+        "id": "D",
+        "text": "The college enrolls more students than most of its peers."
+      },
+      {
+        "id": "E",
+        "text": "Composition instructors at the college are well compensated."
+      }
+    ],
+    "answer": "C",
+    "solutionStandard": "If writing improves only through sustained practice everywhere, one extra isolated course won't move the needle — the strongest reason to doubt the plan: choice (C). (B) suggests writing is already fine but doesn't say the course fails; (A), (D), and (E) are irrelevant to whether writing improves.",
+    "timeTargetSec": 100
+  },
+  {
+    "id": "critical-reasoning-015",
+    "type": "MC",
+    "primarySkill": "critical-reasoning",
+    "secondarySkills": [],
+    "difficulty": 5,
+    "stem": "A store moved its most profitable items to the back, reasoning that customers would pass more shelves on the way and buy more. After the change, total sales were unchanged, and the manager concluded that store layout has no effect on sales.\n\nThe answer to which of the following questions would be most useful in evaluating the manager's conclusion?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Did the total number of customers change over the same period?"
+      },
+      {
+        "id": "B",
+        "text": "What color is the store's new shelving?"
+      },
+      {
+        "id": "C",
+        "text": "Which of the store's items are the most profitable?"
+      },
+      {
+        "id": "D",
+        "text": "How long did it take to rearrange the store?"
+      },
+      {
+        "id": "E",
+        "text": "Did the store's employees prefer the new layout?"
+      }
+    ],
+    "answer": "A",
+    "solutionStandard": "If customer traffic dropped for unrelated reasons, the layout could have raised sales per customer even though total sales held flat — which would undercut the conclusion. So knowing whether traffic changed is essential: choice (A). The color, which items, timing, and staff opinion don't bear on whether layout affects sales.",
     "timeTargetSec": 100
   }
 ]

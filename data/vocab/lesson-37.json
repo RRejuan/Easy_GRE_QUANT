@@ -1,0 +1,115 @@
+{
+  "id": "lesson-37",
+  "title": "Lesson 37 — Taking It Back",
+  "words": [
+    {
+      "id": "recant",
+      "word": "recant",
+      "partOfSpeech": "verb",
+      "definition": "to publicly withdraw a former statement or belief",
+      "example": "Under pressure, the scientist recanted his earlier claim.",
+      "tier": "hard",
+      "synonyms": ["retract", "disavow", "renounce"]
+    },
+    {
+      "id": "retract",
+      "word": "retract",
+      "partOfSpeech": "verb",
+      "definition": "to withdraw a statement as untrue or unjustified",
+      "example": "The journal retracted the study after the fraud was found.",
+      "tier": "medium",
+      "synonyms": ["withdraw", "rescind", "recant"]
+    },
+    {
+      "id": "renounce",
+      "word": "renounce",
+      "partOfSpeech": "verb",
+      "definition": "to formally give up a claim, right, or belief",
+      "example": "He renounced his citizenship after decades abroad.",
+      "tier": "medium",
+      "synonyms": ["relinquish", "disavow", "abjure"]
+    },
+    {
+      "id": "abjure",
+      "word": "abjure",
+      "partOfSpeech": "verb",
+      "definition": "to solemnly renounce a belief, cause, or claim",
+      "example": "She publicly abjured the ideology of her youth.",
+      "tier": "hard",
+      "synonyms": ["renounce", "forswear", "disavow"]
+    },
+    {
+      "id": "repudiate",
+      "word": "repudiate",
+      "partOfSpeech": "verb",
+      "definition": "to refuse to accept or be associated with; to reject",
+      "example": "The party repudiated its former leader's remarks.",
+      "tier": "hard",
+      "synonyms": ["reject", "disown", "renounce"]
+    },
+    {
+      "id": "disavow",
+      "word": "disavow",
+      "partOfSpeech": "verb",
+      "definition": "to deny responsibility for or connection with",
+      "example": "The agency disavowed any knowledge of the operation.",
+      "tier": "hard",
+      "synonyms": ["deny", "renounce", "repudiate"]
+    },
+    {
+      "id": "forswear",
+      "word": "forswear",
+      "partOfSpeech": "verb",
+      "definition": "to promise to give up or renounce something",
+      "example": "He forswore alcohol after the accident.",
+      "tier": "hard",
+      "synonyms": ["renounce", "abjure", "swear off"]
+    },
+    {
+      "id": "rescind",
+      "word": "rescind",
+      "partOfSpeech": "verb",
+      "definition": "to revoke, cancel, or repeal a law, order, or agreement",
+      "example": "The board voted to rescind the controversial policy.",
+      "tier": "medium",
+      "synonyms": ["revoke", "annul", "repeal"]
+    },
+    {
+      "id": "revoke",
+      "word": "revoke",
+      "partOfSpeech": "verb",
+      "definition": "to officially cancel a decision, license, or agreement",
+      "example": "Officials revoked the restaurant's permit after the violation.",
+      "tier": "easy",
+      "synonyms": ["rescind", "cancel", "annul"]
+    },
+    {
+      "id": "abrogate",
+      "word": "abrogate",
+      "partOfSpeech": "verb",
+      "definition": "to repeal or cancel formally, especially a law or treaty",
+      "example": "The new government moved to abrogate the old treaty.",
+      "tier": "hard",
+      "synonyms": ["repeal", "rescind", "annul"]
+    },
+    {
+      "id": "nullify",
+      "word": "nullify",
+      "partOfSpeech": "verb",
+      "definition": "to make legally invalid or ineffective",
+      "example": "A single loophole nullified the entire clause.",
+      "tier": "medium",
+      "synonyms": ["invalidate", "void", "annul"]
+    },
+    {
+      "id": "retraction",
+      "word": "retraction",
+      "partOfSpeech": "noun",
+      "definition": "a formal statement withdrawing a previous claim",
+      "example": "The paper printed a retraction on the front page.",
+      "tier": "medium",
+      "synonyms": ["withdrawal", "recantation", "disavowal"]
+    }
+  ],
+  "story": "Under oath, the witness began to [[recant|recant]] everything he had told the press, forced to [[retract|retract]] each claim one by one. He seemed almost eager to [[renounce|renounce]] his old story, to [[abjure|abjure]] it completely, and to [[repudiate|repudiate]] the very sources who had once backed him. His lawyer urged him to [[disavow|disavow]] the leaked documents and [[forswear|forswear]] any future comment. The judge, for her part, moved to [[rescind|rescind]] the earlier ruling, [[revoke|revoke]] the witness's immunity, and effectively [[abrogate|abrogate]] the deal that had protected him, a decision that seemed to [[nullify|nullify]] the whole case. The next morning's headline was a single word: [[retraction|Retraction]]."
+}
